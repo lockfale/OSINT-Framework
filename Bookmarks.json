@@ -1164,9 +1164,9 @@
                 {
                   "date_added": "13097643660433758",
                   "id": "802",
-                  "name": "Panoramio",
+                  "name": "Imgur",
                   "type": "url",
-                  "url": "http://www.panoramio.com/"
+                  "url": "https://imgur.com/search"
                 }
               ],
               "date_added": "13097610483839184",
@@ -1284,6 +1284,13 @@
                   "type": "url",
                   "url": "http://idgettr.com/"
                 }
+                {
+                  "date_added": "13080157790000000",
+                  "id": "167",
+                  "name": "Flickr Hivemind",
+                  "type": "url",
+                  "url": "http://flickrhivemind.net/"
+                }
               ],
               "date_added": "13097610498015481",
               "date_modified": "13097626140165890",
@@ -1371,6 +1378,13 @@
                   "name": "Camera Trace",
                   "type": "url",
                   "url": "http://www.cameratrace.com/trace"
+                }
+                {
+                  "date_added": "13080165342000000",
+                  "id": "176",
+                  "name": "Ghiro",
+                  "type": "url",
+                  "url": "http://www.getghiro.org/"
                 }
               ],
               "date_added": "13097610513099753",
