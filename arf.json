@@ -56,6 +56,11 @@
             "name": "Amazon Wishlist",
             "type": "url",
             "url": "http://www.amazon.com/exec/obidos/wishlist/ref=nwl_gateway/"
+         }, {
+            "id": "1334",
+            "name": "https://api.github.com/users/\u003Cusername>/events/public",
+            "type": "url",
+            "url": "https://api.github.com/users/%3Cusername%3E/events/public"
          }],
          "id": "500",
          "name": "Specific Sites",
@@ -121,11 +126,6 @@
             "name": "theHarvester (T)",
             "type": "url",
             "url": "http://www.edge-security.com/theharvester.php"
-         }, {
-            "id": "271",
-            "name": "Whoismind",
-            "type": "url",
-            "url": "http://www.whoismind.com/"
          }, {
             "id": "610",
             "name": "Find Any Email Checker",
@@ -257,6 +257,11 @@
             "type": "url",
             "url": "http://centralops.net/co/DomainDossier.aspx"
          }, {
+            "id": "1315",
+            "name": "domainIQ",
+            "type": "url",
+            "url": "https://www.domainiq.com/"
+         }, {
             "id": "612",
             "name": "DomainTools Whois",
             "type": "url",
@@ -316,6 +321,16 @@
             "name": "Who.is",
             "type": "url",
             "url": "https://who.is/"
+         }, {
+            "id": "271",
+            "name": "Whoismind",
+            "type": "url",
+            "url": "http://www.whoismind.com/"
+         }, {
+            "id": "631",
+            "name": "ViewDNS.info",
+            "type": "url",
+            "url": "http://viewdns.info/"
          }],
          "id": "611",
          "name": "Whois Records",
@@ -331,6 +346,11 @@
             "name": "URL Void",
             "type": "url",
             "url": "http://www.urlvoid.com/"
+         }, {
+            "id": "1339",
+            "name": "Threat Crowd",
+            "type": "url",
+            "url": "https://www.threatcrowd.org/"
          }],
          "id": "619",
          "name": "Reputation",
@@ -343,7 +363,7 @@
             "url": "https://www.google.com/?gws_rd=ssl#q=site:%3Cdomain.com%3E"
          }, {
             "id": "1210",
-            "name": "crt.sh",
+            "name": "crt.sh - Certificate Search",
             "type": "url",
             "url": "https://crt.sh/?"
          }, {
@@ -356,6 +376,16 @@
             "name": "DNS Recon (T)",
             "type": "url",
             "url": "https://github.com/darkoperator/dnsrecon"
+         }, {
+            "id": "1340",
+            "name": "Gobuster",
+            "type": "url",
+            "url": "https://github.com/OJ/gobuster"
+         }, {
+            "id": "1342",
+            "name": "Fierce Domain Scanner",
+            "type": "url",
+            "url": "https://github.com/davidpepper/fierce-domain-scanner"
          }, {
             "id": "655",
             "name": "Bluto (T)",
@@ -396,6 +426,11 @@
             "name": "assetnote",
             "type": "url",
             "url": "https://github.com/infosec-au/assetnote"
+         }, {
+            "id": "1336",
+            "name": "Network Intelligence",
+            "type": "url",
+            "url": "http://netintel.net/"
          }],
          "id": "618",
          "name": "Subdomains",
@@ -457,10 +492,10 @@
             "type": "url",
             "url": "https://moz.com/researchtools/ose/"
          }, {
-            "id": "631",
-            "name": "ViewDNS.info",
+            "id": "1220",
+            "name": "SpyOnWeb",
             "type": "url",
-            "url": "http://viewdns.info/"
+            "url": "http://www.spyonweb.com/"
          }, {
             "children": [{
                "id": "256",
@@ -487,28 +522,58 @@
             "name": "Alternate / Dead Tools",
             "type": "folder"
          }, {
-            "id": "1220",
-            "name": "SpyOnWeb",
+            "id": "1343",
+            "name": "SecurityHeaders.io",
             "type": "url",
-            "url": "http://www.spyonweb.com/"
+            "url": "https://securityheaders.io/"
          }],
          "id": "617",
          "name": "Analytics",
          "type": "folder"
       }, {
          "children": [{
-            "id": "642",
-            "name": "DNSSEC Analyzer",
+            "id": "1188",
+            "name": "Link Expander",
             "type": "url",
-            "url": "http://dnssec-debugger.verisignlabs.com/"
+            "url": "http://www.linkexpander.com/"
          }, {
-            "id": "643",
-            "name": "DNSViz",
+            "id": "1193",
+            "name": "GetLinkInfo",
             "type": "url",
-            "url": "http://dnsviz.net/"
+            "url": "http://www.getlinkinfo.com/"
+         }, {
+            "id": "1190",
+            "name": "CheckShortURL",
+            "type": "url",
+            "url": "http://checkshorturl.com/"
+         }, {
+            "id": "1186",
+            "name": "Lengthen Me",
+            "type": "url",
+            "url": "https://lengthen.me/"
+         }, {
+            "id": "1187",
+            "name": "URL Expander",
+            "type": "url",
+            "url": "http://urlex.org/"
+         }, {
+            "id": "1189",
+            "name": "URL Unshortener",
+            "type": "url",
+            "url": "http://www.urlunshortener.com/"
+         }, {
+            "id": "1191",
+            "name": "Where Does This Link Go?",
+            "type": "url",
+            "url": "http://wheredoesthislinkgo.com/"
+         }, {
+            "id": "1192",
+            "name": "KnowURL",
+            "type": "url",
+            "url": "http://www.knowurl.com/"
          }],
-         "id": "621",
-         "name": "DNSSEC",
+         "id": "1185",
+         "name": "URL Expanders",
          "type": "folder"
       }, {
          "children": [{
@@ -542,6 +607,21 @@
          "type": "folder"
       }, {
          "children": [{
+            "id": "642",
+            "name": "DNSSEC Analyzer",
+            "type": "url",
+            "url": "http://dnssec-debugger.verisignlabs.com/"
+         }, {
+            "id": "643",
+            "name": "DNSViz",
+            "type": "url",
+            "url": "http://dnsviz.net/"
+         }],
+         "id": "621",
+         "name": "DNSSEC",
+         "type": "folder"
+      }, {
+         "children": [{
             "children": [{
                "id": "639",
                "name": "Shodan",
@@ -557,6 +637,11 @@
                "name": "ASafaWeb",
                "type": "url",
                "url": "https://asafaweb.com/"
+            }, {
+               "id": "1337",
+               "name": "Sn1per",
+               "type": "url",
+               "url": "https://github.com/1N3/Sn1per"
             }],
             "id": "635",
             "name": "Scanners",
@@ -582,51 +667,6 @@
          "type": "folder"
       }, {
          "children": [{
-            "children": [{
-               "id": "1186",
-               "name": "Lengthen Me",
-               "type": "url",
-               "url": "https://lengthen.me/"
-            }, {
-               "id": "1187",
-               "name": "URL Expander",
-               "type": "url",
-               "url": "http://urlex.org/"
-            }, {
-               "id": "1188",
-               "name": "Link Expander",
-               "type": "url",
-               "url": "http://www.linkexpander.com/"
-            }, {
-               "id": "1189",
-               "name": "URL Unshortener",
-               "type": "url",
-               "url": "http://www.urlunshortener.com/"
-            }, {
-               "id": "1190",
-               "name": "CheckShortURL",
-               "type": "url",
-               "url": "http://checkshorturl.com/"
-            }, {
-               "id": "1191",
-               "name": "Where Does This Link Go?",
-               "type": "url",
-               "url": "http://wheredoesthislinkgo.com/"
-            }, {
-               "id": "1192",
-               "name": "KnowURL",
-               "type": "url",
-               "url": "http://www.knowurl.com/"
-            }, {
-               "id": "1193",
-               "name": "GetLinkInfo",
-               "type": "url",
-               "url": "http://www.getlinkinfo.com/"
-            }],
-            "id": "1185",
-            "name": "URL Expanders",
-            "type": "folder"
-         }, {
             "id": "922",
             "name": "FOCA",
             "type": "url",
@@ -651,6 +691,11 @@
             "name": "International Domain Name Conversion Tool",
             "type": "url",
             "url": "http://mct.verisign-grs.com/"
+         }, {
+            "id": "1341",
+            "name": "EyeWitness",
+            "type": "url",
+            "url": "https://github.com/ChrisTruncer/EyeWitness"
          }],
          "id": "923",
          "name": "Tools",
@@ -736,6 +781,11 @@
             "name": "IPv4 CIDR Report",
             "type": "url",
             "url": "http://www.cidr-report.org/as2.0/"
+         }, {
+            "id": "1330",
+            "name": "Reverse.report",
+            "type": "url",
+            "url": "https://reverse.report/"
          }],
          "id": "686",
          "name": "IPv4",
@@ -820,6 +870,11 @@
          "name": "Censys",
          "type": "url",
          "url": "https://censys.io/"
+      }, {
+         "id": "1329",
+         "name": "Scans.io",
+         "type": "url",
+         "url": "https://scans.io/"
       }],
       "id": "513",
       "name": "IP Address",
@@ -843,6 +898,11 @@
                "type": "url",
                "url": "http://images.yahoo.com/"
             }, {
+               "id": "184",
+               "name": "TinEye Reverse Image Search",
+               "type": "url",
+               "url": "http://tineye.com/"
+            }, {
                "id": "179",
                "name": "Yandex Images",
                "type": "url",
@@ -858,6 +918,11 @@
                "type": "url",
                "url": "https://twitter.com/search?q=%3Csearchterm%3E&src=typd&vertical=default&f=images"
             }, {
+               "id": "1326",
+               "name": "Imgur Search",
+               "type": "url",
+               "url": "https://imgur.com/search"
+            }, {
                "id": "181",
                "name": "Photobucket",
                "type": "url",
@@ -867,11 +932,6 @@
                "name": "PicSearch",
                "type": "url",
                "url": "http://www.picsearch.com/"
-            }, {
-               "id": "184",
-               "name": "TinEye Reverse Image Search",
-               "type": "url",
-               "url": "http://tineye.com/"
             }, {
                "id": "185",
                "name": "Karma Decay",
@@ -982,6 +1042,11 @@
                "name": "idGettr",
                "type": "url",
                "url": "http://idgettr.com/"
+            }, {
+               "id": "1327",
+               "name": "Flickr Hive Mind",
+               "type": "url",
+               "url": "http://flickrhivemind.net/"
             }],
             "id": "754",
             "name": "Flickr",
@@ -1032,6 +1097,11 @@
                "name": "Izitru",
                "type": "url",
                "url": "http://www.izitru.com/"
+            }, {
+               "id": "1328",
+               "name": "Ghiro",
+               "type": "url",
+               "url": "https://github.com/ghirensics/ghiro"
             }, {
                "id": "174",
                "name": "Stolen Camera Finder",
@@ -1127,6 +1197,11 @@
                "name": "Dogpile Web Search",
                "type": "url",
                "url": "http://www.dogpile.com/"
+            }, {
+               "id": "1320",
+               "name": "Geo Search Tool",
+               "type": "url",
+               "url": "http://www.geosearchtool.com/"
             }],
             "id": "763",
             "name": "Search",
@@ -1437,6 +1512,11 @@
                "name": "TweetDeck",
                "type": "url",
                "url": "https://tweetdeck.twitter.com/"
+            }, {
+               "id": "1323",
+               "name": "Twopcharts",
+               "type": "url",
+               "url": "http://twopcharts.com/"
             }],
             "id": "870",
             "name": "Search",
@@ -1528,6 +1608,11 @@
                   "name": "Trendsmap",
                   "type": "url",
                   "url": "http://trendsmap.com/"
+               }, {
+                  "id": "1322",
+                  "name": "Tagboard",
+                  "type": "url",
+                  "url": "https://tagboard.com/"
                }],
                "id": "860",
                "name": "Hashtag",
@@ -1594,7 +1679,7 @@
                "url": "http://worldmap.harvard.edu/tweetmap/"
             }, {
                "id": "103",
-               "name": "OMTM",
+               "name": "One Million Tweet Map",
                "type": "url",
                "url": "http://onemilliontweetmap.com/"
             }, {
@@ -1980,6 +2065,11 @@
          "name": "Ancestry.com",
          "type": "url",
          "url": "http://search.ancestry.com/"
+      }, {
+         "id": "1335",
+         "name": "SearchBug",
+         "type": "url",
+         "url": "http://www.searchbug.com/#pageTop"
       }],
       "id": "520",
       "name": "People Search Engines",
@@ -2254,6 +2344,21 @@
          }],
          "id": "884",
          "name": "US County Data",
+         "type": "folder"
+      }, {
+         "children": [{
+            "id": "1318",
+            "name": "Voter Records",
+            "type": "url",
+            "url": "https://voterrecords.com/"
+         }, {
+            "id": "346",
+            "name": "Voter Registration Data",
+            "type": "url",
+            "url": "http://www.blackbookonline.info/USA-Voter-Records.aspx"
+         }],
+         "id": "1319",
+         "name": "Voter Records",
          "type": "folder"
       }, {
          "children": [{
@@ -2682,221 +2787,6 @@
    }, {
       "children": [{
          "children": [{
-            "id": "392",
-            "name": "BoardReader",
-            "type": "url",
-            "url": "http://boardreader.com/"
-         }, {
-            "id": "393",
-            "name": "BoardTracker",
-            "type": "url",
-            "url": "http://www.boardtracker.com/"
-         }, {
-            "id": "394",
-            "name": "Omgili",
-            "type": "url",
-            "url": "http://omgili.com/"
-         }, {
-            "id": "880",
-            "name": "Craigslist Forums",
-            "type": "url",
-            "url": "https://forums.craigslist.org/"
-         }],
-         "id": "877",
-         "name": "Forum Search Engines",
-         "type": "folder"
-      }, {
-         "children": [{
-            "id": "948",
-            "name": "IceRocket",
-            "type": "url",
-            "url": "http://www.icerocket.com/advancedsearch?tab=blog&q=&n=&e=&a=&domain=&query="
-         }, {
-            "id": "949",
-            "name": "Live Journal Seek",
-            "type": "url",
-            "url": "http://ljseek.com/"
-         }, {
-            "id": "1030",
-            "name": "Topix",
-            "type": "url",
-            "url": "http://www.topix.com/search/article?q="
-         }],
-         "id": "947",
-         "name": "Blog Search Engines",
-         "type": "folder"
-      }, {
-         "children": [{
-            "id": "879",
-            "name": "Mibbit",
-            "type": "url",
-            "url": "http://search.mibbit.com/"
-         }, {
-            "id": "1204",
-            "name": "ircsnapshot",
-            "type": "url",
-            "url": "https://github.com/bwall/ircsnapshot"
-         }],
-         "id": "878",
-         "name": "IRC Search",
-         "type": "folder"
-      }],
-      "id": "522",
-      "name": "Forums",
-      "type": "folder"
-   }, {
-      "children": [{
-         "children": [{
-            "id": "580",
-            "name": "Internet Archive: Wayback Machine",
-            "type": "url",
-            "url": "https://archive.org/web/"
-         }, {
-            "id": "583",
-            "name": "Archive.is",
-            "type": "url",
-            "url": "https://archive.is/"
-         }, {
-            "id": "1197",
-            "name": "WebCite",
-            "type": "url",
-            "url": "http://webcitation.org/query"
-         }, {
-            "id": "581",
-            "name": "Cached View",
-            "type": "url",
-            "url": "http://cachedview.com/"
-         }, {
-            "id": "402",
-            "name": "Cached Pages",
-            "type": "url",
-            "url": "http://www.cachedpages.com/"
-         }, {
-            "id": "582",
-            "name": "Textfiles.com",
-            "type": "url",
-            "url": "http://textfiles.com/"
-         }, {
-            "id": "1264",
-            "name": "UK Web Archive",
-            "type": "url",
-            "url": "http://www.webarchive.org.uk/ukwa/"
-         }],
-         "id": "587",
-         "name": "Web",
-         "type": "folder"
-      }, {
-         "children": [{
-            "id": "1279",
-            "name": "Cryptome",
-            "type": "url",
-            "url": "http://cryptome.org/"
-         }, {
-            "id": "1280",
-            "name": "WikiLeaks",
-            "type": "url",
-            "url": "https://wikileaks.org/"
-         }],
-         "id": "1281",
-         "name": "Data Leaks",
-         "type": "folder"
-      }, {
-         "children": [{
-            "id": "584",
-            "name": "Library of Congress: Digitized Newspapers - 1836-1922",
-            "type": "url",
-            "url": "http://chroniclingamerica.loc.gov/"
-         }, {
-            "id": "585",
-            "name": "Library of Congress: Newspaper Directory - 1690-Present",
-            "type": "url",
-            "url": "http://chroniclingamerica.loc.gov/search/titles/"
-         }, {
-            "id": "408",
-            "name": "TV Closed Caption Search",
-            "type": "url",
-            "url": "https://archive.org/details/tv"
-         }],
-         "id": "588",
-         "name": "Other Media",
-         "type": "folder"
-      }],
-      "id": "523",
-      "name": "Archives",
-      "type": "folder"
-   }, {
-      "children": [{
-         "children": [{
-            "id": "487",
-            "name": "Google Translate",
-            "type": "url",
-            "url": "https://translate.google.com/"
-         }, {
-            "id": "542",
-            "name": "Google Input Tools",
-            "type": "url",
-            "url": "https://www.google.com/inputtools/try/"
-         }, {
-            "id": "488",
-            "name": "Bing Translate",
-            "type": "url",
-            "url": "http://www.bing.com/translator/"
-         }, {
-            "id": "543",
-            "name": "Dictionary.com Translator",
-            "type": "url",
-            "url": "http://translate.reference.com/"
-         }],
-         "id": "539",
-         "name": "Text",
-         "type": "folder"
-      }, {
-         "children": [{
-            "id": "489",
-            "name": "Online OCR",
-            "type": "url",
-            "url": "http://www.free-ocr.com/"
-         }, {
-            "id": "544",
-            "name": "i2OCR",
-            "type": "url",
-            "url": "http://www.i2ocr.com/"
-         }, {
-            "id": "545",
-            "name": "New OCR",
-            "type": "url",
-            "url": "https://www.newocr.com/"
-         }, {
-            "id": "546",
-            "name": "Online OCR",
-            "type": "url",
-            "url": "http://www.onlineocr.net/"
-         }],
-         "id": "540",
-         "name": "Pictures",
-         "type": "folder"
-      }, {
-         "children": [{
-            "id": "547",
-            "name": "Personality Insights",
-            "type": "url",
-            "url": "https://watson-pi-demo.mybluemix.net/"
-         }, {
-            "id": "548",
-            "name": "Tone Analyzer",
-            "type": "url",
-            "url": "https://tone-analyzer-demo.mybluemix.net/"
-         }],
-         "id": "541",
-         "name": "Analysis",
-         "type": "folder"
-      }],
-      "id": "526",
-      "name": "Language Translation",
-      "type": "folder"
-   }, {
-      "children": [{
-         "children": [{
             "id": "35",
             "name": "Google",
             "type": "url",
@@ -3226,6 +3116,221 @@
       "type": "folder"
    }, {
       "children": [{
+         "children": [{
+            "id": "392",
+            "name": "BoardReader",
+            "type": "url",
+            "url": "http://boardreader.com/"
+         }, {
+            "id": "393",
+            "name": "BoardTracker",
+            "type": "url",
+            "url": "http://www.boardtracker.com/"
+         }, {
+            "id": "394",
+            "name": "Omgili",
+            "type": "url",
+            "url": "http://omgili.com/"
+         }, {
+            "id": "880",
+            "name": "Craigslist Forums",
+            "type": "url",
+            "url": "https://forums.craigslist.org/"
+         }],
+         "id": "877",
+         "name": "Forum Search Engines",
+         "type": "folder"
+      }, {
+         "children": [{
+            "id": "948",
+            "name": "IceRocket",
+            "type": "url",
+            "url": "http://www.icerocket.com/advancedsearch?tab=blog&q=&n=&e=&a=&domain=&query="
+         }, {
+            "id": "949",
+            "name": "Live Journal Seek",
+            "type": "url",
+            "url": "http://ljseek.com/"
+         }, {
+            "id": "1030",
+            "name": "Topix",
+            "type": "url",
+            "url": "http://www.topix.com/search/article?q="
+         }],
+         "id": "947",
+         "name": "Blog Search Engines",
+         "type": "folder"
+      }, {
+         "children": [{
+            "id": "879",
+            "name": "Mibbit",
+            "type": "url",
+            "url": "http://search.mibbit.com/"
+         }, {
+            "id": "1204",
+            "name": "ircsnapshot",
+            "type": "url",
+            "url": "https://github.com/bwall/ircsnapshot"
+         }],
+         "id": "878",
+         "name": "IRC Search",
+         "type": "folder"
+      }],
+      "id": "522",
+      "name": "Forums",
+      "type": "folder"
+   }, {
+      "children": [{
+         "children": [{
+            "id": "580",
+            "name": "Internet Archive: Wayback Machine",
+            "type": "url",
+            "url": "https://archive.org/web/"
+         }, {
+            "id": "583",
+            "name": "Archive.is",
+            "type": "url",
+            "url": "https://archive.is/"
+         }, {
+            "id": "1197",
+            "name": "WebCite",
+            "type": "url",
+            "url": "http://webcitation.org/query"
+         }, {
+            "id": "581",
+            "name": "Cached View",
+            "type": "url",
+            "url": "http://cachedview.com/"
+         }, {
+            "id": "402",
+            "name": "Cached Pages",
+            "type": "url",
+            "url": "http://www.cachedpages.com/"
+         }, {
+            "id": "582",
+            "name": "Textfiles.com",
+            "type": "url",
+            "url": "http://textfiles.com/"
+         }, {
+            "id": "1264",
+            "name": "UK Web Archive",
+            "type": "url",
+            "url": "http://www.webarchive.org.uk/ukwa/"
+         }],
+         "id": "587",
+         "name": "Web",
+         "type": "folder"
+      }, {
+         "children": [{
+            "id": "1279",
+            "name": "Cryptome",
+            "type": "url",
+            "url": "http://cryptome.org/"
+         }, {
+            "id": "1280",
+            "name": "WikiLeaks",
+            "type": "url",
+            "url": "https://wikileaks.org/"
+         }],
+         "id": "1281",
+         "name": "Data Leaks",
+         "type": "folder"
+      }, {
+         "children": [{
+            "id": "584",
+            "name": "Library of Congress: Digitized Newspapers - 1836-1922",
+            "type": "url",
+            "url": "http://chroniclingamerica.loc.gov/"
+         }, {
+            "id": "585",
+            "name": "Library of Congress: Newspaper Directory - 1690-Present",
+            "type": "url",
+            "url": "http://chroniclingamerica.loc.gov/search/titles/"
+         }, {
+            "id": "408",
+            "name": "TV Closed Caption Search",
+            "type": "url",
+            "url": "https://archive.org/details/tv"
+         }],
+         "id": "588",
+         "name": "Other Media",
+         "type": "folder"
+      }],
+      "id": "523",
+      "name": "Archives",
+      "type": "folder"
+   }, {
+      "children": [{
+         "children": [{
+            "id": "487",
+            "name": "Google Translate",
+            "type": "url",
+            "url": "https://translate.google.com/"
+         }, {
+            "id": "542",
+            "name": "Google Input Tools",
+            "type": "url",
+            "url": "https://www.google.com/inputtools/try/"
+         }, {
+            "id": "488",
+            "name": "Bing Translate",
+            "type": "url",
+            "url": "http://www.bing.com/translator/"
+         }, {
+            "id": "543",
+            "name": "Dictionary.com Translator",
+            "type": "url",
+            "url": "http://translate.reference.com/"
+         }],
+         "id": "539",
+         "name": "Text",
+         "type": "folder"
+      }, {
+         "children": [{
+            "id": "489",
+            "name": "Online OCR",
+            "type": "url",
+            "url": "http://www.free-ocr.com/"
+         }, {
+            "id": "544",
+            "name": "i2OCR",
+            "type": "url",
+            "url": "http://www.i2ocr.com/"
+         }, {
+            "id": "545",
+            "name": "New OCR",
+            "type": "url",
+            "url": "https://www.newocr.com/"
+         }, {
+            "id": "546",
+            "name": "Online OCR",
+            "type": "url",
+            "url": "http://www.onlineocr.net/"
+         }],
+         "id": "540",
+         "name": "Pictures",
+         "type": "folder"
+      }, {
+         "children": [{
+            "id": "547",
+            "name": "Personality Insights",
+            "type": "url",
+            "url": "https://watson-pi-demo.mybluemix.net/"
+         }, {
+            "id": "548",
+            "name": "Tone Analyzer",
+            "type": "url",
+            "url": "https://tone-analyzer-demo.mybluemix.net/"
+         }],
+         "id": "541",
+         "name": "Analysis",
+         "type": "folder"
+      }],
+      "id": "526",
+      "name": "Language Translation",
+      "type": "folder"
+   }, {
+      "children": [{
          "id": "986",
          "name": "ExifTool (T)",
          "type": "url",
@@ -3477,15 +3582,15 @@
    }, {
       "children": [{
          "children": [{
-            "id": "950",
-            "name": "Blockchain.info",
-            "type": "url",
-            "url": "https://blockchain.info/"
-         }, {
             "id": "952",
             "name": "Blocktrail",
             "type": "url",
             "url": "https://www.blocktrail.com/BTC"
+         }, {
+            "id": "950",
+            "name": "Blockchain.info",
+            "type": "url",
+            "url": "https://blockchain.info/"
          }, {
             "id": "953",
             "name": "Block Explorer",
@@ -3757,11 +3862,6 @@
             "type": "url",
             "url": "https://www.hybrid-analysis.com/"
          }, {
-            "id": "1239",
-            "name": "VirusTotal",
-            "type": "url",
-            "url": "https://virustotal.com/"
-         }, {
             "id": "1011",
             "name": "MalwareViz",
             "type": "url",
@@ -3854,6 +3954,21 @@
          }],
          "id": "838",
          "name": "PCAPs",
+         "type": "folder"
+      }, {
+         "children": [{
+            "id": "1331",
+            "name": "Decalage Malware Search",
+            "type": "url",
+            "url": "http://decalage.info/en/mwsearch"
+         }, {
+            "id": "1333",
+            "name": "VirusShare.com",
+            "type": "url",
+            "url": "https://virusshare.com/"
+         }],
+         "id": "1332",
+         "name": "Search",
          "type": "folder"
       }],
       "id": "537",
@@ -3956,6 +4071,11 @@
             "name": "NoScript",
             "type": "url",
             "url": "https://noscript.net/"
+         }, {
+            "id": "1338",
+            "name": "Firefox-debloat",
+            "type": "url",
+            "url": "https://github.com/amq/firefox-debloat"
          }],
          "id": "928",
          "name": "Anonymous Browsing",
