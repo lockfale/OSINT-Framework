@@ -14,13 +14,13 @@
   var diagonal = d3.svg.diagonal()
       .projection(function(d) { return [d.y, d.x]; });
 
-  var svg = d3.select("body").append("svg")
+  var svg = d3.select(".arf_content").append("svg")
       .attr("width", width + margin.right + margin.left)
       .attr("height", height + margin.top + margin.bottom)
     .append("g")
       .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-  d3.json("arf.json", function(error, flare) {
+  d3.json("../arf.json", function(error, flare) {
     if (error) throw error;
 
     root = flare;
@@ -82,9 +82,9 @@
               .attr("dy", ".35em")
               .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
               .text(function(d) { return d.name; })
-              .style("fill-opacity", 1e-6);      
-        } 
-    }); 
+              .style("fill-opacity", 1e-6);
+        }
+    });
 
     // Transition nodes to their new position.
     var nodeUpdate = node.transition()
