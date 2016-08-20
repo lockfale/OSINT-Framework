@@ -1,0 +1,24 @@
+{
+  "name": "arf",
+  "version": "1.0.0",
+  "description": "Advanced Reconnaissance Framework",
+  "main": "public/index.html",
+  "scripts": {
+    "postinstall": "copyfiles -f ./node_modules/d3/d3.min.js ./public/js/vendor/d3",
+    "start": "cd ./public; python -m SimpleHTTPServer 8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lockfale/ARF.git"
+  },
+  "author": "Justin Nordine (s0lray)",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/lockfale/ARF/issues"
+  },
+  "homepage": "https://github.com/lockfale/ARF#readme",
+  "devDependencies": {
+    "copyfiles": "^1.0.0",
+    "d3": "^3.5.16"
+  }
+}
