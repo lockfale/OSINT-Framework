@@ -197,6 +197,11 @@
             "type": "url",
             "url": "https://haveibeenpwned.com/"
          }, {
+            "id": "1406",
+            "name": "Leaked Source",
+            "type": "url",
+            "url": "https://www.leakedsource.com/"
+         }, {
             "id": "596",
             "name": "Breach or Clear",
             "type": "url",
