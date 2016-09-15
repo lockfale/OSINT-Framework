@@ -48,7 +48,7 @@
       }, {
          "children": [{
             "id": "507",
-            "name": "Amazon Usernames",
+            "name": "Amazon Usernames (U)",
             "type": "url",
             "url": "https://www.google.com/search?q=site:amazon.com+%3Cusername%3E"
          }, {
@@ -58,27 +58,12 @@
             "url": "http://www.amazon.com/exec/obidos/wishlist/ref=nwl_gateway/"
          }, {
             "id": "1334",
-            "name": "https://api.github.com/users/\u003Cusername>/events/public",
+            "name": "Github User (U)",
             "type": "url",
             "url": "https://api.github.com/users/%3Cusername%3E/events/public"
          }],
          "id": "500",
          "name": "Specific Sites",
-         "type": "folder"
-      }, {
-         "children": [{
-            "id": "510",
-            "name": "Namevine",
-            "type": "url",
-            "url": "https://namevine.com/#"
-         }, {
-            "id": "292",
-            "name": "CheckUserNames",
-            "type": "url",
-            "url": "https://checkusernames.com/"
-         }],
-         "id": "501",
-         "name": "Alternate / Dead Tools",
          "type": "folder"
       }],
       "id": "497",
@@ -93,7 +78,7 @@
             "url": "https://thatsthem.com/reverse-email-lookup"
          }, {
             "id": "599",
-            "name": "Email to Address",
+            "name": "Email to Address (R)",
             "type": "url",
             "url": "http://www.melissadata.com/lookups/emails.asp"
          }, {
@@ -126,11 +111,6 @@
             "name": "theHarvester (T)",
             "type": "url",
             "url": "http://www.edge-security.com/theharvester.php"
-         }, {
-            "id": "610",
-            "name": "Find Any Email Checker",
-            "type": "url",
-            "url": "http://www.findanyemail.net/checker"
          }, {
             "id": "1081",
             "name": "IntelTechniques Cellular Email Tool",
@@ -207,11 +187,6 @@
          "type": "folder"
       }, {
          "children": [{
-            "id": "596",
-            "name": "Breach or Clear",
-            "type": "url",
-            "url": "http://breachorclear.jesterscourt.cc/"
-         }, {
             "id": "605",
             "name": "PwnedList.com",
             "type": "url",
@@ -221,6 +196,11 @@
             "name": "Have I been pwned?",
             "type": "url",
             "url": "https://haveibeenpwned.com/"
+         }, {
+            "id": "596",
+            "name": "Breach or Clear",
+            "type": "url",
+            "url": "http://breachorclear.jesterscourt.cc/"
          }],
          "id": "595",
          "name": "Breach Data",
@@ -338,7 +318,7 @@
       }, {
          "children": [{
             "id": "1212",
-            "name": "Subdomain Google Dork",
+            "name": "Google Subdomains (D)",
             "type": "url",
             "url": "https://www.google.com/?gws_rd=ssl#q=site:%3Cdomain.com%3E"
          }, {
@@ -358,12 +338,12 @@
             "url": "https://github.com/darkoperator/dnsrecon"
          }, {
             "id": "1340",
-            "name": "Gobuster",
+            "name": "Gobuster (T)",
             "type": "url",
             "url": "https://github.com/OJ/gobuster"
          }, {
             "id": "1342",
-            "name": "Fierce Domain Scanner",
+            "name": "Fierce Domain Scanner (T)",
             "type": "url",
             "url": "https://github.com/davidpepper/fierce-domain-scanner"
          }, {
@@ -383,27 +363,22 @@
             "url": "https://pentest-tools.com/information-gathering/find-subdomains-of-domain"
          }, {
             "id": "1203",
-            "name": "SecLists DNS Subdomains",
+            "name": "SecLists DNS Subdomains (T)",
             "type": "url",
             "url": "https://github.com/danielmiessler/SecLists/tree/master/Discovery/DNS"
          }, {
             "id": "1211",
-            "name": "dnspop",
+            "name": "dnspop (T)",
             "type": "url",
             "url": "https://github.com/bitquark/dnspop"
          }, {
-            "id": "1213",
-            "name": "vis.js - A dynamic, browser based visualization library.",
-            "type": "url",
-            "url": "http://visjs.org/"
-         }, {
             "id": "1214",
-            "name": "gdns",
+            "name": "gdns (T)",
             "type": "url",
             "url": "https://github.com/hrbrmstr/gdns"
          }, {
             "id": "1215",
-            "name": "assetnote",
+            "name": "assetnote (T)",
             "type": "url",
             "url": "https://github.com/infosec-au/assetnote"
          }, {
@@ -538,12 +513,12 @@
       }, {
          "children": [{
             "id": "633",
-            "name": "DNS Twist Github",
+            "name": "DNS Twist (T)",
             "type": "url",
             "url": "https://github.com/elceef/dnstwist"
          }, {
             "id": "634",
-            "name": "URLCrazy",
+            "name": "URLCrazy (T)",
             "type": "url",
             "url": "http://www.morningstarsecurity.com/research/urlcrazy"
          }, {
@@ -611,31 +586,6 @@
             "name": "Keyword Density",
             "type": "url",
             "url": "http://tools.seobook.com/general/keyword-density/"
-         }, {
-            "children": [{
-               "id": "256",
-               "name": "Pub DB",
-               "type": "url",
-               "url": "http://pub-db.com/"
-            }, {
-               "id": "258",
-               "name": "Reverse Internet",
-               "type": "url",
-               "url": "http://reverseinternet.com/"
-            }, {
-               "id": "259",
-               "name": "WhoIsHostingThis",
-               "type": "url",
-               "url": "http://www.whoishostingthis.com/"
-            }, {
-               "id": "261",
-               "name": "SEO Backlinks",
-               "type": "url",
-               "url": "http://smallseotools.com/backlink-checker/"
-            }],
-            "id": "632",
-            "name": "Alternate / Dead Tools",
-            "type": "folder"
          }],
          "id": "617",
          "name": "Analytics",
@@ -708,7 +658,7 @@
       }, {
          "children": [{
             "id": "626",
-            "name": "Reddit",
+            "name": "Reddit (U)",
             "type": "url",
             "url": "https://www.reddit.com/domain/%3CURLhere%3E"
          }],
@@ -749,7 +699,7 @@
                "url": "https://asafaweb.com/"
             }, {
                "id": "1337",
-               "name": "Sn1per",
+               "name": "Sn1per (T)",
                "type": "url",
                "url": "https://github.com/1N3/Sn1per"
             }],
@@ -778,27 +728,27 @@
       }, {
          "children": [{
             "id": "922",
-            "name": "FOCA",
+            "name": "FOCA (T)",
             "type": "url",
             "url": "https://www.elevenpaths.com/labstools/foca/index.html"
          }, {
             "id": "1369",
-            "name": "SpiderFoot",
+            "name": "SpiderFoot (T)",
             "type": "url",
             "url": "http://www.spiderfoot.net/"
          }, {
             "id": "925",
-            "name": "Burp Suite",
+            "name": "Burp Suite (T)",
             "type": "url",
             "url": "https://portswigger.net/burp/"
          }, {
             "id": "924",
-            "name": "BlackWidow",
+            "name": "BlackWidow (T)",
             "type": "url",
             "url": "http://softbytelabs.com/en/BlackWidow/"
          }, {
             "id": "926",
-            "name": "IntelliTamper",
+            "name": "IntelliTamper (T)",
             "type": "url",
             "url": "http://www.softpedia.com/get/Internet/Other-Internet-Related/IntelliTamper.shtml"
          }, {
@@ -808,7 +758,7 @@
             "url": "http://mct.verisign-grs.com/"
          }, {
             "id": "1341",
-            "name": "EyeWitness",
+            "name": "EyeWitness (T)",
             "type": "url",
             "url": "https://github.com/ChrisTruncer/EyeWitness"
          }],
@@ -896,12 +846,7 @@
             "name": "ZoomEye",
             "type": "url",
             "url": "https://www.zoomeye.org/"
-         }],
-         "id": "1402",
-         "name": "Host Discovery",
-         "type": "folder"
-      }, {
-         "children": [{
+         }, {
             "id": "680",
             "name": "Nmap (T)",
             "type": "url",
@@ -917,8 +862,8 @@
             "type": "url",
             "url": "http://www.exfiltrated.com/querystart.php"
          }],
-         "id": "664",
-         "name": "Open Ports",
+         "id": "1402",
+         "name": "Host / Port Discovery",
          "type": "folder"
       }, {
          "children": [{
@@ -968,7 +913,7 @@
             "url": "http://www.ipfingerprints.com/reverseip.php"
          }, {
             "id": "669",
-            "name": "Bing IP Search",
+            "name": "Bing IP Search (D)",
             "type": "url",
             "url": "http://www.bing.com/search?q=ip%3A8.8.8.8"
          }, {
@@ -1044,7 +989,7 @@
                "url": "http://shitu.baidu.com/"
             }, {
                "id": "791",
-               "name": "Twitter Image Search",
+               "name": "Twitter Image Search (U)",
                "type": "url",
                "url": "https://twitter.com/search?q=%3Csearchterm%3E&src=typd&vertical=default&f=images"
             }, {
@@ -1102,41 +1047,6 @@
                "name": "Webstigram",
                "type": "url",
                "url": "http://websta.me/search"
-            }, {
-               "id": "157",
-               "name": "Collecto",
-               "type": "url",
-               "url": "http://collec.to/"
-            }, {
-               "id": "788",
-               "name": "Picturegr.am",
-               "type": "url",
-               "url": "http://www.picturegr.am/"
-            }, {
-               "id": "158",
-               "name": "Instagrin",
-               "type": "url",
-               "url": "https://instagr.in/explore/"
-            }, {
-               "id": "159",
-               "name": "Worldcam",
-               "type": "url",
-               "url": "http://worldc.am/"
-            }, {
-               "id": "156",
-               "name": "IconoSquare",
-               "type": "url",
-               "url": "http://iconosquare.com/"
-            }, {
-               "id": "160",
-               "name": "Instamap",
-               "type": "url",
-               "url": "http://bearpanther.com/instamap/"
-            }, {
-               "id": "161",
-               "name": "GramFeed",
-               "type": "url",
-               "url": "http://www.gramfeed.com/instagram/search"
             }, {
                "id": "789",
                "name": "Instagram",
@@ -1229,7 +1139,7 @@
                "url": "http://www.izitru.com/"
             }, {
                "id": "1328",
-               "name": "Ghiro",
+               "name": "Ghiro (T)",
                "type": "url",
                "url": "https://github.com/ghirensics/ghiro"
             }, {
@@ -1274,7 +1184,7 @@
          }, {
             "children": [{
                "id": "921",
-               "name": "Creepy",
+               "name": "Creepy (T)",
                "type": "url",
                "url": "http://www.geocreepy.com/"
             }],
@@ -1309,7 +1219,7 @@
                "url": "https://archive.org/details/opensource_movies"
             }, {
                "id": "194",
-               "name": "Vine GoogleDork",
+               "name": "Vines (D)",
                "type": "url",
                "url": "https://www.google.com/search?q=site:vine.co+%3Csearchterm%3E"
             }, {
@@ -1365,32 +1275,32 @@
             "children": [{
                "children": [{
                   "id": "778",
-                  "name": "GoogleDocs GoogleDork",
+                  "name": "GoogleDocs (D)",
                   "type": "url",
                   "url": "https://www.google.com/?q=site:docs.google.com+%3Csearchterm%3E"
                }, {
                   "id": "779",
-                  "name": "GoogleDrive GoogleDork",
+                  "name": "GoogleDrive (D)",
                   "type": "url",
                   "url": "https://www.google.com/?q=site:drive.google.com+%3Csearchterm%3E"
                }, {
                   "id": "780",
-                  "name": "Dropbox GoogleDork",
+                  "name": "Dropbox (D)",
                   "type": "url",
                   "url": "https://www.google.com/?q=site:dl.dropbox.com+%3Csearchterm%3E"
                }, {
                   "id": "781",
-                  "name": "Amazon AWS GoogleDork",
+                  "name": "Amazon AWS (D)",
                   "type": "url",
                   "url": "https://www.google.com/search?q=site:s3.amazonaws.com+%3Csearchterm%3E"
                }, {
                   "id": "782",
-                  "name": "OneDrive GoogleDork",
+                  "name": "OneDrive (D)",
                   "type": "url",
                   "url": "https://www.google.com/search?safe=off&q=site:onedrive.live.com+%3Csearchterm%3E"
                }, {
                   "id": "784",
-                  "name": "Cryptome GoogleDorks",
+                  "name": "Cryptome (D)",
                   "type": "url",
                   "url": "https://www.google.com/search?q=site:cryptome.org+%3Csearchterm%3E"
                }],
@@ -1499,7 +1409,7 @@
                "url": "https://www.facebook.com/login/identify?ctx=recover"
             }, {
                "id": "133",
-               "name": "Facebook Photos by ID",
+               "name": "Facebook Photos by ID (U)",
                "type": "url",
                "url": "https://www.facebook.com/photo.php?fbid=PHOTO-ID-HERE"
             }, {
@@ -1539,7 +1449,7 @@
          }, {
             "children": [{
                "id": "1044",
-               "name": "fb-sleep-stats",
+               "name": "fb-sleep-stats (T)",
                "type": "url",
                "url": "https://github.com/sqren/fb-sleep-stats"
             }],
@@ -1549,7 +1459,7 @@
          }, {
             "children": [{
                "id": "1048",
-               "name": "ExtractFace",
+               "name": "ExtractFace (T)",
                "type": "url",
                "url": "http://le-tools.com/ExtractFace.html#download"
             }],
@@ -1587,6 +1497,11 @@
                "name": "Twitter User Directory",
                "type": "url",
                "url": "https://twitter.com/i/directory/profiles/"
+            }, {
+               "id": "833",
+               "name": "Twitter Search for Live Streaming Video",
+               "type": "url",
+               "url": "https://twitter.com/search?q=%23periscope%20OR%20%23meerkat"
             }, {
                "id": "114",
                "name": "ConWeets",
@@ -1748,16 +1663,6 @@
                "name": "Hashtag",
                "type": "folder"
             }, {
-               "children": [{
-                  "id": "865",
-                  "name": "Socialbakers",
-                  "type": "url",
-                  "url": "http://www.socialbakers.com/"
-               }],
-               "id": "861",
-               "name": "Alternate / Dead Tools",
-               "type": "folder"
-            }, {
                "id": "943",
                "name": "Tweet Metadata",
                "type": "url",
@@ -1813,16 +1718,6 @@
                "type": "url",
                "url": "http://onemilliontweetmap.com/"
             }, {
-               "children": [{
-                  "id": "862",
-                  "name": "Ground Signal",
-                  "type": "url",
-                  "url": "https://www.groundsignal.com/"
-               }],
-               "id": "858",
-               "name": "Alternate / Dead Tools",
-               "type": "folder"
-            }, {
                "id": "919",
                "name": "Creepy",
                "type": "url",
@@ -1853,7 +1748,7 @@
             "url": "https://plus.google.com/"
          }, {
             "id": "820",
-            "name": "Google+ Profiles",
+            "name": "Google+ Profiles (U)",
             "type": "url",
             "url": "https://plus.google.com/+Username/posts"
          }, {
@@ -1942,26 +1837,6 @@
             "type": "url",
             "url": "http://www.social-searcher.com/google-social-search/"
          }, {
-            "id": "831",
-            "name": "Periscope Search",
-            "type": "url",
-            "url": "http://www.perisearch.net/"
-         }, {
-            "id": "832",
-            "name": "Periscope with known Username",
-            "type": "url",
-            "url": "https://www.periscope.tv/%3Cusername%3E"
-         }, {
-            "id": "833",
-            "name": "Twitter Search for Live Streaming Video",
-            "type": "url",
-            "url": "https://twitter.com/search?q=%23periscope%20OR%20%23meerkat"
-         }, {
-            "id": "1029",
-            "name": "SocialBlade.com",
-            "type": "url",
-            "url": "http://socialblade.com/"
-         }, {
             "id": "1073",
             "name": "IntelTechniques Social Network Search",
             "type": "url",
@@ -1971,6 +1846,21 @@
             "name": "IntelTechniques Smaller Social Network Search",
             "type": "url",
             "url": "https://inteltechniques.com/intel/OSINT/smaller.social.networks.html"
+         }, {
+            "id": "831",
+            "name": "Periscope Search",
+            "type": "url",
+            "url": "http://www.perisearch.net/"
+         }, {
+            "id": "832",
+            "name": "Periscope with known Username (U)",
+            "type": "url",
+            "url": "https://www.periscope.tv/%3Cusername%3E"
+         }, {
+            "id": "1029",
+            "name": "SocialBlade.com",
+            "type": "url",
+            "url": "http://socialblade.com/"
          }],
          "id": "813",
          "name": "Search",
@@ -2033,7 +1923,7 @@
       }, {
          "children": [{
             "id": "750",
-            "name": "Kik Username",
+            "name": "Kik Username (U)",
             "type": "url",
             "url": "http://kik.me/%3Cusername%3E"
          }],
@@ -2097,7 +1987,7 @@
          "url": "http://snoopstation.com/index.html"
       }, {
          "id": "903",
-         "name": "Melissa Data - People Finder",
+         "name": "Melissa Data - People Finder (R)",
          "type": "url",
          "url": "http://www.melissadata.com/lookups/peoplefinder.asp"
       }, {
@@ -2281,6 +2171,11 @@
          "type": "url",
          "url": "http://www.blackpeoplemeet.com/"
       }, {
+         "id": "1076",
+         "name": "IntelTechniques Dating Search",
+         "type": "url",
+         "url": "https://inteltechniques.com/intel/OSINT/dating.networks.html"
+      }, {
          "children": [{
             "id": "368",
             "name": "TrueDater",
@@ -2295,11 +2190,6 @@
          "id": "579",
          "name": "Reviews of Users",
          "type": "folder"
-      }, {
-         "id": "1076",
-         "name": "IntelTechniques Dating Search",
-         "type": "url",
-         "url": "https://inteltechniques.com/intel/OSINT/dating.networks.html"
       }],
       "id": "521",
       "name": "Dating",
@@ -2373,7 +2263,7 @@
       "children": [{
          "children": [{
             "id": "888",
-            "name": "Melissa Data - Property Viewer",
+            "name": "Melissa Data - Property Viewer (R)",
             "type": "url",
             "url": "http://www.melissadata.com/lookups/propertyviewer.asp"
          }],
@@ -2903,7 +2793,7 @@
             "url": "https://batchgeo.com/"
          }, {
             "id": "805",
-            "name": "Google Street View - Hyperlapse",
+            "name": "Hyperlapse (T)",
             "type": "url",
             "url": "https://github.com/TeehanLax/Hyperlapse.js"
          }, {
@@ -3022,11 +2912,6 @@
             "type": "url",
             "url": "https://nerdydata.com/search"
          }, {
-            "id": "558",
-            "name": "Meanpath",
-            "type": "url",
-            "url": "https://meanpath.com/f/"
-         }, {
             "id": "559",
             "name": "Gitrob (T)",
             "type": "url",
@@ -3043,7 +2928,7 @@
             "url": "http://globalfilesearch.net/index.aspx"
          }, {
             "id": "31",
-            "name": "FTP Google Dork",
+            "name": "FTP Google Dork (D)",
             "type": "url",
             "url": "https://www.google.com/search?q=inurl%3Aftp+-inurl%3Ahttp+-inurl%3Ahttps+ftpsearchterm"
          }, {
@@ -3207,18 +3092,18 @@
          "type": "folder"
       }, {
          "children": [{
-            "id": "898",
-            "name": "SearchDiggity",
-            "type": "url",
-            "url": "http://www.bishopfox.com/download/405/"
-         }, {
             "id": "1068",
             "name": "IntelTechniques Search Tools",
             "type": "url",
             "url": "https://inteltechniques.com/intel/OSINT/user.html"
          }, {
+            "id": "898",
+            "name": "SearchDiggity (T)",
+            "type": "url",
+            "url": "http://www.bishopfox.com/download/405/"
+         }, {
             "id": "1202",
-            "name": "Scanner-inurlbr",
+            "name": "Scanner-inurlbr (T)",
             "type": "url",
             "url": "https://github.com/googleinurl/SCANNER-INURLBR"
          }, {
@@ -3231,11 +3116,6 @@
             "name": "Google Custom Search Engine",
             "type": "url",
             "url": "https://cse.google.com/cse/"
-         }, {
-            "id": "1252",
-            "name": "Google Alerts",
-            "type": "url",
-            "url": "https://www.google.com/alerts"
          }],
          "id": "896",
          "name": "Search Tools",
@@ -3271,11 +3151,6 @@
             "name": "BoardReader",
             "type": "url",
             "url": "http://boardreader.com/"
-         }, {
-            "id": "393",
-            "name": "BoardTracker",
-            "type": "url",
-            "url": "http://www.boardtracker.com/"
          }, {
             "id": "394",
             "name": "Omgili",
@@ -4213,10 +4088,10 @@
                "type": "url",
                "url": "https://www.deepdotweb.com/vpn-comparison-chart/"
             }, {
-               "id": "945",
-               "name": "That One Privacy Guy's VPN Comparison Chart",
+               "id": "1405",
+               "name": "VPN Comparisons - That One Privacy Site",
                "type": "url",
-               "url": "https://docs.google.com/spreadsheets/d/1FJTvWT5RHFSYuEoFVpAeQjuQPU4BVzbOigT0xebxTOw/htmlview?usp=sharing&pref=2&pli=1&sle=true"
+               "url": "https://thatoneprivacysite.net/"
             }],
             "id": "931",
             "name": "Anonymous VPNs",
