@@ -1672,6 +1672,11 @@
                "name": "Tweet Metadata",
                "type": "url",
                "url": "http://online.wsj.com/public/resources/documents/TweetMetadata.pdf"
+            }, {
+               "id": "1086",
+               "name": "Birdwatcher (T)",
+               "type": "url",
+               "url": "https://github.com/michenriksen/birdwatcher"
             }],
             "id": "814",
             "name": "Analytics",
