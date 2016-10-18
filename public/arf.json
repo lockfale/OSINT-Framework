@@ -48,17 +48,17 @@
       }, {
          "children": [{
             "id": "507",
-            "name": "Amazon Usernames (U)",
+            "name": "Amazon Usernames (M)",
             "type": "url",
             "url": "https://www.google.com/search?q=site:amazon.com+%3Cusername%3E"
          }, {
-            "id": "298",
-            "name": "Amazon Wishlist",
+            "id": "1411",
+            "name": "Amazon Wishlists",
             "type": "url",
-            "url": "http://www.amazon.com/exec/obidos/wishlist/ref=nwl_gateway/"
+            "url": "https://www.amazon.com/gp/registry/search.html/?ie=UTF8&type=wishlist"
          }, {
             "id": "1334",
-            "name": "Github User (U)",
+            "name": "Github User (M)",
             "type": "url",
             "url": "https://api.github.com/users/%3Cusername%3E/events/public"
          }],
@@ -98,7 +98,7 @@
             "url": "https://www.voilanorbert.com/"
          }, {
             "id": "270",
-            "name": "Reverse Genie",
+            "name": "Reverse Genie Email",
             "type": "url",
             "url": "http://www.reversegenie.com/email.php"
          }, {
@@ -543,7 +543,7 @@
             "url": "http://builtwith.com/"
          }, {
             "id": "627",
-            "name": "Wappalyzer",
+            "name": "Wappalyzer (T)",
             "type": "url",
             "url": "https://wappalyzer.com/"
          }, {
@@ -662,8 +662,13 @@
          "type": "folder"
       }, {
          "children": [{
+            "id": "1416",
+            "name": "Google Trends",
+            "type": "url",
+            "url": "https://www.google.com/trends/"
+         }, {
             "id": "626",
-            "name": "Reddit (U)",
+            "name": "Reddit (M)",
             "type": "url",
             "url": "https://www.reddit.com/domain/%3CURLhere%3E"
          }],
@@ -994,7 +999,7 @@
                "url": "http://shitu.baidu.com/"
             }, {
                "id": "791",
-               "name": "Twitter Image Search (U)",
+               "name": "Twitter Image Search (M)",
                "type": "url",
                "url": "https://twitter.com/search?q=%3Csearchterm%3E&src=typd&vertical=default&f=images"
             }, {
@@ -1042,6 +1047,11 @@
                "name": "Current Location",
                "type": "url",
                "url": "http://current-location.com/"
+            }, {
+               "id": "1407",
+               "name": "Lakako Photo Search",
+               "type": "url",
+               "url": "http://www.lakako.com/"
             }],
             "id": "752",
             "name": "Search",
@@ -1414,7 +1424,7 @@
                "url": "https://www.facebook.com/login/identify?ctx=recover"
             }, {
                "id": "133",
-               "name": "Facebook Photos by ID (U)",
+               "name": "Facebook Photos by ID (M)",
                "type": "url",
                "url": "https://www.facebook.com/photo.php?fbid=PHOTO-ID-HERE"
             }, {
@@ -1758,7 +1768,7 @@
             "url": "https://plus.google.com/"
          }, {
             "id": "820",
-            "name": "Google+ Profiles (U)",
+            "name": "Google+ Profiles (M)",
             "type": "url",
             "url": "https://plus.google.com/+Username/posts"
          }, {
@@ -1863,7 +1873,7 @@
             "url": "http://www.perisearch.net/"
          }, {
             "id": "832",
-            "name": "Periscope with known Username (U)",
+            "name": "Periscope with known Username (M)",
             "type": "url",
             "url": "https://www.periscope.tv/%3Cusername%3E"
          }, {
@@ -1933,7 +1943,7 @@
       }, {
          "children": [{
             "id": "750",
-            "name": "Kik Username (U)",
+            "name": "Kik Username (M)",
             "type": "url",
             "url": "http://kik.me/%3Cusername%3E"
          }],
@@ -2022,7 +2032,7 @@
          "url": "http://www.peepdb.com/"
       }, {
          "id": "306",
-         "name": "Reverse Genie",
+         "name": "Reverse Genie People",
          "type": "url",
          "url": "http://www.reversegenie.com/people.php"
       }, {
@@ -2581,6 +2591,21 @@
             "name": "Plonked",
             "type": "url",
             "url": "https://www.plonked.com/"
+         }, {
+            "id": "1410",
+            "name": "Buzzfile",
+            "type": "url",
+            "url": "http://www.buzzfile.com/Home/Basic"
+         }, {
+            "id": "1412",
+            "name": "Corporation Wiki",
+            "type": "url",
+            "url": "https://www.corporationwiki.com/"
+         }, {
+            "id": "1413",
+            "name": "LittleSis",
+            "type": "url",
+            "url": "http://littlesis.org/"
          }],
          "id": "693",
          "name": "Company Profiles",
@@ -3203,7 +3228,7 @@
             "url": "http://search.mibbit.com/"
          }, {
             "id": "1204",
-            "name": "ircsnapshot",
+            "name": "ircsnapshot (T)",
             "type": "url",
             "url": "https://github.com/bwall/ircsnapshot"
          }],
@@ -3377,12 +3402,12 @@
          "url": "http://www.sno.phy.queensu.ca/~phil/exiftool/"
       }, {
          "id": "987",
-         "name": "Metagoofil",
+         "name": "Metagoofil (T)",
          "type": "url",
          "url": "http://www.edge-security.com/metagoofil.php"
       }, {
          "id": "988",
-         "name": "CodeTwo Outlook Export",
+         "name": "CodeTwo Outlook Export (T)",
          "type": "url",
          "url": "http://www.codetwo.com/freeware/outlook-export/"
       }, {
@@ -3399,17 +3424,17 @@
          "children": [{
             "children": [{
                "id": "962",
-               "name": "Genymotion",
+               "name": "Genymotion (T)",
                "type": "url",
                "url": "https://www.genymotion.com/"
             }, {
                "id": "963",
-               "name": "BlueStacks 2",
+               "name": "BlueStacks 2 (T)",
                "type": "url",
                "url": "http://www.bluestacks.com/"
             }, {
                "id": "964",
-               "name": "Andy Android Emulator",
+               "name": "Andy Android Emulator (T)",
                "type": "url",
                "url": "http://www.andyroid.net/"
             }],
@@ -3420,22 +3445,22 @@
             "children": [{
                "children": [{
                   "id": "965",
-                  "name": "Facebook",
+                  "name": "Facebook (T)",
                   "type": "url",
                   "url": "https://play.google.com/store/apps/details?id=com.facebook.katana"
                }, {
                   "id": "971",
-                  "name": "LinkedIn",
+                  "name": "LinkedIn (T)",
                   "type": "url",
                   "url": "https://play.google.com/store/apps/details?id=com.linkedin.android"
                }, {
                   "id": "972",
-                  "name": "Twitter",
+                  "name": "Twitter (T)",
                   "type": "url",
                   "url": "https://play.google.com/store/apps/details?id=com.twitter.android"
                }, {
                   "id": "973",
-                  "name": "Pinterest",
+                  "name": "Pinterest (T)",
                   "type": "url",
                   "url": "https://play.google.com/store/apps/details?id=com.pinterest"
                }],
@@ -3445,37 +3470,37 @@
             }, {
                "children": [{
                   "id": "974",
-                  "name": "Signal Private Messenger",
+                  "name": "Signal Private Messenger (T)",
                   "type": "url",
                   "url": "https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms"
                }, {
                   "id": "975",
-                  "name": "Telegram",
+                  "name": "Telegram (T)",
                   "type": "url",
                   "url": "https://play.google.com/store/apps/details?id=org.telegram.messenger"
                }, {
                   "id": "976",
-                  "name": "Snapchat",
+                  "name": "Snapchat (T)",
                   "type": "url",
                   "url": "https://play.google.com/store/apps/details?id=com.snapchat.android"
                }, {
                   "id": "979",
-                  "name": "WhatsApp Messenger",
+                  "name": "WhatsApp Messenger (T)",
                   "type": "url",
                   "url": "https://play.google.com/store/apps/details?id=com.whatsapp"
                }, {
                   "id": "980",
-                  "name": "Kik",
+                  "name": "Kik (T)",
                   "type": "url",
                   "url": "https://play.google.com/store/apps/details?id=kik.android"
                }, {
                   "id": "981",
-                  "name": "Yik Yak",
+                  "name": "Yik Yak (T)",
                   "type": "url",
                   "url": "https://play.google.com/store/apps/details?id=com.yik.yak"
                }, {
                   "id": "982",
-                  "name": "LINE",
+                  "name": "LINE (T)",
                   "type": "url",
                   "url": "https://play.google.com/store/apps/details?id=jp.naver.line.android"
                }],
@@ -3485,12 +3510,12 @@
             }, {
                "children": [{
                   "id": "977",
-                  "name": "Instagram",
+                  "name": "Instagram (T)",
                   "type": "url",
                   "url": "https://play.google.com/store/apps/details?id=com.instagram.android"
                }, {
                   "id": "978",
-                  "name": "Flickr",
+                  "name": "Flickr (T)",
                   "type": "url",
                   "url": "https://play.google.com/store/apps/details?id=com.yahoo.mobile.client.android.flickr"
                }],
@@ -3500,17 +3525,17 @@
             }, {
                "children": [{
                   "id": "983",
-                  "name": "Periscope",
+                  "name": "Periscope (T)",
                   "type": "url",
                   "url": "https://play.google.com/store/apps/details?id=tv.periscope.android"
                }, {
                   "id": "984",
-                  "name": "Meerkat",
+                  "name": "Meerkat (T)",
                   "type": "url",
                   "url": "https://play.google.com/store/apps/details?id=co.getair.meerkat"
                }, {
                   "id": "985",
-                  "name": "Vine",
+                  "name": "Vine (T)",
                   "type": "url",
                   "url": "https://play.google.com/store/apps/details?id=co.vine.android"
                }],
@@ -3519,7 +3544,7 @@
                "type": "folder"
             }, {
                "id": "970",
-               "name": "Truecaller",
+               "name": "Truecaller (T)",
                "type": "url",
                "url": "https://play.google.com/store/apps/details?id=com.truecaller"
             }],
@@ -3572,13 +3597,13 @@
          "type": "folder"
       }, {
          "children": [{
-            "id": "1242",
-            "name": "Tor Download",
+            "id": "1418",
+            "name": "Tor Download (T)",
             "type": "url",
             "url": "https://www.torproject.org/download/download-easy.html.en"
          }, {
             "id": "1241",
-            "name": "I2P Anonymous Network",
+            "name": "I2P Anonymous Network (T)",
             "type": "url",
             "url": "https://geti2p.net/en/"
          }],
@@ -3778,22 +3803,22 @@
             "url": "http://jsnice.org/"
          }, {
             "id": "991",
-            "name": "Firebug",
+            "name": "Firebug (T)",
             "type": "url",
             "url": "https://getfirebug.com/downloads/"
          }, {
             "id": "994",
-            "name": "SpiderMonkey",
+            "name": "SpiderMonkey (T)",
             "type": "url",
             "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey"
          }, {
             "id": "993",
-            "name": "Kahu Revelo",
+            "name": "Kahu Revelo (T)",
             "type": "url",
             "url": "http://www.kahusecurity.com/tools/"
          }, {
             "id": "995",
-            "name": "JavaScript Deobfuscator",
+            "name": "JavaScript Deobfuscator (T)",
             "type": "url",
             "url": "https://addons.mozilla.org/en-US/firefox/addon/javascript-deobfuscator/"
          }],
@@ -3814,17 +3839,17 @@
          "children": [{
             "children": [{
                "id": "997",
-               "name": "XORSearch & XORStrings",
+               "name": "XORSearch & XORStrings (T)",
                "type": "url",
                "url": "http://blog.didierstevens.com/programs/xorsearch/"
             }, {
                "id": "998",
-               "name": "xortool",
+               "name": "xortool (T)",
                "type": "url",
                "url": "https://github.com/hellman/xortool"
             }, {
                "id": "999",
-               "name": "unxor",
+               "name": "unxor (T)",
                "type": "url",
                "url": "https://github.com/tomchop/unxor"
             }],
@@ -3834,7 +3859,7 @@
          }, {
             "children": [{
                "id": "1003",
-               "name": "Kahu Converter Utilities",
+               "name": "Kahu Converter Utilities (T)",
                "type": "url",
                "url": "http://www.kahusecurity.com/tools/"
             }],
@@ -3844,22 +3869,22 @@
          }, {
             "children": [{
                "id": "1004",
-               "name": "iheartxor.py",
+               "name": "iheartxor.py (T)",
                "type": "url",
                "url": "http://hooked-on-mnemonics.blogspot.com/p/iheartxor.html"
             }, {
                "id": "1005",
-               "name": "XORBruteForcer.py",
+               "name": "XORBruteForcer.py (T)",
                "type": "url",
                "url": "http://eternal-todo.com/var/scripts/xorbruteforcer"
             }, {
                "id": "1006",
-               "name": "NoMoreXOR.py",
+               "name": "NoMoreXOR.py (T)",
                "type": "url",
                "url": "https://github.com/hiddenillusion/NoMoreXOR"
             }, {
                "id": "1007",
-               "name": "Balbuzard",
+               "name": "Balbuzard (T)",
                "type": "url",
                "url": "https://bitbucket.org/decalage/balbuzard"
             }],
@@ -3968,12 +3993,12 @@
       }, {
          "children": [{
             "id": "1021",
-            "name": "Office Mal Scanner",
+            "name": "Office Mal Scanner (T)",
             "type": "url",
             "url": "http://www.reconstructer.org/"
          }, {
             "id": "1024",
-            "name": "OffVis",
+            "name": "OffVis (T)",
             "type": "url",
             "url": "http://go.microsoft.com/fwlink/?LinkID=158791"
          }],
@@ -3983,12 +4008,12 @@
       }, {
          "children": [{
             "id": "1022",
-            "name": "PDF Tools",
+            "name": "PDF Tools (T)",
             "type": "url",
             "url": "http://blog.didierstevens.com/programs/pdf-tools/"
          }, {
             "id": "1023",
-            "name": "Origami Framework",
+            "name": "Origami Framework (T)",
             "type": "url",
             "url": "https://code.google.com/archive/p/origami-pdf/"
          }],
@@ -4087,7 +4112,17 @@
          "type": "folder"
       }, {
          "children": [{
-            "children": [],
+            "children": [{
+               "id": "1242",
+               "name": "Tor Download (T)",
+               "type": "url",
+               "url": "https://www.torproject.org/download/download-easy.html.en"
+            }, {
+               "id": "1419",
+               "name": "I2P Anonymous Network (T)",
+               "type": "url",
+               "url": "https://geti2p.net/en/"
+            }],
             "id": "930",
             "name": "TOR",
             "type": "folder"
@@ -4118,7 +4153,7 @@
             "type": "folder"
          }, {
             "id": "938",
-            "name": "NoScript",
+            "name": "NoScript (T)",
             "type": "url",
             "url": "https://noscript.net/"
          }, {
@@ -4203,22 +4238,22 @@
       "children": [{
          "children": [{
             "id": "1056",
-            "name": "Hunchly",
+            "name": "Hunchly (T)",
             "type": "url",
             "url": "http://www.hunch.ly/"
          }, {
             "id": "727",
-            "name": "Fiddler",
+            "name": "Fiddler (T)",
             "type": "url",
             "url": "https://www.telerik.com/download/fiddler"
          }, {
             "id": "728",
-            "name": "Burp Suite",
+            "name": "Burp Suite (T)",
             "type": "url",
             "url": "https://portswigger.net/burp/download.html"
          }, {
             "id": "729",
-            "name": "Page2Images",
+            "name": "Page2Images (T)",
             "type": "url",
             "url": "http://www.page2images.com/URL-Live-Website-Screenshot-Generator"
          }, {
@@ -4233,7 +4268,7 @@
             "url": "https://www.magnetforensics.com/free-tool-web-page-saver/"
          }, {
             "id": "1284",
-            "name": "Snapper",
+            "name": "Snapper (T)",
             "type": "url",
             "url": "https://github.com/dxa4481/Snapper"
          }],
@@ -4243,12 +4278,12 @@
       }, {
          "children": [{
             "id": "725",
-            "name": "FRAPS",
+            "name": "FRAPS (T)",
             "type": "url",
             "url": "http://www.fraps.com/"
          }, {
             "id": "726",
-            "name": "ShareX",
+            "name": "ShareX (T)",
             "type": "url",
             "url": "https://getsharex.com/"
          }],
@@ -4306,6 +4341,6 @@
       "type": "folder"
    }],
    "id": "492",
-   "name": "Adv Recon Framework",
+   "name": "OSINT Framework",
    "type": "folder"
 }
