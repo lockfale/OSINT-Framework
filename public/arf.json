@@ -656,6 +656,11 @@
             "name": "Follow That Page",
             "type": "url",
             "url": "https://www.followthatpage.com/"
+         }, {
+            "id": "1434",
+            "name": "Urlwatch",
+            "type": "url",
+            "url": "https://github.com/thp/urlwatch"
          }],
          "id": "586",
          "name": "Change Detection",
@@ -886,6 +891,11 @@
             "name": "Reverse.report",
             "type": "url",
             "url": "https://reverse.report/"
+         }, {
+            "id": "1428",
+            "name": "Team Cymru IP to ASN",
+            "type": "url",
+            "url": "https://asn.cymru.com/"
          }],
          "id": "686",
          "name": "IPv4",
@@ -1553,11 +1563,6 @@
                "type": "url",
                "url": "https://moz.com/followerwonk/bio/?q=zero%20day&l=us"
             }, {
-               "id": "834",
-               "name": "Tinfoleak",
-               "type": "url",
-               "url": "http://tinfoleak.com/"
-            }, {
                "id": "1065",
                "name": "IntelTechniques Twitter Tools",
                "type": "url",
@@ -1653,6 +1658,11 @@
                   "name": "SleepingTime",
                   "type": "url",
                   "url": "http://sleepingtime.org/"
+               }, {
+                  "id": "1421",
+                  "name": "Bioischanged (M)",
+                  "type": "url",
+                  "url": "http://bioischanged.com/%3Ctwitterusername%3E"
                }],
                "id": "859",
                "name": "Profile",
@@ -1683,10 +1693,20 @@
                "type": "url",
                "url": "http://online.wsj.com/public/resources/documents/TweetMetadata.pdf"
             }, {
-               "id": "1086",
+               "id": "1417",
                "name": "Birdwatcher (T)",
                "type": "url",
                "url": "https://github.com/michenriksen/birdwatcher"
+            }, {
+               "id": "834",
+               "name": "Tinfoleak Web",
+               "type": "url",
+               "url": "http://tinfoleak.com/"
+            }, {
+               "id": "1440",
+               "name": "Tinfoleak.py (T)",
+               "type": "url",
+               "url": "http://www.vicenteaguileradiaz.com/tools/"
             }],
             "id": "814",
             "name": "Analytics",
@@ -2606,6 +2626,11 @@
             "name": "LittleSis",
             "type": "url",
             "url": "http://littlesis.org/"
+         }, {
+            "id": "1430",
+            "name": "Companies House",
+            "type": "url",
+            "url": "https://beta.companieshouse.gov.uk/"
          }],
          "id": "693",
          "name": "Company Profiles",
@@ -2746,6 +2771,61 @@
       "type": "folder"
    }, {
       "children": [{
+         "children": [{
+            "id": "224",
+            "name": "GPSVisualizer",
+            "type": "url",
+            "url": "http://www.gpsvisualizer.com/geocode"
+         }, {
+            "id": "798",
+            "name": "Military Grid Reference System Coordinates",
+            "type": "url",
+            "url": "https://dominoc925-pages.appspot.com/mapplets/cs_mgrs.html"
+         }, {
+            "id": "1431",
+            "name": "Batch Geocoding",
+            "type": "url",
+            "url": "https://www.doogal.co.uk/BatchGeocoding.php"
+         }, {
+            "id": "1432",
+            "name": "Batch Reverse Geocoding",
+            "type": "url",
+            "url": "https://www.doogal.co.uk/BatchReverseGeocoding.php"
+         }],
+         "id": "799",
+         "name": "Coordinates",
+         "type": "folder"
+      }, {
+         "children": [{
+            "id": "804",
+            "name": "BatchGeo",
+            "type": "url",
+            "url": "https://batchgeo.com/"
+         }, {
+            "id": "805",
+            "name": "Hyperlapse (T)",
+            "type": "url",
+            "url": "https://github.com/TeehanLax/Hyperlapse.js"
+         }, {
+            "id": "806",
+            "name": "Teehan+Lax Labs - Hyperlapse",
+            "type": "url",
+            "url": "http://labs.teehanlax.com/project/hyperlapse"
+         }, {
+            "id": "807",
+            "name": "Google Maps Streetview Player",
+            "type": "url",
+            "url": "http://brianfolts.com/driver/"
+         }, {
+            "id": "1028",
+            "name": "ScribbleMaps",
+            "type": "url",
+            "url": "http://scribblemaps.com/"
+         }],
+         "id": "803",
+         "name": "Map Reporting Tools",
+         "type": "folder"
+      }, {
          "id": "795",
          "name": "Google Maps",
          "type": "url",
@@ -2806,50 +2886,20 @@
          "type": "url",
          "url": "https://inteltechniques.com/intel/OSINT/maps.html"
       }, {
-         "children": [{
-            "id": "224",
-            "name": "GPSVisualizer",
-            "type": "url",
-            "url": "http://www.gpsvisualizer.com/geocode"
-         }, {
-            "id": "798",
-            "name": "Military Grid Reference System Coordinates",
-            "type": "url",
-            "url": "https://dominoc925-pages.appspot.com/mapplets/cs_mgrs.html"
-         }],
-         "id": "799",
-         "name": "Coordinates",
-         "type": "folder"
+         "id": "1425",
+         "name": "Yandex.Maps",
+         "type": "url",
+         "url": "https://yandex.com/maps/"
       }, {
-         "children": [{
-            "id": "804",
-            "name": "BatchGeo",
-            "type": "url",
-            "url": "https://batchgeo.com/"
-         }, {
-            "id": "805",
-            "name": "Hyperlapse (T)",
-            "type": "url",
-            "url": "https://github.com/TeehanLax/Hyperlapse.js"
-         }, {
-            "id": "806",
-            "name": "Teehan+Lax Labs - Hyperlapse",
-            "type": "url",
-            "url": "http://labs.teehanlax.com/project/hyperlapse"
-         }, {
-            "id": "807",
-            "name": "Google Maps Streetview Player",
-            "type": "url",
-            "url": "http://brianfolts.com/driver/"
-         }, {
-            "id": "1028",
-            "name": "ScribbleMaps",
-            "type": "url",
-            "url": "http://scribblemaps.com/"
-         }],
-         "id": "803",
-         "name": "Map Reporting Tools",
-         "type": "folder"
+         "id": "1426",
+         "name": "TerraServer",
+         "type": "url",
+         "url": "https://www.terraserver.com/view"
+      }, {
+         "id": "1427",
+         "name": "Google Earth",
+         "type": "url",
+         "url": "https://www.google.com/earth/"
       }],
       "id": "519",
       "name": "Maps",
@@ -2877,10 +2927,20 @@
             "type": "url",
             "url": "https://search.yahoo.com/web/advanced"
          }, {
+            "id": "1439",
+            "name": "StartPage",
+            "type": "url",
+            "url": "https://www.startpage.com/"
+         }, {
             "id": "50",
             "name": "Yandex",
             "type": "url",
             "url": "https://www.yandex.com/"
+         }, {
+            "id": "1228",
+            "name": "Baidu",
+            "type": "url",
+            "url": "http://www.baidu.com/"
          }, {
             "id": "1227",
             "name": "Google Advanced Search",
@@ -2911,11 +2971,6 @@
             "name": "Carrot2",
             "type": "url",
             "url": "http://search.carrot2.org/stable/search"
-         }, {
-            "id": "1228",
-            "name": "Baidu",
-            "type": "url",
-            "url": "http://www.baidu.com/"
          }, {
             "id": "935",
             "name": "Ixquick Search Engine",
@@ -2982,25 +3037,15 @@
          "type": "folder"
       }, {
          "children": [{
+            "id": "1429",
+            "name": "PubPeer",
+            "type": "url",
+            "url": "https://pubpeer.com/"
+         }, {
             "id": "1198",
             "name": "Bielefeld Academic Search Engine",
             "type": "url",
             "url": "https://www.base-search.net/Search/Advanced"
-         }, {
-            "id": "1225",
-            "name": "Google News Search",
-            "type": "url",
-            "url": "https://news.google.com/news/advanced_news_search?"
-         }, {
-            "id": "57",
-            "name": "NewspaperARCHIVE.com",
-            "type": "url",
-            "url": "http://newspaperarchive.com/"
-         }, {
-            "id": "58",
-            "name": "YouGotTheNews",
-            "type": "url",
-            "url": "http://www.yougotthenews.com/"
          }, {
             "id": "60",
             "name": "Google Scholar",
@@ -3087,6 +3132,36 @@
          "type": "folder"
       }, {
          "children": [{
+            "id": "1436",
+            "name": "Paperboy Online Newspapers",
+            "type": "url",
+            "url": "http://www.thepaperboy.com/"
+         }, {
+            "id": "1225",
+            "name": "Google News Search",
+            "type": "url",
+            "url": "https://news.google.com/news/advanced_news_search?"
+         }, {
+            "id": "58",
+            "name": "YouGotTheNews",
+            "type": "url",
+            "url": "http://www.yougotthenews.com/"
+         }, {
+            "id": "57",
+            "name": "NewspaperARCHIVE.com",
+            "type": "url",
+            "url": "http://newspaperarchive.com/"
+         }, {
+            "id": "1438",
+            "name": "PressReader.com",
+            "type": "url",
+            "url": "http://www.pressreader.com/"
+         }],
+         "id": "1437",
+         "name": "News Search",
+         "type": "folder"
+      }, {
+         "children": [{
             "id": "1207",
             "name": "Yobi3D - 3D Model Search",
             "type": "url",
@@ -3132,6 +3207,11 @@
             "type": "url",
             "url": "https://inteltechniques.com/intel/OSINT/user.html"
          }, {
+            "id": "1423",
+            "name": "Million Short",
+            "type": "url",
+            "url": "https://millionshort.com/"
+         }, {
             "id": "898",
             "name": "SearchDiggity (T)",
             "type": "url",
@@ -3151,6 +3231,11 @@
             "name": "Google Custom Search Engine",
             "type": "url",
             "url": "https://cse.google.com/cse/"
+         }, {
+            "id": "1441",
+            "name": "pagodo - Passive Google Dork (T)",
+            "type": "url",
+            "url": "https://github.com/opsdisk/pagodo"
          }],
          "id": "896",
          "name": "Search Tools",
@@ -3346,6 +3431,11 @@
             "name": "Dictionary.com Translator",
             "type": "url",
             "url": "http://translate.reference.com/"
+         }, {
+            "id": "1424",
+            "name": "Wiktionary",
+            "type": "url",
+            "url": "https://www.wiktionary.org/"
          }],
          "id": "539",
          "name": "Text",
@@ -3922,6 +4012,26 @@
    }, {
       "children": [{
          "children": [{
+            "id": "1331",
+            "name": "Decalage Malware Search",
+            "type": "url",
+            "url": "http://decalage.info/en/mwsearch"
+         }, {
+            "id": "1333",
+            "name": "VirusShare.com",
+            "type": "url",
+            "url": "https://virusshare.com/"
+         }, {
+            "id": "1422",
+            "name": "#totalhash",
+            "type": "url",
+            "url": "https://totalhash.cymru.com/"
+         }],
+         "id": "1332",
+         "name": "Search",
+         "type": "folder"
+      }, {
+         "children": [{
             "id": "1009",
             "name": "VirusTotal",
             "type": "url",
@@ -4030,21 +4140,6 @@
          "id": "838",
          "name": "PCAPs",
          "type": "folder"
-      }, {
-         "children": [{
-            "id": "1331",
-            "name": "Decalage Malware Search",
-            "type": "url",
-            "url": "http://decalage.info/en/mwsearch"
-         }, {
-            "id": "1333",
-            "name": "VirusShare.com",
-            "type": "url",
-            "url": "https://virusshare.com/"
-         }],
-         "id": "1332",
-         "name": "Search",
-         "type": "folder"
       }],
       "id": "537",
       "name": "Malicious File Analysis",
@@ -4106,6 +4201,11 @@
             "name": "Fake Identity Generator",
             "type": "url",
             "url": "http://justdelete.me/fake-identity-generator/"
+         }, {
+            "id": "1420",
+            "name": "Random User Generator",
+            "type": "url",
+            "url": "https://randomuser.me/"
          }],
          "id": "1217",
          "name": "Persona Creation",
@@ -4226,10 +4326,25 @@
          "name": "Proxy Tests",
          "type": "folder"
       }, {
-         "id": "1254",
-         "name": "Just Delete Me",
+         "children": [{
+            "id": "1254",
+            "name": "Just Delete Me",
+            "type": "url",
+            "url": "http://backgroundchecks.org/justdeleteme/"
+         }, {
+            "id": "1442",
+            "name": "Accountkiller.com",
+            "type": "url",
+            "url": "https://www.accountkiller.com/en"
+         }],
+         "id": "1443",
+         "name": "Privacy / Clean Up",
+         "type": "folder"
+      }, {
+         "id": "1435",
+         "name": "Self-Destructing Cookies (T)",
          "type": "url",
-         "url": "http://justdelete.me/"
+         "url": "https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/"
       }],
       "id": "493",
       "name": "OpSec",
