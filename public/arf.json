@@ -61,6 +61,11 @@
             "name": "Github User (M)",
             "type": "url",
             "url": "https://api.github.com/users/%3Cusername%3E/events/public"
+         }, {
+            "id": "1480",
+            "name": "WhatsMyName",
+            "type": "url",
+            "url": "https://github.com/WebBreacher/WhatsMyName"
          }],
          "id": "500",
          "name": "Specific Sites",
@@ -77,15 +82,15 @@
             "type": "url",
             "url": "https://thatsthem.com/reverse-email-lookup"
          }, {
+            "id": "1459",
+            "name": "Hunter",
+            "type": "url",
+            "url": "https://hunter.io/"
+         }, {
             "id": "599",
             "name": "Email to Address (R)",
             "type": "url",
             "url": "http://www.melissadata.com/lookups/emails.asp"
-         }, {
-            "id": "600",
-            "name": "Email Hunter",
-            "type": "url",
-            "url": "https://emailhunter.co/"
          }, {
             "id": "505",
             "name": "Pipl",
@@ -275,7 +280,7 @@
             "id": "614",
             "name": "DNSstuff",
             "type": "url",
-            "url": "http://www.dnsstuff.com/"
+            "url": "http://www.dnsstuff.com/tools"
          }, {
             "id": "615",
             "name": "Robtex",
@@ -316,6 +321,11 @@
             "name": "ViewDNS.info",
             "type": "url",
             "url": "http://viewdns.info/"
+         }, {
+            "id": "1465",
+            "name": "Daily DNS Changes",
+            "type": "url",
+            "url": "http://www.dailychanges.com/"
          }],
          "id": "611",
          "name": "Whois Records",
@@ -402,6 +412,11 @@
             "type": "url",
             "url": "http://urlquery.net/"
          }, {
+            "id": "1359",
+            "name": "PassiveTotal",
+            "type": "url",
+            "url": "https://www.passivetotal.org/"
+         }, {
             "id": "623",
             "name": "URL Void",
             "type": "url",
@@ -482,11 +497,6 @@
             "type": "url",
             "url": "https://vurldissect.co.uk/"
          }, {
-            "id": "1359",
-            "name": "PassiveTotal",
-            "type": "url",
-            "url": "https://www.passivetotal.org/"
-         }, {
             "id": "1360",
             "name": "AlienVault Open Threat Exchange",
             "type": "url",
@@ -552,6 +562,11 @@
             "type": "url",
             "url": "https://www.semrush.com/"
          }, {
+            "id": "1444",
+            "name": "StackShare",
+            "type": "url",
+            "url": "https://stackshare.io/"
+         }, {
             "id": "245",
             "name": "SameID",
             "type": "url",
@@ -591,11 +606,6 @@
             "name": "Keyword Density",
             "type": "url",
             "url": "http://tools.seobook.com/general/keyword-density/"
-         }, {
-            "id": "1444",
-            "name": "StackShare",
-            "type": "url",
-            "url": "https://stackshare.io/"
          }],
          "id": "617",
          "name": "Analytics",
@@ -741,6 +751,11 @@
             "id": "636",
             "name": "Disclosure Sites",
             "type": "folder"
+         }, {
+            "id": "1445",
+            "name": "RobotsDisallowed",
+            "type": "url",
+            "url": "https://github.com/danielmiessler/RobotsDisallowed"
          }],
          "id": "625",
          "name": "Vulnerabilities",
@@ -901,6 +916,11 @@
             "name": "Team Cymru IP to ASN",
             "type": "url",
             "url": "https://asn.cymru.com/"
+         }, {
+            "id": "1479",
+            "name": "IP to ASN DB",
+            "type": "url",
+            "url": "https://iptoasn.com/"
          }],
          "id": "686",
          "name": "IPv4",
@@ -1087,6 +1107,11 @@
                "name": "IntelTechniques Instagram Tools",
                "type": "url",
                "url": "https://inteltechniques.com/intel/OSINT/instagram.html"
+            }, {
+               "id": "1463",
+               "name": "Mini Instagram",
+               "type": "url",
+               "url": "http://mininsta.net/"
             }],
             "id": "753",
             "name": "Instagram",
@@ -1587,6 +1612,11 @@
                "name": "Twopcharts",
                "type": "url",
                "url": "http://twopcharts.com/"
+            }, {
+               "id": "1478",
+               "name": "Twitter Email Test",
+               "type": "url",
+               "url": "https://pdevesian.eu/tet"
             }],
             "id": "870",
             "name": "Search",
@@ -1718,11 +1748,6 @@
             "type": "folder"
          }, {
             "children": [{
-               "id": "93",
-               "name": "Nearby Tweets",
-               "type": "url",
-               "url": "http://nearbytweets.com/"
-            }, {
                "id": "94",
                "name": "GeoChirp",
                "type": "url",
@@ -1776,7 +1801,7 @@
                "id": "857",
                "name": "All My Tweets",
                "type": "url",
-               "url": "https://www.allmytweets.net/connect.php"
+               "url": "https://www.allmytweets.net/connect/"
             }],
             "id": "816",
             "name": "Archive / Deleted Tweets",
@@ -1991,6 +2016,11 @@
       "type": "folder"
    }, {
       "children": [{
+         "id": "1475",
+         "name": "Family Tree Now",
+         "type": "url",
+         "url": "http://www.familytreenow.com/"
+      }, {
          "id": "900",
          "name": "Pipl",
          "type": "url",
@@ -2241,30 +2271,45 @@
       "type": "folder"
    }, {
       "children": [{
+         "children": [{
+            "id": "1455",
+            "name": "Slydial",
+            "type": "url",
+            "url": "https://www.slydial.com/"
+         }],
+         "id": "1456",
+         "name": "Voicemail",
+         "type": "folder"
+      }, {
          "id": "690",
          "name": "Fone Finder",
          "type": "url",
          "url": "http://www.fonefinder.net/"
+      }, {
+         "id": "1476",
+         "name": "Twilio Lookup",
+         "type": "url",
+         "url": "https://www.twilio.com/lookup"
       }, {
          "id": "335",
          "name": "WhoCalld",
          "type": "url",
          "url": "https://whocalld.com/"
       }, {
-         "id": "689",
-         "name": "CallerIDService.com",
+         "id": "1477",
+         "name": "CallerID Test",
          "type": "url",
-         "url": "http://www.calleridservice.com/"
-      }, {
-         "id": "337",
-         "name": "True Caller",
-         "type": "url",
-         "url": "http://www.truecaller.com/"
+         "url": "http://www.calleridtest.com/"
       }, {
          "id": "671",
          "name": "ThatsThem - Reverse Phone Lookup",
          "type": "url",
          "url": "https://thatsthem.com/reverse-phone-lookup"
+      }, {
+         "id": "337",
+         "name": "True Caller",
+         "type": "url",
+         "url": "http://www.truecaller.com/"
       }, {
          "id": "333",
          "name": "Data24-7",
@@ -2300,6 +2345,26 @@
          "name": "Free Carrier Lookup",
          "type": "url",
          "url": "http://freecarrierlookup.com/"
+      }, {
+         "id": "1449",
+         "name": "411",
+         "type": "url",
+         "url": "http://www.411.com/reverse_phone"
+      }, {
+         "id": "1450",
+         "name": "Reverse Genie",
+         "type": "url",
+         "url": "http://www.reversegenie.com/phone.php"
+      }, {
+         "id": "689",
+         "name": "CallerIDService.com (R)",
+         "type": "url",
+         "url": "http://www.calleridservice.com/"
+      }, {
+         "id": "1451",
+         "name": "Mr. Number (M)",
+         "type": "url",
+         "url": "http://mrnumber.com/1-888-742-0000"
       }],
       "id": "518",
       "name": "Telephone Numbers",
@@ -2311,6 +2376,11 @@
             "name": "Melissa Data - Property Viewer (R)",
             "type": "url",
             "url": "http://www.melissadata.com/lookups/propertyviewer.asp"
+         }, {
+            "id": "360",
+            "name": "Zillow",
+            "type": "url",
+            "url": "http://www.zillow.com/"
          }],
          "id": "882",
          "name": "Property Records",
@@ -2572,6 +2642,16 @@
          "type": "folder"
       }, {
          "children": [{
+            "id": "710",
+            "name": "OpenCorporates",
+            "type": "url",
+            "url": "https://opencorporates.com/"
+         }, {
+            "id": "1412",
+            "name": "Corporation Wiki",
+            "type": "url",
+            "url": "https://www.corporationwiki.com/"
+         }, {
             "id": "706",
             "name": "Data.com Connect",
             "type": "url",
@@ -2581,11 +2661,6 @@
             "name": "ZoomInfo.com",
             "type": "url",
             "url": "http://www.zoominfo.com/company-directory/us"
-         }, {
-            "id": "710",
-            "name": "OpenCorporates",
-            "type": "url",
-            "url": "https://opencorporates.com/"
          }, {
             "id": "711",
             "name": "Kompass International",
@@ -2621,11 +2696,6 @@
             "name": "Buzzfile",
             "type": "url",
             "url": "http://www.buzzfile.com/Home/Basic"
-         }, {
-            "id": "1412",
-            "name": "Corporation Wiki",
-            "type": "url",
-            "url": "https://www.corporationwiki.com/"
          }, {
             "id": "1413",
             "name": "LittleSis",
@@ -2726,6 +2796,11 @@
             "name": "VinCheck",
             "type": "url",
             "url": "https://www.nicb.org/theft_and_fraud_awareness/vincheck"
+         }, {
+            "id": "1464",
+            "name": "TRAVIC - Public Transportation Tracking",
+            "type": "url",
+            "url": "http://tracker.geops.ch/"
          }],
          "id": "886",
          "name": "Vehicle Records",
@@ -3371,6 +3446,11 @@
             "name": "Screenshots.com",
             "type": "url",
             "url": "http://www.screenshots.com/"
+         }, {
+            "id": "1454",
+            "name": "Wayback Machine - Beta Search",
+            "type": "url",
+            "url": "https://web-beta.archive.org/#/"
          }],
          "id": "587",
          "name": "Web",
@@ -4151,6 +4231,51 @@
       "type": "folder"
    }, {
       "children": [{
+         "children": [{
+            "id": "1466",
+            "name": "IBM X-Force Exchange",
+            "type": "url",
+            "url": "https://exchange.xforce.ibmcloud.com/new"
+         }, {
+            "id": "1468",
+            "name": "Malware Information Sharing Platform",
+            "type": "url",
+            "url": "http://www.misp-project.org/"
+         }, {
+            "id": "1469",
+            "name": "Malware Patrol",
+            "type": "url",
+            "url": "https://www.malwarepatrol.net/open-source.shtml"
+         }, {
+            "id": "1470",
+            "name": "Project Honey Pot",
+            "type": "url",
+            "url": "http://www.projecthoneypot.org/"
+         }, {
+            "id": "1471",
+            "name": "Cymon Open Threat Intelligence",
+            "type": "url",
+            "url": "https://cymon.io/"
+         }, {
+            "id": "1472",
+            "name": "mlsecproject / combine",
+            "type": "url",
+            "url": "https://github.com/mlsecproject/combine"
+         }, {
+            "id": "1473",
+            "name": "hostintel - keithjjones Github",
+            "type": "url",
+            "url": "https://github.com/keithjjones/hostintel"
+         }, {
+            "id": "1474",
+            "name": "massive-octo-spice - csirtgadgets Github",
+            "type": "url",
+            "url": "https://github.com/csirtgadgets/massive-octo-spice"
+         }],
+         "id": "1467",
+         "name": "Threat Intelligence",
+         "type": "folder"
+      }, {
          "id": "549",
          "name": "Exploit DB",
          "type": "url",
@@ -4341,6 +4466,11 @@
             "name": "Accountkiller.com",
             "type": "url",
             "url": "https://www.accountkiller.com/en"
+         }, {
+            "id": "1462",
+            "name": "The Internet Privacy Handbook",
+            "type": "url",
+            "url": "https://www.safeshepherd.com/handbook"
          }],
          "id": "1443",
          "name": "Privacy / Clean Up",
@@ -4350,6 +4480,11 @@
          "name": "Self-Destructing Cookies (T)",
          "type": "url",
          "url": "https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/"
+      }, {
+         "id": "1446",
+         "name": "Anonymouth - Document Anonymization (T)",
+         "type": "url",
+         "url": "https://github.com/psal/anonymouth"
       }],
       "id": "493",
       "name": "OpSec",
