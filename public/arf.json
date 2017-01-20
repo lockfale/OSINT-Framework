@@ -591,6 +591,11 @@
             "name": "Keyword Density",
             "type": "url",
             "url": "http://tools.seobook.com/general/keyword-density/"
+         }, {
+            "id": "1444",
+            "name": "StackShare",
+            "type": "url",
+            "url": "https://stackshare.io/"
          }],
          "id": "617",
          "name": "Analytics",
