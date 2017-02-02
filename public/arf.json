@@ -562,7 +562,7 @@
             "type": "url",
             "url": "https://www.semrush.com/"
          }, {
-            "id": "1444",
+            "id": "1479",
             "name": "StackShare",
             "type": "url",
             "url": "https://stackshare.io/"
@@ -917,7 +917,7 @@
             "type": "url",
             "url": "https://asn.cymru.com/"
          }, {
-            "id": "1479",
+            "id": "1444",
             "name": "IP to ASN DB",
             "type": "url",
             "url": "https://iptoasn.com/"
@@ -2165,6 +2165,16 @@
          "name": "SearchBug",
          "type": "url",
          "url": "http://www.searchbug.com/#pageTop"
+      }, {
+         "id": "1481",
+         "name": "Nuwber",
+         "type": "url",
+         "url": "https://nuwber.com/"
+      }, {
+         "id": "1482",
+         "name": "eVerify",
+         "type": "url",
+         "url": "http://www.everify.com/"
       }],
       "id": "520",
       "name": "People Search Engines",
@@ -2281,20 +2291,25 @@
          "name": "Voicemail",
          "type": "folder"
       }, {
-         "id": "690",
-         "name": "Fone Finder",
+         "id": "1083",
+         "name": "IntelTechniques Phone Tools",
          "type": "url",
-         "url": "http://www.fonefinder.net/"
+         "url": "https://inteltechniques.com/intel/osint/telephone.html"
       }, {
-         "id": "1476",
-         "name": "Twilio Lookup",
+         "id": "1483",
+         "name": "Pipl API (M)",
          "type": "url",
-         "url": "https://www.twilio.com/lookup"
+         "url": "https://api.pipl.com/search/v5/?phone=18887420000&key=sample_key&pretty=true"
       }, {
          "id": "335",
          "name": "WhoCalld",
          "type": "url",
          "url": "https://whocalld.com/"
+      }, {
+         "id": "1449",
+         "name": "411",
+         "type": "url",
+         "url": "http://www.411.com/reverse_phone"
       }, {
          "id": "1477",
          "name": "CallerID Test",
@@ -2306,15 +2321,25 @@
          "type": "url",
          "url": "https://thatsthem.com/reverse-phone-lookup"
       }, {
+         "id": "1476",
+         "name": "Twilio Lookup",
+         "type": "url",
+         "url": "https://www.twilio.com/lookup"
+      }, {
+         "id": "690",
+         "name": "Fone Finder",
+         "type": "url",
+         "url": "http://www.fonefinder.net/"
+      }, {
          "id": "337",
          "name": "True Caller",
          "type": "url",
          "url": "http://www.truecaller.com/"
       }, {
-         "id": "333",
-         "name": "Data24-7",
+         "id": "1450",
+         "name": "Reverse Genie",
          "type": "url",
-         "url": "https://www.data24-7.com/signup.php"
+         "url": "http://www.reversegenie.com/phone.php"
       }, {
          "id": "342",
          "name": "SpyDialer",
@@ -2326,45 +2351,35 @@
          "type": "url",
          "url": "http://www.phonevalidator.com/"
       }, {
-         "id": "918",
-         "name": "HLR Lookup Portal",
-         "type": "url",
-         "url": "https://www.hlr-lookups.com/"
-      }, {
-         "id": "1083",
-         "name": "IntelTechniques Phone Tools",
-         "type": "url",
-         "url": "https://inteltechniques.com/intel/osint/telephone.html"
-      }, {
-         "id": "1085",
-         "name": "Next Caller",
-         "type": "url",
-         "url": "https://nextcaller.com/"
-      }, {
          "id": "1194",
          "name": "Free Carrier Lookup",
          "type": "url",
          "url": "http://freecarrierlookup.com/"
       }, {
-         "id": "1449",
-         "name": "411",
+         "id": "1451",
+         "name": "Mr. Number (M)",
          "type": "url",
-         "url": "http://www.411.com/reverse_phone"
-      }, {
-         "id": "1450",
-         "name": "Reverse Genie",
-         "type": "url",
-         "url": "http://www.reversegenie.com/phone.php"
+         "url": "http://mrnumber.com/1-888-742-0000"
       }, {
          "id": "689",
          "name": "CallerIDService.com (R)",
          "type": "url",
          "url": "http://www.calleridservice.com/"
       }, {
-         "id": "1451",
-         "name": "Mr. Number (M)",
+         "id": "1085",
+         "name": "Next Caller (R)",
          "type": "url",
-         "url": "http://mrnumber.com/1-888-742-0000"
+         "url": "https://nextcaller.com/"
+      }, {
+         "id": "333",
+         "name": "Data24-7 (R)",
+         "type": "url",
+         "url": "https://www.data24-7.com/signup.php"
+      }, {
+         "id": "918",
+         "name": "HLR Lookup Portal (R)",
+         "type": "url",
+         "url": "https://www.hlr-lookups.com/"
       }],
       "id": "518",
       "name": "Telephone Numbers",
@@ -2751,6 +2766,11 @@
             "name": "CVGadget",
             "type": "url",
             "url": "http://www.cvgadget.com/"
+         }, {
+            "id": "1486",
+            "name": "LeadFerret.com",
+            "type": "url",
+            "url": "https://leadferret.com/search"
          }],
          "id": "694",
          "name": "Employee Profiles & Resumes",
@@ -2777,20 +2797,25 @@
    }, {
       "children": [{
          "children": [{
-            "id": "483",
-            "name": "Reverse Genie License Plates",
-            "type": "url",
-            "url": "http://www.reversegenie.com/plate.php"
-         }, {
             "id": "1046",
             "name": "Vehicle Purchase Records",
             "type": "url",
             "url": "http://vin.place/"
          }, {
+            "id": "1484",
+            "name": "VIN Decoderz",
+            "type": "url",
+            "url": "http://www.vindecoderz.com/"
+         }, {
             "id": "672",
-            "name": "VIN Number",
+            "name": "That's Them VIN Search",
             "type": "url",
             "url": "https://thatsthem.com/vin-search"
+         }, {
+            "id": "483",
+            "name": "Reverse Genie License Plates",
+            "type": "url",
+            "url": "http://www.reversegenie.com/plate.php"
          }, {
             "id": "1344",
             "name": "VinCheck",
@@ -2801,6 +2826,11 @@
             "name": "TRAVIC - Public Transportation Tracking",
             "type": "url",
             "url": "http://tracker.geops.ch/"
+         }, {
+            "id": "1485",
+            "name": "Vehicle Specifications Lookup",
+            "type": "url",
+            "url": "https://berla.co/products/ive/vehicle-lookup/"
          }],
          "id": "886",
          "name": "Vehicle Records",
@@ -3027,11 +3057,6 @@
             "type": "url",
             "url": "https://www.google.com/advanced_search"
          }, {
-            "id": "44",
-            "name": "iSEEK",
-            "type": "url",
-            "url": "http://iseek.com/iseek/home.page"
-         }, {
             "id": "45",
             "name": "iBoogie",
             "type": "url",
@@ -3046,11 +3071,6 @@
             "name": "Bing vs. Google",
             "type": "url",
             "url": "http://bvsg.org/"
-         }, {
-            "id": "47",
-            "name": "Carrot2",
-            "type": "url",
-            "url": "http://search.carrot2.org/stable/search"
          }, {
             "id": "935",
             "name": "Ixquick Search Engine",
@@ -3069,6 +3089,31 @@
          }],
          "id": "895",
          "name": "General Search",
+         "type": "folder"
+      }, {
+         "children": [{
+            "id": "44",
+            "name": "iSEEK",
+            "type": "url",
+            "url": "http://iseek.com/iseek/home.page"
+         }, {
+            "id": "1487",
+            "name": "Biznar",
+            "type": "url",
+            "url": "http://biznar.com/biznar/desktop/en/search.html"
+         }, {
+            "id": "47",
+            "name": "Carrot2",
+            "type": "url",
+            "url": "http://search.carrot2.org/stable/search"
+         }, {
+            "id": "1491",
+            "name": "Yippy",
+            "type": "url",
+            "url": "http://yippy.com/"
+         }],
+         "id": "1490",
+         "name": "Categorized Search",
          "type": "folder"
       }, {
          "children": [{
@@ -3206,6 +3251,11 @@
             "name": "Library Databases",
             "type": "url",
             "url": "http://guides.uflib.ufl.edu/az.php"
+         }, {
+            "id": "1492",
+            "name": "Copyscape Plagiarism Checker",
+            "type": "url",
+            "url": "http://copyscape.com/"
          }],
          "id": "1199",
          "name": "Publication Search",
@@ -3276,6 +3326,11 @@
             "name": "Economics Search Engine",
             "type": "url",
             "url": "http://ese.rfe.org/"
+         }, {
+            "id": "1488",
+            "name": "AOL Search Database",
+            "type": "url",
+            "url": "http://search-id.com/"
          }],
          "id": "1208",
          "name": "Other Search",
