@@ -521,7 +521,27 @@
          "name": "Reputation",
          "type": "folder"
       }, {
-         "children": [],
+         "children": [{
+            "id": "1570",
+            "name": "Ransomware Tracker Abuse.ch",
+            "type": "url",
+            "url": "http://ransomwaretracker.abuse.ch/downloads/RW_DOMBL.txt"
+         }, {
+            "id": "1571",
+            "name": "Threatexpert.com Malicious URLs",
+            "type": "url",
+            "url": "http://www.networksec.org/grabbho/block.txt"
+         }, {
+            "id": "1572",
+            "name": "Zeus C2 Tracker",
+            "type": "url",
+            "url": "https://zeustracker.abuse.ch/blocklist.php?download=domainblocklist"
+         }, {
+            "id": "1573",
+            "name": "Malware Domains Blacklist",
+            "type": "url",
+            "url": "http://mirror1.malwaredomains.com/files/domains.txt"
+         }],
          "id": "1365",
          "name": "Domain Blacklists",
          "type": "folder"
@@ -732,6 +752,11 @@
                "name": "Sn1per (T)",
                "type": "url",
                "url": "https://github.com/1N3/Sn1per"
+            }, {
+               "id": "1569",
+               "name": "Kraken",
+               "type": "url",
+               "url": "https://github.com/Sw4mpf0x/Kraken"
             }],
             "id": "635",
             "name": "Scanners",
@@ -3010,6 +3035,11 @@
          "name": "Google Earth",
          "type": "url",
          "url": "https://www.google.com/earth/"
+      }, {
+         "id": "1576",
+         "name": "Baidu Maps",
+         "type": "url",
+         "url": "http://map.baidu.com/"
       }],
       "id": "519",
       "name": "Maps",
@@ -3086,6 +3116,11 @@
             "name": "Instya",
             "type": "url",
             "url": "http://www.instya.com/#/web/"
+         }, {
+            "id": "1567",
+            "name": "Hulbee",
+            "type": "url",
+            "url": "https://hulbee.com/"
          }],
          "id": "895",
          "name": "General Search",
@@ -3506,6 +3541,11 @@
             "name": "Wayback Machine - Beta Search",
             "type": "url",
             "url": "https://web-beta.archive.org/#/"
+         }, {
+            "id": "1577",
+            "name": "Common Crawl",
+            "type": "url",
+            "url": "http://commoncrawl.org/"
          }],
          "id": "587",
          "name": "Web",
@@ -4166,6 +4206,11 @@
             "name": "#totalhash",
             "type": "url",
             "url": "https://totalhash.cymru.com/"
+         }, {
+            "id": "1574",
+            "name": "VX Vault",
+            "type": "url",
+            "url": "http://vxvault.net/ViriList.php"
          }],
          "id": "1332",
          "name": "Search",
@@ -4276,6 +4321,11 @@
             "name": "NetworkTotal",
             "type": "url",
             "url": "https://www.networktotal.com/"
+         }, {
+            "id": "1575",
+            "name": "Malware-Traffic-Analysis.net",
+            "type": "url",
+            "url": "http://www.malware-traffic-analysis.net/index.html"
          }],
          "id": "838",
          "name": "PCAPs",
