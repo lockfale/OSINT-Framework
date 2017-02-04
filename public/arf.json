@@ -257,6 +257,11 @@
             "type": "url",
             "url": "http://whois.domaintools.com/"
          }, {
+            "id": "1586",
+            "name": "Domain Big Data",
+            "type": "url",
+            "url": "http://domainbigdata.com/"
+         }, {
             "id": "243",
             "name": "DNS Dumpster",
             "type": "url",
@@ -401,6 +406,11 @@
             "name": "Network Intelligence",
             "type": "url",
             "url": "http://netintel.net/"
+         }, {
+            "id": "1582",
+            "name": "Sublist3r",
+            "type": "url",
+            "url": "https://github.com/aboul3la/Sublist3r"
          }],
          "id": "618",
          "name": "Subdomains",
@@ -522,6 +532,16 @@
          "type": "folder"
       }, {
          "children": [{
+            "id": "1588",
+            "name": "Mnemonic",
+            "type": "url",
+            "url": "http://passivedns.mnemonic.no/search/"
+         }],
+         "id": "1587",
+         "name": "PassiveDNS",
+         "type": "folder"
+      }, {
+         "children": [{
             "id": "1570",
             "name": "Ransomware Tracker Abuse.ch",
             "type": "url",
@@ -626,6 +646,11 @@
             "name": "Keyword Density",
             "type": "url",
             "url": "http://tools.seobook.com/general/keyword-density/"
+         }, {
+            "id": "1585",
+            "name": "Alexa Site Statistics",
+            "type": "url",
+            "url": "http://www.alexa.com/siteinfo"
          }],
          "id": "617",
          "name": "Analytics",
@@ -3040,6 +3065,31 @@
          "name": "Baidu Maps",
          "type": "url",
          "url": "http://map.baidu.com/"
+      }, {
+         "id": "1578",
+         "name": "Corona",
+         "type": "url",
+         "url": "http://corona.cast.uark.edu/"
+      }, {
+         "id": "1579",
+         "name": "Daum (Korean)",
+         "type": "url",
+         "url": "http://map.daum.net/"
+      }, {
+         "id": "1580",
+         "name": "Naver (Korean)",
+         "type": "url",
+         "url": "http://map.naver.com/"
+      }, {
+         "id": "1581",
+         "name": "OpenStreetMap",
+         "type": "url",
+         "url": "http://www.openstreetmap.org/#map=5/51.500/-0.100"
+      }, {
+         "id": "1584",
+         "name": "EarthExplorer",
+         "type": "url",
+         "url": "https://earthexplorer.usgs.gov/"
       }],
       "id": "519",
       "name": "Maps",
@@ -4680,6 +4730,11 @@
          "id": "723",
          "name": "Map Locations",
          "type": "folder"
+      }, {
+         "id": "1583",
+         "name": "Timeline JS3",
+         "type": "url",
+         "url": "http://timeline.knightlab.com/"
       }],
       "id": "532",
       "name": "Documentation",
