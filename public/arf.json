@@ -41,6 +41,11 @@
             "name": "IntelTechniques Username Tools",
             "type": "url",
             "url": "https://inteltechniques.com/intel/OSINT/username.html"
+         }, {
+            "id": "1592",
+            "name": "Check Usernames",
+            "type": "url",
+            "url": "http://checkusernames.com/"
          }],
          "id": "499",
          "name": "Username Search Engines",
@@ -1347,6 +1352,11 @@
                "name": "Geo Search Tool",
                "type": "url",
                "url": "http://www.geosearchtool.com/"
+            }, {
+               "id": "1598",
+               "name": "blinkx Video Search",
+               "type": "url",
+               "url": "http://www.blinkx.com/"
             }],
             "id": "763",
             "name": "Search",
@@ -2446,6 +2456,11 @@
             "name": "Zillow",
             "type": "url",
             "url": "http://www.zillow.com/"
+         }, {
+            "id": "1503",
+            "name": "Emporis",
+            "type": "url",
+            "url": "https://www.emporis.com/"
          }],
          "id": "882",
          "name": "Property Records",
@@ -2591,6 +2606,11 @@
             "name": "Influence Explorer",
             "type": "url",
             "url": "http://data.influenceexplorer.com/#"
+         }, {
+            "id": "1590",
+            "name": "US Federal Election Commission",
+            "type": "url",
+            "url": "http://www.fec.gov/finance/disclosure/norindsea.shtml"
          }],
          "id": "887",
          "name": "Campaign Donation Records",
@@ -2687,11 +2707,6 @@
             "type": "url",
             "url": "https://www.gov.uk/get-information-about-a-company"
          }, {
-            "id": "704",
-            "name": "Europages",
-            "type": "url",
-            "url": "http://www.europages.co.uk/"
-         }, {
             "id": "705",
             "name": "Global EDGE Resource Directory",
             "type": "url",
@@ -2771,6 +2786,26 @@
             "name": "Companies House",
             "type": "url",
             "url": "https://beta.companieshouse.gov.uk/"
+         }, {
+            "id": "1593",
+            "name": "Hoovers",
+            "type": "url",
+            "url": "http://www.hoovers.com/"
+         }, {
+            "id": "1594",
+            "name": "Corporate Information",
+            "type": "url",
+            "url": "http://corporateinformation.com/"
+         }, {
+            "id": "1595",
+            "name": "Company Data Rex (EU)",
+            "type": "url",
+            "url": "http://cdrex.com/"
+         }, {
+            "id": "704",
+            "name": "Europages",
+            "type": "url",
+            "url": "http://www.europages.co.uk/"
          }],
          "id": "693",
          "name": "Company Profiles",
@@ -3501,6 +3536,11 @@
             "name": "Craigslist Forums",
             "type": "url",
             "url": "https://forums.craigslist.org/"
+         }, {
+            "id": "1597",
+            "name": "Delphi Forum Search",
+            "type": "url",
+            "url": "http://www.delphiforums.com/"
          }],
          "id": "877",
          "name": "Forum Search Engines",
@@ -4386,51 +4426,6 @@
       "type": "folder"
    }, {
       "children": [{
-         "children": [{
-            "id": "1466",
-            "name": "IBM X-Force Exchange",
-            "type": "url",
-            "url": "https://exchange.xforce.ibmcloud.com/new"
-         }, {
-            "id": "1468",
-            "name": "Malware Information Sharing Platform",
-            "type": "url",
-            "url": "http://www.misp-project.org/"
-         }, {
-            "id": "1469",
-            "name": "Malware Patrol",
-            "type": "url",
-            "url": "https://www.malwarepatrol.net/open-source.shtml"
-         }, {
-            "id": "1470",
-            "name": "Project Honey Pot",
-            "type": "url",
-            "url": "http://www.projecthoneypot.org/"
-         }, {
-            "id": "1471",
-            "name": "Cymon Open Threat Intelligence",
-            "type": "url",
-            "url": "https://cymon.io/"
-         }, {
-            "id": "1472",
-            "name": "mlsecproject / combine",
-            "type": "url",
-            "url": "https://github.com/mlsecproject/combine"
-         }, {
-            "id": "1473",
-            "name": "hostintel - keithjjones Github",
-            "type": "url",
-            "url": "https://github.com/keithjjones/hostintel"
-         }, {
-            "id": "1474",
-            "name": "massive-octo-spice - csirtgadgets Github",
-            "type": "url",
-            "url": "https://github.com/csirtgadgets/massive-octo-spice"
-         }],
-         "id": "1467",
-         "name": "Threat Intelligence",
-         "type": "folder"
-      }, {
          "id": "549",
          "name": "Exploit DB",
          "type": "url",
@@ -4473,6 +4468,61 @@
       }],
       "id": "538",
       "name": "Exploits & Advisories",
+      "type": "folder"
+   }, {
+      "children": [{
+         "id": "1466",
+         "name": "IBM X-Force Exchange",
+         "type": "url",
+         "url": "https://exchange.xforce.ibmcloud.com/new"
+      }, {
+         "id": "1468",
+         "name": "Malware Information Sharing Platform",
+         "type": "url",
+         "url": "http://www.misp-project.org/"
+      }, {
+         "id": "1469",
+         "name": "Malware Patrol",
+         "type": "url",
+         "url": "https://www.malwarepatrol.net/open-source.shtml"
+      }, {
+         "id": "1470",
+         "name": "Project Honey Pot",
+         "type": "url",
+         "url": "http://www.projecthoneypot.org/"
+      }, {
+         "id": "1471",
+         "name": "Cymon Open Threat Intelligence",
+         "type": "url",
+         "url": "https://cymon.io/"
+      }, {
+         "id": "1472",
+         "name": "mlsecproject / combine",
+         "type": "url",
+         "url": "https://github.com/mlsecproject/combine"
+      }, {
+         "id": "1473",
+         "name": "hostintel - keithjjones Github",
+         "type": "url",
+         "url": "https://github.com/keithjjones/hostintel"
+      }, {
+         "id": "1474",
+         "name": "massive-octo-spice - csirtgadgets Github",
+         "type": "url",
+         "url": "https://github.com/csirtgadgets/massive-octo-spice"
+      }, {
+         "id": "1530",
+         "name": "Bot Scout",
+         "type": "url",
+         "url": "http://botscout.com/"
+      }, {
+         "id": "1596",
+         "name": "https://openphish.com/feed.txt",
+         "type": "url",
+         "url": "https://openphish.com/feed.txt"
+      }],
+      "id": "1467",
+      "name": "Threat Intelligence",
       "type": "folder"
    }, {
       "children": [{
