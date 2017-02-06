@@ -537,6 +537,46 @@
          "type": "folder"
       }, {
          "children": [{
+            "id": "639",
+            "name": "Shodan",
+            "type": "url",
+            "url": "https://www.shodan.io/"
+         }, {
+            "id": "640",
+            "name": "PunkSPIDER",
+            "type": "url",
+            "url": "https://www.punkspider.org/"
+         }, {
+            "id": "1569",
+            "name": "Kraken",
+            "type": "url",
+            "url": "https://github.com/Sw4mpf0x/Kraken"
+         }, {
+            "id": "1600",
+            "name": "Punk.sh",
+            "type": "url",
+            "url": "https://punk.sh/#/"
+         }, {
+            "id": "1604",
+            "name": "urlscan.io",
+            "type": "url",
+            "url": "https://urlscan.io/search/#*"
+         }, {
+            "id": "245",
+            "name": "SameID",
+            "type": "url",
+            "url": "http://sameid.net/"
+         }, {
+            "id": "1605",
+            "name": "Redirect Detective",
+            "type": "url",
+            "url": "http://redirectdetective.com/"
+         }],
+         "id": "1603",
+         "name": "Discovery",
+         "type": "folder"
+      }, {
+         "children": [{
             "id": "1588",
             "name": "Mnemonic",
             "type": "url",
@@ -611,11 +651,6 @@
             "name": "StackShare",
             "type": "url",
             "url": "https://stackshare.io/"
-         }, {
-            "id": "245",
-            "name": "SameID",
-            "type": "url",
-            "url": "http://sameid.net/"
          }, {
             "id": "1366",
             "name": "Ewhois",
@@ -763,16 +798,6 @@
       }, {
          "children": [{
             "children": [{
-               "id": "639",
-               "name": "Shodan",
-               "type": "url",
-               "url": "https://www.shodan.io/"
-            }, {
-               "id": "640",
-               "name": "PunkSPIDER",
-               "type": "url",
-               "url": "https://www.punkspider.org/"
-            }, {
                "id": "641",
                "name": "ASafaWeb",
                "type": "url",
@@ -782,11 +807,6 @@
                "name": "Sn1per (T)",
                "type": "url",
                "url": "https://github.com/1N3/Sn1per"
-            }, {
-               "id": "1569",
-               "name": "Kraken",
-               "type": "url",
-               "url": "https://github.com/Sw4mpf0x/Kraken"
             }],
             "id": "635",
             "name": "Scanners",
@@ -951,6 +971,11 @@
             "name": "Internet Census Search",
             "type": "url",
             "url": "http://www.exfiltrated.com/querystart.php"
+         }, {
+            "id": "1601",
+            "name": "urlscan.io",
+            "type": "url",
+            "url": "https://urlscan.io/search/#*"
          }],
          "id": "1402",
          "name": "Host / Port Discovery",
@@ -1758,6 +1783,11 @@
                   "name": "Bioischanged (M)",
                   "type": "url",
                   "url": "http://bioischanged.com/%3Ctwitterusername%3E"
+               }, {
+                  "id": "1602",
+                  "name": "X0rz Tweets_analyzer",
+                  "type": "url",
+                  "url": "https://github.com/x0rz/tweets_analyzer"
                }],
                "id": "859",
                "name": "Profile",
@@ -3706,6 +3736,11 @@
             "name": "Wiktionary",
             "type": "url",
             "url": "https://www.wiktionary.org/"
+         }, {
+            "id": "1610",
+            "name": "Slangit - The Slang Dictionary",
+            "type": "url",
+            "url": "https://slangit.com/"
          }],
          "id": "539",
          "name": "Text",
@@ -3969,6 +4004,21 @@
          }],
          "id": "1243",
          "name": "Clients",
+         "type": "folder"
+      }, {
+         "children": [{
+            "id": "1608",
+            "name": "OnionScan",
+            "type": "url",
+            "url": "https://github.com/s-rah/onionscan"
+         }, {
+            "id": "1607",
+            "name": "Onioff",
+            "type": "url",
+            "url": "https://github.com/k4m4/onioff"
+         }],
+         "id": "1609",
+         "name": "Discovery",
          "type": "folder"
       }, {
          "children": [{
@@ -4676,6 +4726,16 @@
             "name": "The Internet Privacy Handbook",
             "type": "url",
             "url": "https://www.safeshepherd.com/handbook"
+         }, {
+            "id": "1599",
+            "name": "OptOut Credit Prescreen",
+            "type": "url",
+            "url": "https://www.optoutprescreen.com/?rf=t"
+         }, {
+            "id": "1606",
+            "name": "Fake US Identities",
+            "type": "url",
+            "url": "http://xdd2.org/"
          }],
          "id": "1443",
          "name": "Privacy / Clean Up",
