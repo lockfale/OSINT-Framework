@@ -571,6 +571,11 @@
             "name": "Redirect Detective",
             "type": "url",
             "url": "http://redirectdetective.com/"
+         }, {
+            "id": "1611",
+            "name": "Sitediff",
+            "type": "url",
+            "url": "https://github.com/digininja/sitediff"
          }],
          "id": "1603",
          "name": "Discovery",
@@ -1794,6 +1799,11 @@
                "type": "folder"
             }, {
                "children": [{
+                  "id": "1322",
+                  "name": "Tagboard",
+                  "type": "url",
+                  "url": "https://tagboard.com/"
+               }, {
                   "id": "864",
                   "name": "RiteTag",
                   "type": "url",
@@ -1803,11 +1813,6 @@
                   "name": "Trendsmap",
                   "type": "url",
                   "url": "http://trendsmap.com/"
-               }, {
-                  "id": "1322",
-                  "name": "Tagboard",
-                  "type": "url",
-                  "url": "https://tagboard.com/"
                }],
                "id": "860",
                "name": "Hashtag",
@@ -2021,6 +2026,11 @@
             "name": "SocialBlade.com",
             "type": "url",
             "url": "http://socialblade.com/"
+         }, {
+            "id": "1616",
+            "name": "Talkwalker Social Media Search (R)",
+            "type": "url",
+            "url": "https://www.talkwalker.com/social-media-analytics-search"
          }],
          "id": "813",
          "name": "Search",
@@ -2836,6 +2846,11 @@
             "name": "Europages",
             "type": "url",
             "url": "http://www.europages.co.uk/"
+         }, {
+            "id": "1612",
+            "name": "Glassdoor Company Reviews",
+            "type": "url",
+            "url": "https://www.glassdoor.com/Reviews/index.htm"
          }],
          "id": "693",
          "name": "Company Profiles",
@@ -3521,6 +3536,11 @@
             "name": "pagodo - Passive Google Dork (T)",
             "type": "url",
             "url": "https://github.com/opsdisk/pagodo"
+         }, {
+            "id": "1615",
+            "name": "Talkwalker Alerts",
+            "type": "url",
+            "url": "http://www.talkwalker.com/alerts"
          }],
          "id": "896",
          "name": "Search Tools",
@@ -3541,6 +3561,11 @@
             "name": "Google Guide Cheat Sheet",
             "type": "url",
             "url": "http://googleguide.com/help/calculator.html"
+         }, {
+            "id": "1613",
+            "name": "A Google a Day",
+            "type": "url",
+            "url": "http://www.agoogleaday.com/"
          }],
          "id": "1238",
          "name": "Search Engine Guides",
@@ -3732,6 +3757,16 @@
             "type": "url",
             "url": "http://translate.reference.com/"
          }, {
+            "id": "1620",
+            "name": "Free Translation",
+            "type": "url",
+            "url": "https://www.freetranslation.com/"
+         }, {
+            "id": "1619",
+            "name": "Free Online Translation",
+            "type": "url",
+            "url": "http://www.worldlingo.com/en/products_services/worldlingo_translator.html"
+         }, {
             "id": "1424",
             "name": "Wiktionary",
             "type": "url",
@@ -3741,6 +3776,16 @@
             "name": "Slangit - The Slang Dictionary",
             "type": "url",
             "url": "https://slangit.com/"
+         }, {
+            "id": "1617",
+            "name": "Slang Dictionary & Translator",
+            "type": "url",
+            "url": "http://www.noslang.com/"
+         }, {
+            "id": "1618",
+            "name": "Urban Dictionary",
+            "type": "url",
+            "url": "http://www.urbandictionary.com/"
          }],
          "id": "539",
          "name": "Text",
@@ -3775,12 +3820,17 @@
             "id": "547",
             "name": "Personality Insights",
             "type": "url",
-            "url": "https://watson-pi-demo.mybluemix.net/"
+            "url": "https://personality-insights-livedemo.mybluemix.net/"
          }, {
             "id": "548",
             "name": "Tone Analyzer",
             "type": "url",
             "url": "https://tone-analyzer-demo.mybluemix.net/"
+         }, {
+            "id": "1614",
+            "name": "WhatTheFont",
+            "type": "url",
+            "url": "https://www.myfonts.com/WhatTheFont/"
          }],
          "id": "541",
          "name": "Analysis",
