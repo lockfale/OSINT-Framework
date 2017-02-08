@@ -526,6 +526,11 @@
             "name": "Web Inspector Online Scan",
             "type": "url",
             "url": "http://app.webinspector.com/"
+         }, {
+            "id": "1364",
+            "name": "PhishTank",
+            "type": "url",
+            "url": "http://www.phishtank.com/"
          }],
          "id": "619",
          "name": "Reputation",
@@ -691,16 +696,6 @@
             "name": "Alexa Site Statistics",
             "type": "url",
             "url": "http://www.alexa.com/siteinfo"
-         }, {
-            "id": "1626",
-            "name": "Cisco Umbrella Popularity List",
-            "type": "url",
-            "url": "http://s3-us-west-1.amazonaws.com/umbrella-static/index.html"
-         }, {
-            "id": "1627",
-            "name": "Alexa Top 500 Global Sites",
-            "type": "url",
-            "url": "http://www.alexa.com/topsites"
          }],
          "id": "617",
          "name": "Analytics",
@@ -847,6 +842,11 @@
          "type": "folder"
       }, {
          "children": [{
+            "id": "922",
+            "name": "FOCA (T)",
+            "type": "url",
+            "url": "https://www.elevenpaths.com/labstools/foca/index.html"
+         }, {
             "id": "1369",
             "name": "SpiderFoot (T)",
             "type": "url",
@@ -1031,11 +1031,6 @@
             "name": "BGP Malicious Content Ranking",
             "type": "url",
             "url": "http://bgpranking.circl.lu/"
-         }, {
-            "id": "1625",
-            "name": "BGPStream",
-            "type": "url",
-            "url": "https://bgpstream.com/"
          }],
          "id": "660",
          "name": "BGP",
@@ -1906,8 +1901,6 @@
             "id": "816",
             "name": "Archive / Deleted Tweets",
             "type": "folder"
-         }, {
-            "id": "2089",
          }],
          "id": "809",
          "name": "Twitter",
@@ -3858,7 +3851,10 @@
          "type": "url",
          "url": "http://www.edge-security.com/metagoofil.php"
       }, {
+         "id": "988",
+         "name": "CodeTwo Outlook Export (T)",
          "type": "url",
+         "url": "http://www.codetwo.com/freeware/outlook-export/"
       }, {
          "id": "1084",
          "name": "IntelTechniques Metadata Tools",
@@ -4575,7 +4571,6 @@
       "type": "folder"
    }, {
       "children": [{
-            "type": "url",
          "id": "1466",
          "name": "IBM X-Force Exchange",
          "type": "url",
@@ -4621,7 +4616,10 @@
          "type": "url",
          "url": "http://botscout.com/"
       }, {
+         "id": "1596",
+         "name": "https://openphish.com/feed.txt",
          "type": "url",
+         "url": "https://openphish.com/feed.txt"
       }],
       "id": "1467",
       "name": "Threat Intelligence",
@@ -4698,16 +4696,69 @@
             "name": "Firefox-debloat",
             "type": "url",
             "url": "https://github.com/amq/firefox-debloat"
-         }, {
-            "type": "url",
-         }, {
-            "type": "url",
-         }, {
-            "type": "url",
-         }, {
-            "type": "url",
          }],
+         "id": "928",
+         "name": "Anonymous Browsing",
+         "type": "folder"
+      }, {
+         "children": [{
+            "id": "495",
+            "name": "IP / DNS Leak Detection",
+            "type": "url",
+            "url": "https://ipleak.net/"
+         }, {
+            "id": "736",
+            "name": "JonDonym",
+            "type": "url",
+            "url": "http://ip-check.info/?lang=en"
+         }, {
+            "id": "737",
+            "name": "DNS leak test",
+            "type": "url",
+            "url": "https://www.dnsleaktest.com/"
+         }, {
+            "id": "738",
+            "name": "DNS Leak Tests",
+            "type": "url",
+            "url": "http://dnsleak.com/"
+         }, {
+            "id": "739",
+            "name": "TorGuard",
+            "type": "url",
+            "url": "https://torguard.net/vpn-dns-leak-test.php"
+         }, {
+            "id": "740",
+            "name": "IPv6 Leak Tests",
+            "type": "url",
+            "url": "http://ipv6leak.com/"
+         }, {
+            "id": "741",
+            "name": "Email Leak Tests",
+            "type": "url",
+            "url": "http://emailipleak.com/"
+         }, {
+            "id": "742",
+            "name": "Perfect Privacy",
+            "type": "url",
+            "url": "https://www.perfect-privacy.com/check-ip/"
+         }, {
+            "id": "743",
+            "name": "WebRTC Leak Test",
+            "type": "url",
+            "url": "https://www.perfect-privacy.com/webrtc-leaktest/"
          }],
+         "id": "494",
+         "name": "VPN Tests",
+         "type": "folder"
+      }, {
+         "children": [{
+            "id": "735",
+            "name": "Proxychecker",
+            "type": "url",
+            "url": "https://proxycheck.haschek.at/"
+         }],
+         "id": "734",
+         "name": "Proxy Tests",
          "type": "folder"
       }, {
          "children": [{
@@ -4739,6 +4790,11 @@
          "id": "1443",
          "name": "Privacy / Clean Up",
          "type": "folder"
+      }, {
+         "id": "1435",
+         "name": "Self-Destructing Cookies (T)",
+         "type": "url",
+         "url": "https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/"
       }, {
          "id": "1446",
          "name": "Anonymouth - Document Anonymization (T)",
