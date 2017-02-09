@@ -580,7 +580,7 @@
             "id": "1588",
             "name": "Mnemonic",
             "type": "url",
-            "url": "http://passivedns.mnemonic.no/search/"
+            "url": "http://passivedns.mnemonic.no/"
          }],
          "id": "1587",
          "name": "PassiveDNS",
@@ -1177,6 +1177,11 @@
                "name": "Lakako Photo Search",
                "type": "url",
                "url": "http://www.lakako.com/"
+            }, {
+               "id": "2098",
+               "name": "CC Search",
+               "type": "url",
+               "url": "https://ccsearch.creativecommons.org/"
             }],
             "id": "752",
             "name": "Search",
@@ -2490,6 +2495,16 @@
          "name": "HLR Lookup Portal (R)",
          "type": "url",
          "url": "https://www.hlr-lookups.com/"
+      }, {
+         "id": "2093",
+         "name": "OpenCNAM",
+         "type": "url",
+         "url": "https://www.opencnam.com/"
+      }, {
+         "id": "2092",
+         "name": "OpenCNAM API",
+         "type": "url",
+         "url": "http://api.opencnam.com/v2/phone/+19073372323"
       }],
       "id": "518",
       "name": "Telephone Numbers",
@@ -3291,9 +3306,19 @@
             "name": "Yippy",
             "type": "url",
             "url": "http://yippy.com/"
+         }, {
+            "id": "2094",
+            "name": "eTools.ch",
+            "type": "url",
+            "url": "https://www.etools.ch/"
+         }, {
+            "id": "2095",
+            "name": "searx.me",
+            "type": "url",
+            "url": "https://searx.me/"
          }],
          "id": "1490",
-         "name": "Categorized Search",
+         "name": "Meta Search",
          "type": "folder"
       }, {
          "children": [{
@@ -3311,6 +3336,11 @@
             "name": "Gitrob (T)",
             "type": "url",
             "url": "https://github.com/michenriksen/gitrob"
+         }, {
+            "id": "2091",
+            "name": "Github-Dorks (T)",
+            "type": "url",
+            "url": "https://github.com/techgaun/github-dorks"
          }],
          "id": "535",
          "name": "Code Search",
@@ -3711,6 +3741,11 @@
             "name": "Wayback Machine Chrome Extension",
             "type": "url",
             "url": "https://chrome.google.com/webstore/detail/wayback-machine/fpnmgdkabkmnadcjpehmlllkndpkmiak"
+         }, {
+            "id": "2100",
+            "name": "PDF My URL",
+            "type": "url",
+            "url": "http://pdfmyurl.com/"
          }],
          "id": "587",
          "name": "Web",
@@ -4496,6 +4531,11 @@
             "id": "1016",
             "name": "PDFs",
             "type": "folder"
+         }, {
+            "id": "2096",
+            "name": "Blueliv Sandbox",
+            "type": "url",
+            "url": "https://community.blueliv.com/#!/sandbox"
          }],
          "id": "1008",
          "name": "Hosted Automated Analysis",
@@ -4621,6 +4661,11 @@
             "name": "IOC Parser",
             "type": "url",
             "url": "https://github.com/armbues/ioc_parser"
+         }, {
+            "id": "2097",
+            "name": "Cacador",
+            "type": "url",
+            "url": "https://github.com/sroberts/cacador"
          }],
          "id": "2085",
          "name": "IOC Tools",
@@ -4821,6 +4866,11 @@
             "name": "Self-Destructing Cookies (T)",
             "type": "url",
             "url": "https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/"
+         }, {
+            "id": "2099",
+            "name": "BrowserSpy.dk",
+            "type": "url",
+            "url": "http://browserspy.dk/"
          }],
          "id": "928",
          "name": "Anonymous Browsing",
