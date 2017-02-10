@@ -701,6 +701,16 @@
             "name": "Alexa Top 500 Global Sites",
             "type": "url",
             "url": "http://www.alexa.com/topsites"
+         }, {
+            "id": "2105",
+            "name": "W3bin.com",
+            "type": "url",
+            "url": "https://w3bin.com/"
+         }, {
+            "id": "2106",
+            "name": "Sitedossier",
+            "type": "url",
+            "url": "http://www.sitedossier.com/"
          }],
          "id": "617",
          "name": "Analytics",
@@ -1182,6 +1192,11 @@
                "name": "CC Search",
                "type": "url",
                "url": "https://ccsearch.creativecommons.org/"
+            }, {
+               "id": "2108",
+               "name": "CamFind App",
+               "type": "url",
+               "url": "http://camfindapp.com/"
             }],
             "id": "752",
             "name": "Search",
@@ -1907,6 +1922,11 @@
                "name": "All My Tweets",
                "type": "url",
                "url": "https://www.allmytweets.net/connect/"
+            }, {
+               "id": "2101",
+               "name": "Deadbird",
+               "type": "url",
+               "url": "https://deadbird.site/"
             }],
             "id": "816",
             "name": "Archive / Deleted Tweets",
@@ -2046,6 +2066,11 @@
             "name": "Talkwalker Social Media Search (R)",
             "type": "url",
             "url": "https://www.talkwalker.com/social-media-analytics-search"
+         }, {
+            "id": "2110",
+            "name": "BuzzSumo Most Shared",
+            "type": "url",
+            "url": "https://app.buzzsumo.com/research/most-shared"
          }],
          "id": "813",
          "name": "Search",
@@ -2290,6 +2315,11 @@
          "name": "eVerify",
          "type": "url",
          "url": "http://www.everify.com/"
+      }, {
+         "id": "2107",
+         "name": "Genealogy.com",
+         "type": "url",
+         "url": "http://www.genealogy.com/"
       }],
       "id": "520",
       "name": "People Search Engines",
@@ -3200,6 +3230,11 @@
          "name": "EarthExplorer",
          "type": "url",
          "url": "https://earthexplorer.usgs.gov/"
+      }, {
+         "id": "2102",
+         "name": "OpenStreetCam",
+         "type": "url",
+         "url": "http://openstreetcam.org/"
       }],
       "id": "519",
       "name": "Maps",
@@ -3746,6 +3781,16 @@
             "name": "PDF My URL",
             "type": "url",
             "url": "http://pdfmyurl.com/"
+         }, {
+            "id": "2103",
+            "name": "Bounce",
+            "type": "url",
+            "url": "http://www.bounceapp.com/"
+         }, {
+            "id": "2104",
+            "name": "Browsershots",
+            "type": "url",
+            "url": "http://browsershots.org/"
          }],
          "id": "587",
          "name": "Web",
@@ -3942,6 +3987,11 @@
                "name": "Andy Android Emulator (T)",
                "type": "url",
                "url": "http://www.andyroid.net/"
+            }, {
+               "id": "2109",
+               "name": "Nox App Player",
+               "type": "url",
+               "url": "https://www.bignox.com/"
             }],
             "id": "960",
             "name": "Emulation Tools",
