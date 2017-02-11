@@ -71,6 +71,11 @@
             "name": "WhatsMyName",
             "type": "url",
             "url": "https://github.com/WebBreacher/WhatsMyName"
+         }, {
+            "id": "2118",
+            "name": "Keybase",
+            "type": "url",
+            "url": "https://keybase.io/"
          }],
          "id": "500",
          "name": "Specific Sites",
@@ -711,6 +716,11 @@
             "name": "Sitedossier",
             "type": "url",
             "url": "http://www.sitedossier.com/"
+         }, {
+            "id": "2113",
+            "name": "Visual Site Mapper",
+            "type": "url",
+            "url": "http://www.visualsitemapper.com/"
          }],
          "id": "617",
          "name": "Analytics",
@@ -1197,6 +1207,11 @@
                "name": "CamFind App",
                "type": "url",
                "url": "http://camfindapp.com/"
+            }, {
+               "id": "2119",
+               "name": "RevEye Reverse Image Search (T)",
+               "type": "url",
+               "url": "https://chrome.google.com/webstore/detail/reveye-reverse-image-sear/keaaclcjhehbbapnphnmpiklalfhelgf?hl=en"
             }],
             "id": "752",
             "name": "Search",
@@ -1388,11 +1403,6 @@
                "type": "url",
                "url": "https://www.google.com/search?q=site:vine.co+%3Csearchterm%3E"
             }, {
-               "id": "189",
-               "name": "YouTube Metadata",
-               "type": "url",
-               "url": "http://www.amnestyusa.org/citizenevidence/"
-            }, {
                "id": "1067",
                "name": "IntelTechniques YouTube Tools",
                "type": "url",
@@ -1412,6 +1422,11 @@
                "name": "blinkx Video Search",
                "type": "url",
                "url": "http://www.blinkx.com/"
+            }, {
+               "id": "2111",
+               "name": "Facebook Live Map",
+               "type": "url",
+               "url": "https://www.facebook.com/livemap#"
             }],
             "id": "763",
             "name": "Search",
@@ -1432,9 +1447,19 @@
                "name": "Print Storyboard from Youtube",
                "type": "url",
                "url": "javascript:(function(){a=ytplayer.config.args.storyboard_spec;if(!a){alert(\"Sorry we cannot process this YouTube video. Could you please try another one\");exit();}b=a.split(\"|\");base=b[0].split(\"$\")[0]+\"2/M\";c=b[3].split(\"%23\");sigh=c[c.length-1];var imgs=\"\";t=ytplayer.config.args.length_seconds;n=Math.ceil(c[2]/(c[3]*c[4]));for(i=0;i\u003Cn;i++){imgs+=\"\u003CPICTURE='\"+base+i+\".jpg%3Fsigh=\"+sigh+\"'>\u003Cbr/>\";}var title=ytplayer.config.args.title;msg=\"\u003Cbody style='background-color:#444;color:#eee;margin:20px%20auto;width:90%;text-align:center'%3E%3Ch2%3ETITLE%3C/h2%3E%3Cdiv%3EIMAGES%3C/div%3E%3Cbr/%3E%3Cem%3E%3Ca%20href='http://labnol.org/?p=28217'%20style='text-decoration:none;color:#fff;font-style:bold'%3EPrinted%20using%20the%20YouTube%20bookmarklet.%3C/a%3E%3C/em%3E%3C/body%3E%22;msg=msg.replace(%22TITLE%22,title).replace(%22IMAGES%22,imgs).replace(/PICTURE/g,%22img%20src%22);var%20labnol=window.open();labnol.document.open();labnol.document.write(msg);labnol.document.close();})();"
+            }, {
+               "id": "2120",
+               "name": "Frame by Frame for YouTube (T)",
+               "type": "url",
+               "url": "https://chrome.google.com/webstore/detail/frame-by-frame-for-youtub/elkadbdicdciddfkdpmaolomehalghio?hl=en-GB"
+            }, {
+               "id": "189",
+               "name": "YouTube Metadata",
+               "type": "url",
+               "url": "http://www.amnestyusa.org/citizenevidence/"
             }],
             "id": "764",
-            "name": "Record / Document",
+            "name": "Analyze / Record",
             "type": "folder"
          }],
          "id": "762",
@@ -1612,6 +1637,11 @@
                "name": "Socialsearching",
                "type": "url",
                "url": "http://socialsearching.info/#/fb"
+            }, {
+               "id": "2112",
+               "name": "Facebook Live Map",
+               "type": "url",
+               "url": "https://www.facebook.com/livemap#"
             }],
             "id": "1049",
             "name": "Search",
@@ -2320,6 +2350,11 @@
          "name": "Genealogy.com",
          "type": "url",
          "url": "http://www.genealogy.com/"
+      }, {
+         "id": "2117",
+         "name": "The New Ultimates",
+         "type": "url",
+         "url": "http://www.newultimates.com/"
       }],
       "id": "520",
       "name": "People Search Engines",
@@ -3351,6 +3386,11 @@
             "name": "searx.me",
             "type": "url",
             "url": "https://searx.me/"
+         }, {
+            "id": "2115",
+            "name": "Addictomatic",
+            "type": "url",
+            "url": "http://addictomatic.com/"
          }],
          "id": "1490",
          "name": "Meta Search",
@@ -3576,6 +3616,11 @@
             "name": "AOL Search Database",
             "type": "url",
             "url": "http://search-id.com/"
+         }, {
+            "id": "2114",
+            "name": "EntityCube",
+            "type": "url",
+            "url": "http://entitycube.research.microsoft.com/"
          }],
          "id": "1208",
          "name": "Other Search",
@@ -3696,6 +3741,11 @@
             "name": "Topix",
             "type": "url",
             "url": "http://www.topix.com/search/article?q="
+         }, {
+            "id": "2116",
+            "name": "Twingly Blog Search",
+            "type": "url",
+            "url": "https://www.twingly.com/search"
          }],
          "id": "947",
          "name": "Blog Search Engines",
