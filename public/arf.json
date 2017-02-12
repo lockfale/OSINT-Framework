@@ -1212,6 +1212,16 @@
                "name": "RevEye Reverse Image Search (T)",
                "type": "url",
                "url": "https://chrome.google.com/webstore/detail/reveye-reverse-image-sear/keaaclcjhehbbapnphnmpiklalfhelgf?hl=en"
+            }, {
+               "id": "2129",
+               "name": "SmugMug Search",
+               "type": "url",
+               "url": "http://www.smugmug.com/search"
+            }, {
+               "id": "2131",
+               "name": "ImageNet",
+               "type": "url",
+               "url": "http://image-net.org/"
             }],
             "id": "752",
             "name": "Search",
@@ -1457,6 +1467,11 @@
                "name": "YouTube Metadata",
                "type": "url",
                "url": "http://www.amnestyusa.org/citizenevidence/"
+            }, {
+               "id": "2130",
+               "name": "TubeChop",
+               "type": "url",
+               "url": "http://www.tubechop.com/"
             }],
             "id": "764",
             "name": "Analyze / Record",
@@ -3571,6 +3586,26 @@
             "name": "PressReader.com",
             "type": "url",
             "url": "http://www.pressreader.com/"
+         }, {
+            "id": "2125",
+            "name": "Newspaper Map",
+            "type": "url",
+            "url": "http://newspapermap.com/"
+         }, {
+            "id": "2126",
+            "name": "NewsBrief",
+            "type": "url",
+            "url": "http://emm.newsbrief.eu/NewsBrief/clusteredition/en/latest.html"
+         }, {
+            "id": "2127",
+            "name": "AllYouCanRead.com",
+            "type": "url",
+            "url": "http://www.allyoucanread.com/"
+         }, {
+            "id": "2128",
+            "name": "World News",
+            "type": "url",
+            "url": "https://wn.com/#/search"
          }],
          "id": "1437",
          "name": "News Search",
@@ -4535,6 +4570,21 @@
          "name": "Tails Live OS (T)",
          "type": "url",
          "url": "https://tails.boum.org/"
+      }, {
+         "children": [{
+            "id": "2122",
+            "name": "IFTTT",
+            "type": "url",
+            "url": "https://ifttt.com/"
+         }, {
+            "id": "2124",
+            "name": "Stringify",
+            "type": "url",
+            "url": "https://www.stringify.com/"
+         }],
+         "id": "2123",
+         "name": "Automation",
+         "type": "folder"
       }],
       "id": "536",
       "name": "Tools",
@@ -4820,6 +4870,11 @@
          "name": "Blueliv Threat Exchange (R)",
          "type": "url",
          "url": "https://community.blueliv.com/#!/discover"
+      }, {
+         "id": "2121",
+         "name": "APTnotes",
+         "type": "url",
+         "url": "https://github.com/aptnotes/data"
       }],
       "id": "1467",
       "name": "Threat Intelligence",
