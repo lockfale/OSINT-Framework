@@ -221,6 +221,11 @@
             "name": "Breach or Clear",
             "type": "url",
             "url": "http://breachorclear.jesterscourt.cc/"
+         }, {
+            "id": "2160",
+            "name": "Ashley Madison Emails",
+            "type": "url",
+            "url": "https://ashley.cynic.al/"
          }],
          "id": "595",
          "name": "Breach Data",
@@ -736,6 +741,16 @@
             "name": "PubDB",
             "type": "url",
             "url": "http://pub-db.com/"
+         }, {
+            "id": "2158",
+            "name": "WWW Domain Tools",
+            "type": "url",
+            "url": "https://w3dt.net/"
+         }, {
+            "id": "2161",
+            "name": "SimilarWeb",
+            "type": "url",
+            "url": "https://www.similarweb.com/"
          }],
          "id": "617",
          "name": "Analytics",
@@ -1101,6 +1116,11 @@
             "name": "BGPStream",
             "type": "url",
             "url": "https://bgpstream.com/"
+         }, {
+            "id": "2162",
+            "name": "PeeringDB",
+            "type": "url",
+            "url": "https://www.peeringdb.com/advanced_search"
          }],
          "id": "660",
          "name": "BGP",
@@ -4865,6 +4885,36 @@
          "name": "0day.today",
          "type": "url",
          "url": "http://0day.today/"
+      }, {
+         "id": "2153",
+         "name": "Default Passwords DB",
+         "type": "url",
+         "url": "https://cirt.net/passwords"
+      }, {
+         "id": "2154",
+         "name": "Default passwords list",
+         "type": "url",
+         "url": "https://default-password.info/"
+      }, {
+         "id": "2155",
+         "name": "Default Password Lookup Utility",
+         "type": "url",
+         "url": "http://www.fortypoundhead.com/tools_dpw.asp"
+      }, {
+         "id": "2156",
+         "name": "Phenoelit Default Password List",
+         "type": "url",
+         "url": "http://phenoelit.org/dpl/dpl.html"
+      }, {
+         "id": "2157",
+         "name": "Default Router Passwords",
+         "type": "url",
+         "url": "http://routerpasswords.com/"
+      }, {
+         "id": "2159",
+         "name": "Open Sez Me Default Passwords",
+         "type": "url",
+         "url": "http://open-sez.me/"
       }],
       "id": "538",
       "name": "Exploits & Advisories",
