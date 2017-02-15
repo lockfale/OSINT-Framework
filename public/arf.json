@@ -3405,6 +3405,18 @@
          "name": "OpenStreetCam",
          "type": "url",
          "url": "http://openstreetcam.org/"
+      }
+      {
+         "id": "2180",
+         "name": "OpenSignal",
+         "type": "url",
+         "url": "https://opensignal.com/"
+      }
+      {
+         "id": "2181",
+         "name": "AntennaSearch",
+         "type": "url",
+         "url": "http://www.antennasearch.com/"
       }],
       "id": "519",
       "name": "Maps",
