@@ -751,6 +751,16 @@
             "name": "SimilarWeb",
             "type": "url",
             "url": "https://www.similarweb.com/"
+         }, {
+            "id": "2169",
+            "name": "Website Outlook",
+            "type": "url",
+            "url": "http://websiteoutlook.com/"
+         }, {
+            "id": "2170",
+            "name": "Siteliner",
+            "type": "url",
+            "url": "http://siteliner.com/"
          }],
          "id": "617",
          "name": "Analytics",
@@ -1121,6 +1131,11 @@
             "name": "PeeringDB",
             "type": "url",
             "url": "https://www.peeringdb.com/advanced_search"
+         }, {
+            "id": "2168",
+            "name": "BGP Tools",
+            "type": "url",
+            "url": "http://www.bgp4.as/tools"
          }],
          "id": "660",
          "name": "BGP",
@@ -2455,6 +2470,11 @@
          "name": "My Life",
          "type": "url",
          "url": "https://www.mylife.com/"
+      }, {
+         "id": "2173",
+         "name": "Lookup",
+         "type": "url",
+         "url": "http://www.lookup.com/"
       }],
       "id": "520",
       "name": "People Search Engines",
@@ -3056,6 +3076,11 @@
             "name": "Vault",
             "type": "url",
             "url": "http://www.vault.com/"
+         }, {
+            "id": "2172",
+            "name": "D&B Company Search",
+            "type": "url",
+            "url": "http://www.dnb.com/"
          }],
          "id": "693",
          "name": "Company Profiles",
@@ -4841,6 +4866,41 @@
       "type": "folder"
    }, {
       "children": [{
+         "children": [{
+            "id": "2153",
+            "name": "Default Passwords DB",
+            "type": "url",
+            "url": "https://cirt.net/passwords"
+         }, {
+            "id": "2154",
+            "name": "Default passwords list",
+            "type": "url",
+            "url": "https://default-password.info/"
+         }, {
+            "id": "2155",
+            "name": "Default Password Lookup Utility",
+            "type": "url",
+            "url": "http://www.fortypoundhead.com/tools_dpw.asp"
+         }, {
+            "id": "2156",
+            "name": "Phenoelit Default Password List",
+            "type": "url",
+            "url": "http://phenoelit.org/dpl/dpl.html"
+         }, {
+            "id": "2157",
+            "name": "Default Router Passwords",
+            "type": "url",
+            "url": "http://routerpasswords.com/"
+         }, {
+            "id": "2159",
+            "name": "Open Sez Me Default Passwords",
+            "type": "url",
+            "url": "http://open-sez.me/"
+         }],
+         "id": "2163",
+         "name": "Default Passwords",
+         "type": "folder"
+      }, {
          "id": "549",
          "name": "Exploit DB",
          "type": "url",
@@ -4885,36 +4945,6 @@
          "name": "0day.today",
          "type": "url",
          "url": "http://0day.today/"
-      }, {
-         "id": "2153",
-         "name": "Default Passwords DB",
-         "type": "url",
-         "url": "https://cirt.net/passwords"
-      }, {
-         "id": "2154",
-         "name": "Default passwords list",
-         "type": "url",
-         "url": "https://default-password.info/"
-      }, {
-         "id": "2155",
-         "name": "Default Password Lookup Utility",
-         "type": "url",
-         "url": "http://www.fortypoundhead.com/tools_dpw.asp"
-      }, {
-         "id": "2156",
-         "name": "Phenoelit Default Password List",
-         "type": "url",
-         "url": "http://phenoelit.org/dpl/dpl.html"
-      }, {
-         "id": "2157",
-         "name": "Default Router Passwords",
-         "type": "url",
-         "url": "http://routerpasswords.com/"
-      }, {
-         "id": "2159",
-         "name": "Open Sez Me Default Passwords",
-         "type": "url",
-         "url": "http://open-sez.me/"
       }],
       "id": "538",
       "name": "Exploits & Advisories",
@@ -5072,6 +5102,16 @@
                "name": "UserAgentString.com",
                "type": "url",
                "url": "http://www.useragentstring.com/pages/useragentstring.php"
+            }, {
+               "id": "2165",
+               "name": "WhatIsMyBrowser.com",
+               "type": "url",
+               "url": "https://www.whatismybrowser.com/"
+            }, {
+               "id": "2167",
+               "name": "User Agent String Decoder",
+               "type": "url",
+               "url": "http://tools.tracemyip.org/user-agent-string-decoder/"
             }],
             "id": "929",
             "name": "Spoof User-Agent",
@@ -5127,6 +5167,11 @@
                "name": "LetMeCheck.it",
                "type": "url",
                "url": "http://letmecheck.it/"
+            }, {
+               "id": "2164",
+               "name": "Trace My IP",
+               "type": "url",
+               "url": "http://www.tracemyip.org/"
             }],
             "id": "494",
             "name": "VPN Tests",
@@ -5206,6 +5251,16 @@
             "name": "Privacy Tools",
             "type": "url",
             "url": "https://www.privacytools.io/"
+         }, {
+            "id": "2166",
+            "name": "Panopticlick",
+            "type": "url",
+            "url": "https://panopticlick.eff.org/"
+         }, {
+            "id": "2171",
+            "name": "Hiding from the Internet",
+            "type": "url",
+            "url": "https://computercrimeinfo.com/cleaningid.html"
          }],
          "id": "1443",
          "name": "Privacy / Clean Up",
