@@ -761,6 +761,11 @@
             "name": "Siteliner",
             "type": "url",
             "url": "http://siteliner.com/"
+         }, {
+            "id": "2187",
+            "name": "WebPagetest",
+            "type": "url",
+            "url": "https://www.webpagetest.org/"
          }],
          "id": "617",
          "name": "Analytics",
@@ -1184,6 +1189,26 @@
          }],
          "id": "674",
          "name": "Wireless Network Info",
+         "type": "folder"
+      }, {
+         "children": [{
+            "id": "2185",
+            "name": "Wireshark",
+            "type": "url",
+            "url": "https://www.wireshark.org/download.html"
+         }, {
+            "id": "2186",
+            "name": "NetworkMiner",
+            "type": "url",
+            "url": "https://www.netresec.com/?page=Networkminer"
+         }, {
+            "id": "2190",
+            "name": "Packet Total",
+            "type": "url",
+            "url": "http://www.packettotal.com/"
+         }],
+         "id": "2184",
+         "name": "Network Analysis Tools",
          "type": "folder"
       }],
       "id": "513",
@@ -1752,6 +1777,11 @@
                "name": "fb-sleep-stats (T)",
                "type": "url",
                "url": "https://github.com/sqren/fb-sleep-stats"
+            }, {
+               "id": "2174",
+               "name": "Facebook Scanner",
+               "type": "url",
+               "url": "http://stalkscan.com/en/"
             }],
             "id": "1051",
             "name": "Analytics",
@@ -1953,6 +1983,11 @@
                   "name": "X0rz Tweets_analyzer",
                   "type": "url",
                   "url": "https://github.com/x0rz/tweets_analyzer"
+               }, {
+                  "id": "2188",
+                  "name": "Social Bearing",
+                  "type": "url",
+                  "url": "https://socialbearing.com/"
                }],
                "id": "859",
                "name": "Profile",
@@ -2047,6 +2082,11 @@
                "name": "Creepy",
                "type": "url",
                "url": "http://www.geocreepy.com/"
+            }, {
+               "id": "2189",
+               "name": "Tweepsmap",
+               "type": "url",
+               "url": "http://tweepsmap.com/"
             }],
             "id": "815",
             "name": "Location / Mapping",
@@ -3296,6 +3336,21 @@
          "name": "Map Reporting Tools",
          "type": "folder"
       }, {
+         "children": [{
+            "id": "2180",
+            "name": "OpenSignal",
+            "type": "url",
+            "url": "https://opensignal.com/"
+         }, {
+            "id": "2181",
+            "name": "AntennaSearch",
+            "type": "url",
+            "url": "http://www.antennasearch.com/"
+         }],
+         "id": "2183",
+         "name": "Mobile Coverage",
+         "type": "folder"
+      }, {
          "id": "795",
          "name": "Google Maps",
          "type": "url",
@@ -3405,18 +3460,6 @@
          "name": "OpenStreetCam",
          "type": "url",
          "url": "http://openstreetcam.org/"
-      }
-      {
-         "id": "2180",
-         "name": "OpenSignal",
-         "type": "url",
-         "url": "https://opensignal.com/"
-      }
-      {
-         "id": "2181",
-         "name": "AntennaSearch",
-         "type": "url",
-         "url": "http://www.antennasearch.com/"
       }],
       "id": "519",
       "name": "Maps",
@@ -3543,6 +3586,11 @@
             "name": "WhosTalkin",
             "type": "url",
             "url": "http://www.whostalkin.com/"
+         }, {
+            "id": "2175",
+            "name": "DMOZ",
+            "type": "url",
+            "url": "http://www.dmoz.org/"
          }],
          "id": "1490",
          "name": "Meta Search",
