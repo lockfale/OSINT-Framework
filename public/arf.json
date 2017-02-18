@@ -1401,7 +1401,7 @@
                "id": "285",
                "name": "Jeffrey's Exif Viewer",
                "type": "url",
-               "url": "http://regex.info/exif.cgi"
+               "url": "http://exif.regex.info/"
             }, {
                "id": "286",
                "name": "ExifViewer",
