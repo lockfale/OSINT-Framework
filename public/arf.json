@@ -651,6 +651,21 @@
             "name": "DNS-BH Malware Domain Blocklist",
             "type": "url",
             "url": "http://www.malwaredomains.com/wordpress/?page_id=66"
+         }, {
+            "id": "1736",
+            "name": "Malware Domain List",
+            "type": "url",
+            "url": "http://www.malwaredomainlist.com/hostslist/hosts.txt"
+         }, {
+            "id": "1737",
+            "name": "Malware Patrol (R)",
+            "type": "url",
+            "url": "http://www.malware.com.br/open-source.shtml"
+         }, {
+            "id": "1738",
+            "name": "MalwareURL (R)",
+            "type": "url",
+            "url": "http://www.malwareurl.com/index.php"
          }],
          "id": "124",
          "name": "Domain Blacklists",
@@ -1191,6 +1206,11 @@
             "name": "FireHOL IP Lists ",
             "type": "url",
             "url": "http://iplists.firehol.org/"
+         }, {
+            "id": "1739",
+            "name": "Project Honey Pot",
+            "type": "url",
+            "url": "http://www.projecthoneypot.org/list_of_ips.php"
          }],
          "id": "1717",
          "name": "Blacklists",
@@ -3984,6 +4004,41 @@
          }],
          "id": "785",
          "name": "Search Engine Guides",
+         "type": "folder"
+      }, {
+         "children": [{
+            "id": "1729",
+            "name": "Hoaxy",
+            "type": "url",
+            "url": "https://hoaxy.iuni.iu.edu/"
+         }, {
+            "id": "1731",
+            "name": "Africa Check",
+            "type": "url",
+            "url": "https://africacheck.org/"
+         }, {
+            "id": "1732",
+            "name": "PolitiFact",
+            "type": "url",
+            "url": "http://www.politifact.com/"
+         }, {
+            "id": "1733",
+            "name": "SciCheck",
+            "type": "url",
+            "url": "http://www.factcheck.org/scicheck/"
+         }, {
+            "id": "1734",
+            "name": "Duke Reporters' Lab",
+            "type": "url",
+            "url": "http://reporterslab.org/fact-checking/"
+         }, {
+            "id": "1735",
+            "name": "Stop Fake Tools",
+            "type": "url",
+            "url": "http://www.stopfake.org/en/category/tools/"
+         }],
+         "id": "1730",
+         "name": "Fact Checking",
          "type": "folder"
       }],
       "id": "697",
