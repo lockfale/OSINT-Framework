@@ -432,6 +432,66 @@
          "type": "folder"
       }, {
          "children": [{
+            "id": "113",
+            "name": "Shodan",
+            "type": "url",
+            "url": "https://www.shodan.io/"
+         }, {
+            "id": "114",
+            "name": "PunkSPIDER",
+            "type": "url",
+            "url": "https://www.punkspider.org/"
+         }, {
+            "id": "115",
+            "name": "Kraken",
+            "type": "url",
+            "url": "https://github.com/Sw4mpf0x/Kraken"
+         }, {
+            "id": "116",
+            "name": "Punk.sh",
+            "type": "url",
+            "url": "https://punk.sh/#/"
+         }, {
+            "id": "117",
+            "name": "urlscan.io",
+            "type": "url",
+            "url": "https://urlscan.io/search/#*"
+         }, {
+            "id": "118",
+            "name": "SameID",
+            "type": "url",
+            "url": "http://sameid.net/"
+         }, {
+            "id": "119",
+            "name": "Redirect Detective",
+            "type": "url",
+            "url": "http://redirectdetective.com/"
+         }, {
+            "id": "120",
+            "name": "Sitediff",
+            "type": "url",
+            "url": "https://github.com/digininja/sitediff"
+         }],
+         "id": "112",
+         "name": "Discovery",
+         "type": "folder"
+      }, {
+         "children": [{
+            "id": "122",
+            "name": "Mnemonic",
+            "type": "url",
+            "url": "http://passivedns.mnemonic.no/"
+         }, {
+            "id": "123",
+            "name": "DNS History",
+            "type": "url",
+            "url": "http://dnshistory.org/"
+         }],
+         "id": "121",
+         "name": "PassiveDNS",
+         "type": "folder"
+      }, {
+         "children": [{
             "id": "91",
             "name": "UrlQuery.net",
             "type": "url",
@@ -536,69 +596,19 @@
             "name": "Web Inspector Online Scan",
             "type": "url",
             "url": "http://app.webinspector.com/"
+         }, {
+            "id": "1724",
+            "name": "Google Safe Browsing API",
+            "type": "url",
+            "url": "https://developers.google.com/safe-browsing/?csw=1"
+         }, {
+            "id": "1725",
+            "name": "hpHosts Online",
+            "type": "url",
+            "url": "http://hosts-file.net/"
          }],
          "id": "90",
          "name": "Reputation",
-         "type": "folder"
-      }, {
-         "children": [{
-            "id": "113",
-            "name": "Shodan",
-            "type": "url",
-            "url": "https://www.shodan.io/"
-         }, {
-            "id": "114",
-            "name": "PunkSPIDER",
-            "type": "url",
-            "url": "https://www.punkspider.org/"
-         }, {
-            "id": "115",
-            "name": "Kraken",
-            "type": "url",
-            "url": "https://github.com/Sw4mpf0x/Kraken"
-         }, {
-            "id": "116",
-            "name": "Punk.sh",
-            "type": "url",
-            "url": "https://punk.sh/#/"
-         }, {
-            "id": "117",
-            "name": "urlscan.io",
-            "type": "url",
-            "url": "https://urlscan.io/search/#*"
-         }, {
-            "id": "118",
-            "name": "SameID",
-            "type": "url",
-            "url": "http://sameid.net/"
-         }, {
-            "id": "119",
-            "name": "Redirect Detective",
-            "type": "url",
-            "url": "http://redirectdetective.com/"
-         }, {
-            "id": "120",
-            "name": "Sitediff",
-            "type": "url",
-            "url": "https://github.com/digininja/sitediff"
-         }],
-         "id": "112",
-         "name": "Discovery",
-         "type": "folder"
-      }, {
-         "children": [{
-            "id": "122",
-            "name": "Mnemonic",
-            "type": "url",
-            "url": "http://passivedns.mnemonic.no/"
-         }, {
-            "id": "123",
-            "name": "DNS History",
-            "type": "url",
-            "url": "http://dnshistory.org/"
-         }],
-         "id": "121",
-         "name": "PassiveDNS",
          "type": "folder"
       }, {
          "children": [{
@@ -621,6 +631,26 @@
             "name": "Malware Domains Blacklist",
             "type": "url",
             "url": "http://mirror1.malwaredomains.com/files/domains.txt"
+         }, {
+            "id": "1719",
+            "name": "Blackweb",
+            "type": "url",
+            "url": "https://github.com/maravento/blackweb"
+         }, {
+            "id": "1720",
+            "name": "Critical Stack Intel (R)",
+            "type": "url",
+            "url": "https://intel.criticalstack.com/"
+         }, {
+            "id": "1726",
+            "name": "DNS Sinkhole",
+            "type": "url",
+            "url": "http://malc0de.com/bl/"
+         }, {
+            "id": "1727",
+            "name": "DNS-BH Malware Domain Blocklist",
+            "type": "url",
+            "url": "http://www.malwaredomains.com/wordpress/?page_id=66"
          }],
          "id": "124",
          "name": "Domain Blacklists",
@@ -962,21 +992,6 @@
    }, {
       "children": [{
          "children": [{
-            "id": "197",
-            "name": "IP Void",
-            "type": "url",
-            "url": "http://www.ipvoid.com/"
-         }, {
-            "id": "198",
-            "name": "ExoneraTor",
-            "type": "url",
-            "url": "https://exonerator.torproject.org/"
-         }],
-         "id": "196",
-         "name": "Reputation",
-         "type": "folder"
-      }, {
-         "children": [{
             "id": "200",
             "name": "MaxMind Demo",
             "type": "url",
@@ -1147,6 +1162,41 @@
          "type": "folder"
       }, {
          "children": [{
+            "id": "197",
+            "name": "IP Void",
+            "type": "url",
+            "url": "http://www.ipvoid.com/"
+         }, {
+            "id": "198",
+            "name": "ExoneraTor",
+            "type": "url",
+            "url": "https://exonerator.torproject.org/"
+         }],
+         "id": "196",
+         "name": "Reputation",
+         "type": "folder"
+      }, {
+         "children": [{
+            "id": "1718",
+            "name": "Blocklist.de",
+            "type": "url",
+            "url": "http://www.blocklist.de/en/index.html"
+         }, {
+            "id": "1722",
+            "name": "DShield API",
+            "type": "url",
+            "url": "https://isc.sans.edu/api/"
+         }, {
+            "id": "1723",
+            "name": "FireHOL IP Lists ",
+            "type": "url",
+            "url": "http://iplists.firehol.org/"
+         }],
+         "id": "1717",
+         "name": "Blacklists",
+         "type": "folder"
+      }, {
+         "children": [{
             "id": "234",
             "name": "IP Fingerprints - Reverse IP Lookup",
             "type": "url",
@@ -1161,6 +1211,11 @@
             "name": "TCP/IP Utils - Domain Neighbors",
             "type": "url",
             "url": "http://www.tcpiputils.com/domain-neighbors"
+         }, {
+            "id": "1716",
+            "name": "MyIPNeighbors",
+            "type": "url",
+            "url": "http://www.my-ip-neighbors.com/"
          }],
          "id": "233",
          "name": "Neighbor Domains",
