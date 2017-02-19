@@ -666,6 +666,21 @@
             "name": "MalwareURL (R)",
             "type": "url",
             "url": "http://www.malwareurl.com/index.php"
+         }, {
+            "id": "1740",
+            "name": "scumware.org",
+            "type": "url",
+            "url": "https://www.scumware.org/"
+         }, {
+            "id": "1741",
+            "name": "ZeuS Tracker",
+            "type": "url",
+            "url": "https://zeustracker.abuse.ch/blocklist.php"
+         }, {
+            "id": "1742",
+            "name": "Shadowserver Foundation",
+            "type": "url",
+            "url": "http://www.shadowserver.org/wiki/pmwiki.php?n=Services/Reports"
          }],
          "id": "124",
          "name": "Domain Blacklists",
@@ -3201,6 +3216,31 @@
             "name": "D&B Company Search",
             "type": "url",
             "url": "http://www.dnb.com/"
+         }, {
+            "id": "1744",
+            "name": "Companies In The UK",
+            "type": "url",
+            "url": "https://www.companiesintheuk.co.uk/"
+         }, {
+            "id": "1745",
+            "name": "UK Companies list",
+            "type": "url",
+            "url": "https://www.companieslist.co.uk/"
+         }, {
+            "id": "1746",
+            "name": "UK Data",
+            "type": "url",
+            "url": "http://ukdata.com/"
+         }, {
+            "id": "1747",
+            "name": "Orbis Directory",
+            "type": "url",
+            "url": "https://orbisdirectory.bvdinfo.com/version-2016121/OrbisDirectory/Companies"
+         }, {
+            "id": "1748",
+            "name": "Manta Small Business Directory",
+            "type": "url",
+            "url": "http://manta.com/business"
          }],
          "id": "608",
          "name": "Company Profiles",
@@ -3926,6 +3966,11 @@
             "name": "EntityCube",
             "type": "url",
             "url": "http://entitycube.research.microsoft.com/"
+         }, {
+            "id": "1749",
+            "name": "FindTheData A Research Engine",
+            "type": "url",
+            "url": "http://www.findthedata.com/"
          }],
          "id": "765",
          "name": "Other Search",
@@ -5130,6 +5175,11 @@
          "name": "0day.today",
          "type": "url",
          "url": "http://0day.today/"
+      }, {
+         "id": "1743",
+         "name": "Secunia",
+         "type": "url",
+         "url": "https://secuniaresearch.flexerasoftware.com/community/research/"
       }],
       "id": "991",
       "name": "Exploits & Advisories",
