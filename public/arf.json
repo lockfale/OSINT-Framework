@@ -76,6 +76,11 @@
             "name": "Keybase",
             "type": "url",
             "url": "https://keybase.io/"
+         }, {
+            "id": "1757",
+            "name": "MIT PGP Key Server",
+            "type": "url",
+            "url": "http://pgp.mit.edu/"
          }],
          "id": "14",
          "name": "Specific Sites",
@@ -1296,6 +1301,11 @@
             "name": "Packet Total",
             "type": "url",
             "url": "http://www.packettotal.com/"
+         }, {
+            "id": "989",
+            "name": "NetworkTotal",
+            "type": "url",
+            "url": "https://www.networktotal.com/"
          }],
          "id": "242",
          "name": "Network Analysis Tools",
@@ -1447,6 +1457,11 @@
                "name": "Mini Instagram",
                "type": "url",
                "url": "http://mininsta.net/"
+            }, {
+               "id": "1750",
+               "name": "Imgrab",
+               "type": "url",
+               "url": "https://imgrab.com/"
             }],
             "id": "272",
             "name": "Instagram",
@@ -1684,6 +1699,16 @@
          }],
          "id": "304",
          "name": "Videos",
+         "type": "folder"
+      }, {
+         "children": [{
+            "id": "1754",
+            "name": "SeeAllTheThings",
+            "type": "url",
+            "url": "https://github.com/baywolf88/seeallthethings"
+         }],
+         "id": "1753",
+         "name": "Webcams",
          "type": "folder"
       }, {
          "children": [{
@@ -2182,6 +2207,11 @@
                "name": "Tweepsmap",
                "type": "url",
                "url": "http://tweepsmap.com/"
+            }, {
+               "id": "1752",
+               "name": "GeoTweet",
+               "type": "url",
+               "url": "http://geotweet.altervista.org/#"
             }],
             "id": "413",
             "name": "Location / Mapping",
@@ -2936,6 +2966,11 @@
             "name": "Find A Grave",
             "type": "url",
             "url": "http://www.findagrave.com/index.html"
+         }, {
+            "id": "1762",
+            "name": "GraveInfo",
+            "type": "url",
+            "url": "http://www.graveinfo.com/"
          }],
          "id": "571",
          "name": "Death Records",
@@ -4911,22 +4946,12 @@
       "type": "folder"
    }, {
       "children": [{
-         "id": "955",
-         "name": "Paterva / Maltego (T)",
-         "type": "url",
-         "url": "http://www.paterva.com/web6/products/maltego.php"
-      }, {
-         "id": "956",
-         "name": "Epic Privacy Browser (T)",
-         "type": "url",
-         "url": "https://www.epicbrowser.com/"
-      }, {
-         "id": "957",
-         "name": "Tails Live OS (T)",
-         "type": "url",
-         "url": "https://tails.boum.org/"
-      }, {
          "children": [{
+            "id": "1751",
+            "name": "DataSploit (T)",
+            "type": "url",
+            "url": "https://github.com/upgoingstar/datasploit"
+         }, {
             "id": "959",
             "name": "IFTTT",
             "type": "url",
@@ -4936,10 +4961,40 @@
             "name": "Stringify",
             "type": "url",
             "url": "https://www.stringify.com/"
+         }, {
+            "id": "1756",
+            "name": "Intrigue.io (T)",
+            "type": "url",
+            "url": "https://intrigue.io/"
          }],
          "id": "958",
-         "name": "Automation",
+         "name": "OSINT Automation",
          "type": "folder"
+      }, {
+         "children": [{
+            "id": "1759",
+            "name": "Low Hanging Fruit (T)",
+            "type": "url",
+            "url": "https://github.com/blindfuzzy/LHF"
+         }],
+         "id": "1760",
+         "name": "Pentesting Recon",
+         "type": "folder"
+      }, {
+         "id": "955",
+         "name": "Paterva / Maltego (T)",
+         "type": "url",
+         "url": "http://www.paterva.com/web6/products/maltego.php"
+      }, {
+         "id": "957",
+         "name": "Tails Live OS (T)",
+         "type": "url",
+         "url": "https://tails.boum.org/"
+      }, {
+         "id": "956",
+         "name": "Epic Privacy Browser (T)",
+         "type": "url",
+         "url": "https://www.epicbrowser.com/"
       }],
       "id": "954",
       "name": "Tools",
@@ -5077,11 +5132,6 @@
          "type": "folder"
       }, {
          "children": [{
-            "id": "989",
-            "name": "NetworkTotal",
-            "type": "url",
-            "url": "https://www.networktotal.com/"
-         }, {
             "id": "990",
             "name": "Malware-Traffic-Analysis.net",
             "type": "url",
@@ -5126,6 +5176,11 @@
             "name": "Open Sez Me Default Passwords",
             "type": "url",
             "url": "http://open-sez.me/"
+         }, {
+            "id": "1758",
+            "name": "Hashes.org",
+            "type": "url",
+            "url": "https://hashes.org/"
          }],
          "id": "992",
          "name": "Default Passwords",
@@ -5216,6 +5271,11 @@
             "name": "Cacador",
             "type": "url",
             "url": "https://github.com/sroberts/cacador"
+         }, {
+            "id": "1761",
+            "name": "ThreatPinch Lookup",
+            "type": "url",
+            "url": "https://github.com/cloudtracer/ThreatPinchLookup"
          }],
          "id": "1012",
          "name": "IOC Tools",
