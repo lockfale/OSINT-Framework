@@ -3615,6 +3615,24 @@
          "name": "OpenStreetCam",
          "type": "url",
          "url": "http://openstreetcam.org/"
+      },
+      }, {
+         "id": "1096",
+         "name": "Dronetheworld",
+         "type": "url",
+         "url": "http://www.dronetheworld.com/"
+      },
+      {
+         "id": "1097",
+         "name": "Travel by Drone",
+         "type": "url",
+         "url": "http://travelbydrone.com/"
+      },
+      {
+         "id": "1098",
+         "name": "Hivemapper",
+         "type": "url",
+         "url": "https://hivemapper.com/"
       }],
       "id": "660",
       "name": "Maps",
