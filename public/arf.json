@@ -1706,6 +1706,11 @@
             "name": "SeeAllTheThings",
             "type": "url",
             "url": "https://github.com/baywolf88/seeallthethings"
+         }, {
+            "id": "1769",
+            "name": "Insecam",
+            "type": "url",
+            "url": "http://insecam.org/"
          }],
          "id": "1753",
          "name": "Webcams",
@@ -3615,7 +3620,6 @@
          "name": "OpenStreetCam",
          "type": "url",
          "url": "http://openstreetcam.org/"
-      },
       }, {
          "id": "1096",
          "name": "Dronetheworld",
@@ -3969,6 +3973,11 @@
             "name": "World News",
             "type": "url",
             "url": "https://wn.com/#/search"
+         }, {
+            "id": "1770",
+            "name": "NewsNow.co.uk",
+            "type": "url",
+            "url": "http://www.newsnow.co.uk/h/"
          }],
          "id": "755",
          "name": "News Search",
@@ -5488,6 +5497,36 @@
             }],
             "id": "1043",
             "name": "VPN Tests",
+            "type": "folder"
+         }, {
+            "children": [{
+               "id": "1767",
+               "name": "Browser Statistics",
+               "type": "url",
+               "url": "https://www.w3schools.com/browsers/default.asp"
+            }, {
+               "id": "1764",
+               "name": "WhatsMyBrowser.org",
+               "type": "url",
+               "url": "http://www.whatsmybrowser.org/"
+            }, {
+               "id": "1765",
+               "name": "What browser am I using.co",
+               "type": "url",
+               "url": "http://www.whatbrowseramiusing.co/"
+            }, {
+               "id": "1766",
+               "name": "What Browser?",
+               "type": "url",
+               "url": "https://whatbrowser.org/"
+            }, {
+               "id": "1768",
+               "name": "BrowserSpy.dk Browser Information",
+               "type": "url",
+               "url": "http://browserspy.dk/browser.php"
+            }],
+            "id": "1763",
+            "name": "Browser Tests",
             "type": "folder"
          }, {
             "children": [{
