@@ -3017,6 +3017,21 @@
          "type": "folder"
       }, {
          "children": [{
+            "id": "1782",
+            "name": "US Patent Office Search",
+            "type": "url",
+            "url": "http://patft.uspto.gov/netahtml/PTO/index.html"
+         }, {
+            "id": "770",
+            "name": "Google Patent Search",
+            "type": "url",
+            "url": "https://www.google.com/advanced_patent_search"
+         }],
+         "id": "1783",
+         "name": "Patent Records",
+         "type": "folder"
+      }, {
+         "children": [{
             "id": "580",
             "name": "FollowTheMoney.org",
             "type": "url",
@@ -3647,6 +3662,21 @@
             "name": "Hivemapper",
             "type": "url",
             "url": "https://hivemapper.com/"
+         }, {
+            "id": "1784",
+            "name": "LandsatLook Viewer",
+            "type": "url",
+            "url": "https://landsatlook.usgs.gov/"
+         }, {
+            "id": "1785",
+            "name": "Sentinel2Look Viewer",
+            "type": "url",
+            "url": "https://landsatlook.usgs.gov/sentinel2/"
+         }, {
+            "id": "1786",
+            "name": "NEXRAD Data Inventory Search",
+            "type": "url",
+            "url": "https://www.ncdc.noaa.gov/nexradinv/"
          }
       ],
       "id": "660",
@@ -4015,11 +4045,6 @@
             "type": "url",
             "url": "https://groups.yahoo.com/neo/search?"
          }, {
-            "id": "770",
-            "name": "Google Patent Search",
-            "type": "url",
-            "url": "https://www.google.com/advanced_patent_search"
-         }, {
             "id": "771",
             "name": "SimilarSites",
             "type": "url",
@@ -4325,6 +4350,36 @@
          "type": "folder"
       }, {
          "children": [{
+            "id": "1788",
+            "name": "Labled Faces in the Wild DB",
+            "type": "url",
+            "url": "http://vis-www.cs.umass.edu/lfw/"
+         }, {
+            "id": "1789",
+            "name": "Large-scale Scene Understanding Challenge",
+            "type": "url",
+            "url": "http://lsun.cs.princeton.edu/2016/"
+         }, {
+            "id": "1790",
+            "name": "VisualGenome",
+            "type": "url",
+            "url": "http://visualgenome.org/"
+         }, {
+            "id": "1791",
+            "name": "UCI Spambase Data Set",
+            "type": "url",
+            "url": "https://archive.ics.uci.edu/ml/datasets/Spambase"
+         }, {
+            "id": "1792",
+            "name": "Stanford Large Network Dataset Collection",
+            "type": "url",
+            "url": "http://snap.stanford.edu/data/#amazon"
+         }],
+         "id": "1787",
+         "name": "Public Datasets",
+         "type": "folder"
+      }, {
+         "children": [{
             "id": "824",
             "name": "Library of Congress: Digitized Newspapers - 1836-1922",
             "type": "url",
@@ -4444,6 +4499,11 @@
             "name": "WhatTheFont",
             "type": "url",
             "url": "https://www.myfonts.com/WhatTheFont/"
+         }, {
+            "id": "1793",
+            "name": "Apply Magic Sauce",
+            "type": "url",
+            "url": "https://applymagicsauce.com/demo.html"
          }],
          "id": "844",
          "name": "Analysis",
