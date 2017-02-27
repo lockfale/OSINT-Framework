@@ -171,6 +171,11 @@
             "name": "IntelTechniques Email Format Tool",
             "type": "url",
             "url": "https://inteltechniques.com/intel/OSINT/email.html"
+         }, {
+            "id": "1833",
+            "name": "OneLook Reverse Dictionary and Thesaurus",
+            "type": "url",
+            "url": "http://www.onelook.com/reverse-dictionary.shtml"
          }],
          "id": "31",
          "name": "Common Email Formats",
@@ -1482,6 +1487,11 @@
                "name": "Imgrab",
                "type": "url",
                "url": "https://imgrab.com/"
+            }, {
+               "id": "1828",
+               "name": "Tofo.me",
+               "type": "url",
+               "url": "https://tofo.me/"
             }],
             "id": "272",
             "name": "Instagram",
@@ -2336,6 +2346,21 @@
             "name": "Reddit Archive",
             "type": "url",
             "url": "http://www.redditarchive.com/"
+         }, {
+            "id": "1825",
+            "name": "reddit metrics",
+            "type": "url",
+            "url": "http://redditmetrics.com/"
+         }, {
+            "id": "1824",
+            "name": "subreddits",
+            "type": "url",
+            "url": "http://subreddits.org/"
+         }, {
+            "id": "1826",
+            "name": "Reddit Investigator",
+            "type": "url",
+            "url": "http://www.redditinvestigator.com/"
          }],
          "id": "432",
          "name": "Reddit",
@@ -2446,6 +2471,16 @@
             "name": "BuzzSumo Most Shared",
             "type": "url",
             "url": "https://app.buzzsumo.com/research/most-shared"
+         }, {
+            "id": "1827",
+            "name": "PinGroupie",
+            "type": "url",
+            "url": "http://pingroupie.com/"
+         }, {
+            "id": "1829",
+            "name": "Searchlr",
+            "type": "url",
+            "url": "http://searchlr.net/"
          }],
          "id": "446",
          "name": "Search",
@@ -3021,6 +3056,11 @@
             "name": "Mugshots.com",
             "type": "url",
             "url": "http://mugshots.com/"
+         }, {
+            "id": "1832",
+            "name": "Federal Inmate Locator",
+            "type": "url",
+            "url": "https://www.bop.gov/inmateloc/"
          }],
          "id": "556",
          "name": "Court / Criminal Records",
@@ -3531,222 +3571,221 @@
       "type": "folder"
    }, {
       "children": [{
-            "children": [{
-               "id": "662",
-               "name": "GPSVisualizer",
-               "type": "url",
-               "url": "http://www.gpsvisualizer.com/geocode"
-            }, {
-               "id": "663",
-               "name": "Military Grid Reference System Coordinates",
-               "type": "url",
-               "url": "https://dominoc925-pages.appspot.com/mapplets/cs_mgrs.html"
-            }, {
-               "id": "664",
-               "name": "Batch Geocoding",
-               "type": "url",
-               "url": "https://www.doogal.co.uk/BatchGeocoding.php"
-            }, {
-               "id": "665",
-               "name": "Batch Reverse Geocoding",
-               "type": "url",
-               "url": "https://www.doogal.co.uk/BatchReverseGeocoding.php"
-            }],
-            "id": "661",
-            "name": "Coordinates",
-            "type": "folder"
-         }, {
-            "children": [{
-               "id": "667",
-               "name": "BatchGeo",
-               "type": "url",
-               "url": "https://batchgeo.com/"
-            }, {
-               "id": "668",
-               "name": "Hyperlapse (T)",
-               "type": "url",
-               "url": "https://github.com/TeehanLax/Hyperlapse.js"
-            }, {
-               "id": "669",
-               "name": "Teehan+Lax Labs - Hyperlapse",
-               "type": "url",
-               "url": "http://labs.teehanlax.com/project/hyperlapse"
-            }, {
-               "id": "670",
-               "name": "Google Maps Streetview Player",
-               "type": "url",
-               "url": "http://brianfolts.com/driver/"
-            }, {
-               "id": "671",
-               "name": "ScribbleMaps",
-               "type": "url",
-               "url": "http://scribblemaps.com/"
-            }],
-            "id": "666",
-            "name": "Map Reporting Tools",
-            "type": "folder"
-         }, {
-            "children": [{
-               "id": "673",
-               "name": "OpenSignal",
-               "type": "url",
-               "url": "https://opensignal.com/"
-            }, {
-               "id": "674",
-               "name": "AntennaSearch",
-               "type": "url",
-               "url": "http://www.antennasearch.com/"
-            }],
-            "id": "672",
-            "name": "Mobile Coverage",
-            "type": "folder"
-         }, {
-            "id": "675",
-            "name": "Google Maps",
+         "children": [{
+            "id": "662",
+            "name": "GPSVisualizer",
             "type": "url",
-            "url": "https://www.google.com/maps/"
+            "url": "http://www.gpsvisualizer.com/geocode"
          }, {
-            "id": "676",
-            "name": "Bing Maps",
+            "id": "663",
+            "name": "Military Grid Reference System Coordinates",
             "type": "url",
-            "url": "http://www.bing.com/maps/"
+            "url": "https://dominoc925-pages.appspot.com/mapplets/cs_mgrs.html"
          }, {
-            "id": "677",
-            "name": "HERE Maps",
+            "id": "664",
+            "name": "Batch Geocoding",
             "type": "url",
-            "url": "https://maps.here.com/"
+            "url": "https://www.doogal.co.uk/BatchGeocoding.php"
          }, {
-            "id": "678",
-            "name": "Dual Maps",
+            "id": "665",
+            "name": "Batch Reverse Geocoding",
             "type": "url",
-            "url": "http://data.mashedworld.com/dualmaps/map.htm"
+            "url": "https://www.doogal.co.uk/BatchReverseGeocoding.php"
+         }],
+         "id": "661",
+         "name": "Coordinates",
+         "type": "folder"
+      }, {
+         "children": [{
+            "id": "667",
+            "name": "BatchGeo",
+            "type": "url",
+            "url": "https://batchgeo.com/"
          }, {
-            "id": "679",
-            "name": "Instant Google Street View",
+            "id": "668",
+            "name": "Hyperlapse (T)",
             "type": "url",
-            "url": "http://www.instantstreetview.com/"
+            "url": "https://github.com/TeehanLax/Hyperlapse.js"
          }, {
-            "id": "680",
-            "name": "Wikimapia",
+            "id": "669",
+            "name": "Teehan+Lax Labs - Hyperlapse",
             "type": "url",
-            "url": "http://wikimapia.org/#lang=en&lat=40.078071&lon=-100.458984&z=5&m=b"
+            "url": "http://labs.teehanlax.com/project/hyperlapse"
          }, {
-            "id": "681",
-            "name": "OpenStreetMap",
+            "id": "670",
+            "name": "Google Maps Streetview Player",
             "type": "url",
-            "url": "http://www.openstreetmap.org/#map=5/40.614/-100.679"
+            "url": "http://brianfolts.com/driver/"
          }, {
-            "id": "682",
-            "name": "Flash Earth",
+            "id": "671",
+            "name": "ScribbleMaps",
             "type": "url",
-            "url": "http://www.flashearth.com/"
+            "url": "http://scribblemaps.com/"
+         }],
+         "id": "666",
+         "name": "Map Reporting Tools",
+         "type": "folder"
+      }, {
+         "children": [{
+            "id": "673",
+            "name": "OpenSignal",
+            "type": "url",
+            "url": "https://opensignal.com/"
          }, {
-            "id": "683",
-            "name": "Historic Aerials",
+            "id": "674",
+            "name": "AntennaSearch",
             "type": "url",
-            "url": "http://www.historicaerials.com/?javascript=&"
-         }, {
-            "id": "684",
-            "name": "Google Maps Update Alerts",
-            "type": "url",
-            "url": "https://followyourworld.appspot.com/"
-         }, {
-            "id": "685",
-            "name": "Google Earth Overlays",
-            "type": "url",
-            "url": "http://www.mgmaps.com/kml/#view"
-         }, {
-            "id": "686",
-            "name": "IntelTechniques Map Tools",
-            "type": "url",
-            "url": "https://inteltechniques.com/intel/OSINT/maps.html"
-         }, {
-            "id": "687",
-            "name": "Yandex.Maps",
-            "type": "url",
-            "url": "https://yandex.com/maps/"
-         }, {
-            "id": "688",
-            "name": "TerraServer",
-            "type": "url",
-            "url": "https://www.terraserver.com/view"
-         }, {
-            "id": "689",
-            "name": "Google Earth",
-            "type": "url",
-            "url": "https://www.google.com/earth/"
-         }, {
-            "id": "690",
-            "name": "Baidu Maps",
-            "type": "url",
-            "url": "http://map.baidu.com/"
-         }, {
-            "id": "691",
-            "name": "Corona",
-            "type": "url",
-            "url": "http://corona.cast.uark.edu/"
-         }, {
-            "id": "692",
-            "name": "Daum (Korean)",
-            "type": "url",
-            "url": "http://map.daum.net/"
-         }, {
-            "id": "693",
-            "name": "Naver (Korean)",
-            "type": "url",
-            "url": "http://map.naver.com/"
-         }, {
-            "id": "694",
-            "name": "OpenStreetMap",
-            "type": "url",
-            "url": "http://www.openstreetmap.org/#map=5/51.500/-0.100"
-         }, {
-            "id": "695",
-            "name": "EarthExplorer",
-            "type": "url",
-            "url": "https://earthexplorer.usgs.gov/"
-         }, {
-            "id": "696",
-            "name": "OpenStreetCam",
-            "type": "url",
-            "url": "http://openstreetcam.org/"
-         }, {
-            "id": "1096",
-            "name": "Dronetheworld",
-            "type": "url",
-            "url": "http://www.dronetheworld.com/"
-         }, {
-            "id": "1097",
-            "name": "Travel by Drone",
-            "type": "url",
-            "url": "http://travelbydrone.com/"
-         }, {
-            "id": "1098",
-            "name": "Hivemapper",
-            "type": "url",
-            "url": "https://hivemapper.com/"
-         }, {
-            "id": "1784",
-            "name": "LandsatLook Viewer",
-            "type": "url",
-            "url": "https://landsatlook.usgs.gov/"
-         }, {
-            "id": "1785",
-            "name": "Sentinel2Look Viewer",
-            "type": "url",
-            "url": "https://landsatlook.usgs.gov/sentinel2/"
-         }, {
-            "id": "1786",
-            "name": "NEXRAD Data Inventory Search",
-            "type": "url",
-            "url": "https://www.ncdc.noaa.gov/nexradinv/"
-         }, {
-            "id": "1807",
-            "name": "MapQuest",
-            "type": "url",
-            "url": "https://www.mapquest.com/"
-         }
-      ],
+            "url": "http://www.antennasearch.com/"
+         }],
+         "id": "672",
+         "name": "Mobile Coverage",
+         "type": "folder"
+      }, {
+         "id": "675",
+         "name": "Google Maps",
+         "type": "url",
+         "url": "https://www.google.com/maps/"
+      }, {
+         "id": "676",
+         "name": "Bing Maps",
+         "type": "url",
+         "url": "http://www.bing.com/maps/"
+      }, {
+         "id": "677",
+         "name": "HERE Maps",
+         "type": "url",
+         "url": "https://maps.here.com/"
+      }, {
+         "id": "678",
+         "name": "Dual Maps",
+         "type": "url",
+         "url": "http://data.mashedworld.com/dualmaps/map.htm"
+      }, {
+         "id": "679",
+         "name": "Instant Google Street View",
+         "type": "url",
+         "url": "http://www.instantstreetview.com/"
+      }, {
+         "id": "680",
+         "name": "Wikimapia",
+         "type": "url",
+         "url": "http://wikimapia.org/#lang=en&lat=40.078071&lon=-100.458984&z=5&m=b"
+      }, {
+         "id": "681",
+         "name": "OpenStreetMap",
+         "type": "url",
+         "url": "http://www.openstreetmap.org/#map=5/40.614/-100.679"
+      }, {
+         "id": "682",
+         "name": "Flash Earth",
+         "type": "url",
+         "url": "http://www.flashearth.com/"
+      }, {
+         "id": "683",
+         "name": "Historic Aerials",
+         "type": "url",
+         "url": "http://www.historicaerials.com/?javascript=&"
+      }, {
+         "id": "684",
+         "name": "Google Maps Update Alerts",
+         "type": "url",
+         "url": "https://followyourworld.appspot.com/"
+      }, {
+         "id": "685",
+         "name": "Google Earth Overlays",
+         "type": "url",
+         "url": "http://www.mgmaps.com/kml/#view"
+      }, {
+         "id": "686",
+         "name": "IntelTechniques Map Tools",
+         "type": "url",
+         "url": "https://inteltechniques.com/intel/OSINT/maps.html"
+      }, {
+         "id": "687",
+         "name": "Yandex.Maps",
+         "type": "url",
+         "url": "https://yandex.com/maps/"
+      }, {
+         "id": "688",
+         "name": "TerraServer",
+         "type": "url",
+         "url": "https://www.terraserver.com/view"
+      }, {
+         "id": "689",
+         "name": "Google Earth",
+         "type": "url",
+         "url": "https://www.google.com/earth/"
+      }, {
+         "id": "690",
+         "name": "Baidu Maps",
+         "type": "url",
+         "url": "http://map.baidu.com/"
+      }, {
+         "id": "691",
+         "name": "Corona",
+         "type": "url",
+         "url": "http://corona.cast.uark.edu/"
+      }, {
+         "id": "692",
+         "name": "Daum (Korean)",
+         "type": "url",
+         "url": "http://map.daum.net/"
+      }, {
+         "id": "693",
+         "name": "Naver (Korean)",
+         "type": "url",
+         "url": "http://map.naver.com/"
+      }, {
+         "id": "694",
+         "name": "OpenStreetMap",
+         "type": "url",
+         "url": "http://www.openstreetmap.org/#map=5/51.500/-0.100"
+      }, {
+         "id": "695",
+         "name": "EarthExplorer",
+         "type": "url",
+         "url": "https://earthexplorer.usgs.gov/"
+      }, {
+         "id": "696",
+         "name": "OpenStreetCam",
+         "type": "url",
+         "url": "http://openstreetcam.org/"
+      }, {
+         "id": "1096",
+         "name": "Dronetheworld",
+         "type": "url",
+         "url": "http://www.dronetheworld.com/"
+      }, {
+         "id": "1097",
+         "name": "Travel by Drone",
+         "type": "url",
+         "url": "http://travelbydrone.com/"
+      }, {
+         "id": "1098",
+         "name": "Hivemapper",
+         "type": "url",
+         "url": "https://hivemapper.com/"
+      }, {
+         "id": "1784",
+         "name": "LandsatLook Viewer",
+         "type": "url",
+         "url": "https://landsatlook.usgs.gov/"
+      }, {
+         "id": "1785",
+         "name": "Sentinel2Look Viewer",
+         "type": "url",
+         "url": "https://landsatlook.usgs.gov/sentinel2/"
+      }, {
+         "id": "1786",
+         "name": "NEXRAD Data Inventory Search",
+         "type": "url",
+         "url": "https://www.ncdc.noaa.gov/nexradinv/"
+      }, {
+         "id": "1807",
+         "name": "MapQuest",
+         "type": "url",
+         "url": "https://www.mapquest.com/"
+      }],
       "id": "660",
       "name": "Maps",
       "type": "folder"
@@ -4148,16 +4187,6 @@
             "type": "url",
             "url": "http://www.searchenginecolossus.com/"
          }, {
-            "id": "768",
-            "name": "Google Groups Search",
-            "type": "url",
-            "url": "https://groups.google.com/forum/#!overview"
-         }, {
-            "id": "769",
-            "name": "Yahoo Groups",
-            "type": "url",
-            "url": "https://groups.yahoo.com/neo/search?"
-         }, {
             "id": "771",
             "name": "SimilarSites",
             "type": "url",
@@ -4342,6 +4371,16 @@
             "name": "Delphi Forum Search",
             "type": "url",
             "url": "http://www.delphiforums.com/"
+         }, {
+            "id": "768",
+            "name": "Google Groups Search",
+            "type": "url",
+            "url": "https://groups.google.com/forum/#!overview"
+         }, {
+            "id": "769",
+            "name": "Yahoo Groups",
+            "type": "url",
+            "url": "https://groups.yahoo.com/neo/search?"
          }],
          "id": "791",
          "name": "Forum Search Engines",
@@ -4367,6 +4406,16 @@
             "name": "Twingly Blog Search",
             "type": "url",
             "url": "https://www.twingly.com/search"
+         }, {
+            "id": "1830",
+            "name": "Blog Search Engine",
+            "type": "url",
+            "url": "http://www.blogsearchengine.org/"
+         }, {
+            "id": "1831",
+            "name": "Notey",
+            "type": "url",
+            "url": "http://www.notey.com/"
          }],
          "id": "796",
          "name": "Blog Search Engines",
@@ -4388,7 +4437,7 @@
          "type": "folder"
       }],
       "id": "790",
-      "name": "Forums",
+      "name": "Forums / Blogs / IRC",
       "type": "folder"
    }, {
       "children": [{
