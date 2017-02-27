@@ -46,6 +46,11 @@
             "name": "Check Usernames",
             "type": "url",
             "url": "http://checkusernames.com/"
+         }, {
+            "id": "1821",
+            "name": "Gaddr.me",
+            "type": "url",
+            "url": "https://gaddr.me/"
          }],
          "id": "4",
          "name": "Username Search Engines",
@@ -491,6 +496,16 @@
             "name": "DNS History",
             "type": "url",
             "url": "http://dnshistory.org/"
+         }, {
+            "id": "1819",
+            "name": "DNS Trails",
+            "type": "url",
+            "url": "http://dnstrails.com/"
+         }, {
+            "id": "1820",
+            "name": "PTRarchive.com",
+            "type": "url",
+            "url": "http://ptrarchive.com/"
          }],
          "id": "121",
          "name": "PassiveDNS",
@@ -1432,6 +1447,11 @@
                "name": "Places2",
                "type": "url",
                "url": "http://places2.csail.mit.edu/explore.html"
+            }, {
+               "id": "1817",
+               "name": "Image Identification Project",
+               "type": "url",
+               "url": "https://www.imageidentify.com/"
             }],
             "id": "248",
             "name": "Search",
@@ -1532,6 +1552,11 @@
                "name": "GeoSetter",
                "type": "url",
                "url": "http://www.geosetter.de/en/"
+            }, {
+               "id": "1818",
+               "name": "gbimg.org",
+               "type": "url",
+               "url": "http://gbimg.org/"
             }],
             "id": "283",
             "name": "Metadata",
@@ -1657,6 +1682,26 @@
                "name": "Facebook Live Map",
                "type": "url",
                "url": "https://www.facebook.com/livemap#"
+            }, {
+               "id": "1813",
+               "name": "LiveLeak",
+               "type": "url",
+               "url": "https://www.liveleak.com/"
+            }, {
+               "id": "1814",
+               "name": "Metacafe",
+               "type": "url",
+               "url": "http://www.metacafe.com/"
+            }, {
+               "id": "1815",
+               "name": "Metatube",
+               "type": "url",
+               "url": "http://www.metatube.com/"
+            }, {
+               "id": "1816",
+               "name": "Yahoo Video Search",
+               "type": "url",
+               "url": "http://video.search.yahoo.com/"
             }],
             "id": "305",
             "name": "Search",
@@ -1711,6 +1756,11 @@
             "name": "Insecam",
             "type": "url",
             "url": "http://insecam.org/"
+         }, {
+            "id": "1812",
+            "name": "EarthCam",
+            "type": "url",
+            "url": "http://www.earthcam.com/"
          }],
          "id": "1753",
          "name": "Webcams",
@@ -2217,6 +2267,11 @@
                "name": "GeoTweet",
                "type": "url",
                "url": "http://geotweet.altervista.org/#"
+            }, {
+               "id": "1796",
+               "name": "MapD Tweetmap",
+               "type": "url",
+               "url": "https://www.mapd.com/demos/tweetmap/"
             }],
             "id": "413",
             "name": "Location / Mapping",
@@ -2271,6 +2326,16 @@
             "name": "SnoopSnoo",
             "type": "url",
             "url": "http://snoopsnoo.com/"
+         }, {
+            "id": "1822",
+            "name": "metareddit",
+            "type": "url",
+            "url": "http://metareddit.com/"
+         }, {
+            "id": "1823",
+            "name": "Reddit Archive",
+            "type": "url",
+            "url": "http://www.redditarchive.com/"
          }],
          "id": "432",
          "name": "Reddit",
@@ -3650,14 +3715,12 @@
             "name": "Dronetheworld",
             "type": "url",
             "url": "http://www.dronetheworld.com/"
-         },
-         {
+         }, {
             "id": "1097",
             "name": "Travel by Drone",
             "type": "url",
             "url": "http://travelbydrone.com/"
-         },
-         {
+         }, {
             "id": "1098",
             "name": "Hivemapper",
             "type": "url",
@@ -3677,6 +3740,11 @@
             "name": "NEXRAD Data Inventory Search",
             "type": "url",
             "url": "https://www.ncdc.noaa.gov/nexradinv/"
+         }, {
+            "id": "1807",
+            "name": "MapQuest",
+            "type": "url",
+            "url": "https://www.mapquest.com/"
          }
       ],
       "id": "660",
@@ -3839,6 +3907,11 @@
             "name": "Github-Dorks (T)",
             "type": "url",
             "url": "https://github.com/techgaun/github-dorks"
+         }, {
+            "id": "1794",
+            "name": "GitLeaks",
+            "type": "url",
+            "url": "https://gitleaks.com/"
          }],
          "id": "725",
          "name": "Code Search",
@@ -3964,9 +4037,29 @@
             "name": "Copyscape Plagiarism Checker",
             "type": "url",
             "url": "http://copyscape.com/"
+         }, {
+            "id": "1808",
+            "name": "Lazy Scholar (T)",
+            "type": "url",
+            "url": "http://www.lazyscholar.org/"
+         }, {
+            "id": "1809",
+            "name": "Open Access Scholarly Journals",
+            "type": "url",
+            "url": "http://www.pagepress.org/"
+         }, {
+            "id": "1810",
+            "name": "The Open Syllabus Project",
+            "type": "url",
+            "url": "http://explorer.opensyllabusproject.org/"
+         }, {
+            "id": "1811",
+            "name": "Science Publications",
+            "type": "url",
+            "url": "http://www.thescipub.com/"
          }],
          "id": "735",
-         "name": "Publication Search",
+         "name": "Academic / Publication Search",
          "type": "folder"
       }, {
          "children": [{
@@ -3979,6 +4072,11 @@
             "name": "Google News Search",
             "type": "url",
             "url": "https://news.google.com/news/advanced_news_search?"
+         }, {
+            "id": "1801",
+            "name": "Flipboard",
+            "type": "url",
+            "url": "https://flipboard.com/"
          }, {
             "id": "758",
             "name": "YouGotTheNews",
@@ -4019,6 +4117,21 @@
             "name": "NewsNow.co.uk",
             "type": "url",
             "url": "http://www.newsnow.co.uk/h/"
+         }, {
+            "id": "1802",
+            "name": "Hubii",
+            "type": "url",
+            "url": "http://hubii.com/"
+         }, {
+            "id": "1803",
+            "name": "Inshorts",
+            "type": "url",
+            "url": "https://www.inshorts.com/en/read"
+         }, {
+            "id": "1806",
+            "name": "NewsBot",
+            "type": "url",
+            "url": "https://getnewsbot.com/"
          }],
          "id": "755",
          "name": "News Search",
@@ -4179,6 +4292,26 @@
             "name": "Stop Fake Tools",
             "type": "url",
             "url": "http://www.stopfake.org/en/category/tools/"
+         }, {
+            "id": "1797",
+            "name": "Snopes",
+            "type": "url",
+            "url": "http://www.snopes.com/"
+         }, {
+            "id": "1798",
+            "name": "Verification Handbook",
+            "type": "url",
+            "url": "http://verificationhandbook.com/"
+         }, {
+            "id": "1799",
+            "name": "Verification Junkie",
+            "type": "url",
+            "url": "http://verificationjunkie.com/"
+         }, {
+            "id": "1800",
+            "name": "MediaBugs",
+            "type": "url",
+            "url": "http://mediabugs.org/"
          }],
          "id": "1730",
          "name": "Fact Checking",
@@ -4864,6 +4997,21 @@
       "type": "folder"
    }, {
       "children": [{
+         "id": "922",
+         "name": "Craigslist",
+         "type": "url",
+         "url": "http://craigslist.org/"
+      }, {
+         "id": "1805",
+         "name": "Kijiji - Canada Classifieds",
+         "type": "url",
+         "url": "http://www.kijiji.ca/"
+      }, {
+         "id": "1804",
+         "name": "Quikr - India Classifieds",
+         "type": "url",
+         "url": "http://www.quikr.com/"
+      }, {
          "id": "919",
          "name": "eBay",
          "type": "url",
@@ -4878,11 +5026,6 @@
          "name": "Flippity",
          "type": "url",
          "url": "http://www.flippity.com/"
-      }, {
-         "id": "922",
-         "name": "Craigslist",
-         "type": "url",
-         "url": "http://craigslist.org/"
       }, {
          "id": "923",
          "name": "SearchAllJunk",
@@ -5064,6 +5207,11 @@
             "name": "Intrigue.io (T)",
             "type": "url",
             "url": "https://intrigue.io/"
+         }, {
+            "id": "1795",
+            "name": "OSRFramework",
+            "type": "url",
+            "url": "https://github.com/i3visio/osrframework"
          }],
          "id": "958",
          "name": "OSINT Automation",
