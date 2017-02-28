@@ -3411,6 +3411,11 @@
             "name": "Manta Small Business Directory",
             "type": "url",
             "url": "http://manta.com/business"
+         }, {
+            "id": "1834",
+            "name": "Crunchbase",
+            "type": "url",
+            "url": "https://www.crunchbase.com/#/home/index"
          }],
          "id": "608",
          "name": "Company Profiles",
@@ -5276,15 +5281,45 @@
          "name": "Pentesting Recon",
          "type": "folder"
       }, {
+         "children": [{
+            "id": "1844",
+            "name": "VMware Workstation Player (T)",
+            "type": "url",
+            "url": "http://www.vmware.com/products/player/playerpro-evaluation.html"
+         }, {
+            "id": "1840",
+            "name": "VirtualBox (T)",
+            "type": "url",
+            "url": "https://www.virtualbox.org/"
+         }, {
+            "id": "1837",
+            "name": "Microsoft Edge Development OS VMs (T)",
+            "type": "url",
+            "url": "https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/"
+         }, {
+            "id": "1838",
+            "name": "Kali Linux OS (T)",
+            "type": "url",
+            "url": "https://www.kali.org/"
+         }, {
+            "id": "1835",
+            "name": "Subgraph OS (T)",
+            "type": "url",
+            "url": "https://subgraph.com/index.en.html"
+         }, {
+            "id": "957",
+            "name": "Tails Live OS (T)",
+            "type": "url",
+            "url": "https://tails.boum.org/"
+         }],
+         "id": "1839",
+         "name": "Virtual Machines",
+         "type": "folder"
+      }, {
          "id": "955",
          "name": "Paterva / Maltego (T)",
          "type": "url",
          "url": "http://www.paterva.com/web6/products/maltego.php"
-      }, {
-         "id": "957",
-         "name": "Tails Live OS (T)",
-         "type": "url",
-         "url": "https://tails.boum.org/"
       }, {
          "id": "956",
          "name": "Epic Privacy Browser (T)",
@@ -5626,6 +5661,21 @@
          "name": "IOC Tools",
          "type": "folder"
       }, {
+         "children": [{
+            "id": "1841",
+            "name": "Malware Exploit TTP Database",
+            "type": "url",
+            "url": "https://www.pwnmalw.re/"
+         }, {
+            "id": "1842",
+            "name": "Mitre TTPs",
+            "type": "url",
+            "url": "https://attack.mitre.org/wiki/All_Techniques"
+         }],
+         "id": "1843",
+         "name": "TTPs",
+         "type": "folder"
+      }, {
          "id": "1016",
          "name": "IBM X-Force Exchange",
          "type": "url",
@@ -5842,6 +5892,11 @@
                "name": "BrowserSpy.dk Browser Information",
                "type": "url",
                "url": "http://browserspy.dk/browser.php"
+            }, {
+               "id": "1836",
+               "name": "Browserscope",
+               "type": "url",
+               "url": "http://www.browserscope.org/"
             }],
             "id": "1763",
             "name": "Browser Tests",
