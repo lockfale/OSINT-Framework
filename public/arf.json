@@ -5290,6 +5290,11 @@
          "name": "Epic Privacy Browser (T)",
          "type": "url",
          "url": "https://www.epicbrowser.com/"
+      }, {
+         "id": "1099",
+         "name": "Overview",
+         "type": "url",
+         "url": "https://www.overviewdocs.com/"
       }],
       "id": "954",
       "name": "Tools",
