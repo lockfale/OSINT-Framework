@@ -4436,6 +4436,11 @@
             "name": "ircsnapshot (T)",
             "type": "url",
             "url": "https://github.com/bwall/ircsnapshot"
+         }, {
+            "id": "1845",
+            "name": "netsplit.de",
+            "type": "url",
+            "url": "http://irc.netsplit.de/channels/search.php"
          }],
          "id": "801",
          "name": "IRC Search",
