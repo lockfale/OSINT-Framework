@@ -228,9 +228,9 @@
             "url": "https://haveibeenpwned.com/"
          }, {
             "id": "47",
-            "name": "Leaked Source",
+            "name": "Vigilante.pw",
             "type": "url",
-            "url": "https://www.leakedsource.com/"
+            "url": "https://www.vigilante.pw/"
          }, {
             "id": "48",
             "name": "Breach or Clear",
@@ -4436,7 +4436,17 @@
             "name": "ircsnapshot (T)",
             "type": "url",
             "url": "https://github.com/bwall/ircsnapshot"
-         }],
+         }, {
+            "id": "1845",
+            "name": "netsplit.de",
+            "type": "url",
+            "url": "http://irc.netsplit.de/channels/search.php"
+         }, {
+            "id": "1846",
+            "name": "BotBot.me",
+            "type": "url",
+            "url": "https://botbot.me/"        
+         }], 
          "id": "801",
          "name": "IRC Search",
          "type": "folder"
