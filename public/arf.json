@@ -5273,9 +5273,14 @@
             "url": "https://intrigue.io/"
          }, {
             "id": "1795",
-            "name": "OSRFramework",
+            "name": "OSRFramework (T)",
             "type": "url",
             "url": "https://github.com/i3visio/osrframework"
+         }, {
+            "id": "1100",
+            "name": "Inquisitor (T)",
+            "type": "url",
+            "url": "https://github.com/penafieljlm/inquisitor"
          }],
          "id": "958",
          "name": "OSINT Automation",
