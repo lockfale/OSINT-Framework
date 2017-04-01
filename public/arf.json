@@ -5281,6 +5281,11 @@
             "name": "Inquisitor (T)",
             "type": "url",
             "url": "https://github.com/penafieljlm/inquisitor"
+         },{
+            "id": "1101",
+            "name": "AutoOSINT (T)",
+            "type": "url",
+            "url": "https://github.com/bharshbarger/AutOSINT"
          }],
          "id": "958",
          "name": "OSINT Automation",
