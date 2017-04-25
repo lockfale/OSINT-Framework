@@ -2297,6 +2297,11 @@
                "name": "Deadbird",
                "type": "url",
                "url": "https://deadbird.site/"
+            }, {
+               "id": "1102",
+               "name": "Spoonbill",
+               "type": "url",
+               "url": "https://spoonbill.io"            	
             }],
             "id": "424",
             "name": "Archive / Deleted Tweets",
@@ -5255,7 +5260,7 @@
             "id": "1751",
             "name": "DataSploit (T)",
             "type": "url",
-            "url": "https://github.com/upgoingstar/datasploit"
+            "url": "https://github.com/datasploit/datasploit/"
          }, {
             "id": "959",
             "name": "IFTTT",
@@ -5273,9 +5278,19 @@
             "url": "https://intrigue.io/"
          }, {
             "id": "1795",
-            "name": "OSRFramework",
+            "name": "OSRFramework (T)",
             "type": "url",
             "url": "https://github.com/i3visio/osrframework"
+         }, {
+            "id": "1100",
+            "name": "Inquisitor (T)",
+            "type": "url",
+            "url": "https://github.com/penafieljlm/inquisitor"
+         },{
+            "id": "1101",
+            "name": "AutoOSINT (T)",
+            "type": "url",
+            "url": "https://github.com/bharshbarger/AutOSINT"
          }],
          "id": "958",
          "name": "OSINT Automation",
