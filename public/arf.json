@@ -2193,6 +2193,11 @@
                   "name": "Trendsmap",
                   "type": "url",
                   "url": "http://trendsmap.com/"
+               }, {
+                  "id": "1105",
+                  "name": "TAGSExplorer",
+                  "type": "url",
+                  "url": "https://tags.hawksey.info/tagsexplorer/"
                }],
                "id": "405",
                "name": "Hashtag",
@@ -2301,7 +2306,7 @@
                "id": "1102",
                "name": "Spoonbill",
                "type": "url",
-               "url": "https://spoonbill.io"            	
+               "url": "https://spoonbill.io"             
             }],
             "id": "424",
             "name": "Archive / Deleted Tweets",
