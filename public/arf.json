@@ -2193,6 +2193,11 @@
                   "name": "Trendsmap",
                   "type": "url",
                   "url": "http://trendsmap.com/"
+               }, {
+                  "id": "1105",
+                  "name": "TAGSExplorer",
+                  "type": "url",
+                  "url": "https://tags.hawksey.info/tagsexplorer/"
                }],
                "id": "405",
                "name": "Hashtag",
@@ -2301,7 +2306,7 @@
                "id": "1102",
                "name": "Spoonbill",
                "type": "url",
-               "url": "https://spoonbill.io"            	
+               "url": "https://spoonbill.io"             
             }],
             "id": "424",
             "name": "Archive / Deleted Tweets",
@@ -5681,6 +5686,11 @@
             "name": "ThreatPinch Lookup",
             "type": "url",
             "url": "https://github.com/cloudtracer/ThreatPinchLookup"
+         }, {
+            "id": "1104",
+            "name": "Mimir",
+            "type": "url",
+            "url": "https://github.com/NullArray/Mimir"
          }],
          "id": "1012",
          "name": "IOC Tools",
@@ -5755,6 +5765,11 @@
          "name": "APTnotes",
          "type": "url",
          "url": "https://github.com/aptnotes/data"
+      }, {
+         "id": "1103",
+         "name": "HoneyDB",
+         "type": "url",
+         "url": "https://riskdiscovery.com/honeydb/"
       }],
       "id": "1008",
       "name": "Threat Intelligence",
