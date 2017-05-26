@@ -137,6 +137,11 @@
             "type": "url",
             "url": "http://www.edge-security.com/theharvester.php"
          }, {
+            "id": "1106",
+            "name": "Infoga (T)",
+            "type": "url",
+            "url": "https://github.com/m4ll0k/infoga"
+         }, {
             "id": "30",
             "name": "IntelTechniques Cellular Email Tool",
             "type": "url",
@@ -3074,6 +3079,16 @@
          }],
          "id": "556",
          "name": "Court / Criminal Records",
+         "type": "folder"
+      }, {
+         "children": [{
+            "id": "1108",
+            "name": "NC Salary DB",
+            "type": "url",
+            "url": "http://www.newsobserver.com/news/databases/state-pay/"
+         }],
+         "id": "1107",
+         "name": "Government Records",
          "type": "folder"
       }, {
          "children": [{
