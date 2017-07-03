@@ -29,12 +29,6 @@
               "url": "https://www.namecheckr.com/"
             },
             {
-              "id": "9",
-              "name": "User Sherlock",
-              "type": "url",
-              "url": "http://usersherlock.com/"
-            },
-            {
               "id": "10",
               "name": "UserSearch.org",
               "type": "url",
@@ -156,12 +150,6 @@
               "name": "Reverse Genie Email",
               "type": "url",
               "url": "http://www.reversegenie.com/email.php"
-            },
-            {
-              "id": "28",
-              "name": "EmailSherlock",
-              "type": "url",
-              "url": "http://www.emailsherlock.com/"
             },
             {
               "id": "29",
@@ -1241,12 +1229,6 @@
         },
         {
           "children": [
-            {
-              "id": "189",
-              "name": "SpiderFoot (T)",
-              "type": "url",
-              "url": "http://www.spiderfoot.net/"
-            },
             {
               "id": "190",
               "name": "Burp Suite (T)",
@@ -3135,19 +3117,6 @@
           ],
           "id": "463",
           "name": "Snapchat",
-          "type": "folder"
-        },
-        {
-          "children": [
-            {
-              "id": "466",
-              "name": "WhatCha",
-              "type": "url",
-              "url": "http://whatcha.xyz/#knowmore"
-            }
-          ],
-          "id": "465",
-          "name": "WhatsApp",
           "type": "folder"
         },
         {
@@ -6505,6 +6474,12 @@
               "name": "DataSploit (T)",
               "type": "url",
               "url": "https://github.com/datasploit/datasploit/"
+            },
+            {
+              "id": "189",
+              "name": "SpiderFoot (T)",
+              "type": "url",
+              "url": "http://www.spiderfoot.net/"
             },
             {
               "id": "959",
