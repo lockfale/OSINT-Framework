@@ -1598,6 +1598,12 @@
               "name": "Cloudflare Resolver",
               "type": "url",
               "url": "http://skresolver.com/cloudflare-resolver.php"
+            },
+            {
+              "id": "1114",
+              "name": "CloudFail (T)",
+              "type": "url",
+              "url": "https://github.com/m0rtem/CloudFail"
             }
           ],
           "id": "237",
@@ -4698,6 +4704,12 @@
           "name": "MapQuest",
           "type": "url",
           "url": "https://www.mapquest.com/"
+        },
+        {
+          "id": "1113",
+          "name": "OpenRailwayMap",
+          "type": "url",
+          "url": "http://www.openrailwaymap.org/"
         }
       ],
       "id": "660",
