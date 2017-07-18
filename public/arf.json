@@ -448,22 +448,28 @@
         {
           "children": [
             {
+              "id": "1120",
+              "name": "Aquatone (T)",
+              "type": "url",
+              "url": "https://github.com/michenriksen/aquatone"
+            },
+            {
               "id": "75",
               "name": "Google Subdomains (D)",
               "type": "url",
               "url": "https://www.google.com/?gws_rd=ssl#q=site:%3Cdomain.com%3E"
             },
             {
-              "id": "76",
-              "name": "crt.sh - Certificate Search",
-              "type": "url",
-              "url": "https://crt.sh/?"
-            },
-            {
               "id": "77",
               "name": "Recon-ng (T)",
               "type": "url",
               "url": "https://bitbucket.org/LaNMaSteR53/recon-ng"
+            },
+            {
+              "id": "1121",
+              "name": "XRay",
+              "type": "url",
+              "url": "https://github.com/evilsocket/xray"
             },
             {
               "id": "78",
@@ -595,6 +601,31 @@
           ],
           "id": "112",
           "name": "Discovery",
+          "type": "folder"
+        },
+        {
+          "children": [
+            {
+              "id": "1119",
+              "name": "Google's Certificate Transparency",
+              "type": "url",
+              "url": "https://www.certificate-transparency.org/known-logs"
+            },
+            {
+              "id": "212",
+              "name": "Censys",
+              "type": "url",
+              "url": "https://censys.io/"
+            },
+            {
+              "id": "76",
+              "name": "crt.sh - Certificate Search",
+              "type": "url",
+              "url": "https://crt.sh/?"
+            }
+          ],
+          "id": "1123",
+          "name": "Certificate Search",
           "type": "folder"
         },
         {
@@ -1351,12 +1382,6 @@
               "name": "Shodan",
               "type": "url",
               "url": "https://www.shodan.io/"
-            },
-            {
-              "id": "212",
-              "name": "Censys",
-              "type": "url",
-              "url": "https://censys.io/"
             },
             {
               "id": "213",
@@ -3391,6 +3416,18 @@
           "name": "AnyWho",
           "type": "url",
           "url": "http://www.anywho.com/whitepages"
+        },
+        {
+          "id": "1119",
+          "name": "Addresses.com",
+          "type": "url",
+          "url": "http://www.addresses.com/"
+        },
+        {
+          "id": "1125",
+          "name": "Sorted By Name",
+          "type": "url",
+          "url": "http://sortedbyname.com/"
         }
       ],
       "id": "471",
@@ -3778,6 +3815,12 @@
               "name": "NC Salary DB",
               "type": "url",
               "url": "http://www.newsobserver.com/news/databases/state-pay/"
+            },
+            {
+              "id": "1118",
+              "name": "Gov Data Canada",
+              "type": "url",
+              "url": "https://govdataca.com/"
             }
           ],
           "id": "1107",
@@ -3800,6 +3843,31 @@
         {
           "children": [
             {
+              "id": "1124",
+              "name": "Sorted by Birth Date",
+              "type": "url",
+              "url": "http://sortedbybirthdate.com/"
+            },
+            {
+              "id": "1127",
+              "name": "Moose Roots Birth Records",
+              "type": "url",
+              "url": "http://birth-records.mooseroots.com/"
+            },
+            {
+              "id": "1126",
+              "name": "Birth Database",
+              "type": "url",
+              "url": "http://www.birthdatabase.com/"
+            }
+          ],
+          "id": "1122",
+          "name": "Birth Records",
+          "type": "folder"
+        },
+        {
+          "children": [
+            {
               "id": "572",
               "name": "Death Check",
               "type": "url",
@@ -3816,6 +3884,12 @@
               "name": "GraveInfo",
               "type": "url",
               "url": "http://www.graveinfo.com/"
+            },
+            {
+              "id": "1128",
+              "name": "Moose Roots Death Records",
+              "type": "url",
+              "url": "http://death-records.mooseroots.com/"
             }
           ],
           "id": "571",
@@ -3910,10 +3984,16 @@
               "name": "US Federal Election Commission",
               "type": "url",
               "url": "http://www.fec.gov/finance/disclosure/norindsea.shtml"
+            },
+            {
+              "id": "1117",
+              "name": "Every Politician",
+              "type": "url",
+              "url": "http://everypolitician.org/"
             }
           ],
           "id": "579",
-          "name": "Campaign Donation Records",
+          "name": "Political Records",
           "type": "folder"
         },
         {
@@ -4394,6 +4474,18 @@
               "name": "Vessel Tracker",
               "type": "url",
               "url": "http://www.vesseltracker.com/app"
+            },
+            {
+              "id": "1115",
+              "name": "Ship AIS",
+              "type": "url",
+              "url": "http://www.shipais.com/"
+            },
+            {
+              "id": "1116",
+              "name": "Shodan Ship Tracker",
+              "type": "url",
+              "url": "https://shiptracker.shodan.io/"
             }
           ],
           "id": "656",
