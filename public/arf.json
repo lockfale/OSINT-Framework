@@ -1580,6 +1580,12 @@
               "name": "Cloudflare Resolver",
               "type": "url",
               "url": "http://skresolver.com/cloudflare-resolver.php"
+            },
+            {
+              "id": "1114",
+              "name": "CloudFail (T)",
+              "type": "url",
+              "url": "https://github.com/m0rtem/CloudFail"
             }
           ],
           "id": "237",
@@ -2141,6 +2147,12 @@
                   "name": "TubeChop",
                   "type": "url",
                   "url": "http://www.tubechop.com/"
+                },
+                {
+                  "id": "1112",
+                  "name": "YouTube Data Tools",
+                  "type": "url",
+                  "url": "https://tools.digitalmethods.net/netvizz/youtube/"
                 }
               ],
               "id": "316",
@@ -4661,6 +4673,12 @@
           "name": "MapQuest",
           "type": "url",
           "url": "https://www.mapquest.com/"
+        },
+        {
+          "id": "1113",
+          "name": "OpenRailwayMap",
+          "type": "url",
+          "url": "http://www.openrailwaymap.org/"
         }
       ],
       "id": "660",
@@ -7488,7 +7506,14 @@
               "name": "Snapper (T)",
               "type": "url",
               "url": "https://github.com/dxa4481/Snapper"
+            },
+            {
+              "id": "1111",
+              "name": "Full Page Screen Capture Chrome Extension (T)",
+              "type": "url",
+              "url": "https://github.com/mrcoles/full-page-screen-capture-chrome-extension"
             }
+
           ],
           "id": "1075",
           "name": "Web Browsing",
@@ -7507,6 +7532,12 @@
               "name": "ShareX (T)",
               "type": "url",
               "url": "https://getsharex.com/"
+            },
+            {
+              "id": "1110",
+              "name": "Greenshot (T)",
+              "type": "url",
+              "url": "https://getgreenshot.org/"
             }
           ],
           "id": "1083",
