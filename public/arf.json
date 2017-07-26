@@ -542,6 +542,12 @@
               "name": "Sublist3r",
               "type": "url",
               "url": "https://github.com/aboul3la/Sublist3r"
+            },
+            {
+              "id": "1134",
+              "name": "AltDNS (T)",
+              "type": "url",
+              "url": "https://github.com/infosec-au/altdns"
             }
           ],
           "id": "74",
@@ -914,6 +920,12 @@
               "name": "dnstwister",
               "type": "url",
               "url": "https://dnstwister.report/"
+            },
+            {
+              "id": "1133",
+              "name": "Catphish",
+              "type": "url",
+              "url": "https://github.com/ring0lab/catphish"
             }
           ],
           "id": "129",
@@ -1926,6 +1938,12 @@
                   "name": "Search by Exif",
                   "type": "url",
                   "url": "http://www.exif-search.com/"
+                },
+                {
+                  "id": "1131",
+                  "name": "ImgOps",
+                  "type": "url",
+                  "url": "http://imgops.com/"
                 },
                 {
                   "id": "288",
@@ -4771,6 +4789,24 @@
           "name": "OpenRailwayMap",
           "type": "url",
           "url": "http://www.openrailwaymap.org/"
+        },
+        {
+          "id": "1129",
+          "name": "OpenStreetMap Routing Service",
+          "type": "url",
+          "url": "http://www.yournavigation.org/"
+        },
+        {
+          "id": "1130",
+          "name": "Hiking & Biking Map",
+          "type": "url",
+          "url": "http://hikebikemap.org/"
+        },
+        {
+          "id": "1132",
+          "name": "US Nav Guide Zip Code Data",
+          "type": "url",
+          "url": "http://www.usnaviguide.com/"
         }
       ],
       "id": "660",
@@ -6196,6 +6232,12 @@
               "name": "Onioff",
               "type": "url",
               "url": "https://github.com/k4m4/onioff"
+            },
+            {
+              "id": "1135",
+              "name": "Hunchly Hidden Services Report",
+              "type": "url",
+              "url": "https://darkweb.hunch.ly/"
             }
           ],
           "id": "894",
