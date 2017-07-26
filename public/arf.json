@@ -6984,6 +6984,12 @@
           "id": "988",
           "name": "PCAPs",
           "type": "folder"
+        },
+        {
+          "id": "990",
+          "name": "Malware Analysis Tools",
+          "type": "url",
+          "url": "http://malwareanalysis.tools/"
         }
       ],
       "id": "961",
