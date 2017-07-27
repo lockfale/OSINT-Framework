@@ -6928,6 +6928,12 @@
               "name": "ThreatExpert Sandbox",
               "type": "url",
               "url": "http://www.threatexpert.com/submit.aspx"
+            },
+            {
+              "id": "1136",
+              "name": "Koodous",
+              "type": "url",
+              "url": "https://koodous.com"
             }
           ],
           "id": "967",
