@@ -603,6 +603,12 @@
               "name": "Sitediff",
               "type": "url",
               "url": "https://github.com/digininja/sitediff"
+            },
+            {
+              "id": "121",
+              "name": "AnalyzeID",
+              "type": "url",
+              "url": "http://analyzeid.com/"
             }
           ],
           "id": "112",
