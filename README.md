@@ -24,14 +24,19 @@ _and then..._
 #### install dependencies with npm:
 <ol start="3">
   <li>Run `npm install`</li>
-  <li>Run `npm start` to start SimpleHTTPServer in the /public directory on port 8000 (you'll need python installed for this, of course)</li>
+  <li>Run `npm start` to start SimpleHTTPServer in the /public directory on port 8000 (you'll need python 2 installed for this)</li>
   <li>Open your browser to http://localhost:8000</li>
 </ol>
 
 ##### install dependencies with bower:
 <ol start="3">
   <li>Run `bower install`</li>
-  <li>Run `cd ./public; python -m SimpleHTTPServer 8000` (you'll need python installed for this, of course)</li>
+  <li>
+      <ol>
+          <li>Python 2: Run `cd ./public; python -m SimpleHTTPServer 8000` (you'll need python 2 installed for this)</li>
+          <li>Python 3: Run `cd ./public; python -m http.server 8000` (you'll need python installed for this)</li>
+      </ol>
+  </li>
   <li>Open your browser to http://localhost:8000</li>
 </ol>
 
