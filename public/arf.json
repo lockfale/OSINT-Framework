@@ -4049,6 +4049,18 @@
           "name": "BRB Public Records",
           "type": "url",
           "url": "http://www.brbpub.com/"
+        },
+        {
+          "id": "1140",
+          "name": "GOVDATA - Das Datenportal für Deutschland (German)",
+          "type": "url",
+          "url": "https://www.govdata.de/"
+        },
+        {
+          "id": "1141",
+          "name": "Open-Data-Portal München (German)",
+          "type": "url",
+          "url": "https://www.opengov-muenchen.de/"
         }
       ],
       "id": "551",
@@ -4521,6 +4533,19 @@
           "id": "656",
           "name": "Marine Records",
           "type": "folder"
+        },
+        {
+          "children": [
+            {
+              "id": "1139",
+              "name": "Deutsche Bahn Open-Data-Portal (German)",
+              "type": "url",
+              "url": "http://data.deutschebahn.com/"
+            }
+          ],
+        "id": "1138",
+        "name": "Railway Records",
+        "type": "folder"
         },
         {
           "id": "659",
