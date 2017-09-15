@@ -6705,6 +6705,12 @@
               "name": "AutoOSINT (T)",
               "type": "url",
               "url": "https://github.com/bharshbarger/AutOSINT"
+            },
+            {
+              "id": "1142",
+              "name": "IntRec-Pack (T)",
+              "type": "url",
+              "url": "https://github.com/NullArray/IntRec-Pack"
             }
           ],
           "id": "958",
