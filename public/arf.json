@@ -2367,6 +2367,43 @@
           "id": "323",
           "name": "Documents",
           "type": "folder"
+        },
+        {
+          "children": [
+            {
+              "id": "1145",
+              "name": "What The Font",
+              "type": "url",
+              "url": "https://www.myfonts.com/WhatTheFont/"
+            },
+            {
+              "id": "1146",
+              "name": "Font Squirrel",
+              "type": "url",
+              "url": "https://www.fontsquirrel.com/matcherator"
+            },
+            {
+              "id": "1147",
+              "name": "IdentiFont",
+              "type": "url",
+              "url": "http://www.identifont.com/index.html"
+            },
+            {
+              "id": "1148",
+              "name": "Font Spring",
+              "type": "url",
+              "url": "https://www.fontspring.com/matcherator"
+            },
+            {
+              "id": "1149",
+              "name": "What Font Is",
+              "type": "url",
+              "url": "https://www.whatfontis.com/"
+            }
+          ],
+          "id": "1144",
+          "name": "Fonts",
+          "type": "folder"
         }
       ],
       "id": "246",
@@ -2892,6 +2929,12 @@
                   "name": "Spoonbill",
                   "type": "url",
                   "url": "https://spoonbill.io"
+                },
+                {
+                  "id": "1152",
+                  "name": "TweetVacuum (T)",
+                  "type": "url",
+                  "url": "https://github.com/T3hUb3rK1tten/TweetVacuum"
                 }
               ],
               "id": "424",
@@ -3461,9 +3504,15 @@
         },
         {
           "id": "1847",
-          "name": "Free Public Data Finder",
+          "name": "Cubib",
           "type": "url",
-          "url": "https://who.com.co/"
+          "url": "https://cubib.com/"
+        },
+        {
+          "id": "1142",
+          "name": "True People Search",
+          "type": "url",
+          "url": "https://www.truepeoplesearch.com/"
         }
       ],
       "id": "471",
@@ -6393,6 +6442,12 @@
               "name": "BitCluster",
               "type": "url",
               "url": "https://www.bit-cluster.com/"
+            },
+            {
+              "id": "1150",
+              "name": "Blockonomics",
+              "type": "url",
+              "url": "https://www.blockonomics.co/"
             }
           ],
           "id": "906",
@@ -6412,6 +6467,12 @@
               "name": "etherchain.org",
               "type": "url",
               "url": "https://etherchain.org/accounts/"
+            },
+            {
+              "id": "1151",
+              "name": "Etherscan",
+              "type": "url",
+              "url": "https://etherscan.io/"
             }
           ],
           "id": "915",
@@ -6654,6 +6715,12 @@
           "id": "942",
           "name": "XOR",
           "type": "folder"
+        },
+        {
+          "id": "1153",
+          "name": "CyberChef",
+          "type": "url",
+          "url": "https://gchq.github.io/CyberChef/"
         }
       ],
       "id": "929",
@@ -7796,10 +7863,16 @@
           "url": "http://register.automatingosint.com/"
         },
         {
-          "id": "1095",
+          "id": "2",
           "name": "Open Source Intelligence Techniques",
           "type": "url",
           "url": "https://inteltechniques.com/"
+        },
+        {
+          "id": "1095",
+          "name": "Plessas",
+          "type": "url",
+          "url": "http://www.plessas.net/site/"
         }
       ],
       "id": "1093",
@@ -7807,7 +7880,7 @@
       "type": "folder"
     }
   ],
-  "id": "2",
+  "id": "1",
   "name": "OSINT Framework",
   "type": "folder"
 }
