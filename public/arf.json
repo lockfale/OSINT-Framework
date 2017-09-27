@@ -4528,6 +4528,12 @@
               "type": "url",
               "url": "https://berla.co/products/ive/vehicle-lookup/"
             }
+            {
+              "id": "1848",
+              "name": "License Plate Search",
+              "type": "url",
+              "url": "https://www.vehiclehistory.com/licence-plate-search/licence-plate.php"
+            }
           ],
           "id": "644",
           "name": "Vehicle Records",
