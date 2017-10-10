@@ -6780,10 +6780,16 @@
               "url": "https://github.com/bharshbarger/AutOSINT"
             },
             {
-              "id": "1142",
+              "id": "1154",
               "name": "IntRec-Pack (T)",
               "type": "url",
               "url": "https://github.com/NullArray/IntRec-Pack"
+            },
+            {
+              "id": "1155",
+              "name": "OSINT-SPY (T)",
+              "type": "url",
+              "url": "https://github.com/SharadKumar97/OSINT-SPY"
             }
           ],
           "id": "958",
