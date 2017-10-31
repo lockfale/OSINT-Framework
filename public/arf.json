@@ -3781,6 +3781,12 @@
           "name": "OpenCNAM API",
           "type": "url",
           "url": "http://api.opencnam.com/v2/phone/+19073372323"
+        },
+        {
+          "id": "1290",
+          "name": "USPhoneBook",
+          "type": "url",
+          "url": "https://www.usphonebook.com"
         }
       ],
       "id": "528",
