@@ -6354,6 +6354,12 @@
               "name": "docker-onion-nmap (T)",
               "type": "url",
               "url": "https://github.com/milesrichardson/docker-onion-nmap"
+            },
+            {
+              "id": "1291",
+              "name": "Onion Investigator",
+              "type": "url",
+              "url": "https://oint.ctrlbox.com/"
             }
           ],
           "id": "894",
