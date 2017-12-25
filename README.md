@@ -3,7 +3,7 @@
 http://osintframework.com
 
 ## Notes
-OSINT framework focused on gathering information from free tools or resources.  The intention is to help people find OSINT resources that return free information.  Some of the sites included my require registration or offer more data for $$$, but you should be able to get at least a portion of the available information for no cost.
+OSINT framework focused on gathering information from free tools or resources.  The intention is to help people find OSINT resources that return free information.  Some of the sites included may require registration or offer more data for $$$, but you should be able to get at least a portion of the available information for no cost.
 
 I originally created this framework with an information security point of view.  Since then, the response from other fields and disciplines has been incredible.  I would love to be able to include any other OSINT resources, especially from fields outside of infosec.  Please let me know about anything that might be missing!
 
