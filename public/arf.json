@@ -5920,6 +5920,12 @@
         {
           "children": [
             {
+              "id": "1292",
+              "name": "DeepL Translator",
+              "type": "url",
+              "url": "https://www.deepl.com/"
+            },
+            {
               "id": "829",
               "name": "Google Translate",
               "type": "url",
