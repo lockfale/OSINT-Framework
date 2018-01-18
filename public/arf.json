@@ -665,6 +665,12 @@
               "name": "PTRarchive.com",
               "type": "url",
               "url": "http://ptrarchive.com/"
+            },
+            {
+              "id": "1849",
+              "name": "DNS Dumpster",
+              "type": "url",
+              "url": "https://dnsdumpster.com/"
             }
           ],
           "id": "121",
