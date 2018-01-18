@@ -634,6 +634,12 @@
               "name": "crt.sh - Certificate Search",
               "type": "url",
               "url": "https://crt.sh/?"
+            },
+            {
+              "id": "1293",
+              "name": "certgraph (T)",
+              "type": "url",
+              "url": "https://github.com/lanrat/certgraph"
             }
           ],
           "id": "1123",
