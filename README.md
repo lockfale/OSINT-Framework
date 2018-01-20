@@ -32,10 +32,10 @@ For new resources, please ensure that the site is available for public and free 
 
 ```
 {
-  "id": "1095",
-  "name": "Plessas",
+  "id": "####",
+  "name": "Example Name",
   "type": "url",
-  "url": "http://www.plessas.net/site/"
+  "url": "http://example.com"
 }
 ```
 
