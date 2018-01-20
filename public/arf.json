@@ -1101,6 +1101,12 @@
               "name": "WebPagetest",
               "type": "url",
               "url": "https://www.webpagetest.org/"
+            },
+            {
+              "id": "1312",
+              "name": "WhatWeb",
+              "type": "url",
+              "url": "https://github.com/urbanadventurer/WhatWeb"
             }
           ],
           "id": "133",
@@ -1258,6 +1264,12 @@
                   "name": "Sn1per (T)",
                   "type": "url",
                   "url": "https://github.com/1N3/Sn1per"
+                },
+                {
+                  "id": "1310",
+                  "name": "Mage Scan",
+                  "type": "url",
+                  "url": "https://magescan.com/"
                 }
               ],
               "id": "181",
@@ -1466,6 +1478,12 @@
               "name": "urlscan.io",
               "type": "url",
               "url": "https://urlscan.io/search/#*"
+            },
+            {
+              "id": "1311",
+              "name": "Scanless",
+              "type": "url",
+              "url": "https://github.com/vesche/scanless"
             }
           ],
           "id": "210",
@@ -1628,6 +1646,12 @@
               "name": "MyIPNeighbors",
               "type": "url",
               "url": "http://www.my-ip-neighbors.com/"
+            },
+            {
+              "id": "1309",
+              "name": "Same IP",
+              "type": "url",
+              "url": "http://www.sameip.org/"
             }
           ],
           "id": "233",
@@ -8049,5 +8073,5 @@
   "id": "1",
   "name": "OSINT Framework",
   "type": "folder",
-  "desc": "Next Available ID: 1309"
+  "desc": "Next Available ID: 1313"
 }
