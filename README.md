@@ -27,7 +27,7 @@ Feedback or new tool suggestions are extremely welcome!  Please feel free to sub
 For new resources, please ensure that the site is available for public and free use.
 <ol start="1">
   <li>Note the next available ID listed in the description field on the OSINT Framework folder. This can be found at the bottom of arf.json</li>
-  <li>Update the arf.json file with the following format.</li>
+  <li>Update the arf.json file in the format shown below. If this isn't the first entry for a folder, add a comma to the last closing brace of the previous entry.</li>
 </ol>
 
 ```
