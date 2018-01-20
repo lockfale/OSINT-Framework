@@ -3602,6 +3602,30 @@
               "url": "https://www.theknot.com/registry/couplesearch"
             },
             {
+              "id": "1313",
+              "name": "Registry Finder",
+              "type": "url",
+              "url": "https://www.registryfinder.com/"
+            },
+            {
+              "id": "1314",
+              "name": "My Registry",
+              "type": "url",
+              "url": "https://www.myregistry.com/"
+            },
+            {
+              "id": "1315",
+              "name": "Amazon Registry Search",
+              "type": "url",
+              "url": "https://www.amazon.com/gp/registry/search"
+            },
+            {
+              "id": "1316",
+              "name": "Bed, Bath, & Beyond Gift Registry",
+              "type": "url",
+              "url": "https://www.bedbathandbeyond.com/store/giftregistry/registry_search_guest.jsp"
+            },
+            {
               "id": "1306",
               "name": "The Bump",
               "type": "url",
@@ -8073,5 +8097,5 @@
   "id": "1",
   "name": "OSINT Framework",
   "type": "folder",
-  "desc": "Next Available ID: 1313"
+  "desc": "Next Available ID: 1317"
 }
