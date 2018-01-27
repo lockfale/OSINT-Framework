@@ -11,12 +11,6 @@
               "url": "https://namechk.com/"
             },
             {
-              "id": "6",
-              "name": "Username Check",
-              "type": "url",
-              "url": "http://www.usernamecheck.com/"
-            },
-            {
               "id": "7",
               "name": "KnowEm",
               "type": "url",
@@ -1690,6 +1684,12 @@
               "name": "WiGLE: Wireless Network Mapping",
               "type": "url",
               "url": "https://wigle.net/"
+            },
+            {
+              "id": "1319",
+              "name": "OpenCellid: Database of Cell Towers",
+              "type": "url",
+              "url": "https://opencellid.org/"
             }
           ],
           "id": "240",
@@ -4729,6 +4729,12 @@
               "name": "Shodan Ship Tracker",
               "type": "url",
               "url": "https://shiptracker.shodan.io/"
+            },
+            {
+              "id": "1317",
+              "name": "OpenSeaMap - The free nautical chart",
+              "type": "url",
+              "url": "http://www.openseamap.org"
             }
           ],
           "id": "656",
@@ -4742,6 +4748,12 @@
               "name": "Deutsche Bahn Open-Data-Portal (German)",
               "type": "url",
               "url": "http://data.deutschebahn.com/"
+            },
+            {
+              "id": "1318",
+              "name": "OpenRailwayMap",
+              "type": "url",
+              "url": "https://www.openrailwaymap.org/"
             }
           ],
           "id": "1138",
@@ -8097,5 +8109,5 @@
   "id": "1",
   "name": "OSINT Framework",
   "type": "folder",
-  "desc": "Next Available ID: 1317"
+  "desc": "Next Available ID: 1320"
 }
