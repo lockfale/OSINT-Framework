@@ -5957,6 +5957,12 @@
               "name": "Browsershots",
               "type": "url",
               "url": "http://browsershots.org/"
+            },
+            {
+              "id": "1320",
+              "name": "Waybackpack (T)",
+              "type": "url",
+              "url": "https://github.com/jsvine/waybackpack"
             }
           ],
           "id": "805",
@@ -8109,5 +8115,5 @@
   "id": "1",
   "name": "OSINT Framework",
   "type": "folder",
-  "desc": "Next Available ID: 1320"
+  "desc": "Next Available ID: 1321"
 }
