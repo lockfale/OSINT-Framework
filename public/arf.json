@@ -6490,6 +6490,12 @@
               "url": "https://github.com/s-rah/onionscan"
             },
             {
+              "id": "1321",
+              "name": "Tor Scan",
+              "type": "url",
+              "url": "http://www.torscan.io/"
+            },
+            {
               "id": "896",
               "name": "Onioff",
               "type": "url",
@@ -8115,5 +8121,5 @@
   "id": "1",
   "name": "OSINT Framework",
   "type": "folder",
-  "desc": "Next Available ID: 1321"
+  "desc": "Next Available ID: 1322"
 }
