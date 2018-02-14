@@ -4698,7 +4698,13 @@
               "name": "World Aeronautical Database",
               "type": "url",
               "url": "http://worldaerodata.com/"
-            }
+            },
+            {
+              "id": "1322",
+              "name": "ADS-B Exchange",
+              "type": "url",
+              "url": "https://www.adsbexchange.com/"
+            }            
           ],
           "id": "652",
           "name": "Air Traffic Records",
@@ -8121,5 +8127,5 @@
   "id": "1",
   "name": "OSINT Framework",
   "type": "folder",
-  "desc": "Next Available ID: 1322"
+  "desc": "Next Available ID: 1323"
 }
