@@ -1487,6 +1487,12 @@
         {
           "children": [
             {
+              "id": "1324",
+              "name": "Onyphe",
+              "type": "url",
+              "url": "https://www.onyphe.io/"
+            },
+            {
               "id": "221",
               "name": "IPv4 CIDR Report",
               "type": "url",
@@ -7944,6 +7950,12 @@
               "name": "Hiding from the Internet",
               "type": "url",
               "url": "https://computercrimeinfo.com/cleaningid.html"
+            },
+            {
+              "id": "1323",
+              "name": "The Many Hats Club - Privacy Resources",
+              "type": "url",
+              "url": "https://themanyhats.club/centralised-place-for-privacy-resources/"
             }
           ],
           "id": "1062",
@@ -8127,5 +8139,5 @@
   "id": "1",
   "name": "OSINT Framework",
   "type": "folder",
-  "desc": "Next Available ID: 1323"
+  "desc": "Next Available ID: 1325"
 }
