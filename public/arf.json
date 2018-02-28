@@ -6972,6 +6972,12 @@
           "name": "CyberChef",
           "type": "url",
           "url": "https://gchq.github.io/CyberChef/"
+        },
+        {
+          "id": "1329",
+          "name": "Functions Online",
+          "type": "url",
+          "url": "https://www.functions-online.com/"
         }
       ],
       "id": "929",
@@ -8163,5 +8169,5 @@
   "id": "1",
   "name": "OSINT Framework",
   "type": "folder",
-  "desc": "Next Available ID: 1329"
+  "desc": "Next Available ID: 1330"
 }
