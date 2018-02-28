@@ -1515,6 +1515,12 @@
               "name": "IP to ASN DB",
               "type": "url",
               "url": "https://iptoasn.com/"
+            },
+            {
+              "id": "1326",
+              "name": "Hacker Target - Reverse DNS",
+              "type": "url",
+              "url": "https://hackertarget.com/reverse-dns-lookup/"
             }
           ],
           "id": "220",
@@ -2891,6 +2897,12 @@
                   "name": "Tinfoleak.py (T)",
                   "type": "url",
                   "url": "http://www.vicenteaguileradiaz.com/tools/"
+                },
+                {
+                  "id": "1327",
+                  "name": "DMI-TCAT (T)",
+                  "type": "url",
+                  "url": "https://github.com/digitalmethodsinitiative/dmi-tcat"
                 }
               ],
               "id": "388",
@@ -7303,7 +7315,7 @@
               "url": "https://koodous.com"
             },
             {
-              "id": "1137",
+              "id": "1325",
               "name": "Anlyz.io",
               "type": "url",
               "url": "https://sandbox.anlyz.io"
@@ -8145,5 +8157,5 @@
   "id": "1",
   "name": "OSINT Framework",
   "type": "folder",
-  "desc": "Next Available ID: 1325"
+  "desc": "Next Available ID: 1328"
 }
