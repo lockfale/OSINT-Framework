@@ -5460,6 +5460,12 @@
               "name": "Science Publications",
               "type": "url",
               "url": "http://www.thescipub.com/"
+            },
+            {
+              "id": "1328",
+              "name": "arXiv.org",
+              "type": "url",
+              "url": "https://arxiv.org/"
             }
           ],
           "id": "735",
@@ -8157,5 +8163,5 @@
   "id": "1",
   "name": "OSINT Framework",
   "type": "folder",
-  "desc": "Next Available ID: 1328"
+  "desc": "Next Available ID: 1329"
 }
