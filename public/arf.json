@@ -1673,12 +1673,6 @@
               "url": "http://www.crimeflare.com/"
             },
             {
-              "id": "239",
-              "name": "Cloudflare Resolver",
-              "type": "url",
-              "url": "http://skresolver.com/cloudflare-resolver.php"
-            },
-            {
               "id": "1114",
               "name": "CloudFail (T)",
               "type": "url",
@@ -5273,6 +5267,12 @@
         },
         {
           "children": [
+            {
+              "id": "239",
+              "name": "PublicWWW",
+              "type": "url",
+              "url": "https://publicwww.com/"
+            },
             {
               "id": "726",
               "name": "Searchcode",
