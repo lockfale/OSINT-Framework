@@ -38,7 +38,7 @@
               "id": "12",
               "name": "IntelTechniques Username Tools",
               "type": "url",
-              "url": "https://inteltechniques.com/intel/OSINT/username.html"
+              "url": "https://inteltechniques.com/osint/username.html"
             },
             {
               "id": "11",
@@ -161,7 +161,7 @@
               "id": "30",
               "name": "IntelTechniques Cellular Email Tool",
               "type": "url",
-              "url": "https://inteltechniques.com/intel/OSINT/cellperm.html"
+              "url": "https://inteltechniques.com/osint/cellperm.html"
             }
           ],
           "id": "21",
@@ -198,7 +198,7 @@
               "id": "36",
               "name": "IntelTechniques Email Format Tool",
               "type": "url",
-              "url": "https://inteltechniques.com/intel/OSINT/email.html"
+              "url": "https://inteltechniques.com/osint/email.html"
             },
             {
               "id": "1223",
@@ -1917,7 +1917,7 @@
                   "id": "275",
                   "name": "IntelTechniques Instagram Tools",
                   "type": "url",
-                  "url": "https://inteltechniques.com/intel/OSINT/instagram.html"
+                  "url": "https://inteltechniques.com/osint/instagram.html"
                 },
                 {
                   "id": "276",
@@ -2164,7 +2164,7 @@
                   "id": "311",
                   "name": "IntelTechniques YouTube Tools",
                   "type": "url",
-                  "url": "https://inteltechniques.com/intel/OSINT/youtube.html"
+                  "url": "https://inteltechniques.com/osint/youtube.html"
                 },
                 {
                   "id": "312",
@@ -2391,13 +2391,13 @@
                   "id": "339",
                   "name": "IntelTechniques Doc Tools",
                   "type": "url",
-                  "url": "https://inteltechniques.com/intel/OSINT/docs.html"
+                  "url": "https://inteltechniques.com/osint/docs.html"
                 },
                 {
                   "id": "340",
                   "name": "IntelTechniques Docs by Format",
                   "type": "url",
-                  "url": "https://inteltechniques.com/intel/OSINT/docs.format.html"
+                  "url": "https://inteltechniques.com/osint/docs.format.html"
                 }
               ],
               "id": "324",
@@ -2422,7 +2422,7 @@
                   "id": "344",
                   "name": "IntelTechniques Paste Tools",
                   "type": "url",
-                  "url": "https://inteltechniques.com/intel/OSINT/pastebins.html"
+                  "url": "https://inteltechniques.com/osint/pastebins.html"
                 },
                 {
                   "id": "1307",
@@ -2492,7 +2492,7 @@
                   "id": "348",
                   "name": "IntelTechniques Facebook Tools",
                   "type": "url",
-                  "url": "https://inteltechniques.com/intel/OSINT/facebook.html"
+                  "url": "https://inteltechniques.com/osint/facebook.html"
                 },
                 {
                   "id": "349",
@@ -2688,7 +2688,7 @@
                   "id": "380",
                   "name": "IntelTechniques Twitter Tools",
                   "type": "url",
-                  "url": "https://inteltechniques.com/intel/OSINT/twitter.html"
+                  "url": "https://inteltechniques.com/osint/twitter.html"
                 },
                 {
                   "id": "381",
@@ -3152,13 +3152,13 @@
               "id": "443",
               "name": "IntelTechniques MySpace Video Tools",
               "type": "url",
-              "url": "https://inteltechniques.com/intel/OSINT/myspace.html"
+              "url": "https://inteltechniques.com/osint/myspace.html"
             },
             {
               "id": "444",
               "name": "IntelTechniques LinkedIn Tools",
               "type": "url",
-              "url": "https://inteltechniques.com/intel/osint/linkedin.country.html"
+              "url": "https://inteltechniques.com/osint/linkedin.country.html"
             },
             {
               "id": "1137",
@@ -3195,13 +3195,13 @@
               "id": "449",
               "name": "IntelTechniques Social Network Search",
               "type": "url",
-              "url": "https://inteltechniques.com/intel/OSINT/social.networks.html"
+              "url": "https://inteltechniques.com/osint/social.networks.html"
             },
             {
               "id": "450",
               "name": "IntelTechniques Smaller Social Network Search",
               "type": "url",
-              "url": "https://inteltechniques.com/intel/OSINT/smaller.social.networks.html"
+              "url": "https://inteltechniques.com/osint/smaller.social.networks.html"
             },
             {
               "id": "451",
@@ -3370,7 +3370,7 @@
               "id": "476",
               "name": "IntelTechniques Person Search",
               "type": "url",
-              "url": "https://inteltechniques.com/intel/OSINT/person.html"
+              "url": "https://inteltechniques.com/osint/person.html"
             },
             {
               "id": "477",
@@ -3755,7 +3755,7 @@
           "id": "524",
           "name": "IntelTechniques Dating Search",
           "type": "url",
-          "url": "https://inteltechniques.com/intel/OSINT/dating.networks.html"
+          "url": "https://inteltechniques.com/osint/dating.networks.html"
         },
         {
           "children": [
@@ -4609,7 +4609,7 @@
               "id": "637",
               "name": "IntelTechniques Resume Search",
               "type": "url",
-              "url": "https://inteltechniques.com/intel/osint/hidden.resumes.html"
+              "url": "https://inteltechniques.com/osint/hidden.resumes.html"
             },
             {
               "id": "638",
@@ -4966,7 +4966,7 @@
           "id": "686",
           "name": "IntelTechniques Map Tools",
           "type": "url",
-          "url": "https://inteltechniques.com/intel/OSINT/maps.html"
+          "url": "https://inteltechniques.com/osint/maps.html"
         },
         {
           "id": "687",
@@ -5636,7 +5636,7 @@
               "id": "776",
               "name": "IntelTechniques Search Tools",
               "type": "url",
-              "url": "https://inteltechniques.com/intel/OSINT/user.html"
+              "url": "https://inteltechniques.com/osint/user.html"
             },
             {
               "id": "777",
@@ -6269,7 +6269,7 @@
           "id": "852",
           "name": "IntelTechniques Metadata Tools",
           "type": "url",
-          "url": "https://inteltechniques.com/intel/OSINT/photos.html"
+          "url": "https://inteltechniques.com/osint/photos.html"
         },
         {
           "id": "853",
