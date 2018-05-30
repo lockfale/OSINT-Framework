@@ -84,6 +84,12 @@
               "url": "https://api.github.com/users/%3Cusername%3E/events/public"
             },
             {
+              "id": "1341",
+              "name": "Tinder Usernames (M)",
+              "type": "url",
+              "url": "https://www.gotinder.com/@%3Cusername%3E"
+            },
+            {
               "id": "19",
               "name": "Keybase",
               "type": "url",
@@ -957,6 +963,12 @@
               "name": "BuiltWith",
               "type": "url",
               "url": "http://builtwith.com/"
+            },
+            {
+              "id": "1339",
+              "name": "SiteSleuth",
+              "type": "url",
+              "url": "https://www.sitesleuth.io/"
             },
             {
               "id": "135",
@@ -3972,6 +3984,12 @@
               "name": "Neighbor Report",
               "type": "url",
               "url": "https://neighbor.report/"
+            },
+            {
+              "id": "1340",
+              "name": "Redfin",
+              "type": "url",
+              "url": "https://www.redfin.com/"
             }
           ],
           "id": "552",
@@ -4783,6 +4801,12 @@
               "name": "OpenSeaMap - The free nautical chart",
               "type": "url",
               "url": "http://www.openseamap.org"
+            },
+            {
+              "id": "1336",
+              "name": "Vessel Finder",
+              "type": "url",
+              "url": "https://www.vesselfinder.com/"
             }
           ],
           "id": "656",
@@ -4813,6 +4837,12 @@
           "name": "Satellite Tracking",
           "type": "url",
           "url": "http://www.n2yo.com/"
+        },
+        {
+          "id": "1337",
+          "name": "Track-Trace",
+          "type": "url",
+          "url": "http://www.track-trace.com/"
         }
       ],
       "id": "643",
@@ -7720,6 +7750,12 @@
               "name": "Random User Generator",
               "type": "url",
               "url": "https://randomuser.me/"
+            },
+            {
+              "id": "1335",
+              "name": "Pexels",
+              "type": "url",
+              "url": "https://www.pexels.com/"
             }
           ],
           "id": "1028",
@@ -8189,6 +8225,12 @@
           "name": "Plessas",
           "type": "url",
           "url": "http://www.plessas.net/site/"
+        },
+        {
+          "id": "1338",
+          "name": "Smart Questions",
+          "type": "url",
+          "url": "http://www.catb.org/esr/faqs/smart-questions.html"
         }
       ],
       "id": "1093",
@@ -8199,5 +8241,5 @@
   "id": "1",
   "name": "OSINT Framework",
   "type": "folder",
-  "desc": "Next Available ID: 1335"
+  "desc": "Next Available ID: 1342"
 }
