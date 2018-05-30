@@ -542,6 +542,12 @@
               "name": "AltDNS (T)",
               "type": "url",
               "url": "https://github.com/infosec-au/altdns"
+            },
+            {
+              "id": "1333",
+              "name": "FindSubDomains",
+              "type": "url",
+              "url": "https://findsubdomains.com/"
             }
           ],
           "id": "74",
@@ -1337,6 +1343,12 @@
               "name": "Belati (T)",
               "type": "url",
               "url": "https://github.com/aancw/Belati"
+            },
+            {
+              "id": "1334",
+              "name": "Hunting-New-Registered-Domains (T)",
+              "type": "url",
+              "url": "https://github.com/gfek/Hunting-New-Registered-Domains"
             }
           ],
           "id": "188",
@@ -8187,5 +8199,5 @@
   "id": "1",
   "name": "OSINT Framework",
   "type": "folder",
-  "desc": "Next Available ID: 1333"
+  "desc": "Next Available ID: 1335"
 }
