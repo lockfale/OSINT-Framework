@@ -3945,6 +3945,18 @@
           "name": "USPhoneBook",
           "type": "url",
           "url": "https://www.usphonebook.com"
+        },
+        {
+          "id": "7878",
+          "name": "Numspy",
+          "type": "python3 Module",
+          "url": "https://bhattsameer.github.io/numspy"
+        },
+        {
+          "id": "7879",
+          "name": "Numspy-Api",
+          "type": "url",
+          "url": "https://numspy.pythonanywhere.com/"
         }
       ],
       "id": "528",
