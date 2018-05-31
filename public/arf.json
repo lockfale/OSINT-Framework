@@ -3947,13 +3947,13 @@
           "url": "https://www.usphonebook.com"
         },
         {
-          "id": "7878",
+          "id": "1342",
           "name": "Numspy",
           "type": "python3 Module",
           "url": "https://bhattsameer.github.io/numspy"
         },
         {
-          "id": "7879",
+          "id": "1343",
           "name": "Numspy-Api",
           "type": "url",
           "url": "https://numspy.pythonanywhere.com/"
@@ -8253,5 +8253,5 @@
   "id": "1",
   "name": "OSINT Framework",
   "type": "folder",
-  "desc": "Next Available ID: 1342"
+  "desc": "Next Available ID: 1344"
 }
