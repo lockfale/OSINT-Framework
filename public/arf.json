@@ -2298,6 +2298,12 @@
                   "name": "Hooktube",
                   "type": "url",
                   "url": "https://hooktube.com/"
+                },
+                {
+                  "id": "1345",
+                  "name": "yasiv-youtube",
+                  "type": "url",
+                  "url": "https://yasiv.com/youtube"
                 }
               ],
               "id": "316",
@@ -8259,5 +8265,5 @@
   "id": "1",
   "name": "OSINT Framework",
   "type": "folder",
-  "desc": "Next Available ID: 1345"
+  "desc": "Next Available ID: 1346"
 }
