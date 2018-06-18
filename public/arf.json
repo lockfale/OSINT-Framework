@@ -4118,7 +4118,14 @@
               "name": "Gov Data Canada",
               "type": "url",
               "url": "https://govdataca.com/"
+            },
+            {
+              "id": "1346",
+              "name": "CA Salary DB",
+              "type": "url",
+              "url": "http://www.sacbee.com/site-services/databases/state-pay/article2642161.html"
             }
+            
           ],
           "id": "1107",
           "name": "Government Records",
@@ -8265,5 +8272,5 @@
   "id": "1",
   "name": "OSINT Framework",
   "type": "folder",
-  "desc": "Next Available ID: 1346"
+  "desc": "Next Available ID: 1347"
 }
