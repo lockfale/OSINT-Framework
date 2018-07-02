@@ -7080,6 +7080,12 @@
         {
           "children": [
             {
+              "id": "1347",
+              "name": "Omnibus (T)",
+              "type": "url",
+              "url": "https://github.com/InQuest/omnibus"
+            },
+            {
               "id": "1188",
               "name": "DataSploit (T)",
               "type": "url",
@@ -8272,5 +8278,5 @@
   "id": "1",
   "name": "OSINT Framework",
   "type": "folder",
-  "desc": "Next Available ID: 1347"
+  "desc": "Next Available ID: 1348"
 }
