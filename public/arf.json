@@ -8268,6 +8268,12 @@
           "name": "Smart Questions",
           "type": "url",
           "url": "http://www.catb.org/esr/faqs/smart-questions.html"
+        },
+        {
+          "id": "1348",
+          "name": "SANS SEC487 OSINT Class",
+          "type": "url",
+          "url": "https://www.sans.org/sec487"
         }
       ],
       "id": "1093",
@@ -8278,5 +8284,5 @@
   "id": "1",
   "name": "OSINT Framework",
   "type": "folder",
-  "desc": "Next Available ID: 1348"
+  "desc": "Next Available ID: 1349"
 }
