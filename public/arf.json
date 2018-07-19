@@ -2465,6 +2465,12 @@
                   "name": "Just Paste It",
                   "type": "url",
                   "url": "https://justpaste.it/"
+                },
+                {
+                  "id": "1349",
+                  "name": "Pastebin OSINT Harvester (T)",
+                  "type": "url",
+                  "url": "https://github.com/needmorecowbell/sniff-paste"
                 }
               ],
               "id": "341",
@@ -8284,5 +8290,5 @@
   "id": "1",
   "name": "OSINT Framework",
   "type": "folder",
-  "desc": "Next Available ID: 1349"
+  "desc": "Next Available ID: 1350"
 }
