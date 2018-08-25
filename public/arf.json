@@ -6700,6 +6700,12 @@
           "name": "Tor2web",
           "type": "url",
           "url": "https://tor2web.org/"
+        },
+        {
+          "id": "1350",
+          "name": "IACA Dark Web Investigation Support",
+          "type": "url",
+          "url": "https://iaca-darkweb-tools.com/"
         }
       ],
       "id": "885",
@@ -8290,5 +8296,5 @@
   "id": "1",
   "name": "OSINT Framework",
   "type": "folder",
-  "desc": "Next Available ID: 1350"
+  "desc": "Next Available ID: 1351"
 }
