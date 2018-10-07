@@ -667,6 +667,12 @@
         {
           "children": [
             {
+              "id": "1224",
+              "name": "Security Trails",
+              "type": "url",
+              "url": "https://securitytrails.com/"
+            },
+            {
               "id": "122",
               "name": "Mnemonic",
               "type": "url",
@@ -677,12 +683,6 @@
               "name": "DNS History",
               "type": "url",
               "url": "http://dnshistory.org/"
-            },
-            {
-              "id": "1224",
-              "name": "DNS Trails",
-              "type": "url",
-              "url": "http://dnstrails.com/"
             },
             {
               "id": "1225",
@@ -1271,6 +1271,25 @@
           ],
           "id": "177",
           "name": "DNSSEC",
+          "type": "folder"
+        },
+        {
+          "children": [
+            {
+              "id": "1366",
+              "name": "Public Buckets",
+              "type": "url",
+              "url": "https://buckets.grayhatwarfare.com/"
+            },
+            {
+              "id": "1367",
+              "name": "CloudScraper (T)",
+              "type": "url",
+              "url": "https://github.com/jordanpotti/cloudscraper"
+            }
+          ],
+          "id": "1365",
+          "name": "Cloud Resources",
           "type": "folder"
         },
         {
@@ -7342,6 +7361,12 @@
               "name": "VX Vault",
               "type": "url",
               "url": "http://vxvault.net/ViriList.php"
+            },
+            {
+              "id": "1364",
+              "name": "ID Ransomware",
+              "type": "url",
+              "url": "https://id-ransomware.malwarehunterteam.com/"
             }
           ],
           "id": "962",
@@ -7701,6 +7726,12 @@
               "name": "PhishTank",
               "type": "url",
               "url": "https://www.phishtank.com/"
+            },
+            {
+              "id": "1363",
+              "name": "PhishStats",
+              "type": "url",
+              "url": "https://phishstats.info/"
             }
           ],
           "id": "1009",
@@ -8376,5 +8407,5 @@
   "id": "1",
   "name": "OSINT Framework",
   "type": "folder",
-  "desc": "Next Available ID: 1363"
+  "desc": "Next Available ID: 1368"
 }
