@@ -27,21 +27,18 @@ Feedback or new tool suggestions are extremely welcome!  Please feel free to sub
 ### Contribute with a GitHub Pull Request
 For new resources, please ensure that the site is available for public and free use.
 <ol start="1">
-  <li>Note the next available ID listed in the description field on the OSINT Framework folder. This can be found at the bottom of arf.json</li>
   <li>Update the arf.json file in the format shown below. If this isn't the first entry for a folder, add a comma to the last closing brace of the previous entry.</li>
 </ol>
 
 ```
 {
-  "id": "####",
   "name": "Example Name",
   "type": "url",
   "url": "http://example.com"
 }
 ```
 
-<ol start="3">
-  <li>Update the next available ID in the OSINT Framework description field.</li>
+<ol start="2">
   <li>Submit pull request!</li>
 </ol>
 
