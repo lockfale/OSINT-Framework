@@ -281,6 +281,12 @@
               "url": "https://haveibeenpwned.com/"
             },
             {
+              "id": "1352",
+              "name": "DeHashed",
+              "type": "url",
+              "url": "https://dehashed.com/"
+            },
+            {
               "id": "47",
               "name": "Vigilante.pw",
               "type": "url",
@@ -3143,13 +3149,13 @@
         {
           "children": [
             {
-              "id": "1349",
-              "name": "LinkedInt - LickedIn Recon Tool",
+              "id": "1353",
+              "name": "LinkedInt - LinkedIn Recon Tool",
               "type": "url",
               "url": "https://github.com/vysec/LinkedInt"
             },
             {
-              "id": "1350",
+              "id": "1354",
               "name": "ScrapedIn",
               "type": "url",
               "url": "https://github.com/dchrastil/ScrapedIn"
@@ -3161,7 +3167,7 @@
               "url": "https://inteltechniques.com/osint/linkedin.country.html"
             }
           ],
-          "id": "1348",
+          "id": "6",
           "name": "LinkedIn",
           "type": "folder"
         },
@@ -3765,6 +3771,12 @@
           "url": "https://www.okcupid.com/"
         },
         {
+          "id": "1355",
+          "name": "Tinder (R)",
+          "type": "url",
+          "url": "https://tinder.com/"
+        },
+        {
           "id": "516",
           "name": "Wamba.com",
           "type": "url",
@@ -3855,6 +3867,25 @@
           ],
           "id": "529",
           "name": "Voicemail",
+          "type": "folder"
+        },
+        {
+          "children": [
+            {
+              "id": "1357",
+              "name": "Numbering Plans",
+              "type": "url",
+              "url": "https://www.numberingplans.com/?page=analysis&sub=phonenr"
+            },
+            {
+              "id": "1358",
+              "name": "Numberway",
+              "type": "url",
+              "url": "https://www.numberway.com/"
+            }
+          ],
+          "id": "1356",
+          "name": "International",
           "type": "folder"
         },
         {
@@ -6882,6 +6913,12 @@
           "url": "http://www.ebay.com/"
         },
         {
+          "id": "1359",
+          "name": "OfferUp",
+          "type": "url",
+          "url": "https://offerup.com/"
+        },
+        {
           "id": "920",
           "name": "Goofbid",
           "type": "url",
@@ -7215,16 +7252,22 @@
               "url": "https://www.virtualbox.org/"
             },
             {
-              "id": "1195",
-              "name": "Microsoft Edge Development OS VMs (T)",
+              "id": "1360",
+              "name": "Buscador OS (T)",
               "type": "url",
-              "url": "https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/"
+              "url": "https://inteltechniques.com/buscador/index.html"
             },
             {
               "id": "1196",
               "name": "Kali Linux OS (T)",
               "type": "url",
               "url": "https://www.kali.org/"
+            },
+            {
+              "id": "1195",
+              "name": "Microsoft Edge Development OS VMs (T)",
+              "type": "url",
+              "url": "https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/"
             },
             {
               "id": "1197",
@@ -7793,7 +7836,7 @@
           "url": "https://riskdiscovery.com/honeydb/"
         },
         {
-          "id": "1104",
+          "id": "1351",
           "name": "Pulsedive",
           "type": "url",
           "url": "https://pulsedive.com"
@@ -8092,6 +8135,12 @@
               "url": "https://www.optoutprescreen.com/?rf=t"
             },
             {
+              "id": "1361",
+              "name": "Credit Freeze",
+              "type": "url",
+              "url": "https://inteltechniques.com/blog/2018/09/28/complete-credit-freeze-tutorial-update/"
+            },
+            {
               "id": "1067",
               "name": "Fake US Identities",
               "type": "url",
@@ -8117,9 +8166,9 @@
             },
             {
               "id": "1071",
-              "name": "Hiding from the Internet",
+              "name": "Intel Techniques - Hiding from the Internet",
               "type": "url",
-              "url": "https://computercrimeinfo.com/cleaningid.html"
+              "url": "https://inteltechniques.com/data/workbook.pdf"
             },
             {
               "id": "1323",
@@ -8301,16 +8350,22 @@
           "url": "http://www.plessas.net/site/"
         },
         {
-          "id": "1338",
-          "name": "Smart Questions",
-          "type": "url",
-          "url": "http://www.catb.org/esr/faqs/smart-questions.html"
-        },
-        {
           "id": "1348",
           "name": "SANS SEC487 OSINT Class",
           "type": "url",
           "url": "https://www.sans.org/sec487"
+        },
+        {
+          "id": "1362",
+          "name": "NetBootCamp",
+          "type": "url",
+          "url": "https://netbootcamp.org/trainingprogram/"
+        },
+        {
+          "id": "1338",
+          "name": "Smart Questions",
+          "type": "url",
+          "url": "http://www.catb.org/esr/faqs/smart-questions.html"
         }
       ],
       "id": "1093",
@@ -8321,5 +8376,5 @@
   "id": "1",
   "name": "OSINT Framework",
   "type": "folder",
-  "desc": "Next Available ID: 1351"
+  "desc": "Next Available ID: 1363"
 }
