@@ -3137,6 +3137,31 @@
         {
           "children": [
             {
+              "id": "1349",
+              "name": "LinkedInt - LickedIn Recon Tool",
+              "type": "url",
+              "url": "https://github.com/vysec/LinkedInt"
+            },
+            {
+              "id": "1350",
+              "name": "ScrapedIn",
+              "type": "url",
+              "url": "https://github.com/dchrastil/ScrapedIn"
+            },
+            {
+              "id": "444",
+              "name": "IntelTechniques LinkedIn Tools",
+              "type": "url",
+              "url": "https://inteltechniques.com/osint/linkedin.country.html"
+            }
+          ],
+          "id": "1348",
+          "name": "LinkedIn",
+          "type": "folder"
+        },
+        {
+          "children": [
+            {
               "id": "435",
               "name": "Myspace",
               "type": "url",
@@ -3189,12 +3214,6 @@
               "name": "IntelTechniques MySpace Video Tools",
               "type": "url",
               "url": "https://inteltechniques.com/osint/myspace.html"
-            },
-            {
-              "id": "444",
-              "name": "IntelTechniques LinkedIn Tools",
-              "type": "url",
-              "url": "https://inteltechniques.com/osint/linkedin.country.html"
             },
             {
               "id": "1137",
@@ -7080,12 +7099,6 @@
         {
           "children": [
             {
-              "id": "1347",
-              "name": "Omnibus (T)",
-              "type": "url",
-              "url": "https://github.com/InQuest/omnibus"
-            },
-            {
               "id": "1188",
               "name": "DataSploit (T)",
               "type": "url",
@@ -7096,6 +7109,12 @@
               "name": "SpiderFoot (T)",
               "type": "url",
               "url": "http://www.spiderfoot.net/"
+            },
+            {
+              "id": "1347",
+              "name": "Omnibus (T)",
+              "type": "url",
+              "url": "https://github.com/InQuest/omnibus"
             },
             {
               "id": "959",
