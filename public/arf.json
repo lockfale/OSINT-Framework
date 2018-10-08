@@ -3090,11 +3090,6 @@
               "name": "Speedy Hunt",
               "type": "url",
               "url": "https://speedyhunt.com/"
-            },
-            {
-              "name": "Been Verified",
-              "type": "url",
-              "url": "https://www.beenverified.com/"
             }
           ],
           "name": "General People Search",
@@ -4158,17 +4153,6 @@
         {
           "children": [
             {
-              "name": "SunCalc",
-              "type": "url",
-              "url": "http://suncalc.net/"
-            }
-          ],
-          "name": "Geolocation Tools",
-          "type": "folder"
-        },
-        {
-          "children": [
-            {
               "name": "GPSVisualizer",
               "type": "url",
               "url": "http://www.gpsvisualizer.com/geocode"
@@ -4405,7 +4389,7 @@
           "url": "http://www.usnaviguide.com/"
         }
       ],
-      "name": "Geolocation Tools / Maps",
+      "name": "Maps",
       "type": "folder"
     },
     {
