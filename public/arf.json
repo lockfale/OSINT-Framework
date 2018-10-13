@@ -5241,6 +5241,12 @@
           "name": "US Nav Guide Zip Code Data",
           "type": "url",
           "url": "http://www.usnaviguide.com/"
+        },
+        {
+          "id": "1133",
+          "name": "Wayback Imagery",
+          "type": "url",
+          "url": "https://livingatlas.arcgis.com/wayback/"
         }
       ],
       "id": "660",
