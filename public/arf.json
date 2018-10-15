@@ -5241,6 +5241,12 @@
           "name": "US Nav Guide Zip Code Data",
           "type": "url",
           "url": "http://www.usnaviguide.com/"
+        },
+        {
+          "id": "1368",
+          "name": "Wayback Imagery",
+          "type": "url",
+          "url": "https://livingatlas.arcgis.com/wayback/"
         }
       ],
       "id": "660",
@@ -7457,12 +7463,6 @@
               "url": "https://www.malwareviz.com/"
             },
             {
-              "id": "972",
-              "name": "Anubis",
-              "type": "url",
-              "url": "http://anubis.iseclab.org/"
-            },
-            {
               "id": "973",
               "name": "Ether",
               "type": "url",
@@ -8407,5 +8407,5 @@
   "id": "1",
   "name": "OSINT Framework",
   "type": "folder",
-  "desc": "Next Available ID: 1368"
+  "desc": "Next Available ID: 1369"
 }
