@@ -5241,6 +5241,12 @@
           "name": "US Nav Guide Zip Code Data",
           "type": "url",
           "url": "http://www.usnaviguide.com/"
+        },
+        {
+          "id": "1368",
+          "name": "Wayback Imagery",
+          "type": "url",
+          "url": "https://livingatlas.arcgis.com/wayback/"
         }
       ],
       "id": "660",
@@ -8401,5 +8407,5 @@
   "id": "1",
   "name": "OSINT Framework",
   "type": "folder",
-  "desc": "Next Available ID: 1368"
+  "desc": "Next Available ID: 1369"
 }
