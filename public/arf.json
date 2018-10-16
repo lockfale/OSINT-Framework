@@ -2596,27 +2596,6 @@
         {
           "children": [
             {
-              "name": "Google+",
-              "type": "url",
-              "url": "https://plus.google.com/"
-            },
-            {
-              "name": "Google+ Profiles (M)",
-              "type": "url",
-              "url": "https://plus.google.com/+Username/posts"
-            },
-            {
-              "name": "Google Plus Search",
-              "type": "url",
-              "url": "http://googleplussearch.chromefans.org/"
-            }
-          ],
-          "name": "Google+",
-          "type": "folder"
-        },
-        {
-          "children": [
-            {
               "name": "SnoopSnoo",
               "type": "url",
               "url": "http://snoopsnoo.com/"
