@@ -3330,6 +3330,12 @@
               "name": "Searchlr",
               "type": "url",
               "url": "http://searchlr.net/"
+            },
+            {
+              "id": "1369",
+              "name": "Google CSE for Telegram links",
+              "type": "url",
+              "url": "https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg"
             }
           ],
           "id": "446",
@@ -8407,5 +8413,5 @@
   "id": "1",
   "name": "OSINT Framework",
   "type": "folder",
-  "desc": "Next Available ID: 1369"
+  "desc": "Next Available ID: 1370"
 }
