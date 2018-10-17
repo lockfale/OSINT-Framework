@@ -146,6 +146,11 @@
               "name": "IntelTechniques Cellular Email Tool",
               "type": "url",
               "url": "https://inteltechniques.com/osint/cellperm.html"
+            },
+            {
+              "name": "MailDB",
+              "type": "url",
+              "url": "https://maildb.io/"
             }
           ],
           "name": "Email Search",
