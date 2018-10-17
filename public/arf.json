@@ -6048,6 +6048,16 @@
               "url": "https://github.com/InQuest/omnibus"
             },
             {
+              "name": "Photon (T)",
+              "type": "url",
+              "url": "https://github.com/s0md3v/Photon"
+            },
+            {
+              "name": "ReconDog (T)",
+              "type": "url",
+              "url": "https://github.com/s0md3v/ReconDog"
+            },
+            {
               "name": "IFTTT",
               "type": "url",
               "url": "https://ifttt.com/"
