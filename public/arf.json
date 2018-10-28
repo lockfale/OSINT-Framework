@@ -4433,6 +4433,11 @@
         {
           "children": [
             {
+              "name": "100 Search Engines",
+              "type": "url",
+              "url": "https://www.100searchengines.com"
+            },
+            {
               "name": "Google",
               "type": "url",
               "url": "https://www.google.com/?gws_rd=ssl"
