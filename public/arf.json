@@ -2629,11 +2629,6 @@
               "name": "Google+ Profiles (M)",
               "type": "url",
               "url": "https://plus.google.com/+Username/posts"
-            },
-            {
-              "name": "Google Plus Search",
-              "type": "url",
-              "url": "http://googleplussearch.chromefans.org/"
             }
           ],
           "name": "Google+",
@@ -4954,11 +4949,6 @@
               "name": "Google Guide Cheat Sheet",
               "type": "url",
               "url": "http://googleguide.com/help/calculator.html"
-            },
-            {
-              "name": "A Google a Day",
-              "type": "url",
-              "url": "http://www.agoogleaday.com/"
             }
           ],
           "name": "Search Engine Guides",
@@ -7059,6 +7049,27 @@
     },
     {
       "children": [
+        {
+          "children": [
+            {
+              "name": "A Google A Day",
+              "type": "url",
+              "url": "http://www.agoogleaday.com/"
+            },
+            {
+              "name": "GeoGuesser",
+              "type": "url",
+              "url": "https://geoguessr.com/"
+            },
+            {
+              "name": "Verif!cation Quiz Bot",
+              "type": "url",
+              "url": "https://twitter.com/quiztime"
+            }
+          ],
+          "name": "Games",
+          "type": "folder"
+        },
         {
           "name": "AutomatingOSINT.com",
           "type": "url",
