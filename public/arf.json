@@ -6344,6 +6344,11 @@
               "name": "Anlyz.io",
               "type": "url",
               "url": "https://sandbox.anlyz.io"
+            },
+            {
+              "name": "Any Run",
+              "type": "url",
+              "url": "https://app.any.run/"
             }
           ],
           "name": "Hosted Automated Analysis",
