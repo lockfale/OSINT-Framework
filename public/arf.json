@@ -1511,6 +1511,23 @@
           ],
           "name": "Network Analysis Tools",
           "type": "folder"
+        },
+        {
+          "children": [
+			{
+              "name": "Ki.tc",
+              "type": "url",
+              "url": "https://ki.tc"
+            },
+            {
+              "name": "Grabify",
+              "type": "url",
+              "url": "https://grabify.link"
+            }
+            
+          ],
+          "name": "IP Loggers",
+          "type": "folder"
         }
       ],
       "name": "IP Address",
