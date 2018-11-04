@@ -205,11 +205,6 @@
               "url": "http://mailtester.com/testmail.php"
             },
             {
-              "name": "VerifyEmailAddress.io",
-              "type": "url",
-              "url": "https://tools.verifyemailaddress.io/"
-            },
-            {
               "name": "VerifyEmail",
               "type": "url",
               "url": "http://verify-email.org/"
