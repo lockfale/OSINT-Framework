@@ -393,6 +393,11 @@
               "name": "Daily DNS Changes",
               "type": "url",
               "url": "http://www.dailychanges.com/"
+            },
+            {
+              "name": "Domainsdb.info",
+              "type": "url",
+              "url": "https://domainsdb.info"
             }
           ],
           "name": "Whois Records",
