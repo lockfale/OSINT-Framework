@@ -1523,6 +1523,11 @@
               "name": "Grabify",
               "type": "url",
               "url": "https://grabify.link"
+            },
+            {
+              "name": "IP Logger",
+              "type": "url",
+              "url": "https://iplogger.com/"
             }
             
           ],
@@ -6162,6 +6167,11 @@
               "url": "https://www.kali.org/"
             },
             {
+              "name": "ParrotSec OS (T)",
+              "type": "url",
+              "url": "https://www.parrotsec.org/"
+            },
+            {
               "name": "Microsoft Edge Development OS VMs (T)",
               "type": "url",
               "url": "https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/"
@@ -6682,6 +6692,11 @@
               "name": "Pexels",
               "type": "url",
               "url": "https://www.pexels.com/"
+            },
+            {
+              "name": "Faker.js",
+              "type": "url",
+              "url": "https://cdn.rawgit.com/Marak/faker.js/master/examples/browser/index.html"
             }
           ],
           "name": "Persona Creation",
