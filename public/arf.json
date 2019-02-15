@@ -264,7 +264,12 @@
               "name": "Ashley Madison Emails",
               "type": "url",
               "url": "https://ashley.cynic.al/"
-            }
+            },
+            {
+              "name": "SecYour Emails",
+              "type": "url",
+              "url": "https://www.secyour.ee/"
+            },
           ],
           "name": "Breach Data",
           "type": "folder"
