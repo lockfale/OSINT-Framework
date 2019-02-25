@@ -6128,6 +6128,11 @@
               "name": "Microsoft Flow",
               "type": "url",
               "url": "https://flow.microsoft.com/en-us/"
+            },
+            {
+              "name": "PhoneInfoga (T)",
+              "type": "url",
+              "url": "https://github.com/sundowndev/PhoneInfoga"
             }
           ],
           "name": "OSINT Automation",
