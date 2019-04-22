@@ -6579,6 +6579,16 @@
               "name": "Mimir",
               "type": "url",
               "url": "https://github.com/NullArray/Mimir"
+            },
+            {
+              "name": "iocextract (T)",
+              "type": "url",
+              "url": "https://github.com/InQuest/python-iocextract"
+            },
+            {
+              "name": "ThreatIngestor (T)",
+              "type": "url",
+              "url": "https://github.com/InQuest/ThreatIngestor"
             }
           ],
           "name": "IOC Tools",
