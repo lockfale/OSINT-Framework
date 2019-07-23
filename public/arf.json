@@ -5629,24 +5629,19 @@
         {
           "children": [
             {
-              "name": "DeepDotWeb",
-              "type": "url",
-              "url": "https://www.deepdotweb.com/"
-            },
-            {
               "name": "Reddit Deep Web",
               "type": "url",
               "url": "https://www.reddit.com/r/deepweb"
             },
             {
-              "name": "Reddit DarkNetMarkets",
+              "name": "Reddit Onions",
               "type": "url",
-              "url": "https://www.reddit.com/r/darknetmarkets"
+              "url": "https://www.reddit.com/r/onions"
             },
             {
-              "name": "Dark Net Stats",
+              "name": "Reddit Darknet",
               "type": "url",
-              "url": "https://dnstats.net/"
+              "url": "https://www.reddit.com/r/darknet"
             }
           ],
           "name": "General Info",
