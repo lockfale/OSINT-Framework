@@ -5530,6 +5530,11 @@
                       "type": "url",
                       "url": "https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms"
                     },
+		    {
+                      "name": "Riot.im - Communicate, your way (T)",
+                      "type": "url",
+                      "url": "https://play.google.com/store/apps/details?id=im.vector.app"
+                    },
                     {
                       "name": "Telegram (T)",
                       "type": "url",
@@ -5674,6 +5679,11 @@
               "name": "OnionScan",
               "type": "url",
               "url": "https://github.com/s-rah/onionscan"
+            },
+	    {
+              "name": "TorBot",
+              "type": "url",
+              "url": "https://github.com/DedSecInside/TorBot"
             },
             {
               "name": "Tor Scan",
