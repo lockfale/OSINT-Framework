@@ -53,6 +53,11 @@
               "name": "Gaddr.me",
               "type": "url",
               "url": "https://gaddr.me/"
+            },
+            {
+              "name": "Instant Username Search",
+              "type": "url",
+              "url": "https://instantusername.com/"
             }
           ],
           "name": "Username Search Engines",
