@@ -5800,11 +5800,6 @@
               "url": "http://blockr.io/"
             },
             {
-              "name": "Biteasy.com",
-              "type": "url",
-              "url": "https://www.biteasy.com/"
-            },
-            {
               "name": "BitRef",
               "type": "url",
               "url": "https://bitref.com/"
@@ -5815,9 +5810,9 @@
               "url": "https://www.walletexplorer.com/"
             },
             {
-              "name": "BitCluster",
+              "name": "Graphsense",
               "type": "url",
-              "url": "https://www.bit-cluster.com/"
+              "url": "https://graphsense.info/"
             },
             {
               "name": "Blockonomics",
