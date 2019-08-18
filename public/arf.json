@@ -5634,24 +5634,19 @@
         {
           "children": [
             {
-              "name": "DeepDotWeb",
-              "type": "url",
-              "url": "https://www.deepdotweb.com/"
-            },
-            {
               "name": "Reddit Deep Web",
               "type": "url",
               "url": "https://www.reddit.com/r/deepweb"
             },
             {
-              "name": "Reddit DarkNetMarkets",
+              "name": "Reddit Onions",
               "type": "url",
-              "url": "https://www.reddit.com/r/darknetmarkets"
+              "url": "https://www.reddit.com/r/onions"
             },
             {
-              "name": "Dark Net Stats",
+              "name": "Reddit Darknet",
               "type": "url",
-              "url": "https://dnstats.net/"
+              "url": "https://www.reddit.com/r/darknet"
             }
           ],
           "name": "General Info",
@@ -5720,6 +5715,26 @@
               "name": "OnionLink",
               "type": "url",
               "url": "http://www.onion.link/"
+            },
+            {
+              "name": "Candle",
+              "type": "url",
+              "url": "http://gjobqjj7wyczbqie.onion/"
+            },
+            {
+              "name": "Not Evil",
+              "type": "url",
+              "url": "http://hss3uro2hsxfogfq.onion/"
+            },
+            {
+              "name": "Tor66",
+              "type": "url",
+              "url": "http://tor66sezptuu2nta.onion/"
+            },
+            {
+              "name": "dark.fail",
+              "type": "url",
+              "url": "http://darkfailllnkf4vf.onion/"
             },
             {
               "name": "Ahmia",
