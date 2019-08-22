@@ -6598,6 +6598,11 @@
           "name": "Pulsedive",
           "type": "url",
           "url": "https://pulsedive.com"
+        },
+        {
+          "name": "Mr.Looquer IOC Feed - 1st Dual Stack Threat Feed",
+          "type": "url",
+          "url": "https://iocfeed.mrlooquer.com"
         }
       ],
       "name": "Threat Intelligence",
