@@ -35,11 +35,6 @@
               "url": "https://github.com/WebBreacher/WhatsMyName"
             },
             {
-              "name": "IntelTechniques Username Tools",
-              "type": "url",
-              "url": "https://inteltechniques.com/osint/username.html"
-            },
-            {
               "name": "Thats Them",
               "type": "url",
               "url": "https://thatsthem.com/"
@@ -148,11 +143,6 @@
               "url": "https://github.com/m4ll0k/infoga"
             },
             {
-              "name": "IntelTechniques Cellular Email Tool",
-              "type": "url",
-              "url": "https://inteltechniques.com/osint/cellperm.html"
-            },
-            {
               "name": "MailDB",
               "type": "url",
               "url": "https://maildb.io/"
@@ -187,11 +177,6 @@
               "name": "Email Permutator",
               "type": "url",
               "url": "http://metricsparrow.com/toolkit/email-permutator/"
-            },
-            {
-              "name": "IntelTechniques Email Format Tool",
-              "type": "url",
-              "url": "https://inteltechniques.com/osint/email.html"
             },
             {
               "name": "OneLook Reverse Dictionary and Thesaurus",
@@ -1676,11 +1661,6 @@
                   "url": "https://www.instagram.com/"
                 },
                 {
-                  "name": "IntelTechniques Instagram Tools",
-                  "type": "url",
-                  "url": "https://inteltechniques.com/osint/instagram.html"
-                },
-                {
                   "name": "Mini Instagram",
                   "type": "url",
                   "url": "http://mininsta.net/"
@@ -1883,11 +1863,6 @@
                   "url": "https://www.google.com/search?q=site:vine.co+%3Csearchterm%3E"
                 },
                 {
-                  "name": "IntelTechniques YouTube Tools",
-                  "type": "url",
-                  "url": "https://inteltechniques.com/osint/youtube.html"
-                },
-                {
                   "name": "Dogpile Web Search",
                   "type": "url",
                   "url": "http://www.dogpile.com/"
@@ -2076,16 +2051,6 @@
                   "name": "Leaked Cables",
                   "type": "url",
                   "url": "https://search.wikileaks.org/plusd/"
-                },
-                {
-                  "name": "IntelTechniques Doc Tools",
-                  "type": "url",
-                  "url": "https://inteltechniques.com/osint/docs.html"
-                },
-                {
-                  "name": "IntelTechniques Docs by Format",
-                  "type": "url",
-                  "url": "https://inteltechniques.com/osint/docs.format.html"
                 }
               ],
               "name": "Search",
@@ -2102,11 +2067,6 @@
                   "name": "Pastebin Alerts",
                   "type": "url",
                   "url": "http://andrewmohawk.com/pasteLert/"
-                },
-                {
-                  "name": "IntelTechniques Paste Tools",
-                  "type": "url",
-                  "url": "https://inteltechniques.com/osint/pastebins.html"
                 },
                 {
                   "name": "Just Paste It",
@@ -2167,11 +2127,6 @@
           "children": [
             {
               "children": [
-                {
-                  "name": "IntelTechniques Facebook Tools",
-                  "type": "url",
-                  "url": "https://inteltechniques.com/osint/facebook.html"
-                },
                 {
                   "name": "Find my Facebook ID",
                   "type": "url",
@@ -2330,11 +2285,6 @@
                   "name": "Moz Profile Search",
                   "type": "url",
                   "url": "https://moz.com/followerwonk/bio/?q=zero%20day&l=us"
-                },
-                {
-                  "name": "IntelTechniques Twitter Tools",
-                  "type": "url",
-                  "url": "https://inteltechniques.com/osint/twitter.html"
                 },
                 {
                   "name": "HootSuite",
@@ -2628,22 +2578,6 @@
         {
           "children": [
             {
-              "name": "Google+",
-              "type": "url",
-              "url": "https://plus.google.com/"
-            },
-            {
-              "name": "Google+ Profiles (M)",
-              "type": "url",
-              "url": "https://plus.google.com/+Username/posts"
-            }
-          ],
-          "name": "Google+",
-          "type": "folder"
-        },
-        {
-          "children": [
-            {
               "name": "SnoopSnoo",
               "type": "url",
               "url": "http://snoopsnoo.com/"
@@ -2693,11 +2627,6 @@
               "name": "ScrapedIn",
               "type": "url",
               "url": "https://github.com/dchrastil/ScrapedIn"
-            },
-            {
-              "name": "IntelTechniques LinkedIn Tools",
-              "type": "url",
-              "url": "https://inteltechniques.com/osint/linkedin.country.html"
             },
             {
               "name": "InSpy",
@@ -2751,11 +2680,6 @@
               "url": "http://ok.ru/"
             },
             {
-              "name": "IntelTechniques MySpace Video Tools",
-              "type": "url",
-              "url": "https://inteltechniques.com/osint/myspace.html"
-            },
-            {
               "name": "raven (T)",
               "type": "url",
               "url": "https://github.com/0x09AL/raven"
@@ -2780,16 +2704,6 @@
               "name": "Google Social Search",
               "type": "url",
               "url": "http://www.social-searcher.com/google-social-search/"
-            },
-            {
-              "name": "IntelTechniques Social Network Search",
-              "type": "url",
-              "url": "https://inteltechniques.com/osint/social.networks.html"
-            },
-            {
-              "name": "IntelTechniques Smaller Social Network Search",
-              "type": "url",
-              "url": "https://inteltechniques.com/osint/smaller.social.networks.html"
             },
             {
               "name": "Periscope Search",
@@ -2932,11 +2846,6 @@
               "name": "ThatsThem",
               "type": "url",
               "url": "https://thatsthem.com/name-address-search"
-            },
-            {
-              "name": "IntelTechniques Person Search",
-              "type": "url",
-              "url": "https://inteltechniques.com/osint/person.html"
             },
             {
               "name": "ZoomInfo Directory",
@@ -3260,11 +3169,6 @@
           "url": "http://www.blackpeoplemeet.com/"
         },
         {
-          "name": "IntelTechniques Dating Search",
-          "type": "url",
-          "url": "https://inteltechniques.com/osint/dating.networks.html"
-        },
-        {
           "children": [
             {
               "name": "TrueDater",
@@ -3312,11 +3216,6 @@
           ],
           "name": "International",
           "type": "folder"
-        },
-        {
-          "name": "IntelTechniques Phone Tools",
-          "type": "url",
-          "url": "https://inteltechniques.com/osint/telephone.html"
         },
         {
           "name": "Pipl API (M)",
@@ -4012,11 +3911,6 @@
               "url": "http://www.indeed.com/"
             },
             {
-              "name": "IntelTechniques Resume Search",
-              "type": "url",
-              "url": "https://inteltechniques.com/osint/hidden.resumes.html"
-            },
-            {
               "name": "CVGadget",
               "type": "url",
               "url": "http://www.cvgadget.com/"
@@ -4330,11 +4224,6 @@
           "name": "Google Earth Overlays",
           "type": "url",
           "url": "http://www.mgmaps.com/kml/#view"
-        },
-        {
-          "name": "IntelTechniques Map Tools",
-          "type": "url",
-          "url": "https://inteltechniques.com/osint/maps.html"
         },
         {
           "name": "Yandex.Maps",
@@ -4897,11 +4786,6 @@
         {
           "children": [
             {
-              "name": "IntelTechniques Search Tools",
-              "type": "url",
-              "url": "https://inteltechniques.com/osint/user.html"
-            },
-            {
               "name": "Million Short",
               "type": "url",
               "url": "https://millionshort.com/"
@@ -5430,11 +5314,6 @@
           "name": "FOCA (T)",
           "type": "url",
           "url": "https://www.elevenpaths.com/labstools/foca/index.html"
-        },
-        {
-          "name": "IntelTechniques Metadata Tools",
-          "type": "url",
-          "url": "https://inteltechniques.com/osint/photos.html"
         },
         {
           "name": "CodeTwo Outlook Export (T)",
@@ -6565,6 +6444,11 @@
           "name": "Secunia",
           "type": "url",
           "url": "https://secuniaresearch.flexerasoftware.com/community/research/"
+        },
+        {
+          "name": "Canadian Centre for Cyber Security",
+          "type": "url",
+          "url": "https://cyber.gc.ca/"
         }
       ],
       "name": "Exploits & Advisories",
@@ -7165,7 +7049,7 @@
         {
           "name": "Plessas",
           "type": "url",
-          "url": "http://www.plessas.net/site/"
+          "url": "https://plessas.net/online-training"
         },
         {
           "name": "SANS SEC487 OSINT Class",
