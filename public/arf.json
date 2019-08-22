@@ -5989,6 +5989,11 @@
         "name": "ID Ransomware",
         "type": "url",
         "url": "https://id-ransomware.malwarehunterteam.com/"
+      },
+      {
+        "name": "National Software Reference Library",
+        "type": "url",
+        "url": "http://nsrl.hashsets.com/national_software_reference_library1_search.php"
       }],
       "name": "Search",
       "type": "folder"
