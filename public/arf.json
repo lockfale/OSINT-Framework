@@ -213,6 +213,11 @@
               "name": "Read Notify",
               "type": "url",
               "url": "http://www.readnotify.com/"
+            },
+            {
+              "name": "Email Reputation",
+              "type": "url",
+              "url": "https://emailrep.io/"
             }
           ],
           "name": "Email Verification",
