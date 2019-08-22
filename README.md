@@ -49,26 +49,3 @@ Thank you!
 https://osintframework.com
 
 Happy Hunting!
-
-## Instructions for installing/running locally
-
-<ol start="1">
-  <li>Clone this repo</li>
-  <li>Open a terminal in repo directory</li>
-</ol>
-
-_and then..._
-
-#### install dependencies with npm:
-<ol start="3">
-  <li>Run `npm install`</li>
-  <li>Run `npm start` to start SimpleHTTPServer in the /public directory on port 8000 (you'll need python installed for this, of course)</li>
-  <li>Open your browser to http://localhost:8000</li>
-</ol>
-
-##### install dependencies with bower:
-<ol start="3">
-  <li>Run `bower install`</li>
-  <li>Run `cd ./public; python -m SimpleHTTPServer 8000` (you'll need python installed for this, of course)</li>
-  <li>Open your browser to http://localhost:8000</li>
-</ol>
