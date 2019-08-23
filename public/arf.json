@@ -213,6 +213,11 @@
         "name": "Email Reputation",
         "type": "url",
         "url": "https://emailrep.io/"
+      },
+      {
+        "name": "MailboxValidator",
+        "type": "url",
+        "url": "https://www.mailboxvalidator.com/demo"
       }],
       "name": "Email Verification",
       "type": "folder"
@@ -373,6 +378,11 @@
         "name": "Domainsdb.info",
         "type": "url",
         "url": "https://domainsdb.info"
+      },
+      {
+        "name": "IP2WHOIS",
+        "type": "url",
+        "url": "https://www.ip2whois.com"
       }],
       "name": "Whois Records",
       "type": "folder"
@@ -768,7 +778,12 @@
         "name": "Shadowserver Foundation",
         "type": "url",
         "url": "http://www.shadowserver.org/wiki/pmwiki.php?n=Services/Reports"
-      }],
+      },
+      {
+        "name": "Email Domain Validation",
+        "type": "url",
+        "url": "https://www.mailboxvalidator.com/domain"
+      }],      
       "name": "Domain Blacklists",
       "type": "folder"
     },
@@ -1162,7 +1177,7 @@
       {
         "name": "IP2Location.com",
         "type": "url",
-        "url": "http://www.ip2location.com/demo.aspx"
+        "url": "https://www.ip2location.com/demo"
       },
       {
         "name": "IP Fingerprints",
@@ -1203,6 +1218,11 @@
         "name": "ipTRACKERonline",
         "type": "url",
         "url": "https://www.iptrackeronline.com/"
+      },
+      {
+        "name": "My IP Address",
+        "type": "url",
+        "url": "https://www.ipaddress.my/"
       }],
       "name": "Geolocation",
       "type": "folder"
@@ -1343,6 +1363,11 @@
         "name": "ExoneraTor",
         "type": "url",
         "url": "https://exonerator.torproject.org/"
+      },
+      {
+        "name": "LiveIPMap IP Check",
+        "type": "url",
+        "url": "https://www.liveipmap.com/"
       }],
       "name": "Reputation",
       "type": "folder"
@@ -6621,6 +6646,12 @@
           "name": "Proxychecker",
           "type": "url",
           "url": "https://proxycheck.haschek.at/"
+        },
+        {
+          "name": "IP2Proxy",
+          "type": "url",
+          "url": "https://www.ip2proxy.com/"
+
         }],
         "name": "Proxy Tests",
         "type": "folder"
@@ -6649,6 +6680,11 @@
         "name": "BrowserSpy.dk",
         "type": "url",
         "url": "http://browserspy.dk/"
+      },
+      {
+        "name": "LocaBrowser.com",
+        "type": "url",
+        "url": "http://www.locabrowser.com"
       }],
       "name": "Anonymous Browsing",
       "type": "folder"
