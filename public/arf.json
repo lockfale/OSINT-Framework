@@ -300,6 +300,11 @@
         "url": "http://whois.domaintools.com/"
       },
       {
+        "name": "DNStable",
+        "type": "url",
+        "url": "https://dnstable.com/"
+      },
+      {
         "name": "Domain Big Data",
         "type": "url",
         "url": "http://domainbigdata.com/"
@@ -395,6 +400,11 @@
         "url": "https://github.com/michenriksen/aquatone"
       },
       {
+        "name": "FindSubDomains",
+        "type": "url",
+        "url": "https://findsubdomains.com/"
+      }
+      {
         "name": "Google Subdomains (D)",
         "type": "url",
         "url": "https://www.google.com/?gws_rd=ssl#q=site:%3Cdomain.com%3E"
@@ -473,11 +483,6 @@
         "name": "AltDNS (T)",
         "type": "url",
         "url": "https://github.com/infosec-au/altdns"
-      },
-      {
-        "name": "FindSubDomains",
-        "type": "url",
-        "url": "https://findsubdomains.com/"
       }],
       "name": "Subdomains",
       "type": "folder"
@@ -538,6 +543,11 @@
         "name": "Google's Certificate Transparency",
         "type": "url",
         "url": "https://www.certificate-transparency.org/known-logs"
+      },
+      {
+        "name": "CertDB",
+        "type": "url",
+        "url": "https://certdb.com/"
       },
       {
         "name": "Censys",
@@ -834,6 +844,16 @@
         "type": "url",
         "url": "https://www.semrush.com/"
       },
+      {
+        "name": "TopGainers",
+        "type": "url",
+        "url": "https://topgainers.net/"
+      },   
+      {
+        "name": "ahrefs",
+        "type": "url",
+        "url": "https://ahrefs.com/"
+      },  
       {
         "name": "Moonsearch",
         "type": "url",
@@ -1240,6 +1260,11 @@
         "url": "https://mrlooquer.com/"
       },
       {
+        "name": "Portmap",
+        "type": "url",
+        "url": "https://portmap.com/"
+      },  
+      {
         "name": "Scans.io",
         "type": "url",
         "url": "https://scans.io/"
@@ -1279,6 +1304,11 @@
     },
     {
       "children": [
+      {
+        "name": "ASlookup.com",
+        "type": "url",
+        "url": "https://aslookup.com/"
+      },
       {
         "name": "Onyphe",
         "type": "url",
