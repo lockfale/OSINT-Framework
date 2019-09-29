@@ -490,19 +490,9 @@
         "url": "https://www.shodan.io/"
       },
       {
-        "name": "PunkSPIDER",
-        "type": "url",
-        "url": "https://www.punkspider.org/"
-      },
-      {
         "name": "Kraken",
         "type": "url",
         "url": "https://github.com/Sw4mpf0x/Kraken"
-      },
-      {
-        "name": "Punk.sh",
-        "type": "url",
-        "url": "https://punk.sh/#/"
       },
       {
         "name": "urlscan.io",
@@ -783,7 +773,7 @@
         "name": "Email Domain Validation",
         "type": "url",
         "url": "https://www.mailboxvalidator.com/domain"
-      }],      
+      }],
       "name": "Domain Blacklists",
       "type": "folder"
     },
