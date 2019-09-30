@@ -583,6 +583,11 @@
         "name": "DNS Dumpster",
         "type": "url",
         "url": "https://dnsdumpster.com/"
+      },
+      {
+        "name": "Deteque",
+        "type": "url",
+        "url": "https://www.deteque.com/"
       }],
       "name": "PassiveDNS",
       "type": "folder"
