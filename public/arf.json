@@ -5502,6 +5502,11 @@
         "name": "Core.onion",
         "type": "url",
         "url": "http://eqt5g4fuenphqinx.onion/"
+      },
+      {
+       "name": "OnionTree",
+       "type": "url",
+       "url": "https://onionltd.github.io/"
       }],
       "name": "TOR Directories",
       "type": "folder"
