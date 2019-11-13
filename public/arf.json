@@ -285,6 +285,11 @@
     {
       "children": [
       {
+        "name": "DNStable",
+        "type": "url",
+        "url": "https://dnstable.com/"
+      },
+      {
         "name": "Domain Dossier",
         "type": "url",
         "url": "http://centralops.net/co/DomainDossier.aspx"
@@ -1230,14 +1235,14 @@
     {
       "children": [
       {
+        "name": "Spyse",
+        "type": "url",
+        "url": "https://spyse.com/"
+      },
+      {
         "name": "Shodan",
         "type": "url",
         "url": "https://www.shodan.io/"
-      },
-      {
-        "name": "Mr. Looquer",
-        "type": "url",
-        "url": "https://mrlooquer.com/"
       },
       {
         "name": "Scans.io",
@@ -1253,11 +1258,6 @@
         "name": "Nmap (T)",
         "type": "url",
         "url": "https://nmap.org/download.html"
-      },
-      {
-        "name": "Internet Census 2012",
-        "type": "url",
-        "url": "http://internetcensus2012.bitbucket.org/paper.html"
       },
       {
         "name": "Internet Census Search",
