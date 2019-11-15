@@ -838,12 +838,7 @@
         "name": "TopGainers",
         "type": "url",
         "url": "https://topgainers.net/"
-      },   
-      {
-        "name": "ahrefs",
-        "type": "url",
-        "url": "https://ahrefs.com/"
-      },  
+      },
       {
         "name": "Moonsearch",
         "type": "url",
