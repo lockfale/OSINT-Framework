@@ -148,6 +148,11 @@
         "name": "Skymem",
         "type": "url",
         "url": "http://www.skymem.info/"
+      },
+      {
+        "name": "MailsHunt",
+        "type": "url",
+        "url": "https://mailshunt.com/"
       }],
       "name": "Email Search",
       "type": "folder"
@@ -5540,6 +5545,11 @@
       "name": "Tor2web",
       "type": "url",
       "url": "https://tor2web.org/"
+    },
+    {
+      "name": "Web O Proxy",
+      "type": "url",
+      "url": "https://weboproxy.com/"
     },
     {
       "name": "IACA Dark Web Investigation Support",
