@@ -357,7 +357,7 @@
       {
         "name": "MarkMonitor Whois Search",
         "type": "url",
-        "url": "https://www.markmonitor.com/cgi-bin/affsearch.cgi?"
+        "url": "https://domains.markmonitor.com/whois/"
       },
       {
         "name": "easyWhois",
