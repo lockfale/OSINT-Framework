@@ -1265,11 +1265,6 @@
         "url": "https://www.shodan.io/"
       },
       {
-        "name": "Portmap",
-        "type": "url",
-        "url": "https://portmap.com/"
-      },  
-      {
         "name": "Scans.io",
         "type": "url",
         "url": "https://scans.io/"
