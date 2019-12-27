@@ -6497,6 +6497,11 @@
       "name": "Mr.Looquer IOC Feed - 1st Dual Stack Threat Feed",
       "type": "url",
       "url": "https://iocfeed.mrlooquer.com"
+    },
+    {
+      "name": "REScure Cyber Threat Intelligence Project",
+      "type": "url",
+      "url": "https://rescure.fruxlabs.com"
     }],
     "name": "Threat Intelligence",
     "type": "folder"
