@@ -5871,6 +5871,11 @@
     {
       "children": [
       {
+        "name": "ThreatPipes (T)",
+        "type": "url",
+        "url": "https://www.threatpipes.com"
+      },
+      {
         "name": "DataSploit (T)",
         "type": "url",
         "url": "https://github.com/datasploit/datasploit/"
