@@ -1268,7 +1268,7 @@
         "name": "Portmap",
         "type": "url",
         "url": "https://portmap.com/"
-      },  
+      },
       {
         "name": "Scans.io",
         "type": "url",
@@ -6030,6 +6030,11 @@
     "children": [
     {
       "children": [
+      {
+        "name": "InQuest Labs DFI/MalDoc Search",
+        "type": "url",
+        "url": "https://labs.inquest.net/dfi"
+      },
       {
         "name": "Decalage Malware Search",
         "type": "url",
