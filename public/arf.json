@@ -6201,6 +6201,11 @@
     {
       "children": [
       {
+        "name": "InQuest DFI Maldoc Analyzer",
+        "type": "url",
+        "url": "https://labs.inquest.net/dfi"
+      },
+      {
         "name": "Office Mal Scanner (T)",
         "type": "url",
         "url": "http://www.reconstructer.org/"
