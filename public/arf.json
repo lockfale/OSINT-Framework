@@ -1268,7 +1268,7 @@
         "name": "Portmap",
         "type": "url",
         "url": "https://portmap.com/"
-      },  
+      },
       {
         "name": "Scans.io",
         "type": "url",
@@ -6031,6 +6031,11 @@
     {
       "children": [
       {
+        "name": "InQuest Labs DFI/MalDoc Search",
+        "type": "url",
+        "url": "https://labs.inquest.net/dfi"
+      },
+      {
         "name": "Decalage Malware Search",
         "type": "url",
         "url": "http://decalage.info/en/mwsearch"
@@ -6067,6 +6072,11 @@
       "children": [
       {
         "children": [
+        {
+          "name": "InQuest DFI Maldoc Analyzer",
+          "type": "url",
+          "url": "https://labs.inquest.net/dfi"
+        },
         {
           "name": "XecScan",
           "type": "url",
