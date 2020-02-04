@@ -404,6 +404,11 @@
     },
     {
       "children": [
+        {
+        "name": "SynapsInt",
+        "type": "url",
+        "url": "http://synapsint.com"
+      },
       {
         "name": "Aquatone (T)",
         "type": "url",
