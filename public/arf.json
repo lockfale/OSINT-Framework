@@ -1252,18 +1252,13 @@
       {
         "name": "Spyse",
         "type": "url",
-        "url": "https://spyse.com/"
+        "url": "https://spyse.com/search/ip"
       },
       {
         "name": "Shodan",
         "type": "url",
         "url": "https://www.shodan.io/"
       },
-      {
-        "name": "Portmap",
-        "type": "url",
-        "url": "https://portmap.com/"
-      },  
       {
         "name": "Scans.io",
         "type": "url",
