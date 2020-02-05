@@ -5871,11 +5871,6 @@
     {
       "children": [
       {
-        "name": "ThreatPipes (T)",
-        "type": "url",
-        "url": "https://www.threatpipes.com"
-      },
-      {
         "name": "DataSploit (T)",
         "type": "url",
         "url": "https://github.com/datasploit/datasploit/"
@@ -5884,6 +5879,11 @@
         "name": "SpiderFoot (T)",
         "type": "url",
         "url": "http://www.spiderfoot.net/"
+      },
+      {
+        "name": "ThreatPipes (T)",
+        "type": "url",
+        "url": "https://www.threatpipes.com"
       },
       {
         "name": "Omnibus (T)",
