@@ -505,6 +505,11 @@
         "url": "https://urlscan.io/search/#*"
       },
       {
+        "name": "Daily DNS Changes",
+        "type": "url",
+        "url": "http://www.dailychanges.com/"
+      },
+      {
         "name": "SameID",
         "type": "url",
         "url": "http://sameid.net/"
