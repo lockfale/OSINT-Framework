@@ -540,9 +540,9 @@
         "url": "https://www.certificate-transparency.org/known-logs"
       },
       {
-        "name": "CertDB",
+        "name": "Spyse",
         "type": "url",
-        "url": "https://certdb.com/"
+        "url": "https://spyse.com/search/certificate"
       },
       {
         "name": "Censys",
@@ -558,11 +558,6 @@
         "name": "certgraph (T)",
         "type": "url",
         "url": "https://github.com/lanrat/certgraph"
-      },
-      {
-        "name": "CertDB",
-        "type": "url",
-        "url": "https://certdb.com/"
       }],
       "name": "Certificate Search",
       "type": "folder"
