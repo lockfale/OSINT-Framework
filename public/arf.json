@@ -1298,6 +1298,11 @@
         "name": "Scanless",
         "type": "url",
         "url": "https://github.com/vesche/scanless"
+      },
+      {
+        "name": "Masscan (T)",
+        "type": "url",
+        "url": "https://github.com/robertdavidgraham/masscan"
       }],
       "name": "Host / Port Discovery",
       "type": "folder"
