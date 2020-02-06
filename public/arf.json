@@ -290,11 +290,6 @@
     {
       "children": [
       {
-        "name": "DNStable",
-        "type": "url",
-        "url": "https://dnstable.com/"
-      },
-      {
         "name": "Domain Dossier",
         "type": "url",
         "url": "http://centralops.net/co/DomainDossier.aspx"
@@ -308,11 +303,6 @@
         "name": "DomainTools Whois",
         "type": "url",
         "url": "http://whois.domaintools.com/"
-      },
-      {
-        "name": "DNStable",
-        "type": "url",
-        "url": "https://dnstable.com/"
       },
       {
         "name": "Domain Big Data",
