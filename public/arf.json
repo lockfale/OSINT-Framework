@@ -6948,6 +6948,11 @@
       "name": "Smart Questions",
       "type": "url",
       "url": "http://www.catb.org/esr/faqs/smart-questions.html"
+    },
+    {
+      "name": "CyberDetective CTF",
+      "type": "url",
+      "url": "https://ctf.cybersoc.wales/"
     }],
     "name": "Training",
     "type": "folder"
