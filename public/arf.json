@@ -440,6 +440,11 @@
         "url": "https://github.com/RandomStorm/Bluto"
       },
       {
+        "name": "OWASP Maryam (T)",
+        "type": "url",
+        "url": "https://github.com/saeeddhqan/Maryam"
+      },
+      {
         "name": "theHarvester (T)",
         "type": "url",
         "url": "http://www.edge-security.com/theharvester.php"
