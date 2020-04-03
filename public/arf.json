@@ -5,6 +5,11 @@
     {
       "children": [
       {
+        "name": "USRNME",
+        "type": "url",
+        "url": "https://www.npmjs.com/package/usrnme"
+      },
+      {
         "name": "Namechk",
         "type": "url",
         "url": "https://namechk.com/"
