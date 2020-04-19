@@ -5419,6 +5419,11 @@
         "url": "https://www.torproject.org/download/download-easy.html.en"
       },
       {
+        "name": "Freenet Project (T)",
+        "type": "url",
+        "url": "https://freenetproject.org/pages/download.html"
+      },
+      {
         "name": "I2P Anonymous Network (T)",
         "type": "url",
         "url": "https://geti2p.net/en/"
@@ -6531,6 +6536,11 @@
           "name": "Tor Download (T)",
           "type": "url",
           "url": "https://www.torproject.org/download/download-easy.html.en"
+        },
+        {
+          "name": "Freenet Project (T)",
+          "type": "url",
+          "url": "https://freenetproject.org/pages/download.html"
         },
         {
           "name": "I2P Anonymous Network (T)",
