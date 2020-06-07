@@ -4162,6 +4162,11 @@
       "url": "https://yandex.com/maps/"
     },
     {
+      "name": "TerraServer",
+      "type": "url",
+      "url": "https://www.terraserver.com/view"
+    },
+    {
       "name": "Google Earth",
       "type": "url",
       "url": "https://www.google.com/earth/"
@@ -4202,6 +4207,11 @@
       "url": "http://openstreetcam.org/"
     },
     {
+      "name": "Dronetheworld",
+      "type": "url",
+      "url": "http://www.dronetheworld.com/"
+    },
+    {
       "name": "Travel by Drone",
       "type": "url",
       "url": "http://travelbydrone.com/"
@@ -4236,11 +4246,6 @@
       "type": "url",
       "url": "http://www.openrailwaymap.org/"
     },
-    {
-      "name": "OpenInfrastructureMap",
-      "type": "url",
-      "url": "openinframap.org/"
-    }
     {
       "name": "OpenStreetMap Routing Service",
       "type": "url",
