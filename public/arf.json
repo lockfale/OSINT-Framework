@@ -1283,6 +1283,11 @@
         "name": "Masscan (T)",
         "type": "url",
         "url": "https://github.com/robertdavidgraham/masscan"
+      },
+      {
+        "name": "GIP.SH (GET IP)",
+        "type": "url",
+        "url": "https://GIP.SH/"
       }],
       "name": "Host / Port Discovery",
       "type": "folder"
