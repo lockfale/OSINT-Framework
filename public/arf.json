@@ -5614,6 +5614,16 @@
         "url": "https://etherchain.org/accounts/"
       },
       {
+        "name": "Anyblock Analytitcs",
+        "type": "url",
+        "url": "https://www.anyblockanalytics.com/"
+      },
+      {
+        "name": "Dune Analytitcs",
+        "type": "url",
+        "url": "https://www.duneanalytics.com/"
+      },
+      {
         "name": "Etherscan",
         "type": "url",
         "url": "https://etherscan.io/"
@@ -5627,6 +5637,11 @@
         "name": "XMRChain.net",
         "type": "url",
         "url": "https://xmrchain.net/"
+      },
+      {
+        "name": "xmrmap (T)",
+        "type": "url",
+        "url": "https://github.com/sm4rtk1dz/xmrmap"
       },
       {
         "name": "Monero Blocks",
