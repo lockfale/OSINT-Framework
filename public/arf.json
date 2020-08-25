@@ -1472,6 +1472,17 @@
       "name": "Wireless Network Info",
       "type": "folder"
     },
+	{
+      "children": [
+      {
+        "name": "WPS Pin Generator",
+        "type": "url",
+        "url": "https://wpsfinder.com/"
+      }
+	  ],
+      "name": "Wi-Fi Protected Setup",
+      "type": "folder"
+    },
     {
       "children": [
       {
