@@ -1280,6 +1280,11 @@
         "url": "https://github.com/vesche/scanless"
       },
       {
+        "name": "BinaryEdge (R)",
+        "type": "url",
+        "url": "https://www.binaryedge.io/"
+      },
+      {
         "name": "Masscan (T)",
         "type": "url",
         "url": "https://github.com/robertdavidgraham/masscan"
@@ -1378,6 +1383,11 @@
         "name": "ExoneraTor",
         "type": "url",
         "url": "https://exonerator.torproject.org/"
+      },
+      {
+        "name": "Grey Noise",
+        "type": "url",
+        "url": "https://viz.greynoise.io/"
       },
       {
         "name": "LiveIPMap IP Check",
