@@ -3952,6 +3952,11 @@
         "name": "ADS-B Exchange",
         "type": "url",
         "url": "https://www.adsbexchange.com/"
+      },
+      {
+        "name": "ADS-B.NL",
+        "type": "url",
+        "url": "https://www.ads-b.nl/index.php?pageno=9999"
       }],
       "name": "Air Traffic Records",
       "type": "folder"
