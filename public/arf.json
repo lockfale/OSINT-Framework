@@ -1519,7 +1519,7 @@
       "name": "IP Loggers",
       "type": "folder"
     }],
-    "name": "IP Address",
+    "name": "IP & MAC Address",
     "type": "folder"
   },
   {
