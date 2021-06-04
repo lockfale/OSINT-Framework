@@ -325,11 +325,6 @@
         "url": "https://whoisology.com/#advanced"
       },
       {
-        "name": "Domain History",
-        "type": "url",
-        "url": "http://www.domainhistory.net/"
-      },
-      {
         "name": "Whois ARIN",
         "type": "url",
         "url": "https://whois.arin.net/ui/advanced.jsp"
