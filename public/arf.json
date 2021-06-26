@@ -5705,6 +5705,11 @@
       "name": "Claz.org",
       "type": "url",
       "url": "http://claz.org/"
+    },
+    {
+      "name": "francais-a-londres.org",
+      "type": "url",
+      "url": "http://francais-a-londres.org/"
     }],
     "name": "Classifieds",
     "type": "folder"
