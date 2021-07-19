@@ -1817,6 +1817,11 @@
           "name": "Creepy (T)",
           "type": "url",
           "url": "http://www.geocreepy.com/"
+        },
+        {
+          "name": "Forensically",
+          "type": "url",
+          "url": "https://29a.ch/photo-forensics"
         }],
         "name": "Tools",
         "type": "folder"
@@ -6189,6 +6194,11 @@
         "name": "OffVis (T)",
         "type": "url",
         "url": "http://go.microsoft.com/fwlink/?LinkID=158791"
+      },
+      {
+        "name": "oledump.py (T)",
+        "type": "url",
+        "url": "https://blog.didierstevens.com/programs/oledump-py/"
       }],
       "name": "Office Files",
       "type": "folder"
