@@ -35,6 +35,11 @@
         "url": "https://github.com/WebBreacher/WhatsMyName"
       },
       {
+        "name": "WhatsMyName",
+        "type": "url",
+        "url": "https://whatsmyname.app/"
+      },
+      {
         "name": "Thats Them",
         "type": "url",
         "url": "https://thatsthem.com/"
@@ -53,6 +58,11 @@
         "name": "Instant Username Search",
         "type": "url",
         "url": "https://instantusername.com/"
+      },
+      {
+        "name": "UserHunt",
+        "type": "url",
+        "url": "https://userhunt.co/"
       }],
       "name": "Username Search Engines",
       "type": "folder"
@@ -88,6 +98,16 @@
         "name": "MIT PGP Key Server",
         "type": "url",
         "url": "http://pgp.mit.edu/"
+      },
+      {
+        "name": "ProtonMail users (M)",
+        "type": "url",
+        "url": "https://api.protonmail.ch/pks/lookup?op=index&search=<username>@protonmail.com"
+      },
+      {
+        "name": "ProtonMail Domains (M)",
+        "type": "url",
+        "url": "https://api.protonmail.ch/pks/lookup?op=index&search=<email_address>"
       }],
       "name": "Specific Sites",
       "type": "folder"
@@ -153,17 +173,22 @@
         "name": "MailsHunt",
         "type": "url",
         "url": "https://mailshunt.com/"
-      }],
+      },
+      {
+        "name": "Epieos Email Tool",
+        "type": "url",
+        "url": "https://tools.epieos.com/email.php"
+      },
+      {
+        "name": "Holehe (T)",
+        "type": "url",
+        "url": "https://github.com/megadose/holehe"
+      },,
       "name": "Email Search",
       "type": "folder"
     },
     {
       "children": [
-      {
-        "name": "Corporatate Email Formats",
-        "type": "url",
-        "url": "https://sites.google.com/site/emails4corporations/home"
-      },
       {
         "name": "Email Format",
         "type": "url",
@@ -200,11 +225,6 @@
         "url": "http://verify-email.org/"
       },
       {
-        "name": "Email Validator",
-        "type": "url",
-        "url": "http://e-mailvalidator.com/index.php"
-      },
-      {
         "name": "BytePlant Email Validator",
         "type": "url",
         "url": "http://www.email-validator.net/"
@@ -235,7 +255,7 @@
         "url": "https://haveibeenpwned.com/"
       },
       {
-        "name": "DeHashed",
+        "name": "DeHashed (R)",
         "type": "url",
         "url": "https://dehashed.com/"
       },
@@ -250,26 +270,11 @@
         "url": "https://www.vigilante.pw/"
       },
       {
-        "name": "Breach or Clear",
-        "type": "url",
-        "url": "http://breachorclear.jesterscourt.cc/"
-      },
-      {
         "name": "Ashley Madison Emails",
         "type": "url",
         "url": "https://ashley.cynic.al/"
       }],
       "name": "Breach Data",
-      "type": "folder"
-    },
-    {
-      "children": [
-      {
-        "name": "DNS Blackhole Lists",
-        "type": "url",
-        "url": "http://www.tcpiputils.com/dns-blackhole-list"
-      }],
-      "name": "Spam Reputation Lists",
       "type": "folder"
     },
     {
@@ -290,9 +295,9 @@
     {
       "children": [
       {
-        "name": "DNStable",
+        "name": "DeHashed (R)",
         "type": "url",
-        "url": "https://dnstable.com/"
+        "url": "https://dehashed.com/"
       },
       {
         "name": "Domain Dossier",
@@ -460,14 +465,9 @@
         "url": "https://github.com/hrbrmstr/gdns"
       },
       {
-        "name": "assetnote (T)",
+        "name": "SecurityTrails (R)",
         "type": "url",
-        "url": "https://github.com/infosec-au/assetnote"
-      },
-      {
-        "name": "Network Intelligence",
-        "type": "url",
-        "url": "http://netintel.net/"
+        "url": "https://securitytrails.com/"
       },
       {
         "name": "Sublist3r",
@@ -490,9 +490,14 @@
         "url": "https://www.shodan.io/"
       },
       {
-        "name": "Kraken",
+        "name": "Kraken (T)",
         "type": "url",
         "url": "https://github.com/Sw4mpf0x/Kraken"
+      },
+      {
+      "name": "SecurityTrails (R)",
+      "type": "url",
+      "url": "https://securitytrails.com/"
       },
       {
         "name": "urlscan.io",
@@ -505,19 +510,24 @@
         "url": "http://www.dailychanges.com/"
       },
       {
-        "name": "SameID",
-        "type": "url",
-        "url": "http://sameid.net/"
-      },
-      {
         "name": "Redirect Detective",
         "type": "url",
         "url": "http://redirectdetective.com/"
       },
       {
-        "name": "Sitediff",
+        "name": "Sitediff (T)",
         "type": "url",
         "url": "https://github.com/digininja/sitediff"
+      },
+      {
+        "name": "BuiltWith",
+        "type": "url",
+        "url": "https://builtwith.com/"
+      },
+      {
+        "name": "Wappalyzer",
+        "type": "url",
+        "url": "https://www.wappalyzer.com/"
       },
       {
         "name": "AnalyzeID",
@@ -529,6 +539,11 @@
     },
     {
       "children": [
+      {
+        "name": "Shodan",
+        "type": "url",
+        "url": "https://www.shodan.io/"
+      },
       {
         "name": "Google's Certificate Transparency",
         "type": "url",
@@ -560,7 +575,7 @@
     {
       "children": [
       {
-        "name": "Security Trails",
+        "name": "Security Trails (R)",
         "type": "url",
         "url": "https://securitytrails.com/"
       },
@@ -583,11 +598,6 @@
         "name": "DNS Dumpster",
         "type": "url",
         "url": "https://dnsdumpster.com/"
-      },
-      {
-        "name": "Deteque (R)",
-        "type": "url",
-        "url": "https://www.deteque.com/"
       }],
       "name": "PassiveDNS",
       "type": "folder"
@@ -6938,6 +6948,11 @@
       "name": "NetBootCamp",
       "type": "url",
       "url": "https://netbootcamp.org/trainingprogram/"
+    },
+    {
+      "name": "The OSINTion",
+      "type": "url",
+      "url": "https://www.theosintion.com/courses"
     },
     {
       "name": "Smart Questions",
