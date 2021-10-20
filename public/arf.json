@@ -1649,29 +1649,19 @@
       {
         "children": [
         {
-          "name": "Webstigram",
-          "type": "url",
-          "url": "http://websta.me/search"
-        },
-        {
           "name": "Instagram",
           "type": "url",
           "url": "https://www.instagram.com/"
         },
         {
-          "name": "Mini Instagram",
+          "name": "Apkun",
           "type": "url",
-          "url": "http://mininsta.net/"
+          "url": "https://apkun.com/"
         },
         {
-          "name": "Imgrab",
+          "name": "Dumpor",
           "type": "url",
-          "url": "https://imgrab.com/"
-        },
-        {
-          "name": "Tofo.me",
-          "type": "url",
-          "url": "https://tofo.me/"
+          "url": "https://dumpor.com/"
         }],
         "name": "Instagram",
         "type": "folder"
