@@ -2607,6 +2607,11 @@
     {
       "children": [
       {
+        "name": "Ask FM",
+        "type": "url",
+        "url": "https://ask.fm/%3Cusername%3E"
+      },
+      {
         "name": "Myspace",
         "type": "url",
         "url": "https://myspace.com/"
@@ -2620,6 +2625,11 @@
         "name": "TheHoodUp (NSFW)",
         "type": "url",
         "url": "http://thehoodup.com/board/"
+      },
+      {
+        "name": "Share Secret Feedback (M)",
+        "type": "url",
+        "url": "https://secreto.site/en/%3Cuser_id%3E"
       },
       {
         "name": "BlackPlanet.com - Member Find",
@@ -2650,6 +2660,11 @@
         "name": "raven (T)",
         "type": "url",
         "url": "https://github.com/0x09AL/raven"
+      },
+      {
+        "name": "Tiktok (M)",
+        "type": "url",
+        "url": "https://www.tiktok.com/@%3Cusername%3E"
       },
       {
         "name": "Delicious",
@@ -3083,6 +3098,16 @@
       "name": "Tinder (R)",
       "type": "url",
       "url": "https://tinder.com/"
+    },
+    {
+      "name": "Bumble (R)",
+      "type": "url",
+      "url": "https://bumble.com/"
+    },
+    {
+      "name": "Tantan (R)",
+      "type": "url",
+      "url": "https://tantanapp.com/"
     },
     {
       "name": "Wamba.com",
