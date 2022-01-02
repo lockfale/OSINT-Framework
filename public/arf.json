@@ -5474,24 +5474,24 @@
         "url": "http://www.onion.link/"
       },
       {
-        "name": "Candle",
+        "name": "Phobos DarkNet Search",
         "type": "url",
-        "url": "http://gjobqjj7wyczbqie.onion/"
+        "url": "http://phobosxilamwcg75xt22id7aywkzol6q6rfl2flipcqoc4e4ahima5id.onion/"
       },
       {
-        "name": "Not Evil",
+        "name": "Torch",
         "type": "url",
-        "url": "http://hss3uro2hsxfogfq.onion/"
+        "url": "http://xmh57jrknzkhv6y3ls3ubitzfqnkrwxhopf5aygthi7d6rplyvk3noyd.onion/"
       },
       {
         "name": "Tor66",
         "type": "url",
-        "url": "http://tor66sezptuu2nta.onion/"
+        "url": "http://tor66sewebgixwhcqfnp5inzp5x5uohhdy3kvtnyfxc2e5mxiuh34iid.onion/"
       },
       {
         "name": "dark.fail",
         "type": "url",
-        "url": "http://darkfailllnkf4vf.onion/"
+        "url": "http://darkfailenbsdla5mal2mxn2uz66od5vtzd5qozslagrfzachha3f3id"
       },
       {
         "name": "Ahmia",
@@ -5509,14 +5509,14 @@
         "url": "http://thehiddenwiki.org/"
       },
       {
-        "name": "Core.onion",
+        "name": "Real World Onion Sites",
         "type": "url",
-        "url": "http://eqt5g4fuenphqinx.onion/"
+        "url": "https://github.com/alecmuffett/real-world-onion-sites"
       },
       {
-       "name": "OnionTree",
+       "name": "Onion Link List",
        "type": "url",
-       "url": "https://onionltd.github.io/"
+       "url": "https://onions.danwin1210.de/"
       }],
       "name": "TOR Directories",
       "type": "folder"
