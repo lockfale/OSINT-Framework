@@ -9,6 +9,13 @@
         "type": "url",
         "url": "https://namechk.com/"
       },
+        
+        {
+          "name": "AI generated photos",
+          "type": "url",
+          "url": "https://generated.photos/faces"
+        }
+        
       {
         "name": "Namechk (T)",
         "type": "url",
