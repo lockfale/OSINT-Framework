@@ -6482,6 +6482,11 @@
       "name": "Mr.Looquer IOC Feed - 1st Dual Stack Threat Feed",
       "type": "url",
       "url": "https://iocfeed.mrlooquer.com"
+    },
+    {
+      "name": "Threat Jammer (R)",
+      "type": "url",
+      "url": "https://threatjammer.com"
     }],
     "name": "Threat Intelligence",
     "type": "folder"
