@@ -53,6 +53,11 @@
         "name": "Instant Username Search",
         "type": "url",
         "url": "https://instantusername.com/"
+      },
+      {
+        "name": "Sherlock (T)",
+        "type": "url",
+        "url": "https://github.com/sherlock-project/sherlock/"
       }],
       "name": "Username Search Engines",
       "type": "folder"
