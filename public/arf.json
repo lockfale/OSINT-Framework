@@ -1649,29 +1649,14 @@
       {
         "children": [
         {
-          "name": "Webstigram",
-          "type": "url",
-          "url": "http://websta.me/search"
-        },
-        {
           "name": "Instagram",
           "type": "url",
           "url": "https://www.instagram.com/"
         },
         {
-          "name": "Mini Instagram",
+          "name": "Picuki",
           "type": "url",
-          "url": "http://mininsta.net/"
-        },
-        {
-          "name": "Imgrab",
-          "type": "url",
-          "url": "https://imgrab.com/"
-        },
-        {
-          "name": "Tofo.me",
-          "type": "url",
-          "url": "https://tofo.me/"
+          "url": "https://www.picuki.com/"
         }],
         "name": "Instagram",
         "type": "folder"
