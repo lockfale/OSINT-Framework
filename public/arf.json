@@ -3127,14 +3127,9 @@
     {
       "children": [
       {
-        "name": "TrueDater",
+        "name": "TrueDater (German blog)",
         "type": "url",
         "url": "http://www.truedater.com/"
-      },
-      {
-        "name": "WomanSavers",
-        "type": "url",
-        "url": "http://www.womansavers.com/search-a-guy.asp"
       }],
       "name": "Reviews of Users",
       "type": "folder"
