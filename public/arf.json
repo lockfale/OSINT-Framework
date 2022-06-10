@@ -3892,6 +3892,16 @@
         "name": "TRAVIC - Public Transportation Tracking",
         "type": "url",
         "url": "http://tracker.geops.ch/"
+      },
+      {
+        "name": "MyAccident - traffic accident map",
+        "type": "url",
+        "url": "https://myaccident.org/"
+      },
+      {
+        "name": "NHTSA Vehicle API",
+        "type": "url",
+        "url": "https://vpic.nhtsa.dot.gov/api/"
       }],
       "name": "Vehicle Records",
       "type": "folder"
