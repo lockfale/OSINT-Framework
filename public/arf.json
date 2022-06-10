@@ -3892,16 +3892,6 @@
         "name": "TRAVIC - Public Transportation Tracking",
         "type": "url",
         "url": "http://tracker.geops.ch/"
-      },
-      {
-        "name": "Vehicle Specifications Lookup",
-        "type": "url",
-        "url": "https://berla.co/products/ive/vehicle-lookup/"
-      },
-      {
-        "name": "License Plate Search",
-        "type": "url",
-        "url": "https://www.vehiclehistory.com/licence-plate-search/licence-plate.php"
       }],
       "name": "Vehicle Records",
       "type": "folder"
