@@ -304,7 +304,8 @@
         "type": "url",
         "url": "http://whois.domaintools.com/"
       },
-         "name": "DomainTools Whois (.ch)",
+      {
+        "name": "DomainTools Whois (.ch)",
         "type": "url",
         "url": "https://www.nic.ch/whois/"
       },
