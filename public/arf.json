@@ -6773,6 +6773,11 @@
       }],
       "name": "Metadata / Style",
       "type": "folder"
+    },
+    {
+      "name": "The Hitchhiker’s Guide to Online Anonymity",
+      "type": "url",
+      "url":  "https://anonymousplanet-ng.org/"
     }],
     "name": "OpSec",
     "type": "folder"
