@@ -468,6 +468,11 @@
         "name": "AltDNS (T)",
         "type": "url",
         "url": "https://github.com/infosec-au/altdns"
+      },
+      {
+        "name": "Subfinder (T)",
+        "type": "url",
+        "url": "https://github.com/projectdiscovery/subfinder"
       }],
       "name": "Subdomains",
       "type": "folder"
