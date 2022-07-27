@@ -472,7 +472,8 @@
       {
         "name": "Subfinder (T)",
         "type": "url",
-        "url": "https://github.com/projectdiscovery/subfinder"
+        "url": "https://github.com/projectdiscovery/subfinder",
+        "description": "Subfinder is a tool to identify their subdomains on a website, even if they are hidden. Perfect for finding hidden areas of an organization that are web facing, but something they don’t want you to know about…or are accidentally web facing!"
       }],
       "name": "Subdomains",
       "type": "folder"
