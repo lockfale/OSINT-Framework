@@ -2596,6 +2596,11 @@
         "name": "InSpy",
         "type": "url",
         "url": "https://github.com/leapsecurity/InSpy"
+      },
+      {
+          "name": "Raven (T)",
+          "type": "url",
+          "url": "https://github.com/0x09AL/raven"
       }],
       "name": "LinkedIn",
       "type": "folder"
@@ -2646,11 +2651,6 @@
         "name": "Odnoklassniki (Russian)",
         "type": "url",
         "url": "https://ok.ru/"
-      },
-      {
-        "name": "raven (T)",
-        "type": "url",
-        "url": "https://github.com/0x09AL/raven"
       },
       {
         "name": "Delicious",
