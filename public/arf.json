@@ -690,17 +690,14 @@
               {
                 "name": "CheckShortURL",
                 "type": "url",
-                "url": "http://checkshorturl.com/"
-              },
-              {
-                "name": "Lengthen Me",
-                "type": "url",
-                "url": "https://lengthen.me/"
+                "url": "http://checkshorturl.com/",
+                "description": "CheckShortURL supports almost all URL shortening services: t.co, goo.gl, bit.ly, amzn.to, tinyurl.com, ow.ly, youtu.be and many others"
               },
               {
                 "name": "URL Expander",
                 "type": "url",
-                "url": "http://urlex.org/"
+                "url": "http://urlex.org/",
+                "description": "URL Expander"
               },
               {
                 "name": "Where Does This Link Go?",
