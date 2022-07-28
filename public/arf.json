@@ -1186,7 +1186,8 @@
               {
                 "name": "CloudFail (T)",
                 "type": "url",
-                "url": "https://github.com/m0rtem/CloudFail"
+                "url": "https://github.com/m0rtem/CloudFail",
+                "description": "CloudFail is a tactical reconnaissance tool which aims to gather enough information about a target protected by Cloudflare in the hopes of discovering the location of the server. Using Tor to mask all requests, the tool as of right now has 3 different attack phases."
               }],
             "name": "Protected by Cloud Services",
             "type": "folder"
@@ -1194,14 +1195,16 @@
           {
             "children": [
               {
-                "name": "WiGLE: Wireless Network Mapping",
+                "name": "WiGLE: Wireless Network Mapping (R)",
                 "type": "url",
-                "url": "https://wigle.net/"
+                "url": "https://wigle.net/",
+                "description": "All the networks. Found by Everyone."
               },
               {
-                "name": "OpenCellid: Database of Cell Towers",
+                "name": "OpenCellid: Database of Cell Towers (R)",
                 "type": "url",
-                "url": "https://opencellid.org/"
+                "url": "https://opencellid.org/",
+                "description": "The world's largest Open Database of Cell Towers. Locate devices without GPS, explore Mobile Operator coverage and more!"
               }],
             "name": "Wireless Network Info",
             "type": "folder"
@@ -1209,9 +1212,10 @@
           {
             "children": [
               {
-                "name": "Wireshark",
+                "name": "Wireshark (T)",
                 "type": "url",
-                "url": "https://www.wireshark.org/download.html"
+                "url": "https://www.wireshark.org/download.html",
+                "description": "Wireshark is the world’s foremost and widely-used network protocol analyzer. It lets you see what’s happening on your network at a microscopic level and is the de facto (and often de jure) standard across many commercial and non-profit enterprises, government agencies, and educational institutions. Wireshark development thrives thanks to the volunteer contributions of networking experts around the globe and is the continuation of a project started by Gerald Combs in 1998."
               },
               {
                 "name": "NetworkMiner",
@@ -1221,7 +1225,8 @@
               {
                 "name": "Packet Total",
                 "type": "url",
-                "url": "http://www.packettotal.com/"
+                "url": "http://www.packettotal.com/",
+                "description": "Simple free high quality PCAP analysis"
               }
               ],
             "name": "Network Analysis Tools",
