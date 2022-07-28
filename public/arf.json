@@ -723,34 +723,34 @@
           {
             "children": [
               {
-                "name": "VisualPing",
+                "name": "Change Detection (aka Visual Ping) (R)(C)",
                 "type": "url",
-                "url": "http://visualping.io/"
-              },
-              {
-                "name": "Change Detection",
-                "type": "url",
-                "url": "http://www.changedetection.com/"
+                "url": "http://www.changedetection.com/",
+                "description": "Website change detection and alerts"
               },
               {
                 "name": "Follow That Page",
                 "type": "url",
-                "url": "https://www.followthatpage.com/"
+                "url": "https://www.followthatpage.com/",
+                "description": "Follow That Page is a change detection and notification service that sends you an email when your favourite web pages have changed. We monitor the web for you."
               },
               {
-                "name": "Urlwatch",
+                "name": "Urlwatch (T)",
                 "type": "url",
-                "url": "https://github.com/thp/urlwatch"
+                "url": "https://github.com/thp/urlwatch",
+                "description": "urlwatch is intended to help you watch changes in webpages and get notified (via e-mail, in your terminal or through various third party services) of any changes. The change notification will include the URL that has changed and a unified diff of what has changed."
               },
               {
                 "name": "WatchThatPage",
                 "type": "url",
-                "url": "http://watchthatpage.com/"
+                "url": "http://watchthatpage.com/",
+                "description": "WatchThatPage is a service that enables you to automatically collect new information from your favorite pages on the Internet."
               },
               {
                 "name": "ChangeDetect",
                 "type": "url",
-                "url": "http://www.changedetect.com/"
+                "url": "http://www.changedetect.com/",
+                "description": "ChangeDetect provided web page monitoring services. Receive an automatic e-mail notification whenever content changes on your favorite webpages."
               }],
             "name": "Change Detection",
             "type": "folder"
@@ -775,12 +775,14 @@
               {
                 "name": "DNSSEC Analyzer",
                 "type": "url",
-                "url": "http://dnssec-debugger.verisignlabs.com/"
+                "url": "http://dnssec-debugger.verisignlabs.com/",
+                "description": "DNSSEC problems analyzer"
               },
               {
-                "name": "DNSViz",
+                "name": "DNSViz (T)",
                 "type": "url",
-                "url": "http://dnsviz.net/"
+                "url": "http://dnsviz.net/",
+                "description": "DNSSEC Authentication Chain"
               }],
             "name": "DNSSEC",
             "type": "folder"
@@ -790,12 +792,14 @@
               {
                 "name": "Public Buckets",
                 "type": "url",
-                "url": "https://buckets.grayhatwarfare.com/"
+                "url": "https://buckets.grayhatwarfare.com/",
+                "description": "Search for Open Amazon s3 Buckets and their contents"
               },
               {
                 "name": "CloudScraper (T)",
                 "type": "url",
-                "url": "https://github.com/jordanpotti/cloudscraper"
+                "url": "https://github.com/jordanpotti/cloudscraper",
+                "description": "CloudScraper is a Tool to spider and scrape targets in search of cloud resources. Plug in a URL and it will spider and search the source of spidered pages for strings such as 's3.amazonaws.com', 'windows.net' and 'digitaloceanspaces'. AWS, Azure, Digital Ocean resources are currently supported."
               }],
             "name": "Cloud Resources",
             "type": "folder"
@@ -807,7 +811,8 @@
                   {
                     "name": "Sn1per (T)",
                     "type": "url",
-                    "url": "https://github.com/1N3/Sn1per"
+                    "url": "https://github.com/1N3/Sn1per",
+                    "description": "Sn1per is an automated reconnaissance scanner that can be used to discover assets and scan for vulnerabilities using the latest open source tools and techniques."
                   }],
                 "name": "Scanners",
                 "type": "folder"
