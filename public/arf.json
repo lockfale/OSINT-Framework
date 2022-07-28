@@ -1039,24 +1039,22 @@
                 "url": "http://www.cidr-report.org/as2.0/"
               },
               {
-                "name": "Reverse.report",
-                "type": "url",
-                "url": "https://reverse.report/"
-              },
-              {
                 "name": "Team Cymru IP to ASN",
                 "type": "url",
-                "url": "https://asn.cymru.com/"
+                "url": "https://asn.cymru.com/",
+                "description": "Team Cymru IP to ASN Lookup v1.0"
               },
               {
-                "name": "IP to ASN DB",
+                "name": "IP to ASN DB (T)",
                 "type": "url",
-                "url": "https://iptoasn.com/"
+                "url": "https://iptoasn.com/",
+                "description": "Free IP address to ASN database. Downloadable, easy to parse, updated hourly."
               },
               {
                 "name": "Hacker Target - Reverse DNS",
                 "type": "url",
-                "url": "https://hackertarget.com/reverse-dns-lookup/"
+                "url": "https://hackertarget.com/reverse-dns-lookup/",
+                "description": "Find host names with Reverse DNS Lookups"
               }],
             "name": "IPv4",
             "type": "folder"
@@ -1086,17 +1084,20 @@
               {
                 "name": "BGPStream",
                 "type": "url",
-                "url": "https://bgpstream.com/"
+                "url": "https://bgpstream.crosswork.cisco.com/",
+                "description": "BGP Stream is a free resource for receiving alerts about hijacks, leaks, and outages in the Border Gateway Protocol."
               },
               {
                 "name": "PeeringDB",
                 "type": "url",
-                "url": "https://www.peeringdb.com/advanced_search"
+                "url": "https://www.peeringdb.com/advanced_search",
+                "description": "PeeringDB is a freely available, user-maintained, database of networks, and the go-to location for interconnection data. The database facilitates the global interconnection of networks at Internet Exchange Points (IXPs), data centers, and other interconnection facilities, and is the first stop in making interconnection decisions."
               },
               {
-                "name": "BGP Tools",
+                "name": "BGP Tools (T)",
                 "type": "url",
-                "url": "http://www.bgp4.as/tools"
+                "url": "http://www.bgp4.as/tools",
+                "description": "Border Gateway Protocol tools"
               }],
             "name": "BGP",
             "type": "folder"
@@ -1106,17 +1107,20 @@
               {
                 "name": "IP Void",
                 "type": "url",
-                "url": "http://www.ipvoid.com/"
+                "url": "http://www.ipvoid.com/",
+                "description": "IP blacklist check, whois lookup, dns lookup, ping, and more"
               },
               {
                 "name": "ExoneraTor",
                 "type": "url",
-                "url": "https://exonerator.torproject.org/"
+                "url": "https://exonerator.torproject.org/",
+                "description": "The ExoneraTor service maintains a database of IP addresses that have been part of the Tor network."
               },
               {
                 "name": "LiveIPMap IP Check",
                 "type": "url",
-                "url": "https://www.liveipmap.com/"
+                "url": "https://www.liveipmap.com/",
+                "description": "LiveIPMap is a platform open for everyone to report an IP abuse case or to request the release of a falsified abuse case. Anyone is free to lookup for an abuse case. Abuse data listed on this website is real-time updated."
               }],
             "name": "Reputation",
             "type": "folder"
