@@ -711,11 +711,6 @@
                 "name": "Where Does This Link Go?",
                 "type": "url",
                 "url": "http://wheredoesthislinkgo.com/"
-              },
-              {
-                "name": "KnowURL",
-                "type": "url",
-                "url": "http://www.knowurl.com/"
               }],
             "name": "URL Expanders",
             "type": "folder"
