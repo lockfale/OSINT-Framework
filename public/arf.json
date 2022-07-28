@@ -848,24 +848,22 @@
                 "url": "https://portswigger.net/burp/"
               },
               {
-                "name": "BlackWidow (T)",
-                "type": "url",
-                "url": "http://softbytelabs.com/en/BlackWidow/"
-              },
-              {
                 "name": "IntelliTamper (T)",
                 "type": "url",
-                "url": "http://www.softpedia.com/get/Internet/Other-Internet-Related/IntelliTamper.shtml"
+                "url": "http://www.softpedia.com/get/Internet/Other-Internet-Related/IntelliTamper.shtml",
+                "description": "An easy-to-use application which will tell you what is really behind any website, such as files and folders, including the unlisted ones"
               },
               {
                 "name": "International Domain Name Conversion Tool",
                 "type": "url",
-                "url": "http://mct.verisign-grs.com/"
+                "url": "http://mct.verisign-grs.com/",
+                "description": "Internationalized Domain Name (IDN) Conversion Tool"
               },
               {
                 "name": "EyeWitness (T)",
                 "type": "url",
-                "url": "https://github.com/ChrisTruncer/EyeWitness"
+                "url": "https://github.com/ChrisTruncer/EyeWitness",
+                "description": "EyeWitness is designed to take screenshots of websites provide some server header info, and identify default credentials if known."
               },
               {
                 "name": "Belati (T)",
