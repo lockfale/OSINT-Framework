@@ -1129,19 +1129,22 @@
                 "url": "http://www.blocklist.de/en/index.html"
               },
               {
-                "name": "DShield API",
+                "name": "DShield API (R)(C)(API)",
                 "type": "url",
-                "url": "https://isc.sans.edu/api/"
+                "url": "https://isc.sans.edu/api/",
+                "description": "IP blacklists API"
               },
               {
                 "name": "FireHOL IP Lists ",
                 "type": "url",
-                "url": "http://iplists.firehol.org/"
+                "url": "http://iplists.firehol.org/",
+                "description": "All Cybercrime IP Feeds by FireHOL"
               },
               {
                 "name": "Project Honey Pot",
                 "type": "url",
-                "url": "http://www.projecthoneypot.org/list_of_ips.php"
+                "url": "http://www.projecthoneypot.org/list_of_ips.php",
+                "description": "Directory of Malicious IPs"
               }],
             "name": "Blacklists",
             "type": "folder"
