@@ -638,11 +638,6 @@
                 "url": "https://www.clearwebstats.com/"
               },
               {
-                "name": "PubDB",
-                "type": "url",
-                "url": "http://pub-db.com/"
-              },
-              {
                 "name": "SimilarWeb (R)(C)",
                 "type": "url",
                 "url": "https://www.similarweb.com/",
