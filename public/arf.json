@@ -1171,39 +1171,52 @@
     {
       "children": [
       {
-        "name": "MaxMind Demo",
+        "name": "WhatIsMyIP.com",
         "type": "url",
-        "url": "https://www.maxmind.com/en/home"
+        "url": "https://www.whatismyip.com/",
+        "description": "IP Address Location information"
       },
       {
-        "name": "IPv4/IPv6 lists by country code",
+        "name": "MaxMind Demo API (R)(C)",
         "type": "url",
-        "url": "http://ipverse.net/"
+        "url": "https://www.maxmind.com/en/home",
+        "description": "Detect online fraud amd locate online visitors. Use GeoIP intelligence for content customization, advertising, digital rights management, compliance, fraud detection, security and more."
       },
       {
-        "name": "IP2Location.com",
+        "name": "IPv4/IPv6 lists by country code (T)",
         "type": "url",
-        "url": "https://www.ip2location.com/demo"
+        "url": "https://github.com/ipverse/rir-ip",
+        "description": "Based on http://ipverse.net service. Drop-in replacement for the IP subnet lists previously available at ipverse.net based on Internet number resource usage data published by the Regional Internet Registries (RIR). The data is organized by country code (ISO 3166)."
+      },
+      {
+        "name": "IP2Location.com (R)(C)",
+        "type": "url",
+        "url": "https://www.ip2location.com/demo",
+        "description": "Geo IP solution to identify country, region, city, latitude & longitude, ZIP code, time zone, connection speed, ISP, domain name, IDD country code, area code, weather station data, mobile network codes (MNC), mobile country codes (MCC), mobile carrier, elevation, usage type, address type, advertising category, VPN and residential proxies."
       },
       {
         "name": "IP Fingerprints",
         "type": "url",
-        "url": "http://www.ipfingerprints.com/"
+        "url": "http://www.ipfingerprints.com/",
+        "description": "IP Address Geographical Location Finder"
       },
       {
-        "name": "DB-IP",
+        "name": "DB-IP with API (R)",
         "type": "url",
-        "url": "https://db-ip.com/"
+        "url": "https://db-ip.com/",
+        "description": "The ultimate resource for IP address geolocation and network intelligence..."
       },
       {
         "name": "IP Location Finder",
         "type": "url",
-        "url": "https://www.iplocation.net/"
+        "url": "https://www.iplocation.net/",
+        "description": "IP address information with geolocation"
       },
       {
-        "name": "Info Sniper",
+        "name": "Info Sniper (R)(C)",
         "type": "url",
-        "url": "http://www.infosniper.net/"
+        "url": "http://www.infosniper.net/",
+        "description": "infoSNIPER offers free as well as commercial web API geolocation services. For a free demo simply fill in the IP address or domain name in the form below in order to get detailed geolocation information on your entry. Check out our other services as well. Thank you for visiting us."
       },
       {
         "name": "InfobyIP.com",
