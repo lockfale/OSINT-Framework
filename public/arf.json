@@ -1231,11 +1231,6 @@
     {
       "children": [
       {
-        "name": "Spyse",
-        "type": "url",
-        "url": "https://spyse.com/search/ip"
-      },
-      {
         "name": "Shodan (R)(C)",
         "type": "url",
         "url": "https://www.shodan.io/",
