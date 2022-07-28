@@ -1257,7 +1257,7 @@
         "description": "Nmap Network Scanning is the official guide to the Nmap Security Scanner, a free and open source utility used by millions of people for network discovery, administration, and security auditing."
       },
       {
-        "name": "ZenMap (T)",
+        "name": "Zenmap (T)",
         "type": "url",
         "url": "https://nmap.org/zenmap/",
         "description": "Zenmap is the official Nmap Security Scanner GUI. It is a multi-platform (Linux, Windows, Mac OS X, BSD, etc.) free and open source application which aims to make Nmap easy for beginners to use while providing advanced features for experienced Nmap users."
@@ -1276,17 +1276,20 @@
       {
         "name": "urlscan.io",
         "type": "url",
-        "url": "https://urlscan.io/search/#*"
+        "url": "https://urlscan.io/search/#*",
+        "description": "Search for domains, IPs, filenames, hashes, ASNs"
       },
       {
-        "name": "Scanless",
+        "name": "Scanless (T)",
         "type": "url",
-        "url": "https://github.com/vesche/scanless"
+        "url": "https://github.com/vesche/scanless",
+        "description": "Python 3 command-line utility and library for using websites that can perform port scans on your behalf."
       },
       {
         "name": "Masscan (T)",
         "type": "url",
-        "url": "https://github.com/robertdavidgraham/masscan"
+        "url": "https://github.com/robertdavidgraham/masscan",
+        "description": "This is an Internet-scale port scanner. It can scan the entire Internet in under 5 minutes, transmitting 10 million packets per second, from a single machine."
       }],
       "name": "Host / Port Discovery",
       "type": "folder"
