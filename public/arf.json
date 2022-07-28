@@ -613,11 +613,6 @@
                 "url": "http://s3-us-west-1.amazonaws.com/umbrella-static/index.html"
               },
               {
-                "name": "Alexa Top 500 Global Sites",
-                "type": "url",
-                "url": "http://www.alexa.com/topsites"
-              },
-              {
                 "name": "Sitedossier",
                 "type": "url",
                 "url": "http://www.sitedossier.com/",
