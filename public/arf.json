@@ -2638,9 +2638,14 @@
         "url": "https://orkut.google.com/"
       },
       {
-        "name": "Odnoklassniki",
+        "name": "VKontakte (Russian)",
         "type": "url",
-        "url": "http://ok.ru/"
+        "url": "https://vk.com/"
+      },
+      {
+        "name": "Odnoklassniki (Russian)",
+        "type": "url",
+        "url": "https://ok.ru/"
       },
       {
         "name": "raven (T)",
@@ -4294,10 +4299,25 @@
         "type": "url",
         "url": "https://www.yandex.com/"
       },
+        {
+          "name": "Yandex (Russian)",
+          "type": "url",
+          "url": "https://www.yandex.ru"
+      },
+      {
+        "name": "Mail.ru (Russian)",
+        "type": "url",
+        "url": "https://mail.ru/"
+      },
       {
         "name": "Baidu",
         "type": "url",
         "url": "http://www.baidu.com/"
+      },
+      {
+        "name": "Yahoo",
+        "type": "url",
+        "url": "https://www.yahoo.com/"
       },
       {
         "name": "Google Advanced Search",
