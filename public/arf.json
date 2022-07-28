@@ -618,24 +618,22 @@
                 "url": "http://www.alexa.com/topsites"
               },
               {
-                "name": "W3bin.com",
-                "type": "url",
-                "url": "https://w3bin.com/"
-              },
-              {
                 "name": "Sitedossier",
                 "type": "url",
-                "url": "http://www.sitedossier.com/"
+                "url": "http://www.sitedossier.com/",
+                "description": "A collection or file of documents containing information about a particular person or topic."
               },
               {
                 "name": "Visual Site Mapper",
                 "type": "url",
-                "url": "http://www.visualsitemapper.com/"
+                "url": "http://www.visualsitemapper.com/",
+                "description": "Visual Site Mapper is a free service that can quickly show a map of your site."
               },
               {
                 "name": "ClearWebStats.com",
                 "type": "url",
-                "url": "https://www.clearwebstats.com/"
+                "url": "https://www.clearwebstats.com/",
+                "description": "ClearWebStats.com is a web statistics and analysis service for Internet users to examine and exhibit the website related data from most websites."
               },
               {
                 "name": "SimilarWeb (R)(C)",
