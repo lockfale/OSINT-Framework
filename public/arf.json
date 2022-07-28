@@ -678,14 +678,10 @@
           {
             "children": [
               {
-                "name": "Link Expander",
-                "type": "url",
-                "url": "http://www.linkexpander.com/"
-              },
-              {
                 "name": "GetLinkInfo",
                 "type": "url",
-                "url": "http://www.getlinkinfo.com/"
+                "url": "http://www.getlinkinfo.com/",
+                "description": "GetLinkInfo is a tool to get information about a link before visiting it."
               },
               {
                 "name": "CheckShortURL",
