@@ -1,17 +1,17 @@
-var margin = [20, 120, 20, 140],
+let margin = [20, 120, 20, 140],
     width = 1280 - margin[1] - margin[3],
     height = 800 - margin[0] - margin[2],
     i = 0,
     duration = 1250,
     root;
 
-var tree = d3.layout.tree()
+let tree = d3.layout.tree()
     .size([height, width]);
 
-var diagonal = d3.svg.diagonal()
+let diagonal = d3.svg.diagonal()
     .projection(function(d) { return [d.y, d.x]; });
 
-var vis = d3.select("#body").append("svg:svg")
+let vis = d3.select("#body").append("svg:svg")
     .attr("width", width + margin[1] + margin[3])
     .attr("height", height + margin[0] + margin[2])
   .append("svg:g")
@@ -44,17 +44,17 @@ function update(source) {
   // var duration = d3.event && d3.event.altKey ? 5000 : 500;
 
   // Compute the new tree layout.
-  var nodes = tree.nodes(root).reverse();
+  let nodes = tree.nodes(root).reverse();
 
   // Normalize for fixed-depth.
   nodes.forEach(function(d) { d.y = d.depth * 180; });
 
   // Update the nodes…
-  var node = vis.selectAll("g.node")
+  let node = vis.selectAll("g.node")
       .data(nodes, function(d) { return d.id || (d.id = ++i); });
 
   // Enter any new nodes at the parent's previous position.
-  var nodeEnter = node.enter().append("svg:g")
+  let nodeEnter = node.enter().append("svg:g")
       .attr("class", "node")
       .attr("transform", function(d) { return "translate(" + source.y0 + "," + source.x0 + ")"; })
       .on("click", function(d) { toggle(d); update(d); });
@@ -80,7 +80,7 @@ function update(source) {
     });
 
   // Transition nodes to their new position.
-  var nodeUpdate = node.transition()
+  let nodeUpdate = node.transition()
       .duration(duration)
       .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
 
@@ -92,7 +92,7 @@ function update(source) {
       .style("fill-opacity", 1);
 
   // Transition exiting nodes to the parent's new position.
-  var nodeExit = node.exit().transition()
+  let nodeExit = node.exit().transition()
       .duration(duration)
       .attr("transform", function(d) { return "translate(" + source.y + "," + source.x + ")"; })
       .remove();
@@ -104,14 +104,14 @@ function update(source) {
       .style("fill-opacity", 1e-6);
 
   // Update the links…
-  var link = vis.selectAll("path.link")
+  let link = vis.selectAll("path.link")
       .data(tree.links(nodes), function(d) { return d.target.id; });
 
   // Enter any new links at the parent's previous position.
   link.enter().insert("svg:path", "g")
       .attr("class", "link")
       .attr("d", function(d) {
-        var o = {x: source.x0, y: source.y0};
+        let o = {x: source.x0, y: source.y0};
         return diagonal({source: o, target: o});
       })
     .transition()
@@ -127,7 +127,7 @@ function update(source) {
   link.exit().transition()
       .duration(duration)
       .attr("d", function(d) {
-        var o = {x: source.x, y: source.y};
+        let o = {x: source.x, y: source.y};
         return diagonal({source: o, target: o});
       })
       .remove();
