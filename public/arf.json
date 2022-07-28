@@ -1024,14 +1024,10 @@
           {
             "children": [
               {
-                "name": "ASlookup.com",
+                "name": "Onyphe (R)(C)",
                 "type": "url",
-                "url": "https://aslookup.com/"
-              },
-              {
-                "name": "Onyphe",
-                "type": "url",
-                "url": "https://www.onyphe.io/"
+                "url": "https://www.onyphe.io/",
+                "description": "Onyphe Cyber Defense Search Engine"
               },
               {
                 "name": "IPv4 CIDR Report",
