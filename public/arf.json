@@ -1179,11 +1179,6 @@
           {
             "children": [
               {
-                "name": "CloudFlare Watch",
-                "type": "url",
-                "url": "http://www.crimeflare.com/"
-              },
-              {
                 "name": "CloudFail (T)",
                 "type": "url",
                 "url": "https://github.com/m0rtem/CloudFail",
