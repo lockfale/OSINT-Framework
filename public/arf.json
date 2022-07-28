@@ -703,14 +703,9 @@
                 "url": "http://urlex.org/"
               },
               {
-                "name": "URL Unshortener",
-                "type": "url",
-                "url": "http://www.urlunshortener.com/"
-              },
-              {
                 "name": "Where Does This Link Go?",
                 "type": "url",
-                "url": "http://wheredoesthislinkgo.com/"
+                "url": "https://wheregoes.com/"
               }],
             "name": "URL Expanders",
             "type": "folder"
