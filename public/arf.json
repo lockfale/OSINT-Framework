@@ -808,11 +808,6 @@
                     "name": "Sn1per (T)",
                     "type": "url",
                     "url": "https://github.com/1N3/Sn1per"
-                  },
-                  {
-                    "name": "Mage Scan",
-                    "type": "url",
-                    "url": "https://magescan.com/"
                   }],
                 "name": "Scanners",
                 "type": "folder"
