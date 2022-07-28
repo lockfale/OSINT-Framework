@@ -643,34 +643,34 @@
                 "url": "http://pub-db.com/"
               },
               {
-                "name": "WWW Domain Tools",
+                "name": "SimilarWeb (R)(C)",
                 "type": "url",
-                "url": "https://w3dt.net/"
-              },
-              {
-                "name": "SimilarWeb",
-                "type": "url",
-                "url": "https://www.similarweb.com/"
+                "url": "https://www.similarweb.com/",
+                "description": "Backed by the world's most intelligent and comprehensive view of digital traffic, our platform gives you the data"
               },
               {
                 "name": "Website Outlook",
                 "type": "url",
-                "url": "http://websiteoutlook.com/"
+                "url": "http://websiteoutlook.com/",
+                "description": "More then 20 Metrics to Measure & Track Success of your website.\nNo need to check Web stats on different websites and tools."
               },
               {
                 "name": "Siteliner",
                 "type": "url",
-                "url": "http://siteliner.com/"
+                "url": "http://siteliner.com/",
+                "description": "Find duplicate content, broken links, and more"
               },
               {
-                "name": "WebPagetest",
+                "name": "WebPagetest (R)(C)",
                 "type": "url",
-                "url": "https://www.webpagetest.org/"
+                "url": "https://www.webpagetest.org/",
+                "description": "Web page test analyzer"
               },
               {
-                "name": "WhatWeb",
+                "name": "WhatWeb (T)",
                 "type": "url",
-                "url": "https://github.com/urbanadventurer/WhatWeb"
+                "url": "https://github.com/urbanadventurer/WhatWeb",
+                "description": "WhatWeb identifies websites. Its goal is to answer the question, \"What is that Website?\". WhatWeb recognises web technologies including content management systems (CMS), blogging platforms, statistic/analytics packages, JavaScript libraries, web servers, and embedded devices"
               }],
             "name": "Analytics",
             "type": "folder"
