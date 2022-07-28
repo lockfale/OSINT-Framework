@@ -4399,6 +4399,18 @@
     },
     {
       "children": [
+        {
+          "name": "GHunt (T)",
+          "type": "url",
+          "url": "https://github.com/mxrch/GHunt",
+          "description": "GHunt is a modulable OSINT tool designed to evolve over the years, and incorporates many techniques to investigate Google accounts, or objects."
+        }
+      ],
+      "name": "Google Search Engines",
+      "type": "folder"
+    },
+    {
+      "children": [
       {
         "name": "PublicWWW",
         "type": "url",
@@ -4428,14 +4440,7 @@
         "name": "GitLeaks",
         "type": "url",
         "url": "https://gitleaks.com/"
-      },
-      {
-        "name": "GHunt (T)",
-        "type": "url",
-        "url": "https://github.com/mxrch/GHunt",
-        "description": "GHunt is an open-source tool that can be used to find and interact with GitHub repositories. It is a comprehensive tool that has many features. Its features include searching through a repository’s commit history and performing keyword searches. GHunt also has a feature that allows you to download data from GitHub repositories in CSV format."
-      }
-      ],
+      }],
       "name": "Code Search",
       "type": "folder"
     },
