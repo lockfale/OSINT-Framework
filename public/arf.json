@@ -1167,11 +1167,6 @@
                 "name": "MyIPNeighbors",
                 "type": "url",
                 "url": "http://www.my-ip-neighbors.com/"
-              },
-              {
-                "name": "Same IP",
-                "type": "url",
-                "url": "http://www.sameip.org/"
               }],
             "name": "Neighbor Domains",
             "type": "folder"
