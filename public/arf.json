@@ -820,22 +820,19 @@
               {
                 "children": [
                   {
-                    "name": "XSSposed.org",
-                    "type": "url",
-                    "url": "https://www.xssposed.org/"
-                  },
-                  {
                     "name": "Zone-H.org",
                     "type": "url",
-                    "url": "http://zone-h.org/archive"
+                    "url": "http://zone-h.org/archive",
+                    "description": "Unrestricted information archive"
                   }],
                 "name": "Disclosure Sites",
                 "type": "folder"
               },
               {
-                "name": "RobotsDisallowed",
+                "name": "RobotsDisallowed (T)",
                 "type": "url",
-                "url": "https://github.com/danielmiessler/RobotsDisallowed"
+                "url": "https://github.com/danielmiessler/RobotsDisallowed",
+                "description": "The RobotsDisallowed project is a harvest of the robots.txt disallowed directories of the world's top websites - specifically those of the Alexa 100K and the Majestic 100K."
               }],
             "name": "Vulnerabilities",
             "type": "folder"
@@ -843,9 +840,10 @@
           {
             "children": [
               {
-                "name": "Burp Suite (T)",
+                "name": "Burp Suite (T)(R)",
                 "type": "url",
-                "url": "https://portswigger.net/burp/"
+                "url": "https://portswigger.net/burp/",
+                "description": "Scalable automated site scanning tool"
               },
               {
                 "name": "IntelliTamper (T)",
