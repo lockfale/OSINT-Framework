@@ -868,6 +868,12 @@
                 "url": "https://github.com/ChrisTruncer/EyeWitness"
               },
               {
+                "name": "Belati (T)",
+                "type": "url",
+                "url": "https://github.com/aancw/Belati",
+                "description": "Belati is tool for Collecting Public Data & Public Document from Website and other service for OSINT purpose. This tools is inspired by Foca and Datasploit for OSINT"
+              },
+              {
                 "name": "Hunting-New-Registered-Domains (T)",
                 "type": "url",
                 "url": "https://github.com/gfek/Hunting-New-Registered-Domains",
