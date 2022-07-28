@@ -4745,11 +4745,6 @@
         "name": "Talkwalker Alerts",
         "type": "url",
         "url": "http://www.talkwalker.com/alerts"
-      },
-      {
-        "name": "Google Correlate",
-        "type": "url",
-        "url": "https://www.google.com/trends/correlate/"
       }],
       "name": "Search Tools",
       "type": "folder"
