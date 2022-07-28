@@ -1253,7 +1253,20 @@
       {
         "name": "Nmap (T)",
         "type": "url",
-        "url": "https://nmap.org/download.html"
+        "url": "https://nmap.org/download.html",
+        "description": "Nmap Network Scanning is the official guide to the Nmap Security Scanner, a free and open source utility used by millions of people for network discovery, administration, and security auditing."
+      },
+      {
+        "name": "ZenMap (T)",
+        "type": "url",
+        "url": "https://nmap.org/zenmap/",
+        "description": "Zenmap is the official Nmap Security Scanner GUI. It is a multi-platform (Linux, Windows, Mac OS X, BSD, etc.) free and open source application which aims to make Nmap easy for beginners to use while providing advanced features for experienced Nmap users."
+      },
+      {
+        "name": "nmap-scanner (T)",
+        "type": "url",
+        "url": "https://github.com/bormaxi8080/nmap-scanner",
+        "description": "A domain Nmap packet list scanner to find exploited vulnerabilities used NMap utility (https://nmap.org) and specific security vulnerabilities scan scripts."
       },
       {
         "name": "Internet Census Search",
