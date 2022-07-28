@@ -1157,11 +1157,6 @@
                 "name": "Bing IP Search (D)",
                 "type": "url",
                 "url": "http://www.bing.com/search?q=ip%3A8.8.8.8"
-              },
-              {
-                "name": "TCP/IP Utils - Domain Neighbors",
-                "type": "url",
-                "url": "http://www.tcpiputils.com/domain-neighbors"
               }],
             "name": "Neighbor Domains",
             "type": "folder"
