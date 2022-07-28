@@ -1206,24 +1206,22 @@
         "url": "http://www.infosniper.net/"
       },
       {
-        "name": "utrace",
-        "type": "url",
-        "url": "http://en.utrace.de/"
-      },
-      {
         "name": "InfobyIP.com",
         "type": "url",
-        "url": "https://www.infobyip.com/"
+        "url": "https://www.infobyip.com/",
+        "description": "IP address information with geolocation"
       },
       {
-        "name": "ipTRACKERonline",
+        "name": "ipTRACKERonline (R)",
         "type": "url",
-        "url": "https://www.iptrackeronline.com/"
+        "url": "https://www.iptrackeronline.com/",
+        "description": "IP address information with geolocation"
       },
       {
         "name": "My IP Address",
         "type": "url",
-        "url": "https://www.ipaddress.my/"
+        "url": "https://www.ipaddress.my/",
+        "description": "IP address information with geolocation"
       }],
       "name": "Geolocation",
       "type": "folder"
