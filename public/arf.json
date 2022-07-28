@@ -1236,12 +1236,13 @@
         "url": "https://spyse.com/search/ip"
       },
       {
-        "name": "Shodan",
+        "name": "Shodan (R)(C)",
         "type": "url",
-        "url": "https://www.shodan.io/"
+        "url": "https://www.shodan.io/",
+        "description": "Shodan is the world's first search engine for Internet-connected devices. Discover how Internet intelligence can help you make better decisions."
       },
       {
-        "name": "Scans.io",
+        "name": "Scans.io (A)",
         "type": "url",
         "url": "https://scans.io/",
         "description": "The Stanford Internet Research Data Repository is a public archive of research datasets that describe the hosts, services, and websites on the Internet"
