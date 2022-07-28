@@ -2583,24 +2583,28 @@
     {
       "children": [
       {
-        "name": "LinkedInt - LinkedIn Recon Tool",
+        "name": "LinkedInt (T)",
         "type": "url",
-        "url": "https://github.com/vysec/LinkedInt"
+        "url": "https://github.com/vysec/LinkedInt",
+        "description": "LinkedIn Recon Tool"
       },
       {
-        "name": "ScrapedIn",
+        "name": "ScrapedIn (T)",
         "type": "url",
-        "url": "https://github.com/dchrastil/ScrapedIn"
+        "url": "https://github.com/dchrastil/ScrapedIn",
+        "description": "This tool assists in performing reconnaissance using the LinkedIn.com website/API. Provide a search string just as you would on the original website and let ScrapedIn do all the dirty work. Output is stored as an XLSX file, however it is intended to be used with Google Spreadsheets. After importing the XLSX into Google Spreadsheets there will be a \"dataset\" worksheet and a \"report\" worksheet."
       },
       {
-        "name": "InSpy",
+        "name": "InSpy (T)",
         "type": "url",
-        "url": "https://github.com/leapsecurity/InSpy"
+        "url": "https://github.com/leapsecurity/InSpy",
+        "description": "InSpy is a python based LinkedIn enumeration tool."
       },
       {
-          "name": "Raven (T)",
+          "name": "Raven (T)(U)",
           "type": "url",
-          "url": "https://github.com/0x09AL/raven"
+          "url": "https://github.com/0x09AL/raven",
+          "description": "Raven is a Linkedin information gathering tool that can be used by pentesters to gather information about an organization employees using Linkedin."
       }],
       "name": "LinkedIn",
       "type": "folder"
