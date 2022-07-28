@@ -868,14 +868,10 @@
                 "url": "https://github.com/ChrisTruncer/EyeWitness"
               },
               {
-                "name": "Belati (T)",
-                "type": "url",
-                "url": "https://github.com/aancw/Belati"
-              },
-              {
                 "name": "Hunting-New-Registered-Domains (T)",
                 "type": "url",
-                "url": "https://github.com/gfek/Hunting-New-Registered-Domains"
+                "url": "https://github.com/gfek/Hunting-New-Registered-Domains",
+                "description": "python utility for finding and analysing potential phishing domains used in phishing campaigns targeting your customers."
               }],
             "name": "Tools",
             "type": "folder"
