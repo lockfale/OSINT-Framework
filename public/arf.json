@@ -1162,11 +1162,6 @@
                 "name": "TCP/IP Utils - Domain Neighbors",
                 "type": "url",
                 "url": "http://www.tcpiputils.com/domain-neighbors"
-              },
-              {
-                "name": "MyIPNeighbors",
-                "type": "url",
-                "url": "http://www.my-ip-neighbors.com/"
               }],
             "name": "Neighbor Domains",
             "type": "folder"
