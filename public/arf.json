@@ -1243,12 +1243,14 @@
       {
         "name": "Scans.io",
         "type": "url",
-        "url": "https://scans.io/"
+        "url": "https://scans.io/",
+        "description": "The Stanford Internet Research Data Repository is a public archive of research datasets that describe the hosts, services, and websites on the Internet"
       },
       {
-        "name": "ZoomEye",
+        "name": "ZoomEye (R) (China)",
         "type": "url",
-        "url": "https://www.zoomeye.org/"
+        "url": "https://www.zoomeye.org/",
+        "description": "ZoomEyeis the leader of global cyberspace mapping, China's first and world-renowned cyberspace search engine driven by 404 Laboratory of Knownsec, and also a world-famous cyberspace search engine."
       },
       {
         "name": "Nmap (T)",
@@ -1269,9 +1271,10 @@
         "description": "A domain Nmap packet list scanner to find exploited vulnerabilities used NMap utility (https://nmap.org) and specific security vulnerabilities scan scripts."
       },
       {
-        "name": "Internet Census Search",
+        "name": "Internet Census Search (U)",
         "type": "url",
-        "url": "http://www.exfiltrated.com/querystart.php"
+        "url": "http://www.exfiltrated.com/querystart.php",
+        "description": "This search interface makes use of the Internet Census 2012 results detailed here: Internet Census 2012"
       },
       {
         "name": "urlscan.io",
