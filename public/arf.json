@@ -535,12 +535,8 @@
               {
                 "name": "BuiltWith",
                 "type": "url",
-                "url": "http://builtwith.com/"
-              },
-              {
-                "name": "SiteSleuth",
-                "type": "url",
-                "url": "https://www.sitesleuth.io/"
+                "url": "http://builtwith.com/",
+                "description": "Build lists of websites from our database of 60,143+ web technologies and over 673 million websites showing which sites use shopping carts, analytics, hosting and many more. Filter by location, traffic, vertical and more"
               },
               {
                 "name": "SEMrush (R)(C)",
