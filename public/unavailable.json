@@ -1,6 +1,11 @@
 {
   "unavailable": [
     {
+      "name": "Critical Stack Intel (R)",
+      "type": "url",
+      "url": "https://intel.criticalstack.com/"
+    },
+    {
       "name": "Google Correlate",
       "type": "url",
       "url": "https://www.google.com/trends/correlate/"

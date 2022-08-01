@@ -453,11 +453,6 @@
                 "url": "https://github.com/maravento/blackweb"
               },
               {
-                "name": "Critical Stack Intel (R)",
-                "type": "url",
-                "url": "https://intel.criticalstack.com/"
-              },
-              {
                 "name": "DNS-BH Malware Domain Blocklist",
                 "type": "url",
                 "url": "https://riskanalytics.com/community/",
