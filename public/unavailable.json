@@ -1,0 +1,149 @@
+{
+  "unavailable": [
+    {
+      "name": "Google Correlate",
+      "type": "url",
+      "url": "https://www.google.com/trends/correlate/"
+    },
+    {
+      "name": "Spyse",
+      "type": "url",
+      "url": "https://spyse.com/search/ip"
+    },
+    {
+      "name": "utrace",
+      "type": "url",
+      "url": "http://en.utrace.de/"
+    },
+    {
+      "name": "NetworkTotal",
+      "type": "url",
+      "url": "https://www.networktotal.com/"
+    },
+    {
+      "name": "CloudFlare Watch",
+      "type": "url",
+      "url": "http://www.crimeflare.com/"
+    },
+    {
+      "name": "Same IP",
+      "type": "url",
+      "url": "http://www.sameip.org/"
+    },
+    {
+      "name": "MyIPNeighbors",
+      "type": "url",
+      "url": "http://www.my-ip-neighbors.com/"
+    },
+    {
+      "name": "TCP/IP Utils - Domain Neighbors",
+      "type": "url",
+      "url": "http://www.tcpiputils.com/domain-neighbors"
+    },
+    {
+      "name": "Reverse.report",
+      "type": "url",
+      "url": "https://reverse.report/"
+    },
+    {
+      "name": "ASlookup.com",
+      "type": "url",
+      "url": "https://aslookup.com/"
+    },
+    {
+      "name": "Belati (T)",
+      "type": "url",
+      "url": "https://github.com/aancw/Belati"
+    },
+    {
+      "name": "BlackWidow (T)",
+      "type": "url",
+      "url": "http://softbytelabs.com/en/BlackWidow/"
+    },
+    {
+      "name": "XSSposed.org",
+      "type": "url",
+      "url": "https://www.xssposed.org/"
+    },
+    {
+      "name": "Mage Scan",
+      "type": "url",
+      "url": "https://magescan.com/"
+    },
+    {
+      "name": "KnowURL",
+      "type": "url",
+      "url": "http://www.knowurl.com/"
+    },
+    {
+      "name": "URL Unshortener",
+      "type": "url",
+      "url": "http://www.urlunshortener.com/"
+    },
+    {
+      "name": "Lengthen Me",
+      "type": "url",
+      "url": "https://lengthen.me/"
+    },
+    {
+      "name": "Link Expander",
+      "type": "url",
+      "url": "http://www.linkexpander.com/"
+    },
+    {
+      "name": "WWW Domain Tools",
+      "type": "url",
+      "url": "https://w3dt.net/"
+    },
+    {
+      "name": "PubDB",
+      "type": "url",
+      "url": "http://pub-db.com/"
+    },
+    {
+      "name": "W3bin.com",
+      "type": "url",
+      "url": "https://w3bin.com/"
+    },
+    {
+      "name": "Alexa Top 500 Global Sites",
+      "type": "url",
+      "url": "http://www.alexa.com/topsites"
+    },
+    {
+      "name": "Alexa Site Statistics",
+      "type": "url",
+      "url": "http://www.alexa.com/siteinfo"
+    },
+    {
+      "name": "SpyOnWeb",
+      "type": "url",
+      "url": "http://www.spyonweb.com/"
+    },
+    {
+      "name": "TopGainers",
+      "type": "url",
+      "url": "https://topgainers.net/"
+    },
+    {
+      "name": "Wappalyzer (T)",
+      "type": "url",
+      "url": "https://wappalyzer.com/"
+    },
+    {
+      "name": "SiteSleuth",
+      "type": "url",
+      "url": "https://www.sitesleuth.io/"
+    },
+    {
+      "name": "ZeuS Tracker",
+      "type": "url",
+      "url": "https://zeustracker.abuse.ch/blocklist.php"
+    },
+    {
+      "name": "DNS Sinkhole",
+      "type": "url",
+      "url": "http://malc0de.com/bl/"
+    }
+  ]
+}
