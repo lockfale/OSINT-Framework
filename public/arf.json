@@ -243,29 +243,28 @@
           {
             "children": [
               {
-                "name": "Google's Certificate Transparency",
+                "name": "Google's Certificate Transparency (T)",
                 "type": "url",
-                "url": "https://www.certificate-transparency.org/known-logs"
+                "url": "https://www.certificate-transparency.org/known-logs",
+                "description": "The list of CT Logs that are currently compliant with Chrome's CT policy (or have been and were disqualified), and are included in Chrome"
               },
               {
-                "name": "Spyse",
+                "name": "Censys (R)(C)",
                 "type": "url",
-                "url": "https://spyse.com/search/certificate"
-              },
-              {
-                "name": "Censys",
-                "type": "url",
-                "url": "https://censys.io/"
+                "url": "https://censys.io/",
+                "description": "Your cloud is bigger, wider, and more vast than you know; your internet assets innumerable. Censys is the proven leader in Attack Surface Management by relentlessly searching and proactively monitoring your digital footprint far more broadly and deeply than ever thought possible."
               },
               {
                 "name": "crt.sh - Certificate Search",
                 "type": "url",
-                "url": "https://crt.sh/?"
+                "url": "https://crt.sh/?",
+                "description": "Certificate Search"
               },
               {
                 "name": "certgraph (T)",
                 "type": "url",
-                "url": "https://github.com/lanrat/certgraph"
+                "url": "https://github.com/lanrat/certgraph",
+                "description": "CertGraph crawls SSL certificates creating a directed graph where each domain is a node and the certificate alternative names for that domain's certificate are the edges to other domain nodes. New domains are printed as they are found. In Detailed mode upon completion the Graph's adjacency list is printed."
               }],
             "name": "Certificate Search",
             "type": "folder"
@@ -273,54 +272,64 @@
           {
             "children": [
               {
-                "name": "Security Trails",
+                "name": "Security Trails (R)(C)",
                 "type": "url",
-                "url": "https://securitytrails.com/"
+                "url": "https://securitytrails.com/",
+                "description": "Powerful tools for third-party risk, attack surface management, and total intel."
               },
               {
                 "name": "Mnemonic",
                 "type": "url",
-                "url": "http://passivedns.mnemonic.no/"
+                "url": "http://passivedns.mnemonic.no/",
+                "description": "Passive DNS Searcher"
               },
               {
                 "name": "DNS History",
                 "type": "url",
-                "url": "http://dnshistory.org/"
+                "url": "http://dnshistory.org/",
+                "description": "Domain Name System (DNS) Historical Record Archive"
               },
               {
                 "name": "PTRarchive.com",
                 "type": "url",
-                "url": "http://ptrarchive.com/"
+                "url": "http://ptrarchive.com/",
+                "description": "This site is responsible for the safekeeping of historical reverse DNS records. It has over 230 billion records retrieved from 2008 to the present."
               },
               {
                 "name": "DNS Dumpster",
                 "type": "url",
-                "url": "https://dnsdumpster.com/"
-              },
-              {
-                "name": "Deteque (R)",
-                "type": "url",
-                "url": "https://www.deteque.com/"
-              }],
+                "url": "https://dnsdumpster.com/",
+                "description": "dns recon & research, find & lookup dns records"
+              }
+            ],
             "name": "PassiveDNS",
             "type": "folder"
           },
           {
             "children": [
               {
-                "name": "UrlQuery.net",
+                "name": "Spamhaus (R)(C)",
                 "type": "url",
-                "url": "http://urlquery.net/"
+                "url": "https://www.spamhaus.com/",
+                "description": "Protect and investigate using IP and domain reputation data"
               },
               {
-                "name": "PassiveTotal",
+                "name": "UrlQuery.net",
                 "type": "url",
-                "url": "https://www.passivetotal.org/"
+                "url": "http://urlquery.net/",
+                "description": "urlquery.net is a service for detecting and analyzing web-based malware. It provides detailed information about the activities a browser does while visiting a site and presents the information for further analysis."
+              },
+              {
+                "name": "RiskIQ Community (R)(C)",
+                "type": "url",
+                "url": "https://community.riskiq.com/",
+                "description": "RiskIQ Community brings petabytes of internet intelligence directly to your fingertips. Investigate threats by pivoting through attacker infrastructure data. Understand your digital assets that are internet-exposed, and map and monitor your external attack surface."
               },
               {
                 "name": "URL Void",
                 "type": "url",
-                "url": "http://www.urlvoid.com/"
+                "url": "http://www.urlvoid.com/",
+                "description": "Website Reputation Checker"
               },
               {
                 "name": "Threat Crowd",
