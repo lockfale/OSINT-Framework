@@ -31,6 +31,16 @@
       "url": "http://netintel.net/"
     },
     {
+      "name": "DNS Blackhole Lists",
+      "type": "url",
+      "url": "http://www.tcpiputils.com/dns-blackhole-list"
+    },
+    {
+      "name": "Breach or Clear",
+      "type": "url",
+      "url": "http://breachorclear.jesterscourt.cc/"
+    },
+    {
       "name": "Domain Big Data",
       "type": "url",
       "url": "http://domainbigdata.com/"

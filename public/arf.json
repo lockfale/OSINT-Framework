@@ -1,5 +1,6 @@
 {
   "children": [
+
   {
     "children": [
       {
@@ -1176,6 +1177,191 @@
   },
 
   {
+      "children": [
+        {
+          "children": [
+            {
+              "name": "ThatsThem",
+              "type": "url",
+              "url": "https://thatsthem.com/reverse-email-lookup"
+            },
+            {
+              "name": "Hunter",
+              "type": "url",
+              "url": "https://hunter.io/"
+            },
+            {
+              "name": "Email to Address (R)",
+              "type": "url",
+              "url": "http://www.melissadata.com/lookups/emails.asp"
+            },
+            {
+              "name": "Pipl",
+              "type": "url",
+              "url": "https://pipl.com/"
+            },
+            {
+              "name": "VoilaNorbert",
+              "type": "url",
+              "url": "https://www.voilanorbert.com/"
+            },
+            {
+              "name": "Reverse Genie Email",
+              "type": "url",
+              "url": "http://www.reversegenie.com/email.php"
+            },
+            {
+              "name": "theHarvester (T)",
+              "type": "url",
+              "url": "http://www.edge-security.com/theharvester.php"
+            },
+            {
+              "name": "Infoga (T)",
+              "type": "url",
+              "url": "https://github.com/m4ll0k/infoga"
+            },
+            {
+              "name": "MailDB",
+              "type": "url",
+              "url": "https://maildb.io/"
+            },
+            {
+              "name": "Skymem",
+              "type": "url",
+              "url": "http://www.skymem.info/"
+            },
+            {
+              "name": "MailsHunt",
+              "type": "url",
+              "url": "https://mailshunt.com/"
+            }],
+          "name": "Email Search",
+          "type": "folder"
+        },
+        {
+          "children": [
+            {
+              "name": "Corporatate Email Formats",
+              "type": "url",
+              "url": "https://sites.google.com/site/emails4corporations/home"
+            },
+            {
+              "name": "Email Format",
+              "type": "url",
+              "url": "https://www.email-format.com/"
+            },
+            {
+              "name": "Toofr",
+              "type": "url",
+              "url": "https://www.toofr.com/"
+            },
+            {
+              "name": "Email Permutator",
+              "type": "url",
+              "url": "http://metricsparrow.com/toolkit/email-permutator/"
+            },
+            {
+              "name": "OneLook Reverse Dictionary and Thesaurus",
+              "type": "url",
+              "url": "http://www.onelook.com/reverse-dictionary.shtml"
+            }],
+          "name": "Common Email Formats",
+          "type": "folder"
+        },
+        {
+          "children": [
+            {
+              "name": "MailTester",
+              "type": "url",
+              "url": "http://mailtester.com/testmail.php"
+            },
+            {
+              "name": "VerifyEmail",
+              "type": "url",
+              "url": "http://verify-email.org/"
+            },
+            {
+              "name": "Email Validator",
+              "type": "url",
+              "url": "http://e-mailvalidator.com/index.php"
+            },
+            {
+              "name": "BytePlant Email Validator",
+              "type": "url",
+              "url": "http://www.email-validator.net/"
+            },
+            {
+              "name": "Read Notify",
+              "type": "url",
+              "url": "http://www.readnotify.com/"
+            },
+            {
+              "name": "Email Reputation",
+              "type": "url",
+              "url": "https://emailrep.io/"
+            },
+            {
+              "name": "MailboxValidator",
+              "type": "url",
+              "url": "https://www.mailboxvalidator.com/demo"
+            }],
+          "name": "Email Verification",
+          "type": "folder"
+        },
+        {
+          "children": [
+            {
+              "name": "Have I been pwned?",
+              "type": "url",
+              "url": "https://haveibeenpwned.com/",
+              "description": "Check if your email or phone is in a data breach"
+            },
+            {
+              "name": "Intelligence X",
+              "type": "url",
+              "url": "https://intelx.io/",
+              "description": "Breach Monitoring Service"
+            },
+            {
+              "name": "Vigilante.pw",
+              "type": "url",
+              "url": "https://www.vigilante.pw/",
+              "description": "Breach Monitoring Service"
+            },
+            {
+              "name": "Ashley Madison Emails (DeHashed)",
+              "type": "url",
+              "url": "https://ashley.cynic.al/",
+              "description": "Was your profile compromised in the Ashley Madison hack?"
+            }
+          ],
+          "name": "Breach Data",
+          "type": "folder"
+        },
+        {
+          "children": [
+          ],
+          "name": "Spam Reputation Lists",
+          "type": "folder"
+        },
+        {
+          "children": [
+            {
+              "name": "MxToolbox",
+              "type": "url",
+              "url": "http://mxtoolbox.com/",
+              "description": "This test will list MX records for a domain in priority order. The MX lookup is done directly against the domain's authoritative name server, so changes to MX Records should show up instantly. "
+          }
+        ],
+        "name": "Mail Blacklists",
+        "type": "folder"
+      }
+    ],
+    "name": "Email Address",
+    "type": "folder"
+  },
+
+  {
     "children": [
     {
       "children": [
@@ -1270,196 +1456,7 @@
     "name": "Username",
     "type": "folder"
   },
-  {
-    "children": [
-    {
-      "children": [
-      {
-        "name": "ThatsThem",
-        "type": "url",
-        "url": "https://thatsthem.com/reverse-email-lookup"
-      },
-      {
-        "name": "Hunter",
-        "type": "url",
-        "url": "https://hunter.io/"
-      },
-      {
-        "name": "Email to Address (R)",
-        "type": "url",
-        "url": "http://www.melissadata.com/lookups/emails.asp"
-      },
-      {
-        "name": "Pipl",
-        "type": "url",
-        "url": "https://pipl.com/"
-      },
-      {
-        "name": "VoilaNorbert",
-        "type": "url",
-        "url": "https://www.voilanorbert.com/"
-      },
-      {
-        "name": "Reverse Genie Email",
-        "type": "url",
-        "url": "http://www.reversegenie.com/email.php"
-      },
-      {
-        "name": "theHarvester (T)",
-        "type": "url",
-        "url": "http://www.edge-security.com/theharvester.php"
-      },
-      {
-        "name": "Infoga (T)",
-        "type": "url",
-        "url": "https://github.com/m4ll0k/infoga"
-      },
-      {
-        "name": "MailDB",
-        "type": "url",
-        "url": "https://maildb.io/"
-      },
-      {
-        "name": "Skymem",
-        "type": "url",
-        "url": "http://www.skymem.info/"
-      },
-      {
-        "name": "MailsHunt",
-        "type": "url",
-        "url": "https://mailshunt.com/"
-      }],
-      "name": "Email Search",
-      "type": "folder"
-    },
-    {
-      "children": [
-      {
-        "name": "Corporatate Email Formats",
-        "type": "url",
-        "url": "https://sites.google.com/site/emails4corporations/home"
-      },
-      {
-        "name": "Email Format",
-        "type": "url",
-        "url": "https://www.email-format.com/"
-      },
-      {
-        "name": "Toofr",
-        "type": "url",
-        "url": "https://www.toofr.com/"
-      },
-      {
-        "name": "Email Permutator",
-        "type": "url",
-        "url": "http://metricsparrow.com/toolkit/email-permutator/"
-      },
-      {
-        "name": "OneLook Reverse Dictionary and Thesaurus",
-        "type": "url",
-        "url": "http://www.onelook.com/reverse-dictionary.shtml"
-      }],
-      "name": "Common Email Formats",
-      "type": "folder"
-    },
-    {
-      "children": [
-      {
-        "name": "MailTester",
-        "type": "url",
-        "url": "http://mailtester.com/testmail.php"
-      },
-      {
-        "name": "VerifyEmail",
-        "type": "url",
-        "url": "http://verify-email.org/"
-      },
-      {
-        "name": "Email Validator",
-        "type": "url",
-        "url": "http://e-mailvalidator.com/index.php"
-      },
-      {
-        "name": "BytePlant Email Validator",
-        "type": "url",
-        "url": "http://www.email-validator.net/"
-      },
-      {
-        "name": "Read Notify",
-        "type": "url",
-        "url": "http://www.readnotify.com/"
-      },
-      {
-        "name": "Email Reputation",
-        "type": "url",
-        "url": "https://emailrep.io/"
-      },
-      {
-        "name": "MailboxValidator",
-        "type": "url",
-        "url": "https://www.mailboxvalidator.com/demo"
-      }],
-      "name": "Email Verification",
-      "type": "folder"
-    },
-    {
-      "children": [
-      {
-        "name": "Have I been pwned?",
-        "type": "url",
-        "url": "https://haveibeenpwned.com/"
-      },
-      {
-        "name": "DeHashed",
-        "type": "url",
-        "url": "https://dehashed.com/"
-      },
-      {
-        "name": "Intelligence X",
-        "type": "url",
-        "url": "https://intelx.io/"
-      },
-      {
-        "name": "Vigilante.pw",
-        "type": "url",
-        "url": "https://www.vigilante.pw/"
-      },
-      {
-        "name": "Breach or Clear",
-        "type": "url",
-        "url": "http://breachorclear.jesterscourt.cc/"
-      },
-      {
-        "name": "Ashley Madison Emails",
-        "type": "url",
-        "url": "https://ashley.cynic.al/"
-      }],
-      "name": "Breach Data",
-      "type": "folder"
-    },
-    {
-      "children": [
-      {
-        "name": "DNS Blackhole Lists",
-        "type": "url",
-        "url": "http://www.tcpiputils.com/dns-blackhole-list"
-      }],
-      "name": "Spam Reputation Lists",
-      "type": "folder"
-    },
-    {
-      "children": [
-      {
-        "name": "MxToolbox",
-        "type": "url",
-        "url": "http://mxtoolbox.com/"
-      }],
-      "name": "Mail Blacklists",
-      "type": "folder"
-    }],
-    "name": "Email Address",
-    "type": "folder"
-  },
+
   {
     "children": [
     {

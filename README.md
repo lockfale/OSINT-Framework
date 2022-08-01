@@ -13,11 +13,11 @@ https://osintframework.com
 
 ### Legend
 (T) - Indicates a link to a tool that must be installed and run locally  
-(A) - Contains archives
+(A) - Contains archives  
 (D) - Google Dork, for more information: <a href="https://en.wikipedia.org/wiki/Google_hacking">Google Hacking</a>  
-(API) - Contains API
+(API) - Contains API  
 (R) - Requires registration  
-(C) - For commercial use / paid service
+(C) - For commercial use / paid service  
 (M) - Indicates a URL that contains the search term and the URL itself must be edited manually  
 (U) - Currently unsupported, unmaintained or deprecated
 
