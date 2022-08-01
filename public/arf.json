@@ -543,14 +543,10 @@
                 "url": "https://www.sitesleuth.io/"
               },
               {
-                "name": "Wappalyzer (T)",
+                "name": "SEMrush (R)(C)",
                 "type": "url",
-                "url": "https://wappalyzer.com/"
-              },
-              {
-                "name": "SEMrush",
-                "type": "url",
-                "url": "https://www.semrush.com/"
+                "url": "https://www.semrush.com/",
+                "description": "Do SEO, content marketing, competitor research, PPC and social media marketing from just one platform."
               },
               {
                 "name": "Moonsearch",
