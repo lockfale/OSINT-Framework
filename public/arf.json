@@ -325,77 +325,62 @@
               {
                 "name": "Threat Crowd",
                 "type": "url",
-                "url": "https://www.threatcrowd.org/"
+                "url": "https://www.threatcrowd.org/",
+                "description": "A Search Engine for Threats"
               },
               {
                 "name": "FortiGuard Reputation Service",
                 "type": "url",
-                "url": "http://fortiguard.com/iprep"
-              },
-              {
-                "name": "McAfee TrustedSource",
-                "type": "url",
-                "url": "http://www.trustedsource.org/"
+                "url": "http://fortiguard.com/iprep",
+                "description": "Protect your organization by blocking access to malicious, hacked, or inappropriate websites with FortiGuard Web Filtering. Web filtering is the first line of defense against web-based attacks. Malicious or hacked websites, a primary vector for initiating attacks, trigger downloads of malware, spyware, or risky content."
               },
               {
                 "name": "Trend Micro Site Safety Center",
                 "type": "url",
-                "url": "https://global.sitesafety.trendmicro.com/"
-              },
-              {
-                "name": "WatchGuard ReputationAuthority",
-                "type": "url",
-                "url": "http://www.reputationauthority.org/"
+                "url": "https://global.sitesafety.trendmicro.com/",
+                "description": "Scores are assigned based on factors such as a website's age, historical locations, changes, and indications of suspicious activities discovered through malware behavior analysis. We've advanced how we apply web reputation to keep pace with new types of criminal attacks that can come and go very quickly, or try to stay hidden."
               },
               {
                 "name": "Sucuri SiteCheck",
                 "type": "url",
-                "url": "https://sitecheck.sucuri.net/"
+                "url": "https://sitecheck.sucuri.net/",
+                "description": "Free website security check & malware scanner"
               },
               {
                 "name": "ThreatMiner.org",
                 "type": "url",
-                "url": "https://www.threatminer.org/"
+                "url": "https://www.threatminer.org/",
+                "description": "Data Mining for Threat Intelligence"
               },
               {
                 "name": "BlueCoat WebPulse",
                 "type": "url",
-                "url": "https://sitereview.bluecoat.com/sitereview.jsp"
+                "url": "https://sitereview.bluecoat.com/sitereview.jsp",
+                "description": "Site Review allows users to check and dispute the current WebPulse categorization for any URL. Note: This tool does not perform full real-time analysis of malicious URLs or files, which is included with the complete Symantec security solution."
               },
               {
                 "name": "Zscaler Zulu URL Risk Analyzer",
                 "type": "url",
-                "url": "http://zulu.zscaler.com/"
+                "url": "http://zulu.zscaler.com/",
+                "description": "Zscaler Zulu URL Risk Analyzer"
               },
               {
                 "name": "Joe Sandbox Url Analyzer",
                 "type": "url",
-                "url": "https://www.url-analyzer.net/"
-              },
-              {
-                "name": "Deepviz Domain Search",
-                "type": "url",
-                "url": "https://search.deepviz.com/"
+                "url": "https://www.joesandbox.com/",
+                "description": "Source and Choose Analysis System"
               },
               {
                 "name": "Cisco SenderBase",
                 "type": "url",
-                "url": "http://www.senderbase.org/"
-              },
-              {
-                "name": "AVG Threat Labs",
-                "type": "url",
-                "url": "http://www.avgthreatlabs.com/ww-en/website-safety-reports/"
+                "url": "http://www.senderbase.org/",
+                "description": "Query by IP, domain, or network owner for real-time threat data"
               },
               {
                 "name": "Webroot BrightCloud URL/IP Lookup",
                 "type": "url",
-                "url": "http://www.brightcloud.com/tools/url-ip-lookup.php"
-              },
-              {
-                "name": "vURL Online",
-                "type": "url",
-                "url": "https://vurldissect.co.uk/"
+                "url": "http://www.brightcloud.com/tools/url-ip-lookup.php",
+                "description": "http://www.brightcloud.com/tools/url-ip-lookup.php"
               },
               {
                 "name": "AlienVault Open Threat Exchange",
@@ -403,25 +388,12 @@
                 "url": "https://otx.alienvault.com/browse/pulses/"
               },
               {
-                "name": "Malware Domain List",
+                "name": "Google Safe Browsing API (API)",
                 "type": "url",
-                "url": "http://www.malwaredomainlist.com/mdl.php"
-              },
-              {
-                "name": "Web Inspector Online Scan",
-                "type": "url",
-                "url": "http://app.webinspector.com/"
-              },
-              {
-                "name": "Google Safe Browsing API",
-                "type": "url",
-                "url": "https://developers.google.com/safe-browsing/?csw=1"
-              },
-              {
-                "name": "hpHosts Online",
-                "type": "url",
-                "url": "http://hosts-file.net/"
-              }],
+                "url": "https://developers.google.com/safe-browsing/?csw=1",
+                "description": "Safe Browsing is a Google service that lets client applications check URLs against Google's constantly updated lists of unsafe web resources. Examples of unsafe web resources are social engineering sites (phishing and deceptive sites) and sites that host malware or unwanted software. Come see what's possible.\n\n"
+              }
+            ],
             "name": "Reputation",
             "type": "folder"
           },

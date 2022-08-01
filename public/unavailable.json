@@ -6,6 +6,41 @@
       "url": "https://zeustracker.abuse.ch/blocklist.php?download=domainblocklist"
     },
     {
+      "name": "hpHosts Online",
+      "type": "url",
+      "url": "http://hosts-file.net/"
+    },
+    {
+      "name": "AVG Threat Labs",
+      "type": "url",
+      "url": "http://www.avgthreatlabs.com/ww-en/website-safety-reports/"
+    },
+    {
+      "name": "vURL Online",
+      "type": "url",
+      "url": "https://vurldissect.co.uk/"
+    },
+    {
+      "name": "WatchGuard ReputationAuthority",
+      "type": "url",
+      "url": "http://www.reputationauthority.org/"
+    },
+    {
+      "name": "McAfee TrustedSource",
+      "type": "url",
+      "url": "http://www.trustedsource.org/"
+    },
+    {
+      "name": "Deepviz Domain Search",
+      "type": "url",
+      "url": "https://search.deepviz.com/"
+    },
+    {
+      "name": "Web Inspector Online Scan",
+      "type": "url",
+      "url": "http://app.webinspector.com/"
+    },
+    {
       "name": "Ransomware Tracker Abuse.ch",
       "type": "url",
       "url": "http://ransomwaretracker.abuse.ch/downloads/RW_DOMBL.txt"
