@@ -458,34 +458,33 @@
                 "url": "https://intel.criticalstack.com/"
               },
               {
-                "name": "DNS Sinkhole",
-                "type": "url",
-                "url": "http://malc0de.com/bl/"
-              },
-              {
                 "name": "DNS-BH Malware Domain Blocklist",
                 "type": "url",
-                "url": "http://www.malwaredomains.com/wordpress/?page_id=66"
+                "url": "https://riskanalytics.com/community/",
+                "description": "Beyond offering subscription-based threat intel, we believe in arming our peers, collaborators and clients around the country with the best, most up-to-date information on viable threats to their operations. Our team of cyber experts are continually tracking and analyzing the latest cyberthreats across the globe, and infuse that knowledge into our industry-leading, always-on threat intel feed, ShadowNet.",
               },
               {
                 "name": "Malware Domain List",
                 "type": "url",
-                "url": "http://www.malwaredomainlist.com/hostslist/hosts.txt"
+                "url": "https://www.malwaredomainlist.com/mdl.php"
               },
               {
                 "name": "Malware Patrol (R)",
                 "type": "url",
-                "url": "http://www.malware.com.br/open-source.shtml"
+                "url": "https://www.malwarepatrol.net/",
+                "description": "Since 2005, Malware Patrol has focused solely on threat intelligence. We monitor the latest malicious campaigns to collect a variety of indicators. These range from malware, ransomware, and phishing to command-and-control systems and DoH servers."
               },
               {
                 "name": "MalwareURL (R)",
                 "type": "url",
-                "url": "http://www.malwareurl.com/index.php"
+                "url": "http://www.malwareurl.com/index.php",
+                "description": "Since 2003, TRV Security has provided various cybersecurity services to small and large companies and organizations across the world. In 2009, we released the MalwareURL service with the aim of providing up-to-date and reliable information relating to malicious domains, URLs and IPs on the Internet."
               },
               {
-                "name": "scumware.org",
+                "name": "scumware.org (API)",
                 "type": "url",
-                "url": "https://www.scumware.org/"
+                "url": "https://www.scumware.org/",
+                "description": "Just another free alternative for security and malware researchers. Access to certain resources is limited by credit which can be obtained by typing in 'captcha"
               },
               {
                 "name": "Shadowserver Foundation",
