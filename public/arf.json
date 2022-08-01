@@ -588,19 +588,16 @@
                 "url": "https://moz.com/researchtools/ose/"
               },
               {
-                "name": "SpyOnWeb",
+                "name": "SecurityHeaders.com",
                 "type": "url",
-                "url": "http://www.spyonweb.com/"
-              },
-              {
-                "name": "SecurityHeaders.io",
-                "type": "url",
-                "url": "https://securityheaders.io/"
+                "url": "https://securityheaders.com/",
+                "description": "SecurityHeaders site scanner"
               },
               {
                 "name": "Keyword Density",
                 "type": "url",
-                "url": "http://tools.seobook.com/general/keyword-density/"
+                "url": "http://tools.seobook.com/general/keyword-density/",
+                "description": "Someone was effectively DDoSing our server by hitting this tool thousands and thousands of times. Thus we are now forced to require account registration to use this tool."
               },
               {
                 "name": "Cisco Umbrella Popularity List",
