@@ -1,6 +1,11 @@
 {
   "unavailable": [
     {
+      "name": "Malware Domains Blacklist",
+      "type": "url",
+      "url": "http://mirror1.malwaredomains.com/files/domains.txt"
+    },
+    {
       "name": "Critical Stack Intel (R)",
       "type": "url",
       "url": "https://intel.criticalstack.com/"

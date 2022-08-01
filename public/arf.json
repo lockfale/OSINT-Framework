@@ -443,14 +443,10 @@
                 "url": "https://zeustracker.abuse.ch/blocklist.php?download=domainblocklist"
               },
               {
-                "name": "Malware Domains Blacklist",
+                "name": "Blackweb (T)",
                 "type": "url",
-                "url": "http://mirror1.malwaredomains.com/files/domains.txt"
-              },
-              {
-                "name": "Blackweb",
-                "type": "url",
-                "url": "https://github.com/maravento/blackweb"
+                "url": "https://github.com/maravento/blackweb",
+                "description": "Blackweb is a project that collects and unifies public blocklists of domains (porn, downloads, drugs, malware, spyware, trackers, bots, social networks, warez, weapons, etc.) to make them compatible with Squid-Cache"
               },
               {
                 "name": "DNS-BH Malware Domain Blocklist",
