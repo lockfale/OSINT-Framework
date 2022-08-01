@@ -1,6 +1,21 @@
 {
   "unavailable": [
     {
+      "name": "Zeus C2 Tracker",
+      "type": "url",
+      "url": "https://zeustracker.abuse.ch/blocklist.php?download=domainblocklist"
+    },
+    {
+      "name": "Ransomware Tracker Abuse.ch",
+      "type": "url",
+      "url": "http://ransomwaretracker.abuse.ch/downloads/RW_DOMBL.txt"
+    },
+    {
+      "name": "Threatexpert.com Malicious URLs",
+      "type": "url",
+      "url": "http://www.networksec.org/grabbho/block.txt"
+    },
+    {
       "name": "Malware Domains Blacklist",
       "type": "url",
       "url": "http://mirror1.malwaredomains.com/files/domains.txt"
