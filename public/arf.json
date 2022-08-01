@@ -553,39 +553,40 @@
                 "url": "https://www.semrush.com/"
               },
               {
-                "name": "TopGainers",
-                "type": "url",
-                "url": "https://topgainers.net/"
-              },
-              {
                 "name": "Moonsearch",
                 "type": "url",
-                "url": "http://moonsearch.com/"
+                "url": "http://moonsearch.com/",
+                "description": "Backlinks checker & SEO Report. 500m+ urls analyzed in 32m+ domains"
               },
               {
-                "name": "StackShare",
+                "name": "StackShare (T)(R)(C)",
                 "type": "url",
-                "url": "https://stackshare.io/"
+                "url": "https://stackshare.io/",
+                "description": "Tech Stack Intelligence provides real-time visibility into all the developer tools, services, and packages you're using internally, down to the version level, across all your Git repos"
               },
               {
                 "name": "Ewhois",
                 "type": "url",
-                "url": "https://ewhois.com/"
+                "url": "https://ewhois.com/",
+                "description": "eWhois.com is a free and perfect tool for whois lookup information tools. WhoIs lets you perform a domain whois search, whois IP lookup and search the whois database for relevant information on domain registration and availability."
               },
               {
                 "name": "Netcraft",
                 "type": "url",
-                "url": "http://toolbar.netcraft.com/site_report?url=undefined#last_reboot"
+                "url": "http://toolbar.netcraft.com/site_report?url=undefined#last_reboot",
+                "description": "NetCraft site report"
               },
               {
                 "name": "StatsCrop",
                 "type": "url",
-                "url": "http://www.statscrop.com/"
+                "url": "http://www.statscrop.com/",
+                "description": "Free Online Website Analyzer. Millions of amazing websites across the web are being analyzed with StatsCrop."
               },
               {
                 "name": "Open Site Explorer",
                 "type": "url",
-                "url": "https://moz.com/researchtools/ose/"
+                "url": "https://moz.com/researchtools/ose/",
+                "description": "The world's best backlink checker with over 40 trillion links."
               },
               {
                 "name": "SecurityHeaders.com",
