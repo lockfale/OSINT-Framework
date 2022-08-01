@@ -488,19 +488,16 @@
                 "url": "https://www.scumware.org/"
               },
               {
-                "name": "ZeuS Tracker",
-                "type": "url",
-                "url": "https://zeustracker.abuse.ch/blocklist.php"
-              },
-              {
                 "name": "Shadowserver Foundation",
                 "type": "url",
-                "url": "http://www.shadowserver.org/wiki/pmwiki.php?n=Services/Reports"
+                "url": "http://www.shadowserver.org/wiki/pmwiki.php?n=Services/Reports",
+                "description": "The Shadowserver Foundation is a nonprofit security organization working altruistically behind the scenes to make the Internet more secure for everyone"
               },
               {
-                "name": "Email Domain Validation",
+                "name": "Email Domain Validation (R)(C)",
                 "type": "url",
-                "url": "https://www.mailboxvalidator.com/domain"
+                "url": "https://www.mailboxvalidator.com/domain",
+                "description": "MailboxValidator Email Domain Validation is a free domain name validation through domain mail server to determine the email domain server status, MX records, DNS records and so on."
               }],
             "name": "Domain Blacklists",
             "type": "folder"
@@ -510,22 +507,26 @@
               {
                 "name": "DNS Twist (T)",
                 "type": "url",
-                "url": "https://github.com/elceef/dnstwist"
+                "url": "https://github.com/elceef/dnstwist",
+                "description": "ee what sort of trouble users can get in trying to type your domain name. Find lookalike domains that adversaries can use to attack you. Can detect typosquatters, phishing attacks, fraud, and brand impersonation. Useful as an additional source of targeted threat intelligence."
               },
               {
                 "name": "URLCrazy (T)",
                 "type": "url",
-                "url": "http://www.morningstarsecurity.com/research/urlcrazy"
+                "url": "http://www.morningstarsecurity.com/research/urlcrazy",
+                "description": "URLCrazy allows you to generate and test domain typos and variations to detect and perform typo squatting, URL hijacking, phishing, and corporate espionage."
               },
               {
                 "name": "dnstwister",
                 "type": "url",
-                "url": "https://dnstwister.report/"
+                "url": "https://dnstwister.report/",
+                "description": "The anti-phishing domain name search engine and DNS monitoring service"
               },
               {
                 "name": "Catphish (T)",
                 "type": "url",
-                "url": "https://github.com/ring0lab/catphish"
+                "url": "https://github.com/ring0lab/catphish",
+                "description": "Generate similar-looking domains for phishing attacks. Check expired domains and their categorized domain status to evade proxy categorization. Whitelisted domains are perfect for your C2 servers. Perfect for Red Team engagements."
               }],
             "name": "Typosquatting",
             "type": "folder"
