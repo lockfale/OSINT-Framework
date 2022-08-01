@@ -1181,79 +1181,80 @@
         {
           "children": [
             {
-              "name": "ThatsThem",
+              "name": "ThatsThem (R)(C)",
               "type": "url",
-              "url": "https://thatsthem.com/reverse-email-lookup"
+              "url": "https://thatsthem.com/reverse-email-lookup",
+              "description": "Find out who Owns an Email FOR FREE"
             },
             {
-              "name": "Hunter",
+              "name": "Hunter (R)(C)",
               "type": "url",
-              "url": "https://hunter.io/"
+              "url": "https://hunter.io/",
+              "description": "Hunter lets you find professional email addresses in seconds and connect with the people that matter for your business"
             },
             {
-              "name": "Email to Address (R)",
+              "name": "Email to Address (R)(C)",
               "type": "url",
-              "url": "http://www.melissadata.com/lookups/emails.asp"
+              "url": "http://www.melissadata.com/lookups/emails.asp",
+              "description": "Use the Global Email Check Tool to check email addresses and verify they are live. Receive the deliverability confidence score, Melissa result codes and information about the domain"
             },
             {
-              "name": "Pipl",
+              "name": "Pipl (R)(C)",
               "type": "url",
               "url": "https://pipl.com/"
             },
             {
-              "name": "VoilaNorbert",
+              "name": "VoilaNorbert (R)(C)",
               "type": "url",
-              "url": "https://www.voilanorbert.com/"
+              "url": "https://www.voilanorbert.com/",
+              "description": "Find anyone's email address"
             },
             {
               "name": "Reverse Genie Email",
               "type": "url",
-              "url": "http://www.reversegenie.com/email.php"
+              "url": "http://www.reversegenie.com/email.php",
+              "description": "Look up names, addresses, phone numbers, or emails and anonymously discover information about yourself, family, friends, or old schoolmates"
             },
             {
               "name": "theHarvester (T)",
               "type": "url",
-              "url": "http://www.edge-security.com/theharvester.php"
+              "url": "http://www.edge-security.com/theharvester.php",
+              "description": "The objective of this program is to gather emails, subdomains, hosts, employee names, open ports and banners from different public sources like search engines, PGP key servers and SHODAN computer database"
             },
             {
               "name": "Infoga (T)",
               "type": "url",
-              "url": "https://github.com/m4ll0k/infoga"
-            },
-            {
-              "name": "MailDB",
-              "type": "url",
-              "url": "https://maildb.io/"
+              "url": "https://github.com/m4ll0k/infoga",
+              "description": "Infoga is a tool gathering email accounts informations (ip,hostname,country,...) from different public source (search engines, pgp key servers and shodan) and check if emails was leaked using haveibeenpwned.com API"
             },
             {
               "name": "Skymem",
               "type": "url",
-              "url": "http://www.skymem.info/"
+              "url": "http://www.skymem.info/",
+              "description": "Find email addresses of companies and people"
             },
             {
               "name": "MailsHunt",
               "type": "url",
               "url": "https://mailshunt.com/"
-            }],
+            }
+          ],
           "name": "Email Search",
           "type": "folder"
         },
         {
           "children": [
             {
-              "name": "Corporatate Email Formats",
+              "name": "Email Format (R)(C)",
               "type": "url",
-              "url": "https://sites.google.com/site/emails4corporations/home"
+              "url": "https://www.email-format.com/",
+              "description": "Find the email address formats in use at thousands of companies."
             },
             {
-              "name": "Email Format",
+              "name": "FindEmails.com (Toofr)",
               "type": "url",
-              "url": "https://www.email-format.com/"
-            },
-            {
-              "name": "Toofr",
-              "type": "url",
-              "url": "https://www.toofr.com/"
+              "url": "https://www.findemails.com/",
+              "description": "Find Anyone’s Email Address in Seconds"
             },
             {
               "name": "Email Permutator",
@@ -1276,35 +1277,36 @@
               "url": "http://mailtester.com/testmail.php"
             },
             {
-              "name": "VerifyEmail",
+              "name": "VerifyEmail (R)(C)",
               "type": "url",
-              "url": "http://verify-email.org/"
+              "url": "http://verify-email.org/",
+              "description": "This email verification tool actually connects to the mail server\nand checks whether the mailbox exists or not"
             },
             {
-              "name": "Email Validator",
+              "name": "BytePlant Email Validator (R)(C)",
               "type": "url",
-              "url": "http://e-mailvalidator.com/index.php"
-            },
-            {
-              "name": "BytePlant Email Validator",
-              "type": "url",
-              "url": "http://www.email-validator.net/"
+              "url": "http://www.email-validator.net/",
+              "description": "Real Time Email Verification"
             },
             {
               "name": "Read Notify",
               "type": "url",
-              "url": "http://www.readnotify.com/"
+              "url": "http://www.readnotify.com/",
+              "description": "ReadNotify lets you know when email you've sent gets read"
             },
             {
               "name": "Email Reputation",
               "type": "url",
-              "url": "https://emailrep.io/"
+              "url": "https://emailrep.io/",
+              "description": "Simple Email Reputation"
             },
             {
-              "name": "MailboxValidator",
+              "name": "MailboxValidator (R)(C)",
               "type": "url",
-              "url": "https://www.mailboxvalidator.com/demo"
-            }],
+              "url": "https://www.mailboxvalidator.com/demo",
+              "description": "EMail Address Validation"
+            }
+          ],
           "name": "Email Verification",
           "type": "folder"
         },

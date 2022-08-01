@@ -31,9 +31,24 @@
       "url": "http://netintel.net/"
     },
     {
+      "name": "MailDB",
+      "type": "url",
+      "url": "https://maildb.io/"
+    },
+    {
       "name": "DNS Blackhole Lists",
       "type": "url",
       "url": "http://www.tcpiputils.com/dns-blackhole-list"
+    },
+    {
+      "name": "Email Validator",
+      "type": "url",
+      "url": "http://e-mailvalidator.com/index.php"
+    },
+    {
+      "name": "Corporate Email Formats",
+      "type": "url",
+      "url": "https://sites.google.com/site/emails4corporations/home"
     },
     {
       "name": "Breach or Clear",
