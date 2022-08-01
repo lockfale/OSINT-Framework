@@ -26,9 +26,34 @@
       "url": "http://www.reputationauthority.org/"
     },
     {
+      "name": "Network Intelligence",
+      "type": "url",
+      "url": "http://netintel.net/"
+    },
+    {
+      "name": "Domain Big Data",
+      "type": "url",
+      "url": "http://domainbigdata.com/"
+    },
+    {
+      "name": "FindSubDomains",
+      "type": "url",
+      "url": "https://findsubdomains.com/"
+    },
+    {
+      "name": "assetnote (T)",
+      "type": "url",
+      "url": "https://github.com/infosec-au/assetnote"
+    },
+    {
       "name": "McAfee TrustedSource",
       "type": "url",
       "url": "http://www.trustedsource.org/"
+    },
+    {
+      "name": "SameID",
+      "type": "url",
+      "url": "http://sameid.net/"
     },
     {
       "name": "Spyse",

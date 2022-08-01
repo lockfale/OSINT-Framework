@@ -9,67 +9,74 @@
               {
                 "name": "Domain Dossier",
                 "type": "url",
-                "url": "http://centralops.net/co/DomainDossier.aspx"
+                "url": "http://centralops.net/co/DomainDossier.aspx",
+                "description": "The Domain Dossier tool generates reports from public records about domain names and IP addresses to help solve problems, investigate cybercrime, or just better understand how things are set up. These reports may show you:"
               },
               {
                 "name": "domainIQ",
                 "type": "url",
-                "url": "https://www.domainiq.com/"
+                "url": "https://www.domainiq.com/",
+                "description": "Search by Domain or IP"
               },
               {
-                "name": "DomainTools Whois",
+                "name": "DomainTools Whois (R)(C)",
                 "type": "url",
-                "url": "http://whois.domaintools.com/"
+                "url": "http://whois.domaintools.com/",
+                "description": "WhoIs Lookup"
               },
               {
-                "name": "Domain Big Data",
+                "name": "Whoisology (R)(C)",
                 "type": "url",
-                "url": "http://domainbigdata.com/"
-              },
-              {
-                "name": "Whoisology",
-                "type": "url",
-                "url": "https://whoisology.com/#advanced"
+                "url": "https://whoisology.com/#advanced",
+                "description": "More Than Reverse Whois Lookups"
               },
               {
                 "name": "Whois ARIN",
                 "type": "url",
-                "url": "https://whois.arin.net/ui/advanced.jsp"
+                "url": "https://whois.arin.net/ui/advanced.jsp",
+                "description": "WHOIS-RWS Search"
               },
               {
-                "name": "DNSstuff",
+                "name": "DNSstuff (T)",
                 "type": "url",
-                "url": "https://tools.dnsstuff.com/"
+                "url": "https://tools.dnsstuff.com/",
+                "description": "DNSStuff free tools"
               },
               {
                 "name": "Robtex (R)",
                 "type": "url",
-                "url": "https://www.robtex.com/"
+                "url": "https://www.robtex.com/",
+                "description": "Robtex is used for various kinds of research of IP numbers, Domain names, etc"
               },
               {
-                "name": "Domaincrawler.com",
+                "name": "Domaincrawler.com (API)(R)(C)",
                 "type": "url",
-                "url": "http://www.domaincrawler.com/"
+                "url": "http://www.domaincrawler.com/",
+                "description": "DomainCrawler is a leading B2B provider of structured web data of the highest quality via easy-to-integrate solutions."
               },
               {
                 "name": "MarkMonitor Whois Search",
                 "type": "url",
-                "url": "https://domains.markmonitor.com/whois/"
+                "url": "https://domains.markmonitor.com/whois/",
+                "description": "MarkMonitor Whois Search"
               },
               {
-                "name": "easyWhois",
+                "name": "easyWhois (R)(C)",
                 "type": "url",
-                "url": "https://www.easywhois.com/"
+                "url": "https://www.easywhois.com/",
+                "description": "DomainHelp / easyWhois beta"
               },
               {
                 "name": "Website Informer",
                 "type": "url",
-                "url": "http://website.informer.com/"
+                "url": "http://website.informer.com/",
+                "description": "Get a quick aggregated view of everything the Web can promptly tell you about a site (domain), including its daily visitors, safety status, Alexa rank, owners and much more."
               },
               {
                 "name": "Who.is",
                 "type": "url",
-                "url": "https://who.is/"
+                "url": "https://who.is/",
+                "description": "WHOIS Search, Domain Name, Website, and IP Tools"
               },
               {
                 "name": "Whois AMPed",
@@ -77,19 +84,21 @@
                 "url": "https://whoisamped.com/"
               },
               {
-                "name": "ViewDNS.info",
+                "name": "ViewDNS.info (API)(R)(C)",
                 "type": "url",
                 "url": "http://viewdns.info/"
               },
               {
                 "name": "Domainsdb.info",
                 "type": "url",
-                "url": "https://domainsdb.info"
+                "url": "https://domainsdb.info",
+                "description": "Registered Domain Names Search"
               },
               {
                 "name": "IP2WHOIS",
                 "type": "url",
-                "url": "https://www.ip2whois.com"
+                "url": "https://www.ip2whois.com",
+                "description": "IP2WHOIS - WHOIS Information Lookup"
               }],
             "name": "Whois Records",
             "type": "folder"
@@ -99,12 +108,8 @@
               {
                 "name": "Aquatone (T)",
                 "type": "url",
-                "url": "https://github.com/michenriksen/aquatone"
-              },
-              {
-                "name": "FindSubDomains",
-                "type": "url",
-                "url": "https://findsubdomains.com/"
+                "url": "https://github.com/michenriksen/aquatone",
+                "description": "Aquatone is a tool for visual inspection of websites across a large amount of hosts and is convenient for quickly gaining an overview of HTTP-based attack surface."
               },
               {
                 "name": "Google Subdomains (D)",
@@ -114,42 +119,50 @@
               {
                 "name": "Recon-ng (T)",
                 "type": "url",
-                "url": "https://github.com/lanmaster53/recon-ng"
+                "url": "https://github.com/lanmaster53/recon-ng",
+                "description": "Recon-ng is a full-featured reconnaissance framework designed with the goal of providing a powerful environment to conduct open source web-based reconnaissance quickly and thoroughly."
               },
               {
                 "name": "XRay",
                 "type": "url",
-                "url": "https://github.com/evilsocket/xray"
+                "url": "https://github.com/evilsocket/xray",
+                "description": "XRay is a tool for network OSINT gathering, its goal is to make some of the initial tasks of information gathering and network mapping automatic."
               },
               {
                 "name": "DNS Recon (T)",
                 "type": "url",
-                "url": "https://github.com/darkoperator/dnsrecon"
+                "url": "https://github.com/darkoperator/dnsrecon",
+                "description": "DNSRecon is a Python port of a Ruby script that I wrote to learn the language and about DNS in early 2007. This time I wanted to learn about Python and extend the functionality of the original tool and in the process re-learn how DNS works and how could it be used in the process of a security assessment and network troubleshooting."
               },
               {
                 "name": "Gobuster (T)",
                 "type": "url",
-                "url": "https://github.com/OJ/gobuster"
+                "url": "https://github.com/OJ/gobuster",
+                "description": "Gobuster is a tool used to brute-force"
               },
               {
                 "name": "Fierce Domain Scanner (T)",
                 "type": "url",
-                "url": "https://github.com/davidpepper/fierce-domain-scanner"
+                "url": "https://github.com/davidpepper/fierce-domain-scanner",
+                "description": "Fierce is a semi-lightweight scanner that helps locate non-contiguous IP space and hostnames against specified domains. It's really meant as a pre-cursor to nmap, unicornscan, nessus, nikto, etc, since all of those require that you already know what IP space you are looking for."
               },
               {
                 "name": "Bluto (T)",
                 "type": "url",
-                "url": "https://github.com/RandomStorm/Bluto"
+                "url": "https://github.com/darryllane/Bluto",
+                "description": "DNS Recon | Brute Forcer | DNS Zone Transfer | DNS Wild Card Checks | DNS Wild Card Brute Forcer | Email Enumeration | Staff Enumeration | Compromised Account Enumeration | MetaData Harvesting"
               },
               {
                 "name": "theHarvester (T)",
                 "type": "url",
-                "url": "http://www.edge-security.com/theharvester.php"
+                "url": "http://www.edge-security.com/theharvester.php",
+                "description": "theHarvester is a very simple to use, yet powerful and effective tool designed to be used in the early stages of a penetration test or red team engagement. Use it for open source intelligence (OSINT) gathering to help determine a company's external threat landscape on the internet."
               },
               {
                 "name": "Pentest-tools.com Subdomains",
                 "type": "url",
-                "url": "https://pentest-tools.com/information-gathering/find-subdomains-of-domain"
+                "url": "https://pentest-tools.com/information-gathering/find-subdomains-of-domain",
+                "description": "Discover subdomains and determine the attack surface of an organization"
               },
               {
                 "name": "SecLists DNS Subdomains (T)",
@@ -159,32 +172,26 @@
               {
                 "name": "dnspop (T)",
                 "type": "url",
-                "url": "https://github.com/bitquark/dnspop"
+                "url": "https://github.com/bitquark/dnspop",
+                "description": "Tools to find popular trends by analysis of DNS data"
               },
               {
                 "name": "gdns (T)",
                 "type": "url",
-                "url": "https://github.com/hrbrmstr/gdns"
+                "url": "https://github.com/hrbrmstr/gdns",
+                "description": "Tools to work with the Google DNS over HTTPS (DoH) API"
               },
               {
-                "name": "assetnote (T)",
+                "name": "Sublist3r (T)",
                 "type": "url",
-                "url": "https://github.com/infosec-au/assetnote"
-              },
-              {
-                "name": "Network Intelligence",
-                "type": "url",
-                "url": "http://netintel.net/"
-              },
-              {
-                "name": "Sublist3r",
-                "type": "url",
-                "url": "https://github.com/aboul3la/Sublist3r"
+                "url": "https://github.com/aboul3la/Sublist3r",
+                "description": "Sublist3r is a python tool designed to enumerate subdomains of websites using OSINT. It helps penetration testers and bug hunters collect and gather subdomains for the domain they are targeting. Sublist3r enumerates subdomains using many search engines such as Google, Yahoo, Bing, Baidu and Ask. Sublist3r also enumerates subdomains using Netcraft, Virustotal, ThreatCrowd, DNSdumpster and ReverseDNS."
               },
               {
                 "name": "AltDNS (T)",
                 "type": "url",
-                "url": "https://github.com/infosec-au/altdns"
+                "url": "https://github.com/infosec-au/altdns",
+                "description": "Altdns is a DNS recon tool that allows for the discovery of subdomains that conform to patterns. Altdns takes in words that could be present in subdomains under a domain (such as test, dev, staging) as well as takes in a list of subdomains that you know of."
               },
               {
                 "name": "Subfinder (T)",
@@ -198,44 +205,52 @@
           {
             "children": [
               {
-                "name": "Shodan",
+                "name": "Shodan (R)",
                 "type": "url",
-                "url": "https://www.shodan.io/"
+                "url": "https://www.shodan.io/",
+                "description": "Shodan is the world's first search engine for Internet-connected devices. Discover how Internet intelligence can help you make better decisions."
               },
               {
-                "name": "Kraken",
+                "name": "Kraken (T)",
                 "type": "url",
-                "url": "https://github.com/Sw4mpf0x/Kraken"
+                "url": "https://github.com/Sw4mpf0x/Kraken",
+                "description": "Kraken is a tool to help make your web interface testing workflow more efficient. This is done by using Django, Apache, and a MySql database to store and organize web interface screenshots and data. This allows you and your team to take notes and track which hosts have been tested simultaniously. Once you are finished, you can view these notes you took and generate reports in the Reports section."
               },
               {
                 "name": "urlscan.io",
                 "type": "url",
-                "url": "https://urlscan.io/search/#*"
+                "url": "https://urlscan.io/search/#*",
+                "description": "Search for domains, IPs, filenames, hashes, ASNs"
               },
               {
                 "name": "Daily DNS Changes",
                 "type": "url",
-                "url": "http://www.dailychanges.com/"
-              },
-              {
-                "name": "SameID",
-                "type": "url",
-                "url": "http://sameid.net/"
+                "url": "http://www.dailychanges.com/",
+                "description": "Daily DNS Changes and Web Hosting Activity"
               },
               {
                 "name": "Redirect Detective",
                 "type": "url",
-                "url": "http://redirectdetective.com/"
+                "url": "http://redirectdetective.com/",
+                "description": "Redirect Detective is a free URL redirection checker that allows you to see the complete path a redirected URL goes through."
               },
               {
-                "name": "Sitediff",
+                "name": "Sitediff (T)",
                 "type": "url",
-                "url": "https://github.com/digininja/sitediff"
+                "url": "https://github.com/digininja/sitediff",
+                "description": "Imagine the scenario, you are testing a site running an open source package but not sure what version and need to find out. Sitediff can help you do just that, it takes a local directory of files and then requests each of them from the target site and reports back on what it finds."
+              },
+              {
+                "name": "SiteDiff (by Ninja Project) (T)",
+                "type": "url",
+                "url": "https://digi.ninja/projects/sitediff.php",
+                "description": "magine the scenario, you are testing a site running an open source package but not sure what version and need to find out."
               },
               {
                 "name": "AnalyzeID",
                 "type": "url",
-                "url": "http://analyzeid.com/"
+                "url": "http://analyzeid.com/",
+                "description": "Find Other Websites Owned By The Same Person"
               }],
             "name": "Discovery",
             "type": "folder"
