@@ -1177,6 +1177,8 @@
   },
 
   {
+  "children": [
+  {
       "children": [
         {
           "children": [
@@ -1360,7 +1362,159 @@
       }
     ],
     "name": "Email Address",
-    "type": "folder"
+    "type": "folder"},
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "name": "Slydial (R)(C)",
+              "type": "url",
+              "url": "https://www.slydial.com/"
+            }],
+          "name": "Voicemail",
+          "type": "folder"
+        },
+        {
+          "children": [
+            {
+              "name": "Numbering Plans",
+              "type": "url",
+              "url": "https://www.numberingplans.com/?page=analysis&sub=phonenr",
+              "description": "Analysis of telephone numbers. Below you can find out all information we have on any phone number in the world. Simply enter the phone number in international format for correct results, a variety of notations are accepted as well though."
+            },
+            {
+              "name": "ThisNumber (Numberway)",
+              "type": "url",
+              "url": "https://www.numberway.com/",
+              "description": "International Phone Directories"
+            }],
+          "name": "International",
+          "type": "folder"
+        },
+        {
+          "name": "Pipl API (M)(API)",
+          "type": "url",
+          "url": "https://api.pipl.com/search/v5/?phone=18887420000&key=sample_key&pretty=true"
+        },
+        {
+          "name": "411",
+          "type": "url",
+          "url": "http://www.411.com/reverse_phone",
+          "description": "Lookup phone numbers & find out more about who is calling you"
+        },
+        {
+          "name": "CallerID Test (R)(C)",
+          "type": "url",
+          "url": "http://www.calleridtest.com/",
+          "description": "We provide a better way to get the phone data you need with less effort. We've been the trusted leader in Caller ID search since 2014."
+        },
+        {
+          "name": "ThatsThem - Reverse Phone Lookup",
+          "type": "url",
+          "url": "https://thatsthem.com/reverse-phone-lookup",
+          "description": "Reverse Phone Lookup. Find Out Who Owns a Phone Number FOR FREE"
+        },
+        {
+          "name": "Twilio Lookup (R)(C)",
+          "type": "url",
+          "url": "https://www.twilio.com/lookup",
+          "description": "Twilio Phone Lookup and Virtual Numbers"
+        },
+        {
+          "name": "Fone Finder",
+          "type": "url",
+          "url": "http://www.fonefinder.net/",
+          "description": "Search for USA/Canadian telephone numbers"
+        },
+        {
+          "name": "True Caller (R)(C)",
+          "type": "url",
+          "url": "https://www.truecaller.com/",
+          "description": "The world’s Best Caller ID and Spam Blocking app"
+        },
+        {
+          "name": "Reverse Genie",
+          "type": "url",
+          "url": "http://www.reversegenie.com/phone.php",
+          "description": "Reverse Phone Lookup"
+        },
+        {
+          "name": "SpyDialer",
+          "type": "url",
+          "url": "http://www.spydialer.com/default.aspx",
+          "description": "FREE REVERSE PHONE LOOKUP SEARCH"
+        },
+        {
+          "name": "Phone Validator (R)",
+          "type": "url",
+          "url": "http://www.phonevalidator.com/",
+          "description": "Free Phone Validation"
+        },
+        {
+          "name": "Free Carrier Lookup",
+          "type": "url",
+          "url": "http://freecarrierlookup.com/",
+          "description": "Enter a phone number and we'll return the carrier name and whether the number is wireless or landline. We have the latest data so our results are highly up-to-date and accurate for most countries. We also return the email-to-SMS and email-to-MMS gateway addresses for USA and Canadian* phone numbers."
+        },
+        {
+          "name": "Hiya (Mr. Number) (R)(C)",
+          "type": "url",
+          "url": "https://www.hiya.com/",
+          "description": "Hiya identifies calls you want and blocks numbers you want to avoid, and comes with options like auto-blocking and reverse phone lookup."
+        },
+        {
+          "name": "Next Caller (R)",
+          "type": "url",
+          "url": "https://nextcaller.com/",
+          "description": "VeriCall Technology. ANI Validation & Spoof Detection"
+        },
+        {
+          "name": "Data24-7 (R)(C)",
+          "type": "url",
+          "url": "https://www.data24-7.com",
+          "description": "Use better data to make better business decisions"
+        },
+        {
+          "name": "HLR Lookup Portal (R)(C)(API)",
+          "type": "url",
+          "url": "https://www.hlr-lookups.com/",
+          "description": "Enterprise HLR Lookup Platform and API"
+        },
+        {
+          "name": "OpenCNAM (R)(C)",
+          "type": "url",
+          "url": "https://www.opencnam.com/",
+          "description": "Consumers and businesses need their names accurately displayed, so people will respond when they receive a call or a text. Increase response with the most accurate Caller ID available. "
+        },
+        {
+          "name": "OpenCNAM API (R)(API)",
+          "type": "url",
+          "url": "http://api.opencnam.com/v2/phone/+19073372323"
+        },
+        {
+          "name": "USPhoneBook (R)",
+          "type": "url",
+          "url": "https://www.usphonebook.com"
+        },
+        {
+          "name": "Numspy (R)(C)",
+          "type": "python3 Module",
+          "url": "https://bhattsameer.github.io/numspy",
+          "description": "A python module for sending free sms as well as finding details of mobile number via website Way2sms."
+        },
+        {
+          "name": "Numspy-Api (R)(C)(API)",
+          "type": "url",
+          "url": "https://numspy.pythonanywhere.com/",
+          "description": "PythonAnywhere lets you host, run, and code Python in the cloud. Our free plan gives you access to machines with everything already set up for you. You can develop and host your website or any other code directly from your browser without having to install software or manage your own server."
+        }],
+      "name": "Telephone Numbers",
+      "type": "folder"
+    }
+  ],
+  "name": "Email Addresses & Phones",
+  "type": "folder"
   },
 
   {
@@ -1872,7 +2026,36 @@
       }],
       "name": "Fonts",
       "type": "folder"
-    }],
+    },
+      {
+        "children": [
+          {
+            "name": "ExifTool (T)(API)",
+            "type": "url",
+            "url": "http://www.sno.phy.queensu.ca/~phil/exiftool/",
+            "description": "ExifTool is a platform-independent Perl library plus a command-line application for reading, writing and editing meta information in a wide variety of files. ExifTool supports many different metadata formats including EXIF, GPS, IPTC, XMP, JFIF, GeoTIFF, ICC Profile, Photoshop IRB, FlashPix, AFCP and ID3, Lyrics3, as well as the maker notes of many digital cameras by Canon, Casio, DJI, FLIR, FujiFilm, GE, GoPro, HP, JVC/Victor, Kodak, Leaf, Minolta/Konica-Minolta, Motorola, Nikon, Nintendo, Olympus/Epson, Panasonic/Leica, Pentax/Asahi, Phase One, Reconyx, Ricoh, Samsung, Sanyo, Sigma/Foveon and Sony."
+          },
+          {
+            "name": "Metagoofil (T)",
+            "type": "url",
+            "url": "http://www.edge-security.com/metagoofil.php",
+            "description": "Metagoofil is an information gathering tool designed for extracting metadata of public documents (pdf,doc,xls,ppt,docx,pptx,xlsx) belonging to a target company."
+          },
+          {
+            "name": "FOCA (T)",
+            "type": "url",
+            "url": "https://www.elevenpaths.com/labstools/foca/index.html"
+          },
+          {
+            "name": "CodeTwo Outlook Export (T)(R)(C)",
+            "type": "url",
+            "url": "https://www.codetwo.com/freeware/outlook-export/",
+            "description": "CodeTwo Outlook Export is a free tool for exporting data from Microsoft Outlook to CSV text files. The program allows exporting much more data than offered by the built-in export feature in Outlook, allowing the export of non-standard user-defined fields from Outlook and is quicker and easier to use. Data can be exported from folders of all types, such as Contacts, Calendar, E-mail, Post, Tasks, Journal, Notes."
+          }
+        ],
+        "name": "Metadata",
+        "type": "folder"
+      }],
     "name": "Images / Videos / Docs",
     "type": "folder"
   },
@@ -2894,156 +3077,6 @@
     {
       "children": [
       {
-        "name": "Slydial (R)(C)",
-        "type": "url",
-        "url": "https://www.slydial.com/"
-      }],
-      "name": "Voicemail",
-      "type": "folder"
-    },
-    {
-      "children": [
-      {
-        "name": "Numbering Plans",
-        "type": "url",
-        "url": "https://www.numberingplans.com/?page=analysis&sub=phonenr",
-        "description": "Analysis of telephone numbers. Below you can find out all information we have on any phone number in the world. Simply enter the phone number in international format for correct results, a variety of notations are accepted as well though."
-      },
-      {
-        "name": "ThisNumber (Numberway)",
-        "type": "url",
-        "url": "https://www.numberway.com/",
-        "description": "International Phone Directories"
-      }],
-      "name": "International",
-      "type": "folder"
-    },
-    {
-      "name": "Pipl API (M)(API)",
-      "type": "url",
-      "url": "https://api.pipl.com/search/v5/?phone=18887420000&key=sample_key&pretty=true"
-    },
-    {
-      "name": "411",
-      "type": "url",
-      "url": "http://www.411.com/reverse_phone",
-      "description": "Lookup phone numbers & find out more about who is calling you"
-    },
-    {
-      "name": "CallerID Test (R)(C)",
-      "type": "url",
-      "url": "http://www.calleridtest.com/",
-      "description": "We provide a better way to get the phone data you need with less effort. We've been the trusted leader in Caller ID search since 2014."
-    },
-    {
-      "name": "ThatsThem - Reverse Phone Lookup",
-      "type": "url",
-      "url": "https://thatsthem.com/reverse-phone-lookup",
-      "description": "Reverse Phone Lookup. Find Out Who Owns a Phone Number FOR FREE"
-    },
-    {
-      "name": "Twilio Lookup (R)(C)",
-      "type": "url",
-      "url": "https://www.twilio.com/lookup",
-      "description": "Twilio Phone Lookup and Virtual Numbers"
-    },
-    {
-      "name": "Fone Finder",
-      "type": "url",
-      "url": "http://www.fonefinder.net/",
-      "description": "Search for USA/Canadian telephone numbers"
-    },
-    {
-      "name": "True Caller (R)(C)",
-      "type": "url",
-      "url": "https://www.truecaller.com/",
-      "description": "The world’s Best Caller ID and Spam Blocking app"
-    },
-    {
-      "name": "Reverse Genie",
-      "type": "url",
-      "url": "http://www.reversegenie.com/phone.php",
-      "description": "Reverse Phone Lookup"
-    },
-    {
-      "name": "SpyDialer",
-      "type": "url",
-      "url": "http://www.spydialer.com/default.aspx",
-      "description": "FREE REVERSE PHONE LOOKUP SEARCH"
-    },
-    {
-      "name": "Phone Validator (R)",
-      "type": "url",
-      "url": "http://www.phonevalidator.com/",
-      "description": "Free Phone Validation"
-    },
-    {
-      "name": "Free Carrier Lookup",
-      "type": "url",
-      "url": "http://freecarrierlookup.com/",
-      "description": "Enter a phone number and we'll return the carrier name and whether the number is wireless or landline. We have the latest data so our results are highly up-to-date and accurate for most countries. We also return the email-to-SMS and email-to-MMS gateway addresses for USA and Canadian* phone numbers."
-    },
-    {
-      "name": "Hiya (Mr. Number) (R)(C)",
-      "type": "url",
-      "url": "https://www.hiya.com/",
-      "description": "Hiya identifies calls you want and blocks numbers you want to avoid, and comes with options like auto-blocking and reverse phone lookup."
-    },
-    {
-      "name": "Next Caller (R)",
-      "type": "url",
-      "url": "https://nextcaller.com/",
-      "description": "VeriCall Technology. ANI Validation & Spoof Detection"
-    },
-    {
-      "name": "Data24-7 (R)(C)",
-      "type": "url",
-      "url": "https://www.data24-7.com",
-      "description": "Use better data to make better business decisions"
-    },
-    {
-      "name": "HLR Lookup Portal (R)(C)(API)",
-      "type": "url",
-      "url": "https://www.hlr-lookups.com/",
-      "description": "Enterprise HLR Lookup Platform and API"
-    },
-    {
-      "name": "OpenCNAM (R)(C)",
-      "type": "url",
-      "url": "https://www.opencnam.com/",
-      "description": "Consumers and businesses need their names accurately displayed, so people will respond when they receive a call or a text. Increase response with the most accurate Caller ID available. "
-    },
-    {
-      "name": "OpenCNAM API (R)(API)",
-      "type": "url",
-      "url": "http://api.opencnam.com/v2/phone/+19073372323"
-    },
-    {
-      "name": "USPhoneBook (R)",
-      "type": "url",
-      "url": "https://www.usphonebook.com"
-    },
-    {
-      "name": "Numspy (R)(C)",
-      "type": "python3 Module",
-      "url": "https://bhattsameer.github.io/numspy",
-      "description": "A python module for sending free sms as well as finding details of mobile number via website Way2sms."
-    },
-    {
-      "name": "Numspy-Api (R)(C)(API)",
-      "type": "url",
-      "url": "https://numspy.pythonanywhere.com/",
-      "description": "PythonAnywhere lets you host, run, and code Python in the cloud. Our free plan gives you access to machines with everything already set up for you. You can develop and host your website or any other code directly from your browser without having to install software or manage your own server."
-    }],
-    "name": "Telephone Numbers",
-    "type": "folder"
-  },
-
-  {
-    "children": [
-    {
-      "children": [
-      {
         "name": "Melissa Data - Property Viewer (R)",
         "type": "url",
         "url": "http://www.melissadata.com/lookups/propertyviewer.asp"
@@ -3637,6 +3670,7 @@
     "name": "Business Records",
     "type": "folder"
   },
+
   {
     "children": [
     {
@@ -4979,31 +5013,7 @@
     "name": "Language Translation",
     "type": "folder"
   },
-  {
-    "children": [
-    {
-      "name": "ExifTool (T)",
-      "type": "url",
-      "url": "http://www.sno.phy.queensu.ca/~phil/exiftool/"
-    },
-    {
-      "name": "Metagoofil (T)",
-      "type": "url",
-      "url": "http://www.edge-security.com/metagoofil.php"
-    },
-    {
-      "name": "FOCA (T)",
-      "type": "url",
-      "url": "https://www.elevenpaths.com/labstools/foca/index.html"
-    },
-    {
-      "name": "CodeTwo Outlook Export (T)",
-      "type": "url",
-      "url": "http://www.codetwo.com/freeware/outlook-export/"
-    }],
-    "name": "Metadata",
-    "type": "folder"
-  },
+
   {
     "children": [
     {
