@@ -2894,7 +2894,7 @@
     {
       "children": [
       {
-        "name": "Slydial",
+        "name": "Slydial (R)(C)",
         "type": "url",
         "url": "https://www.slydial.com/"
       }],
@@ -2906,125 +2906,134 @@
       {
         "name": "Numbering Plans",
         "type": "url",
-        "url": "https://www.numberingplans.com/?page=analysis&sub=phonenr"
+        "url": "https://www.numberingplans.com/?page=analysis&sub=phonenr",
+        "description": "Analysis of telephone numbers. Below you can find out all information we have on any phone number in the world. Simply enter the phone number in international format for correct results, a variety of notations are accepted as well though."
       },
       {
-        "name": "Numberway",
+        "name": "ThisNumber (Numberway)",
         "type": "url",
-        "url": "https://www.numberway.com/"
+        "url": "https://www.numberway.com/",
+        "description": "International Phone Directories"
       }],
       "name": "International",
       "type": "folder"
     },
     {
-      "name": "Pipl API (M)",
+      "name": "Pipl API (M)(API)",
       "type": "url",
       "url": "https://api.pipl.com/search/v5/?phone=18887420000&key=sample_key&pretty=true"
     },
     {
-      "name": "WhoCalld",
-      "type": "url",
-      "url": "https://whocalld.com/"
-    },
-    {
       "name": "411",
       "type": "url",
-      "url": "http://www.411.com/reverse_phone"
+      "url": "http://www.411.com/reverse_phone",
+      "description": "Lookup phone numbers & find out more about who is calling you"
     },
     {
-      "name": "CallerID Test",
+      "name": "CallerID Test (R)(C)",
       "type": "url",
-      "url": "http://www.calleridtest.com/"
+      "url": "http://www.calleridtest.com/",
+      "description": "We provide a better way to get the phone data you need with less effort. We've been the trusted leader in Caller ID search since 2014."
     },
     {
       "name": "ThatsThem - Reverse Phone Lookup",
       "type": "url",
-      "url": "https://thatsthem.com/reverse-phone-lookup"
+      "url": "https://thatsthem.com/reverse-phone-lookup",
+      "description": "Reverse Phone Lookup. Find Out Who Owns a Phone Number FOR FREE"
     },
     {
-      "name": "Twilio Lookup",
+      "name": "Twilio Lookup (R)(C)",
       "type": "url",
-      "url": "https://www.twilio.com/lookup"
+      "url": "https://www.twilio.com/lookup",
+      "description": "Twilio Phone Lookup and Virtual Numbers"
     },
     {
       "name": "Fone Finder",
       "type": "url",
-      "url": "http://www.fonefinder.net/"
+      "url": "http://www.fonefinder.net/",
+      "description": "Search for USA/Canadian telephone numbers"
     },
     {
-      "name": "True Caller",
+      "name": "True Caller (R)(C)",
       "type": "url",
-      "url": "http://www.truecaller.com/"
+      "url": "https://www.truecaller.com/",
+      "description": "The world’s Best Caller ID and Spam Blocking app"
     },
     {
       "name": "Reverse Genie",
       "type": "url",
-      "url": "http://www.reversegenie.com/phone.php"
+      "url": "http://www.reversegenie.com/phone.php",
+      "description": "Reverse Phone Lookup"
     },
     {
       "name": "SpyDialer",
       "type": "url",
-      "url": "http://www.spydialer.com/default.aspx"
+      "url": "http://www.spydialer.com/default.aspx",
+      "description": "FREE REVERSE PHONE LOOKUP SEARCH"
     },
     {
-      "name": "Phone Validator",
+      "name": "Phone Validator (R)",
       "type": "url",
-      "url": "http://www.phonevalidator.com/"
+      "url": "http://www.phonevalidator.com/",
+      "description": "Free Phone Validation"
     },
     {
       "name": "Free Carrier Lookup",
       "type": "url",
-      "url": "http://freecarrierlookup.com/"
+      "url": "http://freecarrierlookup.com/",
+      "description": "Enter a phone number and we'll return the carrier name and whether the number is wireless or landline. We have the latest data so our results are highly up-to-date and accurate for most countries. We also return the email-to-SMS and email-to-MMS gateway addresses for USA and Canadian* phone numbers."
     },
     {
-      "name": "Mr. Number (M)",
+      "name": "Hiya (Mr. Number) (R)(C)",
       "type": "url",
-      "url": "http://mrnumber.com/1-888-742-0000"
-    },
-    {
-      "name": "CallerIDService.com (R)",
-      "type": "url",
-      "url": "http://www.calleridservice.com/"
+      "url": "https://www.hiya.com/",
+      "description": "Hiya identifies calls you want and blocks numbers you want to avoid, and comes with options like auto-blocking and reverse phone lookup."
     },
     {
       "name": "Next Caller (R)",
       "type": "url",
-      "url": "https://nextcaller.com/"
+      "url": "https://nextcaller.com/",
+      "description": "VeriCall Technology. ANI Validation & Spoof Detection"
     },
     {
-      "name": "Data24-7 (R)",
+      "name": "Data24-7 (R)(C)",
       "type": "url",
-      "url": "https://www.data24-7.com/signup.php"
+      "url": "https://www.data24-7.com",
+      "description": "Use better data to make better business decisions"
     },
     {
-      "name": "HLR Lookup Portal (R)",
+      "name": "HLR Lookup Portal (R)(C)(API)",
       "type": "url",
-      "url": "https://www.hlr-lookups.com/"
+      "url": "https://www.hlr-lookups.com/",
+      "description": "Enterprise HLR Lookup Platform and API"
     },
     {
-      "name": "OpenCNAM",
+      "name": "OpenCNAM (R)(C)",
       "type": "url",
-      "url": "https://www.opencnam.com/"
+      "url": "https://www.opencnam.com/",
+      "description": "Consumers and businesses need their names accurately displayed, so people will respond when they receive a call or a text. Increase response with the most accurate Caller ID available. "
     },
     {
-      "name": "OpenCNAM API",
+      "name": "OpenCNAM API (R)(API)",
       "type": "url",
       "url": "http://api.opencnam.com/v2/phone/+19073372323"
     },
     {
-      "name": "USPhoneBook",
+      "name": "USPhoneBook (R)",
       "type": "url",
       "url": "https://www.usphonebook.com"
     },
     {
-      "name": "Numspy",
+      "name": "Numspy (R)(C)",
       "type": "python3 Module",
-      "url": "https://bhattsameer.github.io/numspy"
+      "url": "https://bhattsameer.github.io/numspy",
+      "description": "A python module for sending free sms as well as finding details of mobile number via website Way2sms."
     },
     {
-      "name": "Numspy-Api",
+      "name": "Numspy-Api (R)(C)(API)",
       "type": "url",
-      "url": "https://numspy.pythonanywhere.com/"
+      "url": "https://numspy.pythonanywhere.com/",
+      "description": "PythonAnywhere lets you host, run, and code Python in the cloud. Our free plan gives you access to machines with everything already set up for you. You can develop and host your website or any other code directly from your browser without having to install software or manage your own server."
     }],
     "name": "Telephone Numbers",
     "type": "folder"
@@ -3337,6 +3346,7 @@
     "name": "Public Records",
     "type": "folder"
   },
+
   {
     "children": [
     {
