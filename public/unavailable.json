@@ -147,6 +147,96 @@
       "url": "http://www.tweetpaths.com/maps"
     },
     {
+      "name": "TweetTunnel",
+      "type": "url",
+      "url": "http://tweettunnel.info/firstpre.php"
+    },
+    {
+      "name": "First Tweet",
+      "type": "url",
+      "url": "https://discover.twitter.com/first-tweet"
+    },
+    {
+      "name": "NetBootCamp FB Search Tool",
+      "type": "url",
+      "url": "http://netbootcamp.org/facebook.html"
+    },
+    {
+      "name": "FB People Directory",
+      "type": "url",
+      "url": "https://www.facebook.com/directory/people/"
+    },
+    {
+      "name": "Find my Facebook ID",
+      "type": "url",
+      "url": "http://findmyfbid.com/"
+    },
+    {
+      "name": "Socialsearching",
+      "type": "url",
+      "url": "http://socialsearching.info/#/fb"
+    },
+    {
+      "name": "Facebook Scanner",
+      "type": "url",
+      "url": "http://stalkscan.com/en/"
+    },
+    {
+      "name": "ExtractFace (T)",
+      "type": "url",
+      "url": "http://le-tools.com/ExtractFace.html#download"
+    },
+    {
+      "name": "Twitter Name Search",
+      "type": "url",
+      "url": "https://twitter.com/#!/who_to_follow"
+    },
+    {
+      "name": "Twitter User Directory",
+      "type": "url",
+      "url": "https://twitter.com/i/directory/profiles/"
+    },
+    {
+      "name": "First Tweet",
+      "type": "url",
+      "url": "http://ctrlq.org/first/"
+    },
+    {
+      "name": "ConWeets",
+      "type": "url",
+      "url": "http://www.conweets.com/"
+    },
+    {
+      "name": "Twitter Email Test",
+      "type": "url",
+      "url": "https://pdevesian.eu/tet"
+    },
+    {
+      "name": "TweetReach",
+      "type": "url",
+      "url": "https://tweetreach.com/"
+    },
+    {
+      "name": "Twoogel Search Engine",
+      "type": "url",
+      "url": "http://twoogel.com/"
+    },
+    {
+      "name": "Fake Follower Check",
+      "type": "url",
+      "url": "http://fakers.statuspeople.com/"
+    },
+    {
+      "name": "Twitalyzer",
+      "type": "url",
+      "url": "http://twitalyzer.com/5/index.asp"
+    },
+    {
+      "name": "Bioischanged (M)",
+      "type": "url",
+      "url": "http://bioischanged.com/%3Ctwitterusername%3E"
+    },
+    {
       "name": "GeoChirp",
       "type": "url",
       "url": "http://www.geochirp.com/"

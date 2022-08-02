@@ -2052,11 +2052,6 @@
       {
         "children": [
         {
-          "name": "Find my Facebook ID",
-          "type": "url",
-          "url": "http://findmyfbid.com/"
-        },
-        {
           "name": "FB Email Search",
           "type": "url",
           "url": "https://www.facebook.com/public?query=email@gmail.com&nomc=0"
@@ -2072,19 +2067,10 @@
           "url": "https://www.facebook.com/photo.php?fbid=PHOTO-ID-HERE"
         },
         {
-          "name": "FB People Directory",
-          "type": "url",
-          "url": "https://www.facebook.com/directory/people/"
-        },
-        {
-          "name": "NetBootCamp FB Search Tool",
-          "type": "url",
-          "url": "http://netbootcamp.org/facebook.html"
-        },
-        {
           "name": "FB Lookup ID",
           "type": "url",
-          "url": "https://lookup-id.com/"
+          "url": "https://lookup-id.com/",
+          "description": "Looking for your Facebook profile ID / Group ID / Page ID"
         },
         {
           "name": "FB Identify (Requires Logout)",
@@ -2094,12 +2080,8 @@
         {
           "name": "Search is Back!",
           "type": "url",
-          "url": "https://searchisback.com/"
-        },
-        {
-          "name": "Socialsearching",
-          "type": "url",
-          "url": "http://socialsearching.info/#/fb"
+          "url": "https://searchisback.com/",
+          "description": "Find people and events on Facebook. Search by location, relationships, and more"
         },
         {
           "name": "Facebook Live Map",
@@ -2114,23 +2096,15 @@
         {
           "name": "fb-sleep-stats (T)",
           "type": "url",
-          "url": "https://github.com/sqren/fb-sleep-stats"
-        },
-        {
-          "name": "Facebook Scanner",
-          "type": "url",
-          "url": "http://stalkscan.com/en/"
+          "url": "https://github.com/sqren/fb-sleep-stats",
+          "description": "A small tool to show the potential privacy implications modern social media have. By tracking online/offline status of people on Facebook, it is possible to get an accurate image of their sleep pattern"
         }],
         "name": "Analytics",
         "type": "folder"
       },
       {
         "children": [
-        {
-          "name": "ExtractFace (T)",
-          "type": "url",
-          "url": "http://le-tools.com/ExtractFace.html#download"
-        }],
+        ],
         "name": "Archive / Document",
         "type": "folder"
       }],
@@ -2157,57 +2131,36 @@
           "url": "https://twitter.com/search?q=SearchTerm%20since:2016-03-01%20until:2016-03-02"
         },
         {
-          "name": "Twitter Name Search",
-          "type": "url",
-          "url": "https://twitter.com/#!/who_to_follow"
-        },
-        {
-          "name": "Twitter User Directory",
-          "type": "url",
-          "url": "https://twitter.com/i/directory/profiles/"
-        },
-        {
           "name": "Twitter Search for Live Streaming Video",
           "type": "url",
           "url": "https://twitter.com/search?q=%23periscope%20OR%20%23meerkat"
         },
         {
-          "name": "ConWeets",
-          "type": "url",
-          "url": "http://www.conweets.com/"
-        },
-        {
           "name": "Twitterfall",
           "type": "url",
-          "url": "https://twitterfall.com/"
+          "url": "https://twitterfall.com/",
+          "description": "Twitterfall is a way of viewing the latest 'tweets' of upcoming trends and custom searches on Twitter. Updates fall from the top of the page in near-realtime"
         },
         {
           "name": "Twellow",
           "type": "url",
-          "url": "https://www.twellow.com/splash/"
-        },
-        {
-          "name": "First Tweet",
-          "type": "url",
-          "url": "http://ctrlq.org/first/"
-        },
-        {
-          "name": "TweetReach",
-          "type": "url",
-          "url": "https://tweetreach.com/"
+          "url": "https://www.twellow.com/splash/",
+          "description": "How to get more Twitter followers"
         },
         {
           "name": "BackTweets",
           "type": "url",
-          "url": "http://backtweets.com/"
+          "url": "http://backtweets.com/",
+          "description": "Search for any links on Twitter"
         },
         {
           "name": "Moz Profile Search",
           "type": "url",
-          "url": "https://moz.com/followerwonk/bio/?q=zero%20day&l=us"
+          "url": "https://moz.com/followerwonk/bio/?q=zero%20day&l=us",
+          "description": "Slice any Twitter user's followers into actionable segments. Find most influential, dormant, old, and more"
         },
         {
-          "name": "HootSuite",
+          "name": "HootSuite (U)",
           "type": "url",
           "url": "https://hootsuite.com/feed/SearchTerm?pfilter="
         },
@@ -2219,22 +2172,14 @@
         {
           "name": "Twopcharts",
           "type": "url",
-          "url": "http://twopcharts.com/"
-        },
-        {
-          "name": "Twitter Email Test",
-          "type": "url",
-          "url": "https://pdevesian.eu/tet"
-        },
-        {
-          "name": "Twoogel Search Engine",
-          "type": "url",
-          "url": "http://twoogel.com/"
+          "url": "http://twopcharts.com/",
+          "description": "Receive a tweet from us when you reach a Twitter anniversary, or when you reach a tweet milestone. Just go the settings page and tick your preferences"
         },
         {
           "name": "Treeverse (T)",
           "type": "url",
-          "url": "https://github.com/paulgb/Treeverse"
+          "url": "https://github.com/paulgb/Treeverse",
+          "description": "Treeverse is a tool for visualizing and navigating Twitter conversation threads. It is available as a browser extension for Chrome and Firefox."
         }],
         "name": "Search",
         "type": "folder"
@@ -2244,7 +2189,8 @@
         {
           "name": "Twicsy",
           "type": "url",
-          "url": "http://twicsy.com/"
+          "url": "http://twicsy.com/",
+          "description": "Boost Your Instagram Presence in Minutes!"
         }],
         "name": "Pictures",
         "type": "folder"
@@ -2254,79 +2200,63 @@
         {
           "children": [
           {
-            "name": "Tweepsect",
+            "name": "Tweepsect (U)",
             "type": "url",
-            "url": "http://tweepsect.com/"
+            "url": "https://tweepsect.com/"
           },
           {
-            "name": "Followerwonk Analyze",
+            "name": "Followerwonk Analyze (R)(C)",
             "type": "url",
-            "url": "https://moz.com/followerwonk/analyze"
+            "url": "https://moz.com/followerwonk/analyze",
+            "description": "Slice any Twitter user's followers into actionable segments. Find most influential, dormant, old, and more"
           },
           {
-            "name": "Followerwonk Compare",
+            "name": "Followerwonk Compare (R)(C)",
             "type": "url",
-            "url": "https://moz.com/followerwonk/compare"
+            "url": "https://moz.com/followerwonk/compare",
+            "description": "Slice any Twitter user's followers into actionable segments. Find most influential, dormant, old, and more"
           },
           {
-            "name": "Twitonomy",
+            "name": "Twitonomy (T)(R)(C)",
             "type": "url",
-            "url": "http://www.twitonomy.com/"
+            "url": "http://www.twitonomy.com/",
+            "description": "Twitter analytics and much more"
           },
           {
-            "name": "Fake Follower Check",
+            "name": "Klear (R)(C)",
             "type": "url",
-            "url": "http://fakers.statuspeople.com/"
-          },
-          {
-            "name": "Klear",
-            "type": "url",
-            "url": "http://klear.com/"
-          },
-          {
-            "name": "First Tweet",
-            "type": "url",
-            "url": "https://discover.twitter.com/first-tweet"
-          },
-          {
-            "name": "TweetTunnel",
-            "type": "url",
-            "url": "http://tweettunnel.info/firstpre.php"
-          },
-          {
-            "name": "Twitalyzer",
-            "type": "url",
-            "url": "http://twitalyzer.com/5/index.asp"
+            "url": "https://klear.com/",
+            "description": "Klear is a powerful and easy-to-use influencer marketing platform that handles even the most advanced needs in a delightful and intelligent way"
           },
           {
             "name": "Foller.me Analytics",
             "type": "url",
-            "url": "https://foller.me/"
+            "url": "https://foller.me/",
+            "description": "Foller.me is a Twitter analytics application that gives you rich insights about any public Twitter profile. We gather near real-time data about topics, mentions, hashtags, followers, location and more!"
           },
           {
-            "name": "MentionMapp",
+            "name": "MentionMapp (R)(C)",
             "type": "url",
-            "url": "http://mentionmapp.com/"
+            "url": "http://mentionmapp.com/",
+            "description": "See what you’re missing. Identify critical online relationships and conversations with our network visualization tool"
           },
           {
             "name": "SleepingTime",
             "type": "url",
-            "url": "http://sleepingtime.org/"
+            "url": "http://sleepingtime.org/",
+            "description": "Specify the Twitter username of your friend, or even your favorite celebrity, and we will figure out the sleeping pattern of that person"
           },
           {
-            "name": "Bioischanged (M)",
+            "name": "X0rz Tweets_analyzer (T)",
             "type": "url",
-            "url": "http://bioischanged.com/%3Ctwitterusername%3E"
+            "url": "https://github.com/x0rz/tweets_analyzer",
+            "description": "Simple Twitter Profile Analyzer"
           },
           {
-            "name": "X0rz Tweets_analyzer",
+            "name": "Social Bearing (R)",
             "type": "url",
-            "url": "https://github.com/x0rz/tweets_analyzer"
-          },
-          {
-            "name": "Social Bearing",
-            "type": "url",
-            "url": "https://socialbearing.com/"
+            "url": "https://socialbearing.com/",
+            "description": "Free Twitter analytics & search for tweets, timelines & twitter maps. Find, filter and sort tweets or people by engagement, influence, location, sentiment and more"
           }],
           "name": "Profile",
           "type": "folder"
@@ -2334,24 +2264,28 @@
         {
           "children": [
           {
-            "name": "Tagboard",
+            "name": "Tagboard (R)(C)",
             "type": "url",
-            "url": "https://tagboard.com/"
+            "url": "https://tagboard.com/",
+            "description": "An intuitive cloud production platform to create interactive live programming, for any connected screen"
           },
           {
-            "name": "RiteTag",
+            "name": "RiteTag (R)(C)",
             "type": "url",
-            "url": "https://ritetag.com/"
+            "url": "https://ritetag.com/",
+            "description": "Get instant hashtag suggestions for images and texts on desktop and mobile. Based on real time hashtag engagement"
           },
           {
-            "name": "Trendsmap",
+            "name": "Trendsmap (R)(C)",
             "type": "url",
-            "url": "http://trendsmap.com/"
+            "url": "http://trendsmap.com/",
+            "description": "Analyse any topic globally or by region in detail. Create unique map based visualisations showing tweet activity across a country, a region, or the world. Our powerful querying and filtering tools allows you to focus on your particular area of interest"
           },
           {
             "name": "TAGSExplorer",
             "type": "url",
-            "url": "https://tags.hawksey.info/tagsexplorer/"
+            "url": "https://tags.hawksey.info/tagsexplorer/",
+            "description": "TAGS – Twitter Archiving Google Sheet"
           }],
           "name": "Hashtag",
           "type": "folder"
@@ -2359,32 +2293,38 @@
         {
           "name": "Tweet Metadata",
           "type": "url",
-          "url": "http://online.wsj.com/public/resources/documents/TweetMetadata.pdf"
+          "url": "http://online.wsj.com/public/resources/documents/TweetMetadata.pdf",
+          "description": "Twitter metadata specification"
         },
         {
           "name": "Birdwatcher (T)",
           "type": "url",
-          "url": "https://github.com/michenriksen/birdwatcher"
+          "url": "https://github.com/michenriksen/birdwatcher",
+          "description": "Birdwatcher is a data analysis and OSINT framework for Twitter. Birdwatcher supports creating multiple workspaces where arbitrary Twitter users can be added and their Tweets harvested through the Twitter API for offline storage and analysis"
         },
         {
           "name": "Tinfoleak Web",
           "type": "url",
-          "url": "http://tinfoleak.com/"
+          "url": "http://tinfoleak.com/",
+          "description": "The most complete open-source tool for Twitter intelligence analysis"
         },
         {
           "name": "Tinfoleak.py (T)",
           "type": "url",
-          "url": "http://www.vicenteaguileradiaz.com/tools/"
+          "url": "https://github.com/vaguileradiaz/tinfoleak",
+          "description": "The most complete open-source tool for Twitter intelligence analysis"
         },
         {
           "name": "DMI-TCAT (T)",
           "type": "url",
-          "url": "https://github.com/digitalmethodsinitiative/dmi-tcat"
+          "url": "https://github.com/digitalmethodsinitiative/dmi-tcat",
+          "description": "The Digital Methods Initiative Twitter Capture and Analysis Toolset (DMI-TCAT) allows one to retrieve and collect tweets from Twitter and to analyze them in various ways"
         },
         {
           "name": "Twint (T)",
           "type": "url",
-          "url": "https://github.com/twintproject/twint"
+          "url": "https://github.com/twintproject/twint",
+          "description": "Twint is an advanced Twitter scraping tool written in Python that allows for scraping Tweets from Twitter profiles without using Twitter's API"
         }],
         "name": "Analytics",
         "type": "folder"
@@ -2671,6 +2611,7 @@
     "name": "Instant Messaging",
     "type": "folder"
   },
+
   {
     "children": [
     {
