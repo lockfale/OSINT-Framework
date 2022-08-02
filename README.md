@@ -38,7 +38,9 @@ For new resources, please ensure that the site is available for public and free 
 {
   "name": "Example Name",
   "type": "url",
-  "url": "http://example.com"
+  "url": "http://example.com",
+  "description": "Service description",
+  "color": "red"
 }
 ```
 
