@@ -2563,17 +2563,14 @@
       {
         "name": "MostwantedHF",
         "type": "url",
-        "url": "http://mostwantedhf.info/index.php"
-      },
-      {
-        "name": "Skypegrab",
-        "type": "url",
-        "url": "http://skypegrab.net/oldip.php"
+        "url": "http://mostwantedhf.info/index.php",
+        "description": "Skype IP Resolver"
       },
       {
         "name": "Skype Resolver 2019",
         "type": "url",
-        "url": "http://www.skypeipresolver.net/"
+        "url": "http://www.skypeipresolver.net/",
+        "description": "Resolve any Skype IP username and get their latest IP address. We use latest technologies to support finding the IP address of the user in question"
       }],
       "name": "Skype",
       "type": "folder"
@@ -2581,31 +2578,11 @@
     {
       "children": [
       {
-        "name": "Snapchat Leak Checker",
-        "type": "url",
-        "url": "https://lastpass.com/snapchat/"
-      }],
-      "name": "Snapchat",
-      "type": "folder"
-    },
-    {
-      "children": [
-      {
-        "name": "Kik Username (M)",
+        "name": "Kik Username (T)(M)",
         "type": "url",
         "url": "http://kik.me/%3Cusername%3E"
       }],
       "name": "Kik",
-      "type": "folder"
-    },
-    {
-      "children": [
-      {
-        "name": "YikMap",
-        "type": "url",
-        "url": "http://yikmap.com/"
-      }],
-      "name": "Yikyak",
       "type": "folder"
     }],
     "name": "Instant Messaging",
