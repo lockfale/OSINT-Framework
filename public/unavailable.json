@@ -227,6 +227,11 @@
       "url": "http://www.panoramio.com/"
     },
     {
+      "name": "MIT PGP Key Server",
+      "type": "url",
+      "url": "http://pgp.mit.edu/"
+    },
+    {
       "name": "PicSearch",
       "type": "url",
       "url": "http://www.picsearch.com/"
