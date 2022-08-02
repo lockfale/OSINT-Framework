@@ -227,6 +227,51 @@
       "url": "http://www.panoramio.com/"
     },
     {
+      "name": "Waatp",
+      "type": "url",
+      "url": "http://waatp.com/"
+    },
+    {
+      "name": "PeepDB",
+      "type": "url",
+      "url": "http://www.peepdb.com/"
+    },
+    {
+      "name": "Snoop Station",
+      "type": "url",
+      "url": "http://snoopstation.com/index.html"
+    },
+    {
+      "name": "SalesMaple Contact Search",
+      "type": "url",
+      "url": "https://www.salesmaple.com/contacts/#!/"
+    },
+    {
+      "name": "The New Ultimates",
+      "type": "url",
+      "url": "http://www.newultimates.com/"
+    },
+    {
+      "name": "eVerify",
+      "type": "url",
+      "url": "http://www.everify.com/"
+    },
+    {
+      "name": "My Life",
+      "type": "url",
+      "url": "https://www.mylife.com/"
+    },
+    {
+      "name": "Ark",
+      "type": "url",
+      "url": "http://ark.com/landing"
+    },
+    {
+      "name": "Speedy Hunt",
+      "type": "url",
+      "url": "https://speedyhunt.com/"
+    },
+    {
       "name": "MIT PGP Key Server",
       "type": "url",
       "url": "http://pgp.mit.edu/"

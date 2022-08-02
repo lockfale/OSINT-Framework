@@ -2526,87 +2526,83 @@
     {
       "children": [
       {
-        "name": "Family Tree Now",
+        "name": "Family Tree Now (U)",
         "type": "url",
         "url": "http://www.familytreenow.com/"
       },
       {
-        "name": "Pipl",
+        "name": "Pipl (R)(C)",
         "type": "url",
-        "url": "https://pipl.com/"
+        "url": "https://pipl.com/",
+        "description": "Protect every online interaction. Acquire more good users and customers, enhance the customer experience and improve the ROI of your trust and safety initiatives."
       },
       {
         "name": "Spokeo People Search",
         "type": "url",
-        "url": "http://www.spokeo.com/"
+        "url": "http://www.spokeo.com/",
+        "description": "Search by name, phone, address, or email to confidentially lookup information about people you know such as yourself, friends, family, acquaintances, and old classmates."
       },
       {
-        "name": "ThatsThem",
+        "name": "ThatsThem (R)(C)",
         "type": "url",
-        "url": "https://thatsthem.com/name-address-search"
+        "url": "https://thatsthem.com/name-address-search",
+        "description": "Reverse Address Lookup. Find Out Who Lives at an Address FOR FREE"
       },
       {
-        "name": "ZoomInfo Directory",
+        "name": "ZoomInfo Directory (R)(C)",
         "type": "url",
-        "url": "http://www.zoominfo.com/people_directory/professional_profile/A-0-1"
+        "url": "http://www.zoominfo.com/people_directory/professional_profile/A-0-1",
+        "description": "Directory of Profiled Business People"
       },
       {
-        "name": "Zaba Search",
+        "name": "Zaba Search (Intelius)",
         "type": "url",
-        "url": "http://www.zabasearch.com/"
+        "url": "http://www.zabasearch.com/",
+        "description": "Free* People Search and Public Information Search Engine!"
       },
       {
         "name": "USSearch.com",
         "type": "url",
-        "url": "http://www.ussearch.com/"
-      },
-      {
-        "name": "Snoop Station",
-        "type": "url",
-        "url": "http://snoopstation.com/index.html"
+        "url": "https://www.ussearch.com/",
+        "description": "America’s Public Records Search Company"
       },
       {
         "name": "Melissa Data - People Finder (R)",
         "type": "url",
-        "url": "http://www.melissadata.com/lookups/peoplefinder.asp"
+        "url": "http://www.melissadata.com/lookups/peoplefinder.asp",
+        "description": "When you need accurate address validation - trust your address experts to deliver.\nWe offer three ways to access our best-of-breed address engine to meet your needs. How can we deliver the best address verification and correction to you today?"
       },
       {
-        "name": "Advanced Background Checks",
+        "name": "Advanced Background Checks (U)",
         "type": "url",
         "url": "https://www.advancedbackgroundchecks.com/"
       },
       {
-        "name": "SalesMaple Contact Search",
-        "type": "url",
-        "url": "https://www.salesmaple.com/contacts/#!/"
-      },
-      {
         "name": "PeekYou",
         "type": "url",
-        "url": "http://www.peekyou.com/"
-      },
-      {
-        "name": "PeepDB",
-        "type": "url",
-        "url": "http://www.peepdb.com/"
+        "url": "http://www.peekyou.com/",
+        "description": "Find friends, relatives and colleagues across the Web."
       },
       {
         "name": "Reverse Genie People",
         "type": "url",
-        "url": "http://www.reversegenie.com/people.php"
+        "url": "http://www.reversegenie.com/people.php",
+        "description": "Reverse Phone Lookup. The Original Phone Registry"
       },
       {
         "name": "Wink People Search",
         "type": "url",
-        "url": "http://itools.com/tool/wink-people-search"
+        "url": "http://itools.com/tool/wink-people-search",
+        "description": "Free people search - find people on social networks and across the Web. Find people using name search, location, school, work, interests, and more."
       },
       {
         "name": "Radaris",
         "type": "url",
-        "url": "http://radaris.com/"
+        "url": "http://radaris.com/",
+        "description": "Fast People Search. Contact Information & Public Records"
       },
       {
-        "name": "Profile Engine",
+        "name": "Profile Engine (R)(C)",
         "type": "url",
         "url": "http://profileengine.com/"
       },
@@ -2621,11 +2617,6 @@
         "url": "http://infospace.com/"
       },
       {
-        "name": "Waatp",
-        "type": "url",
-        "url": "http://waatp.com/"
-      },
-      {
         "name": "Webmii",
         "type": "url",
         "url": "http://webmii.com/"
@@ -2633,112 +2624,101 @@
       {
         "name": "Snitch.name",
         "type": "url",
-        "url": "http://snitch.name/"
+        "url": "http://snitch.name/",
+        "description": "Search by firstname, lastname, phone number"
       },
       {
         "name": "Lullar",
         "type": "url",
-        "url": "http://com.lullar.com/"
+        "url": "https://com.lullar.com/",
+        "description": "Profile Search by Email (ex. name@gmail.com), First Last Name or Username"
       },
       {
-        "name": "Yasni",
+        "name": "Yasni (R)",
         "type": "url",
-        "url": "http://www.yasni.com/"
+        "url": "http://www.yasni.com/",
+        "description": "People Search Service"
       },
       {
         "name": "findmypast.com",
         "type": "url",
-        "url": "http://search.findmypast.com/search-world-records"
+        "url": "http://search.findmypast.com/search-world-records",
+        "description": "Did your paternal great grandfather fight in the First World War with the British Army in Africa or did your maternal grandmother emigrate from New South Wales to America? Discover your global ancestors by searching millions of records across the world. Delve through records from Australia, the United Kingdom, the United States and Ireland in one place. World records are valuable for families who traveled or immigrated to different countries. Focus your search by narrowing by category, such as birth, marriage & death or military service & conflict."
       },
       {
         "name": "HowManyOfMe",
         "type": "url",
-        "url": "http://howmanyofme.com/search/"
+        "url": "http://howmanyofme.com/search/",
+        "description": "How many have your name?"
       },
       {
         "name": "FamilySearch.org",
         "type": "url",
-        "url": "https://familysearch.org/search/"
+        "url": "https://familysearch.org/search/",
+        "description": "Records create a paper trail for your ancestors and can lead you to important details about their life. Enter a name, and we'll look for it in birth certificates, marriage registrations, census records, and other official documents."
       },
       {
         "name": "Ancestry.com",
         "type": "url",
-        "url": "http://search.ancestry.com/"
+        "url": "http://search.ancestry.com/",
+        "description": "Property ancestor search with geo"
       },
       {
-        "name": "SearchBug",
+        "name": "SearchBug (R)(C)(API)",
         "type": "url",
-        "url": "http://www.searchbug.com/#pageTop"
+        "url": "http://www.searchbug.com/#pageTop",
+        "description": "SEARCH PEOPLE, VERIFY & APPEND NAMES, PROPERTY ADDRESS, PHONE & EMAIL"
       },
       {
-        "name": "Nuwber",
+        "name": "Nuwber (R)",
         "type": "url",
         "url": "https://nuwber.com/"
       },
       {
-        "name": "eVerify",
-        "type": "url",
-        "url": "http://www.everify.com/"
-      },
-      {
         "name": "Genealogy.com",
         "type": "url",
-        "url": "http://www.genealogy.com/"
-      },
-      {
-        "name": "The New Ultimates",
-        "type": "url",
-        "url": "http://www.newultimates.com/"
-      },
-      {
-        "name": "My Life",
-        "type": "url",
-        "url": "https://www.mylife.com/"
-      },
-      {
-        "name": "Ark",
-        "type": "url",
-        "url": "http://ark.com/landing"
+        "url": "http://www.genealogy.com/",
+        "description": "Genealogy.com is a source for family history buffs to find genealogical research originally posted in GenForum and our most popular genealogy articles. Start a search or browse below to start digging into your family's past!"
       },
       {
         "name": "AnyWho",
         "type": "url",
-        "url": "http://www.anywho.com/whitepages"
+        "url": "http://www.anywho.com/whitepages",
+        "description": "People Search / Find People By Name"
       },
       {
         "name": "Addresses.com",
         "type": "url",
-        "url": "http://www.addresses.com/"
+        "url": "http://www.addresses.com/",
+        "description": "Free People Search and Public Information Search Engine"
       },
       {
         "name": "Sorted By Name",
         "type": "url",
-        "url": "http://sortedbyname.com/"
+        "url": "http://sortedbyname.com/",
+        "description": " curated collection of links to genealogy details mentioned on other websites, or acquired by the webmaster"
       },
       {
         "name": "Cubib",
         "type": "url",
-        "url": "https://cubib.com/"
+        "url": "https://cubib.com/",
+        "description": "Free Public Data Search"
       },
       {
-        "name": "True People Search",
+        "name": "True People Search (U)",
         "type": "url",
         "url": "https://www.truepeoplesearch.com/"
       },
       {
-        "name": "Fast People Search",
+        "name": "Fast People Search (U)",
         "type": "url",
         "url": "https://www.fastpeoplesearch.com/"
       },
       {
-        "name": "Speedy Hunt",
-        "type": "url",
-        "url": "https://speedyhunt.com/"
-      },
-      {
         "name": "Been Verified",
         "type": "url",
-        "url": "https://www.beenverified.com/"
+        "url": "https://www.beenverified.com/",
+        "description": "People, Vehicle, Property and Contact Info"
       }],
       "name": "General People Search",
       "type": "folder"
@@ -2748,7 +2728,8 @@
       {
         "name": "The Knot",
         "type": "url",
-        "url": "https://www.theknot.com/registry/couplesearch"
+        "url": "https://www.theknot.com/registry/couplesearch",
+        "description": "Find a couple's wedding registry and website"
       },
       {
         "name": "Registry Finder",
@@ -2758,22 +2739,24 @@
       {
         "name": "My Registry",
         "type": "url",
-        "url": "https://www.myregistry.com/"
+        "url": "https://www.myregistry.com/",
+        "description": "Wedding Registry, Baby Registry & Gift Lists for all occasions"
       },
       {
-        "name": "Amazon Registry Search",
+        "name": "Amazon Registry Search (U)",
         "type": "url",
         "url": "https://www.amazon.com/gp/registry/search"
       },
       {
-        "name": "Bed, Bath, & Beyond Gift Registry",
+        "name": "Bed, Bath & Beyond Gift Registry",
         "type": "url",
         "url": "https://www.bedbathandbeyond.com/store/giftregistry/registry_search_guest.jsp"
       },
       {
         "name": "The Bump",
         "type": "url",
-        "url": "https://registry.thebump.com/babyregistrysearch"
+        "url": "https://registry.thebump.com/babyregistrysearch",
+        "description": "Looking for a friend or family member's registry? Enter their info here and click Search"
       }],
       "name": "Registries",
       "type": "folder"
@@ -2882,6 +2865,7 @@
     "name": "Dating",
     "type": "folder"
   },
+
   {
     "children": [
     {
@@ -3022,6 +3006,7 @@
     "name": "Telephone Numbers",
     "type": "folder"
   },
+
   {
     "children": [
     {
