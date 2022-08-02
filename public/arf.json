@@ -1473,17 +1473,18 @@
         {
           "name": "Bing Images",
           "type": "url",
-          "url": "http://www.bing.com/images"
+          "url": "https://www.bing.com/images"
         },
         {
           "name": "Yahoo Image Search",
           "type": "url",
-          "url": "http://images.yahoo.com/"
+          "url": "https://images.yahoo.com/"
         },
         {
           "name": "TinEye Reverse Image Search",
           "type": "url",
-          "url": "http://tineye.com/"
+          "url": "http://tineye.com/",
+          "description": "Find where images appear online"
         },
         {
           "name": "Yandex Images",
@@ -1493,7 +1494,7 @@
         {
           "name": "Baidu Images",
           "type": "url",
-          "url": "http://shitu.baidu.com/"
+          "url": "https://www.baidu.com/"
         },
         {
           "name": "Twitter Image Search (M)",
@@ -1503,62 +1504,44 @@
         {
           "name": "Imgur Search",
           "type": "url",
-          "url": "https://imgur.com/search"
+          "url": "https://imgur.com/search",
+          "description": "Search images by keywords and tags"
         },
         {
-          "name": "Photobucket",
+          "name": "Photobucket (R)(C)",
           "type": "url",
-          "url": "http://photobucket.com/"
-        },
-        {
-          "name": "PicSearch",
-          "type": "url",
-          "url": "http://www.picsearch.com/"
+          "url": "http://photobucket.com/",
+          "description": "The simple, secure, affordable way to store, share, backup, & edit all your images with friends and family"
         },
         {
           "name": "Karma Decay",
           "type": "url",
-          "url": "http://karmadecay.com/"
+          "url": "http://karmadecay.com/",
+          "description": "Reverse image search of Reddit.com (beta)"
         },
         {
           "name": "Image Raider",
           "type": "url",
-          "url": "https://www.imageraider.com/"
-        },
-        {
-          "name": "7Photos.net",
-          "type": "url",
-          "url": "http://7photos.net/"
-        },
-        {
-          "name": "Panoramio",
-          "type": "url",
-          "url": "http://www.panoramio.com/"
-        },
-        {
-          "name": "Current Location",
-          "type": "url",
-          "url": "http://current-location.com/"
-        },
-        {
-          "name": "Lakako Photo Search",
-          "type": "url",
-          "url": "http://www.lakako.com/"
+          "url": "https://www.imageraider.com/",
+          "description": "Image Raider Reverse Image Search"
         },
         {
           "name": "CC Search",
           "type": "url",
-          "url": "https://ccsearch.creativecommons.org/"
+          "url": "https://ccsearch.creativecommons.org/",
+          "description": "Browse through over 600 million image items to reuse"
         },
         {
-          "name": "CamFind App",
+          "name": "CamFind App (API)",
           "type": "url",
-          "url": "http://camfindapp.com/"
+          "url": "http://camfindapp.com/",
+          "description": "Have you ever wanted to Search the Physical World™? Enter CamFind. The world’s most accurate mobile visual search engine, powered by the CloudSight Image Recognition API"
         },
         {
           "name": "RevEye Reverse Image Search (T)",
           "type": "url",
-          "url": "https://chrome.google.com/webstore/detail/reveye-reverse-image-sear/keaaclcjhehbbapnphnmpiklalfhelgf?hl=en"
+          "url": "https://chrome.google.com/webstore/detail/reveye-reverse-image-sear/keaaclcjhehbbapnphnmpiklalfhelgf?hl=en",
+          "description": "Perform a search by image. Choose between the image search engines Google, Bing, Yandex, and TinEye"
         },
         {
           "name": "SmugMug Search",
@@ -1566,24 +1549,22 @@
           "url": "http://www.smugmug.com/search"
         },
         {
-          "name": "ImageNet",
+          "name": "ImageNet (T)",
           "type": "url",
-          "url": "http://image-net.org/"
-        },
-        {
-          "name": "Places2",
-          "type": "url",
-          "url": "http://places2.csail.mit.edu/explore.html"
+          "url": "http://image-net.org/",
+          "description": "ImageNet is an image database organized according to the WordNet hierarchy (currently only the nouns), in which each node of the hierarchy is depicted by hundreds and thousands of images. The project has been instrumental in advancing computer vision and deep learning research. The data is available for free to researchers for non-commercial use"
         },
         {
           "name": "Image Identification Project",
           "type": "url",
-          "url": "https://www.imageidentify.com/"
+          "url": "https://www.imageidentify.com/",
+          "description": "Image Identification Project"
         },
         {
           "name": "SauceNAO",
           "type": "url",
-          "url": "https://saucenao.com/"
+          "url": "https://saucenao.com/",
+          "description": "Image Source Locator"
         }],
         "name": "Search",
         "type": "folder"
@@ -1591,29 +1572,14 @@
       {
         "children": [
         {
-          "name": "Webstigram",
-          "type": "url",
-          "url": "http://websta.me/search"
-        },
-        {
           "name": "Instagram",
           "type": "url",
           "url": "https://www.instagram.com/"
         },
         {
-          "name": "Mini Instagram",
+          "name": "Webstigram",
           "type": "url",
-          "url": "http://mininsta.net/"
-        },
-        {
-          "name": "Imgrab",
-          "type": "url",
-          "url": "https://imgrab.com/"
-        },
-        {
-          "name": "Tofo.me",
-          "type": "url",
-          "url": "https://tofo.me/"
+          "url": "http://websta.me/search"
         }],
         "name": "Instagram",
         "type": "folder"
@@ -1621,29 +1587,26 @@
       {
         "children": [
         {
-          "name": "Flickr",
+          "name": "Flickr (U)",
           "type": "url",
           "url": "https://www.flickr.com/"
         },
         {
-          "name": "Flickr Map",
+          "name": "Flickr Map (U)",
           "type": "url",
           "url": "https://www.flickr.com/map/"
         },
         {
           "name": "My Pics Map",
           "type": "url",
-          "url": "http://www.mypicsmap.com/"
+          "url": "http://www.mypicsmap.com/",
+          "description": "Flickr Searches"
         },
         {
           "name": "idGettr",
           "type": "url",
-          "url": "http://idgettr.com/"
-        },
-        {
-          "name": "Flickr Hive Mind",
-          "type": "url",
-          "url": "http://flickrhivemind.net/"
+          "url": "http://idgettr.com/",
+          "description": "Use the URL of your photostream to find the Flickr ID number (also works for groups)"
         }],
         "name": "Flickr",
         "type": "folder"
@@ -1653,47 +1616,26 @@
         {
           "name": "ExifTool (T)",
           "type": "url",
-          "url": "http://www.sno.phy.queensu.ca/~phil/exiftool/"
-        },
-        {
-          "name": "Jeffrey's Exif Viewer",
-          "type": "url",
-          "url": "http://exif.regex.info/"
-        },
-        {
-          "name": "ExifViewer",
-          "type": "url",
-          "url": "http://www.exifviewer.org/"
-        },
-        {
-          "name": "Search by Exif",
-          "type": "url",
-          "url": "http://www.exif-search.com/"
+          "url": "http://www.sno.phy.queensu.ca/~phil/exiftool/",
+          "description": "Read, Write and Edit Meta Information"
         },
         {
           "name": "ImgOps",
           "type": "url",
-          "url": "http://imgops.com/"
+          "url": "http://imgops.com/",
+          "description": "Hover links and details from image"
         },
         {
-          "name": "Metapicz",
+          "name": "JPG Cleaner for Windows",
           "type": "url",
-          "url": "http://metapicz.com/#landing"
+          "url": "https://jpg-cleaner.en.softonic.com/",
+          "description": "Eliminate extra info from JPEGs"
         },
         {
-          "name": "JPEGsnoop (T)",
+          "name": "GeoSetter (T)",
           "type": "url",
-          "url": "http://www.impulseadventure.com/photo/jpeg-snoop.html"
-        },
-        {
-          "name": "GeoSetter",
-          "type": "url",
-          "url": "http://www.geosetter.de/en/"
-        },
-        {
-          "name": "gbimg.org",
-          "type": "url",
-          "url": "http://gbimg.org/"
+          "url": "http://www.geosetter.de/en/",
+          "description": "GeoSetter is a freeware tool for Windows (requires Internet Explorer 10 or higher) for showing and changing geo data and other metadata (IPTC/XMP/Exif) of image files (e.g. images taken by digital cameras)"
         }],
         "name": "Metadata",
         "type": "folder"
@@ -1703,27 +1645,20 @@
         {
           "name": "FotoForensics",
           "type": "url",
-          "url": "http://fotoforensics.com/"
-        },
-        {
-          "name": "Izitru",
-          "type": "url",
-          "url": "http://www.izitru.com/"
+          "url": "http://fotoforensics.com/",
+          "description": "Image Forensic Analysis"
         },
         {
           "name": "Ghiro (T)",
           "type": "url",
-          "url": "https://github.com/ghirensics/ghiro"
-        },
-        {
-          "name": "Stolen Camera Finder",
-          "type": "url",
-          "url": "http://www.stolencamerafinder.co.uk/"
+          "url": "https://github.com/ghirensics/ghiro",
+          "description": "Sometime forensic investigators need to process digital images as evidence. There are some tools around, otherwise it is difficult to deal with forensic analysis with lot of images involved. Images contain tons of information, Ghiro extracts these information from provided images and display them in a nicely formatted report"
         },
         {
           "name": "Camera Trace",
           "type": "url",
-          "url": "http://www.cameratrace.com/trace"
+          "url": "http://www.cameratrace.com/trace",
+          "description": "Free Camera Serial Trace"
         }],
         "name": "Forensics",
         "type": "folder"
@@ -1733,22 +1668,26 @@
         {
           "name": "Online OCR",
           "type": "url",
-          "url": "http://www.free-ocr.com/"
+          "url": "http://www.free-ocr.com/",
+          "description": "OCR Transform Image to PDF Online"
         },
         {
           "name": "i2OCR",
           "type": "url",
-          "url": "http://www.i2ocr.com/"
+          "url": "http://www.i2ocr.com/",
+          "description": "i2OCR is a free online Optical Character Recognition (OCR) that extracts text from images and scanned documents so that it can be edited, formatted, indexed, searched, or translated"
         },
         {
           "name": "New OCR",
           "type": "url",
-          "url": "https://www.newocr.com/"
+          "url": "https://www.newocr.com/",
+          "description": "NewOCR.com is a free online OCR (Optical Character Recognition) service, can analyze the text in any image file that you upload, and then convert the text from the image into text that you can easily edit on your computer"
         },
         {
           "name": "Online OCR",
           "type": "url",
-          "url": "http://www.onlineocr.net/"
+          "url": "http://www.onlineocr.net/",
+          "description": "IMAGE TO TEXT CONVERTER USING OCR ONLINE"
         }],
         "name": "OCR",
         "type": "folder"
@@ -1758,7 +1697,8 @@
         {
           "name": "Creepy (T)",
           "type": "url",
-          "url": "http://www.geocreepy.com/"
+          "url": "http://www.geocreepy.com/",
+          "description": "A Geolocation OSINT Tool. Offers geolocation information gathering through social networking platforms"
         }],
         "name": "Tools",
         "type": "folder"
@@ -1786,11 +1726,6 @@
           "url": "https://vimeo.com/search?"
         },
         {
-          "name": "Internet Archive Videos",
-          "type": "url",
-          "url": "https://archive.org/details/opensource_movies"
-        },
-        {
           "name": "Vines (D)",
           "type": "url",
           "url": "https://www.google.com/search?q=site:vine.co+%3Csearchterm%3E"
@@ -1801,27 +1736,17 @@
           "url": "http://www.dogpile.com/"
         },
         {
-          "name": "Geo Search Tool",
-          "type": "url",
-          "url": "http://www.geosearchtool.com/"
-        },
-        {
-          "name": "blinkx Video Search",
-          "type": "url",
-          "url": "http://www.blinkx.com/"
-        },
-        {
           "name": "Facebook Live Map",
           "type": "url",
           "url": "https://www.facebook.com/livemap#"
         },
         {
-          "name": "LiveLeak",
+          "name": "LiveLeak (ITermix)",
           "type": "url",
           "url": "https://www.liveleak.com/"
         },
         {
-          "name": "Metacafe",
+          "name": "Metacafe (VideosHub)",
           "type": "url",
           "url": "http://www.metacafe.com/"
         },
@@ -1843,12 +1768,14 @@
         {
           "name": "DetURL",
           "type": "url",
-          "url": "http://deturl.com/"
+          "url": "http://deturl.com/",
+          "description": "Download a YouTube video from any web page"
         },
         {
           "name": "Print YouTube StoryBoard Instructions",
           "type": "url",
-          "url": "http://www.labnol.org/internet/print-youtube-video/28217/"
+          "url": "http://www.labnol.org/internet/print-youtube-video/28217/",
+          "description": "How to Print a YouTube Video Storyboard"
         },
         {
           "name": "Print Storyboard from Youtube",
@@ -1858,22 +1785,13 @@
         {
           "name": "Frame by Frame for YouTube (T)",
           "type": "url",
-          "url": "https://chrome.google.com/webstore/detail/frame-by-frame-for-youtub/elkadbdicdciddfkdpmaolomehalghio?hl=en-GB"
+          "url": "https://chrome.google.com/webstore/detail/frame-by-frame/cclnaabdfgnehogonpeddbgejclcjneh"
         },
         {
           "name": "YouTube Metadata",
           "type": "url",
-          "url": "http://www.amnestyusa.org/citizenevidence/"
-        },
-        {
-          "name": "TubeChop",
-          "type": "url",
-          "url": "http://www.tubechop.com/"
-        },
-        {
-          "name": "YouTube Data Tools",
-          "type": "url",
-          "url": "https://tools.digitalmethods.net/netvizz/youtube/"
+          "url": "http://www.amnestyusa.org/citizenevidence/",
+          "description": "Youtube DataViewer"
         },
         {
           "name": "Hooktube",
@@ -1883,7 +1801,8 @@
         {
           "name": "yasiv-youtube",
           "type": "url",
-          "url": "https://yasiv.com/youtube"
+          "url": "https://yasiv.com/youtube",
+          "description": "This web site shows related videos from the YouTube"
         }],
         "name": "Analyze / Record",
         "type": "folder"
@@ -1894,19 +1813,22 @@
     {
       "children": [
       {
-        "name": "SeeAllTheThings",
+        "name": "SeeAllTheThings (T)",
         "type": "url",
-        "url": "https://github.com/baywolf88/seeallthethings"
+        "url": "https://github.com/baywolf88/seeallthethings",
+        "description": "OSINT webcam mapping project"
       },
       {
         "name": "Insecam",
         "type": "url",
-        "url": "http://insecam.org/"
+        "url": "http://insecam.org/",
+        "description": "Insecam - Live cameras directory"
       },
       {
         "name": "EarthCam",
         "type": "url",
-        "url": "http://www.earthcam.com/"
+        "url": "http://www.earthcam.com/",
+        "description": "World Web Cams"
       }],
       "name": "Webcams",
       "type": "folder"
@@ -1951,34 +1873,34 @@
           "type": "folder"
         },
         {
-          "name": "Scribd",
+          "name": "Scribd (R)(C)",
           "type": "url",
-          "url": "https://www.scribd.com/"
+          "url": "https://www.scribd.com/",
+          "description": "Endless entertainment and knowledge"
         },
         {
           "name": "DocJax",
           "type": "url",
-          "url": "http://www.docjax.com/"
-        },
-        {
-          "name": "WikiLeaks Search",
-          "type": "url",
-          "url": "https://search.wikileaks.org/advanced"
+          "url": "http://www.docjax.com/",
+          "description": "Search over 320,577 documents from 3,296 websites"
         },
         {
           "name": "RECAP Court Doc Repo",
           "type": "url",
-          "url": "http://archive.recapthelaw.org/"
+          "url": "https://free.law/recap",
+          "description": "RECAP is an online archive and free extension for Firefox, Chrome and Safari that improves the experience of using PACER, the electronic public access system for the U.S. Federal District and Bankruptcy Courts"
         },
         {
-          "name": "filessoo.com",
+          "name": "WikiLeaks Search",
           "type": "url",
-          "url": "http://filessoo.com/"
+          "url": "https://search.wikileaks.org/advanced",
+          "description": "WikiLeaks Advanced Search"
         },
         {
           "name": "Leaked Cables",
           "type": "url",
-          "url": "https://search.wikileaks.org/plusd/"
+          "url": "https://search.wikileaks.org/plusd/",
+          "description": "WikiLeaks Search"
         }],
         "name": "Search",
         "type": "folder"
@@ -1986,24 +1908,20 @@
       {
         "children": [
         {
-          "name": "Pastebin Trends",
+          "name": "Pastebin Tools & Applications (T)",
           "type": "url",
-          "url": "http://pastebin.com/trends"
+          "url": "https://pastebin.com/tools"
         },
         {
-          "name": "Pastebin Alerts",
-          "type": "url",
-          "url": "http://andrewmohawk.com/pasteLert/"
-        },
-        {
-          "name": "Just Paste It",
+          "name": "Just Paste It (R)",
           "type": "url",
           "url": "https://justpaste.it/"
         },
         {
           "name": "Pastebin OSINT Harvester (T)",
           "type": "url",
-          "url": "https://github.com/needmorecowbell/sniff-paste"
+          "url": "https://github.com/needmorecowbell/sniff-paste",
+          "description": "Multithreaded pastebin scraper, scrapes to mysql database, then reads pastes for noteworthy information"
         }],
         "name": "Paste Sites",
         "type": "folder"
@@ -2016,27 +1934,32 @@
       {
         "name": "What The Font",
         "type": "url",
-        "url": "https://www.myfonts.com/WhatTheFont/"
+        "url": "https://www.myfonts.com/WhatTheFont/",
+        "description": "Instant font identification powered by the world’s largest collection of fonts"
       },
       {
         "name": "Font Squirrel",
         "type": "url",
-        "url": "https://www.fontsquirrel.com/matcherator"
+        "url": "https://www.fontsquirrel.com/matcherator",
+        "description": "Upload an image with type and we’ll identify the fonts that match"
       },
       {
         "name": "IdentiFont",
         "type": "url",
-        "url": "http://www.identifont.com/index.html"
+        "url": "http://www.identifont.com/index.html",
+        "description": "Fonts identify service"
       },
       {
         "name": "Font Spring",
         "type": "url",
-        "url": "https://www.fontspring.com/matcherator"
+        "url": "https://www.fontspring.com/matcherator",
+        "description": "Upload an image of text, and we’ll find what the font is"
       },
       {
         "name": "What Font Is",
         "type": "url",
-        "url": "https://www.whatfontis.com/"
+        "url": "https://www.whatfontis.com/",
+        "description": "Find any font from any image"
       }],
       "name": "Fonts",
       "type": "folder"

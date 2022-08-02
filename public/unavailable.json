@@ -182,6 +182,131 @@
       "type": "folder"
     },
     {
+      "name": "filessoo.com",
+      "type": "url",
+      "url": "http://filessoo.com/"
+    },
+    {
+      "name": "blinkx Video Search",
+      "type": "url",
+      "url": "http://www.blinkx.com/"
+    },
+    {
+      "name": "Internet Archive Videos",
+      "type": "url",
+      "url": "https://archive.org/details/opensource_movies"
+    },
+    {
+      "name": "ExifViewer",
+      "type": "url",
+      "url": "http://www.exifviewer.org/"
+    },
+    {
+      "name": "Flickr Hive Mind",
+      "type": "url",
+      "url": "http://flickrhivemind.net/"
+    },
+    {
+      "name": "Tofo.me",
+      "type": "url",
+      "url": "https://tofo.me/"
+    },
+    {
+      "name": "Imgrab",
+      "type": "url",
+      "url": "https://imgrab.com/"
+    },
+    {
+      "name": "Lakako Photo Search",
+      "type": "url",
+      "url": "http://www.lakako.com/"
+    },
+    {
+      "name": "Panoramio",
+      "type": "url",
+      "url": "http://www.panoramio.com/"
+    },
+    {
+      "name": "PicSearch",
+      "type": "url",
+      "url": "http://www.picsearch.com/"
+    },
+    {
+      "name": "7Photos.net",
+      "type": "url",
+      "url": "http://7photos.net/"
+    },
+    {
+      "name": "Places2",
+      "type": "url",
+      "url": "http://places2.csail.mit.edu/explore.html"
+    },
+    {
+      "name": "Mini Instagram",
+      "type": "url",
+      "url": "http://mininsta.net/"
+    },
+    {
+      "name": "Jeffrey's Exif Viewer",
+      "type": "url",
+      "url": "http://exif.regex.info/"
+    },
+    {
+      "name": "gbimg.org",
+      "type": "url",
+      "url": "http://gbimg.org/"
+    },
+    {
+      "name": "Metapicz",
+      "type": "url",
+      "url": "http://metapicz.com/#landing"
+    },
+    {
+      "name": "Search by Exif",
+      "type": "url",
+      "url": "http://www.exif-search.com/"
+    },
+    {
+      "name": "JPEGsnoop (T)",
+      "type": "url",
+      "url": "http://www.impulseadventure.com/photo/jpeg-snoop.html"
+    },
+    {
+      "name": "Izitru",
+      "type": "url",
+      "url": "http://www.izitru.com/"
+    },
+    {
+      "name": "Stolen Camera Finder",
+      "type": "url",
+      "url": "http://www.stolencamerafinder.co.uk/"
+    },
+    {
+      "name": "Geo Search Tool",
+      "type": "url",
+      "url": "http://www.geosearchtool.com/"
+    },
+    {
+      "name": "TubeChop",
+      "type": "url",
+      "url": "http://www.tubechop.com/"
+    },
+    {
+      "name": "YouTube Data Tools",
+      "type": "url",
+      "url": "https://tools.digitalmethods.net/netvizz/youtube/"
+    },
+    {
+      "name": "Pastebin Alerts",
+      "type": "url",
+      "url": "http://andrewmohawk.com/pasteLert/"
+    },
+    {
+      "name": "Pastebin Trends",
+      "type": "url",
+      "url": "http://pastebin.com/trends"
+    },
+    {
       "name": "Skypegrab",
       "type": "url",
       "url": "http://skypegrab.net/oldip.php"
