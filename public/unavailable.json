@@ -36,6 +36,77 @@
       "url": "https://maildb.io/"
     },
     {
+      "name": "Social Media Monitoring Wiki",
+      "type": "url",
+      "url": "http://wiki.kenburbary.com/social-meda-monitoring-wiki"
+    },
+    {
+      "name": "Periscope with known Username (R)(M)",
+      "type": "url",
+      "url": "https://www.periscope.tv/%3Cusername%3E",
+      "description": "Periscope is grateful to you for going LIVE together and being part of this community. Past public broadcasts will continue to be available on Periscope web"
+    },
+    {
+      "name": "Periscope Search",
+      "type": "url",
+      "url": "http://www.perisearch.net/"
+    },
+    {
+      "name": "Orkut (Brazil)",
+      "type": "url",
+      "url": "https://orkut.google.com/"
+    },
+    {
+      "name": "MiGente (Latino)",
+      "type": "url",
+      "url": "http://www.migente.com/user_search/index.html"
+    },
+    {
+      "name": "Black Planet (Asian Avenue)",
+      "type": "url",
+      "url": "https://blackplanet.com/"
+    },
+    {
+      "name": "TheHoodUp (NSFW)",
+      "type": "url",
+      "url": "http://thehoodup.com/board/"
+    },
+    {
+      "name": "metareddit",
+      "type": "url",
+      "url": "http://metareddit.com/"
+    },
+    {
+      "name": "SnoopSnoo",
+      "type": "url",
+      "url": "http://snoopsnoo.com/"
+    },
+    {
+      "name": "Deadbird",
+      "type": "url",
+      "url": "https://deadbird.site/"
+    },
+    {
+      "name": "GeoTweet",
+      "type": "url",
+      "url": "http://geotweet.altervista.org/#"
+    },
+    {
+      "name": "Reddit Investigator",
+      "type": "url",
+      "url": "http://www.redditinvestigator.com/"
+    },
+    {
+      "name": "reddit metrics",
+      "type": "url",
+      "url": "http://redditmetrics.com/"
+    },
+    {
+      "name": "Searchlr",
+      "type": "url",
+      "url": "http://searchlr.net/"
+    },
+    {
       "name": "DNS Blackhole Lists",
       "type": "url",
       "url": "http://www.tcpiputils.com/dns-blackhole-list"
@@ -59,6 +130,26 @@
       "name": "Domain Big Data",
       "type": "url",
       "url": "http://domainbigdata.com/"
+    },
+    {
+      "name": "MIT Map",
+      "type": "url",
+      "url": "http://mapd.csail.mit.edu/tweetmap/"
+    },
+    {
+      "name": "TeachingPrivacy",
+      "type": "url",
+      "url": "http://app.teachingprivacy.com/"
+    },
+    {
+      "name": "TweetPaths",
+      "type": "url",
+      "url": "http://www.tweetpaths.com/maps"
+    },
+    {
+      "name": "GeoChirp",
+      "type": "url",
+      "url": "http://www.geochirp.com/"
     },
     {
       "name": "FindSubDomains",

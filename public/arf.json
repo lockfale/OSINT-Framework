@@ -2044,6 +2044,7 @@
     "name": "Images / Videos / Docs",
     "type": "folder"
   },
+
   {
     "children": [
     {
@@ -2391,64 +2392,46 @@
       {
         "children": [
         {
-          "name": "GeoChirp",
-          "type": "url",
-          "url": "http://www.geochirp.com/"
-        },
-        {
           "name": "GeoSocial Footprint",
           "type": "url",
-          "url": "http://geosocialfootprint.com/"
+          "url": "http://geosocialfootprint.com/",
+          "description": "A geosocial footprint is the combined bits of location information that a user divulges through social media, which ultimately forms the users location \"footprint\". For Twitter.com users, this footprint is created from GPS enabled tweets, social check-ins, natural language location searching (geocoding), and profile harvesting"
         },
         {
-          "name": "TweetPaths",
+          "name": "Echosec (R)(C)",
           "type": "url",
-          "url": "http://www.tweetpaths.com/maps"
-        },
-        {
-          "name": "TeachingPrivacy",
-          "type": "url",
-          "url": "http://app.teachingprivacy.com/"
-        },
-        {
-          "name": "Echosec",
-          "type": "url",
-          "url": "https://app.echosec.net/"
-        },
-        {
-          "name": "MIT Map",
-          "type": "url",
-          "url": "http://mapd.csail.mit.edu/tweetmap/"
+          "url": "https://app.echosec.net/",
+          "description": "There is a growing overlap between the digital and physical worlds. To understand what’s happening on the ground, security and intelligence teams need to explore all corners of the surface, deep, and dark web. \nThe volume of online data being created every day is incredibly valuable for teams protecting nations, people, and critical assets"
         },
         {
           "name": "Harvard Map",
           "type": "url",
-          "url": "http://worldmap.harvard.edu/tweetmap/"
+          "url": "http://worldmap.harvard.edu/tweetmap/",
+          "description": "Harvard WorldMap began in 2008 with the aim of lowering barriers for scholars to create, analyze, and share geospatial information. To continue the legacy and further expand opportunities for collaboration, the project has been moved to ArcGIS Online"
         },
         {
           "name": "One Million Tweet Map",
           "type": "url",
-          "url": "http://onemilliontweetmap.com/"
+          "url": "http://onemilliontweetmap.com/",
+          "description": "A geographical clustering engine for online maps to display and analyse big geolocalized data"
         },
         {
-          "name": "Creepy",
+          "name": "Creepy (T)",
           "type": "url",
-          "url": "http://www.geocreepy.com/"
+          "url": "http://www.geocreepy.com/",
+          "description": "A Geolocation OSINT Tool. Offers geolocation information gathering through social networking platforms"
         },
         {
-          "name": "Tweepsmap",
+          "name": "Tweepsmap (R)(C)",
           "type": "url",
-          "url": "http://tweepsmap.com/"
-        },
-        {
-          "name": "GeoTweet",
-          "type": "url",
-          "url": "http://geotweet.altervista.org/#"
+          "url": "http://tweepsmap.com/",
+          "description": "Save time and increase audience engagement with focused, straightforward actionable analytics, and all-in-one Intelligent Publishing platform"
         },
         {
           "name": "MapD Tweetmap",
           "type": "url",
-          "url": "https://www.mapd.com/demos/tweetmap/"
+          "url": "https://www.mapd.com/demos/tweetmap/",
+          "description": "OmniSci Tweetmap Demo: Interactively explore millions of geo-located tweets"
         }],
         "name": "Location / Mapping",
         "type": "folder"
@@ -2458,30 +2441,29 @@
         {
           "name": "All My Tweets",
           "type": "url",
-          "url": "https://www.allmytweets.net/connect/"
-        },
-        {
-          "name": "Deadbird",
-          "type": "url",
-          "url": "https://deadbird.site/"
+          "url": "https://www.allmytweets.net/connect/",
+          "description": "View all your tweets, likes, followers or timeline on one page"
         },
         {
           "name": "Spoonbill",
           "type": "url",
-          "url": "https://spoonbill.io"
+          "url": "https://spoonbill.io",
+          "description": "Spoonbill lets you see profile changes from the people you follow on Twitter or other social networks"
         },
         {
           "name": "TweetVacuum (T)",
           "type": "url",
-          "url": "https://github.com/T3hUb3rK1tten/TweetVacuum"
+          "url": "https://github.com/T3hUb3rK1tten/TweetVacuum",
+          "description": "Chrome extension to scrape a user's entire timeline, bypassing the Twitter API 3200 tweet limit"
         }],
         "name": "Archive / Deleted Tweets",
         "type": "folder"
       },
       {
-        "name": "Twitter Back From The Dead",
+        "name": "Twitter Back From The Dead (T)",
         "type": "url",
-        "url": "https://github.com/misterch0c/twitterBFTD"
+        "url": "https://github.com/misterch0c/twitterBFTD",
+        "description": "Twitter back from the death looks in a user tweets history for domain names that are available for registration"
       }],
       "name": "Twitter",
       "type": "folder"
@@ -2489,24 +2471,9 @@
     {
       "children": [
       {
-        "name": "SnoopSnoo",
-        "type": "url",
-        "url": "http://snoopsnoo.com/"
-      },
-      {
-        "name": "metareddit",
-        "type": "url",
-        "url": "http://metareddit.com/"
-      },
-      {
         "name": "Reddit Archive",
         "type": "url",
         "url": "http://www.redditarchive.com/"
-      },
-      {
-        "name": "reddit metrics",
-        "type": "url",
-        "url": "http://redditmetrics.com/"
       },
       {
         "name": "subreddits",
@@ -2514,14 +2481,10 @@
         "url": "http://subreddits.org/"
       },
       {
-        "name": "Reddit Investigator",
-        "type": "url",
-        "url": "http://www.redditinvestigator.com/"
-      },
-      {
         "name": "Reddit Comment History",
         "type": "url",
-        "url": "https://roadtolarissa.com/javascript/reddit-comment-visualizer/"
+        "url": "https://roadtolarissa.com/javascript/reddit-comment-visualizer/",
+        "description": "Download Reddit Comment History"
       }],
       "name": "Reddit",
       "type": "folder"
@@ -2544,7 +2507,7 @@
         "name": "InSpy (T)",
         "type": "url",
         "url": "https://github.com/leapsecurity/InSpy",
-        "description": "InSpy is a python based LinkedIn enumeration tool."
+        "description": "InSpy is a python based LinkedIn enumeration tool"
       },
       {
           "name": "Raven (T)(U)",
@@ -2557,122 +2520,97 @@
     },
     {
       "children": [
-      {
-        "name": "Myspace",
-        "type": "url",
-        "url": "https://myspace.com/"
+        {
+          "name": "Patreon",
+          "type": "url",
+          "url": "https://www.patreon.com/"
+        },
+        {
+          "name": "Myspace",
+          "type": "url",
+          "url": "https://myspace.com/"
+        },
+        {
+          "name": "Tumblr",
+          "type": "url",
+          "url": "http://www.tumblr.com/tagged/search"
+        },
+        {
+          "name": "BlackPlanet.com - Member Find",
+          "type": "url",
+          "url": "http://www.blackplanet.com/user_search/index.html"
+        },
+        {
+          "name": "VKontakte (Russian)",
+          "type": "url",
+          "url": "https://vk.com/"
+        },
+        {
+          "name": "Odnoklassniki (Russian)",
+          "type": "url",
+          "url": "https://ok.ru/"
+        },
+        {
+          "name": "Delicious (R)",
+          "type": "url",
+          "url": "https://del.icio.us/"
+        }
+        ],
+        "name": "Other Social Networks",
+        "type": "folder"
       },
       {
-        "name": "Tumblr",
-        "type": "url",
-        "url": "http://www.tumblr.com/tagged/search"
-      },
-      {
-        "name": "TheHoodUp (NSFW)",
-        "type": "url",
-        "url": "http://thehoodup.com/board/"
-      },
-      {
-        "name": "BlackPlanet.com - Member Find",
-        "type": "url",
-        "url": "http://www.blackplanet.com/user_search/index.html"
-      },
-      {
-        "name": "MiGente (Latino)",
-        "type": "url",
-        "url": "http://www.migente.com/user_search/index.html"
-      },
-      {
-        "name": "Asian Avenue",
-        "type": "url",
-        "url": "http://www.asianave.com/user_search/index.html"
-      },
-      {
-        "name": "Orkut (Brazil)",
-        "type": "url",
-        "url": "https://orkut.google.com/"
-      },
-      {
-        "name": "VKontakte (Russian)",
-        "type": "url",
-        "url": "https://vk.com/"
-      },
-      {
-        "name": "Odnoklassniki (Russian)",
-        "type": "url",
-        "url": "https://ok.ru/"
-      },
-      {
-        "name": "Delicious",
-        "type": "url",
-        "url": "https://del.icio.us/"
-      }],
-      "name": "Other Social Networks",
-      "type": "folder"
-    },
-    {
-      "children": [
-      {
-        "name": "Social Searcher",
-        "type": "url",
-        "url": "http://www.social-searcher.com/"
-      },
-      {
-        "name": "Google Social Search",
-        "type": "url",
-        "url": "http://www.social-searcher.com/google-social-search/"
-      },
-      {
-        "name": "Periscope Search",
-        "type": "url",
-        "url": "http://www.perisearch.net/"
-      },
-      {
-        "name": "Periscope with known Username (M)",
-        "type": "url",
-        "url": "https://www.periscope.tv/%3Cusername%3E"
-      },
-      {
-        "name": "SocialBlade.com",
-        "type": "url",
-        "url": "http://socialblade.com/"
-      },
-      {
-        "name": "Talkwalker Social Media Search (R)",
-        "type": "url",
-        "url": "https://www.talkwalker.com/social-media-analytics-search"
-      },
-      {
-        "name": "BuzzSumo Most Shared",
-        "type": "url",
-        "url": "https://app.buzzsumo.com/research/most-shared"
-      },
-      {
-        "name": "PinGroupie",
-        "type": "url",
-        "url": "http://pingroupie.com/"
-      },
-      {
-        "name": "Searchlr",
-        "type": "url",
-        "url": "http://searchlr.net/"
-      },
-      {
-        "name": "Google CSE for Telegram links",
-        "type": "url",
-        "url": "https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg"
-      }],
-      "name": "Search",
-      "type": "folder"
-    },
-    {
-      "name": "Social Media Monitoring Wiki",
-      "type": "url",
-      "url": "http://wiki.kenburbary.com/social-meda-monitoring-wiki"
-    }],
+        "children": [
+          {
+            "name": "Social Searcher",
+            "type": "url",
+            "url": "http://www.social-searcher.com/",
+            "description": "Free Social Media Search Engine"
+          },
+          {
+            "name": "Google Social Search",
+            "type": "url",
+            "url": "http://www.social-searcher.com/google-social-search/",
+            "description": "Top Social Networks Search Results Dashboard"
+          },
+          {
+            "name": "SocialBlade.com (R)(C)",
+            "type": "url",
+            "url": "http://socialblade.com/",
+            "description": "Social Blade tracks user statistics for YouTube, Twitch, Instagram, and Twitter! Get a deeper understanding of user growth and trends by utilizing Social Blade"
+          },
+          {
+            "name": "Talkwalker Social Media Search (R)(C)",
+            "type": "url",
+            "url": "https://www.talkwalker.com/social-media-analytics-search",
+            "description": "Monitor your campaigns, brand mentions and hashtags for free"
+          },
+          {
+            "name": "BuzzSumo Most Shared (R)(C)",
+            "type": "url",
+            "url": "https://app.buzzsumo.com/research/most-shared",
+            "description": "Find and analyze the most engaging articles and blogs"
+          },
+          {
+            "name": "PinGroupie (R)(C)",
+            "type": "url",
+            "url": "http://pingroupie.com/",
+            "description": "The following statistics are just a teaser of the powerful data that you can retrieve via our Database"
+          },
+          {
+            "name": "Google CSE for Telegram links",
+            "type": "url",
+            "url": "https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg"
+          }
+        ],
+        "name": "Search",
+        "type": "folder"
+      }
+    ],
     "name": "Social Networks",
     "type": "folder"
   },
+
   {
     "children": [
     {
