@@ -2027,35 +2027,28 @@
       "name": "Fonts",
       "type": "folder"
     },
+    {
+      "children": [
       {
-        "children": [
-          {
-            "name": "ExifTool (T)(API)",
-            "type": "url",
-            "url": "http://www.sno.phy.queensu.ca/~phil/exiftool/",
-            "description": "ExifTool is a platform-independent Perl library plus a command-line application for reading, writing and editing meta information in a wide variety of files. ExifTool supports many different metadata formats including EXIF, GPS, IPTC, XMP, JFIF, GeoTIFF, ICC Profile, Photoshop IRB, FlashPix, AFCP and ID3, Lyrics3, as well as the maker notes of many digital cameras by Canon, Casio, DJI, FLIR, FujiFilm, GE, GoPro, HP, JVC/Victor, Kodak, Leaf, Minolta/Konica-Minolta, Motorola, Nikon, Nintendo, Olympus/Epson, Panasonic/Leica, Pentax/Asahi, Phase One, Reconyx, Ricoh, Samsung, Sanyo, Sigma/Foveon and Sony."
-          },
-          {
-            "name": "Metagoofil (T)",
-            "type": "url",
-            "url": "http://www.edge-security.com/metagoofil.php",
-            "description": "Metagoofil is an information gathering tool designed for extracting metadata of public documents (pdf,doc,xls,ppt,docx,pptx,xlsx) belonging to a target company."
-          },
-          {
-            "name": "FOCA (T)",
-            "type": "url",
-            "url": "https://www.elevenpaths.com/labstools/foca/index.html"
-          },
-          {
-            "name": "CodeTwo Outlook Export (T)(R)(C)",
-            "type": "url",
-            "url": "https://www.codetwo.com/freeware/outlook-export/",
-            "description": "CodeTwo Outlook Export is a free tool for exporting data from Microsoft Outlook to CSV text files. The program allows exporting much more data than offered by the built-in export feature in Outlook, allowing the export of non-standard user-defined fields from Outlook and is quicker and easier to use. Data can be exported from folders of all types, such as Contacts, Calendar, E-mail, Post, Tasks, Journal, Notes."
-          }
-        ],
-        "name": "Metadata",
-        "type": "folder"
+        "name": "Metagoofil (T)",
+        "type": "url",
+        "url": "http://www.edge-security.com/metagoofil.php",
+        "description": "Metagoofil is an information gathering tool designed for extracting metadata of public documents (pdf,doc,xls,ppt,docx,pptx,xlsx) belonging to a target company."
+      },
+      {
+        "name": "FOCA (T)",
+        "type": "url",
+        "url": "https://www.elevenpaths.com/labstools/foca/index.html"
+      },
+      {
+        "name": "CodeTwo Outlook Export (T)(R)(C)",
+        "type": "url",
+        "url": "https://www.codetwo.com/freeware/outlook-export/",
+        "description": "CodeTwo Outlook Export is a free tool for exporting data from Microsoft Outlook to CSV text files. The program allows exporting much more data than offered by the built-in export feature in Outlook, allowing the export of non-standard user-defined fields from Outlook and is quicker and easier to use. Data can be exported from folders of all types, such as Contacts, Calendar, E-mail, Post, Tasks, Journal, Notes."
       }],
+      "name": "Metadata",
+      "type": "folder"
+    }],
     "name": "Images / Videos / Docs",
     "type": "folder"
   },
