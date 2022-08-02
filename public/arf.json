@@ -1368,106 +1368,6 @@
     {
       "children": [
       {
-        "name": "Namechk",
-        "type": "url",
-        "url": "https://namechk.com/",
-        "description": "CHECK OVER 30 DOMAINS AND MORE THAN 90 SOCIAL MEDIA ACCOUNTS"
-      },
-      {
-        "name": "Namechk (T)(U)",
-        "type": "url",
-        "url": "https://github.com/HA71/Namechk",
-        "description": "Osint tool based on namechk.com for checking usernames on more than 100 websites, forums and social networks"
-      },
-      {
-        "name": "NameCheckr",
-        "type": "url",
-        "url": "https://www.namecheckr.com/"
-      },
-      {
-        "name": "UserSearch.org",
-        "type": "url",
-        "url": "https://usersearch.org/",
-        "description": "Find someone by username or email on Social Networks, Dating Sites, Forums, Crypto Forums, Chat Sites and Blogs. 600+ sites Supported! Largest Reverse User Search Online!"
-      },
-      {
-        "name": "WhatsMyName (T)",
-        "type": "url",
-        "url": "https://github.com/WebBreacher/WhatsMyName",
-        "description": "This repository has the unified data required to perform user and username enumeration on various websites. Content is in a JSON file and can easily be used in other projects such as the ones below"
-      },
-      {
-        "name": "Thats Them",
-        "type": "url",
-        "url": "https://thatsthem.com/",
-        "description": "Free People Search Engine. Find Addresses, Phones, Emails, and Much More!"
-      },
-      {
-        "name": "KnowEm? (R)(C)",
-        "type": "url",
-        "url": "https://knowem.com/",
-        "description": "Search over 500 popular social networks, over 150 domain names, and the entire USPTO Trademark Database to instantly secure your brand on the internet"
-      },
-      {
-        "name": "Check Usernames",
-        "type": "url",
-        "url": "http://checkusernames.com/",
-        "description": "Check the use of your brand or username on 160 Social Networks"
-      },
-      {
-        "name": "NameCheckup",
-        "type": "url",
-        "url": "https://namecheckup.com/",
-        "description": "Find available username"
-      },
-      {
-        "name": "Instant Username Search",
-        "type": "url",
-        "url": "https://instantusername.com/",
-        "description": "Instant Username Search"
-      }],
-      "name": "Username Search Engines",
-      "type": "folder"
-    },
-    {
-      "children": [
-      {
-        "name": "Amazon Usernames (M)(D)",
-        "type": "url",
-        "url": "https://www.google.com/search?q=site:amazon.com+%3Cusername%3E"
-      },
-      {
-        "name": "Amazon Wishlists (U)(D)",
-        "type": "url",
-        "url": "https://www.amazon.com/gp/registry/search.html/?ie=UTF8&type=wishlist"
-      },
-      {
-        "name": "Github User (M)(D)",
-        "type": "url",
-        "url": "https://api.github.com/users/%3Cusername%3E/events/public"
-      },
-      {
-        "name": "Tinder Usernames (M)",
-        "type": "url",
-        "url": "https://www.gotinder.com/@%3Cusername%3E"
-      },
-      {
-        "name": "Keybase (R)",
-        "type": "url",
-        "url": "https://keybase.io/"
-      }],
-      "name": "Specific Sites",
-      "type": "folder"
-    }],
-    "name": "Username",
-    "type": "folder"
-  },
-
-  {
-    "children": [
-    {
-      "children": [
-      {
         "children": [
         {
           "name": "Google Images",
@@ -2725,6 +2625,105 @@
     },
     {
       "children": [
+        {
+          "children": [
+            {
+              "name": "Namechk",
+              "type": "url",
+              "url": "https://namechk.com/",
+              "description": "CHECK OVER 30 DOMAINS AND MORE THAN 90 SOCIAL MEDIA ACCOUNTS"
+            },
+            {
+              "name": "Namechk (T)(U)",
+              "type": "url",
+              "url": "https://github.com/HA71/Namechk",
+              "description": "Osint tool based on namechk.com for checking usernames on more than 100 websites, forums and social networks"
+            },
+            {
+              "name": "NameCheckr",
+              "type": "url",
+              "url": "https://www.namecheckr.com/"
+            },
+            {
+              "name": "UserSearch.org",
+              "type": "url",
+              "url": "https://usersearch.org/",
+              "description": "Find someone by username or email on Social Networks, Dating Sites, Forums, Crypto Forums, Chat Sites and Blogs. 600+ sites Supported! Largest Reverse User Search Online!"
+            },
+            {
+              "name": "WhatsMyName (T)",
+              "type": "url",
+              "url": "https://github.com/WebBreacher/WhatsMyName",
+              "description": "This repository has the unified data required to perform user and username enumeration on various websites. Content is in a JSON file and can easily be used in other projects such as the ones below"
+            },
+            {
+              "name": "Thats Them",
+              "type": "url",
+              "url": "https://thatsthem.com/",
+              "description": "Free People Search Engine. Find Addresses, Phones, Emails, and Much More!"
+            },
+            {
+              "name": "KnowEm? (R)(C)",
+              "type": "url",
+              "url": "https://knowem.com/",
+              "description": "Search over 500 popular social networks, over 150 domain names, and the entire USPTO Trademark Database to instantly secure your brand on the internet"
+            },
+            {
+              "name": "Check Usernames",
+              "type": "url",
+              "url": "http://checkusernames.com/",
+              "description": "Check the use of your brand or username on 160 Social Networks"
+            },
+            {
+              "name": "NameCheckup",
+              "type": "url",
+              "url": "https://namecheckup.com/",
+              "description": "Find available username"
+            },
+            {
+              "name": "Instant Username Search",
+              "type": "url",
+              "url": "https://instantusername.com/",
+              "description": "Instant Username Search"
+            }],
+            "name": "Username Search Engines",
+            "type": "folder"
+          },
+          {
+            "children": [
+              {
+                "name": "Amazon Usernames (M)(D)",
+                "type": "url",
+                "url": "https://www.google.com/search?q=site:amazon.com+%3Cusername%3E"
+              },
+              {
+                "name": "Amazon Wishlists (U)(D)",
+                "type": "url",
+                "url": "https://www.amazon.com/gp/registry/search.html/?ie=UTF8&type=wishlist"
+              },
+              {
+                "name": "Github User (M)(D)",
+                "type": "url",
+                "url": "https://api.github.com/users/%3Cusername%3E/events/public"
+              },
+              {
+                "name": "Tinder Usernames (M)",
+                "type": "url",
+                "url": "https://www.gotinder.com/@%3Cusername%3E"
+              },
+              {
+                "name": "Keybase (R)",
+                "type": "url",
+                "url": "https://keybase.io/"
+              }],
+            "name": "Specific Sites",
+            "type": "folder"
+          }],
+        "name": "Username",
+        "type": "folder"
+      },
+    {
+      "children": [
       {
         "name": "The Knot",
         "type": "url",
@@ -2889,7 +2888,7 @@
     "name": "People Search Engines",
     "type": "folder"
   },
-  
+
   {
     "children": [
     {
