@@ -3070,44 +3070,39 @@
       {
         "children": [
           {
-            "name": "Vehicle Purchase Records",
-            "type": "url",
-            "url": "http://vin.place/"
-          },
-          {
             "name": "VIN Decoderz",
             "type": "url",
-            "url": "http://www.vindecoderz.com/"
+            "url": "https://www.vindecoderz.com/",
+            "description": "This is a universal VIN decoder. Every car has a unique identifier code called a VIN. This number contains vital information about the car, such as its manufacturer, year of production, the plant it was produced in, type of engine, model and more. For instance, if someone wants to buy a car, it is possible to check the VIN number one the online database to ensure that the car was not stolen, damaged or illegally modified. The VIN number has a specific format that is globally recognized. This format was implemented by the ISO institute. Every car manufacturer is obliged to mark all its vehicles in this special format. This online service allows a user to check the validity of the car and get detailed information on almost any VIN number, search car parts and check the car's history. The VIN also allows a user to check the market value of a new or used car."
           },
           {
-            "name": "That's Them VIN Search",
+            "name": "That's Them VIN Search (R)",
             "type": "url",
-            "url": "https://thatsthem.com/vin-search"
-          },
-          {
-            "name": "Reverse Genie License Plates",
-            "type": "url",
-            "url": "http://www.reversegenie.com/plate.php"
+            "url": "https://thatsthem.com/vin-search",
+            "description": "Find Out Who Owns a Car FOR FREE"
           },
           {
             "name": "VinCheck",
             "type": "url",
-            "url": "https://www.nicb.org/theft_and_fraud_awareness/vincheck"
+            "url": "https://www.nicb.org/theft_and_fraud_awareness/vincheck",
+            "description": "NICB's VINCheck is a free lookup service provided to the public to assist in determining if a vehicle may have a record of an insurance theft claim, and has not been recovered, or has ever been reported as a salvage vehicle by participating NICB member insurance companies. To perform a lookup, a vehicle identification number (VIN) is required. A maximum of five searches can be conducted within a 24-hour period per IP address."
           },
           {
             "name": "TRAVIC - Public Transportation Tracking",
             "type": "url",
-            "url": "http://tracker.geops.ch/"
+            "url": "https://tracker.geops.ch/",
+            "description": "Portal combines maps of many aspects of public transport and mobility in general, e.g. real-time vehicle positions, line network plans, transit-maps, fare networks, location and detailed information on stations."
           },
           {
-            "name": "Vehicle Specifications Lookup",
+            "name": "Discover Vehicle Data (T)",
             "type": "url",
-            "url": "https://berla.co/products/ive/vehicle-lookup/"
+            "url": "https://berla.co/discover/",
+            "description": "Discover Vehicle Forensics"
           },
           {
-            "name": "License Plate Search",
+            "name": "Used Car Research (R)",
             "type": "url",
-            "url": "https://www.vehiclehistory.com/licence-plate-search/licence-plate.php"
+            "url": "https://www.vehiclehistory.com/"
           }],
         "name": "Vehicle Records",
         "type": "folder"
@@ -3115,24 +3110,20 @@
       {
         "children": [
           {
-            "name": "FlightAware - Live Flight Tracker",
+            "name": "FlightAware - Live Flight Tracker (R)",
             "type": "url",
-            "url": "http://flightaware.com/live/"
+            "url": "https://flightaware.com/live/"
           },
             {
-              "name": "Flightradar24.com",
+              "name": "Flightradar24.com (R)",
               "type": "url",
               "url": "https://www.flightradar24.com/"
             },
             {
-              "name": "World Aeronautical Database",
-              "type": "url",
-              "url": "http://worldaerodata.com/"
-            },
-            {
               "name": "ADS-B Exchange",
               "type": "url",
-              "url": "https://www.adsbexchange.com/"
+              "url": "https://www.adsbexchange.com/",
+              "description": "World's largest source of unfiltered flight data"
             }],
           "name": "Air Traffic Records",
           "type": "folder"
@@ -3142,22 +3133,18 @@
             {
               "name": "Marine Traffic",
               "type": "url",
-              "url": "http://www.marinetraffic.com/"
+              "url": "https://www.marinetraffic.com/"
             },
             {
-              "name": "Vessel Tracker",
+              "name": "Vessel Tracker (R)",
               "type": "url",
-              "url": "http://www.vesseltracker.com/app"
+              "url": "https://www.vesseltracker.com/app",
+              "description": "The most comprehensive and accurate picture of global shipping"
             },
             {
               "name": "Ship AIS",
               "type": "url",
               "url": "http://www.shipais.com/"
-            },
-            {
-              "name": "Shodan Ship Tracker",
-              "type": "url",
-              "url": "https://shiptracker.shodan.io/"
             },
             {
               "name": "OpenSeaMap - The free nautical chart",
@@ -3177,12 +3164,14 @@
             {
               "name": "Deutsche Bahn Open-Data-Portal (German)",
               "type": "url",
-              "url": "http://data.deutschebahn.com/"
+              "url": "https://data.deutschebahn.com/",
+              "description": "Auf diesem Portal veröffentlicht die Deutsche Bahn AG einen wachsenden Datenbestand rund um Infrastruktur und Mobilität."
             },
             {
               "name": "OpenRailwayMap",
               "type": "url",
-              "url": "https://www.openrailwaymap.org/"
+              "url": "https://www.openrailwaymap.org/",
+              "description": "Open Railways Map"
             }],
           "name": "Railway Records",
           "type": "folder"
@@ -3195,7 +3184,8 @@
         {
           "name": "Track-Trace",
           "type": "url",
-          "url": "http://www.track-trace.com/"
+          "url": "https://www.track-trace.com/",
+          "description": "World Track Trace"
         }],
       "name": "Transportation",
       "type": "folder"

@@ -327,6 +327,26 @@
       "url": "https://www.crimereports.com/"
     },
     {
+      "name": "World Aeronautical Database",
+      "type": "url",
+      "url": "http://worldaerodata.com/"
+    },
+    {
+      "name": "Reverse Genie License Plates",
+      "type": "url",
+      "url": "http://www.reversegenie.com/plate.php"
+    },
+    {
+      "name": "Vehicle Purchase Records",
+      "type": "url",
+      "url": "http://vin.place/"
+    },
+    {
+      "name": "Shodan Ship Tracker",
+      "type": "url",
+      "url": "https://shiptracker.shodan.io/"
+    },
+    {
       "name": "Most Wanted Criminal Pages",
       "type": "url",
       "url": "http://ancestorhunt.com/most-wanted-criminals-and-fugitives.htm"
