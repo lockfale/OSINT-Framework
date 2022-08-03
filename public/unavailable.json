@@ -347,6 +347,11 @@
       "url": "http://entitycube.research.microsoft.com/"
     },
     {
+      "name": "IceRocket",
+      "type": "url",
+      "url": "http://www.icerocket.com/advancedsearch?tab=blog&q=&n=&e=&a=&domain=&query="
+    },
+    {
       "name": "Economics Search Engine",
       "type": "url",
       "url": "http://ese.rfe.org/"

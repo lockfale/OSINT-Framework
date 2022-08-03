@@ -4818,12 +4818,13 @@
       {
         "name": "BoardReader",
         "type": "url",
-        "url": "http://boardreader.com/"
+        "url": "https://boardreader.com/"
       },
       {
         "name": "Omgili",
         "type": "url",
-        "url": "http://omgili.com/"
+        "url": "https://omgili.com/",
+        "description": "Find interesting and current discussions, news stories and blog posts"
       },
       {
         "name": "Craigslist Forums",
@@ -4833,7 +4834,8 @@
       {
         "name": "Delphi Forum Search",
         "type": "url",
-        "url": "http://www.delphiforums.com/"
+        "url": "https://www.delphiforums.com/",
+        "description": "Community and Conversation - Free Forums and Live Chat"
       },
       {
         "name": "Google Groups Search",
@@ -4841,7 +4843,7 @@
         "url": "https://groups.google.com/forum/#!overview"
       },
       {
-        "name": "Yahoo Groups",
+        "name": "Yahoo Groups (U)",
         "type": "url",
         "url": "https://groups.yahoo.com/neo/search?"
       }],
@@ -4851,19 +4853,14 @@
     {
       "children": [
       {
-        "name": "IceRocket",
-        "type": "url",
-        "url": "http://www.icerocket.com/advancedsearch?tab=blog&q=&n=&e=&a=&domain=&query="
-      },
-      {
-        "name": "Live Journal Seek",
+        "name": "Live Journal Seek (I)(U)",
         "type": "url",
         "url": "http://ljseek.com/"
       },
       {
-        "name": "Topix",
+        "name": "Topix (U)",
         "type": "url",
-        "url": "http://www.topix.com/search/article?q="
+        "url": "https://www.topix.com/search/article?q="
       },
       {
         "name": "Twingly Blog Search",
@@ -4873,12 +4870,13 @@
       {
         "name": "Blog Search Engine",
         "type": "url",
-        "url": "http://www.blogsearchengine.org/"
+        "url": "https://www.blogsearchengine.org/"
       },
       {
         "name": "Notey",
         "type": "url",
-        "url": "http://www.notey.com/"
+        "url": "https://www.notey.com/",
+        "description": "Design digital solutions to help businesses more fearlessly embrace a global web."
       }],
       "name": "Blog Search Engines",
       "type": "folder"
@@ -4886,19 +4884,21 @@
     {
       "children": [
       {
-        "name": "Mibbit",
+        "name": "Mib bit",
         "type": "url",
-        "url": "http://search.mibbit.com/"
+        "url": "https://search.mibbit.com/"
       },
       {
         "name": "ircsnapshot (T)",
         "type": "url",
-        "url": "https://github.com/bwall/ircsnapshot"
+        "url": "https://github.com/bwall/ircsnapshot",
+        "description": "Tool to gather information from IRC servers"
       },
       {
         "name": "netsplit.de",
         "type": "url",
-        "url": "http://irc.netsplit.de/channels/search.php"
+        "url": "https://irc.netsplit.de/channels/search.php",
+        "description": "Search chat rooms within the Internet Relay Chat and get informed about their users and topics! – Chat rooms on IRC are usually called channels. Use this IRC search engine to search in channel names and topics of around 500 IRC networks! Find interesting chat rooms and chat with people that share your interests!"
       },
       {
         "name": "BotBot.me",
