@@ -337,9 +337,94 @@
       "url": "https://followyourworld.appspot.com/"
     },
     {
+      "name": "FindTheData A Research Engine",
+      "type": "url",
+      "url": "http://www.findthedata.com/"
+    },
+    {
+      "name": "EntityCube",
+      "type": "url",
+      "url": "http://entitycube.research.microsoft.com/"
+    },
+    {
+      "name": "Economics Search Engine",
+      "type": "url",
+      "url": "http://ese.rfe.org/"
+    },
+    {
+      "name": "GlobalFile",
+      "type": "url",
+      "url": "https://globalfilesearch.com/"
+    },
+    {
+      "name": "FileMare",
+      "type": "url",
+      "url": "http://filemare.com/en-us"
+    },
+    {
+      "name": "JURN",
+      "type": "url",
+      "url": "http://jurn.org/#gsc.tab=0"
+    },
+    {
+      "name": "Microsoft Academic",
+      "type": "url",
+      "url": "https://academic.microsoft.com/"
+    },
+    {
+      "name": "Yobi3D - 3D Model Search",
+      "type": "url",
+      "url": "https://www.yobi3d.com/#!/"
+    },
+    {
       "name": "Google Maps Streetview Player",
       "type": "url",
       "url": "http://brianfolts.com/driver/"
+    },
+    {
+      "name": "MediaBugs",
+      "type": "url",
+      "url": "http://mediabugs.org/"
+    },
+    {
+      "name": "iBoogie",
+      "type": "url",
+      "url": "http://www.iboogie.com/"
+    },
+    {
+      "name": "iSEEK",
+      "type": "url",
+      "url": "http://iseek.com/iseek/home.page"
+    },
+    {
+      "name": "searx.me",
+      "type": "url",
+      "url": "https://searx.me/"
+    },
+    {
+      "name": "WhosTalkin",
+      "type": "url",
+      "url": "http://www.whostalkin.com/"
+    },
+    {
+      "name": "DMOZ",
+      "type": "url",
+      "url": "http://www.dmoz.org/"
+    },
+    {
+      "name": "SearchDiggity (T)",
+      "type": "url",
+      "url": "http://www.bishopfox.com/download/405/"
+    },
+    {
+      "name": "GitLeaks",
+      "type": "url",
+      "url": "https://gitleaks.com/"
+    },
+    {
+      "name": "Addictomatic",
+      "type": "url",
+      "url": "http://addictomatic.com/"
     },
     {
       "name": "Teehan+Lax Labs - Hyperlapse",

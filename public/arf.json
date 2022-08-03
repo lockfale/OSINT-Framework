@@ -2150,6 +2150,12 @@
           "description": "Twitterfall is a way of viewing the latest 'tweets' of upcoming trends and custom searches on Twitter. Updates fall from the top of the page in near-realtime"
         },
         {
+          "name": "Hoaxy",
+          "type": "url",
+          "url": "https://hoaxy.iuni.iu.edu/",
+          "description": "Visualize the spread of information on Twitter"
+        },
+        {
           "name": "Twellow",
           "type": "url",
           "url": "https://www.twellow.com/splash/",
@@ -3790,6 +3796,11 @@
                 "url": "https://rabota.ua"
               },
               {
+                "name": "Jobs on vc.ru",
+                "type": "url",
+                "url": "https://vc.ru/job"
+              },
+              {
                 "name": "Zarplata.ru (Russian) (R)",
                 "type": "url",
                 "url": "https://zarplata.ru"
@@ -4239,7 +4250,7 @@
       {
         "name": "Google",
         "type": "url",
-        "url": "https://www.google.com/?gws_rd=ssl"
+        "url": "https://www.google.com/"
       },
       {
         "name": "Bing",
@@ -4266,11 +4277,6 @@
         "type": "url",
         "url": "https://www.yandex.com/"
       },
-        {
-          "name": "Yandex (Russian)",
-          "type": "url",
-          "url": "https://www.yandex.ru"
-      },
       {
         "name": "Mail.ru (Russian)",
         "type": "url",
@@ -4279,7 +4285,7 @@
       {
         "name": "Baidu",
         "type": "url",
-        "url": "http://www.baidu.com/"
+        "url": "https://www.baidu.com/"
       },
       {
         "name": "Yahoo",
@@ -4292,14 +4298,9 @@
         "url": "https://www.google.com/advanced_search"
       },
       {
-        "name": "iBoogie",
-        "type": "url",
-        "url": "http://www.iboogie.com/"
-      },
-      {
         "name": "iZito",
         "type": "url",
-        "url": "http://www.izito.com/"
+        "url": "https://www.izito.com/"
       },
       {
         "name": "Bing vs. Google",
@@ -4314,17 +4315,20 @@
       {
         "name": "Advangle",
         "type": "url",
-        "url": "http://advangle.com/"
+        "url": "http://advangle.com/",
+        "description": "Advanced web search with Google and Bing"
       },
       {
         "name": "Instya",
         "type": "url",
-        "url": "http://www.instya.com/#/web/"
+        "url": "https://www.instya.com/",
+        "description": "Find the Best Products and Websites"
       },
       {
         "name": "Hulbee",
         "type": "url",
-        "url": "https://hulbee.com/"
+        "url": "https://hulbee.com/",
+        "description": "Data secure search engine"
       }],
       "name": "General Search",
       "type": "folder"
@@ -4332,54 +4336,33 @@
     {
       "children": [
       {
-        "name": "iSEEK",
-        "type": "url",
-        "url": "http://iseek.com/iseek/home.page"
-      },
-      {
         "name": "Biznar",
         "type": "url",
-        "url": "http://biznar.com/biznar/desktop/en/search.html"
+        "url": "https://biznar.com/biznar/desktop/en/search.html"
       },
       {
         "name": "Carrot2",
         "type": "url",
-        "url": "http://search.carrot2.org/stable/search"
+        "url": "https://search.carrot2.org/",
+        "description": "Carrot2 organizes your search results into topics. With an instant overview of what's available, you will quickly find what you're looking for."
       },
       {
         "name": "Yippy",
         "type": "url",
-        "url": "http://yippy.com/"
+        "url": "https://yippy.com/",
+        "description": "Yippy is a private metasearch engine that automatically categorizes search results based on what people search for. It lets you filter the results by category and flag any results you think aren’t right. It makes the difference between people who find what they’re looking for and people who have to go through long lists of results without help."
       },
       {
         "name": "eTools.ch",
         "type": "url",
-        "url": "https://www.etools.ch/"
-      },
-      {
-        "name": "searx.me",
-        "type": "url",
-        "url": "https://searx.me/"
-      },
-      {
-        "name": "Addictomatic",
-        "type": "url",
-        "url": "http://addictomatic.com/"
-      },
-      {
-        "name": "WhosTalkin",
-        "type": "url",
-        "url": "http://www.whostalkin.com/"
-      },
-      {
-        "name": "DMOZ",
-        "type": "url",
-        "url": "http://www.dmoz.org/"
+        "url": "https://www.etools.ch/",
+        "description": "The transparent Metasearch Engine from Switzerland"
       },
       {
         "name": "AnswerThePublic.com",
         "type": "url",
-        "url": "http://answerthepublic.com/"
+        "url": "https://answerthepublic.com/",
+        "description": "Discover what people are asking about"
       }],
       "name": "Meta Search",
       "type": "folder"
@@ -4399,14 +4382,36 @@
     {
       "children": [
       {
+        "name": "GitHub",
+        "type": "url",
+        "url": "https://github.com/"
+      },
+      {
+        "name": "GitLab",
+        "type": "url",
+        "url": "https://gitlab.com/users/sign_in"
+      },
+      {
+        "name": "BitBucket",
+        "type": "url",
+        "url": "https://bitbucket.org/"
+      },
+      {
+        "name": "StackOverflow",
+        "type": "url",
+        "url": "https://stackoverflow.com/"
+      },
+      {
         "name": "PublicWWW",
         "type": "url",
-        "url": "https://publicwww.com/"
+        "url": "https://publicwww.com/",
+        "description": "Source Code Search Engine"
       },
       {
         "name": "Searchcode",
         "type": "url",
-        "url": "https://searchcode.com/"
+        "url": "https://searchcode.com/",
+        "description": "Search 75 billion lines of code from 40 million project"
       },
       {
         "name": "NerdyData",
@@ -4416,28 +4421,20 @@
       {
         "name": "Gitrob (T)",
         "type": "url",
-        "url": "https://github.com/michenriksen/gitrob"
+        "url": "https://github.com/michenriksen/gitrob",
+        "description": "Gitrob is a tool to help find potentially sensitive files pushed to public repositories on Github. Gitrob will clone repositories belonging to a user or organization down to a configurable depth and iterate through the commit history and flag files that match signatures for potentially sensitive files. The findings will be presented through a web interface for easy browsing and analysis."
       },
       {
         "name": "Github-Dorks (T)",
         "type": "url",
-        "url": "https://github.com/techgaun/github-dorks"
-      },
-      {
-        "name": "GitLeaks",
-        "type": "url",
-        "url": "https://gitleaks.com/"
+        "url": "https://github.com/techgaun/github-dorks",
+        "description": "Github Search is a quite powerful and useful feature that can be used to search for sensitive data on repositories. Collection of Github dorks can reveal sensitive personal and/or organizational information such as private keys, credentials, authentication tokens, etc. This list is supposed to be useful for assessing security and performing pen-testing of systems."
       }],
       "name": "Code Search",
       "type": "folder"
     },
     {
       "children": [
-      {
-        "name": "GlobalFile",
-        "type": "url",
-        "url": "https://globalfilesearch.com/"
-      },
       {
         "name": "FTP Google Dork (D)",
         "type": "url",
@@ -4446,12 +4443,7 @@
       {
         "name": "Napalm FTP",
         "type": "url",
-        "url": "http://www.searchftps.net/"
-      },
-      {
-        "name": "FileMare",
-        "type": "url",
-        "url": "http://filemare.com/en-us"
+        "url": "https://www.searchftps.net/"
       }],
       "name": "FTP Search",
       "type": "folder"
@@ -4461,7 +4453,8 @@
       {
         "name": "PubPeer",
         "type": "url",
-        "url": "https://pubpeer.com/"
+        "url": "https://pubpeer.com/",
+        "description": "The PubPeer database contains all articles. Search results return articles with comments."
       },
       {
         "name": "Bielefeld Academic Search Engine",
@@ -4476,12 +4469,14 @@
       {
         "name": "PubMed - National Center for Biotechnology Information",
         "type": "url",
-        "url": "http://www.ncbi.nlm.nih.gov/pubmed/"
+        "url": "https://www.ncbi.nlm.nih.gov/pubmed/",
+        "description": "PubMed® comprises more than 34 million citations for biomedical literature from MEDLINE, life science journals, and online books. Citations may include links to full text content from PubMed Central and publisher web sites."
       },
       {
-        "name": "Social Science Research Network",
+        "name": "Social Science Research Network (R)",
         "type": "url",
-        "url": "http://ssrn.com/en/"
+        "url": "https://ssrn.com/en/",
+        "description": "SSRN´s eLibrary provides 1,147,835 research papers from 948,760 researchers in more than 65 disciplines."
       },
       {
         "name": "Open Library",
@@ -4491,92 +4486,97 @@
       {
         "name": "World Digital Library",
         "type": "url",
-        "url": "https://www.wdl.org/en/"
-      },
-      {
-        "name": "JURN",
-        "type": "url",
-        "url": "http://jurn.org/#gsc.tab=0"
+        "url": "https://www.wdl.org/en/",
+        "description": "US Library of Congress Collection"
       },
       {
         "name": "HathiTrust Digital Library",
         "type": "url",
-        "url": "https://www.hathitrust.org/"
+        "url": "https://www.hathitrust.org/",
+        "description": "Search the HathiTrust Digital Library"
       },
       {
         "name": "UK National Archives",
         "type": "url",
-        "url": "http://discovery.nationalarchives.gov.uk/"
+        "url": "https://discovery.nationalarchives.gov.uk/",
+        "description": "Access records held by The National Archives and more than 2,500 other archives."
       },
       {
         "name": "OpenGrey EU Papers",
         "type": "url",
-        "url": "http://opengrey.eu/"
+        "url": "https://opengrey.eu/",
+        "description": "OPENGREY.EU – Grey Literature Database"
       },
       {
         "name": "US Gov Publishing Office - FDsys",
         "type": "url",
-        "url": "https://www.gpo.gov/fdsys/"
+        "url": "https://www.gpo.gov/",
+        "description": "Discover U.S. Government Information"
       },
       {
         "name": "OpenDOAR",
         "type": "url",
-        "url": "http://www.opendoar.org/search.php"
+        "url": "https://v2.sherpa.ac.uk/",
+        "description": "Research Funders' Open Access Policies"
       },
       {
-        "name": "Microsoft Academic",
+        "name": "Science Direct (R)",
         "type": "url",
-        "url": "https://academic.microsoft.com/"
+        "url": "https://www.sciencedirect.com/",
+        "description": "Search for peer-reviewed journal articles and book chapters (including open access content)"
       },
       {
-        "name": "Science Direct",
+        "name": "PQDT Open (R)",
         "type": "url",
-        "url": "http://www.sciencedirect.com/"
-      },
-      {
-        "name": "PQDT Open",
-        "type": "url",
-        "url": "http://pqdtopen.proquest.com/search.html"
+        "url": "https://pqdtopen.proquest.com/search.html",
+        "description": "Scholarly Journals, Books, Dissertations & Theses"
       },
       {
         "name": "Think Tank Search",
         "type": "url",
-        "url": "http://guides.library.harvard.edu/hks/think_tank_search"
+        "url": "https://guides.library.harvard.edu/hks/think_tank_search",
+        "description": "A Google Custom Search of more than 1200 think tanks and research centers."
       },
       {
         "name": "Library Databases",
         "type": "url",
-        "url": "http://guides.uflib.ufl.edu/az.php"
+        "url": "https://guides.uflib.ufl.edu/az.php"
       },
       {
         "name": "Copyscape Plagiarism Checker",
         "type": "url",
-        "url": "http://copyscape.com/"
+        "url": "https://copyscape.com/",
+        "description": "Search for copies of your page on the web."
       },
       {
         "name": "Lazy Scholar (T)",
         "type": "url",
-        "url": "http://www.lazyscholar.org/"
+        "url": "http://www.lazyscholar.org/",
+        "description": "Finds free scholarly full texts, metrics, and provides quick citation and sharing links automatically"
       },
       {
         "name": "Open Access Scholarly Journals",
         "type": "url",
-        "url": "http://www.pagepress.org/"
+        "url": "https://www.pagepress.org/",
+        "description": "Most recent articles published by our journals"
       },
       {
         "name": "The Open Syllabus Project",
         "type": "url",
-        "url": "http://explorer.opensyllabusproject.org/"
+        "url": "https://opensyllabus.org/",
+        "description": "Mapping the college curriculum across 7,292,573 syllabi"
       },
       {
-        "name": "Science Publications",
+        "name": "Science Publications (R)",
         "type": "url",
-        "url": "http://www.thescipub.com/"
+        "url": "https://www.thescipub.com/",
+        "description": "A leader in scientific publishing with over 10,000 articles published in 30+ open access journals"
       },
       {
-        "name": "arXiv.org",
+        "name": "arXiv.org (R)",
         "type": "url",
-        "url": "https://arxiv.org/"
+        "url": "https://arxiv.org/",
+        "description": "arXiv is a free distribution service and an open-access archive for 2,106,460 scholarly articles in the fields of physics, mathematics, computer science, quantitative biology, quantitative finance, statistics, electrical engineering and systems science, and economics. Materials on this site are not peer-reviewed by arXiv."
       }],
       "name": "Academic / Publication Search",
       "type": "folder"
@@ -4584,74 +4584,79 @@
     {
       "children": [
       {
-        "name": "Paperboy Online Newspapers",
-        "type": "url",
-        "url": "http://www.thepaperboy.com/"
-      },
-      {
         "name": "Google News Search",
         "type": "url",
-        "url": "https://news.google.com/news/advanced_news_search?"
+        "url": "https://news.google.com/news/advanced_news_search?",
+        "description": "The new Google News has a fresh look, brand-new briefing, & customized topic"
       },
       {
-        "name": "Flipboard",
+        "name": "Flipboard (R)",
         "type": "url",
         "url": "https://flipboard.com/"
       },
       {
+        "name": "Paperboy Online Newspapers",
+        "type": "url",
+        "url": "https://www.thepaperboy.com/"
+      },
+      {
         "name": "YouGotTheNews",
         "type": "url",
-        "url": "http://www.yougotthenews.com/"
+        "url": "https://www.yougotthenews.com/"
       },
       {
-        "name": "NewspaperARCHIVE.com",
+        "name": "NewspaperARCHIVE.com (I)",
         "type": "url",
-        "url": "http://newspaperarchive.com/"
+        "url": "https://newspaperarchive.com/"
       },
       {
-        "name": "PressReader.com",
+        "name": "PressReader.com (R)",
         "type": "url",
-        "url": "http://www.pressreader.com/"
+        "url": "https://www.pressreader.com/",
+        "description": "Thousands of newspapers and magazines. One subscription"
       },
       {
         "name": "Newspaper Map",
         "type": "url",
-        "url": "http://newspapermap.com/"
+        "url": "https://newspapermap.com/"
       },
       {
         "name": "NewsBrief",
         "type": "url",
-        "url": "http://emm.newsbrief.eu/NewsBrief/clusteredition/en/latest.html"
+        "url": "https://emm.newsbrief.eu/NewsBrief/clusteredition/en/latest.html"
       },
       {
         "name": "AllYouCanRead.com",
         "type": "url",
-        "url": "http://www.allyoucanread.com/"
+        "url": "https://www.allyoucanread.com/"
       },
       {
-        "name": "World News",
+        "name": "World News (R)",
         "type": "url",
         "url": "https://wn.com/#/search"
       },
       {
         "name": "NewsNow.co.uk",
         "type": "url",
-        "url": "http://www.newsnow.co.uk/h/"
+        "url": "https://www.newsnow.co.uk/h/"
       },
       {
-        "name": "Hubii",
+        "name": "Nahmii (Hubii)",
         "type": "url",
-        "url": "http://hubii.com/"
+        "url": "https://www.nahmii.io/",
+        "description": "Scale with Nahmii. Ethereum’s interoperable layer 2 scaling solution, offering instant finality, predictable fees, and commercial readiness."
       },
       {
-        "name": "Inshorts",
+        "name": "Inshorts (T)",
         "type": "url",
-        "url": "https://www.inshorts.com/en/read"
+        "url": "https://www.inshorts.com/en/read",
+        "description": "Stay informed in 60 words. We understand you don’t have time to go through long news articles everyday. So we cut the clutter and deliver them, in 60-word shorts. Short news for the mobile generation."
       },
       {
         "name": "NewsBot",
         "type": "url",
-        "url": "https://getnewsbot.com/"
+        "url": "https://getnewsbot.com/",
+        "description": "Related news at the click of a button"
       }],
       "name": "News Search",
       "type": "folder"
@@ -4659,39 +4664,22 @@
     {
       "children": [
       {
-        "name": "Yobi3D - 3D Model Search",
-        "type": "url",
-        "url": "https://www.yobi3d.com/#!/"
-      },
-      {
         "name": "Colossus International Engine List",
         "type": "url",
-        "url": "http://www.searchenginecolossus.com/"
+        "url": "https://www.searchenginecolossus.com/",
+        "description": "INTERNATIONAL DIRECTORY OF SEARCH ENGINES"
       },
       {
         "name": "SimilarSites",
         "type": "url",
-        "url": "http://www.similarsites.com/browse"
-      },
-      {
-        "name": "Economics Search Engine",
-        "type": "url",
-        "url": "http://ese.rfe.org/"
+        "url": "https://www.similarsites.com",
+        "description": "Search for a Site"
       },
       {
         "name": "AOL Search Database",
         "type": "url",
-        "url": "http://search-id.com/"
-      },
-      {
-        "name": "EntityCube",
-        "type": "url",
-        "url": "http://entitycube.research.microsoft.com/"
-      },
-      {
-        "name": "FindTheData A Research Engine",
-        "type": "url",
-        "url": "http://www.findthedata.com/"
+        "url": "https://search-id.com/",
+        "description": "Here is search logs of 650,000 AOL users. It's very interesting to view search history of particular person and analyze his personality."
       }],
       "name": "Other Search",
       "type": "folder"
@@ -4701,37 +4689,38 @@
       {
         "name": "Million Short",
         "type": "url",
-        "url": "https://millionshort.com/"
-      },
-      {
-        "name": "SearchDiggity (T)",
-        "type": "url",
-        "url": "http://www.bishopfox.com/download/405/"
+        "url": "https://millionshort.com/",
+        "description": "At Million Short, we are committed to designing innovative technology to redefine internet search. In creating a differentiated search, we aim to provide alternative methods for organizing, accessing, and discovering the vast web of information on the Internet."
       },
       {
         "name": "Scanner-inurlbr (T)",
         "type": "url",
-        "url": "https://github.com/googleinurl/SCANNER-INURLBR"
+        "url": "https://github.com/MrCl0wnLab/SCANNER-INURLBR",
+        "description": "Advanced search in search engines, enables analysis provided to exploit GET / POST capturing emails & urls, with an internal custom validation junction for each target / url found."
       },
       {
         "name": "Google Alerts",
         "type": "url",
-        "url": "https://www.google.com/alerts#"
+        "url": "https://www.google.com/alerts#",
+        "description": "Monitor the web for interesting new content"
       },
       {
         "name": "Google Custom Search Engine",
         "type": "url",
-        "url": "https://cse.google.com/cse/"
+        "url": "https://cse.google.com/cse/",
+        "description": "Google programmable custom search engine"
       },
       {
         "name": "pagodo - Passive Google Dork (T)",
         "type": "url",
-        "url": "https://github.com/opsdisk/pagodo"
+        "url": "https://github.com/opsdisk/pagodo",
+        "description": "pagodo automates Google searching for potentially vulnerable web pages and applications on the Internet. It replaces manually performing Google dork searches with a web GUI browser."
       },
       {
         "name": "Talkwalker Alerts",
         "type": "url",
-        "url": "http://www.talkwalker.com/alerts"
+        "url": "https://www.talkwalker.com/alerts",
+        "description": "Monitor your brand name, competitors, events or any other topic across the web"
       }],
       "name": "Search Tools",
       "type": "folder"
@@ -4746,12 +4735,12 @@
       {
         "name": "Google Search Operators Guide",
         "type": "url",
-        "url": "http://googleguide.com/advanced_operators_reference.html"
+        "url": "https://googleguide.com/advanced_operators_reference.html"
       },
       {
         "name": "Google Guide Cheat Sheet",
         "type": "url",
-        "url": "http://googleguide.com/help/calculator.html"
+        "url": "https://googleguide.com/help/calculator.html"
       }],
       "name": "Search Engine Guides",
       "type": "folder"
@@ -4761,52 +4750,59 @@
       {
         "name": "Hoaxy",
         "type": "url",
-        "url": "https://hoaxy.iuni.iu.edu/"
+        "url": "https://hoaxy.iuni.iu.edu/",
+        "description": "Visualize the spread of information on Twitter"
       },
       {
         "name": "Africa Check",
         "type": "url",
-        "url": "https://africacheck.org/"
+        "url": "https://africacheck.org/",
+        "description": "Africa Check sorts fact from fiction"
       },
       {
         "name": "PolitiFact",
         "type": "url",
-        "url": "http://www.politifact.com/"
+        "url": "https://www.politifact.com/",
+        "description": "Our only agenda is to publish the truth so you can be an informed participant in democracy."
+      },
+      {
+        "name": "FactCheck.org",
+        "type": "url",
+        "url": "https://www.factcheck.org/",
+        "description": "Nonpartisan, nonprofit “consumer advocate” for voters that aims to reduce the level of deception and confusion in U.S. politics. We monitor the factual accuracy of what is said by major U.S. political players in the form of TV ads, debates, speeches, interviews and news releases. Our goal is to apply the best practices of both journalism and scholarship, and to increase public knowledge and understanding."
       },
       {
         "name": "SciCheck",
         "type": "url",
-        "url": "http://www.factcheck.org/scicheck/"
+        "url": "https://www.factcheck.org/scicheck/",
+        "description": "FactCheck.org’s SciCheck feature focuses exclusively on false and misleading scientific claims that are made by partisans to influence public policy. It was launched in January 2015 with a grant from the Stanton Foundation. The foundation was founded by the late Frank Stanton, president of CBS for 25 years, from 1946 to 1971."
       },
       {
         "name": "Duke Reporters' Lab",
         "type": "url",
-        "url": "http://reporterslab.org/fact-checking/"
+        "url": "https://reporterslab.org/fact-checking/"
       },
       {
         "name": "Stop Fake Tools",
         "type": "url",
-        "url": "http://www.stopfake.org/en/category/tools/"
+        "url": "https://www.stopfake.org/en/category/tools/"
       },
       {
-        "name": "Snopes",
+        "name": "Snopes (R)",
         "type": "url",
-        "url": "http://www.snopes.com/"
+        "url": "https://www.snopes.com/"
       },
       {
         "name": "Verification Handbook",
         "type": "url",
-        "url": "http://verificationhandbook.com/"
+        "url": "https://verificationhandbook.com/",
+        "description": "A definitive guide to verifying digital content for emergency coverage"
       },
       {
-        "name": "Verification Junkie",
+        "name": "First Draft (Verification Junkie)",
         "type": "url",
-        "url": "http://verificationjunkie.com/"
-      },
-      {
-        "name": "MediaBugs",
-        "type": "url",
-        "url": "http://mediabugs.org/"
+        "url": "https://firstdraftnews.org/",
+        "description": "First Draft formed as a nonprofit coalition with nine founding partners in June 2015, providing practical and ethical guidance in how to find, verify, and publish content sourced from the social web. In September 2016, our original coalition expanded to become an international Partner Network of newsrooms, universities, platforms and civil society organizations."
       }],
       "name": "Fact Checking",
       "type": "folder"
