@@ -327,6 +327,31 @@
       "url": "https://www.crimereports.com/"
     },
     {
+      "name": "OpenStreetMap Routing Service",
+      "type": "url",
+      "url": "http://www.yournavigation.org/"
+    },
+    {
+      "name": "Google Maps Update Alerts",
+      "type": "url",
+      "url": "https://followyourworld.appspot.com/"
+    },
+    {
+      "name": "Google Maps Streetview Player",
+      "type": "url",
+      "url": "http://brianfolts.com/driver/"
+    },
+    {
+      "name": "Teehan+Lax Labs - Hyperlapse",
+      "type": "url",
+      "url": "http://labs.teehanlax.com/project/hyperlapse"
+    },
+    {
+      "name": "TerraServer",
+      "type": "url",
+      "url": "https://www.terraserver.com/view"
+    },
+    {
       "name": "World Aeronautical Database",
       "type": "url",
       "url": "http://worldaerodata.com/"

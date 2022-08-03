@@ -3986,9 +3986,10 @@
     {
       "children": [
       {
-        "name": "SunCalc",
+        "name": "SunCalc (U)",
         "type": "url",
-        "url": "http://suncalc.net/"
+        "url": "http://suncalc.net/",
+        "description": "SunCalc is a little app that shows sun movement and sunlight phases during the given day at the given location."
       }],
       "name": "Geolocation Tools",
       "type": "folder"
@@ -3998,22 +3999,31 @@
       {
         "name": "GPSVisualizer",
         "type": "url",
-        "url": "http://www.gpsvisualizer.com/geocode"
+        "url": "https://www.gpsvisualizer.com/geocode",
+        "description": "GPS Visualizer's Quick Batch Geocoder"
       },
       {
         "name": "Military Grid Reference System Coordinates",
         "type": "url",
-        "url": "https://dominoc925-pages.appspot.com/mapplets/cs_mgrs.html"
+        "url": "https://dominoc925-pages.appspot.com/mapplets/cs_mgrs.html",
+        "description": "Show Military Grid Reference System (MGRS) Coordinates"
+      },
+      {
+        "name": "Russian Military Forces: Interactive Map",
+        "type": "url",
+        "url": "https://gfsis.org.ge/maps/russian-military-forces"
       },
       {
         "name": "Batch Geocoding",
         "type": "url",
-        "url": "https://www.doogal.co.uk/BatchGeocoding.php"
+        "url": "https://www.doogal.co.uk/BatchGeocoding.php",
+        "description": "Batch geocoding.Use this page to geocode a large number of UK postcodes. Paste them into the 'Postcodes' box (each postcode separated by a new line), choose your options and hit the 'Geocode' button. Then go and make a cup of tea and when you return the 'Output' box should have comma separated geocoded postcodes, in latitude/longitude and easting/northing."
       },
       {
         "name": "Batch Reverse Geocoding",
         "type": "url",
-        "url": "https://www.doogal.co.uk/BatchReverseGeocoding.php"
+        "url": "https://www.doogal.co.uk/BatchReverseGeocoding.php",
+        "description": "Coordinate conversion. This page will let you convert a large number of locations in various coordinate systems (such as latitude/longitude) to other coordinate systems. Paste them into the input box (latitude/longitude should be separated by either tabs or commas followed by new lines) and hit the 'Convert' button. The box below should contain the converted coordinates. Copy the output into a CSV file for easier manipulation."
       }],
       "name": "Coordinates",
       "type": "folder"
@@ -4021,29 +4031,22 @@
     {
       "children": [
       {
-        "name": "BatchGeo",
+        "name": "BatchGeo (R)",
         "type": "url",
-        "url": "https://batchgeo.com/"
+        "url": "https://batchgeo.com/",
+        "description": "he fastest way to map your data"
       },
       {
         "name": "Hyperlapse (T)",
         "type": "url",
-        "url": "https://github.com/TeehanLax/Hyperlapse.js"
-      },
-      {
-        "name": "Teehan+Lax Labs - Hyperlapse",
-        "type": "url",
-        "url": "http://labs.teehanlax.com/project/hyperlapse"
-      },
-      {
-        "name": "Google Maps Streetview Player",
-        "type": "url",
-        "url": "http://brianfolts.com/driver/"
+        "url": "https://github.com/TeehanLax/Hyperlapse.js",
+        "description": "This library was written to create dynamic hyper-lapse (time-lapse with movement) sequences using Google Street View."
       },
       {
         "name": "ScribbleMaps",
         "type": "url",
-        "url": "http://scribblemaps.com/"
+        "url": "https://scribblemaps.com/",
+        "description": "Build custom maps and identify insights across real estate, engineering, research, business, exploration, construction, manufacturing - and so much more."
       }],
       "name": "Map Reporting Tools",
       "type": "folder"
@@ -4051,22 +4054,34 @@
     {
       "children": [
       {
+        "name": "Google Maps",
+        "type": "url",
+        "url": "https://www.google.com/maps/"
+      },
+      {
+        "name": "Google Earth",
+        "type": "url",
+        "url": "https://www.google.com/earth/"
+      },
+      {
+        "name": "Google Earth Overlays",
+        "type": "url",
+        "url": "https://www.mgmaps.com/kml/#view"
+      },
+      {
         "name": "OpenSignal",
         "type": "url",
-        "url": "https://opensignal.com/"
+        "url": "https://opensignal.com/",
+        "description": "Network Experience Insights. REVEALING THE TRUTH ABOUT CONNECTIVITY EXPERIENCE GLOBALLY"
       },
       {
         "name": "AntennaSearch",
         "type": "url",
-        "url": "http://www.antennasearch.com/"
+        "url": "https://www.antennasearch.com/",
+        "description": "Tower & Antenna Database"
       }],
       "name": "Mobile Coverage",
       "type": "folder"
-    },
-    {
-      "name": "Google Maps",
-      "type": "url",
-      "url": "https://www.google.com/maps/"
     },
     {
       "name": "Bing Maps",
@@ -4086,37 +4101,28 @@
     {
       "name": "Instant Google Street View",
       "type": "url",
-      "url": "http://www.instantstreetview.com/"
+      "url": "https://www.instantstreetview.com/"
     },
     {
       "name": "Wikimapia",
       "type": "url",
-      "url": "http://wikimapia.org/#lang=en&lat=40.078071&lon=-100.458984&z=5&m=b"
+      "url": "https://wikimapia.org/#lang=en&lat=40.078071&lon=-100.458984&z=5&m=b"
     },
     {
       "name": "OpenStreetMap",
       "type": "url",
-      "url": "http://www.openstreetmap.org/#map=5/40.614/-100.679"
+      "url": "https://www.openstreetmap.org/#map=5/40.614/-100.679"
     },
     {
       "name": "Flash Earth",
       "type": "url",
-      "url": "http://www.flashearth.com/"
+      "url": "https://www.flashearth.com/"
     },
     {
       "name": "Historic Aerials",
       "type": "url",
-      "url": "http://www.historicaerials.com/?javascript=&"
-    },
-    {
-      "name": "Google Maps Update Alerts",
-      "type": "url",
-      "url": "https://followyourworld.appspot.com/"
-    },
-    {
-      "name": "Google Earth Overlays",
-      "type": "url",
-      "url": "http://www.mgmaps.com/kml/#view"
+      "url": "https://www.historicaerials.com/?javascript=&",
+      "description": "The Largest Database of United States Historic Aerial Imagery"
     },
     {
       "name": "Yandex.Maps",
@@ -4124,39 +4130,36 @@
       "url": "https://yandex.com/maps/"
     },
     {
-      "name": "TerraServer",
+      "name": "2GIS",
       "type": "url",
-      "url": "https://www.terraserver.com/view"
-    },
-    {
-      "name": "Google Earth",
-      "type": "url",
-      "url": "https://www.google.com/earth/"
+      "url": "https://2gis.ru"
     },
     {
       "name": "Baidu Maps",
       "type": "url",
-      "url": "http://map.baidu.com/"
+      "url": "https://map.baidu.com/"
     },
     {
       "name": "Corona",
       "type": "url",
-      "url": "http://corona.cast.uark.edu/"
+      "url": "https://corona.cast.uark.edu/",
+      "description": "Corona Atlas & Referencing System"
     },
     {
-      "name": "Daum (Korean)",
+      "name": "KakaoMap / Daum (Korean)",
       "type": "url",
-      "url": "http://map.daum.net/"
+      "url": "https://map.kakao.com/"
     },
     {
       "name": "Naver (Korean)",
       "type": "url",
-      "url": "http://map.naver.com/"
+      "url": "https://map.naver.com/"
     },
     {
       "name": "OpenStreetMap",
       "type": "url",
-      "url": "http://www.openstreetmap.org/#map=5/51.500/-0.100"
+      "url": "https://www.openstreetmap.org/#map=5/51.500/-0.100",
+      "description": "OpenStreetMap is a map of the world, created by people like you and free to use under an open license."
     },
     {
       "name": "EarthExplorer",
@@ -4164,39 +4167,38 @@
       "url": "https://earthexplorer.usgs.gov/"
     },
     {
-      "name": "OpenStreetCam",
+      "name": "OpenStreetCam (KartaView) (R)",
       "type": "url",
-      "url": "http://openstreetcam.org/"
+      "url": "https://openstreetcam.org/",
+      "description": "Collect and share street level imagery from around the world to an open repository, available to everyone."
     },
     {
       "name": "Dronetheworld",
       "type": "url",
-      "url": "http://www.dronetheworld.com/"
+      "url": "https://www.dronetheworld.com/"
     },
     {
       "name": "Travel by Drone",
       "type": "url",
-      "url": "http://travelbydrone.com/"
+      "url": "https://travelbydrone.com/"
     },
     {
-      "name": "Hivemapper",
+      "name": "Hivemapper (R)(C)",
       "type": "url",
-      "url": "https://hivemapper.com/"
-    },
-    {
-      "name": "LandsatLook Viewer",
-      "type": "url",
-      "url": "https://landsatlook.usgs.gov/"
+      "url": "https://hivemapper.com/",
+      "description": "The world’s first crypto-enabled dashcam that mines HONEY and grows the map while you drive. It’s a new way to mine crypto and represents a fundamental shift in how maps are built."
     },
     {
       "name": "Sentinel2Look Viewer",
       "type": "url",
-      "url": "https://landsatlook.usgs.gov/sentinel2/"
+      "url": "https://landsatlook.usgs.gov/",
+      "description": "LandsatLook is a tool that allows rapid online viewing and access to the USGS Landsat Collection 2 data. LandsatLook leverages resources available via a commercial cloud environment including Cloud Optimized GeoTIFF (COG) and Spatio Temporal Asset Catalog (STAC) metadata. USGS Landsat Collection 1 and Sentinel-2 data continue to be available using EarthExplorer or Glovis."
     },
     {
       "name": "NEXRAD Data Inventory Search",
       "type": "url",
-      "url": "https://www.ncdc.noaa.gov/nexradinv/"
+      "url": "https://www.ncdc.noaa.gov/nexradinv/",
+      "description": "NEXRAD Data Archive, Inventory and Access"
     },
     {
       "name": "MapQuest",
@@ -4206,29 +4208,27 @@
     {
       "name": "OpenRailwayMap",
       "type": "url",
-      "url": "http://www.openrailwaymap.org/"
-    },
-    {
-      "name": "OpenStreetMap Routing Service",
-      "type": "url",
-      "url": "http://www.yournavigation.org/"
+      "url": "https://www.openrailwaymap.org/",
+      "description": "Open Railway Map"
     },
     {
       "name": "Hiking & Biking Map",
       "type": "url",
-      "url": "http://hikebikemap.org/"
+      "url": "https://hikebikemap.org/",
+      "description": "A map for hiking and biking. Render style by Colin Marquardt"
     },
     {
       "name": "US Nav Guide Zip Code Data",
       "type": "url",
-      "url": "http://www.usnaviguide.com/"
+      "url": "https://www.usnaviguide.com/"
     },
     {
       "name": "Wayback Imagery",
       "type": "url",
-      "url": "https://livingatlas.arcgis.com/wayback/"
+      "url": "https://livingatlas.arcgis.com/wayback/",
+      "description": "World Imagery Wayback"
     }],
-    "name": "Geolocation Tools / Maps",
+    "name": "Geolocation Tools & Maps",
     "type": "folder"
   },
 
