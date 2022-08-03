@@ -247,6 +247,106 @@
       "url": "https://whocalld.com/"
     },
     {
+      "name": "TV Closed Caption Search",
+      "type": "url",
+      "url": "https://archive.org/details/tv"
+    },
+    {
+      "name": "Large-scale Scene Understanding Challenge",
+      "type": "url",
+      "url": "http://lsun.cs.princeton.edu/2016/"
+    },
+    {
+      "name": "Weleakinfo",
+      "type": "url",
+      "url": "https://search.weleakinfo.com/"
+    },
+    {
+      "name": "Wayback Machine - Beta Search",
+      "type": "url",
+      "url": "https://web-beta.archive.org/#/"
+    },
+    {
+      "name": "Archive.is",
+      "type": "url",
+      "url": "https://archive.is/"
+    },
+    {
+      "name": "LeadFerret.com",
+      "type": "url",
+      "url": "https://leadferret.com/search"
+    },
+    {
+      "name": "CVGadget",
+      "type": "url",
+      "url": "http://www.cvgadget.com/"
+    },
+    {
+      "name": "Market Visual",
+      "type": "url",
+      "url": "http://www.marketvisual.com/"
+    },
+    {
+      "name": "Plonked",
+      "type": "url",
+      "url": "https://www.plonked.com/"
+    },
+    {
+      "name": "Data.com Connect",
+      "type": "url",
+      "url": "https://connect.data.com/"
+    },
+    {
+      "name": "The Investor - Africa",
+      "type": "url",
+      "url": "http://theinvestormailinglist.com/recent-reports/"
+    },
+    {
+      "name": "NACo County Explorer",
+      "type": "url",
+      "url": "http://explorer.naco.org/index.html"
+    },
+    {
+      "name": "Moose Roots Death Records",
+      "type": "url",
+      "url": "http://death-records.mooseroots.com/"
+    },
+    {
+      "name": "Birth Database",
+      "type": "url",
+      "url": "http://www.birthdatabase.com/"
+    },
+    {
+      "name": "Moose Roots Birth Records",
+      "type": "url",
+      "url": "http://birth-records.mooseroots.com/"
+    },
+    {
+      "name": "CrimeReports.com",
+      "type": "url",
+      "url": "https://www.crimereports.com/"
+    },
+    {
+      "name": "Most Wanted Criminal Pages",
+      "type": "url",
+      "url": "http://ancestorhunt.com/most-wanted-criminals-and-fugitives.htm"
+    },
+    {
+      "name": "Felon Spy",
+      "type": "url",
+      "url": "http://www.felonspy.com/search.html"
+    },
+    {
+      "name": "UK Data",
+      "type": "url",
+      "url": "http://ukdata.com/"
+    },
+    {
+      "name": "Screenshots.com",
+      "type": "url",
+      "url": "http://www.screenshots.com/"
+    },
+    {
       "name": "Snoop Station",
       "type": "url",
       "url": "http://snoopstation.com/index.html"
