@@ -1746,6 +1746,12 @@
           "type": "url",
           "url": "http://www.onlineocr.net/",
           "description": "IMAGE TO TEXT CONVERTER USING OCR ONLINE"
+        },
+        {
+          "name": "Online OCR",
+          "type": "url",
+          "url": "http://www.onlineocr.net/",
+          "description": "IMAGE TO TEXT CONVERTER USING OCR ONLINE"
         }],
         "name": "OCR",
         "type": "folder"
@@ -4917,11 +4923,6 @@
     {
       "children": [
       {
-        "name": "DeepL Translator",
-        "type": "url",
-        "url": "https://www.deepl.com/"
-      },
-      {
         "name": "Google Translate",
         "type": "url",
         "url": "https://translate.google.com/"
@@ -4929,7 +4930,19 @@
       {
         "name": "Google Input Tools",
         "type": "url",
-        "url": "https://www.google.com/inputtools/try/"
+        "url": "https://www.google.com/inputtools/try/",
+        "description": "Google Input Tools makes it easy to type in the language you choose, anywhere on the web."
+      },
+      {
+        "name": "DeepL Translator",
+        "type": "url",
+        "url": "https://www.deepl.com/",
+        "description": "A Document Translator"
+      },
+      {
+        "name": "ABBYY Lingvo",
+        "type": "url",
+        "url": "https://www.lingvolive.com/"
       },
       {
         "name": "Bing Translate",
@@ -4939,17 +4952,14 @@
       {
         "name": "Dictionary.com Translator",
         "type": "url",
-        "url": "http://translate.reference.com/"
-      },
-      {
-        "name": "Free Translation",
-        "type": "url",
-        "url": "https://www.freetranslation.com/"
+        "url": "https://www.dictionary.com/",
+        "description": "The search for wildly clever mugs and T-shirts ends now! Whether you’re repping your inner “word nerd” or want the perfect gift for a friend, we have you covered (literally, in the case of those T-shirts)."
       },
       {
         "name": "Free Online Translation",
         "type": "url",
-        "url": "http://www.worldlingo.com/en/products_services/worldlingo_translator.html"
+        "url": "https://www.worldlingo.com/",
+        "description": "Professional Translations. Translate Free Online"
       },
       {
         "name": "Wiktionary",
@@ -4959,17 +4969,20 @@
       {
         "name": "Slangit - The Slang Dictionary",
         "type": "url",
-        "url": "https://slangit.com/"
+        "url": "https://slangit.com/",
+        "description": "The Slang Dictionary"
       },
       {
         "name": "Slang Dictionary & Translator",
         "type": "url",
-        "url": "http://www.noslang.com/"
+        "url": "https://www.noslang.com/",
+        "description": "Translate Internet & Text Slang"
       },
       {
         "name": "Urban Dictionary",
         "type": "url",
-        "url": "http://www.urbandictionary.com/"
+        "url": "https://www.urbandictionary.com/",
+        "description": "We have reached late-stage capitalism. This is the era where businesses, investors and even the layperson will try everything they possibly can to capitalize on literally anything and every situation. The increasingly diverse stock industry and the booming crypto mining industry can be seen as one of the many aspects of late-stage capitalism. There is no single way to define late-stage capitalism, as the effects are most often seen on a micro scale and the scope is very broad as a result of the plethora of industries."
       }],
       "name": "Text",
       "type": "folder"
@@ -4977,49 +4990,15 @@
     {
       "children": [
       {
-        "name": "Online OCR",
-        "type": "url",
-        "url": "http://www.free-ocr.com/"
-      },
-      {
-        "name": "i2OCR",
-        "type": "url",
-        "url": "http://www.i2ocr.com/"
-      },
-      {
-        "name": "New OCR",
-        "type": "url",
-        "url": "https://www.newocr.com/"
-      },
-      {
-        "name": "Online OCR",
-        "type": "url",
-        "url": "http://www.onlineocr.net/"
-      }],
-      "name": "Pictures",
-      "type": "folder"
-    },
-    {
-      "children": [
-      {
-        "name": "Personality Insights",
-        "type": "url",
-        "url": "https://personality-insights-livedemo.mybluemix.net/"
-      },
-      {
         "name": "Tone Analyzer",
         "type": "url",
-        "url": "https://tone-analyzer-demo.mybluemix.net/"
+        "url": "https://tone-analyzer-demo.mybluemix.net/",
+        "description": "This service uses linguistic analysis to detect joy, fear, sadness, anger, analytical, confident and tentative tones found in text."
       },
       {
-        "name": "WhatTheFont",
+        "name": "Apply Magic Sauce (R)(C)",
         "type": "url",
-        "url": "https://www.myfonts.com/WhatTheFont/"
-      },
-      {
-        "name": "Apply Magic Sauce",
-        "type": "url",
-        "url": "https://applymagicsauce.com/demo.html"
+        "url": "https://applymagicsauce.com/"
       }],
       "name": "Analysis",
       "type": "folder"

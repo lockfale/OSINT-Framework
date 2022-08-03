@@ -342,6 +342,16 @@
       "url": "http://www.findthedata.com/"
     },
     {
+      "name": "Free Translation",
+      "type": "url",
+      "url": "https://www.freetranslation.com/"
+    },
+    {
+      "name": "Personality Insights",
+      "type": "url",
+      "url": "https://personality-insights-livedemo.mybluemix.net/"
+    },
+    {
       "name": "EntityCube",
       "type": "url",
       "url": "http://entitycube.research.microsoft.com/"
