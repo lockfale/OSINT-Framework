@@ -5183,7 +5183,8 @@
     {
       "name": "Global Terrorism Database",
       "type": "url",
-      "url": "http://www.start.umd.edu/gtd/"
+      "url": "https://www.start.umd.edu/gtd/",
+      "description": "The Global Terrorism Database (GTD) is an open-source database including information on terrorist events around the world from 1970 through 2020 (with additional annual updates planned for the future). Unlike many other event databases, the GTD includes systematic data on domestic as well as transnational and international terrorist incidents that have occurred during this time period and now includes more than 200,000 cases. For each GTD incident, information is available on the date and location of the incident, the weapons used and nature of the target, the number of casualties, and--when identifiable--the group or individual responsible."
     }],
     "name": "Terrorism",
     "type": "folder"
