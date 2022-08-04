@@ -5350,54 +5350,46 @@
     {
       "children": [
       {
-        "name": "Blocktrail",
-        "type": "url",
-        "url": "https://www.blocktrail.com/BTC"
-      },
-      {
         "name": "Blockchain.info",
         "type": "url",
-        "url": "https://blockchain.info/"
+        "url": "https://blockchain.info/",
+        "description": "Search Blockchain, Transactions, Addresses and Blocks"
       },
       {
         "name": "Block Explorer",
         "type": "url",
-        "url": "https://blockexplorer.com/"
-      },
-      {
-        "name": "Blockr.io",
-        "type": "url",
-        "url": "http://blockr.io/"
+        "url": "https://blockexplorer.com/",
+        "description": "The Handshake Block Explorer"
       },
       {
         "name": "BitRef",
         "type": "url",
-        "url": "https://bitref.com/"
+        "url": "https://bitref.com/",
+        "description": "BitRef will help you check the current balance of any Bitcoin address. The new Bech32 address format is also supported. You need only to provide a valid Bitcoin address string. This is a safe service because it uses only public data; there is no need for login and password"
       },
       {
         "name": "Wallet Explorer",
         "type": "url",
-        "url": "https://www.walletexplorer.com/"
+        "url": "https://www.walletexplorer.com/",
+        "description": "Bitcoin block explorer with address grouping and wallet labeling"
       },
       {
         "name": "Graphsense",
         "type": "url",
-        "url": "https://graphsense.info/"
+        "url": "https://graphsense.info/",
+        "description": "GraphSense is a cryptoasset analytics platform with an emphasis on full data sovereignty, algorithmic transparency, and scalability. GraphSense is open source and free. It provides a dashboard for interactive investigations and, more importantly, full data control for executing advanced analytics tasks"
       },
       {
         "name": "Blockonomics",
         "type": "url",
-        "url": "https://www.blockonomics.co/"
-      },
-      {
-        "name": "Bitcoin Who's Who",
-        "type": "url",
-        "url": "http://bitcoinwhoswho.com/"
+        "url": "https://www.blockonomics.co/",
+        "description": "Bitcoin Address Lookup"
       },
       {
         "name": "Orbit (T)",
         "type": "url",
-        "url": "https://github.com/s0md3v/Orbit"
+        "url": "https://github.com/s0md3v/Orbit",
+        "description": "Blockchain Transactions Investigation Tool"
       }],
       "name": "Bitcoin",
       "type": "folder"
@@ -5405,19 +5397,16 @@
     {
       "children": [
       {
-        "name": "Ether.Camp",
-        "type": "url",
-        "url": "https://live.ether.camp/transactions"
-      },
-      {
         "name": "etherchain.org",
         "type": "url",
-        "url": "https://etherchain.org/accounts/"
+        "url": "https://etherchain.org",
+        "description": "The Ethereum Blockchain Explorer"
       },
       {
-        "name": "Etherscan",
+        "name": "Etherscan (R)",
         "type": "url",
-        "url": "https://etherscan.io/"
+        "url": "https://etherscan.io/",
+        "description": "The Ethereum Blockchain Explorer"
       }],
       "name": "Ethereum",
       "type": "folder"
@@ -5425,19 +5414,14 @@
     {
       "children": [
       {
-        "name": "XMRChain.net",
+        "name": "XMRChain.net (T)",
         "type": "url",
         "url": "https://xmrchain.net/"
       },
       {
-        "name": "Monero Blocks",
+        "name": "Monero Blocks (API)",
         "type": "url",
-        "url": "http://moneroblocks.info/"
-      },
-      {
-        "name": "Chain Radar",
-        "type": "url",
-        "url": "https://chainradar.com/xmr/blocks"
+        "url": "https://localmonero.co/blocks"
       }],
       "name": "Monero",
       "type": "folder"

@@ -337,6 +337,26 @@
       "url": "https://followyourworld.appspot.com/"
     },
     {
+      "name": "Ether.Camp",
+      "type": "url",
+      "url": "https://live.ether.camp/transactions"
+    },
+    {
+      "name": "Bitcoin Who's Who",
+      "type": "url",
+      "url": "http://bitcoinwhoswho.com/"
+    },
+    {
+      "name": "Blockr.io",
+      "type": "url",
+      "url": "http://blockr.io/"
+    },
+    {
+      "name": "Blocktrail",
+      "type": "url",
+      "url": "https://www.blocktrail.com/BTC"
+    },
+    {
       "name": "FindTheData A Research Engine",
       "type": "url",
       "url": "http://www.findthedata.com/"
@@ -345,6 +365,11 @@
       "name": "Free Translation",
       "type": "url",
       "url": "https://www.freetranslation.com/"
+    },
+    {
+      "name": "Chain Radar",
+      "type": "url",
+      "url": "https://chainradar.com/xmr/blocks"
     },
     {
       "name": "Personality Insights",
