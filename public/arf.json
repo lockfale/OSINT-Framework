@@ -5680,77 +5680,85 @@
       {
         "name": "SpiderFoot (T)",
         "type": "url",
-        "url": "http://www.spiderfoot.net/"
+        "url": "https://github.com/smicallef/spiderfoot?ref=d",
+        "description": "SpiderFoot is an open source intelligence (OSINT) automation tool. It integrates with just about every data source available and utilises a range of methods for data analysis, making that data easy to navigate"
       },
       {
-        "name": "ThreatPipes (T)",
+        "name": "ThreatPipes (T)(R)(C)",
         "type": "url",
         "url": "https://www.threatpipes.com"
       },
       {
         "name": "Omnibus (T)",
         "type": "url",
-        "url": "https://github.com/InQuest/omnibus"
+        "url": "https://github.com/InQuest/omnibus",
+        "description": "By providing an easy to use interactive command line application, users are able to create sessions to investigate various artifacts such as IP addresses, domain names, email addresses, usernames, file hashes, Bitcoin addresses, and more as we continue to expand"
       },
       {
         "name": "Photon (T)",
         "type": "url",
-        "url": "https://github.com/s0md3v/Photon"
+        "url": "https://github.com/s0md3v/Photon",
+        "description": "Incredibly fast crawler designed for OSINT"
       },
       {
         "name": "ReconDog (T)",
         "type": "url",
-        "url": "https://github.com/s0md3v/ReconDog"
+        "url": "https://github.com/s0md3v/ReconDog",
+        "description": "Reconnaissance Swiss Army Knife"
       },
       {
-        "name": "IFTTT",
+        "name": "IFTTT (R)",
         "type": "url",
-        "url": "https://ifttt.com/"
+        "url": "https://ifttt.com/",
+        "description": "Quickly and easily automate your favorite apps and devices"
       },
       {
-        "name": "Stringify",
+        "name": "Intrigue.io (Mandiant) (T)(U)",
         "type": "url",
-        "url": "https://www.stringify.com/"
-      },
-      {
-        "name": "Intrigue.io (T)",
-        "type": "url",
-        "url": "https://intrigue.io/"
+        "url": "https://github.com/intrigueio/intrigue-core",
+        "description": "Intrigue Core is a framework for discovering attack surface. It discovers security-relevant assets and exposures within the context of projects and can be used with a human-in-the-loop running individual tasks, and/or automated through the use of workflows. With a flexible entity model and an incredibly deep enrichment system, it is the most full-featured attack surface discovery framework of its kind"
       },
       {
         "name": "OSRFramework (T)",
         "type": "url",
-        "url": "https://github.com/i3visio/osrframework"
+        "url": "https://github.com/i3visio/osrframework",
+        "description": "OSRFramework is a GNU AGPLv3+ set of libraries developed by i3visio to perform Open Source Intelligence collection tasks. They include references to a bunch of different applications related to username checking, DNS lookups, information leaks research, deep web search, regular expressions extraction and many others. At the same time, by means of ad-hoc Maltego transforms, OSRFramework provides a way of making these queries graphically as well as several interfaces to interact with like OSRFConsole or a Web interface"
       },
       {
         "name": "Inquisitor (T)",
         "type": "url",
-        "url": "https://github.com/penafieljlm/inquisitor"
+        "url": "https://github.com/penafieljlm/inquisitor",
+        "description": "Inquisitor is a simple tool for gathering information on companies and organizations through the use of Open Source Intelligence (OSINT) sources. It is heavily inspired from how Maltego and recon-ng operates, and the tool pretty much re-implements some of the features of those tools but adds an additional layer of opinion-based semantics on top of asset types in order to create an easy-to-use workflow"
       },
       {
         "name": "AutoOSINT (T)",
         "type": "url",
-        "url": "https://github.com/bharshbarger/AutOSINT"
+        "url": "https://github.com/bharshbarger/AutOSINT",
+        "description": "Tool to automate common osint tasks. Probably best run on Kali, but tested on Debian 8"
       },
       {
         "name": "IntRec-Pack (T)",
         "type": "url",
-        "url": "https://github.com/NullArray/IntRec-Pack"
+        "url": "https://github.com/NullArray/IntRec-Pack",
+        "description": "IntRec-Pack is a Bash script designed to download, install and deploy several quality OSINT, Recon and Threat Intelligence tools. Due to the fact it manages the installation of the various dependencies related to these programs as well it aims to be a comprehensive assistant in setting up your intelligence gathering environment. Below is an overview of the tools and utilities it will help you set up"
       },
       {
         "name": "OSINT-SPY (T)",
         "type": "url",
-        "url": "https://github.com/SharadKumar97/OSINT-SPY"
+        "url": "https://github.com/SharadKumar97/OSINT-SPY",
+        "description": "Performs OSINT scan on email/domain/ip_address/organization using OSINT-SPY. It can be used by Data Miners, Infosec Researchers, Penetration Testers and cyber crime investigator in order to find deep information about their target"
       },
       {
-        "name": "Microsoft Flow",
+        "name": "Microsoft Power Automate (Microsoft Flow) (R)(C)",
         "type": "url",
-        "url": "https://flow.microsoft.com/en-us/"
+        "url": "https://powerautomate.microsoft.com/en-us/",
+        "description": "Streamline repetitive tasks and paperless processes with Microsoft Power Automate — so you can focus your attention where it’s needed most."
       },
       {
         "name": "PhoneInfoga (T)",
         "type": "url",
-        "url": "https://github.com/sundowndev/PhoneInfoga"
+        "url": "https://github.com/sundowndev/PhoneInfoga",
+        "description": "PhoneInfoga is one of the most advanced tools to scan international phone numbers. It allows you to first gather standard information such as country, area, carrier and line type on any international phone number, then search for footprints on search engines to try to find the VoIP provider or identify the owner"
       }],
       "name": "OSINT Automation",
       "type": "folder"
@@ -5760,7 +5768,8 @@
       {
         "name": "Low Hanging Fruit (T)",
         "type": "url",
-        "url": "https://github.com/blindfuzzy/LHF"
+        "url": "https://github.com/blindfuzzy/LHF",
+        "description": "Low Hanging Fruit a recon tool for penetration testing"
       }],
       "name": "Pentesting Recon",
       "type": "folder"
@@ -5768,29 +5777,34 @@
     {
       "children": [
       {
-        "name": "VMware Workstation Player (T)",
+        "name": "VMware Workstation Player (T)(R)(C)",
         "type": "url",
-        "url": "http://www.vmware.com/products/player/playerpro-evaluation.html"
+        "url": "https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html",
+        "description": "VMware Workstation 16 Player is a platform for running a single virtual machine on a Windows or Linux PC to deliver managed corporate desktops. Try it now for free."
       },
       {
         "name": "VirtualBox (T)",
         "type": "url",
-        "url": "https://www.virtualbox.org/"
+        "url": "https://www.virtualbox.org/",
+        "description": "Presently, VirtualBox runs on Windows, Linux, Macintosh, and Solaris hosts and supports a large number of guest operating systems including but not limited to Windows (NT 4.0, 2000, XP, Server 2003, Vista, Windows 7, Windows 8, Windows 10), DOS/Windows 3.x, Linux (2.4, 2.6, 3.x and 4.x), Solaris and OpenSolaris, OS/2, and OpenBSD"
       },
       {
-        "name": "Buscador OS (T)",
+        "name": "Buscador OS (T)(U)",
         "type": "url",
-        "url": "https://inteltechniques.com/buscador/index.html"
+        "url": "https://inteltechniques.com/buscador/index.html",
+        "description": "Buscador has not been updated since January 2019. We HIGHLY recommend transitioning to the DIY Custom OSINT Virtual Machine explained in the Open Source Intelligence Techniques book (9th edition). Buscador is no longer updated or maintained, and the download links have been removed as a security precaution"
       },
       {
         "name": "Kali Linux OS (T)",
         "type": "url",
-        "url": "https://www.kali.org/"
+        "url": "https://www.kali.org/",
+        "description": "Kali Linux is an open-source, Debian-based Linux distribution geared towards various information security tasks, such as Penetration Testing, Security Research, Computer Forensics and Reverse Engineering"
       },
       {
         "name": "ParrotSec OS (T)",
         "type": "url",
-        "url": "https://www.parrotsec.org/"
+        "url": "https://www.parrotsec.org/",
+        "description": "The operating system for hackers"
       },
       {
         "name": "Microsoft Edge Development OS VMs (T)",
@@ -5805,30 +5819,46 @@
       {
         "name": "Tails Live OS (T)",
         "type": "url",
-        "url": "https://tails.boum.org/"
+        "url": "https://tails.boum.org/",
+        "description": "Tails is a portable operating system that protects against surveillance and censorship"
       },
       {
         "name": "Whonix (T)",
         "type": "url",
-        "url": "https://www.whonix.org/wiki/Main_Page"
+        "url": "https://www.whonix.org/wiki/Main_Page",
+        "description": "Privacy protection. Anonymity online. Anonymous Operating System"
       }],
-      "name": "Virtual Machines",
+      "name": "Virtual Machines & OS",
       "type": "folder"
     },
     {
-      "name": "Paterva / Maltego (T)",
-      "type": "url",
-      "url": "https://www.maltego.com/"
+      "children": [
+        {
+          "name": "Epic Privacy Browser (T)",
+          "type": "url",
+          "url": "https://www.epicbrowser.com/",
+          "description": "Epic is a private, secure web browser that blocks ads, trackers, fingerprinting, cryptomining, ultrasound signaling and more. Stop 600+ tracking attempts in an average browsing session. Turn on network privacy with our free VPN (servers in 8 countries)"
+        }
+      ],
+      "name": "Browsers",
+      "type": "folder"
     },
     {
-      "name": "Epic Privacy Browser (T)",
-      "type": "url",
-      "url": "https://www.epicbrowser.com/"
+      "children": [],
+      "name": "VPN",
+      "type": "folder"
     },
     {
-      "name": "Overview",
+      "name": "Paterva / Maltego (T)(R)(C)",
       "type": "url",
-      "url": "https://www.overviewdocs.com/"
+      "url": "https://www.maltego.com/",
+      "description": "Maltego is an open source intelligence and graphical link analysis tool for gathering and connecting information for investigative tasks. Maltego is a Java application that runs on Windows, Mac and Linux"
+    },
+    {
+      "name": "Overview Docs (T)(U)",
+      "type": "url",
+      "url": "https://github.com/overview/overview-local/",
+      "description": "This project lets users run Overview Docs on their own machines"
     }],
     "name": "Tools",
     "type": "folder"

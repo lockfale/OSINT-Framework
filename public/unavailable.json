@@ -252,6 +252,11 @@
       "url": "https://archive.org/details/tv"
     },
     {
+      "name": "Stringify",
+      "type": "url",
+      "url": "https://www.stringify.com/"
+    },
+    {
       "name": "Large-scale Scene Understanding Challenge",
       "type": "url",
       "url": "http://lsun.cs.princeton.edu/2016/"
