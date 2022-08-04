@@ -252,6 +252,36 @@
       "url": "https://archive.org/details/tv"
     },
     {
+      "name": "Fake US Identities",
+      "type": "url",
+      "url": "http://xdd2.org/"
+    },
+    {
+      "name": "Faker.js",
+      "type": "url",
+      "url": "https://cdn.rawgit.com/Marak/faker.js/master/examples/browser/index.html"
+    },
+    {
+      "name": "WebRTC Leak Test",
+      "type": "url",
+      "url": "https://www.perfect-privacy.com/webrtc-leaktest/"
+    },
+    {
+      "name": "TorGuard",
+      "type": "url",
+      "url": "https://torguard.net/vpn-dns-leak-test.php"
+    },
+    {
+      "name": "Perfect Privacy",
+      "type": "url",
+      "url": "https://www.perfect-privacy.com/check-ip/"
+    },
+    {
+      "name": "Accountkiller.com",
+      "type": "url",
+      "url": "https://www.accountkiller.com/en"
+    },
+    {
       "name": "Stringify",
       "type": "url",
       "url": "https://www.stringify.com/"
