@@ -6205,17 +6205,25 @@
       {
         "name": "https://openphish.com/feed.txt",
         "type": "url",
+        "url": "https://openphish.com/",
+        "description": "Timely. Accurate. Relevant Phishing Intelligence"
+      },
+      {
+        "name": "OpenFish.com Feed",
+        "type": "url",
         "url": "https://openphish.com/feed.txt"
       },
       {
-        "name": "PhishTank",
+        "name": "PhishTank (R)",
         "type": "url",
-        "url": "https://www.phishtank.com/"
+        "url": "https://www.phishtank.com/",
+        "description": "PhishTank is a collaborative clearing house for data and information about phishing on the Internet. Also, PhishTank provides an open API for developers and researchers to integrate anti-phishing data into their applications at no charge."
       },
       {
-        "name": "PhishStats",
+        "name": "PhishStats (T)(R)(C)",
         "type": "url",
-        "url": "https://phishstats.info/"
+        "url": "https://phishstats.info/",
+        "description": "Fighting phishing and cybercrime since 2014 by gathering, enhancing and sharing phishing information with the infosec community."
       }],
       "name": "Phishing",
       "type": "folder"
@@ -6223,39 +6231,46 @@
     {
       "children": [
       {
-        "name": "Jager",
+        "name": "Jager (T)",
         "type": "url",
-        "url": "https://github.com/sroberts/jager"
+        "url": "https://github.com/sroberts/jager",
+        "description": "Jager is a tool for pulling useful IOCs (indicators of compromise) out of various input sources (PDFs for now, plane text really soon, webpages eventually) and putting them into an easy to manipulate JSON format. Who doesn't want that?!"
       },
       {
-        "name": "IOC Parser",
+        "name": "IOC Parser (T)",
         "type": "url",
-        "url": "https://github.com/armbues/ioc_parser"
+        "url": "https://github.com/armbues/ioc_parser",
+        "description": "IOC Parser is a tool to extract indicators of compromise from security reports in PDF format. A good collection of APT related reports with many IOCs can be found here: APTNotes."
       },
       {
-        "name": "Cacador",
+        "name": "Cacador (T)",
         "type": "url",
-        "url": "https://github.com/sroberts/cacador"
+        "url": "https://github.com/sroberts/cacador",
+        "description": "Cacador (Portugese for hunter) is tool for extracting common indicators of compromise from a block of text."
       },
       {
-        "name": "ThreatPinch Lookup",
+        "name": "ThreatPinch Lookup (T)(API)",
         "type": "url",
-        "url": "https://github.com/cloudtracer/ThreatPinchLookup"
+        "url": "https://github.com/cloudtracer/ThreatPinchLookup",
+        "description": "ThreatPinch Lookup creates informational tooltips when hovering oven an item of interest on any website. It helps speed up security investigations by automatically providing relevant information upon hovering over any IPv4 address, MD5 hash, SHA2 hash, and CVE title. It’s designed to be completely customizable and work with any rest API"
       },
       {
-        "name": "Mimir",
+        "name": "Mimir (T)",
         "type": "url",
-        "url": "https://github.com/NullArray/Mimir"
+        "url": "https://github.com/NullArray/Mimir",
+        "description": "Mimir functions as a CLI to HoneyDB which in short is an OSINT aggregative threat intel pool. Starting the program brings you to a menu the options for which are as follows"
       },
       {
         "name": "iocextract (T)",
         "type": "url",
-        "url": "https://github.com/InQuest/python-iocextract"
+        "url": "https://github.com/InQuest/python-iocextract",
+        "description": "This library extracts URLs, IP addresses, MD5/SHA hashes, email addresses, and YARA rules from text corpora. It includes some encoded and 'defanged' IOCs in the output, and optionally decodes/refangs them."
       },
       {
         "name": "ThreatIngestor (T)",
         "type": "url",
-        "url": "https://github.com/InQuest/ThreatIngestor"
+        "url": "https://github.com/InQuest/ThreatIngestor",
+        "description": "ThreatIngestor can be configured to watch Twitter, RSS feeds, or other sources, extract meaningful information such as malicious IPs/domains and YARA signatures, and send that information to another system for analysis."
       }],
       "name": "IOC Tools",
       "type": "folder"
@@ -6263,87 +6278,90 @@
     {
       "children": [
       {
-        "name": "Malware Exploit TTP Database",
+        "name": "Mitre TTPs (R)",
         "type": "url",
-        "url": "https://www.pwnmalw.re/"
-      },
-      {
-        "name": "Mitre TTPs",
-        "type": "url",
-        "url": "https://attack.mitre.org/wiki/All_Techniques"
+        "url": "https://attack.mitre.org/wiki/All_Techniques",
+        "description": "Techniques represent 'how' an adversary achieves a tactical goal by performing an action. For example, an adversary may dump credentials to achieve credential access."
       }],
       "name": "TTPs",
       "type": "folder"
     },
     {
-      "name": "IBM X-Force Exchange",
+      "name": "IBM X-Force Exchange (R)",
       "type": "url",
-      "url": "https://exchange.xforce.ibmcloud.com/new"
+      "url": "https://exchange.xforce.ibmcloud.com/new",
+      "description": "BM X-Force Exchange is a threat intelligence sharing platform that you can use to research security threats, to aggregate intelligence, and to collaborate with peers"
     },
     {
       "name": "Malware Information Sharing Platform",
       "type": "url",
-      "url": "http://www.misp-project.org/"
+      "url": "https://www.misp-project.org/",
+      "description": "OpenSource Threat Intelligence and Sharing Platform"
     },
     {
       "name": "Malware Patrol",
       "type": "url",
-      "url": "https://www.malwarepatrol.net/open-source.shtml"
+      "url": "https://www.malwarepatrol.net/open-source.shtml",
+      "description": "Since 2005, Malware Patrol has focused solely on threat intelligence. We monitor the latest malicious campaigns to collect a variety of indicators. These range from malware, ransomware, and phishing to command-and-control systems and DoH servers."
     },
     {
-      "name": "Project Honey Pot",
+      "name": "Project Honey Pot (R)(C)",
       "type": "url",
-      "url": "http://www.projecthoneypot.org/"
+      "url": "http://www.projecthoneypot.org/",
+      "description": "Project Honey Pot is the first and only distributed system for identifying spammers and the spambots they use to scrape addresses from your website. Using the Project Honey Pot system you can install addresses that are custom-tagged to the time and IP address of a visitor to your site. If one of these addresses begins receiving email we not only can tell that the messages are spam, but also the exact moment when the address was harvested and the IP address that gathered it."
     },
     {
-      "name": "Cymon Open Threat Intelligence",
+      "name": "mlsecproject / combine (T)",
       "type": "url",
-      "url": "https://cymon.io/"
+      "url": "https://github.com/mlsecproject/combine",
+      "description": "Combine gathers Threat Intelligence Feeds from publicly available sources"
     },
     {
-      "name": "mlsecproject / combine",
+      "name": "hostintel - keithjjones Github (T)",
       "type": "url",
-      "url": "https://github.com/mlsecproject/combine"
+      "url": "https://github.com/keithjjones/hostintel",
+      "description": "This tool is used to collect various intelligence sources for hosts. Hostintel is written in a modular fashion so new intelligence sources can be easily added"
     },
     {
-      "name": "hostintel - keithjjones Github",
+      "name": "bearded-avenger-deploymentkit (T)",
       "type": "url",
-      "url": "https://github.com/keithjjones/hostintel"
+      "url": "https://github.com/csirtgadgets/bearded-avenger-deploymentkit",
+      "description": "Welcome to the Bearded-Avenger Deployment Kit! This Kit will help you get CIFv3 up and running using the latest stable release using a combination of bash and ansible."
     },
     {
-      "name": "massive-octo-spice - csirtgadgets Github",
+      "name": "massive-octo-spice - csirtgadgets Github (T)",
       "type": "url",
       "url": "https://github.com/csirtgadgets/massive-octo-spice"
     },
     {
-      "name": "Bot Scout",
+      "name": "Bot Scout (R)(API)",
       "type": "url",
-      "url": "http://botscout.com/"
+      "url": "http://botscout.com/",
+      "description": "BotScout helps prevent automated web scripts, known as \"bots\", from registering on forums, polluting databases, spreading spam, and abusing forms on web sites. We do this by tracking the names, IPs, and email addresses that bots use and logging them as unique signatures for future reference. We make this signature data available through a simple yet powerful API that you can use to test forms when they're submitted on your site"
     },
     {
       "name": "Blueliv Threat Exchange (R)",
       "type": "url",
-      "url": "https://community.blueliv.com/#!/discover"
+      "url": "https://community.blueliv.com/#!/discover",
+      "description": "Blueliv’s Threat Exchange Network is designed to protect your enterprise and the community against today’s latest threats. By providing expert threat data, Blueliv Community allows you and your peers improve incident response and get recognized"
     },
     {
-      "name": "APTnotes",
+      "name": "APTnotes (T)",
       "type": "url",
-      "url": "https://github.com/aptnotes/data"
-    },
-    {
-      "name": "HoneyDB",
-      "type": "url",
-      "url": "https://riskdiscovery.com/honeydb/"
+      "url": "https://github.com/aptnotes/data",
+      "description": "APTnotes is a repository of publicly-available papers and blogs (sorted by year) related to malicious campaigns/activity/software that have been associated with vendor-defined APT (Advanced Persistent Threat) groups and/or tool-sets"
     },
     {
       "name": "Pulsedive",
       "type": "url",
-      "url": "https://pulsedive.com"
+      "url": "https://pulsedive.com",
+      "description": "Threat intelligence made easy"
     },
     {
       "name": "Mr.Looquer IOC Feed - 1st Dual Stack Threat Feed",
       "type": "url",
-      "url": "https://iocfeed.mrlooquer.com"
+      "url": "https://iocfeed.mrlooquer.com",
+      "description": "Mrlooquer has created the first threat feed focused on systems with dual stack. Since IPv6 protocol has begun to be part of malware and fraud communications, It is necessary to detect and mitigate the threats in both protocols (IPv4 and IPv6)."
     }],
     "name": "Threat Intelligence",
     "type": "folder"

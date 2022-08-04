@@ -262,6 +262,21 @@
       "url": "https://cdn.rawgit.com/Marak/faker.js/master/examples/browser/index.html"
     },
     {
+      "name": "Malware Exploit TTP Database",
+      "type": "url",
+      "url": "https://www.pwnmalw.re/"
+    },
+    {
+      "name": "HoneyDB",
+      "type": "url",
+      "url": "https://riskdiscovery.com/honeydb/"
+    },
+    {
+      "name": "Cymon Open Threat Intelligence",
+      "type": "url",
+      "url": "https://cymon.io/"
+    },
+    {
       "name": "WebRTC Leak Test",
       "type": "url",
       "url": "https://www.perfect-privacy.com/webrtc-leaktest/"
