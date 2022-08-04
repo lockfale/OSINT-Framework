@@ -3328,6 +3328,17 @@
                 "description": "Canadian Corporations and Government Departments, Agencies and Employers"
               },
               {
+                "name": "GOVDATA - Das Datenportal für Deutschland (Germany)",
+                "type": "url",
+                "url": "https://www.govdata.de/",
+                "description": "Open Government: Verwaltungsdaten transparent, offen und frei nutzbar"
+              },
+              {
+                "name": "Open-Data-Portal München (Germany)",
+                "type": "url",
+                "url": "https://www.opengov-muenchen.de/"
+              },
+              {
                 "name": "CA Salary DB (R)",
                 "type": "url",
                 "url": "https://www.sacbee.com/site-services/databases/state-pay/article2642161.html",
@@ -3480,40 +3491,19 @@
             "type": "folder"
           },
           {
-            "name": "Public Records?",
+            "name": "Search Systems Public Records",
             "type": "url",
             "url": "http://publicrecords.searchsystems.net/",
             "description": "Welcome to Search Systems, your guide to Free Public Records. We're a family-owned business established in 1990 that has worked since 1996 to take the guesswork out of finding public record information online. We've personally located, analyzed, described, and organized links to over 70,000 databases by type and location to help you find property, criminal, court, birth, death, marriage, divorce records, licenses, deeds, mortgages, corporate records, business registration, and many other public record resources quickly, easily, and for free."
-          },
-          {
-            "name": "Enigma (R)(C)",
-            "type": "url",
-            "url": "https://enigma.io/",
-            "description": "Data about every business in a changing world"
+
           },
           {
             "name": "The World Bank Open Data Catalog",
             "type": "url",
             "url": "https://datacatalog.worldbank.org/",
             "description": "The Data Catalog is designed to make World Bank's development data easy to find, download, use, and share. It includes data from the World Bank's microdata, finances and energy data platforms, as well as datasets from the open data catalog"
-          },
-          {
-            "name": "BRB Public Records",
-            "type": "url",
-            "url": "https://www.brbpub.com/",
-            "description": "Free Public Records"
-          },
-          {
-            "name": "GOVDATA - Das Datenportal für Deutschland (Germany)",
-            "type": "url",
-            "url": "https://www.govdata.de/",
-            "description": "Open Government: Verwaltungsdaten transparent, offen und frei nutzbar"
-          },
-          {
-            "name": "Open-Data-Portal München (Germany)",
-            "type": "url",
-            "url": "https://www.opengov-muenchen.de/"
-          }],
+          }
+          ],
         "name": "Public Records",
         "type": "folder"
       },
@@ -3521,6 +3511,12 @@
         "children": [
           {
             "children": [
+              {
+                "name": "Enigma (R)(C)",
+                "type": "url",
+                "url": "https://enigma.io/",
+                "description": "Data about every business in a changing world"
+              },
               {
                 "name": "AnnualReports.com",
                 "type": "url",
@@ -3991,6 +3987,17 @@
             "type": "folder"
           }],
         "name": "Archives",
+        "type": "folder"
+      },
+      {
+        "children": [
+          {
+            "name": "Global Terrorism Database",
+            "type": "url",
+            "url": "https://www.start.umd.edu/gtd/",
+            "description": "The Global Terrorism Database (GTD) is an open-source database including information on terrorist events around the world from 1970 through 2020 (with additional annual updates planned for the future). Unlike many other event databases, the GTD includes systematic data on domestic as well as transnational and international terrorist incidents that have occurred during this time period and now includes more than 200,000 cases. For each GTD incident, information is available on the date and location of the incident, the weapons used and nature of the target, the number of casualties, and--when identifiable--the group or individual responsible."
+          }],
+        "name": "Terrorism Records",
         "type": "folder"
       }
     ],
@@ -5175,18 +5182,6 @@
       "type": "folder"
     }],
     "name": "Mobile Applications",
-    "type": "folder"
-  },
-
-  {
-    "children": [
-    {
-      "name": "Global Terrorism Database",
-      "type": "url",
-      "url": "https://www.start.umd.edu/gtd/",
-      "description": "The Global Terrorism Database (GTD) is an open-source database including information on terrorist events around the world from 1970 through 2020 (with additional annual updates planned for the future). Unlike many other event databases, the GTD includes systematic data on domestic as well as transnational and international terrorist incidents that have occurred during this time period and now includes more than 200,000 cases. For each GTD incident, information is available on the date and location of the incident, the weapons used and nature of the target, the number of casualties, and--when identifiable--the group or individual responsible."
-    }],
-    "name": "Terrorism",
     "type": "folder"
   },
 
