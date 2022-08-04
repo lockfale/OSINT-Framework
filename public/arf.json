@@ -5531,7 +5531,8 @@
       {
         "name": "ClearImage Barcode Reader",
         "type": "url",
-        "url": "http://online-barcode-reader.inliteresearch.com/"
+        "url": "http://online-barcode-reader.inliteresearch.com/",
+        "description": "Free Online Barcode Reader"
       }],
       "name": "Barcodes / QR",
       "type": "folder"
@@ -5539,34 +5540,51 @@
     {
       "children": [
       {
-        "name": "JS Beautifier",
+        "name": "JS Beautifier (T)",
         "type": "url",
-        "url": "http://jsbeautifier.org/"
+        "url": "https://jsbeautifier.org/",
+        "description": "Beautify, unpack or deobfuscate JavaScript and HTML, make JSON/JSONP readable, etc."
       },
       {
         "name": "JS NICE",
         "type": "url",
-        "url": "http://jsnice.org/"
+        "url": "http://jsnice.org/",
+        "description": "Statical Renaming, Type Inference and Deobfuscation"
       },
       {
-        "name": "Firebug (T)",
+        "name": "Firebug (T)(U)",
         "type": "url",
         "url": "https://getfirebug.com/downloads/"
       },
       {
         "name": "SpiderMonkey (T)",
         "type": "url",
-        "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey"
+        "url": "https://spidermonkey.dev/",
+        "description": "SpiderMonkey is Mozilla’s JavaScript and WebAssembly Engine, used in Firefox, Servo and various other projects. It is written in C++, Rust and JavaScript. You can embed it into C++ and Rust projects, and it can be run as a stand-alone shell. It can also be compiled to WASI"
       },
       {
         "name": "Kahu Revelo (T)",
         "type": "url",
-        "url": "http://www.kahusecurity.com/tools/"
+        "url": "https://www.kahusecurity.com/tools/",
+        "description": "All tools have been tested on 32-bit/64-bit Windows 7 and Windows 10. They are available free for personal or business use. Many of these tools have been packed to combine DLLs and make them portable. Because of this anti-virus software may falsely identify these tools as infected or suspicious. No warranties expressed or implied; use at your own risk!"
       },
       {
         "name": "JavaScript Deobfuscator (T)",
         "type": "url",
-        "url": "https://addons.mozilla.org/en-US/firefox/addon/javascript-deobfuscator/"
+        "url": "https://pluginsaddonsextensions.com/mozilla-firefox/javascript-deobfuscator-mozilla-addon",
+        "description": "This add-on shows you what JavaScript code runs on a web page, even if it is obfuscated and generated on the fly. Simply open JavaScript Deobfuscator from the Web Developer menu and watch the scripts being compiled/executed"
+      },
+      {
+        "name": "JavaScript Deobfuscator Firefox Addon (T)",
+        "type": "url",
+        "url": "https://addons.mozilla.org/en-US/firefox/addon/workwithurls/",
+        "description": "Work with URLs: urls paths opener obfuscate decode"
+      },
+      {
+        "name": "JavaScript Deobfuscator (U)",
+        "type": "url",
+        "url": "https://github.com/palant/jsdeobfuscator",
+        "description": "JavaScript Deobfuscator is a Firefox extension that shows you what JavaScript code runs on a web page, even if it is obfuscated and generated on the fly. Simply open JavaScript Deobfuscator from the Web Developer menu and watch the scripts being compiled/executed"
       }],
       "name": "Javascript",
       "type": "folder"
@@ -5576,7 +5594,8 @@
       {
         "name": "DDecode - PHP Decoder",
         "type": "url",
-        "url": "http://ddecode.com/phpdecoder/"
+        "url": "http://ddecode.com/phpdecoder/",
+        "description": "Very useful for webmasters trying to identify what a specific code is doing (from WordPress themes/plugins or Joomla templates)"
       }],
       "name": "PHP",
       "type": "folder"
@@ -5588,17 +5607,20 @@
         {
           "name": "XORSearch & XORStrings (T)",
           "type": "url",
-          "url": "http://blog.didierstevens.com/programs/xorsearch/"
+          "url": "https://blog.didierstevens.com/programs/xorsearch/",
+          "description": "XORSearch is a program to search for a given string in an XOR, ROL, ROT or SHIFT encoded binary file. An XOR encoded binary file is a file where some (or all) bytes have been XORed with a constant value (the key). A ROL (or ROR) encoded file has its bytes rotated by a certain number of bits (the key). A ROT encoded file has its alphabetic characters (A-Z and a-z) rotated by a certain number of positions. A SHIFT encoded file has its bytes shifted left by a certain number of bits (the key): all bits of the first byte shift left, the MSB of the second byte becomes the LSB of the first byte, all bits of the second byte shift left, … XOR and ROL/ROR encoding is used by malware programmers to obfuscate strings like URLs"
         },
         {
           "name": "xortool (T)",
           "type": "url",
-          "url": "https://github.com/hellman/xortool"
+          "url": "https://github.com/hellman/xortool",
+          "description": "A tool to do some xor analysis"
         },
         {
           "name": "unxor (T)",
           "type": "url",
-          "url": "https://github.com/tomchop/unxor"
+          "url": "https://github.com/tomchop/unxor",
+          "description": "This tool will search through an XOR-encoded file (binary, text-file, whatever) and use known-plaintext attacks to deduce the original keystream. Works on keys half as long as the known-plaintext, in linear complexity"
         }],
         "name": "Unix",
         "type": "folder"
@@ -5608,7 +5630,8 @@
         {
           "name": "Kahu Converter Utilities (T)",
           "type": "url",
-          "url": "http://www.kahusecurity.com/tools/"
+          "url": "https://www.kahusecurity.com/tools/",
+          "description": "All tools have been tested on 32-bit/64-bit Windows 7 and Windows 10. They are available free for personal or business use. Many of these tools have been packed to combine DLLs and make them portable. Because of this anti-virus software may falsely identify these tools as infected or suspicious. No warranties expressed or implied; use at your own risk!"
         }],
         "name": "Windows",
         "type": "folder"
@@ -5618,22 +5641,26 @@
         {
           "name": "iheartxor.py (T)",
           "type": "url",
-          "url": "http://hooked-on-mnemonics.blogspot.com/p/iheartxor.html"
+          "url": "http://hooked-on-mnemonics.blogspot.com/p/iheartxor.html",
+          "description": "The tool can be used to bruteforce xor encoded strings within a user defined regular expression pattern (-r). The default search pattern is a regular expression of that searches for data between null bytes ('\\x00'). The tool can also be used to do a straight xor on a file with -f file.name -k value. The value must between 0x0-0x255"
         },
         {
           "name": "XORBruteForcer.py (T)",
           "type": "url",
-          "url": "http://eternal-todo.com/var/scripts/xorbruteforcer"
+          "url": "https://eternal-todo.com/var/scripts/xorbruteforcer",
+          "description": "Script that implements a XOR bruteforcing of a given file, although a specific key can be used too. It's possible to look for a word in the xored result, minimizing the output"
         },
         {
           "name": "NoMoreXOR.py (T)",
           "type": "url",
-          "url": "https://github.com/hiddenillusion/NoMoreXOR"
+          "url": "https://github.com/hiddenillusion/NoMoreXOR",
+          "description": "Tool to help guess a files 256 byte XOR key by using frequency analysis"
         },
         {
           "name": "Balbuzard (T)",
           "type": "url",
-          "url": "https://bitbucket.org/decalage/balbuzard"
+          "url": "https://github.com/decalage2/balbuzard",
+          "description": "Balbuzard is a package of malware analysis tools in python to extract patterns of interest from suspicious files (IP addresses, domain names, known file headers, interesting strings, etc)"
         }],
         "name": "Python",
         "type": "folder"
@@ -5642,14 +5669,16 @@
       "type": "folder"
     },
     {
-      "name": "CyberChef",
+      "name": "CyberChef (T)",
       "type": "url",
-      "url": "https://gchq.github.io/CyberChef/"
+      "url": "https://gchq.github.io/CyberChef/",
+      "description": "There are around 300 operations in CyberChef allowing you to carry out simple and complex tasks easily"
     },
     {
       "name": "Functions Online",
       "type": "url",
-      "url": "https://www.functions-online.com/"
+      "url": "https://www.functions-online.com/",
+      "description": "Execute and test several functions of the programming language PHP right here online. Choose your function from one of the categories array, cryptography, custom, date and time, general, math, regular expression, string or URL"
     }],
     "name": "Encoding / Decoding",
     "type": "folder"
