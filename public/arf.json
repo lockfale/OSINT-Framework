@@ -88,7 +88,7 @@
               "url": "https://hulbee.com/",
               "description": "Data secure search engine"
             }],
-          "name": "General Search",
+          "name": "General Search Engines",
           "type": "folder"
         },
         {
@@ -120,6 +120,27 @@
               "type": "url",
               "url": "https://www.google.com/alerts#",
               "description": "Monitor the web for interesting new content"
+            },
+            {
+              "name": "Google Scholar",
+              "type": "url",
+              "url": "https://scholar.google.com/",
+              "description": "Search engine for scholarly literature"
+            },
+            {
+              "name": "Google Hacking Database",
+              "type": "url",
+              "url": "https://www.exploit-db.com/google-hacking-database/"
+            },
+            {
+              "name": "Google Search Operators Guide",
+              "type": "url",
+              "url": "https://googleguide.com/advanced_operators_reference.html"
+            },
+            {
+              "name": "Google Guide Cheat Sheet",
+              "type": "url",
+              "url": "https://googleguide.com/help/calculator.html"
             },
             {
               "name": "pagodo - Passive Google Dork (T)",
@@ -403,6 +424,42 @@
         {
           "children": [
             {
+              "name": "Academic Reading List",
+              "type": "url",
+              "url": "https://docs.google.com/document/d/1uqzGi9asZZlaEs8syHbh3AsizVccU-IKJp4zPufaaBk/edit#heading=h.s9zomzvdp109",
+              "description": "Updated list of schoarly readings on open source research and methods"
+            },
+            {
+              "name": "Berkeley Protocol",
+              "type": "url",
+              "url": "https://www.ohchr.org/sites/default/files/2022-04/OHCHR_BerkeleyProtocol.pdf",
+              "description": "Document outlining terms, guidelines, and standards for conducting open source research for human rights investigations"
+            },
+            {
+              "name": "Google Scholar",
+              "type": "url",
+              "url": "https://scholar.google.com/",
+              "description": "Search engine for scholarly literature"
+            },
+            {
+              "name": "Soc Arxiv (R)",
+              "type": "url",
+              "url": "https://osf.io/preprints/socarxiv",
+              "description": "Open database of social science peer-reviewed articles"
+            },
+            {
+              "name": "Arxiv (R)",
+              "type": "url",
+              "url": "https://arxiv.org/",
+              "description": "Open database of STEM articles - arXiv is a free distribution service and an open-access archive for 2,107,644 scholarly articles in the fields of physics, mathematics, computer science, quantitative biology, quantitative finance, statistics, electrical engineering and systems science, and economics. Materials on this site are not peer-reviewed by arXiv."
+            },
+            {
+              "name": "Social Media Literacy Lessons for Middle Schoolers",
+              "type": "url",
+              "url": "https://drive.google.com/drive/folders/1eF9FE-2B-bVciTCbajMR_f1Q7fHZl0s5",
+              "description": "Open Google Drive with standalone lessons on social media literacy covering a broad range of topics (developed by a teacher in the UK for middle school-aged students)"
+            },
+            {
               "name": "PubPeer",
               "type": "url",
               "url": "https://pubpeer.com/",
@@ -530,7 +587,7 @@
               "url": "https://arxiv.org/",
               "description": "arXiv is a free distribution service and an open-access archive for 2,106,460 scholarly articles in the fields of physics, mathematics, computer science, quantitative biology, quantitative finance, statistics, electrical engineering and systems science, and economics. Materials on this site are not peer-reviewed by arXiv."
             }],
-          "name": "Academic, Publication Search",
+          "name": "Academic Resources",
           "type": "folder"
         },
         {
@@ -578,28 +635,9 @@
             }],
           "name": "Search Tools",
           "type": "folder"
-        },
-        {
-          "children": [
-            {
-              "name": "Google Hacking Database",
-              "type": "url",
-              "url": "https://www.exploit-db.com/google-hacking-database/"
-            },
-            {
-              "name": "Google Search Operators Guide",
-              "type": "url",
-              "url": "https://googleguide.com/advanced_operators_reference.html"
-            },
-            {
-              "name": "Google Guide Cheat Sheet",
-              "type": "url",
-              "url": "https://googleguide.com/help/calculator.html"
-            }],
-          "name": "Search Engine Guides",
-          "type": "folder"
-        }],
-      "name": "Search Engines",
+        }
+      ],
+      "name": "General",
       "type": "folder"
   },
 
@@ -1453,7 +1491,7 @@
           "type": "folder"
         }
       ],
-      "name": "People Search Engines",
+      "name": "People Search",
       "type": "folder"
   },
 
