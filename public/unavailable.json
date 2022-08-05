@@ -302,6 +302,61 @@
       "url": "http://brianfolts.com/driver/"
     },
     {
+      "name": "Core.onion",
+      "type": "url",
+      "url": "http://eqt5g4fuenphqinx.onion/"
+    },
+    {
+      "name": "dark.fail",
+      "type": "url",
+      "url": "http://darkfailllnkf4vf.onion/"
+    },
+    {
+      "name": "Tor66",
+      "type": "url",
+      "url": "http://tor66sezptuu2nta.onion/"
+    },
+    {
+      "name": "Candle",
+      "type": "url",
+      "url": "http://gjobqjj7wyczbqie.onion/"
+    },
+    {
+      "name": "Not Evil",
+      "type": "url",
+      "url": "http://hss3uro2hsxfogfq.onion/"
+    },
+    {
+      "name": "OnionLink",
+      "type": "url",
+      "url": "http://www.onion.link/"
+    },
+    {
+      "name": "Onion Cab",
+      "type": "url",
+      "url": "https://onion.cab/"
+    },
+    {
+      "name": "Tor Scan",
+      "type": "url",
+      "url": "http://www.torscan.io/"
+    },
+    {
+      "name": "Onion Investigator",
+      "type": "url",
+      "url": "https://oint.ctrlbox.com/"
+    },
+    {
+      "name": "OnionTree",
+      "type": "url",
+      "url": "https://onionltd.github.io/"
+    },
+    {
+      "name": "Tor2web",
+      "type": "url",
+      "url": "https://tor2web.org/"
+    },
+    {
       "name": "Backpage",
       "type": "url",
       "url": "http://www.backpage.com/"

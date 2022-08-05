@@ -2284,7 +2284,7 @@
                   "name": "SiteDiff (by Ninja Project) (T)",
                   "type": "url",
                   "url": "https://digi.ninja/projects/sitediff.php",
-                  "description": "magine the scenario, you are testing a site running an open source package but not sure what version and need to find out."
+                  "description": "Imagine the scenario, you are testing a site running an open source package but not sure what version and need to find out."
                 },
                 {
                   "name": "AnalyzeID",
@@ -5201,17 +5201,17 @@
     {
       "children": [
       {
-        "name": "Reddit Deep Web",
+        "name": "Reddit Deep Web (R)",
         "type": "url",
         "url": "https://www.reddit.com/r/deepweb"
       },
       {
-        "name": "Reddit Onions",
+        "name": "Reddit Onions (R)",
         "type": "url",
         "url": "https://www.reddit.com/r/onions"
       },
       {
-        "name": "Reddit Darknet",
+        "name": "Reddit Darknet (R)",
         "type": "url",
         "url": "https://www.reddit.com/r/darknet"
       }],
@@ -5221,14 +5221,16 @@
     {
       "children": [
       {
-        "name": "Tor Download (T)",
+        "name": "Tor Browser Download (T)",
         "type": "url",
-        "url": "https://www.torproject.org/download/download-easy.html.en"
+        "url": "https://www.torproject.org/download/download-easy.html.en",
+        "description": "Protect yourself against tracking, surveillance, and censorship."
       },
       {
         "name": "I2P Anonymous Network (T)",
         "type": "url",
-        "url": "https://geti2p.net/en/"
+        "url": "https://geti2p.net/en/",
+        "description": "The Invisible Internet is a privacy by design, people-powered network. It is a truly free and anonymizing Internet alternative"
       }],
       "name": "Clients",
       "type": "folder"
@@ -5236,39 +5238,34 @@
     {
       "children": [
       {
-        "name": "OnionScan",
+        "name": "OnionScan (T)",
         "type": "url",
-        "url": "https://github.com/s-rah/onionscan"
+        "url": "https://github.com/s-rah/onionscan",
+        "description": "OnionScan is a free and open source tool for investigating the Dark Web. For all the amazing technological innovations in the anonymity and privacy space, there is always a constant threat that has no effective technological patch - human error"
       },
       {
-        "name": "TorBot",
+        "name": "TorBot (T)",
         "type": "url",
-        "url": "https://github.com/DedSecInside/TorBot"
+        "url": "https://github.com/DedSecInside/TorBot",
+        "description": "Onion Crawler with GUI and social media integration"
       },
       {
-        "name": "Tor Scan",
+        "name": "Onioff (T)",
         "type": "url",
-        "url": "http://www.torscan.io/"
+        "url": "https://github.com/k4m4/onioff",
+        "description": "A simple tool - written in pure python - for inspecting Deep Web URLs (or onions)."
       },
       {
-        "name": "Onioff",
+        "name": "Hunchly Hidden Services Report (R)",
         "type": "url",
-        "url": "https://github.com/k4m4/onioff"
-      },
-      {
-        "name": "Hunchly Hidden Services Report",
-        "type": "url",
-        "url": "https://darkweb.hunch.ly/"
+        "url": "https://darkweb.hunch.ly/",
+        "description": "Finding good investigation targets on the dark web can be a tricky task and many investigators find the dark web to be a scary place."
       },
       {
         "name": "docker-onion-nmap (T)",
         "type": "url",
-        "url": "https://github.com/milesrichardson/docker-onion-nmap"
-      },
-      {
-        "name": "Onion Investigator",
-        "type": "url",
-        "url": "https://oint.ctrlbox.com/"
+        "url": "https://github.com/milesrichardson/docker-onion-nmap",
+        "description": "Use nmap to scan hidden onion services on the Tor network. Minimal image based on alpine, using proxychains to wrap nmap. Tor and dnsmasq are run as daemons via s6, and proxychains wraps nmap to use the Tor SOCKS proxy on port 9050. Tor is also configured via DNSPort to anonymously resolve DNS requests to port 9053. dnsmasq is configured to with this localhost:9053 as an authority DNS server. Proxychains is configured to proxy DNS through the local resolver, so all DNS requests will go through Tor and applications can resolve .onion addresses."
       }],
       "name": "Discovery",
       "type": "folder"
@@ -5276,39 +5273,10 @@
     {
       "children": [
       {
-        "name": "Onion Cab",
-        "type": "url",
-        "url": "https://onion.cab/"
-      },
-      {
-        "name": "OnionLink",
-        "type": "url",
-        "url": "http://www.onion.link/"
-      },
-      {
-        "name": "Candle",
-        "type": "url",
-        "url": "http://gjobqjj7wyczbqie.onion/"
-      },
-      {
-        "name": "Not Evil",
-        "type": "url",
-        "url": "http://hss3uro2hsxfogfq.onion/"
-      },
-      {
-        "name": "Tor66",
-        "type": "url",
-        "url": "http://tor66sezptuu2nta.onion/"
-      },
-      {
-        "name": "dark.fail",
-        "type": "url",
-        "url": "http://darkfailllnkf4vf.onion/"
-      },
-      {
         "name": "Ahmia",
         "type": "url",
-        "url": "https://ahmia.fi/"
+        "url": "https://ahmia.fi/",
+        "description": "Ahmia searches hidden services on the Tor network. To access these hidden services, you need the Tor browser bundle. Abuse material is not allowed on Ahmia. See our service blacklist and report abuse material if you find it in the index. It will be removed as soon as possible."
       }],
       "name": "TOR Search",
       "type": "folder"
@@ -5318,35 +5286,23 @@
       {
         "name": "Hidden Wiki",
         "type": "url",
-        "url": "http://thehiddenwiki.org/"
-      },
-      {
-        "name": "Core.onion",
-        "type": "url",
-        "url": "http://eqt5g4fuenphqinx.onion/"
-      },
-      {
-       "name": "OnionTree",
-       "type": "url",
-       "url": "https://onionltd.github.io/"
+        "url": "https://thehiddenwiki.org/",
+        "description": "Onion Wiki: Hidden Web Sites"
       }],
       "name": "TOR Directories",
       "type": "folder"
     },
     {
-      "name": "Tor2web",
-      "type": "url",
-      "url": "https://tor2web.org/"
-    },
-    {
       "name": "Web O Proxy",
       "type": "url",
-      "url": "https://weboproxy.com/"
+      "url": "https://weboproxy.com/",
+      "description": "The web proxy site is a fast and free way to change your IP address, unblock websites, and obtain web anonymity. Perfect for those looking to bypass censorship restrictions and/or looking to browse the internet privately, anonymously, and securely."
     },
     {
       "name": "IACA Dark Web Investigation Support",
       "type": "url",
-      "url": "https://iaca-darkweb-tools.com/"
+      "url": "https://iaca-darkweb-tools.com/",
+      "description": "IACA Dark Web Investigation Support OSINT"
     }],
     "name": "Dark Web",
     "type": "folder"
@@ -6509,7 +6465,7 @@
         "name": "NoScript (T)",
         "type": "url",
         "url": "https://noscript.net/",
-        "descriptoion": "NoScript is a built-in key security component of the Tor Browser, the top anonymity tool defending millions against surveillance and censorship."
+        "description": "NoScript is a built-in key security component of the Tor Browser, the top anonymity tool defending millions against surveillance and censorship."
       },
       {
         "name": "Firefox-debloat (T)",
