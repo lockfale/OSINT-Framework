@@ -297,6 +297,16 @@
       "url": "http://nsrl.hashsets.com/national_software_reference_library1_search.php"
     },
     {
+      "name": "Google Maps Streetview Player",
+      "type": "url",
+      "url": "http://brianfolts.com/driver/"
+    },
+    {
+      "name": "Teehan+Lax Labs - Hyperlapse",
+      "type": "url",
+      "url": "http://labs.teehanlax.com/project/hyperlapse"
+    },
+    {
       "name": "NetBootCamp",
       "type": "url",
       "url": "https://netbootcamp.org/trainingprogram/"

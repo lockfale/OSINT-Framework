@@ -6086,6 +6086,12 @@
       "description": "MITRE ATT&CK is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community."
     },
     {
+      "name": "PortSwigger (Burp Suite) (T)(R)",
+      "type": "url",
+      "url": "https://portswigger.net/burp/download.html",
+      "description": "Secure your whole web portfolio, integrate security with development, and free time for AppSec to do more - with the enterprise-enabled dynamic web vulnerability scanner."
+    },
+    {
       "name": "Exploit DB",
       "type": "url",
       "url": "https://www.exploit-db.com/",
@@ -6619,42 +6625,44 @@
       {
         "name": "Hunchly (T)",
         "type": "url",
-        "url": "http://www.hunch.ly/"
+        "url": "https://www.hunch.ly/",
+        "description": "The Web Capture Tool Designed For Online Investigations"
       },
       {
-        "name": "Fiddler (T)",
+        "name": "Fiddler (T)(R)(C)",
         "type": "url",
-        "url": "https://www.telerik.com/download/fiddler"
-      },
-      {
-        "name": "Burp Suite (T)",
-        "type": "url",
-        "url": "https://portswigger.net/burp/download.html"
+        "url": "https://www.telerik.com/download/fiddler",
+        "description": "The Original and Free Web Debugging Proxy Tool Exclusively for Windows"
       },
       {
         "name": "Page2Images (T)",
         "type": "url",
-        "url": "http://www.page2images.com/URL-Live-Website-Screenshot-Generator"
+        "url": "http://www.page2images.com/URL-Live-Website-Screenshot-Generator",
+        "description": "Online Website Screenshot Generator"
       },
       {
         "name": "Archive.is",
         "type": "url",
-        "url": "http://archive.is/"
+        "url": "https://archive.is/",
+        "description": "Archive.today is a time capsule for web pages! It takes a 'snapshot' of a webpage that will always be online even if the original page disappears. It saves a text and a graphical copy of the page for better accuracy and provides a short and reliable link to an unalterable record of any web page"
       },
       {
-        "name": "Web Page Saver",
+        "name": "Web Page Saver (T)",
         "type": "url",
-        "url": "https://www.magnetforensics.com/free-tool-web-page-saver/"
+        "url": "https://www.magnetforensics.com/free-tool-web-page-saver/",
+        "description": "MAGNET Web Page Saver (v3.3 released September 17th, 2020) is a perfect tool for capturing how web pages look at a specific point in time. This is especially useful in situations where the web pages need to be displayed in an environment where Internet access is not available (such as a court room)."
       },
       {
         "name": "Snapper (T)",
         "type": "url",
-        "url": "https://github.com/dxa4481/Snapper"
+        "url": "https://github.com/dxa4481/Snapper",
+        "description": "A security tool for grabbing screenshots of many web hosts. This tool is useful after DNS enumeration or after enumerating web hosts via nmap or nessus."
       },
       {
         "name": "Full Page Screen Capture Chrome Extension (T)",
         "type": "url",
-        "url": "https://github.com/mrcoles/full-page-screen-capture-chrome-extension"
+        "url": "https://github.com/mrcoles/full-page-screen-capture-chrome-extension",
+        "description": "A simple Google Chrome extension that takes a screen capture of a full web page. Every extension I tried couldn’t do this on Chrome 22 on Mac OSX Lion. So, I built this one to reliably do it. (Not tested, yet, on any other configurations)"
       }],
       "name": "Web Browsing",
       "type": "folder"
@@ -6664,17 +6672,20 @@
       {
         "name": "FRAPS (T)",
         "type": "url",
-        "url": "http://www.fraps.com/"
+        "url": "https://www.fraps.com/",
+        "description": "Fraps is a universal Windows application that can be used with games using DirectX or OpenGL graphic technology."
       },
       {
         "name": "ShareX (T)",
         "type": "url",
-        "url": "https://getsharex.com/"
+        "url": "https://getsharex.com/",
+        "description": "Screen capture, file sharing and productivity tool"
       },
       {
         "name": "Greenshot (T)",
         "type": "url",
-        "url": "https://getgreenshot.org/"
+        "url": "https://getgreenshot.org/",
+        "description": "Greenshot is the most awesome tool for making screenshots you can get on your Windows PC"
       }],
       "name": "Screen Capture",
       "type": "folder"
@@ -6682,29 +6693,22 @@
     {
       "children": [
       {
-        "name": "BatchGeo",
+        "name": "BatchGeo (R)",
         "type": "url",
-        "url": "https://batchgeo.com/"
+        "url": "https://batchgeo.com/",
+        "description": "We are the fastest way to map your data"
       },
       {
-        "name": "Google Street View - Hyperlapse",
+        "name": "Google Street View - Hyperlapse (T)",
         "type": "url",
-        "url": "https://github.com/TeehanLax/Hyperlapse.js"
+        "url": "https://github.com/TeehanLax/Hyperlapse.js",
+        "description": "JavaScript hyper-lapse utility for Google Street View."
       },
       {
-        "name": "Teehan+Lax Labs - Hyperlapse",
+        "name": "ZeeMaps (R)",
         "type": "url",
-        "url": "http://labs.teehanlax.com/project/hyperlapse"
-      },
-      {
-        "name": "Google Maps Streetview Player",
-        "type": "url",
-        "url": "http://brianfolts.com/driver/"
-      },
-      {
-        "name": "ZeeMaps",
-        "type": "url",
-        "url": "https://www.zeemaps.com/"
+        "url": "https://www.zeemaps.com/",
+        "description": "Use maps for analysis and presentations"
       }],
       "name": "Map Locations",
       "type": "folder"
@@ -6712,7 +6716,8 @@
     {
       "name": "Timeline JS3",
       "type": "url",
-      "url": "http://timeline.knightlab.com/"
+      "url": "https://timeline.knightlab.com/",
+      "description": "Northwestern University Knight Lab is a community of designers, developers, students, and educators working on experiments designed to push journalism into new spaces."
     }],
     "name": "Documentation",
     "type": "folder"
