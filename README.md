@@ -7,7 +7,7 @@ OSINT framework v.2 focused on gathering information from free tools or resource
 
 I originally created this framework with an information security point of view. Since then, the response from other fields and disciplines has been incredible. I would love to be able to include any other OSINT resources, especially from fields outside of infosec. Please let me know about anything that might be missing!
 
-Compared to version 1, the framework has been significantly changed structurally and supplemented, in particular, the resource base from Bellingcat has been completely introduced into it, a large number of different utilities and links have been added, all inaccessible and non-working resources have been removed, resource descriptions have been added, the legend has been changed, coloring of branches has been added, search and more.
+Compared to version 1, the framework has been significantly changed structurally and supplemented, in particular, the resource base from Bellingcat (https://ru.bellingcat.com/) has been completely introduced into it, a large number of different utilities and links have been added, all inaccessible and non-working resources have been removed, resource descriptions have been added, the legend has been changed, coloring of branches has been added, search and more.
 
 Please visit the framework at the link below and good hunting!
 
