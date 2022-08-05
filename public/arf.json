@@ -5442,42 +5442,45 @@
     {
       "name": "Craigslist",
       "type": "url",
-      "url": "http://craigslist.org/"
+      "url": "https://craigslist.org/"
     },
     {
-      "name": "Kijiji - Canada Classifieds",
+      "name": "Kijiji - Canada Classifieds (R)",
       "type": "url",
-      "url": "http://www.kijiji.ca/"
+      "url": "https://www.kijiji.ca/"
     },
     {
       "name": "Quikr - India Classifieds",
       "type": "url",
-      "url": "http://www.quikr.com/"
+      "url": "https://www.quikr.com/"
     },
     {
       "name": "eBay",
       "type": "url",
-      "url": "http://www.ebay.com/"
+      "url": "https://www.ebay.com/"
     },
     {
-      "name": "OfferUp",
+      "name": "OfferUp (US only!)",
       "type": "url",
       "url": "https://offerup.com/"
     },
     {
-      "name": "Goofbid",
+      "name": "Goofbid (R)",
       "type": "url",
-      "url": "http://www.goofbid.com/"
+      "url": "https://www.goofbid.com/",
+      "description": "eBay itemID or search them"
     },
     {
       "name": "Flippity",
       "type": "url",
-      "url": "http://www.flippity.com/"
+      "url": "https://www.flippity.com/",
+      "description": "Shop quickly and efficiently"
     },
     {
       "name": "SearchAllJunk",
       "type": "url",
-      "url": "http://www.searchalljunk.com/"
+      "url": "https://www.searchalljunk.com/",
+      "description": "Search multiple classifieds sites at once"
     },
     {
       "name": "TotalCraigSearch",
@@ -5485,22 +5488,18 @@
       "url": "http://www.totalcraigsearch.com/"
     },
     {
-      "name": "Backpage",
-      "type": "url",
-      "url": "http://www.backpage.com/"
-    },
-    {
       "name": "Search Tempest",
       "type": "url",
-      "url": "http://www.searchtempest.com/"
+      "url": "https://www.searchtempest.com/",
+      "description": "All of Facebook Marketplace, craigslist & more in one search"
     },
     {
-      "name": "Oodle",
+      "name": "Oodle (R)",
       "type": "url",
-      "url": "http://www.oodle.com/"
+      "url": "https://www.oodle.com/"
     },
     {
-      "name": "Claz.org",
+      "name": "Claz.org (R)",
       "type": "url",
       "url": "http://claz.org/"
     }],
