@@ -267,6 +267,26 @@
       "url": "https://www.pwnmalw.re/"
     },
     {
+      "name": "OSVDB: Open Sourced Vulnerability Database",
+      "type": "url",
+      "url": "http://osvdb.org/"
+    },
+    {
+      "name": "Phenoelit Default Password List",
+      "type": "url",
+      "url": "http://phenoelit.org/dpl/dpl.html"
+    },
+    {
+      "name": "Open Sez Me Default Passwords",
+      "type": "url",
+      "url": "http://open-sez.me/"
+    },
+    {
+      "name": "Hashes.org",
+      "type": "url",
+      "url": "https://hashes.org/"
+    },
+    {
       "name": "HoneyDB",
       "type": "url",
       "url": "https://riskdiscovery.com/honeydb/"

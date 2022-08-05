@@ -6099,37 +6099,26 @@
       {
         "name": "Default Passwords DB",
         "type": "url",
-        "url": "https://cirt.net/passwords"
+        "url": "https://cirt.net/passwords",
+        "description": "Default Passwords Database"
       },
       {
         "name": "Default passwords list",
         "type": "url",
-        "url": "https://default-password.info/"
+        "url": "https://default-password.info/",
+        "description": "Devices Default Passwords Database"
       },
       {
         "name": "Default Password Lookup Utility",
         "type": "url",
-        "url": "http://www.fortypoundhead.com/tools_dpw.asp"
-      },
-      {
-        "name": "Phenoelit Default Password List",
-        "type": "url",
-        "url": "http://phenoelit.org/dpl/dpl.html"
+        "url": "https://www.fortypoundhead.com/tools_dpw.asp",
+        "description": "Most devices that you can purchase, such as routers, managed switches, servers, even software packages, come pre-configured with a default username and password. From time to time, you need to reset the configuration. But alas, you cannot remember the default password, and that documentation is long gone. The answer may just lie in this handy lookup tool."
       },
       {
         "name": "Default Router Passwords",
         "type": "url",
-        "url": "http://routerpasswords.com/"
-      },
-      {
-        "name": "Open Sez Me Default Passwords",
-        "type": "url",
-        "url": "http://open-sez.me/"
-      },
-      {
-        "name": "Hashes.org",
-        "type": "url",
-        "url": "https://hashes.org/"
+        "url": "https://routerpasswords.com/",
+        "description": "Router Passwords is officially the most updated default router password repository on the internet. To find the default password of your router select the manufacturer from the drop-down and click the Find Password Button."
       }],
       "name": "Default Passwords",
       "type": "folder"
@@ -6137,62 +6126,68 @@
     {
       "name": "MITRE ATT&CK",
       "type": "url",
-      "url": "https://attack.mitre.org/"
+      "url": "https://attack.mitre.org/",
+      "description": "MITRE ATT&CK is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community."
     },
     {
       "name": "Exploit DB",
       "type": "url",
-      "url": "https://www.exploit-db.com/"
+      "url": "https://www.exploit-db.com/",
+      "description": "Exploit Database"
     },
     {
-      "name": "Packet Storm",
+      "name": "Packet Storm (R)",
       "type": "url",
-      "url": "https://packetstormsecurity.com/"
+      "url": "https://packetstormsecurity.com/",
+      "description": "In these times where a new major data breach occurs on a daily basis, it is important for the personal Internet user, corporations, and governments to stay aware of vulnerabilities that may affect their systems. Packet Storm provides around-the-clock information and tools in order to help mitigate both personal data and fiscal loss on a global scale."
     },
     {
       "name": "SecurityFocus",
       "type": "url",
-      "url": "http://www.securityfocus.com/bid"
+      "url": "https://bugtraq.securityfocus.com/archive",
+      "description": "BugTraq is a full disclosure mailing list for the detailed discussion and announcement of computer security vulnerabilities. BugTraq serves as the cornerstone of the Internet-wide security community."
     },
     {
       "name": "NVD - NIST",
       "type": "url",
-      "url": "https://nvd.nist.gov/"
-    },
-    {
-      "name": "OSVDB: Open Sourced Vulnerability Database",
-      "type": "url",
-      "url": "http://osvdb.org/"
+      "url": "https://nvd.nist.gov/",
+      "description": "The NVD is the U.S. government repository of standards based vulnerability management data represented using the Security Content Automation Protocol (SCAP). This data enables automation of vulnerability management, security measurement, and compliance. The NVD includes databases of security checklist references, security-related software flaws, misconfigurations, product names, and impact metrics."
     },
     {
       "name": "CVE Details",
       "type": "url",
-      "url": "http://www.cvedetails.com/"
+      "url": "https://www.cvedetails.com/",
+      "description": "The ultimate security vulnerability datasource"
     },
     {
       "name": "CVE - MITRE",
       "type": "url",
-      "url": "http://cve.mitre.org/"
+      "url": "https://cve.mitre.org/",
+      "description": "The mission of the CVE Program is to identify, define, and catalog publicly disclosed cybersecurity vulnerabilities."
     },
     {
       "name": "OWASP",
       "type": "url",
-      "url": "https://www.owasp.org/index.php/Main_Page"
+      "url": "https://www.owasp.org/index.php/Main_Page",
+      "description": "https://www.owasp.org/index.php/Main_Page"
     },
     {
       "name": "0day.today",
       "type": "url",
-      "url": "http://0day.today/"
+      "url": "https://0day.today/",
+      "description": "0day Today is the ultimate database of exploits and vulnerabilities and a great resource for vulnerability researchers and security professionals.\nOur aim is to collect exploits from submittals and various mailing lists and concentrate them in one, easy-to-navigate database."
     },
     {
-      "name": "Secunia",
+      "name": "Secunia (R)",
       "type": "url",
-      "url": "https://secuniaresearch.flexerasoftware.com/community/research/"
+      "url": "https://secuniaresearch.flexerasoftware.com/community/research/",
+      "description": "Since 2002 the team at Secunia Research have been delivering security advisories that provide reliable, curated, actionable vulnerability intelligence. These security advisories provide a summary of the body of work that Secunia Research performs in order to communicate a standardized, validated, and enriched vulnerability research on a specific version of a software product."
     },
     {
       "name": "Canadian Centre for Cyber Security",
       "type": "url",
-      "url": "https://cyber.gc.ca/"
+      "url": "https://cyber.gc.ca/",
+      "description": "The Canadian Centre for Cyber Security (the Cyber Centre) is part of the Communications Security Establishment. It is the single unified source of expert advice, guidance, services and support on cyber security for Canadians."
     }],
     "name": "Exploits & Advisories",
     "type": "folder"
