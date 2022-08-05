@@ -873,6 +873,124 @@
         {
           "children": [
             {
+              "name": "LinkedIn (R)",
+              "type": "url",
+              "url": "https://www.linkedin.com/"
+            },
+            {
+              "name": "XING",
+              "type": "url",
+              "url": "https://www.xing.com/"
+            },
+            {
+              "name": "Indeed",
+              "type": "url",
+              "url": "http://www.indeed.com/",
+              "description": "Indeed helps people get jobs: Over 16 million stories shared"
+            },
+            {
+              "name": "Glassdoor",
+              "type": "url",
+              "url": "https://www.glassdoor.com",
+              "description": "You deserve a job that loves you back"
+            },
+            {
+              "name": "HeadHunter (R)",
+              "type": "url",
+              "url": "https://hh.ru/"
+            },
+            {
+              "name": "Habr Career (MoiKrug.ru) (Russian) (R)",
+              "type": "url",
+              "url": "https://career.habr.com/"
+            },
+            {
+              "name": "Rabota.ru (Russian) (R)",
+              "type": "url",
+              "url": "https://rabota.ru"
+            },
+            {
+              "name": "Rabota.ua (Ukraine) (R)",
+              "type": "url",
+              "url": "https://rabota.ua"
+            },
+            {
+              "name": "Jobs on vc.ru",
+              "type": "url",
+              "url": "https://vc.ru/job"
+            },
+            {
+              "name": "Zarplata.ru (Russian) (R)",
+              "type": "url",
+              "url": "https://zarplata.ru"
+            },
+            {
+              "name": "RecruitEm",
+              "type": "url",
+              "url": "http://recruitin.net/",
+              "description": "Easily use Google to search profiles on LinkedIn. X-Ray search"
+            },
+            {
+              "name": "Jobster",
+              "type": "url",
+              "url": "http://www.jobster.com/"
+            }],
+          "name": "Employee Profiles & Resumes",
+          "type": "folder"
+        },
+        {
+          "children": [
+
+          ],
+          "name": "Human Resources (HR)",
+          "type": "folder"
+        },
+        {
+          "children": [
+            {
+              "name": "Breezy HR (R)(C)",
+              "type": "url",
+              "url": "https://breezy.hr/",
+              "description": "Find & Hire Employees, Sooner"
+            },
+            {
+              "name": "AmazingHiring (R)(C)",
+              "type": "url",
+              "url": "https://amazinghiring.ru/",
+              "description": "AI sourcing technology that helps you find 40% more candidates from 50+ open sources online"
+            },
+            {
+              "name": "HuntFlow (R)(C)(API)",
+              "type": "url",
+              "url": "https://huntflow.ru/"
+            },
+            {
+              "name": "FriendWork (R)(C)",
+              "type": "url",
+              "url": "https://friend.work/"
+            },
+            {
+              "name": "Potok (R)(C)",
+              "type": "url",
+              "url": "https://talenttech.ru/potok/"
+            },
+            {
+              "name": "E-Staff (R)(C)(T)",
+              "type": "url",
+              "url": "https://e-staff.ru/"
+            },
+            {
+              "name": "Talantix (R)(C)",
+              "type": "url",
+              "url": "https://talantix.ru/"
+            }
+          ],
+          "name": "Application Tracking Systems (ATS)",
+          "type": "folder"
+        },
+        {
+          "children": [
+            {
               "name": "The Knot",
               "type": "url",
               "url": "https://www.theknot.com/registry/couplesearch",
@@ -4556,74 +4674,6 @@
                   "description": "Grow your team with all-in-one prospecting solutions powered by the leader in private-company data."
                 }],
               "name": "Company Profiles",
-              "type": "folder"
-            },
-            {
-              "children": [
-                {
-                  "name": "LinkedIn (R)",
-                  "type": "url",
-                  "url": "https://www.linkedin.com/"
-                },
-                {
-                  "name": "XING",
-                  "type": "url",
-                  "url": "https://www.xing.com/"
-                },
-                {
-                  "name": "Indeed",
-                  "type": "url",
-                  "url": "http://www.indeed.com/",
-                  "description": "Indeed helps people get jobs: Over 16 million stories shared"
-                },
-                {
-                  "name": "Glassdoor",
-                  "type": "url",
-                  "url": "https://www.glassdoor.com",
-                  "description": "You deserve a job that loves you back"
-                },
-                {
-                  "name": "HeadHunter (R)",
-                  "type": "url",
-                  "url": "https://hh.ru/"
-                },
-                {
-                  "name": "Habr Career (MoiKrug.ru) (Russian) (R)",
-                  "type": "url",
-                  "url": "https://career.habr.com/"
-                },
-                {
-                  "name": "Rabota.ru (Russian) (R)",
-                  "type": "url",
-                  "url": "https://rabota.ru"
-                },
-                {
-                  "name": "Rabota.ua (Ukraine) (R)",
-                  "type": "url",
-                  "url": "https://rabota.ua"
-                },
-                {
-                  "name": "Jobs on vc.ru",
-                  "type": "url",
-                  "url": "https://vc.ru/job"
-                },
-                {
-                  "name": "Zarplata.ru (Russian) (R)",
-                  "type": "url",
-                  "url": "https://zarplata.ru"
-                },
-                {
-                  "name": "RecruitEm",
-                  "type": "url",
-                  "url": "http://recruitin.net/",
-                  "description": "Easily use Google to search profiles on LinkedIn. X-Ray search"
-                },
-                {
-                  "name": "Jobster",
-                  "type": "url",
-                  "url": "http://www.jobster.com/"
-                }],
-              "name": "Employee Profiles & Resumes",
               "type": "folder"
             },
             {
