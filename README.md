@@ -19,7 +19,7 @@ https://osintframework.com
 (R) - Requires registration  
 (C) - For commercial use / paid service  
 (M) - Indicates a URL that contains the search term and the URL itself must be edited manually  
-(U) - Currently unsupported, unmaintained or deprecated
+(U) - Currently unsupported, unmaintained or deprecated  
 (I) - By Invitation
 
 ### For Update Notifications
