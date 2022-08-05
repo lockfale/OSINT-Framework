@@ -94,6 +94,40 @@
         {
           "children": [
             {
+              "name": "Google Advanced Search",
+              "type": "url",
+              "url": "https://www.google.com/advanced_search"
+            },
+            {
+              "name": "Google CSE (R)",
+              "type": "url",
+              "url": "https://cse.google.com",
+              "description": "Google programmable custom search engine"
+            },
+            {
+              "name": "Google CSE for Telegram links (R)",
+              "type": "url",
+              "url": "https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg"
+            },
+            {
+              "name": "Google Social Search",
+              "type": "url",
+              "url": "http://www.social-searcher.com/google-social-search/",
+              "description": "Top Social Networks Search Results Dashboard"
+            },
+            {
+              "name": "Google Alerts",
+              "type": "url",
+              "url": "https://www.google.com/alerts#",
+              "description": "Monitor the web for interesting new content"
+            },
+            {
+              "name": "pagodo - Passive Google Dork (T)",
+              "type": "url",
+              "url": "https://github.com/opsdisk/pagodo",
+              "description": "pagodo automates Google searching for potentially vulnerable web pages and applications on the Internet. It replaces manually performing Google dork searches with a web GUI browser."
+            },
+            {
               "name": "GHunt (T)",
               "type": "url",
               "url": "https://github.com/mxrch/GHunt",
@@ -478,7 +512,7 @@
               "url": "https://arxiv.org/",
               "description": "arXiv is a free distribution service and an open-access archive for 2,106,460 scholarly articles in the fields of physics, mathematics, computer science, quantitative biology, quantitative finance, statistics, electrical engineering and systems science, and economics. Materials on this site are not peer-reviewed by arXiv."
             }],
-          "name": "Academic / Publication Search",
+          "name": "Academic, Publication Search",
           "type": "folder"
         },
         {
@@ -490,7 +524,7 @@
               "description": "INTERNATIONAL DIRECTORY OF SEARCH ENGINES"
             },
             {
-              "name": "SimilarSites",
+              "name": "Similar Sites",
               "type": "url",
               "url": "https://www.similarsites.com",
               "description": "Search for a Site"
@@ -517,24 +551,6 @@
               "type": "url",
               "url": "https://github.com/MrCl0wnLab/SCANNER-INURLBR",
               "description": "Advanced search in search engines, enables analysis provided to exploit GET / POST capturing emails & urls, with an internal custom validation junction for each target / url found."
-            },
-            {
-              "name": "Google Alerts",
-              "type": "url",
-              "url": "https://www.google.com/alerts#",
-              "description": "Monitor the web for interesting new content"
-            },
-            {
-              "name": "Google Custom Search Engine",
-              "type": "url",
-              "url": "https://cse.google.com/cse/",
-              "description": "Google programmable custom search engine"
-            },
-            {
-              "name": "pagodo - Passive Google Dork (T)",
-              "type": "url",
-              "url": "https://github.com/opsdisk/pagodo",
-              "description": "pagodo automates Google searching for potentially vulnerable web pages and applications on the Internet. It replaces manually performing Google dork searches with a web GUI browser."
             },
             {
               "name": "Talkwalker Alerts",
@@ -1831,6 +1847,17 @@
         {
           "children": [
             {
+              "name": "Google CSE for Telegram links (R)",
+              "type": "url",
+              "url": "https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg"
+            }
+          ],
+          "name": "Telegram",
+          "type": "folder"
+        },
+        {
+          "children": [
+            {
               "name": "Reddit Archive",
               "type": "url",
               "url": "http://www.redditarchive.com/"
@@ -1901,11 +1928,6 @@
               "name": "Google CSE (R)",
               "type": "url",
               "url": "https://cse.google.com"
-            },
-            {
-              "name": "Google CSE for Telegram links (R)",
-              "type": "url",
-              "url": "https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg"
             },
             {
               "name": "Google Social Search",
