@@ -292,14 +292,19 @@
       "url": "https://wepawet.iseclab.org/"
     },
     {
-      "name": "XecScan",
-      "type": "url",
-      "url": "http://scan.xecure-lab.com/"
-    },
-    {
       "name": "National Software Reference Library",
       "type": "url",
       "url": "http://nsrl.hashsets.com/national_software_reference_library1_search.php"
+    },
+    {
+      "name": "NetBootCamp",
+      "type": "url",
+      "url": "https://netbootcamp.org/trainingprogram/"
+    },
+    {
+      "name": "XecScan",
+      "type": "url",
+      "url": "http://scan.xecure-lab.com/"
     },
     {
       "name": "Valkyrie File Analysis",

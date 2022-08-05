@@ -6730,43 +6730,44 @@
       {
         "name": "GeoGuesser",
         "type": "url",
-        "url": "https://geoguessr.com/"
+        "url": "https://geoguessr.com/",
+        "description": "Find clues and guess where you are in the world.\nJoin 30 million other players worldwide."
       },
       {
         "name": "Verif!cation Quiz Bot",
         "type": "url",
-        "url": "https://twitter.com/quiztime"
+        "url": "https://twitter.com/quiztime",
+        "description": "Join us and verify yourself through a little series of quizzes that we post daily on Twitter. Learn about the main tools and collaborate with others."
       }],
       "name": "Games",
       "type": "folder"
     },
     {
-      "name": "AutomatingOSINT.com",
+      "name": "AutomatingOSINT.com (R)(C)",
       "type": "url",
-      "url": "http://register.automatingosint.com/"
+      "url": "https://register.automatingosint.com/",
+      "description": "his is the only course, literally - you can’t get it anywhere else, that teaches you how to write code to automatically extract and analyze data from the web and social media. Join students from around the world from law enforcement, journalism, information security and more."
     },
     {
       "name": "Open Source Intelligence Techniques",
       "type": "url",
-      "url": "https://inteltechniques.com/"
+      "url": "https://inteltechniques.com/",
+      "description": "Welcome to the new home for both sites. With simpler navigation and a cleaner interface, you should be able to easily browse through our services and resources. Consider checking out our blog and podcast from the menu above, or visit our resources page for our latest projects, such as the new online search tools. Browse through our services page to learn about the various privacy remedies we offer. Join our online video training and become a certified Open Source Intelligence Professional (OSIP) around your schedule! Finally, we offer updated books about OSINT and Privacy in our book store."
     },
     {
-      "name": "Plessas",
+      "name": "Plessas Security Online Training Portal (R)(C)",
       "type": "url",
-      "url": "https://plessas.net/online-training"
+      "url": "https://plessas.net/online-training",
+      "description": "Subscribe to the OSINT NEWS links and resources feed for only $5.99 per month and receive a curated feed of tools, tutorials and news notated by senior OSINT analysts. Topics include social media, anonymization, dark web and much much more. All instruction is overseen by our expert, Kirby Plessas, who has taught OSINT methods to federal, state and local law enforcement, military, intelligence and corporate customers. "
     },
     {
-      "name": "SANS SEC487 OSINT Class",
+      "name": "SANS SEC487 OSINT Class (R)(C)",
       "type": "url",
-      "url": "https://www.sans.org/sec487"
+      "url": "https://www.sans.org/cyber-security-courses/open-source-intelligence-gathering/",
+      "description": "The amount of data being pushed to the Internet each minute is staggering. Hundreds of hours of video, hundreds of thousands of images, and more text than can be indexed with a search engine. Couple that massive amount of data with websites that restrict access, those on unindexed servers, and data in the dark web, and you will quickly understand that gaining a strong foundation in how to search, collect, and analyze data from Internet-facing platforms no matter where they are located is important. This is what SEC487 does."
     },
     {
-      "name": "NetBootCamp",
-      "type": "url",
-      "url": "https://netbootcamp.org/trainingprogram/"
-    },
-    {
-      "name": "Smart Questions",
+      "name": "Smart Questions by Eric Steven Raymond",
       "type": "url",
       "url": "http://www.catb.org/esr/faqs/smart-questions.html"
     }],
