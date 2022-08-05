@@ -5030,177 +5030,6 @@
     {
       "children": [
       {
-        "children": [
-        {
-          "name": "Android Studio",
-          "type": "url",
-          "url": "https://developer.android.com/studio",
-          "description": "Android Studio provides the fastest tools for building apps on every type of Android device"
-        },
-        {
-          "name": "Genymotion (T)",
-          "type": "url",
-          "url": "https://www.genymotion.com/",
-          "description": "Android Virtual Devices for all your team, project, development & testing needs"
-        },
-        {
-          "name": "BlueStacks 2 (T)",
-          "type": "url",
-          "url": "http://www.bluestacks.com/",
-          "description": "Play Android games on any device, any platform"
-        },
-        {
-          "name": "Andy Android Emulator (T)",
-          "type": "url",
-          "url": "http://www.andyroid.net/",
-          "description": "Andy the Best Android Emulator"
-        },
-        {
-          "name": "Nox App Player (R)",
-          "type": "url",
-          "url": "https://www.bignox.com/",
-          "description": "NoxPlayer, the perfect Android emulator to play mobile games on PC"
-        }],
-        "name": "Emulation Tools",
-        "type": "folder"
-      },
-      {
-        "children": [
-        {
-          "children": [
-          {
-            "name": "Facebook (T)",
-            "type": "url",
-            "url": "https://play.google.com/store/apps/details?id=com.facebook.katana"
-          },
-          {
-            "name": "LinkedIn (T)",
-            "type": "url",
-            "url": "https://play.google.com/store/apps/details?id=com.linkedin.android"
-          },
-          {
-            "name": "Twitter (T)",
-            "type": "url",
-            "url": "https://play.google.com/store/apps/details?id=com.twitter.android"
-          },
-          {
-            "name": "Pinterest (T)",
-            "type": "url",
-            "url": "https://play.google.com/store/apps/details?id=com.pinterest"
-          }],
-          "name": "Social Networking",
-          "type": "folder"
-        },
-        {
-          "children": [
-          {
-            "name": "Signal Private Messenger (T)",
-            "type": "url",
-            "url": "https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms"
-          },
-          {
-            "name": "Telegram Messenger (T)",
-            "type": "url",
-            "url": "https://play.google.com/store/apps/details?id=org.telegram.messenger"
-          },
-          {
-            "name": "Discord Messenger (T)",
-            "type": "url",
-            "url": "https://discord.com/"
-          },
-          {
-            "name": "WhatsApp Messenger (T)",
-            "type": "url",
-            "url": "https://play.google.com/store/apps/details?id=com.whatsapp"
-          },
-          {
-            "name": "Snapchat (T)",
-            "type": "url",
-            "url": "https://play.google.com/store/apps/details?id=com.snapchat.android"
-          },
-          {
-            "name": "Element (Riot.im) - Communicate, your way (T)",
-            "type": "url",
-            "url": "https://play.google.com/store/apps/details?id=im.vector.app"
-          },
-          {
-            "name": "Kik (T)",
-            "type": "url",
-            "url": "https://play.google.com/store/apps/details?id=kik.android"
-          },
-          {
-            "name": "Yik Yak (T)(U)",
-            "type": "url",
-            "url": "https://yikyak.com/"
-          },
-          {
-            "name": "LINE (T)",
-            "type": "url",
-            "url": "https://play.google.com/store/apps/details?id=jp.naver.line.android"
-          }],
-          "name": "Instant Messaging",
-          "type": "folder"
-        },
-        {
-          "children": [
-          {
-            "name": "Instagram (T)",
-            "type": "url",
-            "url": "https://play.google.com/store/apps/details?id=com.instagram.android"
-          },
-          {
-            "name": "Flickr (T)",
-            "type": "url",
-            "url": "https://play.google.com/store/apps/details?id=com.flickr.android&hl=ru&gl=US",
-            "description": "Join the largest, most influential community of photographers in the world. Upload, edit, and share your photos from any device, anytime"
-          }],
-          "name": "Pictures",
-          "type": "folder"
-        },
-        {
-          "children": [
-          {
-            "name": "Periscope (T)(U)",
-            "type": "url",
-            "url": "https://trashbox.ru/link/periscope-android",
-            "description": "Periscope TV streaming application"
-          },
-          {
-            "name": "Meerkat (T)",
-            "type": "url",
-            "url": "https://play.google.com/store/apps/details?id=com.ctm.cinema&hl=ru&gl=US",
-            "description": "The Meerkat app is where you’ll find all the best things that Compare the Market has to offer. If you’re a rewards member, it’s where you’ll find your tasty savings on dining out, ordering in and collection, your 2 for 1 cinema tickets, as well as discounted coffee. Plus, it’s your first port of call to quickly compare everything from insurance to household bills. You will unlock 12 whole months of rewards once you take out a qualifying product."
-          },
-          {
-            "name": "Vine (T)",
-            "type": "url",
-            "url": "https://play.google.com/store/apps/details?id=co.vine.android",
-            "description": "Vine streaming video application"
-          }],
-          "name": "Streaming Video",
-          "type": "folder"
-        },
-        {
-          "name": "Truecaller (T)",
-          "type": "url",
-          "url": "https://play.google.com/store/apps/details?id=com.truecaller",
-          "description": "Caller ID application"
-        }],
-        "name": "Apps",
-        "type": "folder"
-      }],
-      "name": "Android",
-      "type": "folder"
-    }],
-    "name": "Mobile Applications",
-    "type": "folder"
-  },
-
-  {
-    "children": [
-    {
-      "children": [
-      {
         "name": "Reddit Deep Web (R)",
         "type": "url",
         "url": "https://www.reddit.com/r/deepweb"
@@ -5809,6 +5638,176 @@
       "children": [],
       "name": "VPN",
       "type": "folder"
+    },
+    {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "name": "Android Studio",
+                    "type": "url",
+                    "url": "https://developer.android.com/studio",
+                    "description": "Android Studio provides the fastest tools for building apps on every type of Android device"
+                  },
+                  {
+                    "name": "Genymotion (T)",
+                    "type": "url",
+                    "url": "https://www.genymotion.com/",
+                    "description": "Android Virtual Devices for all your team, project, development & testing needs"
+                  },
+                  {
+                    "name": "BlueStacks 2 (T)",
+                    "type": "url",
+                    "url": "http://www.bluestacks.com/",
+                    "description": "Play Android games on any device, any platform"
+                  },
+                  {
+                    "name": "Andy Android Emulator (T)",
+                    "type": "url",
+                    "url": "http://www.andyroid.net/",
+                    "description": "Andy the Best Android Emulator"
+                  },
+                  {
+                    "name": "Nox App Player (R)",
+                    "type": "url",
+                    "url": "https://www.bignox.com/",
+                    "description": "NoxPlayer, the perfect Android emulator to play mobile games on PC"
+                  }],
+                "name": "Emulation Tools",
+                "type": "folder"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "name": "Facebook (T)",
+                        "type": "url",
+                        "url": "https://play.google.com/store/apps/details?id=com.facebook.katana"
+                      },
+                      {
+                        "name": "LinkedIn (T)",
+                        "type": "url",
+                        "url": "https://play.google.com/store/apps/details?id=com.linkedin.android"
+                      },
+                      {
+                        "name": "Twitter (T)",
+                        "type": "url",
+                        "url": "https://play.google.com/store/apps/details?id=com.twitter.android"
+                      },
+                      {
+                        "name": "Pinterest (T)",
+                        "type": "url",
+                        "url": "https://play.google.com/store/apps/details?id=com.pinterest"
+                      }],
+                    "name": "Social Networking",
+                    "type": "folder"
+                  },
+                  {
+                    "children": [
+                      {
+                        "name": "Signal Private Messenger (T)",
+                        "type": "url",
+                        "url": "https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms"
+                      },
+                      {
+                        "name": "Telegram Messenger (T)",
+                        "type": "url",
+                        "url": "https://play.google.com/store/apps/details?id=org.telegram.messenger"
+                      },
+                      {
+                        "name": "Discord Messenger (T)",
+                        "type": "url",
+                        "url": "https://discord.com/"
+                      },
+                      {
+                        "name": "WhatsApp Messenger (T)",
+                        "type": "url",
+                        "url": "https://play.google.com/store/apps/details?id=com.whatsapp"
+                      },
+                      {
+                        "name": "Snapchat (T)",
+                        "type": "url",
+                        "url": "https://play.google.com/store/apps/details?id=com.snapchat.android"
+                      },
+                      {
+                        "name": "Element (Riot.im) - Communicate, your way (T)",
+                        "type": "url",
+                        "url": "https://play.google.com/store/apps/details?id=im.vector.app"
+                      },
+                      {
+                        "name": "Kik (T)",
+                        "type": "url",
+                        "url": "https://play.google.com/store/apps/details?id=kik.android"
+                      },
+                      {
+                        "name": "Yik Yak (T)(U)",
+                        "type": "url",
+                        "url": "https://yikyak.com/"
+                      },
+                      {
+                        "name": "LINE (T)",
+                        "type": "url",
+                        "url": "https://play.google.com/store/apps/details?id=jp.naver.line.android"
+                      }],
+                    "name": "Instant Messaging",
+                    "type": "folder"
+                  },
+                  {
+                    "children": [
+                      {
+                        "name": "Instagram (T)",
+                        "type": "url",
+                        "url": "https://play.google.com/store/apps/details?id=com.instagram.android"
+                      },
+                      {
+                        "name": "Flickr (T)",
+                        "type": "url",
+                        "url": "https://play.google.com/store/apps/details?id=com.flickr.android&hl=ru&gl=US",
+                        "description": "Join the largest, most influential community of photographers in the world. Upload, edit, and share your photos from any device, anytime"
+                      }],
+                    "name": "Pictures",
+                    "type": "folder"
+                  },
+                  {
+                    "children": [
+                      {
+                        "name": "Periscope (T)(U)",
+                        "type": "url",
+                        "url": "https://trashbox.ru/link/periscope-android",
+                        "description": "Periscope TV streaming application"
+                      },
+                      {
+                        "name": "Meerkat (T)",
+                        "type": "url",
+                        "url": "https://play.google.com/store/apps/details?id=com.ctm.cinema&hl=ru&gl=US",
+                        "description": "The Meerkat app is where you’ll find all the best things that Compare the Market has to offer. If you’re a rewards member, it’s where you’ll find your tasty savings on dining out, ordering in and collection, your 2 for 1 cinema tickets, as well as discounted coffee. Plus, it’s your first port of call to quickly compare everything from insurance to household bills. You will unlock 12 whole months of rewards once you take out a qualifying product."
+                      },
+                      {
+                        "name": "Vine (T)",
+                        "type": "url",
+                        "url": "https://play.google.com/store/apps/details?id=co.vine.android",
+                        "description": "Vine streaming video application"
+                      }],
+                    "name": "Streaming Video",
+                    "type": "folder"
+                  },
+                  {
+                    "name": "Truecaller (T)",
+                    "type": "url",
+                    "url": "https://play.google.com/store/apps/details?id=com.truecaller",
+                    "description": "Caller ID application"
+                  }],
+                "name": "Apps",
+                "type": "folder"
+              }],
+            "name": "Android",
+            "type": "folder"
+          }],
+        "name": "Mobile Applications",
+        "type": "folder"
     },
     {
       "name": "Paterva / Maltego (T)(R)(C)",
