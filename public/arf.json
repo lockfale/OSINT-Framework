@@ -873,36 +873,169 @@
         {
           "children": [
             {
-              "name": "LinkedIn (R)",
+              "name": "LinkedIn (R)(C)",
               "type": "url",
               "url": "https://www.linkedin.com/"
             },
             {
-              "name": "XING",
+              "name": "XING (R)",
               "type": "url",
               "url": "https://www.xing.com/"
             },
             {
-              "name": "Indeed",
+              "name": "Indeed (R)",
               "type": "url",
               "url": "http://www.indeed.com/",
               "description": "Indeed helps people get jobs: Over 16 million stories shared"
             },
             {
-              "name": "Glassdoor",
+              "name": "Glassdoor(R)",
               "type": "url",
               "url": "https://www.glassdoor.com",
               "description": "You deserve a job that loves you back"
             },
             {
-              "name": "HeadHunter (R)",
+              "name": "RecruitEm",
               "type": "url",
-              "url": "https://hh.ru/"
+              "url": "http://recruitin.net/",
+              "description": "Easily use Google to search profiles on LinkedIn. X-Ray search"
+            },
+            {
+              "name": "Jobster (R)",
+              "type": "url",
+              "url": "http://www.jobster.com/"
+            },
+            {
+              "name": "UpWork (R)(C)",
+              "type": "url",
+              "url": "https://www.upwork.com/"
+            },
+            {
+              "name": "Turing.com (R)",
+              "type": "url",
+              "url": "https://www.turing.com/",
+              "description": "Our AI-backed Intelligent Talent Cloud helps you source, vet, match, and manage the world's best software developers remotely"
+            },
+            {
+              "name": "Fiverr (R)",
+              "type": "url",
+              "url": "https://www.fiverr.com/",
+              "description": "Find the perfect freelance services for your business"
+            },
+            {
+              "name": "Deel",
+              "type": "url",
+              "url": "https://www.deel.com/",
+              "description": "Hit your hiring targets faster with access to top talent in 150 countries around the globe."
+            },
+            {
+              "name": "Toptal (R)",
+              "type": "url",
+              "url": "https://www.toptal.com/",
+              "description": "Toptal is an exclusive network of the top freelance software developers, designers, finance experts, product managers, and project managers in the world. Top companies hire Toptal freelancers for their most important projects."
+            },
+            {
+              "name": "Jooble (R)",
+              "type": "url",
+              "url": "https://jooble.org/",
+              "description": "Your new job, vacancies all over the USA"
+            },
+            {
+              "name": "FlexJobs (R)",
+              "type": "url",
+              "url": "https://www.flexjobs.com/",
+              "description": "The #1 job site to find vetted remote, work from home, and flexible job opportunities since 2007."
+            },
+            {
+              "name": "SimplyHired (R)",
+              "type": "url",
+              "url": "https://www.simplyhired.com/",
+              "description": "One Search, Millions of Jobs"
+            },
+            {
+              "name": "Guru (R)",
+              "type": "url",
+              "url": "https://www.guru.com/",
+              "description": "Work with the best freelance talent from around the world on our secure,\nflexible and cost-effective platform"
+            },
+            {
+              "name": "Behance (R)",
+              "type": "url",
+              "url": "https://www.behance.net/",
+              "description": "Creative work search"
+            },
+            {
+              "name": "Dribbble (R)",
+              "type": "url",
+              "url": "https://dribbble.com/jobs",
+              "description": "Dribbble is the heart of the design community and the best resource to discover and connect with designers and jobs worldwide."
+            },
+            {
+              "name": "99designs (R)",
+              "type": "url",
+              "url": "https://99designs.com/",
+              "description": "99designs is the go-to graphic design service by Vista. We make it easy to work with professional, creative experts from around the world and build your brand through custom, memorable design."
+            },
+            {
+              "name": "PeoplePerHour (R)",
+              "type": "url",
+              "url": "https://www.peopleperhour.com/",
+              "description": "Access global talent on the freelancer website trusted by over 1 million businesses worldwide"
+            },
+            {
+              "name": "ServiceScape (R)",
+              "type": "url",
+              "url": "https://www.servicescape.com/",
+              "description": "Whether you are submitting academic research, writing a novel, or drafting a letter to a colleague, writing errors can lead to undesirable outcomes. That's why hiring an editor for content analysis and professional proofreading is so important. Our editors bring varied experiences and expertise across a wide range of content areas."
+            },
+            {
+              "name": "DesignHill (R)",
+              "type": "url",
+              "url": "https://www.designhill.com/",
+              "description": "Build Your Brand With The #1 Creative Marketplace"
+            },
+            {
+              "name": "TaskRabbit (R)",
+              "type": "url",
+              "url": "https://www.taskrabbit.com/",
+              "description": "From furniture assembly to home repair, we've got you covered on home projects big and small. You can thank us later."
+            },
+            {
+              "name": "JobTarget (R)",
+              "type": "url",
+              "url": "https://www.jobtarget.com/",
+              "description": "JobTarget Helps Make Hiring Happen"
+            },
+            {
+              "name": "ZipRecruiter (R)",
+              "type": "url",
+              "url": "https://www.ziprecruiter.com/",
+              "description": "Rated #1 Job Site in the U.S."
+            },
+            {
+              "name": "freelance.com (French) (R)",
+              "type": "url",
+              "url": "https://www.freelance.com/"
             },
             {
               "name": "Habr Career (MoiKrug.ru) (Russian) (R)",
               "type": "url",
               "url": "https://career.habr.com/"
+            },
+            {
+              "name": "Jobs on vc.ru (Russian) (R)",
+              "type": "url",
+              "url": "https://vc.ru/job"
+            },
+            {
+              "name": "freelance.ru (Russian) (R)(C)",
+              "type": "url",
+              "url": "https://freelance.ru/"
+            },
+            {
+              "name": "HeadHunter (Russian) (R)",
+              "type": "url",
+              "url": "https://hh.ru/"
             },
             {
               "name": "Rabota.ru (Russian) (R)",
@@ -915,25 +1048,9 @@
               "url": "https://rabota.ua"
             },
             {
-              "name": "Jobs on vc.ru",
-              "type": "url",
-              "url": "https://vc.ru/job"
-            },
-            {
               "name": "Zarplata.ru (Russian) (R)",
               "type": "url",
               "url": "https://zarplata.ru"
-            },
-            {
-              "name": "RecruitEm",
-              "type": "url",
-              "url": "http://recruitin.net/",
-              "description": "Easily use Google to search profiles on LinkedIn. X-Ray search"
-            },
-            {
-              "name": "Jobster",
-              "type": "url",
-              "url": "http://www.jobster.com/"
             }],
           "name": "Employee Profiles & Resumes",
           "type": "folder"
@@ -947,6 +1064,18 @@
         },
         {
           "children": [
+            {
+              "name": "LinkedIn Recruiter (R)(C)",
+              "type": "url",
+              "url": "https://business.linkedin.com/talent-solutions/recruiter#!",
+              "description": "Hire the right candidates faster with an easy recruiting solution and powerful insights from LinkedIn’s active community."
+            },
+            {
+              "name": "Jira Work Management (R)(C)",
+              "type": "url",
+              "url": "https://www.atlassian.com/software/jira/work-management/hr",
+              "description": "Boost your organization's productivity, coordination, and engagement — so you and your HR team can focus on people first."
+            },
             {
               "name": "Breezy HR (R)(C)",
               "type": "url",
@@ -962,25 +1091,158 @@
             {
               "name": "HuntFlow (R)(C)(API)",
               "type": "url",
-              "url": "https://huntflow.ru/"
+              "url": "https://huntflow.ru/",
+              "description": "HuntFlow Recruiting Automation System"
             },
             {
-              "name": "FriendWork (R)(C)",
+              "name": "PeopleForce (R)(C)",
+              "type": "url",
+              "url": "https://peopleforce.io/",
+              "description": "The best All-In-One HR software to manage your workforce"
+            },
+            {
+              "name": "CleverStaff (R)(C)",
+              "type": "url",
+              "url": "https://cleverstaff.net/",
+              "description": "Customizable ATS software for recruitment"
+            },
+            {
+              "name": "Recruitee (R)(C)",
+              "type": "url",
+              "url": "https://recruitee.com/",
+              "description": "Working with your teammates means you can hire better and faster while making long-lasting connections with top talent."
+            },
+            {
+              "name": "JazzHR (R)(C)",
+              "type": "url",
+              "url": "https://www.jazzhr.com/",
+              "description": "Find and hire the right talent, fast with the only hiring platform built for businesses like yours."
+            },
+            {
+              "name": "VidCruiter (R)(C)",
+              "type": "url",
+              "url": "https://vidcruiter.com/",
+              "description": "Easy-to-Use Applicant Tracking System (ATS)"
+            },
+            {
+              "name": "PinPoint (R)(C)",
+              "type": "url",
+              "url": "https://www.pinpointhq.com/",
+              "description": "Modern applicant tracking software and unlimited help from our team means you’ll attract the right candidates, select the best, and wow your new hires from the moment they say ‘yes’."
+            },
+            {
+              "name": "ClearCompany (R)(C)",
+              "type": "url",
+              "url": "https://www.clearcompany.com/",
+              "description": "A Complete Talent Management System to Quickly Hire and Engage Top Talent"
+            },
+            {
+              "name": "TeamTailor (R)(C)",
+              "type": "url",
+              "url": "https://www.teamtailor.com/",
+              "description": "The recruitment & employer branding ATS"
+            },
+            {
+              "name": "Manatal (R)(C)",
+              "type": "url",
+              "url": "https://www.manatal.com/",
+              "description": "AI Recruitment Software designed to source and hire candidates faster. Tailored for HR teams, recruitment agencies, and headhunters."
+            },
+            {
+              "name": "Avature (R)(C)",
+              "type": "url",
+              "url": "https://www.avature.net/",
+              "description": "Avature ATS redefines the user experience for candidates, recruiters and hiring managers."
+            },
+            {
+              "name": "FreshTeam (R)(C)",
+              "type": "url",
+              "url": "https://www.freshworks.com/",
+              "description": "Everything you need in an online applicant tracking system"
+            },
+            {
+              "name": "iCIMS (R)(C)",
+              "type": "url",
+              "url": "https://www.icims.com/",
+              "description": "The iCIMS Talent Cloud delivers enterprise hiring solutions across every stage of the talent journey."
+            },
+            {
+              "name": "SmartRecruiters (R)(C)",
+              "type": "url",
+              "url": "https://www.smartrecruiters.com/",
+              "description": "SmartRecruiters is the industry's only modern and enterprise-grade talent acquisition suite that empowers businesses to hire talent on-demand, and under budget."
+            },
+            {
+              "name": "TrakStar (R)(C)",
+              "type": "url",
+              "url": "https://hire.trakstar.com/",
+              "description": "Online applicant tracking tools for the best candidates and hassle-free hiring"
+            },
+            {
+              "name": "Workable (R)(C)",
+              "type": "url",
+              "url": "https://www.workable.com/",
+              "description": "Find and hire the right person for every job."
+            },
+            {
+              "name": "LeverTRM (R)(C)",
+              "type": "url",
+              "url": "https://www.lever.co/",
+              "description": "LeverTRM — A Full Talent Acquisition Suite"
+            },
+            {
+              "name": "GreenHouse (R)(C)",
+              "type": "url",
+              "url": "https://www.greenhouse.io/",
+              "description": "What’s next for many of us is changing. Your company’s ability to hire great talent is as important as ever – so you’ll be ready for whatever’s ahead. Whether you need to scale your team quickly or improve your hiring process, Greenhouse gives you the right technology, know-how and support to take on what’s next."
+            },
+            {
+              "name": "Taleo (R)(C)",
+              "type": "url",
+              "url": "https://www.oracle.com/human-capital-management/taleo/",
+              "description": "Leverage a complete set of tools for sourcing, recruiting, and onboarding. Oracle Taleo is the most robust standalone talent acquisition suite for finding and hiring the best candidates."
+            },
+            {
+              "name": "WorkDay (R)(C)",
+              "type": "url",
+              "url": "https://www.workday.com/en-us/products/talent-management/talent-acquisition.html",
+              "description": "A talent acquisition solution that’s agile and intelligent"
+            },
+            {
+              "name": "JobVite (R)(C)",
+              "type": "url",
+              "url": "https://www.jobvite.com/products/",
+              "description": "Engage candidates with our leading talent acquisition suite"
+            },
+            {
+              "name": "Bullhorn (R)(C)",
+              "type": "url",
+              "url": "https://www.bullhorn.com/products/applicant-tracking-crm/",
+              "description": "A modern recruiting system that enables staffing agencies to increase sales, streamline operations, and differentiate themselves from the competition."
+            },
+            {
+              "name": "JobToolz (R)(C)",
+              "type": "url",
+              "url": "https://jobtoolz.com/",
+              "description": "Jobtoolz is a recruitment platform for SMEs and organisations, with a strong focus on employer branding, an automated recruitment process and recruitment marketing."
+            },
+            {
+              "name": "FriendWork (Russian) (R)(C)",
               "type": "url",
               "url": "https://friend.work/"
             },
             {
-              "name": "Potok (R)(C)",
+              "name": "Potok (Russian) (R)(C)",
               "type": "url",
               "url": "https://talenttech.ru/potok/"
             },
             {
-              "name": "E-Staff (R)(C)(T)",
+              "name": "E-Staff (Russian) (R)(C)(T)",
               "type": "url",
               "url": "https://e-staff.ru/"
             },
             {
-              "name": "Talantix (R)(C)",
+              "name": "Talantix (Russian) (R)(C)",
               "type": "url",
               "url": "https://talantix.ru/"
             }
@@ -4418,7 +4680,6 @@
               "type": "url",
               "url": "http://publicrecords.searchsystems.net/",
               "description": "Welcome to Search Systems, your guide to Free Public Records. We're a family-owned business established in 1990 that has worked since 1996 to take the guesswork out of finding public record information online. We've personally located, analyzed, described, and organized links to over 70,000 databases by type and location to help you find property, criminal, court, birth, death, marriage, divorce records, licenses, deeds, mortgages, corporate records, business registration, and many other public record resources quickly, easily, and for free."
-
             },
             {
               "name": "The World Bank Open Data Catalog",
@@ -4550,6 +4811,12 @@
                   "type": "url",
                   "url": "https://www.zoominfo.com/companies-search/",
                   "description": "Search for Companies by Industry, Location, Revenue and more"
+                },
+                {
+                  "name": "Linked Helper (R)(C)",
+                  "type": "url",
+                  "url": "https://www.linkedhelper.com/",
+                  "description": "The vast majority of profiles presented on LinkedIn belong to people in business, coming from various business environments. This creates an opportunity to find targeted B2B clients for almost any business. All you need is funnel automation. Our Linked Helper software automates the way to find clients and turn them into loyal customers."
                 },
                 {
                   "name": "Kompass International",
