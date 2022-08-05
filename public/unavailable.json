@@ -272,9 +272,69 @@
       "url": "http://osvdb.org/"
     },
     {
+      "name": "detux Linux Sandbox",
+      "type": "url",
+      "url": "https://detux.org/"
+    },
+    {
+      "name": "Malwr",
+      "type": "url",
+      "url": "https://malwr.com/"
+    },
+    {
+      "name": "Akana Android Malware",
+      "type": "url",
+      "url": "http://akana.mobiseclab.org/"
+    },
+    {
+      "name": "Wepawet",
+      "type": "url",
+      "url": "https://wepawet.iseclab.org/"
+    },
+    {
+      "name": "XecScan",
+      "type": "url",
+      "url": "http://scan.xecure-lab.com/"
+    },
+    {
+      "name": "National Software Reference Library",
+      "type": "url",
+      "url": "http://nsrl.hashsets.com/national_software_reference_library1_search.php"
+    },
+    {
+      "name": "Valkyrie File Analysis",
+      "type": "url",
+      "url": "https://consumer.valkyrie.comodo.com/"
+    },
+    {
+      "name": "Eureka",
+      "type": "url",
+      "url": "http://eureka.cyber-ta.org/"
+    },
+    {
+      "name": "MalwareViz",
+      "type": "url",
+      "url": "https://www.malwareviz.com/"
+    },
+    {
+      "name": "Deepviz Sandbox",
+      "type": "url",
+      "url": "https://sandbox.deepviz.com/"
+    },
+    {
       "name": "Phenoelit Default Password List",
       "type": "url",
       "url": "http://phenoelit.org/dpl/dpl.html"
+    },
+    {
+      "name": "ThreatExpert Sandbox",
+      "type": "url",
+      "url": "http://www.threatexpert.com/submit.aspx"
+    },
+    {
+      "name": "Anlyz.io",
+      "type": "url",
+      "url": "https://sandbox.anlyz.io"
     },
     {
       "name": "Open Sez Me Default Passwords",

@@ -5878,32 +5878,32 @@
       {
         "name": "Decalage Malware Search",
         "type": "url",
-        "url": "http://decalage.info/en/mwsearch"
+        "url": "https://decalage.info/en/mwsearch",
+        "description": "This custom Google search engine helps you find malware samples containing specific strings, filenames, hashes or other IOCs. It uses the data indexed by several websites including malwr.com, hybrid-analysis.com, virustotal.com and virusshare.com."
       },
       {
-        "name": "VirusShare.com",
+        "name": "VirusShare.com (R)",
         "type": "url",
-        "url": "https://virusshare.com/"
+        "url": "https://virusshare.com/",
+        "description": "Virus report and download"
       },
       {
         "name": "#totalhash",
         "type": "url",
-        "url": "https://totalhash.cymru.com/"
+        "url": "https://totalhash.cymru.com/",
+        "description": "Malware Hash Registry (MHR). An antivirus and malware validation force multiplier."
       },
       {
-        "name": "VX Vault",
+        "name": "VX Vault (R)",
         "type": "url",
-        "url": "http://vxvault.net/ViriList.php"
+        "url": "http://vxvault.net/ViriList.php",
+        "description": "VX Vault Virus List"
       },
       {
         "name": "ID Ransomware",
         "type": "url",
-        "url": "https://id-ransomware.malwarehunterteam.com/"
-      },
-      {
-        "name": "National Software Reference Library",
-        "type": "url",
-        "url": "http://nsrl.hashsets.com/national_software_reference_library1_search.php"
+        "url": "https://id-ransomware.malwarehunterteam.com/",
+        "description": "Upload a ransom note and/or sample encrypted file to identify the ransomware that has encrypted your data."
       }],
       "name": "Search",
       "type": "folder"
@@ -5913,14 +5913,9 @@
       {
         "children": [
         {
-          "name": "XecScan",
-          "type": "url",
-          "url": "http://scan.xecure-lab.com/"
-        },
-        {
           "name": "JoeSandbox Document Analyzer",
           "type": "url",
-          "url": "http://www.document-analyzer.net/"
+          "url": "https://www.document-analyzer.net/"
         }],
         "name": "Office Files",
         "type": "folder"
@@ -5928,27 +5923,18 @@
       {
         "children": [
         {
-          "name": "Wepawet",
+          "name": "ViCheck (R)",
           "type": "url",
-          "url": "https://wepawet.iseclab.org/"
-        },
-        {
-          "name": "ViCheck",
-          "type": "url",
-          "url": "https://www.vicheck.ca/"
+          "url": "https://www.vicheck.ca/",
+          "description": "Online Casino Checker - Trusted Online Casinos"
         }],
-        "name": "PDFs",
+        "name": "Online Casino Investigations",
         "type": "folder"
       },
       {
         "children": [
         {
-          "name": "Akana Android Malware",
-          "type": "url",
-          "url": "http://akana.mobiseclab.org/"
-        },
-        {
-          "name": "Joe APK Analyzer",
+          "name": "Joe APK Analyzer (R)",
           "type": "url",
           "url": "https://www.apk-analyzer.net/"
         }],
@@ -5958,82 +5944,47 @@
       {
         "name": "VirusTotal",
         "type": "url",
-        "url": "https://www.virustotal.com/"
-      },
-      {
-        "name": "Malwr",
-        "type": "url",
-        "url": "https://malwr.com/"
+        "url": "https://www.virustotal.com/",
+        "description": "Analyze suspicious files, domains, IPs and URLs to detect malware and other breaches, automatically share them with the security community"
       },
       {
         "name": "Hybrid Analysis",
         "type": "url",
-        "url": "https://www.hybrid-analysis.com/"
-      },
-      {
-        "name": "MalwareViz",
-        "type": "url",
-        "url": "https://www.malwareviz.com/"
+        "url": "https://www.hybrid-analysis.com/",
+        "description": "This is a free malware analysis service for the community that detects and analyzes unknown threats using a unique Hybrid Analysis technology."
       },
       {
         "name": "Ether",
         "type": "url",
-        "url": "http://ether.gtisc.gatech.edu/web_unpack"
+        "url": "https://ether.gtisc.gatech.edu/web_unpack",
+        "description": "Ether: Malware Analysis via Hardware Virtualization Extensions"
       },
       {
-        "name": "Eureka",
-        "type": "url",
-        "url": "http://eureka.cyber-ta.org/"
-      },
-      {
-        "name": "Blueliv Sandbox",
+        "name": "Blueliv Sandbox (R)",
         "type": "url",
         "url": "https://community.blueliv.com/#!/sandbox"
       },
       {
-        "name": "Valkyrie File Analysis",
-        "type": "url",
-        "url": "https://consumer.valkyrie.comodo.com/"
-      },
-      {
-        "name": "Deepviz Sandbox",
-        "type": "url",
-        "url": "https://sandbox.deepviz.com/"
-      },
-      {
-        "name": "detux Linux Sandbox",
-        "type": "url",
-        "url": "https://detux.org/"
-      },
-      {
-        "name": "Joe File Analyzer",
+        "name": "Joe File Analyzer (R)",
         "type": "url",
         "url": "https://www.file-analyzer.net/"
       },
       {
         "name": "Pikker.ee Cuckoo Sandbox",
         "type": "url",
-        "url": "http://sandbox.pikker.ee/"
+        "url": "https://sandbox.pikker.ee/"
       },
       {
-        "name": "ThreatExpert Sandbox",
+        "name": "Koodous (R)",
         "type": "url",
-        "url": "http://www.threatexpert.com/submit.aspx"
+        "url": "https://koodous.com",
+        "description": "Koodous is a collaborative platform for researching on Android malware that combines online analysis tools with social interactions between the analysts"
       },
       {
-        "name": "Koodous",
+        "name": "Any Run (R)(C)",
         "type": "url",
-        "url": "https://koodous.com"
-      },
-      {
-        "name": "Anlyz.io",
-        "type": "url",
-        "url": "https://sandbox.anlyz.io"
-      },
-      {
-        "name": "Any Run",
-        "type": "url",
-        "url": "https://app.any.run/"
+        "url": "https://app.any.run/",
+        "description": "Interactive online malware analysis service for dynamic and static research of most types of threats using any environments.\nReplaces a set of tools for research."
       }],
       "name": "Hosted Automated Analysis",
       "type": "folder"
@@ -6048,7 +5999,7 @@
       {
         "name": "OffVis (T)",
         "type": "url",
-        "url": "http://go.microsoft.com/fwlink/?LinkID=158791"
+        "url": "https://go.microsoft.com/fwlink/?LinkID=158791"
       }],
       "name": "Office Files",
       "type": "folder"
@@ -6058,12 +6009,14 @@
       {
         "name": "PDF Tools (T)",
         "type": "url",
-        "url": "http://blog.didierstevens.com/programs/pdf-tools/"
+        "url": "https://blog.didierstevens.com/programs/pdf-tools/",
+        "description": "This tool will parse a PDF document to identify the fundamental elements used in the analyzed file. It will not render a PDF document. The code of the parser is quick-and-dirty, I’m not recommending this as text book case for PDF parsers, but it gets the job done"
       },
       {
-        "name": "Origami Framework (T)",
+        "name": "Origami Framework (T)(API)",
         "type": "url",
-        "url": "https://code.google.com/archive/p/origami-pdf/"
+        "url": "https://code.google.com/archive/p/origami-pdf/",
+        "description": "Origami is a Ruby framework designed to parse, analyze, and forge PDF documents."
       }],
       "name": "PDFs",
       "type": "folder"
@@ -6073,7 +6026,8 @@
       {
         "name": "Malware-Traffic-Analysis.net",
         "type": "url",
-        "url": "http://www.malware-traffic-analysis.net/index.html"
+        "url": "https://www.malware-traffic-analysis.net/index.html",
+        "description": "A source for packet capture (pcap) files and malware samples"
       }],
       "name": "PCAPs",
       "type": "folder"
@@ -6081,12 +6035,14 @@
     {
       "name": "Ghidra (T)",
       "type": "url",
-      "url": "https://github.com/NationalSecurityAgency/ghidra"
+      "url": "https://github.com/NationalSecurityAgency/ghidra",
+      "description": "Ghidra is a software reverse engineering (SRE) framework created and maintained by the National Security Agency Research Directorate. This framework includes a suite of full-featured, high-end software analysis tools that enable users to analyze compiled code on a variety of platforms including Windows, macOS, and Linux."
     },
     {
       "name": "Malware Analysis Tools",
       "type": "url",
-      "url": "http://malwareanalysis.tools/"
+      "url": "https://malwareanalysis.tools/",
+      "description": "D3.js viewed collection of Malware Analysis tools"
     }],
     "name": "Malicious File Analysis",
     "type": "folder"
