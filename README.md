@@ -28,6 +28,9 @@ https://osintframework.com
 Follow me on Twitter: @jnordine - https://twitter.com/jnordine  
 Watch or star the project on Github: https://github.com/lockfale/osint-framework
 
+### Related links and thanks
+Bellingcat Intelligence: https://bellingcat.com
+
 ### Suggestions, Comments, Feedback
 Feedback or new tool suggestions are extremely welcome!  Please feel free to submit a pull request or open an issue on GitHub or reach out on Twitter.
 
