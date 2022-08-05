@@ -5225,53 +5225,53 @@
 
   {
     "children": [
-      {
-        "children": [
-          {
-            "name": "VIN Decoderz",
-            "type": "url",
-            "url": "https://www.vindecoderz.com/",
-            "description": "This is a universal VIN decoder. Every car has a unique identifier code called a VIN. This number contains vital information about the car, such as its manufacturer, year of production, the plant it was produced in, type of engine, model and more. For instance, if someone wants to buy a car, it is possible to check the VIN number one the online database to ensure that the car was not stolen, damaged or illegally modified. The VIN number has a specific format that is globally recognized. This format was implemented by the ISO institute. Every car manufacturer is obliged to mark all its vehicles in this special format. This online service allows a user to check the validity of the car and get detailed information on almost any VIN number, search car parts and check the car's history. The VIN also allows a user to check the market value of a new or used car."
-          },
-          {
-            "name": "That's Them VIN Search (R)",
-            "type": "url",
-            "url": "https://thatsthem.com/vin-search",
-            "description": "Find Out Who Owns a Car FOR FREE"
-          },
-          {
-            "name": "VinCheck",
-            "type": "url",
-            "url": "https://www.nicb.org/theft_and_fraud_awareness/vincheck",
-            "description": "NICB's VINCheck is a free lookup service provided to the public to assist in determining if a vehicle may have a record of an insurance theft claim, and has not been recovered, or has ever been reported as a salvage vehicle by participating NICB member insurance companies. To perform a lookup, a vehicle identification number (VIN) is required. A maximum of five searches can be conducted within a 24-hour period per IP address."
-          },
-          {
-            "name": "TRAVIC - Public Transportation Tracking",
-            "type": "url",
-            "url": "https://tracker.geops.ch/",
-            "description": "Portal combines maps of many aspects of public transport and mobility in general, e.g. real-time vehicle positions, line network plans, transit-maps, fare networks, location and detailed information on stations."
-          },
-          {
-            "name": "Discover Vehicle Data (T)",
-            "type": "url",
-            "url": "https://berla.co/discover/",
-            "description": "Discover Vehicle Forensics"
-          },
-          {
-            "name": "Used Car Research (R)",
-            "type": "url",
-            "url": "https://www.vehiclehistory.com/"
+        {
+          "children": [
+            {
+              "name": "VIN Decoderz",
+              "type": "url",
+              "url": "https://www.vindecoderz.com/",
+              "description": "This is a universal VIN decoder. Every car has a unique identifier code called a VIN. This number contains vital information about the car, such as its manufacturer, year of production, the plant it was produced in, type of engine, model and more. For instance, if someone wants to buy a car, it is possible to check the VIN number one the online database to ensure that the car was not stolen, damaged or illegally modified. The VIN number has a specific format that is globally recognized. This format was implemented by the ISO institute. Every car manufacturer is obliged to mark all its vehicles in this special format. This online service allows a user to check the validity of the car and get detailed information on almost any VIN number, search car parts and check the car's history. The VIN also allows a user to check the market value of a new or used car."
+            },
+            {
+              "name": "That's Them VIN Search (R)",
+              "type": "url",
+              "url": "https://thatsthem.com/vin-search",
+              "description": "Find Out Who Owns a Car FOR FREE"
+            },
+            {
+              "name": "VinCheck",
+              "type": "url",
+              "url": "https://www.nicb.org/theft_and_fraud_awareness/vincheck",
+              "description": "NICB's VINCheck is a free lookup service provided to the public to assist in determining if a vehicle may have a record of an insurance theft claim, and has not been recovered, or has ever been reported as a salvage vehicle by participating NICB member insurance companies. To perform a lookup, a vehicle identification number (VIN) is required. A maximum of five searches can be conducted within a 24-hour period per IP address."
+            },
+            {
+              "name": "TRAVIC - Public Transportation Tracking",
+              "type": "url",
+              "url": "https://tracker.geops.ch/",
+              "description": "Portal combines maps of many aspects of public transport and mobility in general, e.g. real-time vehicle positions, line network plans, transit-maps, fare networks, location and detailed information on stations."
+            },
+            {
+              "name": "Discover Vehicle Data (T)",
+              "type": "url",
+              "url": "https://berla.co/discover/",
+              "description": "Discover Vehicle Forensics"
+            },
+            {
+              "name": "Used Car Research (R)",
+              "type": "url",
+              "url": "https://www.vehiclehistory.com/"
           }],
-        "name": "Vehicle Records",
-        "type": "folder"
-      },
-      {
-        "children": [
-          {
-            "name": "FlightAware - Live Flight Tracker (R)",
-            "type": "url",
-            "url": "https://flightaware.com/live/"
-          },
+          "name": "Vehicle",
+          "type": "folder"
+        },
+        {
+          "children": [
+            {
+              "name": "FlightAware - Live Flight Tracker (R)",
+              "type": "url",
+              "url": "https://flightaware.com/live/"
+            },
             {
               "name": "Flightradar24.com (R)",
               "type": "url",
@@ -5283,7 +5283,7 @@
               "url": "https://www.adsbexchange.com/",
               "description": "World's largest source of unfiltered flight data"
             }],
-          "name": "Air Traffic Records",
+          "name": "Air Traffic",
           "type": "folder"
         },
         {
@@ -5314,7 +5314,7 @@
               "type": "url",
               "url": "https://www.vesselfinder.com/"
             }],
-          "name": "Marine Records",
+          "name": "Marine",
           "type": "folder"
         },
         {
@@ -5331,7 +5331,7 @@
               "url": "https://www.openrailwaymap.org/",
               "description": "Open Railways Map"
             }],
-          "name": "Railway Records",
+          "name": "Railway",
           "type": "folder"
         },
         {
@@ -5345,9 +5345,94 @@
           "url": "https://www.track-trace.com/",
           "description": "World Track Trace"
         }],
-      "name": "Transportation",
+      "name": "Transportation & Trackers",
       "type": "folder"
     },
+
+  {
+      "children": [
+        {
+          "children": [
+            {
+              "name": "Blockchain.info",
+              "type": "url",
+              "url": "https://blockchain.info/",
+              "description": "Search Blockchain, Transactions, Addresses and Blocks"
+            },
+            {
+              "name": "Block Explorer",
+              "type": "url",
+              "url": "https://blockexplorer.com/",
+              "description": "The Handshake Block Explorer"
+            },
+            {
+              "name": "BitRef",
+              "type": "url",
+              "url": "https://bitref.com/",
+              "description": "BitRef will help you check the current balance of any Bitcoin address. The new Bech32 address format is also supported. You need only to provide a valid Bitcoin address string. This is a safe service because it uses only public data; there is no need for login and password"
+            },
+            {
+              "name": "Wallet Explorer",
+              "type": "url",
+              "url": "https://www.walletexplorer.com/",
+              "description": "Bitcoin block explorer with address grouping and wallet labeling"
+            },
+            {
+              "name": "Graphsense",
+              "type": "url",
+              "url": "https://graphsense.info/",
+              "description": "GraphSense is a cryptoasset analytics platform with an emphasis on full data sovereignty, algorithmic transparency, and scalability. GraphSense is open source and free. It provides a dashboard for interactive investigations and, more importantly, full data control for executing advanced analytics tasks"
+            },
+            {
+              "name": "Blockonomics",
+              "type": "url",
+              "url": "https://www.blockonomics.co/",
+              "description": "Bitcoin Address Lookup"
+            },
+            {
+              "name": "Orbit (T)",
+              "type": "url",
+              "url": "https://github.com/s0md3v/Orbit",
+              "description": "Blockchain Transactions Investigation Tool"
+            }],
+          "name": "Bitcoin",
+          "type": "folder"
+        },
+        {
+          "children": [
+            {
+              "name": "etherchain.org",
+              "type": "url",
+              "url": "https://etherchain.org",
+              "description": "The Ethereum Blockchain Explorer"
+            },
+            {
+              "name": "Etherscan (R)",
+              "type": "url",
+              "url": "https://etherscan.io/",
+              "description": "The Ethereum Blockchain Explorer"
+            }],
+          "name": "Ethereum",
+          "type": "folder"
+        },
+        {
+          "children": [
+            {
+              "name": "XMRChain.net (T)",
+              "type": "url",
+              "url": "https://xmrchain.net/"
+            },
+            {
+              "name": "Monero Blocks (API)",
+              "type": "url",
+              "url": "https://localmonero.co/blocks"
+            }],
+          "name": "Monero",
+          "type": "folder"
+        }],
+      "name": "Finance & Digital Currency",
+      "type": "folder"
+   },
 
   {
     "children": [
@@ -5601,7 +5686,7 @@
           "url": "https://www.functions-online.com/",
           "description": "Execute and test several functions of the programming language PHP right here online. Choose your function from one of the categories array, cryptography, custom, date and time, general, math, regular expression, string or URL"
         }],
-      "name": "Encoding / Decoding",
+      "name": "Encoding, Decoding",
       "type": "folder"
   },
 
@@ -5671,7 +5756,7 @@
       "type": "url",
       "url": "http://claz.org/"
     }],
-    "name": "Classifieds",
+    "name": "ECommerce & Classifieds",
     "type": "folder"
   },
 
@@ -6524,91 +6609,6 @@
   },
 
   {
-      "children": [
-        {
-          "children": [
-            {
-              "name": "Blockchain.info",
-              "type": "url",
-              "url": "https://blockchain.info/",
-              "description": "Search Blockchain, Transactions, Addresses and Blocks"
-            },
-            {
-              "name": "Block Explorer",
-              "type": "url",
-              "url": "https://blockexplorer.com/",
-              "description": "The Handshake Block Explorer"
-            },
-            {
-              "name": "BitRef",
-              "type": "url",
-              "url": "https://bitref.com/",
-              "description": "BitRef will help you check the current balance of any Bitcoin address. The new Bech32 address format is also supported. You need only to provide a valid Bitcoin address string. This is a safe service because it uses only public data; there is no need for login and password"
-            },
-            {
-              "name": "Wallet Explorer",
-              "type": "url",
-              "url": "https://www.walletexplorer.com/",
-              "description": "Bitcoin block explorer with address grouping and wallet labeling"
-            },
-            {
-              "name": "Graphsense",
-              "type": "url",
-              "url": "https://graphsense.info/",
-              "description": "GraphSense is a cryptoasset analytics platform with an emphasis on full data sovereignty, algorithmic transparency, and scalability. GraphSense is open source and free. It provides a dashboard for interactive investigations and, more importantly, full data control for executing advanced analytics tasks"
-            },
-            {
-              "name": "Blockonomics",
-              "type": "url",
-              "url": "https://www.blockonomics.co/",
-              "description": "Bitcoin Address Lookup"
-            },
-            {
-              "name": "Orbit (T)",
-              "type": "url",
-              "url": "https://github.com/s0md3v/Orbit",
-              "description": "Blockchain Transactions Investigation Tool"
-            }],
-          "name": "Bitcoin",
-          "type": "folder"
-        },
-        {
-          "children": [
-            {
-              "name": "etherchain.org",
-              "type": "url",
-              "url": "https://etherchain.org",
-              "description": "The Ethereum Blockchain Explorer"
-            },
-            {
-              "name": "Etherscan (R)",
-              "type": "url",
-              "url": "https://etherscan.io/",
-              "description": "The Ethereum Blockchain Explorer"
-            }],
-          "name": "Ethereum",
-          "type": "folder"
-        },
-        {
-          "children": [
-            {
-              "name": "XMRChain.net (T)",
-              "type": "url",
-              "url": "https://xmrchain.net/"
-            },
-            {
-              "name": "Monero Blocks (API)",
-              "type": "url",
-              "url": "https://localmonero.co/blocks"
-            }],
-          "name": "Monero",
-          "type": "folder"
-        }],
-      "name": "Digital Currency",
-      "type": "folder"
-  },
-
-  {
     "children": [
       {
         "children": [
@@ -7004,7 +7004,7 @@
         "type": "folder"
       }
     ],
-    "name": "Malicious, Exploits, Dark Web",
+    "name": "Malicious, Exploits & Dark Web",
     "type": "folder"
   },
 
