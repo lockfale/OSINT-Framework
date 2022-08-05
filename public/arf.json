@@ -323,6 +323,24 @@
         {
           "children": [
             {
+              "name": "American Press Institute Fact-Checking Resources",
+              "type": "url",
+              "url": "https://www.americanpressinstitute.org/training-tools/fact-checking-resource/",
+              "description": "Page of timely questions and vetted resources for fact checkers, with tips on how to navigate the data. "
+            },
+            {
+              "name": "Pointer: FactChecking is Essentials",
+              "type": "url",
+              "url": "https://factcheckingday.com/#how-to",
+              "description": "Fact-checking how-to guides, and a fact-checkers code of principles."
+            },
+            {
+              "name": "The Washington Post Fact-checker guide",
+              "type": "url",
+              "url": "https://www.washingtonpost.com/news/fact-checker/",
+              "description": "The Washington Post Fact-checker guide"
+            },
+            {
               "name": "Hoaxy",
               "type": "url",
               "url": "https://hoaxy.iuni.iu.edu/",
@@ -1892,6 +1910,12 @@
               "name": "Tumblr",
               "type": "url",
               "url": "http://www.tumblr.com/tagged/search"
+            },
+            {
+              "name": "Timeline JS3",
+              "type": "url",
+              "url": "https://timeline.knightlab.com/",
+              "description": "Northwestern University Knight Lab is a community of designers, developers, students, and educators working on experiments designed to push journalism into new spaces."
             },
             {
               "name": "BlackPlanet.com - Member Find",
@@ -4204,11 +4228,6 @@
               "description": "Show Military Grid Reference System (MGRS) Coordinates"
             },
             {
-              "name": "Russian Military Forces: Interactive Map",
-              "type": "url",
-              "url": "https://gfsis.org.ge/maps/russian-military-forces"
-            },
-            {
               "name": "Batch Geocoding",
               "type": "url",
               "url": "https://www.doogal.co.uk/BatchGeocoding.php",
@@ -4279,6 +4298,39 @@
           "type": "folder"
         },
         {
+          "children": [
+            {
+              "name": "Russian Military Forces: Interactive Map",
+              "type": "url",
+              "url": "https://gfsis.org.ge/maps/russian-military-forces"
+            },
+            {
+              "name": "Itrace (Conflict Armament Research) - DIVERTED WEAPONS AND AMMUNITION",
+              "type": "url",
+              "url": "https://itrace.maps.arcgis.com/apps/dashboards/d5ca74f2db4846af9d7f62fec3c820f7",
+              "description": "lots of information on different kinds of munitions and weapons presented graphically on a map format."
+            }
+          ],
+          "name": "Military Maps",
+          "type": "folder"
+        },
+        {
+          "name": "OpenStreetMap",
+          "type": "url",
+          "url": "https://www.openstreetmap.org/#map=5/51.500/-0.100",
+          "description": "OpenStreetMap is a map of the world, created by people like you and free to use under an open license."
+        },
+        {
+          "name": "Instant Google Street View",
+          "type": "url",
+          "url": "https://www.instantstreetview.com/"
+        },
+        {
+          "name": "Wikimapia",
+          "type": "url",
+          "url": "https://wikimapia.org/#lang=en&lat=40.078071&lon=-100.458984&z=5&m=b"
+        },
+        {
           "name": "Bing Maps",
           "type": "url",
           "url": "http://www.bing.com/maps/"
@@ -4294,30 +4346,9 @@
           "url": "http://data.mashedworld.com/dualmaps/map.htm"
         },
         {
-          "name": "Instant Google Street View",
-          "type": "url",
-          "url": "https://www.instantstreetview.com/"
-        },
-        {
-          "name": "Wikimapia",
-          "type": "url",
-          "url": "https://wikimapia.org/#lang=en&lat=40.078071&lon=-100.458984&z=5&m=b"
-        },
-        {
-          "name": "OpenStreetMap",
-          "type": "url",
-          "url": "https://www.openstreetmap.org/#map=5/40.614/-100.679"
-        },
-        {
           "name": "Flash Earth",
           "type": "url",
           "url": "https://www.flashearth.com/"
-        },
-        {
-          "name": "Historic Aerials",
-          "type": "url",
-          "url": "https://www.historicaerials.com/?javascript=&",
-          "description": "The Largest Database of United States Historic Aerial Imagery"
         },
         {
           "name": "Yandex.Maps",
@@ -4335,10 +4366,21 @@
           "url": "https://map.baidu.com/"
         },
         {
+          "name": "EarthExplorer",
+          "type": "url",
+          "url": "https://earthexplorer.usgs.gov/"
+        },
+        {
           "name": "Corona",
           "type": "url",
           "url": "https://corona.cast.uark.edu/",
           "description": "Corona Atlas & Referencing System"
+        },
+        {
+          "name": "Historic Aerials",
+          "type": "url",
+          "url": "https://www.historicaerials.com/?javascript=&",
+          "description": "The Largest Database of United States Historic Aerial Imagery"
         },
         {
           "name": "KakaoMap / Daum (Korean)",
@@ -4349,17 +4391,6 @@
           "name": "Naver (Korean)",
           "type": "url",
           "url": "https://map.naver.com/"
-        },
-        {
-          "name": "OpenStreetMap",
-          "type": "url",
-          "url": "https://www.openstreetmap.org/#map=5/51.500/-0.100",
-          "description": "OpenStreetMap is a map of the world, created by people like you and free to use under an open license."
-        },
-        {
-          "name": "EarthExplorer",
-          "type": "url",
-          "url": "https://earthexplorer.usgs.gov/"
         },
         {
           "name": "OpenStreetCam (KartaView) (R)",
@@ -6954,6 +6985,48 @@
   {
     "children": [
     {
+      "name": "Bellingcat / Resources",
+      "type": "url",
+      "url": "https://www.bellingcat.com/category/resources/how-tos",
+      "description": "The resources section on the website includes a large amount of guides on a variety of topics, including geolocation, using satellite imagery, and so on."
+    },
+    {
+      "name": "American Press Institute Fact-Checking Resources",
+      "type": "url",
+      "url": "https://www.americanpressinstitute.org/training-tools/fact-checking-resource/",
+      "description": "Page of timely questions and vetted resources for fact checkers, with tips on how to navigate the data. "
+    },
+    {
+      "name": "Ben Strick's OSI Guide",
+      "type": "url",
+      "url": "https://www.youtube.com/playlist?list=PLrFPX1Vfqk3ehZKSFeb9pVIHqxqrNW8Sy",
+      "description": "YouTube Series from Ben Strick on how to do open source research"
+    },
+    {
+      "name": "Berkeley Protocol",
+      "type": "url",
+      "url": "https://www.ohchr.org/sites/default/files/2022-04/OHCHR_BerkeleyProtocol.pdf",
+      "description": "Document outlining terms, guidelines, and standards for conducting open source research for human rights investigations"
+    },
+    {
+      "name": "Bellingcat First Draft News",
+      "type": "url",
+      "url": "https://firstdraftnews.org/training/",
+      "description": "Lots of resources on the website, including many guides, some of which have been written by Bellingcat members, including 'How to Get Started in Online Investigations'"
+    },
+    {
+      "name": "Verification Handbook",
+      "type": "url",
+      "url": "https://verificationhandbook.com/",
+      "description": "Verification Handbook PDF in many languages."
+    },
+    {
+      "name": "Video as evidence, a guide to verifying eyewitness videos",
+      "type": "url",
+      "url": "https://library.witness.org/product/video-as-evidence-verifying-eyewitness-video/",
+      "description": "Video as evidence, a guide to verifying eyewitness videos"
+    },
+    {
       "children": [
       {
         "name": "Hunchly (T)",
@@ -7047,73 +7120,65 @@
       "type": "folder"
     },
     {
-      "name": "Timeline JS3",
-      "type": "url",
-      "url": "https://timeline.knightlab.com/",
-      "description": "Northwestern University Knight Lab is a community of designers, developers, students, and educators working on experiments designed to push journalism into new spaces."
-    }],
-    "name": "Documentation Resources",
+        "children": [
+          {
+            "children": [
+              {
+                "name": "A Google A Day",
+                "type": "url",
+                "url": "http://www.agoogleaday.com/"
+              },
+              {
+                "name": "GeoGuesser",
+                "type": "url",
+                "url": "https://geoguessr.com/",
+                "description": "Find clues and guess where you are in the world.\nJoin 30 million other players worldwide."
+              },
+              {
+                "name": "Verif!cation Quiz Bot",
+                "type": "url",
+                "url": "https://twitter.com/quiztime",
+                "description": "Join us and verify yourself through a little series of quizzes that we post daily on Twitter. Learn about the main tools and collaborate with others."
+              }],
+            "name": "Games",
+            "type": "folder"
+          },
+          {
+            "name": "AutomatingOSINT.com (R)(C)",
+            "type": "url",
+            "url": "https://register.automatingosint.com/",
+            "description": "his is the only course, literally - you can’t get it anywhere else, that teaches you how to write code to automatically extract and analyze data from the web and social media. Join students from around the world from law enforcement, journalism, information security and more."
+          },
+          {
+            "name": "Open Source Intelligence Techniques",
+            "type": "url",
+            "url": "https://inteltechniques.com/",
+            "description": "Welcome to the new home for both sites. With simpler navigation and a cleaner interface, you should be able to easily browse through our services and resources. Consider checking out our blog and podcast from the menu above, or visit our resources page for our latest projects, such as the new online search tools. Browse through our services page to learn about the various privacy remedies we offer. Join our online video training and become a certified Open Source Intelligence Professional (OSIP) around your schedule! Finally, we offer updated books about OSINT and Privacy in our book store."
+          },
+          {
+            "name": "Plessas Security Online Training Portal (R)(C)",
+            "type": "url",
+            "url": "https://plessas.net/online-training",
+            "description": "Subscribe to the OSINT NEWS links and resources feed for only $5.99 per month and receive a curated feed of tools, tutorials and news notated by senior OSINT analysts. Topics include social media, anonymization, dark web and much much more. All instruction is overseen by our expert, Kirby Plessas, who has taught OSINT methods to federal, state and local law enforcement, military, intelligence and corporate customers. "
+          },
+          {
+            "name": "SANS SEC487 OSINT Class (R)(C)",
+            "type": "url",
+            "url": "https://www.sans.org/cyber-security-courses/open-source-intelligence-gathering/",
+            "description": "The amount of data being pushed to the Internet each minute is staggering. Hundreds of hours of video, hundreds of thousands of images, and more text than can be indexed with a search engine. Couple that massive amount of data with websites that restrict access, those on unindexed servers, and data in the dark web, and you will quickly understand that gaining a strong foundation in how to search, collect, and analyze data from Internet-facing platforms no matter where they are located is important. This is what SEC487 does."
+          },
+          {
+            "name": "Smart Questions by Eric Steven Raymond",
+            "type": "url",
+            "url": "http://www.catb.org/esr/faqs/smart-questions.html"
+          }],
+        "name": "Trainings",
+        "type": "folder"
+    }
+    ],
+    "name": "Guides and Handbooks",
     "type": "folder"
-  },
-
-  {
-    "children": [
-    {
-      "children": [
-      {
-        "name": "A Google A Day",
-        "type": "url",
-        "url": "http://www.agoogleaday.com/"
-      },
-      {
-        "name": "GeoGuesser",
-        "type": "url",
-        "url": "https://geoguessr.com/",
-        "description": "Find clues and guess where you are in the world.\nJoin 30 million other players worldwide."
-      },
-      {
-        "name": "Verif!cation Quiz Bot",
-        "type": "url",
-        "url": "https://twitter.com/quiztime",
-        "description": "Join us and verify yourself through a little series of quizzes that we post daily on Twitter. Learn about the main tools and collaborate with others."
-      }],
-      "name": "Games",
-      "type": "folder"
-    },
-    {
-      "name": "AutomatingOSINT.com (R)(C)",
-      "type": "url",
-      "url": "https://register.automatingosint.com/",
-      "description": "his is the only course, literally - you can’t get it anywhere else, that teaches you how to write code to automatically extract and analyze data from the web and social media. Join students from around the world from law enforcement, journalism, information security and more."
-    },
-    {
-      "name": "Open Source Intelligence Techniques",
-      "type": "url",
-      "url": "https://inteltechniques.com/",
-      "description": "Welcome to the new home for both sites. With simpler navigation and a cleaner interface, you should be able to easily browse through our services and resources. Consider checking out our blog and podcast from the menu above, or visit our resources page for our latest projects, such as the new online search tools. Browse through our services page to learn about the various privacy remedies we offer. Join our online video training and become a certified Open Source Intelligence Professional (OSIP) around your schedule! Finally, we offer updated books about OSINT and Privacy in our book store."
-    },
-    {
-      "name": "Plessas Security Online Training Portal (R)(C)",
-      "type": "url",
-      "url": "https://plessas.net/online-training",
-      "description": "Subscribe to the OSINT NEWS links and resources feed for only $5.99 per month and receive a curated feed of tools, tutorials and news notated by senior OSINT analysts. Topics include social media, anonymization, dark web and much much more. All instruction is overseen by our expert, Kirby Plessas, who has taught OSINT methods to federal, state and local law enforcement, military, intelligence and corporate customers. "
-    },
-    {
-      "name": "SANS SEC487 OSINT Class (R)(C)",
-      "type": "url",
-      "url": "https://www.sans.org/cyber-security-courses/open-source-intelligence-gathering/",
-      "description": "The amount of data being pushed to the Internet each minute is staggering. Hundreds of hours of video, hundreds of thousands of images, and more text than can be indexed with a search engine. Couple that massive amount of data with websites that restrict access, those on unindexed servers, and data in the dark web, and you will quickly understand that gaining a strong foundation in how to search, collect, and analyze data from Internet-facing platforms no matter where they are located is important. This is what SEC487 does."
-    },
-    {
-      "name": "Smart Questions by Eric Steven Raymond",
-      "type": "url",
-      "url": "http://www.catb.org/esr/faqs/smart-questions.html"
-    }],
-    "name": "Trainings",
-    "type": "folder"
-  }
-
-  ],
+  }],
   "name": "OSINT Framework",
   "type": "folder"
 }

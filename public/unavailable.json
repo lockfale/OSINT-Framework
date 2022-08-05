@@ -342,6 +342,12 @@
       "url": "http://www.torscan.io/"
     },
     {
+      "name": "",
+      "type": "url",
+      "url": "",
+      "description": ""
+    },
+    {
       "name": "Onion Investigator",
       "type": "url",
       "url": "https://oint.ctrlbox.com/"
