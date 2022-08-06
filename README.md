@@ -1,4 +1,4 @@
-# OSINT Framework V.2
+# OSINT Framework v.2
 
 http://osintframework.com
 
@@ -20,9 +20,9 @@ https://osintframework.com
 (API) - Contains API  
 (R) - Requires registration  
 (C) - For commercial use / paid service  
+(I) - By Invitation  
 (M) - Indicates a URL that contains the search term and the URL itself must be edited manually  
-(U) - Currently unsupported, unmaintained or deprecated  
-(I) - By Invitation
+(U) - Currently unsupported, unmaintained or deprecated
 
 ### For Update Notifications
 Follow me on Twitter: @jnordine - https://twitter.com/jnordine  
@@ -49,6 +49,8 @@ For new resources, please ensure that the site is available for public and free 
   "color": "red"
 }
 ```
+
+* 'type' field can take 'folder' or 'url' values. 'description' and 'color' fields are not required.
 
 <ol start="2">
   <li>Submit pull request!</li>
