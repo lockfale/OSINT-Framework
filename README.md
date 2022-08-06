@@ -49,8 +49,7 @@ For new resources, please ensure that the site is available for public and free 
   "color": "red"
 }
 ```
-
-* 'type' field can take 'folder' or 'url' values. 'description' and 'color' fields are not required.
+'type' field can take 'folder' or 'url' values. 'description' and 'color' fields are not required.
 
 <ol start="2">
   <li>Submit pull request!</li>
