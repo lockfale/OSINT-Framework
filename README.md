@@ -46,10 +46,21 @@ For new resources, please ensure that the site is available for public and free 
   "type": "url",
   "url": "http://example.com",
   "description": "Service description",
-  "color": "red"
+  "color": "red",
+  "guides": [
+    {
+      "name": "Guide 1"
+      "url": "https://example-guides.com/guide1.html"
+    },
+    {
+      "name": "Guide 2",
+      "url": "https://example-guides.com/guide2.pdf"
+    }
+  ]
 }
 ```
 'type' field can take 'folder' or 'url' values. 'description' and 'color' fields are not required.
+'guides' field are not required so.
 
 <ol start="2">
   <li>Submit pull request!</li>
