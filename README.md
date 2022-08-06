@@ -24,6 +24,12 @@ https://osintframework.com
 (M) - Indicates a URL that contains the search term and the URL itself must be edited manually  
 (U) - Currently unsupported, unmaintained or deprecated
 
+### Color legend
+Red - potentially dangerous resources, it is recommended to use in a protected environment  
+Yellow - resources may be under government control  
+Green - the most popular resources  
+Blue - Special technical knowledge required
+
 ### For Update Notifications
 Follow me on Twitter: @jnordine - https://twitter.com/jnordine  
 Watch or star the project on Github: https://github.com/lockfale/osint-framework
