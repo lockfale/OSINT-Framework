@@ -43,12 +43,14 @@
             {
               "name": "Yandex (Russian)",
               "type": "url",
-              "url": "https://www.yandex.com/"
+              "url": "https://www.yandex.com/",
+              "color": "yellow"
             },
             {
               "name": "Mail.ru (Russian)",
               "type": "url",
-              "url": "https://mail.ru/"
+              "url": "https://mail.ru/",
+              "color": "yellow"
             },
             {
               "name": "Bing vs. Google",
@@ -1098,7 +1100,8 @@
             {
               "name": "Habr Career (MoiKrug.ru) (Russian) (R)",
               "type": "url",
-              "url": "https://career.habr.com/"
+              "url": "https://career.habr.com/",
+              "color": "yellow"
             },
             {
               "name": "Jobs on vc.ru (Russian) (R)",
@@ -1108,17 +1111,20 @@
             {
               "name": "freelance.ru (Russian) (R)(C)",
               "type": "url",
-              "url": "https://freelance.ru/"
+              "url": "https://freelance.ru/",
+              "color": "yellow"
             },
             {
               "name": "HeadHunter (Russian) (R)",
               "type": "url",
-              "url": "https://hh.ru/"
+              "url": "https://hh.ru/",
+              "color": "yellow"
             },
             {
               "name": "Rabota.ru (Russian) (R)",
               "type": "url",
-              "url": "https://rabota.ru"
+              "url": "https://rabota.ru",
+              "color": "yellow"
             },
             {
               "name": "Recruit Coders (Russian) (R)",
@@ -1328,7 +1334,8 @@
             {
               "name": "Talantix (Russian) (R)(C)",
               "type": "url",
-              "url": "https://talantix.ru/"
+              "url": "https://talantix.ru/",
+              "color": "yellow"
             }
           ],
           "name": "Application Tracking Systems (ATS)",
@@ -1945,17 +1952,20 @@
             {
               "name": "VKontakte (Russian)",
               "type": "url",
-              "url": "https://vk.com/"
+              "url": "https://vk.com/",
+              "color": "yellow"
             },
             {
               "name": "Odnoklassniki (Russian)",
               "type": "url",
-              "url": "https://ok.ru/"
+              "url": "https://ok.ru/",
+              "color": "yellow"
             },
             {
               "name": "MoyMir (Russian)",
               "type": "url",
-              "url": "https://my.mail.ru/"
+              "url": "https://my.mail.ru/",
+              "color": "yellow"
             },
             {
               "name": "Delicious",
@@ -3708,7 +3718,8 @@
                 {
                   "name": "Yandex Images",
                   "type": "url",
-                  "url": "https://www.yandex.com/images/"
+                  "url": "https://www.yandex.com/images/",
+                  "color": "yellow"
                 },
                 {
                   "name": "Baidu Images",
@@ -3943,7 +3954,8 @@
                 {
                   "name": "Yandex Video",
                   "type": "url",
-                  "url": "https://yandex.ru/video/search"
+                  "url": "https://yandex.ru/video/search",
+                  "color": "yellow"
                 },
                 {
                   "name": "Bing Videos",
@@ -4373,7 +4385,8 @@
         {
           "name": "Yandex.Maps",
           "type": "url",
-          "url": "https://yandex.com/maps/"
+          "url": "https://yandex.com/maps/",
+          "color": "yellow"
         },
         {
           "name": "2GIS",
