@@ -122,6 +122,12 @@
               "description": "Monitor the web for interesting new content"
             },
             {
+              "name": "Google News Search",
+              "type": "url",
+              "url": "https://news.google.com/news/advanced_news_search",
+              "description": "The new Google News has a fresh look, brand-new briefing, & customized topic"
+            },
+            {
               "name": "Google Scholar",
               "type": "url",
               "url": "https://scholar.google.com/",
@@ -266,7 +272,7 @@
             {
               "name": "Google News Search",
               "type": "url",
-              "url": "https://news.google.com/news/advanced_news_search?",
+              "url": "https://news.google.com/news/advanced_news_search",
               "description": "The new Google News has a fresh look, brand-new briefing, & customized topic"
             },
             {
@@ -1019,7 +1025,7 @@
               "description": "The #1 job site to find vetted remote, work from home, and flexible job opportunities since 2007."
             },
             {
-              "name": "SimplyHired (R)",
+              "name": "Simply Hired (R)",
               "type": "url",
               "url": "https://www.simplyhired.com/",
               "description": "One Search, Millions of Jobs"
@@ -1113,6 +1119,12 @@
               "name": "Rabota.ru (Russian) (R)",
               "type": "url",
               "url": "https://rabota.ru"
+            },
+            {
+              "name": "Recruit Coders (Russian) (R)",
+              "type": "url",
+              "url": "https://www.recruitcoders.com/",
+              "description": "The Tech Talent Search Platform. Active Jobs From IT Companies"
             },
             {
               "name": "Rabota.ua (Ukraine) (R)",
