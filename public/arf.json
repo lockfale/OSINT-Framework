@@ -1127,6 +1127,12 @@
               "color": "yellow"
             },
             {
+              "name": "Recruton (Russian) (R)(C)",
+              "type": "url",
+              "url": "https://recruton.io/",
+              "description": "The automated candidate screening platform, Recruton, evaluates IT professionals for you and prepares a detailed report."
+            },
+            {
               "name": "Recruit Coders (Russian) (R)",
               "type": "url",
               "url": "https://www.recruitcoders.com/",
@@ -1147,198 +1153,210 @@
         },
         {
           "children": [
-
-          ],
-          "name": "Human Resources (HR)",
-          "type": "folder"
-        },
-        {
-          "children": [
             {
-              "name": "LinkedIn Recruiter (R)(C)",
-              "type": "url",
-              "url": "https://business.linkedin.com/talent-solutions/recruiter#!",
-              "description": "Hire the right candidates faster with an easy recruiting solution and powerful insights from LinkedIn’s active community."
+              "children": [
+                {
+                  "name": "HeadHunter Salary Database (Russian) (R)(C)",
+                  "type": "url",
+                  "url": "https://hh.ru/article/zarplaty",
+                  "description": "Salary Database Service from hh.ru",
+                  "color": "yellow"
+                }
+              ],
+              "name": "Employee Salary",
+              "type": "folder"
             },
             {
-              "name": "Jira Work Management (R)(C)",
-              "type": "url",
-              "url": "https://www.atlassian.com/software/jira/work-management/hr",
-              "description": "Boost your organization's productivity, coordination, and engagement — so you and your HR team can focus on people first."
-            },
-            {
-              "name": "Breezy HR (R)(C)",
-              "type": "url",
-              "url": "https://breezy.hr/",
-              "description": "Find & Hire Employees, Sooner"
-            },
-            {
-              "name": "AmazingHiring (R)(C)",
-              "type": "url",
-              "url": "https://amazinghiring.ru/",
-              "description": "AI sourcing technology that helps you find 40% more candidates from 50+ open sources online"
-            },
-            {
-              "name": "HuntFlow (R)(C)(API)",
-              "type": "url",
-              "url": "https://huntflow.ru/",
-              "description": "HuntFlow Recruiting Automation System"
-            },
-            {
-              "name": "PeopleForce (R)(C)",
-              "type": "url",
-              "url": "https://peopleforce.io/",
-              "description": "The best All-In-One HR software to manage your workforce"
-            },
-            {
-              "name": "CleverStaff (R)(C)",
-              "type": "url",
-              "url": "https://cleverstaff.net/",
-              "description": "Customizable ATS software for recruitment"
-            },
-            {
-              "name": "Recruitee (R)(C)",
-              "type": "url",
-              "url": "https://recruitee.com/",
-              "description": "Working with your teammates means you can hire better and faster while making long-lasting connections with top talent."
-            },
-            {
-              "name": "JazzHR (R)(C)",
-              "type": "url",
-              "url": "https://www.jazzhr.com/",
-              "description": "Find and hire the right talent, fast with the only hiring platform built for businesses like yours."
-            },
-            {
-              "name": "VidCruiter (R)(C)",
-              "type": "url",
-              "url": "https://vidcruiter.com/",
-              "description": "Easy-to-Use Applicant Tracking System (ATS)"
-            },
-            {
-              "name": "PinPoint (R)(C)",
-              "type": "url",
-              "url": "https://www.pinpointhq.com/",
-              "description": "Modern applicant tracking software and unlimited help from our team means you’ll attract the right candidates, select the best, and wow your new hires from the moment they say ‘yes’."
-            },
-            {
-              "name": "ClearCompany (R)(C)",
-              "type": "url",
-              "url": "https://www.clearcompany.com/",
-              "description": "A Complete Talent Management System to Quickly Hire and Engage Top Talent"
-            },
-            {
-              "name": "TeamTailor (R)(C)",
-              "type": "url",
-              "url": "https://www.teamtailor.com/",
-              "description": "The recruitment & employer branding ATS"
-            },
-            {
-              "name": "Manatal (R)(C)",
-              "type": "url",
-              "url": "https://www.manatal.com/",
-              "description": "AI Recruitment Software designed to source and hire candidates faster. Tailored for HR teams, recruitment agencies, and headhunters."
-            },
-            {
-              "name": "Avature (R)(C)",
-              "type": "url",
-              "url": "https://www.avature.net/",
-              "description": "Avature ATS redefines the user experience for candidates, recruiters and hiring managers."
-            },
-            {
-              "name": "FreshTeam (R)(C)",
-              "type": "url",
-              "url": "https://www.freshworks.com/",
-              "description": "Everything you need in an online applicant tracking system"
-            },
-            {
-              "name": "iCIMS (R)(C)",
-              "type": "url",
-              "url": "https://www.icims.com/",
-              "description": "The iCIMS Talent Cloud delivers enterprise hiring solutions across every stage of the talent journey."
-            },
-            {
-              "name": "SmartRecruiters (R)(C)",
-              "type": "url",
-              "url": "https://www.smartrecruiters.com/",
-              "description": "SmartRecruiters is the industry's only modern and enterprise-grade talent acquisition suite that empowers businesses to hire talent on-demand, and under budget."
-            },
-            {
-              "name": "TrakStar (R)(C)",
-              "type": "url",
-              "url": "https://hire.trakstar.com/",
-              "description": "Online applicant tracking tools for the best candidates and hassle-free hiring"
-            },
-            {
-              "name": "Workable (R)(C)",
-              "type": "url",
-              "url": "https://www.workable.com/",
-              "description": "Find and hire the right person for every job."
-            },
-            {
-              "name": "LeverTRM (R)(C)",
-              "type": "url",
-              "url": "https://www.lever.co/",
-              "description": "LeverTRM — A Full Talent Acquisition Suite"
-            },
-            {
-              "name": "GreenHouse (R)(C)",
-              "type": "url",
-              "url": "https://www.greenhouse.io/",
-              "description": "What’s next for many of us is changing. Your company’s ability to hire great talent is as important as ever – so you’ll be ready for whatever’s ahead. Whether you need to scale your team quickly or improve your hiring process, Greenhouse gives you the right technology, know-how and support to take on what’s next."
-            },
-            {
-              "name": "Taleo (R)(C)",
-              "type": "url",
-              "url": "https://www.oracle.com/human-capital-management/taleo/",
-              "description": "Leverage a complete set of tools for sourcing, recruiting, and onboarding. Oracle Taleo is the most robust standalone talent acquisition suite for finding and hiring the best candidates."
-            },
-            {
-              "name": "WorkDay (R)(C)",
-              "type": "url",
-              "url": "https://www.workday.com/en-us/products/talent-management/talent-acquisition.html",
-              "description": "A talent acquisition solution that’s agile and intelligent"
-            },
-            {
-              "name": "JobVite (R)(C)",
-              "type": "url",
-              "url": "https://www.jobvite.com/products/",
-              "description": "Engage candidates with our leading talent acquisition suite"
-            },
-            {
-              "name": "Bullhorn (R)(C)",
-              "type": "url",
-              "url": "https://www.bullhorn.com/products/applicant-tracking-crm/",
-              "description": "A modern recruiting system that enables staffing agencies to increase sales, streamline operations, and differentiate themselves from the competition."
-            },
-            {
-              "name": "JobToolz (R)(C)",
-              "type": "url",
-              "url": "https://jobtoolz.com/",
-              "description": "Jobtoolz is a recruitment platform for SMEs and organisations, with a strong focus on employer branding, an automated recruitment process and recruitment marketing."
-            },
-            {
-              "name": "FriendWork (Russian) (R)(C)",
-              "type": "url",
-              "url": "https://friend.work/"
-            },
-            {
-              "name": "Potok (Russian) (R)(C)",
-              "type": "url",
-              "url": "https://talenttech.ru/potok/"
-            },
-            {
-              "name": "E-Staff (Russian) (R)(C)(T)",
-              "type": "url",
-              "url": "https://e-staff.ru/"
-            },
-            {
-              "name": "Talantix (Russian) (R)(C)",
-              "type": "url",
-              "url": "https://talantix.ru/",
-              "color": "yellow"
+              "children": [
+                {
+                  "name": "LinkedIn Recruiter (R)(C)",
+                  "type": "url",
+                  "url": "https://business.linkedin.com/talent-solutions/recruiter#!",
+                  "description": "Hire the right candidates faster with an easy recruiting solution and powerful insights from LinkedIn’s active community."
+                },
+                {
+                  "name": "Jira Work Management (R)(C)",
+                  "type": "url",
+                  "url": "https://www.atlassian.com/software/jira/work-management/hr",
+                  "description": "Boost your organization's productivity, coordination, and engagement — so you and your HR team can focus on people first."
+                },
+                {
+                  "name": "Breezy HR (R)(C)",
+                  "type": "url",
+                  "url": "https://breezy.hr/",
+                  "description": "Find & Hire Employees, Sooner"
+                },
+                {
+                  "name": "AmazingHiring (R)(C)",
+                  "type": "url",
+                  "url": "https://amazinghiring.ru/",
+                  "description": "AI sourcing technology that helps you find 40% more candidates from 50+ open sources online"
+                },
+                {
+                  "name": "HuntFlow (R)(C)(API)",
+                  "type": "url",
+                  "url": "https://huntflow.ru/",
+                  "description": "HuntFlow Recruiting Automation System"
+                },
+                {
+                  "name": "PeopleForce (R)(C)",
+                  "type": "url",
+                  "url": "https://peopleforce.io/",
+                  "description": "The best All-In-One HR software to manage your workforce"
+                },
+                {
+                  "name": "CleverStaff (R)(C)",
+                  "type": "url",
+                  "url": "https://cleverstaff.net/",
+                  "description": "Customizable ATS software for recruitment"
+                },
+                {
+                  "name": "Recruitee (R)(C)",
+                  "type": "url",
+                  "url": "https://recruitee.com/",
+                  "description": "Working with your teammates means you can hire better and faster while making long-lasting connections with top talent."
+                },
+                {
+                  "name": "JazzHR (R)(C)",
+                  "type": "url",
+                  "url": "https://www.jazzhr.com/",
+                  "description": "Find and hire the right talent, fast with the only hiring platform built for businesses like yours."
+                },
+                {
+                  "name": "VidCruiter (R)(C)",
+                  "type": "url",
+                  "url": "https://vidcruiter.com/",
+                  "description": "Easy-to-Use Applicant Tracking System (ATS)"
+                },
+                {
+                  "name": "PinPoint (R)(C)",
+                  "type": "url",
+                  "url": "https://www.pinpointhq.com/",
+                  "description": "Modern applicant tracking software and unlimited help from our team means you’ll attract the right candidates, select the best, and wow your new hires from the moment they say ‘yes’."
+                },
+                {
+                  "name": "ClearCompany (R)(C)",
+                  "type": "url",
+                  "url": "https://www.clearcompany.com/",
+                  "description": "A Complete Talent Management System to Quickly Hire and Engage Top Talent"
+                },
+                {
+                  "name": "TeamTailor (R)(C)",
+                  "type": "url",
+                  "url": "https://www.teamtailor.com/",
+                  "description": "The recruitment & employer branding ATS"
+                },
+                {
+                  "name": "Manatal (R)(C)",
+                  "type": "url",
+                  "url": "https://www.manatal.com/",
+                  "description": "AI Recruitment Software designed to source and hire candidates faster. Tailored for HR teams, recruitment agencies, and headhunters."
+                },
+                {
+                  "name": "Avature (R)(C)",
+                  "type": "url",
+                  "url": "https://www.avature.net/",
+                  "description": "Avature ATS redefines the user experience for candidates, recruiters and hiring managers."
+                },
+                {
+                  "name": "FreshTeam (R)(C)",
+                  "type": "url",
+                  "url": "https://www.freshworks.com/",
+                  "description": "Everything you need in an online applicant tracking system"
+                },
+                {
+                  "name": "iCIMS (R)(C)",
+                  "type": "url",
+                  "url": "https://www.icims.com/",
+                  "description": "The iCIMS Talent Cloud delivers enterprise hiring solutions across every stage of the talent journey."
+                },
+                {
+                  "name": "SmartRecruiters (R)(C)",
+                  "type": "url",
+                  "url": "https://www.smartrecruiters.com/",
+                  "description": "SmartRecruiters is the industry's only modern and enterprise-grade talent acquisition suite that empowers businesses to hire talent on-demand, and under budget."
+                },
+                {
+                  "name": "TrakStar (R)(C)",
+                  "type": "url",
+                  "url": "https://hire.trakstar.com/",
+                  "description": "Online applicant tracking tools for the best candidates and hassle-free hiring"
+                },
+                {
+                  "name": "Workable (R)(C)",
+                  "type": "url",
+                  "url": "https://www.workable.com/",
+                  "description": "Find and hire the right person for every job."
+                },
+                {
+                  "name": "LeverTRM (R)(C)",
+                  "type": "url",
+                  "url": "https://www.lever.co/",
+                  "description": "LeverTRM — A Full Talent Acquisition Suite"
+                },
+                {
+                  "name": "GreenHouse (R)(C)",
+                  "type": "url",
+                  "url": "https://www.greenhouse.io/",
+                  "description": "What’s next for many of us is changing. Your company’s ability to hire great talent is as important as ever – so you’ll be ready for whatever’s ahead. Whether you need to scale your team quickly or improve your hiring process, Greenhouse gives you the right technology, know-how and support to take on what’s next."
+                },
+                {
+                  "name": "Taleo (R)(C)",
+                  "type": "url",
+                  "url": "https://www.oracle.com/human-capital-management/taleo/",
+                  "description": "Leverage a complete set of tools for sourcing, recruiting, and onboarding. Oracle Taleo is the most robust standalone talent acquisition suite for finding and hiring the best candidates."
+                },
+                {
+                  "name": "WorkDay (R)(C)",
+                  "type": "url",
+                  "url": "https://www.workday.com/en-us/products/talent-management/talent-acquisition.html",
+                  "description": "A talent acquisition solution that’s agile and intelligent"
+                },
+                {
+                  "name": "JobVite (R)(C)",
+                  "type": "url",
+                  "url": "https://www.jobvite.com/products/",
+                  "description": "Engage candidates with our leading talent acquisition suite"
+                },
+                {
+                  "name": "Bullhorn (R)(C)",
+                  "type": "url",
+                  "url": "https://www.bullhorn.com/products/applicant-tracking-crm/",
+                  "description": "A modern recruiting system that enables staffing agencies to increase sales, streamline operations, and differentiate themselves from the competition."
+                },
+                {
+                  "name": "JobToolz (R)(C)",
+                  "type": "url",
+                  "url": "https://jobtoolz.com/",
+                  "description": "Jobtoolz is a recruitment platform for SMEs and organisations, with a strong focus on employer branding, an automated recruitment process and recruitment marketing."
+                },
+                {
+                  "name": "FriendWork (Russian) (R)(C)",
+                  "type": "url",
+                  "url": "https://friend.work/"
+                },
+                {
+                  "name": "Potok (Russian) (R)(C)",
+                  "type": "url",
+                  "url": "https://talenttech.ru/potok/"
+                },
+                {
+                  "name": "E-Staff (Russian) (R)(C)(T)",
+                  "type": "url",
+                  "url": "https://e-staff.ru/"
+                },
+                {
+                  "name": "Talantix (Russian) (R)(C)",
+                  "type": "url",
+                  "url": "https://talantix.ru/",
+                  "color": "yellow"
+                }
+              ],
+              "name": "ATS",
+              "type": "folder"
             }
           ],
-          "name": "Application Tracking Systems (ATS)",
+          "name": "Human Resources (HR)",
           "type": "folder"
         },
         {
@@ -1895,6 +1913,12 @@
               "name": "Google CSE for Telegram links (R)",
               "type": "url",
               "url": "https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg"
+            },
+            {
+              "name": "Telegram Captcha Bot (T)",
+              "type": "url",
+              "url:": "",
+              "description": "Telegram bot that validates new users that enter supergroup. Validation works like a simple captcha. Bot written in Go (Golang)."
             }
           ],
           "name": "Telegram",
@@ -2389,9 +2413,16 @@
               "type": "folder"
             },
             {
+              "name": "All Area Codes",
+              "type": "url",
+              "url": "https://www.allareacodes.com/",
+              "description": "Phone and Area Code Search"
+            },
+            {
               "name": "Pipl API (M)(API)",
               "type": "url",
-              "url": "https://api.pipl.com/search/v5/?phone=18887420000&key=sample_key&pretty=true"
+              "url": "https://api.pipl.com/search/v5/?phone=18887420000&key=sample_key&pretty=true",
+              "description": "The Identity Trust API"
             },
             {
               "name": "411",
@@ -2504,7 +2535,15 @@
               "type": "url",
               "url": "https://numspy.pythonanywhere.com/",
               "description": "PythonAnywhere lets you host, run, and code Python in the cloud. Our free plan gives you access to machines with everything already set up for you. You can develop and host your website or any other code directly from your browser without having to install software or manage your own server."
-            }],
+            },
+            {
+              "name": "CellTrack (Russian) (R)",
+              "type": "url",
+              "url": "https://www.celltrackmobil.ru/",
+              "description": "The only site that lets you track a phone’s location without any special software",
+              "color": "yellow"
+            }
+          ],
           "name": "Telephone Numbers",
           "type": "folder"
         }
@@ -3862,6 +3901,11 @@
                   "description": "Eliminate extra info from JPEGs"
                 },
                 {
+                  "name": "Exif Viewer (Russian)",
+                  "type": "url",
+                  "url": "https://ko-komanda.org/ExifViewer/"
+                },
+                {
                   "name": "GeoSetter (T)",
                   "type": "url",
                   "url": "http://www.geosetter.de/en/",
@@ -3872,6 +3916,12 @@
             },
             {
               "children": [
+                {
+                  "name": "Sherloq (T)",
+                  "type": "url",
+                  "url": "https://github.com/GuidoBartoli/sherloq",
+                  "description": "Sherloq is a personal research project about implementing a fully integrated environment for digital image forensics. It is not meant as an automatic tool that decide if an image is forged or not (that tool probably will never exist...), but as a companion in experimenting with various algorithms found in the latest research papers and workshops."
+                },
                 {
                   "name": "FotoForensics",
                   "type": "url",
@@ -3890,7 +3940,7 @@
                   "url": "http://www.cameratrace.com/trace",
                   "description": "Free Camera Serial Trace"
                 }],
-              "name": "Forensics",
+              "name": "Analysis & Forensics",
               "type": "folder"
             },
             {
@@ -4048,7 +4098,20 @@
                 }],
               "name": "Analyze / Record",
               "type": "folder"
-            }],
+            },
+            {
+              "children": [
+                {
+                  "name": "FLV to MPEG Converter",
+                  "type": "url",
+                  "url": "https://www.media.io/convert/flv-to-mpeg.html",
+                  "description": "Convert FLV files to MPEG online for free now"
+                }
+              ],
+              "name": "Convert",
+              "type": "folder"
+            }
+          ],
           "name": "Videos",
           "type": "folder"
         },
@@ -4241,7 +4304,14 @@
               "type": "url",
               "url": "http://suncalc.net/",
               "description": "SunCalc is a little app that shows sun movement and sunlight phases during the given day at the given location."
-            }],
+            },
+            {
+              "name": "Maximind (R)(C)(API)",
+              "type": "url",
+              "url": "https://www.maxmind.com/en/geoip2-services-and-databases",
+              "description": "GeoIP Databases & Services: Industry Leading IP Intelligence"
+            }
+          ],
           "name": "Geolocation Tools",
           "type": "folder"
         },
@@ -4391,7 +4461,8 @@
         {
           "name": "2GIS",
           "type": "url",
-          "url": "https://2gis.ru"
+          "url": "https://2gis.ru",
+          "color": "yellow"
         },
         {
           "name": "Baidu Maps",
@@ -4986,6 +5057,12 @@
         {
           "children": [
             {
+              "name": "Interpol Red, Yellow Notices & Wanted",
+              "type": "url",
+              "url": "https://www.interpol.int/How-we-work/Notices/View-Red-Notices",
+              "description": "INTERPOL Notices are international requests for cooperation or alerts allowing police in member countries to share critical crime-related information. Notices are published by the General Secretariat at the request of a National Central Bureau and are made available to all our member countries. "
+            },
+            {
               "name": "Nationwide County Court Records",
               "type": "url",
               "url": "https://www.blackbookonline.info/USA-County-Court-Records.aspx",
@@ -5187,6 +5264,18 @@
                   "type": "url",
                   "url": "https://databases.today/",
                   "description": "Snusbase has made it easy to stay on top of the latest database breaches since its debut in 2016 and is trusted by experts from law enforcement to major worldwide companies."
+                },
+                {
+                  "name": "Internal Tech Emails",
+                  "type": "url",
+                  "url": "https://www.techemails.com/",
+                  "description": "Internal tech industry emails that surface in public records"
+                },
+                {
+                  "name": "Internal Tech Emails in Twitter",
+                  "type": "url",
+                  "url": "https://twitter.com/TechEmails",
+                  "description": "Internal tech industry emails that surface in public records in Twitter"
                 },
                 {
                   "name": "Cryptome",
@@ -5901,7 +5990,20 @@
         "name": "Sherlock (T)",
         "type": "url",
         "url": "https://github.com/sherlock-project/sherlock",
-        "description": "Hunt down social media accounts by username across social networks"
+        "description": "Hunt down social media accounts by username across social networks",
+        "color": "green"
+      },
+      {
+        "name": "Vortimo (R)(C)(T)",
+        "type": "url",
+        "url": "https://www.vortimo.com/",
+        "description": "Vortimo is an OSINT investigation tool that captures, organizes and saves websites locally on your hard drive. The application complements web browsing in a browser - you can mark selected items for information search and quick reporting. Vortimo automatically identifies duplicate email addresses, phone numbers, URLs, IP addresses, hashtags and usernames so you don't miss the details of an investigation and quickly figure out what to focus on."
+      },
+      {
+        "name": "sqlmap (T)",
+        "type": "url",
+        "url": "https://github.com/sqlmapproject/sqlmap",
+        "description": "sqlmap is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers. It comes with a powerful detection engine, many niche features for the ultimate penetration tester, and a broad range of switches including database fingerprinting, over data fetching from the database, accessing the underlying file system, and executing commands on the operating system via out-of-band connections."
       }
       ],
       "name": "OSINT Automation",
@@ -5994,6 +6096,12 @@
     },
     {
         "children": [
+          {
+            "name": "MobSF (T)",
+            "type": "url",
+            "url": "https://github.com/MobSF",
+            "description": "Automated pentesting framework for Android, iOS and Windows Apps"
+          },
           {
             "children": [
               {
@@ -6561,6 +6669,48 @@
           "type": "folder"
         },
         {
+          "children": [
+            {
+              "name": "Airtrack-ng (T)",
+              "type": "url",
+              "url": "https://aircrack-ng.org/",
+              "description": "Aircrack-ng is a complete suite of tools to assess WiFi network security."
+            }
+          ],
+          "name": "Wi-Fi Analysis",
+          "type": "folder"
+        },
+        {
+          "children": [
+            {
+              "name": "Nessus (T)(R)(C)",
+              "type": "url",
+              "url": "https://www.tenable.com/products/nessus",
+              "description": "The Global Gold Standard in Vulnerability Assessment\nBuilt for the Modern Attack Surface"
+            }
+          ],
+          "name": "Network Analysis",
+          "type": "folder"
+        },
+        {
+          "children": [
+            {
+              "name": "Hashcat (T)",
+              "type": "url",
+              "url": "https://hashcat.net/hashcat/",
+              "description": "Hashcat advanced password recovery"
+            },
+            {
+              "name": "John the Ripper password cracker (T)",
+              "type": "url",
+              "url": "https://www.openwall.com/john/",
+              "description": "John the Ripper is an Open Source password security auditing and password recovery tool available for many operating systems. John the Ripper jumbo supports hundreds of hash and cipher types, including for: user passwords of Unix flavors (Linux, *BSD, Solaris, AIX, QNX, etc.), macOS, Windows, \"web apps\" (e.g., WordPress), groupware (e.g., Notes/Domino), and database servers (SQL, LDAP, etc.); network traffic captures (Windows network authentication, WiFi WPA-PSK, etc.); encrypted private keys (SSH, GnuPG, cryptocurrency wallets, etc.), filesystems and disks (macOS .dmg files and \"sparse bundles\", Windows BitLocker, etc.), archives (ZIP, RAR, 7z), and document files (PDF, Microsoft Office's, etc.) These are just some of the examples - there are many more."
+            }
+          ],
+          "name": "Password Analysis",
+          "type": "folder"
+        },
+        {
           "name": "IBM X-Force Exchange (R)",
           "type": "url",
           "url": "https://exchange.xforce.ibmcloud.com/new",
@@ -6571,6 +6721,20 @@
           "type": "url",
           "url": "https://www.misp-project.org/",
           "description": "OpenSource Threat Intelligence and Sharing Platform"
+        },
+        {
+          "name": "WPScan (T)",
+          "type": "url",
+          "url": "https://github.com/wpscanteam/wpscan",
+          "description": "WordPress Security Scanner",
+          "color": "green"
+        },
+        {
+          "name": "Metasploit (T)(R)",
+          "type": "url",
+          "url": "https://www.metasploit.com/",
+          "description": "The world’s most used penetration testing framework",
+          "color": "green"
         },
         {
           "name": "Malware Patrol",
@@ -6890,7 +7054,8 @@
             "name": "CVE Details",
             "type": "url",
             "url": "https://www.cvedetails.com/",
-            "description": "The ultimate security vulnerability datasource"
+            "description": "The ultimate security vulnerability datasource",
+            "color": "green"
           },
           {
             "name": "CVE - MITRE",

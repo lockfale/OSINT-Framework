@@ -172,14 +172,9 @@
       "type": "folder"
     },
     {
-      "children": [
-        {
-          "name": "Snapchat Leak Checker",
-          "type": "url",
-          "url": "https://lastpass.com/snapchat/"
-        }],
-      "name": "Snapchat",
-      "type": "folder"
+      "name": "Snapchat Leak Checker",
+      "type": "url",
+      "url": "https://lastpass.com/snapchat/"
     },
     {
       "name": "filessoo.com",
@@ -340,12 +335,6 @@
       "name": "Tor Scan",
       "type": "url",
       "url": "http://www.torscan.io/"
-    },
-    {
-      "name": "",
-      "type": "url",
-      "url": "",
-      "description": ""
     },
     {
       "name": "Onion Investigator",
