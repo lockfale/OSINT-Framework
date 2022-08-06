@@ -62,6 +62,8 @@ For new resources, please ensure that the site is available for public and free 
 'type' field can take 'folder' or 'url' values. 'description' and 'color' fields are not required.
 'guides' field are not required so.
 
+For some resources in languages other than English, language designations are used: (China) / (CH), Russian / (RU), French / (FR), etc.
+
 <ol start="2">
   <li>Submit pull request!</li>
 </ol>
