@@ -1595,11 +1595,6 @@
                   "url": "https://hootsuite.com/feed/SearchTerm?pfilter="
                 },
                 {
-                  "name": "TweetDeck",
-                  "type": "url",
-                  "url": "https://tweetdeck.twitter.com/"
-                },
-                {
                   "name": "Twopcharts",
                   "type": "url",
                   "url": "http://twopcharts.com/",
@@ -1828,6 +1823,19 @@
                 }],
               "name": "Archive / Deleted Tweets",
               "type": "folder"
+            },
+            {
+              "name": "TweetDeck",
+              "type": "url",
+              "url": "https://tweetdeck.twitter.com/",
+              "description": "Twitter Monitoring Platform",
+              "color": "green",
+              "guides": [
+                {
+                  "name": "The most complete guide to working with TweetDeck (RU)",
+                  "url": "https://ru.bellingcat.com/materialy/putevoditeli/2019/08/05/tweetdeck/"
+                }
+              ]
             },
             {
               "name": "Twitter Back From The Dead (T)",
