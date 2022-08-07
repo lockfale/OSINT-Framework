@@ -250,7 +250,14 @@
               "type": "url",
               "url": "https://github.com/techgaun/github-dorks",
               "description": "Github Search is a quite powerful and useful feature that can be used to search for sensitive data on repositories. Collection of Github dorks can reveal sensitive personal and/or organizational information such as private keys, credentials, authentication tokens, etc. This list is supposed to be useful for assessing security and performing pen-testing of systems."
-            }],
+            },
+            {
+              "name": "Hack with GitHub Repositories",
+              "type": "url",
+              "url": "https://github.com/orgs/Hack-with-Github/repositories",
+              "description": "Awesome hack with GitHub repositories collection"
+            }
+          ],
           "name": "Code Search",
           "type": "folder"
         },
@@ -1147,7 +1154,14 @@
               "name": "Zarplata.ru (Russian) (R)",
               "type": "url",
               "url": "https://zarplata.ru"
-            }],
+            },
+            {
+              "name": "Smart Talent Search (Russian)",
+              "type": "url",
+              "url": "https://smart-talent-search.com/",
+              "description": "Boolean Search Employee Service"
+            }
+          ],
           "name": "Employee Profiles & Resumes",
           "type": "folder"
         },
