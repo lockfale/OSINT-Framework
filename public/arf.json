@@ -377,6 +377,11 @@
               "description": "The Washington Post Fact-checker guide"
             },
             {
+              "name": "Check Your Fact",
+              "type": "url",
+              "url": "https://checkyourfact.com/"
+            },
+            {
               "name": "Hoaxy",
               "type": "url",
               "url": "https://hoaxy.iuni.iu.edu/",
@@ -455,6 +460,12 @@
               "type": "url",
               "url": "https://scholar.google.com/",
               "description": "Search engine for scholarly literature"
+            },
+            {
+              "name": "INDEPENDENT SOCIAL RESEARCH FOUNDATION (ISRF)",
+              "type": "url",
+              "url": "https://fundit.fr/en/institutions/independent-social-research-foundation-isrf",
+              "description": "The Independent Social Research Foundation (ISRF) is a public benefit foundation funded by a group of private philanthropists with interests in academia and social science, founded in 2008. It is dedicated to cross-fertilisation in the social sciences, the promotion of new modes of inquiry and the development of interdisciplinary expertise and methods. One of its specific objectives is to promote better understanding of social entities and processes and see this used in solving subject specific problems.\n\nTo achieve this objective it intends to provide a series of research grants, enter into partnerships with academic institutions and support research activities that promote"
             },
             {
               "name": "Soc Arxiv (R)",
@@ -1799,7 +1810,7 @@
                   "name": "GeoSocial Footprint",
                   "type": "url",
                   "url": "http://geosocialfootprint.com/",
-                  "description": "A geosocial footprint is the combined bits of location information that a user divulges through social media, which ultimately forms the users location \"footprint\". For Twitter.com users, this footprint is created from GPS enabled tweets, social check-ins, natural language location searching (geocoding), and profile harvesting"
+                  "description": "A geosocial footprint is the combined bits of location information that a user divulges through social media, which ultimately forms the users location footprint. For Twitter.com users, this footprint is created from GPS enabled tweets, social check-ins, natural language location searching (geocoding), and profile harvesting"
                 },
                 {
                   "name": "Echosec (R)(C)",
@@ -5588,7 +5599,7 @@
       {
         "name": "DeepL Translator",
         "type": "url",
-        "url": "https://www.deepl.com/",
+        "url": "https://www.deepl.com/translator",
         "description": "A Document Translator"
       },
       {
