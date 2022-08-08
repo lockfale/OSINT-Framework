@@ -1921,7 +1921,20 @@
               "type": "url",
               "url": "https://github.com/0x09AL/raven",
               "description": "Raven is a Linkedin information gathering tool that can be used by pentesters to gather information about an organization employees using Linkedin."
-            }],
+            },
+            {
+              "name": "LainAdd.in (Russian) (R)",
+              "type": "url",
+              "url": "https://linkadd.in/",
+              "description": "LinkedIn Marketing Automation Service"
+            },
+            {
+              "name": "Wiza.co (R)(T)",
+              "type": "url",
+              "url": "https://wiza.co/",
+              "description": "LinkedIn Automation, Scraping and other tools"
+            }
+          ],
           "name": "LinkedIn",
           "type": "folder"
         },
