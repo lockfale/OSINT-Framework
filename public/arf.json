@@ -468,6 +468,12 @@
               "description": "The Independent Social Research Foundation (ISRF) is a public benefit foundation funded by a group of private philanthropists with interests in academia and social science, founded in 2008. It is dedicated to cross-fertilisation in the social sciences, the promotion of new modes of inquiry and the development of interdisciplinary expertise and methods. One of its specific objectives is to promote better understanding of social entities and processes and see this used in solving subject specific problems.\n\nTo achieve this objective it intends to provide a series of research grants, enter into partnerships with academic institutions and support research activities that promote"
             },
             {
+              "name": "RefSeek",
+              "type": "url",
+              "url": "https://www.refseek.com/",
+              "description": "RefSeek is a web search engine for students and researchers that aims to make academic information easily accessible to everyone. RefSeek searches more than five billion documents, including web pages, books, encyclopedias, journals, and newspapers."
+            },
+            {
               "name": "Soc Arxiv (R)",
               "type": "url",
               "url": "https://osf.io/preprints/socarxiv",
@@ -600,6 +606,42 @@
               "type": "url",
               "url": "https://opensyllabus.org/",
               "description": "Mapping the college curriculum across 7,292,573 syllabi"
+            },
+            {
+              "name": "WorldCat (R)",
+              "type": "url",
+              "url": "https://www.worldcat.org/",
+              "description": "WorldCat connects you to the collections and services of more than 10,000 libraries worldwide"
+            },
+            {
+              "name": "Springer Link (R)",
+              "type": "url",
+              "url": "https://link.springer.com/",
+              "description": "Providing researchers with access to millions of scientific documents from journals, books, series, protocols, reference works and proceedings."
+            },
+            {
+              "name": "Bioline International",
+              "type": "url",
+              "url": "http://www.bioline.org.br/",
+              "description": "Bioline International is a not-for-profit scholarly publishing cooperative committed to providing open access to quality research journals published in developing countries."
+            },
+            {
+              "name": "RePEc",
+              "type": "url",
+              "url": "http://repec.org/",
+              "description": "RePEc (Research Papers in Economics) is a collaborative effort of hundreds of volunteers in 102 countries to enhance the dissemination of research in Economics and related sciences. The heart of the project is a decentralized bibliographic database of working papers, journal articles, books, books chapters and software components, all maintained by volunteers. The collected data are then used in various services that serve the collected metadata to users or enhance it."
+            },
+            {
+              "name": "PDFDrive (R)",
+              "type": "url",
+              "url": "https://www.pdfdrive.com/",
+              "description": "PDF Drive is your search engine for PDF files. As of today we have 80,661,629 eBooks for you to download for free. No annoying ads, no download limits, enjoy it and don't forget to bookmark and share the love!"
+            },
+            {
+              "name": "BASE (Bielfeld Academic Search Engine)",
+              "type": "url",
+              "url": "https://www.base-search.net/",
+              "description": "Bielfeld Academic Search Engine by Bielefeld University Library 2004-2022 "
             },
             {
               "name": "Science Publications (R)",
@@ -4178,7 +4220,7 @@
         },
         {
           "children": [
-            {
+          {
               "children": [
                 {
                   "children": [
@@ -4248,7 +4290,7 @@
               "name": "Search",
               "type": "folder"
             },
-            {
+          {
               "children": [
                 {
                   "name": "Pastebin Tools & Applications (T)",
@@ -4268,7 +4310,20 @@
                 }],
               "name": "Paste Sites",
               "type": "folder"
-            }],
+            },
+            {
+              "name": "Pandoc",
+              "type": "url",
+              "url": "https://pandoc.org/",
+              "description": "Pandoc   a universal document converter",
+              "guides": [
+                {
+                  "name": "Convert MS Word Document to Markdown Format",
+                  "url": "https://www.tutorialsteacher.com/articles/convert-word-doc-to-markdown"
+                }
+              ]
+            }
+          ],
           "name": "Documents",
           "type": "folder"
         },
@@ -4449,6 +4504,12 @@
               "type": "url",
               "url": "https://itrace.maps.arcgis.com/apps/dashboards/d5ca74f2db4846af9d7f62fec3c820f7",
               "description": "lots of information on different kinds of munitions and weapons presented graphically on a map format."
+            },
+            {
+              "name": "Voinskayachast.net",
+              "type": "url",
+              "url": "https://voinskayachast.net/",
+              "description": "Military units of the Russian Federation"
             }
           ],
           "name": "Military Maps",
