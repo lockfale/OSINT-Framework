@@ -82,13 +82,15 @@
             {
               "name": "Baidu (China)",
               "type": "url",
-              "url": "https://www.baidu.com/"
+              "url": "https://www.baidu.com/",
+              "color": "yellow"
             },
             {
               "name": "Hulbee (China)",
               "type": "url",
               "url": "https://hulbee.com/",
-              "description": "Data secure search engine"
+              "description": "Data secure search engine",
+              "color": "yellow"
             }],
           "name": "General Search Engines",
           "type": "folder"
@@ -1209,10 +1211,17 @@
               "url": "https://zarplata.ru"
             },
             {
+              "name": "SuperJob.ru (Russian) (R)",
+              "type": "url",
+              "url": "https://superjob.ru",
+              "color": "yellow"
+            },
+            {
               "name": "Smart Talent Search (Russian)",
               "type": "url",
               "url": "https://smart-talent-search.com/",
-              "description": "Boolean Search Employee Service"
+              "description": "Boolean Search Employee Service",
+              "color": "yellow"
             }
           ],
           "name": "Employee Profiles & Resumes",
@@ -3912,7 +3921,8 @@
                 {
                   "name": "Baidu Images",
                   "type": "url",
-                  "url": "https://www.baidu.com/"
+                  "url": "https://www.baidu.com/",
+                  "color": "yellow"
                 },
                 {
                   "name": "Twitter Image Search (M)",
@@ -4664,7 +4674,8 @@
         {
           "name": "Baidu Maps",
           "type": "url",
-          "url": "https://map.baidu.com/"
+          "url": "https://map.baidu.com/",
+          "color": "yellow"
         },
         {
           "name": "EarthExplorer",
