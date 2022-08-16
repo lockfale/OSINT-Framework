@@ -4322,6 +4322,12 @@
                   "url": "https://www.tutorialsteacher.com/articles/convert-word-doc-to-markdown"
                 }
               ]
+            },
+            {
+              "name": "TableConvert",
+              "type": "url",
+              "url": "https://tableconvert.com/json-to-markdown",
+              "description": "Convert over-to-over document formats"
             }
           ],
           "name": "Documents",
