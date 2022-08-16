@@ -2180,7 +2180,15 @@
             }],
           "name": "Kik",
           "type": "folder"
-        }],
+        },
+        {
+          "name": "TenChar (Russian) (R)",
+          "type": "url",
+          "url": "https://tenchat.ru/",
+          "description": "TenChat Messenger (compromated)",
+          "color": "red"
+        }
+      ],
       "name": "Instant Messaging",
       "type": "folder"
       },
@@ -6387,6 +6395,13 @@
           }],
         "name": "Mobile Applications",
         "type": "folder"
+    },
+    {
+      "name": "VeraCrypt (T)",
+      "type": "url",
+      "url": "https://veracrypt.fr/",
+      "description": "VeraCrypt is a free open source disk encryption software for Windows, Mac OSX and Linux. Brought to you by IDRIX (https://www.idrix.fr) and based on TrueCrypt 7.1a. (deprecated)",
+      "color": "green"
     },
     {
       "name": "Paterva / Maltego (T)(R)(C)",
