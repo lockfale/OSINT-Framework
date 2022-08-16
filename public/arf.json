@@ -6568,6 +6568,12 @@
               "type": "folder"
             },
             {
+              "name": "Google Chrome flags",
+              "type": "url",
+              "url": "chrome://flags/",
+              "description": "WARNING: EXPERIMENTAL FEATURES AHEAD! By enabling these features, you could lose browser data or compromise your security or privacy. Enabled features apply to all users of this browser. If you are an enterprise admin you should not be using these flags in production."
+            },
+            {
               "name": "NoScript (T)",
               "type": "url",
               "url": "https://noscript.net/",
