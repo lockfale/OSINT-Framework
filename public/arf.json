@@ -1975,6 +1975,19 @@
               "type": "url",
               "url": "https://wiza.co/",
               "description": "LinkedIn Automation, Scraping and other tools"
+            },
+            {
+              "name": "Nubela Proxycurl (R)(C)(API)",
+              "type": "url",
+              "url": "https://nubela.co/proxycurl/linkedin",
+              "description": "Proxycurl API is a LinkedIn Profile Scraping API",
+              "color": "green",
+              "guides": [
+                {
+                  "name": "The ultimate guide to LinkedIn API: People Profile API (With Python Code Example)",
+                  "url": "https://nubela.co/blog/ultimate-guide-to-linkedin-api_people-profile-api_with-python-examples/"
+                }
+              ]
             }
           ],
           "name": "LinkedIn",
@@ -4315,7 +4328,7 @@
               "name": "Pandoc",
               "type": "url",
               "url": "https://pandoc.org/",
-              "description": "Pandoc   a universal document converter",
+              "description": "Pandoc universal document converter",
               "guides": [
                 {
                   "name": "Convert MS Word Document to Markdown Format",
