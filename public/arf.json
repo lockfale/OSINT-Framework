@@ -6941,7 +6941,18 @@
     }],
     "name": "Training",
     "type": "folder"
-  }],
+  },
+  {
+    "children": [
+      {
+        "name": "ArchiMate Tool (T)",
+        "type": "url",
+        "url": "https://www.archimatetool.com/"
+      }],
+    "name": "Enterprise Architecture",
+    "type": "folder"
+  }
+],
   "name": "OSINT Framework",
   "type": "folder"
 }
