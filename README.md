@@ -1,11 +1,13 @@
-# OSINT Framework
+# OSINT Framework v.2
 
 http://osintframework.com
 
 ## Notes
-OSINT framework focused on gathering information from free tools or resources. The intention is to help people find free OSINT resources. Some of the sites included might require registration or offer more data for $$$, but you should be able to get at least a portion of the available information for no cost.
+OSINT framework v.2 focused on gathering information from free tools or resources. The intention is to help people find free OSINT resources. Some sites included might require registration or offer more data for $$$, but you should be able to get at least a portion of the available information for no cost.
 
 I originally created this framework with an information security point of view. Since then, the response from other fields and disciplines has been incredible. I would love to be able to include any other OSINT resources, especially from fields outside of infosec. Please let me know about anything that might be missing!
+
+Compared to version 1, the framework has been significantly changed structurally and supplemented, in particular, the resource base from Bellingcat (https://ru.bellingcat.com/) has been completely introduced into it, a large number of different utilities and links have been added, all inaccessible and non-working resources have been removed, resource descriptions have been added, the legend has been changed, coloring of branches has been added, search and more.
 
 Please visit the framework at the link below and good hunting!
 
@@ -13,16 +15,30 @@ https://osintframework.com
 
 ### Legend
 (T) - Indicates a link to a tool that must be installed and run locally  
+(A) - Contains archives  
 (D) - Google Dork, for more information: <a href="https://en.wikipedia.org/wiki/Google_hacking">Google Hacking</a>  
+(API) - Contains API  
 (R) - Requires registration  
+(C) - For commercial use / paid service  
+(I) - By Invitation  
 (M) - Indicates a URL that contains the search term and the URL itself must be edited manually  
+(U) - Currently unsupported, unmaintained or deprecated
+
+### Color legend
+Red - potentially dangerous resources, it is recommended to use in a protected environment  
+Yellow - resources may be under government control  
+Green - the most popular resources  
+Blue - Special technical knowledge required
 
 ### For Update Notifications
 Follow me on Twitter: @jnordine - https://twitter.com/jnordine  
 Watch or star the project on Github: https://github.com/lockfale/osint-framework
 
+### Related links and thanks
+Bellingcat Intelligence: https://bellingcat.com
+
 ### Suggestions, Comments, Feedback
-Feedback or new tool suggestions are extremely welcome!  Please feel free to submit a pull request or open an issue on github or reach out on Twitter.
+Feedback or new tool suggestions are extremely welcome!  Please feel free to submit a pull request or open an issue on GitHub or reach out on Twitter.
 
 ### Contribute with a GitHub Pull Request
 For new resources, please ensure that the site is available for public and free use.
@@ -34,9 +50,25 @@ For new resources, please ensure that the site is available for public and free 
 {
   "name": "Example Name",
   "type": "url",
-  "url": "http://example.com"
+  "url": "http://example.com",
+  "description": "Service description",
+  "color": "red",
+  "guides": [
+    {
+      "name": "Guide 1"
+      "url": "https://example-guides.com/guide1.html"
+    },
+    {
+      "name": "Guide 2",
+      "url": "https://example-guides.com/guide2.pdf"
+    }
+  ]
 }
 ```
+'type' field can take 'folder' or 'url' values. 'description' and 'color' fields are not required.
+'guides' field are not required so.
+
+For some resources in languages other than English, language designations are used: (China) / (CH), Russian / (RU), French / (FR), etc.
 
 <ol start="2">
   <li>Submit pull request!</li>
