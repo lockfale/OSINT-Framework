@@ -2034,11 +2034,6 @@
       {
         "children": [
         {
-          "name": "Pastebin Trends",
-          "type": "url",
-          "url": "http://pastebin.com/trends"
-        },
-        {
           "name": "Pastebin Alerts",
           "type": "url",
           "url": "http://andrewmohawk.com/pasteLert/"
