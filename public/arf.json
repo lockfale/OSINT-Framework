@@ -4332,6 +4332,11 @@
         "name": "Hulbee",
         "type": "url",
         "url": "https://hulbee.com/"
+      },
+      {
+        "name": "Mojeek",
+        "type": "url",
+        "url": "https://mojeek.com/"
       }],
       "name": "General Search",
       "type": "folder"
