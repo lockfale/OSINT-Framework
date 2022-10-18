@@ -110,6 +110,11 @@
         "url": "https://hunter.io/"
       },
       {
+        "name": "Snov.io",
+        "type": "url",
+        "url": "https://snov.io/email-finder"
+      },
+      {
         "name": "Email to Address (R)",
         "type": "url",
         "url": "http://www.melissadata.com/lookups/emails.asp"
