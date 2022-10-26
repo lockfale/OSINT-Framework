@@ -1398,7 +1398,7 @@
         "name": "AbuseIPDB",
         "type": "url",
         "url": "https://www.abuseipdb.com/"
-        }],
+      }],
       "name": "Blacklists",
       "type": "folder"
     },
