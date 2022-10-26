@@ -1393,7 +1393,12 @@
         "name": "Project Honey Pot",
         "type": "url",
         "url": "http://www.projecthoneypot.org/list_of_ips.php"
-      }],
+      },
+      {
+        "name": "AbuseIPDB",
+        "type": "url",
+        "url": "https://www.abuseipdb.com/"
+        }],
       "name": "Blacklists",
       "type": "folder"
     },
