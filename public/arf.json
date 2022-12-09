@@ -53,6 +53,11 @@
         "name": "Instant Username Search",
         "type": "url",
         "url": "https://instantusername.com/"
+      },
+      {
+        "name": "NameKetchup",
+        "type": "url",
+        "url": "https://nameketchup.com/"
       }],
       "name": "Username Search Engines",
       "type": "folder"
