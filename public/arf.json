@@ -373,6 +373,11 @@
         "name": "IP2WHOIS",
         "type": "url",
         "url": "https://www.ip2whois.com"
+      },
+      {
+        "name": "Netlas",
+        "type": "url",
+        "url": "https://app.netlas.io"
       }],
       "name": "Whois Records",
       "type": "folder"
@@ -468,6 +473,11 @@
         "name": "AltDNS (T)",
         "type": "url",
         "url": "https://github.com/infosec-au/altdns"
+      },
+      {
+        "name": "Netlas",
+        "type": "url",
+        "url": "https://app.netlas.io/domains/"
       }],
       "name": "Subdomains",
       "type": "folder"
@@ -513,6 +523,11 @@
         "name": "AnalyzeID",
         "type": "url",
         "url": "http://analyzeid.com/"
+      },
+      {
+        "name": "Netlas",
+        "type": "url",
+        "url": "https://app.netlas.io"
       }],
       "name": "Discovery",
       "type": "folder"
@@ -543,6 +558,11 @@
         "name": "certgraph (T)",
         "type": "url",
         "url": "https://github.com/lanrat/certgraph"
+      },
+      {
+        "name": "Netlas",
+        "type": "url",
+        "url": "https://app.netlas.io/certs/"
       }],
       "name": "Certificate Search",
       "type": "folder"
@@ -1268,6 +1288,11 @@
         "name": "Masscan (T)",
         "type": "url",
         "url": "https://github.com/robertdavidgraham/masscan"
+      },
+      {
+        "name": "Netlas",
+        "type": "url",
+        "url": "https://app.netlas.io"
       }],
       "name": "Host / Port Discovery",
       "type": "folder"
@@ -1423,6 +1448,11 @@
         "name": "Same IP",
         "type": "url",
         "url": "http://www.sameip.org/"
+      },
+      {
+        "name": "Netlas",
+        "type": "url",
+        "url": "https://app.netlas.io/domains/"
       }],
       "name": "Neighbor Domains",
       "type": "folder"
