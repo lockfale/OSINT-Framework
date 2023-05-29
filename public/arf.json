@@ -290,11 +290,6 @@
     {
       "children": [
       {
-        "name": "DNStable",
-        "type": "url",
-        "url": "https://dnstable.com/"
-      },
-      {
         "name": "Domain Dossier",
         "type": "url",
         "url": "http://centralops.net/co/DomainDossier.aspx"
@@ -310,11 +305,6 @@
         "url": "http://whois.domaintools.com/"
       },
       {
-        "name": "DNStable",
-        "type": "url",
-        "url": "https://dnstable.com/"
-      },
-      {
         "name": "Domain Big Data",
         "type": "url",
         "url": "http://domainbigdata.com/"
@@ -323,11 +313,6 @@
         "name": "Whoisology",
         "type": "url",
         "url": "https://whoisology.com/#advanced"
-      },
-      {
-        "name": "Domain History",
-        "type": "url",
-        "url": "http://www.domainhistory.net/"
       },
       {
         "name": "Whois ARIN",
