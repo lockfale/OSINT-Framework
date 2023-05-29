@@ -455,11 +455,6 @@
         "url": "https://github.com/infosec-au/assetnote"
       },
       {
-        "name": "Network Intelligence",
-        "type": "url",
-        "url": "http://netintel.net/"
-      },
-      {
         "name": "Sublist3r",
         "type": "url",
         "url": "https://github.com/aboul3la/Sublist3r"
@@ -1086,10 +1081,6 @@
           "type": "url",
           "url": "https://github.com/1N3/Sn1per"
         },
-        {
-          "name": "Mage Scan",
-          "type": "url",
-          "url": "https://magescan.com/"
         }],
         "name": "Scanners",
         "type": "folder"
@@ -1867,11 +1858,6 @@
           "name": "LiveLeak",
           "type": "url",
           "url": "https://www.liveleak.com/"
-        },
-        {
-          "name": "Metacafe",
-          "type": "url",
-          "url": "http://www.metacafe.com/"
         },
         {
           "name": "Metatube",
@@ -4187,11 +4173,6 @@
       "url": "http://openstreetcam.org/"
     },
     {
-      "name": "Travel by Drone",
-      "type": "url",
-      "url": "http://travelbydrone.com/"
-    },
-    {
       "name": "Hivemapper",
       "type": "url",
       "url": "https://hivemapper.com/"
@@ -4838,10 +4819,6 @@
         "type": "url",
         "url": "https://groups.google.com/forum/#!overview"
       },
-      {
-        "name": "Yahoo Groups",
-        "type": "url",
-        "url": "https://groups.yahoo.com/neo/search?"
       }],
       "name": "Forum Search Engines",
       "type": "folder"
@@ -5159,24 +5136,10 @@
     {
       "children": [
       {
-        "name": "Personality Insights",
-        "type": "url",
-        "url": "https://personality-insights-livedemo.mybluemix.net/"
-      },
-      {
-        "name": "Tone Analyzer",
-        "type": "url",
-        "url": "https://tone-analyzer-demo.mybluemix.net/"
-      },
-      {
         "name": "WhatTheFont",
         "type": "url",
         "url": "https://www.myfonts.com/WhatTheFont/"
       },
-      {
-        "name": "Apply Magic Sauce",
-        "type": "url",
-        "url": "https://applymagicsauce.com/demo.html"
       }],
       "name": "Analysis",
       "type": "folder"
@@ -5195,11 +5158,6 @@
       "name": "Metagoofil (T)",
       "type": "url",
       "url": "http://www.edge-security.com/metagoofil.php"
-    },
-    {
-      "name": "FOCA (T)",
-      "type": "url",
-      "url": "https://www.elevenpaths.com/labstools/foca/index.html"
     },
     {
       "name": "CodeTwo Outlook Export (T)",
