@@ -2637,6 +2637,21 @@
         "url": "http://ok.ru/"
       },
       {
+        "name": "ВКонтакте",
+        "type": "url",
+        "url": "https://vk.com/"
+      },
+      {
+        "name": "ЯRUS",
+        "type": "url",
+        "url": "https://www.yarus.ru/"
+      },
+      {
+        "name": "Яндекс.Дзен",
+        "type": "url",
+        "url": "https://zen.yandex.ru/"
+      },
+      {
         "name": "raven (T)",
         "type": "url",
         "url": "https://github.com/0x09AL/raven"
@@ -4992,6 +5007,11 @@
         "name": "Waybackpack (T)",
         "type": "url",
         "url": "https://github.com/jsvine/waybackpack"
+      },
+      {
+        "name": "Web Archive-RU",
+        "type": "url",
+        "url": "https://web-arhive.ru/"
       }],
       "name": "Web",
       "type": "folder"
@@ -6217,6 +6237,11 @@
       "name": "Malware Analysis Tools",
       "type": "url",
       "url": "http://malwareanalysis.tools/"
+    }
+    {
+      "name": "virustotal",
+      "type": "url",
+      "url": "https://www.virustotal.com/gui/home/upload"
     }],
     "name": "Malicious File Analysis",
     "type": "folder"
