@@ -153,6 +153,11 @@
         "name": "MailsHunt",
         "type": "url",
         "url": "https://mailshunt.com/"
+      },
+      {
+        "name": "OSINT Industries (R)",
+        "type": "url",
+        "url": "https://osint.industries/"
       }],
       "name": "Email Search",
       "type": "folder"
