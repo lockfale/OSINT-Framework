@@ -3268,6 +3268,11 @@
       "name": "Numspy-Api",
       "type": "url",
       "url": "https://numspy.pythonanywhere.com/"
+    },
+    {
+      "name": "Celuzador",
+      "type": "url",
+      "url": "https://celuzador.online/"
     }],
     "name": "Telephone Numbers",
     "type": "folder"
