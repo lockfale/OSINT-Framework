@@ -1385,6 +1385,11 @@
         "url": "https://isc.sans.edu/api/"
       },
       {
+        "name": "ELLIO: IP Feed (Community version)",
+        "type": "url",
+        "url": "https://feed.ellio.tech/"
+      },
+      {
         "name": "FireHOL IP Lists ",
         "type": "url",
         "url": "http://iplists.firehol.org/"
