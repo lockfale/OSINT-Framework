@@ -513,6 +513,11 @@
         "name": "AnalyzeID",
         "type": "url",
         "url": "http://analyzeid.com/"
+      },
+      {
+        "name": "urlDNA",
+        "type": "url",
+        "url": "https://urldna.io"
       }],
       "name": "Discovery",
       "type": "folder"
