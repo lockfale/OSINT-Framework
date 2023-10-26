@@ -53,6 +53,11 @@
         "name": "Instant Username Search",
         "type": "url",
         "url": "https://instantusername.com/"
+      },
+      {
+        "name": "Names Directory",
+        "type": "url",
+        "url": "https://namesdir.com/"
       }],
       "name": "Username Search Engines",
       "type": "folder"
