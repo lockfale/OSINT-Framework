@@ -1,51 +1,30 @@
 # OSINT Framework
 
-http://osintframework.com
+## Notlar
+Ücretsiz araçlardan veya kaynaklardan bilgi toplamaya odaklanmış OSINT çerçevesi. Amacım, insanlara ücretsiz OSINT kaynakları bulmalarında yardımcı olmaktır. İçerilen bazı siteler kayıt gerektirebilir veya daha fazla veri için ücret talep edebilir, ancak en azından mevcut bilgilerin bir kısmını ücretsiz alabilirsiniz.
 
-## Notes
-OSINT framework focused on gathering information from free tools or resources. The intention is to help people find free OSINT resources. Some of the sites included might require registration or offer more data for $$$, but you should be able to get at least a portion of the available information for no cost.
+Bu çerçeveyi başlangıçta bilgi güvenliği açısından oluşturdum. O zamandan beri, diğer alanlardan ve disiplinlerden gelen tepkiler inanılmaz olmuştur. Özellikle infosec dışındaki alanlardan gelen herhangi başka OSINT kaynaklarını eklemek isterim. Eksik olan herhangi bir şeyi bana bildirin lütfen!
 
-I originally created this framework with an information security point of view. Since then, the response from other fields and disciplines has been incredible. I would love to be able to include any other OSINT resources, especially from fields outside of infosec. Please let me know about anything that might be missing!
+Lütfen çerçeveyi aşağıdaki bağlantıda ziyaret edin 
 
-Please visit the framework at the link below and good hunting!
+[https://osintframework.com](https://osintframework.com)
 
-https://osintframework.com
+### Anlam Tablosu
+(T) - Yerel olarak yüklenip çalıştırılması gereken bir araca işaret eder  
+(D) - Daha fazla bilgi için Google Dork, [Google Hacking](https://en.wikipedia.org/wiki/Google_hacking) sayfasına bakınız  
+(R) - Kayıt gerektirir  
+(M) - Arama terimini içeren bir URL'yi ve URL'nin elle düzenlenmesi gerektiğini gösterir  
 
-### Legend
-(T) - Indicates a link to a tool that must be installed and run locally  
-(D) - Google Dork, for more information: <a href="https://en.wikipedia.org/wiki/Google_hacking">Google Hacking</a>  
-(R) - Requires registration  
-(M) - Indicates a URL that contains the search term and the URL itself must be edited manually  
+### Öneriler, Yorumlar, Geri Bildirim
+Geri bildirim veya yeni araç önerileri son derece hoş geldiniz! Lütfen bir pull request göndermek veya github üzerinde bir sorun açmak veya Twitter üzerinden iletişim kurmak konusunda özgür hissedin.
 
-### For Update Notifications
-Follow me on Twitter: @jnordine - https://twitter.com/jnordine  
-Watch or star the project on Github: https://github.com/lockfale/osint-framework
+### GitHub Pull Request ile Katkıda Bulunun
+Yeni kaynaklar için, lütfen sitenin kamuya açık ve ücretsiz kullanılabilir olduğundan emin olun.
+1. Arf.json dosyasını aşağıda gösterildiği biçimde güncelleyin. Eğer bu bir klasör için ilk giriş değilse, önceki girişin son kapanış parantezine bir virgül ekleyin.
 
-### Suggestions, Comments, Feedback
-Feedback or new tool suggestions are extremely welcome!  Please feel free to submit a pull request or open an issue on github or reach out on Twitter.
-
-### Contribute with a GitHub Pull Request
-For new resources, please ensure that the site is available for public and free use.
-<ol start="1">
-  <li>Update the arf.json file in the format shown below. If this isn't the first entry for a folder, add a comma to the last closing brace of the previous entry.</li>
-</ol>
-
-```
-{
-  "name": "Example Name",
-  "type": "url",
-  "url": "http://example.com"
-}
-```
-
-<ol start="2">
-  <li>Submit pull request!</li>
-</ol>
-
-Thank you!
-
-## OSINT Framework Website
-
-https://osintframework.com
-
-Happy Hunting!
+   ```json
+   {
+     "name": "Örnek Adı",
+     "type": "url",
+     "url": "http://example.com"
+   }
