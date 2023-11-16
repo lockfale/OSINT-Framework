@@ -1,11 +1,11 @@
 {
-  "name": "ARF",
+  "name": "ccc",
   "main": "index.html",
-  "homepage": "https://github.com/lockfale/ARF",
+  "homepage": "https://github.com/Hedef-edx/ccc",
   "authors": [
     "Justin Nordine (s0lray)"
   ],
-  "description": "Advanced Reconnaissance Framework",
+  "description": "Kağıt Toplayıcı",
   "license": "",
   "dependencies": {
     "d3": "3.5.16"
