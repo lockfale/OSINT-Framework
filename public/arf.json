@@ -4299,6 +4299,11 @@
         "url": "https://www.google.com/advanced_search"
       },
       {
+        "name": "Shuriken",
+        "type": "url",
+        "url": "http://shuriken.pm"
+      },
+      {
         "name": "iBoogie",
         "type": "url",
         "url": "http://www.iboogie.com/"
