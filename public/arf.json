@@ -3115,6 +3115,16 @@
       "url": "http://www.blackpeoplemeet.com/"
     },
     {
+      "name": "Bumble",
+      "type": "url",
+      "url": "https://bumble.com/"
+    },
+    {
+      "name": "Hinge",
+      "type": "url",
+      "url": "https://hinge.co/en-gb"
+    },
+    {
       "children": [
       {
         "name": "TrueDater",
