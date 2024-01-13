@@ -1529,6 +1529,11 @@
           "url": "http://tineye.com/"
         },
         {
+          "name": "PimEyes Face Search Engine",
+          "type": "url",
+          "url": "https://pimeyes.com/en"
+        },
+        {
           "name": "Yandex Images",
           "type": "url",
           "url": "https://www.yandex.com/images/"
