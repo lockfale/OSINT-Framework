@@ -2542,11 +2542,6 @@
         "url": "http://subreddits.org/"
       },
       {
-        "name": "Reddit Investigator",
-        "type": "url",
-        "url": "http://www.redditinvestigator.com/"
-      },
-      {
         "name": "Reddit Comment History",
         "type": "url",
         "url": "https://roadtolarissa.com/javascript/reddit-comment-visualizer/"
@@ -2683,11 +2678,6 @@
       }],
       "name": "Search",
       "type": "folder"
-    },
-    {
-      "name": "Social Media Monitoring Wiki",
-      "type": "url",
-      "url": "http://wiki.kenburbary.com/social-meda-monitoring-wiki"
     }],
     "name": "Social Networks",
     "type": "folder"
@@ -3407,11 +3397,6 @@
         "name": "Moose Roots Birth Records",
         "type": "url",
         "url": "http://birth-records.mooseroots.com/"
-      },
-      {
-        "name": "Birth Database",
-        "type": "url",
-        "url": "http://www.birthdatabase.com/"
       }],
       "name": "Birth Records",
       "type": "folder"
@@ -5174,7 +5159,7 @@
     {
       "name": "FOCA (T)",
       "type": "url",
-      "url": "https://www.elevenpaths.com/labstools/foca/index.html"
+      "url": "https://github.com/ElevenPaths/FOCA"
     },
     {
       "name": "CodeTwo Outlook Export (T)",
@@ -6259,10 +6244,15 @@
       "url": "https://nvd.nist.gov/"
     },
     {
-      "name": "OSVDB: Open Sourced Vulnerability Database",
+      "name": "OSV Vulnerability Library",
       "type": "url",
-      "url": "http://osvdb.org/"
+      "url": "https://osv.dev/list"
     },
+    {
+      "name": "Mend Vulnerability Database",
+      "type": "url",
+      "url": "https://www.mend.io/vulnerability-database/"
+    },    
     {
       "name": "CVE Details",
       "type": "url",
@@ -6680,11 +6670,6 @@
         "name": "Just Delete Me",
         "type": "url",
         "url": "http://backgroundchecks.org/justdeleteme/"
-      },
-      {
-        "name": "Accountkiller.com",
-        "type": "url",
-        "url": "https://www.accountkiller.com/en"
       },
       {
         "name": "The Internet Privacy Handbook",
