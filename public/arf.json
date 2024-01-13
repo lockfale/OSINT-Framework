@@ -417,7 +417,7 @@
       {
         "name": "theHarvester (T)",
         "type": "url",
-        "url": "http://www.edge-security.com/theharvester.php"
+        "url": "https://github.com/laramies/theHarvester"
       },
       {
         "name": "Pentest-tools.com Subdomains",
@@ -6416,7 +6416,7 @@
     {
       "name": "REScure Cyber Threat Intelligence Project",
       "type": "url",
-      "url": "https://rescure.fruxlabs.com"
+      "url": "https://rescure.me/feeds.html"
     }],
     "name": "Threat Intelligence",
     "type": "folder"
