@@ -360,6 +360,11 @@
         "url": "http://viewdns.info/"
       },
       {
+        "name": "Daily DNS Changes",
+        "type": "url",
+        "url": "http://www.dailychanges.com/"
+      },
+      {
         "name": "IP2WHOIS",
         "type": "url",
         "url": "https://www.ip2whois.com"
