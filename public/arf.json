@@ -1085,11 +1085,6 @@
           "name": "Sn1per (T)",
           "type": "url",
           "url": "https://github.com/1N3/Sn1per"
-        },
-        {
-          "name": "Mage Scan",
-          "type": "url",
-          "url": "https://magescan.com/"
         }],
         "name": "Scanners",
         "type": "folder"
@@ -1418,11 +1413,6 @@
         "name": "MyIPNeighbors",
         "type": "url",
         "url": "http://www.my-ip-neighbors.com/"
-      },
-      {
-        "name": "Same IP",
-        "type": "url",
-        "url": "http://www.sameip.org/"
       }],
       "name": "Neighbor Domains",
       "type": "folder"
@@ -2169,16 +2159,6 @@
           "url": "http://stalkscan.com/en/"
         }],
         "name": "Analytics",
-        "type": "folder"
-      },
-      {
-        "children": [
-        {
-          "name": "ExtractFace (T)",
-          "type": "url",
-          "url": "http://le-tools.com/ExtractFace.html#download"
-        }],
-        "name": "Archive / Document",
         "type": "folder"
       }],
       "name": "Facebook",
@@ -4185,11 +4165,6 @@
       "name": "OpenStreetCam",
       "type": "url",
       "url": "http://openstreetcam.org/"
-    },
-    {
-      "name": "Dronetheworld",
-      "type": "url",
-      "url": "http://www.dronetheworld.com/"
     },
     {
       "name": "Travel by Drone",
@@ -6855,11 +6830,6 @@
         "name": "Teehan+Lax Labs - Hyperlapse",
         "type": "url",
         "url": "http://labs.teehanlax.com/project/hyperlapse"
-      },
-      {
-        "name": "Google Maps Streetview Player",
-        "type": "url",
-        "url": "http://brianfolts.com/driver/"
       },
       {
         "name": "ZeeMaps",
