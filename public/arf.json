@@ -4807,7 +4807,6 @@
         "name": "Google Groups Search",
         "type": "url",
         "url": "https://groups.google.com/forum/#!overview"
-      },
       }],
       "name": "Forum Search Engines",
       "type": "folder"
