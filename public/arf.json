@@ -420,6 +420,11 @@
         "url": "https://github.com/darryllane/Bluto"
       },
       {
+        "name": "OWASP Maryam (T)",
+        "type": "url",
+        "url": "https://github.com/saeeddhqan/Maryam"
+      },
+      {
         "name": "theHarvester (T)",
         "type": "url",
         "url": "https://github.com/laramies/theHarvester"
