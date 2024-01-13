@@ -4102,11 +4102,6 @@
       "url": "https://yandex.com/maps/"
     },
     {
-      "name": "TerraServer",
-      "type": "url",
-      "url": "https://www.terraserver.com/view"
-    },
-    {
       "name": "Google Earth",
       "type": "url",
       "url": "https://www.google.com/earth/"
@@ -4181,6 +4176,11 @@
       "type": "url",
       "url": "http://www.openrailwaymap.org/"
     },
+    {
+      "name": "OpenInfrastructureMap",
+      "type": "url",
+      "url": "openinframap.org/"
+    }
     {
       "name": "OpenStreetMap Routing Service",
       "type": "url",
