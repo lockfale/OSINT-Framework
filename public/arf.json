@@ -1254,6 +1254,11 @@
         "type": "url",
         "url": "https://nmap.org/download.html"
       },
+	    {
+        "name": "Online Port scanner",
+        "type": "url",
+        "url": "https://portscanner.online/"
+      },
       {
         "name": "Internet Census Search",
         "type": "url",
