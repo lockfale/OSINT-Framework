@@ -455,11 +455,6 @@
         "url": "https://github.com/infosec-au/assetnote"
       },
       {
-        "name": "Network Intelligence",
-        "type": "url",
-        "url": "http://netintel.net/"
-      },
-      {
         "name": "Sublist3r",
         "type": "url",
         "url": "https://github.com/aboul3la/Sublist3r"
@@ -1857,11 +1852,6 @@
           "name": "LiveLeak",
           "type": "url",
           "url": "https://www.liveleak.com/"
-        },
-        {
-          "name": "Metacafe",
-          "type": "url",
-          "url": "http://www.metacafe.com/"
         },
         {
           "name": "Metatube",
@@ -4808,10 +4798,6 @@
         "type": "url",
         "url": "https://groups.google.com/forum/#!overview"
       },
-      {
-        "name": "Yahoo Groups",
-        "type": "url",
-        "url": "https://groups.yahoo.com/neo/search?"
       }],
       "name": "Forum Search Engines",
       "type": "folder"
@@ -5129,24 +5115,10 @@
     {
       "children": [
       {
-        "name": "Personality Insights",
-        "type": "url",
-        "url": "https://personality-insights-livedemo.mybluemix.net/"
-      },
-      {
-        "name": "Tone Analyzer",
-        "type": "url",
-        "url": "https://tone-analyzer-demo.mybluemix.net/"
-      },
-      {
         "name": "WhatTheFont",
         "type": "url",
         "url": "https://www.myfonts.com/WhatTheFont/"
       },
-      {
-        "name": "Apply Magic Sauce",
-        "type": "url",
-        "url": "https://applymagicsauce.com/demo.html"
       }],
       "name": "Analysis",
       "type": "folder"
