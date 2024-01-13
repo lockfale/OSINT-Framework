@@ -480,11 +480,6 @@
         "url": "https://www.shodan.io/"
       },
       {
-        "name": "Online Port scanner",
-        "type": "url",
-        "url": "https://portscanner.online/"
-      },
-      {
         "name": "Kraken",
         "type": "url",
         "url": "https://github.com/Sw4mpf0x/Kraken"
@@ -1149,11 +1144,6 @@
         "type": "url",
         "url": "https://github.com/ChrisTruncer/EyeWitness"
       },
-	    {
-        "name": "Online Port scanner",
-        "type": "url",
-        "url": "https://portscanner.online/"
-      },
       {
         "name": "Belati (T)",
         "type": "url",
@@ -1174,11 +1164,6 @@
     "children": [
     {
       "children": [
-	    {
-        "name": "Online Port scanner",
-        "type": "url",
-        "url": "https://portscanner.online/"
-      },
       {
         "name": "MaxMind Demo",
         "type": "url",
