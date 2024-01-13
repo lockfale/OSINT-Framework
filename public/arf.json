@@ -65,11 +65,6 @@
         "url": "https://www.google.com/search?q=site:amazon.com+%3Cusername%3E"
       },
       {
-        "name": "Amazon Wishlists",
-        "type": "url",
-        "url": "https://www.amazon.com/gp/registry/search.html/?ie=UTF8&type=wishlist"
-      },
-      {
         "name": "Github User (M)",
         "type": "url",
         "url": "https://api.github.com/users/%3Cusername%3E/events/public"
@@ -132,7 +127,7 @@
       {
         "name": "theHarvester (T)",
         "type": "url",
-        "url": "http://www.edge-security.com/theharvester.php"
+        "url": "https://github.com/laramies/theHarvester"
       },
       {
         "name": "Infoga (T)",
@@ -290,11 +285,6 @@
     {
       "children": [
       {
-        "name": "DNStable",
-        "type": "url",
-        "url": "https://dnstable.com/"
-      },
-      {
         "name": "Domain Dossier",
         "type": "url",
         "url": "http://centralops.net/co/DomainDossier.aspx"
@@ -310,29 +300,14 @@
         "url": "http://whois.domaintools.com/"
       },
       {
-        "name": "DNStable",
-        "type": "url",
-        "url": "https://dnstable.com/"
-      },
-      {
         "name": "Domain Big Data",
         "type": "url",
         "url": "http://domainbigdata.com/"
       },
       {
-        "name": "DNS Dumpster",
-        "type": "url",
-        "url": "https://dnsdumpster.com/"
-      },
-      {
         "name": "Whoisology",
         "type": "url",
         "url": "https://whoisology.com/#advanced"
-      },
-      {
-        "name": "Domain History",
-        "type": "url",
-        "url": "http://www.domainhistory.net/"
       },
       {
         "name": "Whois ARIN",
@@ -342,10 +317,10 @@
       {
         "name": "DNSstuff",
         "type": "url",
-        "url": "http://www.dnsstuff.com/tools"
+        "url": "https://tools.dnsstuff.com/"
       },
       {
-        "name": "Robtex",
+        "name": "Robtex (R)",
         "type": "url",
         "url": "https://www.robtex.com/"
       },
@@ -357,7 +332,7 @@
       {
         "name": "MarkMonitor Whois Search",
         "type": "url",
-        "url": "https://www.markmonitor.com/cgi-bin/affsearch.cgi?"
+        "url": "https://domains.markmonitor.com/whois/"
       },
       {
         "name": "easyWhois",
@@ -375,9 +350,9 @@
         "url": "https://who.is/"
       },
       {
-        "name": "Whoismind",
+        "name": "Whois AMPed",
         "type": "url",
-        "url": "http://www.whoismind.com/"
+        "url": "https://whoisamped.com/"
       },
       {
         "name": "ViewDNS.info",
@@ -417,7 +392,7 @@
       {
         "name": "Recon-ng (T)",
         "type": "url",
-        "url": "https://bitbucket.org/LaNMaSteR53/recon-ng"
+        "url": "https://github.com/lanmaster53/recon-ng"
       },
       {
         "name": "XRay",
@@ -447,7 +422,7 @@
       {
         "name": "theHarvester (T)",
         "type": "url",
-        "url": "http://www.edge-security.com/theharvester.php"
+        "url": "https://github.com/laramies/theHarvester"
       },
       {
         "name": "Pentest-tools.com Subdomains",
@@ -510,6 +485,11 @@
         "url": "https://urlscan.io/search/#*"
       },
       {
+        "name": "Daily DNS Changes",
+        "type": "url",
+        "url": "http://www.dailychanges.com/"
+      },
+      {
         "name": "SameID",
         "type": "url",
         "url": "http://sameid.net/"
@@ -540,9 +520,9 @@
         "url": "https://www.certificate-transparency.org/known-logs"
       },
       {
-        "name": "CertDB",
+        "name": "Spyse",
         "type": "url",
-        "url": "https://certdb.com/"
+        "url": "https://spyse.com/search/certificate"
       },
       {
         "name": "Censys",
@@ -558,11 +538,6 @@
         "name": "certgraph (T)",
         "type": "url",
         "url": "https://github.com/lanrat/certgraph"
-      },
-      {
-        "name": "CertDB",
-        "type": "url",
-        "url": "https://certdb.com/"
       }],
       "name": "Certificate Search",
       "type": "folder"
@@ -604,6 +579,11 @@
     },
     {
       "children": [
+      {
+        "name": "AbuseIPDB (Webpage and API)",
+        "type": "url",
+        "url": "https://www.abuseipdb.com/"
+      },
       {
         "name": "UrlQuery.net",
         "type": "url",
@@ -1105,11 +1085,6 @@
           "name": "Sn1per (T)",
           "type": "url",
           "url": "https://github.com/1N3/Sn1per"
-        },
-        {
-          "name": "Mage Scan",
-          "type": "url",
-          "url": "https://magescan.com/"
         }],
         "name": "Scanners",
         "type": "folder"
@@ -1210,11 +1185,6 @@
         "url": "https://db-ip.com/"
       },
       {
-        "name": "ipintel.io",
-        "type": "url",
-        "url": "https://ipintel.io/"
-      },
-      {
         "name": "IP Location Finder",
         "type": "url",
         "url": "https://www.iplocation.net/"
@@ -1252,18 +1222,13 @@
       {
         "name": "Spyse",
         "type": "url",
-        "url": "https://spyse.com/"
+        "url": "https://spyse.com/search/ip"
       },
       {
         "name": "Shodan",
         "type": "url",
         "url": "https://www.shodan.io/"
       },
-      {
-        "name": "Portmap",
-        "type": "url",
-        "url": "https://portmap.com/"
-      },  
       {
         "name": "Scans.io",
         "type": "url",
@@ -1293,6 +1258,11 @@
         "name": "Scanless",
         "type": "url",
         "url": "https://github.com/vesche/scanless"
+      },
+      {
+        "name": "Masscan (T)",
+        "type": "url",
+        "url": "https://github.com/robertdavidgraham/masscan"
       }],
       "name": "Host / Port Discovery",
       "type": "folder"
@@ -1443,11 +1413,6 @@
         "name": "MyIPNeighbors",
         "type": "url",
         "url": "http://www.my-ip-neighbors.com/"
-      },
-      {
-        "name": "Same IP",
-        "type": "url",
-        "url": "http://www.sameip.org/"
       }],
       "name": "Neighbor Domains",
       "type": "folder"
@@ -1779,19 +1744,9 @@
           "url": "http://fotoforensics.com/"
         },
         {
-          "name": "Izitru",
-          "type": "url",
-          "url": "http://www.izitru.com/"
-        },
-        {
           "name": "Ghiro (T)",
           "type": "url",
           "url": "https://github.com/ghirensics/ghiro"
-        },
-        {
-          "name": "Stolen Camera Finder",
-          "type": "url",
-          "url": "http://www.stolencamerafinder.co.uk/"
         },
         {
           "name": "Camera Trace",
@@ -2195,16 +2150,6 @@
         }],
         "name": "Analytics",
         "type": "folder"
-      },
-      {
-        "children": [
-        {
-          "name": "ExtractFace (T)",
-          "type": "url",
-          "url": "http://le-tools.com/ExtractFace.html#download"
-        }],
-        "name": "Archive / Document",
-        "type": "folder"
       }],
       "name": "Facebook",
       "type": "folder"
@@ -2587,11 +2532,6 @@
         "url": "http://subreddits.org/"
       },
       {
-        "name": "Reddit Investigator",
-        "type": "url",
-        "url": "http://www.redditinvestigator.com/"
-      },
-      {
         "name": "Reddit Comment History",
         "type": "url",
         "url": "https://roadtolarissa.com/javascript/reddit-comment-visualizer/"
@@ -2728,11 +2668,6 @@
       }],
       "name": "Search",
       "type": "folder"
-    },
-    {
-      "name": "Social Media Monitoring Wiki",
-      "type": "url",
-      "url": "http://wiki.kenburbary.com/social-meda-monitoring-wiki"
     }],
     "name": "Social Networks",
     "type": "folder"
@@ -2862,11 +2797,6 @@
         "url": "http://www.peekyou.com/"
       },
       {
-        "name": "PeepDB",
-        "type": "url",
-        "url": "http://www.peepdb.com/"
-      },
-      {
         "name": "Reverse Genie People",
         "type": "url",
         "url": "http://www.reversegenie.com/people.php"
@@ -2960,11 +2890,6 @@
         "name": "Genealogy.com",
         "type": "url",
         "url": "http://www.genealogy.com/"
-      },
-      {
-        "name": "The New Ultimates",
-        "type": "url",
-        "url": "http://www.newultimates.com/"
       },
       {
         "name": "My Life",
@@ -3138,6 +3063,16 @@
       "name": "BlackPeopleMeet",
       "type": "url",
       "url": "http://www.blackpeoplemeet.com/"
+    },
+    {
+      "name": "Bumble",
+      "type": "url",
+      "url": "https://bumble.com/"
+    },
+    {
+      "name": "Hinge",
+      "type": "url",
+      "url": "https://hinge.co/en-gb"
     },
     {
       "children": [
@@ -3457,11 +3392,6 @@
         "name": "Moose Roots Birth Records",
         "type": "url",
         "url": "http://birth-records.mooseroots.com/"
-      },
-      {
-        "name": "Birth Database",
-        "type": "url",
-        "url": "http://www.birthdatabase.com/"
       }],
       "name": "Birth Records",
       "type": "folder"
@@ -4215,11 +4145,6 @@
       "name": "OpenStreetCam",
       "type": "url",
       "url": "http://openstreetcam.org/"
-    },
-    {
-      "name": "Dronetheworld",
-      "type": "url",
-      "url": "http://www.dronetheworld.com/"
     },
     {
       "name": "Travel by Drone",
@@ -5229,7 +5154,7 @@
     {
       "name": "FOCA (T)",
       "type": "url",
-      "url": "https://www.elevenpaths.com/labstools/foca/index.html"
+      "url": "https://github.com/ElevenPaths/FOCA"
     },
     {
       "name": "CodeTwo Outlook Export (T)",
@@ -5702,11 +5627,6 @@
       "url": "http://www.totalcraigsearch.com/"
     },
     {
-      "name": "Backpage",
-      "type": "url",
-      "url": "http://www.backpage.com/"
-    },
-    {
       "name": "Search Tempest",
       "type": "url",
       "url": "http://www.searchtempest.com/"
@@ -5876,6 +5796,11 @@
         "url": "http://www.spiderfoot.net/"
       },
       {
+        "name": "ThreatPipes (T)",
+        "type": "url",
+        "url": "https://www.threatpipes.com"
+      },
+      {
         "name": "Omnibus (T)",
         "type": "url",
         "url": "https://github.com/InQuest/omnibus"
@@ -6002,11 +5927,21 @@
       }],
       "name": "Virtual Machines",
       "type": "folder"
+     },
+     {
+      "children": [
+      {
+        "name": "OWASP D4N155 (T)",
+        "type": "url",
+        "url": "https://github.com/OWASP/D4N155"
+      }],
+      "name": "Wordlist",
+      "type": "folder"
     },
     {
       "name": "Paterva / Maltego (T)",
       "type": "url",
-      "url": "http://www.paterva.com/web6/products/maltego.php"
+      "url": "https://www.maltego.com/"
     },
     {
       "name": "Epic Privacy Browser (T)",
@@ -6309,10 +6244,15 @@
       "url": "https://nvd.nist.gov/"
     },
     {
-      "name": "OSVDB: Open Sourced Vulnerability Database",
+      "name": "OSV Vulnerability Library",
       "type": "url",
-      "url": "http://osvdb.org/"
+      "url": "https://osv.dev/list"
     },
+    {
+      "name": "Mend Vulnerability Database",
+      "type": "url",
+      "url": "https://www.mend.io/vulnerability-database/"
+    },    
     {
       "name": "CVE Details",
       "type": "url",
@@ -6492,6 +6432,11 @@
       "name": "Mr.Looquer IOC Feed - 1st Dual Stack Threat Feed",
       "type": "url",
       "url": "https://iocfeed.mrlooquer.com"
+    },
+    {
+      "name": "REScure Cyber Threat Intelligence Project",
+      "type": "url",
+      "url": "https://rescure.me/feeds.html"
     }],
     "name": "Threat Intelligence",
     "type": "folder"
@@ -6732,11 +6677,6 @@
         "url": "http://backgroundchecks.org/justdeleteme/"
       },
       {
-        "name": "Accountkiller.com",
-        "type": "url",
-        "url": "https://www.accountkiller.com/en"
-      },
-      {
         "name": "The Internet Privacy Handbook",
         "type": "url",
         "url": "https://www.safeshepherd.com/handbook"
@@ -6880,11 +6820,6 @@
         "name": "Teehan+Lax Labs - Hyperlapse",
         "type": "url",
         "url": "http://labs.teehanlax.com/project/hyperlapse"
-      },
-      {
-        "name": "Google Maps Streetview Player",
-        "type": "url",
-        "url": "http://brianfolts.com/driver/"
       },
       {
         "name": "ZeeMaps",
