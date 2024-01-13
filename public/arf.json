@@ -4401,7 +4401,7 @@
       {
         "name": "GitLeaks",
         "type": "url",
-        "url": "https://gitleaks.com/"
+        "url": "https://github.com/zricethezav/gitleaks"
       }],
       "name": "Code Search",
       "type": "folder"
