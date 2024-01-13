@@ -503,6 +503,11 @@
         "name": "AnalyzeID",
         "type": "url",
         "url": "http://analyzeid.com/"
+      },
+      {
+        "name": "Criminal IP Search",
+        "type": "url",
+        "url": "https://www.criminalip.io/"
       }],
       "name": "Discovery",
       "type": "folder"
