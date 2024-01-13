@@ -65,11 +65,6 @@
         "url": "https://www.google.com/search?q=site:amazon.com+%3Cusername%3E"
       },
       {
-        "name": "Amazon Wishlists",
-        "type": "url",
-        "url": "https://www.amazon.com/gp/registry/search.html/?ie=UTF8&type=wishlist"
-      },
-      {
         "name": "Github User (M)",
         "type": "url",
         "url": "https://api.github.com/users/%3Cusername%3E/events/public"
@@ -132,7 +127,7 @@
       {
         "name": "theHarvester (T)",
         "type": "url",
-        "url": "http://www.edge-security.com/theharvester.php"
+        "url": "https://github.com/laramies/theHarvester"
       },
       {
         "name": "Infoga (T)",
@@ -363,11 +358,6 @@
         "name": "ViewDNS.info",
         "type": "url",
         "url": "http://viewdns.info/"
-      },
-      {
-        "name": "Domainsdb.info",
-        "type": "url",
-        "url": "https://domainsdb.info"
       },
       {
         "name": "IP2WHOIS",
@@ -1744,19 +1734,9 @@
           "url": "http://fotoforensics.com/"
         },
         {
-          "name": "Izitru",
-          "type": "url",
-          "url": "http://www.izitru.com/"
-        },
-        {
           "name": "Ghiro (T)",
           "type": "url",
           "url": "https://github.com/ghirensics/ghiro"
-        },
-        {
-          "name": "Stolen Camera Finder",
-          "type": "url",
-          "url": "http://www.stolencamerafinder.co.uk/"
         },
         {
           "name": "Camera Trace",
@@ -2805,11 +2785,6 @@
         "name": "PeekYou",
         "type": "url",
         "url": "http://www.peekyou.com/"
-      },
-      {
-        "name": "PeepDB",
-        "type": "url",
-        "url": "http://www.peepdb.com/"
       },
       {
         "name": "Reverse Genie People",
@@ -5630,11 +5605,6 @@
       "name": "TotalCraigSearch",
       "type": "url",
       "url": "http://www.totalcraigsearch.com/"
-    },
-    {
-      "name": "Backpage",
-      "type": "url",
-      "url": "http://www.backpage.com/"
     },
     {
       "name": "Search Tempest",
