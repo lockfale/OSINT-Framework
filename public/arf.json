@@ -2460,11 +2460,6 @@
       {
         "children": [
         {
-          "name": "GeoChirp",
-          "type": "url",
-          "url": "http://www.geochirp.com/"
-        },
-        {
           "name": "GeoSocial Footprint",
           "type": "url",
           "url": "http://geosocialfootprint.com/"
