@@ -1784,10 +1784,11 @@
           "url": "http://www.geosetter.de/en/"
         },
         {
-          "name": "gbimg.org",
-          "type": "url",
-          "url": "http://gbimg.org/"
-        }],
+          "name":"xeuledoc - Fetch metadata about any public Google document",
+          "type":"url",
+          "url":"https://github.com/Malfrats/xeuledoc"
+        }
+        ],
         "name": "Metadata",
         "type": "folder"
       },
