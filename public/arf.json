@@ -2208,6 +2208,16 @@
     {
       "children": [
       {
+        "name": "Osintgram (T)",
+        "type": "url",
+        "url": "https://github.com/Datalux/Osintgram"
+      }],
+      "name": "Instagram",
+      "type": "folder"
+    },
+    {
+      "children": [
+      {
         "children": [
         {
           "name": "Twitter Advanced Search",
