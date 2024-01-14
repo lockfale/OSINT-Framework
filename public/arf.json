@@ -110,11 +110,6 @@
         "url": "http://www.melissadata.com/lookups/emails.asp"
       },
       {
-        "name": "Pipl",
-        "type": "url",
-        "url": "https://pipl.com/"
-      },
-      {
         "name": "VoilaNorbert",
         "type": "url",
         "url": "https://www.voilanorbert.com/"
@@ -123,6 +118,16 @@
         "name": "Reverse Genie Email",
         "type": "url",
         "url": "http://www.reversegenie.com/email.php"
+      },
+      {
+        "name": "GHunt (T)",
+        "type": "url",
+        "url": "https://github.com/mxrch/GHunt"
+      },
+      {
+        "name": "OSINT Industries",
+        "type": "url",
+        "url": "https://osint.industries/"
       },
       {
         "name": "theHarvester (T)",
@@ -235,14 +240,9 @@
         "url": "https://haveibeenpwned.com/"
       },
       {
-        "name": "DeHashed",
+        "name": "DeHashed (R)",
         "type": "url",
         "url": "https://dehashed.com/"
-      },
-      {
-        "name": "Intelligence X",
-        "type": "url",
-        "url": "https://intelx.io/"
       },
       {
         "name": "Vigilante.pw",
@@ -250,26 +250,11 @@
         "url": "https://www.vigilante.pw/"
       },
       {
-        "name": "Breach or Clear",
-        "type": "url",
-        "url": "http://breachorclear.jesterscourt.cc/"
-      },
-      {
         "name": "Ashley Madison Emails",
         "type": "url",
         "url": "https://ashley.cynic.al/"
       }],
       "name": "Breach Data",
-      "type": "folder"
-    },
-    {
-      "children": [
-      {
-        "name": "DNS Blackhole Lists",
-        "type": "url",
-        "url": "http://www.tcpiputils.com/dns-blackhole-list"
-      }],
-      "name": "Spam Reputation Lists",
       "type": "folder"
     },
     {
@@ -1290,7 +1275,7 @@
         "url": "https://urlscan.io/search/#*"
       },
       {
-        "name": "Scanless",
+        "name": "Scanless (T)",
         "type": "url",
         "url": "https://github.com/vesche/scanless"
       },
@@ -2748,11 +2733,6 @@
         "url": "http://mostwantedhf.info/index.php"
       },
       {
-        "name": "Skypegrab",
-        "type": "url",
-        "url": "http://skypegrab.net/oldip.php"
-      },
-      {
         "name": "Skype Resolver 2019",
         "type": "url",
         "url": "http://www.skypeipresolver.net/"
@@ -2803,16 +2783,6 @@
         "url": "http://www.familytreenow.com/"
       },
       {
-        "name": "Pipl",
-        "type": "url",
-        "url": "https://pipl.com/"
-      },
-      {
-        "name": "Spokeo People Search",
-        "type": "url",
-        "url": "http://www.spokeo.com/"
-      },
-      {
         "name": "ThatsThem",
         "type": "url",
         "url": "https://thatsthem.com/name-address-search"
@@ -2831,11 +2801,6 @@
         "name": "USSearch.com",
         "type": "url",
         "url": "http://www.ussearch.com/"
-      },
-      {
-        "name": "Snoop Station",
-        "type": "url",
-        "url": "http://snoopstation.com/index.html"
       },
       {
         "name": "Melissa Data - People Finder (R)",
@@ -2871,11 +2836,6 @@
         "name": "Radaris",
         "type": "url",
         "url": "http://radaris.com/"
-      },
-      {
-        "name": "Profile Engine",
-        "type": "url",
-        "url": "http://profileengine.com/"
       },
       {
         "name": "Intelius",
@@ -2933,19 +2893,9 @@
         "url": "http://search.ancestry.com/"
       },
       {
-        "name": "SearchBug",
-        "type": "url",
-        "url": "http://www.searchbug.com/#pageTop"
-      },
-      {
         "name": "Nuwber",
         "type": "url",
         "url": "https://nuwber.com/"
-      },
-      {
-        "name": "eVerify",
-        "type": "url",
-        "url": "http://www.everify.com/"
       },
       {
         "name": "Genealogy.com",
@@ -2956,11 +2906,6 @@
         "name": "My Life",
         "type": "url",
         "url": "https://www.mylife.com/"
-      },
-      {
-        "name": "Ark",
-        "type": "url",
-        "url": "http://ark.com/landing"
       },
       {
         "name": "AnyWho",
@@ -2991,11 +2936,6 @@
         "name": "Fast People Search",
         "type": "url",
         "url": "https://www.fastpeoplesearch.com/"
-      },
-      {
-        "name": "Speedy Hunt",
-        "type": "url",
-        "url": "https://speedyhunt.com/"
       }],
       "name": "General People Search",
       "type": "folder"
@@ -3174,11 +3114,6 @@
       }],
       "name": "International",
       "type": "folder"
-    },
-    {
-      "name": "Pipl API (M)",
-      "type": "url",
-      "url": "https://api.pipl.com/search/v5/?phone=18887420000&key=sample_key&pretty=true"
     },
     {
       "name": "WhoCalld",
@@ -3483,11 +3418,6 @@
         "name": "Sorted by Birth Date",
         "type": "url",
         "url": "http://sortedbybirthdate.com/"
-      },
-      {
-        "name": "Moose Roots Birth Records",
-        "type": "url",
-        "url": "http://birth-records.mooseroots.com/"
       }],
       "name": "Birth Records",
       "type": "folder"
@@ -3508,11 +3438,6 @@
         "name": "GraveInfo",
         "type": "url",
         "url": "http://www.graveinfo.com/"
-      },
-      {
-        "name": "Moose Roots Death Records",
-        "type": "url",
-        "url": "http://death-records.mooseroots.com/"
       }],
       "name": "Death Records",
       "type": "folder"
@@ -3603,11 +3528,6 @@
       "url": "http://publicrecords.searchsystems.net/"
     },
     {
-      "name": "Enigma",
-      "type": "url",
-      "url": "http://enigma.io/publicdata/"
-    },
-    {
       "name": "The World Bank Open Data Catalog",
       "type": "url",
       "url": "http://datacatalog.worldbank.org/"
@@ -3640,11 +3560,6 @@
         "url": "http://www.annualreports.com/"
       },
       {
-        "name": "Reportlinker.com",
-        "type": "url",
-        "url": "http://www.reportlinker.com/"
-      },
-      {
         "name": "Public Register Online",
         "type": "url",
         "url": "http://www.annualreportservice.com/"
@@ -3653,11 +3568,6 @@
         "name": "Public Register's Annual Report Service",
         "type": "url",
         "url": "http://www.prars.com/search/alpha/A"
-      },
-      {
-        "name": "The Investor - Africa",
-        "type": "url",
-        "url": "http://theinvestormailinglist.com/recent-reports/"
       },
       {
         "name": "International Registries",
@@ -3750,11 +3660,6 @@
         "url": "http://www.infobel.com/en/world/"
       },
       {
-        "name": "Mint Portal",
-        "type": "url",
-        "url": "http://mintbusinessinfo.com/version-2015129/portal.serv?product=mintportal"
-      },
-      {
         "name": "Manta",
         "type": "url",
         "url": "http://www.manta.com/business"
@@ -3820,11 +3725,6 @@
         "url": "http://www.vault.com/"
       },
       {
-        "name": "D&B Company Search",
-        "type": "url",
-        "url": "http://www.dnb.com/"
-      },
-      {
         "name": "Companies In The UK",
         "type": "url",
         "url": "https://www.companiesintheuk.co.uk/"
@@ -3870,17 +3770,12 @@
         "url": "https://www.linkedin.com/"
       },
       {
-        "name": "Market Visual",
-        "type": "url",
-        "url": "http://www.marketvisual.com/"
-      },
-      {
         "name": "Jobster",
         "type": "url",
         "url": "http://www.jobster.com/"
       },
       {
-        "name": "XING",
+        "name": "XING (R)",
         "type": "url",
         "url": "https://www.xing.com/"
       },
@@ -3893,11 +3788,6 @@
         "name": "CVGadget",
         "type": "url",
         "url": "http://www.cvgadget.com/"
-      },
-      {
-        "name": "LeadFerret.com",
-        "type": "url",
-        "url": "https://leadferret.com/search"
       }],
       "name": "Employee Profiles & Resumes",
       "type": "folder"
@@ -4405,16 +4295,6 @@
         "url": "http://biznar.com/biznar/desktop/en/search.html"
       },
       {
-        "name": "Carrot2",
-        "type": "url",
-        "url": "http://search.carrot2.org/stable/search"
-      },
-      {
-        "name": "Yippy",
-        "type": "url",
-        "url": "http://yippy.com/"
-      },
-      {
         "name": "eTools.ch",
         "type": "url",
         "url": "https://www.etools.ch/"
@@ -4425,19 +4305,9 @@
         "url": "https://searx.me/"
       },
       {
-        "name": "Addictomatic",
-        "type": "url",
-        "url": "http://addictomatic.com/"
-      },
-      {
         "name": "WhosTalkin",
         "type": "url",
         "url": "http://www.whostalkin.com/"
-      },
-      {
-        "name": "DMOZ",
-        "type": "url",
-        "url": "http://www.dmoz.org/"
       },
       {
         "name": "AnswerThePublic.com",
@@ -4498,11 +4368,6 @@
         "name": "Napalm FTP",
         "type": "url",
         "url": "http://www.searchftps.net/"
-      },
-      {
-        "name": "FileMare",
-        "type": "url",
-        "url": "http://filemare.com/en-us"
       }],
       "name": "FTP Search",
       "type": "folder"
@@ -4710,24 +4575,9 @@
     {
       "children": [
       {
-        "name": "Yobi3D - 3D Model Search",
-        "type": "url",
-        "url": "https://www.yobi3d.com/#!/"
-      },
-      {
         "name": "Colossus International Engine List",
         "type": "url",
         "url": "http://www.searchenginecolossus.com/"
-      },
-      {
-        "name": "SimilarSites",
-        "type": "url",
-        "url": "http://www.similarsites.com/browse"
-      },
-      {
-        "name": "Economics Search Engine",
-        "type": "url",
-        "url": "http://ese.rfe.org/"
       },
       {
         "name": "AOL Search Database",
@@ -4785,9 +4635,9 @@
         "url": "http://www.talkwalker.com/alerts"
       },
       {
-        "name": "Google Correlate",
+        "name": "Google Trends",
         "type": "url",
-        "url": "https://www.google.com/trends/correlate/"
+        "url": "https://trends.google.com/trends/"
       }],
       "name": "Search Tools",
       "type": "folder"
@@ -4905,11 +4755,6 @@
     {
       "children": [
       {
-        "name": "IceRocket",
-        "type": "url",
-        "url": "http://www.icerocket.com/advancedsearch?tab=blog&q=&n=&e=&a=&domain=&query="
-      },
-      {
         "name": "Live Journal Seek",
         "type": "url",
         "url": "http://ljseek.com/"
@@ -4920,19 +4765,9 @@
         "url": "http://www.topix.com/search/article?q="
       },
       {
-        "name": "Twingly Blog Search",
-        "type": "url",
-        "url": "https://www.twingly.com/search"
-      },
-      {
         "name": "Blog Search Engine",
         "type": "url",
         "url": "http://www.blogsearchengine.org/"
-      },
-      {
-        "name": "Notey",
-        "type": "url",
-        "url": "http://www.notey.com/"
       }],
       "name": "Blog Search Engines",
       "type": "folder"
@@ -4953,11 +4788,6 @@
         "name": "netsplit.de",
         "type": "url",
         "url": "http://irc.netsplit.de/channels/search.php"
-      },
-      {
-        "name": "BotBot.me",
-        "type": "url",
-        "url": "https://botbot.me/"
       }],
       "name": "IRC Search",
       "type": "folder"
@@ -5073,11 +4903,6 @@
         "name": "Labled Faces in the Wild DB",
         "type": "url",
         "url": "http://vis-www.cs.umass.edu/lfw/"
-      },
-      {
-        "name": "Large-scale Scene Understanding Challenge",
-        "type": "url",
-        "url": "http://lsun.cs.princeton.edu/2016/"
       },
       {
         "name": "VisualGenome",
@@ -5538,11 +5363,6 @@
         "name": "Core.onion",
         "type": "url",
         "url": "http://eqt5g4fuenphqinx.onion/"
-      },
-      {
-       "name": "OnionTree",
-       "type": "url",
-       "url": "https://onionltd.github.io/"
       }],
       "name": "TOR Directories",
       "type": "folder"
@@ -5733,7 +5553,7 @@
       "url": "http://claz.org/"
     },
     {
-      "name": "francais-a-londres.org",
+      "name": "francais-a-londres.org - French Classifieds",
       "type": "url",
       "url": "http://francais-a-londres.org/"
     }],
