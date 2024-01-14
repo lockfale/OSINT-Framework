@@ -3064,16 +3064,6 @@
       "name": "Hinge",
       "type": "url",
       "url": "https://hinge.co/en-gb"
-    },
-    {
-      "children": [
-      {
-        "name": "TrueDater (German blog)",
-        "type": "url",
-        "url": "http://www.truedater.com/"
-      }],
-      "name": "Reviews of Users",
-      "type": "folder"
     }],
     "name": "Dating",
     "type": "folder"
