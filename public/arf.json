@@ -1161,6 +1161,21 @@
       }],
       "name": "Tools",
       "type": "folder"
+    },
+    {
+      "children": [
+      {
+        "name": "Microsoft",
+        "type": "url",
+        "url": "https://www.microsoft.com/en-us/wdsi/support/report-unsafe-site-guest"
+      },
+      {
+        "name": "Google",
+        "type": "url",
+        "url": "https://safebrowsing.google.com/safebrowsing/report_phish/?hl=en"
+      }],
+      "name": "Report Malicious Sites",
+      "type": "folder"
     }],
     "name": "Domain Name",
     "type": "folder"
@@ -2542,14 +2557,9 @@
     {
       "children": [
       {
-        "name": "SnoopSnoo",
+        "name": "Reddit Metis",
         "type": "url",
-        "url": "http://snoopsnoo.com/"
-      },
-      {
-        "name": "metareddit",
-        "type": "url",
-        "url": "http://metareddit.com/"
+        "url": "https://redditmetis.com/#"
       },
       {
         "name": "Reddit Archive",
