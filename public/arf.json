@@ -5554,6 +5554,11 @@
     {
       "children": [
       {
+        "name": "OXT",
+        "type": "url",
+        "url": "https://oxt.me"
+      },
+      {
         "name": "Blocktrail",
         "type": "url",
         "url": "https://www.blocktrail.com/BTC"
