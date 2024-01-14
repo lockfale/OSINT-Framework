@@ -200,6 +200,11 @@
         "url": "http://e-mailvalidator.com/index.php"
       },
       {
+        "name": "MailScrap",
+        "type": "url",
+        "url": "https://mailscrap.com/"
+      },
+      {
         "name": "BytePlant Email Validator",
         "type": "url",
         "url": "http://www.email-validator.net/"
@@ -3357,6 +3362,46 @@
         "url": "http://mugshots.com/"
       },
       {
+        "name": "judyrecords",
+        "type": "url",
+        "url": "https://www.judyrecords.com/"
+      },
+      {
+        "name": "Caselaw Access Project",
+        "type": "url",
+        "url": "https://case.law/"
+      },
+      {
+        "name": "CourtListener",
+        "type": "url",
+        "url": "https://www.courtlistener.com/"
+      },
+      {
+        "name": "Docket Alarm",
+        "type": "url",
+        "url": "https://www.docketalarm.com/"
+      },
+      {
+        "name": "Google Scholar Case Law",
+        "type": "url",
+        "url": "https://scholar.google.com/"
+      },
+      {
+        "name": "PACER",
+        "type": "url",
+        "url": "https://pacer.uscourts.gov/"
+      },
+      {
+        "name": "Free Law RECAP Archive",
+        "type": "url",
+        "url": "https://www.courtlistener.com/recap/"
+      },
+      {
+        "name": "UniCourt",
+        "type": "url",
+        "url": "https://unicourt.com/"
+      },
+      {
         "name": "Federal Inmate Locator",
         "type": "url",
         "url": "https://www.bop.gov/inmateloc/"
@@ -4977,11 +5022,6 @@
         "name": "Databases.Today",
         "type": "url",
         "url": "https://databases.today/"
-      },
-      {
-        "name": "Weleakinfo",
-        "type": "url",
-        "url": "https://search.weleakinfo.com/"
       },
       {
         "name": "Cryptome",
