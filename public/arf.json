@@ -6384,6 +6384,26 @@
       "url": "https://www.malwarepatrol.net/open-source.shtml"
     },
     {
+      "name": "AlienVault OTX",
+      "type": "url",
+      "url": "https://otx.alienvault.com/"
+    },
+    {
+      "name": "FireHOL IP Lists ",
+      "type": "url",
+      "url": "http://iplists.firehol.org/"
+    },
+    {
+      "name": "Maltiverse",
+      "type": "url",
+      "url": "https://maltiverse.com/start"
+    },
+    {
+      "name": "Malpedia",
+      "type": "url",
+      "url": "https://malpedia.caad.fkie.fraunhofer.de/library"
+    },
+    {
       "name": "Project Honey Pot",
       "type": "url",
       "url": "http://www.projecthoneypot.org/"
