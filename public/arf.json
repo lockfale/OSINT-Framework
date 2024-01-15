@@ -153,6 +153,11 @@
         "name": "MailsHunt",
         "type": "url",
         "url": "https://mailshunt.com/"
+      },
+      {
+        "name": "Predicta Search",
+        "type": "url",
+        "url": "https://predictasearch.com/"
       }],
       "name": "Email Search",
       "type": "folder"
