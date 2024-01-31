@@ -5682,6 +5682,11 @@
     {
       "children": [
       {
+        "name": "Vector (T)",
+        "type": "url",
+        "url": "https://github.com/thesaderror/vector"
+      },
+      {
         "name": "DataSploit (T)",
         "type": "url",
         "url": "https://github.com/datasploit/datasploit/"
