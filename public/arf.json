@@ -3935,6 +3935,11 @@
     {
       "children": [
       {
+        "name": "Astrometry",
+        "type": "url",
+        "url": "https://nova.astrometry.net/"
+      },
+      {
         "name": "SunCalc",
         "type": "url",
         "url": "http://suncalc.net/"
