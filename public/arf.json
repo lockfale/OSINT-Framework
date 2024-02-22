@@ -4220,11 +4220,6 @@
         "url": "https://www.google.com/advanced_search"
       },
       {
-        "name": "Shuriken",
-        "type": "url",
-        "url": "http://shuriken.pm"
-      },
-      {
         "name": "iBoogie",
         "type": "url",
         "url": "http://www.iboogie.com/"
@@ -4264,6 +4259,11 @@
     },
     {
       "children": [
+      {
+        "name": "Shuriken",
+        "type": "url",
+        "url": "http://shuriken.pm"
+      },
       {
         "name": "iSEEK",
         "type": "url",
@@ -5760,6 +5760,11 @@
         "name": "PhoneInfoga (T)",
         "type": "url",
         "url": "https://github.com/sundowndev/PhoneInfoga"
+      },
+      {
+	"name": "IntelligenceX",
+	"type": "url",
+	"url": "https://intelx.io/"
       }],
       "name": "OSINT Automation",
       "type": "folder"
