@@ -3236,6 +3236,16 @@
         "name": "Redfin",
         "type": "url",
         "url": "https://www.redfin.com/"
+      }
+      {
+        "name": "HuntStand",
+        "type": "url",
+        "url": "https://www.huntstand.com/"
+      }
+      {
+        "name": "OnXMaps",
+        "type": "url",
+        "url": "https://www.onxmaps.com/hunt/app"
       }],
       "name": "Property Records",
       "type": "folder"
