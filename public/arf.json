@@ -95,6 +95,11 @@
     {
       "children": [
       {
+        "name": "Sherlockeye",
+        "type": "url",
+        "url": "https://sherlockeye.io"
+      },
+      {
         "name": "ThatsThem",
         "type": "url",
         "url": "https://thatsthem.com/reverse-email-lookup"
