@@ -475,6 +475,11 @@
         "url": "https://github.com/Sw4mpf0x/Kraken"
       },
       {
+        "name": "Online Nikto scanner",
+        "type": "url",
+        "url": "https://nikto.online/"
+      },
+      {
         "name": "urlscan.io",
         "type": "url",
         "url": "https://urlscan.io/search/#*"
@@ -1005,6 +1010,11 @@
         "url": "http://www.changedetection.com/"
       },
       {
+        "name": "Check site availability Online",
+        "type": "url",
+        "url": "https://upcheck.online/"
+      },
+      {
         "name": "Follow That Page",
         "type": "url",
         "url": "https://www.followthatpage.com/"
@@ -1064,10 +1074,20 @@
         "type": "url",
         "url": "https://buckets.grayhatwarfare.com/"
       },
+	    {
+        "name": "Online Port scanner",
+        "type": "url",
+        "url": "https://portscanner.online/"
+      },
       {
         "name": "CloudScraper (T)",
         "type": "url",
         "url": "https://github.com/jordanpotti/cloudscraper"
+      },
+      {
+        "name": "Check site availability Online",
+        "type": "url",
+        "url": "https://upcheck.online/"
       }],
       "name": "Cloud Resources",
       "type": "folder"
@@ -1080,6 +1100,11 @@
           "name": "Sn1per (T)",
           "type": "url",
           "url": "https://github.com/1N3/Sn1per"
+        },
+        {
+          "name": "Online Nikto scanner",
+          "type": "url",
+          "url": "https://nikto.online/"
         }],
         "name": "Scanners",
         "type": "folder"
@@ -1110,9 +1135,9 @@
     {
       "children": [
       {
-        "name": "Burp Suite (T)",
+        "name": "Belati (T)",
         "type": "url",
-        "url": "https://portswigger.net/burp/"
+        "url": "https://github.com/aancw/Belati"
       },
       {
         "name": "BlackWidow (T)",
@@ -1120,14 +1145,9 @@
         "url": "https://softbytelabs.com/wp/blackwidow/"
       },
       {
-        "name": "IntelliTamper (T)",
+        "name": "Burp Suite (T)",
         "type": "url",
-        "url": "http://www.softpedia.com/get/Internet/Other-Internet-Related/IntelliTamper.shtml"
-      },
-      {
-        "name": "International Domain Name Conversion Tool",
-        "type": "url",
-        "url": "http://mct.verisign-grs.com/"
+        "url": "https://portswigger.net/burp/"
       },
       {
         "name": "EyeWitness (T)",
@@ -1135,14 +1155,24 @@
         "url": "https://github.com/ChrisTruncer/EyeWitness"
       },
       {
-        "name": "Belati (T)",
+        "name": "IntelliTamper (T)",
         "type": "url",
-        "url": "https://github.com/aancw/Belati"
+        "url": "http://www.softpedia.com/get/Internet/Other-Internet-Related/IntelliTamper.shtml"
       },
       {
         "name": "Hunting-New-Registered-Domains (T)",
         "type": "url",
         "url": "https://github.com/gfek/Hunting-New-Registered-Domains"
+      },
+      {
+        "name": "International Domain Name Conversion Tool",
+        "type": "url",
+        "url": "http://mct.verisign-grs.com/"
+      },
+      {
+        "name": "Online Nikto scanner",
+        "type": "url",
+        "url": "https://nikto.online/"
       }],
       "name": "Tools",
       "type": "folder"
@@ -1298,6 +1328,11 @@
         "name": "ASlookup.com",
         "type": "url",
         "url": "https://aslookup.com/"
+      },
+	    {
+        "name": "Port scanner Online",
+        "type": "url",
+        "url": "https://portscanner.online/"
       },
       {
         "name": "Onyphe",
@@ -5848,6 +5883,11 @@
       "name": "Overview",
       "type": "url",
       "url": "https://www.overviewdocs.com/"
+    },
+    {
+      "name": "Online Nikto scanner",
+      "type": "url",
+      "url": "https://nikto.online/"
     }],
     "name": "Tools",
     "type": "folder"
