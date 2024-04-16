@@ -153,6 +153,11 @@
         "name": "MailsHunt",
         "type": "url",
         "url": "https://mailshunt.com/"
+      },
+      {
+        "name": "Castrick",
+        "type": "url",
+        "url": "https://castrickclues.com/"
       }],
       "name": "Email Search",
       "type": "folder"
