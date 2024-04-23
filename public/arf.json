@@ -5840,6 +5840,11 @@
       "url": "https://www.maltego.com/"
     },
     {
+      "name": "Scrummage",
+      "type": "url",
+      "url": "https://github.com/matamorphosis/Scrummage"
+    },
+    {
       "name": "Epic Privacy Browser (T)",
       "type": "url",
       "url": "https://www.epicbrowser.com/"
