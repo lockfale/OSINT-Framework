@@ -2658,6 +2658,11 @@
     {
       "children": [
       {
+        "name": "Bright Data | SERP API (R)",
+        "type": "url",
+        "url": "https://brightdata.com/products/datasets/for-journalists"
+      },
+      {
         "name": "Social Searcher",
         "type": "url",
         "url": "http://www.social-searcher.com/"
@@ -5835,6 +5840,11 @@
       "type": "folder"
     },
     {
+      "name": "Bright Data | Datasets & Scraping (R)",
+      "type": "url",
+      "url": "https://brightdata.com/products/datasets/for-journalists"
+    },
+    {
       "name": "Paterva / Maltego (T)",
       "type": "url",
       "url": "https://www.maltego.com/"
@@ -6546,6 +6556,11 @@
         }],
         "name": "Proxy Tests",
         "type": "folder"
+      },
+      {
+        "name": "Bright Data | Proxies (R)",
+        "type": "url",
+        "url": "https://brightdata.com/products/datasets/for-journalists"
       },
       {
         "name": "NoScript (T)",
