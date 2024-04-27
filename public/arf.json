@@ -4565,6 +4565,11 @@
         "url": "http://search-id.com/"
       },
       {
+	"name": "Zenodo",
+	"type": "url",
+	"url": "https://zenodo.org/"
+      },
+      {
         "name": "EntityCube",
         "type": "url",
         "url": "http://entitycube.research.microsoft.com/"
