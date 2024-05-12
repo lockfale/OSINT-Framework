@@ -240,6 +240,11 @@
         "url": "https://haveibeenpwned.com/"
       },
       {
+        "name": "Hudson Rock",
+        "type": "url",
+        "url": "https://www.hudsonrock.com/threat-intelligence-cybercrime-tools"
+      },
+      {
         "name": "DeHashed (R)",
         "type": "url",
         "url": "https://dehashed.com/"
