@@ -140,11 +140,6 @@
         "url": "https://github.com/m4ll0k/infoga"
       },
       {
-        "name": "MailDB",
-        "type": "url",
-        "url": "https://maildb.io/"
-      },
-      {
         "name": "Skymem",
         "type": "url",
         "url": "http://www.skymem.info/"
@@ -2245,11 +2240,6 @@
           "url": "https://www.twellow.com/splash/"
         },
         {
-          "name": "First Tweet",
-          "type": "url",
-          "url": "http://ctrlq.org/first/"
-        },
-        {
           "name": "TweetReach",
           "type": "url",
           "url": "https://tweetreach.com/"
@@ -2337,29 +2327,9 @@
             "url": "http://www.twitonomy.com/"
           },
           {
-            "name": "Fake Follower Check",
-            "type": "url",
-            "url": "http://fakers.statuspeople.com/"
-          },
-          {
             "name": "Klear",
             "type": "url",
             "url": "http://klear.com/"
-          },
-          {
-            "name": "First Tweet",
-            "type": "url",
-            "url": "https://discover.twitter.com/first-tweet"
-          },
-          {
-            "name": "TweetTunnel",
-            "type": "url",
-            "url": "http://tweettunnel.info/firstpre.php"
-          },
-          {
-            "name": "Twitalyzer",
-            "type": "url",
-            "url": "http://twitalyzer.com/5/index.asp"
           },
           {
             "name": "Foller.me Analytics",
@@ -4945,6 +4915,11 @@
         "url": "http://www.bing.com/translator/"
       },
       {
+        "name": "Word Reference",
+        "type": "url",
+        "url": "https://www.wordreference.com/"
+      },
+      {
         "name": "Dictionary.com Translator",
         "type": "url",
         "url": "http://translate.reference.com/"
@@ -5005,6 +4980,16 @@
         "url": "http://www.onlineocr.net/"
       }],
       "name": "Pictures",
+      "type": "folder"
+    },
+    {
+      "children": [
+      {
+        "name": "Eleven Labs Dubbing",
+        "type": "url",
+        "url": "https://elevenlabs.io/dubbing"
+      }],
+      "name": "Videos",
       "type": "folder"
     },
     {
