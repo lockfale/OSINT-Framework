@@ -5,6 +5,11 @@
     {
       "children": [
       {
+        "name": "WhatsMyName",
+        "type": "url",
+        "url": "https://whatsmyname.app/"
+      },
+      {
         "name": "Namechk",
         "type": "url",
         "url": "https://namechk.com/"
@@ -113,11 +118,6 @@
         "name": "VoilaNorbert",
         "type": "url",
         "url": "https://www.voilanorbert.com/"
-      },
-      {
-        "name": "Reverse Genie Email",
-        "type": "url",
-        "url": "http://www.reversegenie.com/email.php"
       },
       {
         "name": "GHunt (T)",
@@ -1587,11 +1587,6 @@
           "name": "Photobucket",
           "type": "url",
           "url": "http://photobucket.com/"
-        },
-        {
-          "name": "PicSearch",
-          "type": "url",
-          "url": "http://www.picsearch.com/"
         },
         {
           "name": "Karma Decay",
@@ -5840,11 +5835,6 @@
       "url": "https://www.maltego.com/"
     },
     {
-      "name": "Epic Privacy Browser (T)",
-      "type": "url",
-      "url": "https://www.epicbrowser.com/"
-    },
-    {
       "name": "Overview",
       "type": "url",
       "url": "https://www.overviewdocs.com/"
@@ -6403,11 +6393,6 @@
       },
       {
         "children": [
-        {
-          "name": "DeepDotWeb VPN Comparison Chart",
-          "type": "url",
-          "url": "https://www.deepdotweb.com/vpn-comparison-chart/"
-        },
         {
           "name": "VPN Comparisons - That One Privacy Site",
           "type": "url",
