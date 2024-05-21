@@ -35,6 +35,11 @@
         "url": "https://github.com/WebBreacher/WhatsMyName"
       },
       {
+        "name": "WhatsMyName",
+        "type": "url",
+        "url": "https://whatsmyname.app/"
+      },
+      {
         "name": "Thats Them",
         "type": "url",
         "url": "https://thatsthem.com/"
