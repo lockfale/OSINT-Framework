@@ -1652,6 +1652,10 @@
           "name": "SauceNAO",
           "type": "url",
           "url": "https://saucenao.com/"
+        }{
+          "name": "Picarta",
+          "type": "url",
+          "url": "https://picarta.ai/"
         }],
         "name": "Search",
         "type": "folder"
