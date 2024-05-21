@@ -185,29 +185,19 @@
     {
       "children": [
       {
-        "name": "MailTester",
+        "name": "Reacher Github (T)",
         "type": "url",
-        "url": "http://mailtester.com/testmail.php"
+        "url": "https://github.com/reacherhq/check-if-email-exists"
       },
       {
-        "name": "VerifyEmail",
+        "name": "Reacher Demo",
         "type": "url",
-        "url": "http://verify-email.org/"
-      },
-      {
-        "name": "Email Validator",
-        "type": "url",
-        "url": "http://e-mailvalidator.com/index.php"
+        "url": "https://reacher.email"
       },
       {
         "name": "MailScrap",
         "type": "url",
         "url": "https://mailscrap.com/"
-      },
-      {
-        "name": "BytePlant Email Validator",
-        "type": "url",
-        "url": "http://www.email-validator.net/"
       },
       {
         "name": "Read Notify",
@@ -2623,6 +2613,16 @@
     {
       "children": [
       {
+        "name": "TikTok Viewer",
+        "type": "url",
+        "url": "https://urlebird.com//"
+      }],
+      "name": "Tiktok",
+      "type": "folder"
+    },
+    {
+      "children": [
+      {
         "name": "Myspace",
         "type": "url",
         "url": "https://myspace.com/"
@@ -2701,11 +2701,6 @@
         "name": "SocialBlade.com",
         "type": "url",
         "url": "http://socialblade.com/"
-      },
-      {
-        "name": "TikTok Viewer",
-        "type": "url",
-        "url": "http://https://urlebird.com//"
       },
       {
         "name": "Talkwalker Social Media Search (R)",
@@ -3221,7 +3216,7 @@
       "url": "https://www.usphonebook.com"
     },
     {
-      "name": "Numspy",
+      "name": "Numspy (T)",
       "type": "python3 Module",
       "url": "https://bhattsameer.github.io/numspy"
     },
