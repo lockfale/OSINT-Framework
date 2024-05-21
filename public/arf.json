@@ -3203,6 +3203,11 @@
         "url": "http://www.melissadata.com/lookups/propertyviewer.asp"
       },
       {
+        "name": "Regrid (US Only)",
+	"type": "url",
+	"url": "https://app.regrid.com/us/"
+      },
+      {
         "name": "Zillow",
         "type": "url",
         "url": "http://www.zillow.com/"
