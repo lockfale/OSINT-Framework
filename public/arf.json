@@ -4180,11 +4180,6 @@
         "url": "https://www.google.com/advanced_search"
       },
       {
-        "name": "Shuriken",
-        "type": "url",
-        "url": "http://shuriken.pm"
-      },
-      {
         "name": "iBoogie",
         "type": "url",
         "url": "http://www.iboogie.com/"
@@ -4224,6 +4219,11 @@
     },
     {
       "children": [
+      {
+        "name": "Shuriken",
+        "type": "url",
+        "url": "http://shuriken.pm"
+      },
       {
         "name": "iSEEK",
         "type": "url",
@@ -4523,6 +4523,11 @@
         "name": "AOL Search Database",
         "type": "url",
         "url": "http://search-id.com/"
+      },
+      {
+	"name": "Zenodo",
+	"type": "url",
+	"url": "https://zenodo.org/"
       },
       {
         "name": "EntityCube",
@@ -5735,6 +5740,11 @@
         "name": "PhoneInfoga (T)",
         "type": "url",
         "url": "https://github.com/sundowndev/PhoneInfoga"
+      },
+      {
+	"name": "IntelligenceX",
+	"type": "url",
+	"url": "https://intelx.io/"
       }],
       "name": "OSINT Automation",
       "type": "folder"
