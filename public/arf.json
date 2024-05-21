@@ -6175,6 +6175,11 @@
       "type": "folder"
     },
     {
+      "name": "Vulert: Updated Open Source Vulnerability Database",
+      "type": "url",
+      "url": "https://vulert.com/vuln-db"
+    },
+    {
       "name": "MITRE ATT&CK",
       "type": "url",
       "url": "https://attack.mitre.org/"
