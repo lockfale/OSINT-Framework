@@ -1225,6 +1225,11 @@
     {
       "children": [
       {
+        "name": "urlscan.io",
+        "type": "url",
+        "url": "https://urlscan.io/search/#*"
+      },
+      {
         "name": "Spyse",
         "type": "url",
         "url": "https://spyse.com/search/ip"
@@ -1265,9 +1270,9 @@
         "url": "http://www.exfiltrated.com/querystart.php"
       },
       {
-        "name": "urlscan.io",
+        "name": "Criminal IP Search",
         "type": "url",
-        "url": "https://urlscan.io/search/#*"
+        "url": "https://www.criminalip.io/"
       },
       {
         "name": "Scanless (T)",
@@ -1652,7 +1657,8 @@
           "name": "SauceNAO",
           "type": "url",
           "url": "https://saucenao.com/"
-        }{
+        },
+        {
           "name": "Picarta",
           "type": "url",
           "url": "https://picarta.ai/"
@@ -4819,9 +4825,14 @@
         "url": "http://pdfmyurl.com/"
       },
       {
-        "name": "Bounce",
+        "name": "Common Crawl",
         "type": "url",
-        "url": "http://www.bounceapp.com/"
+        "url": "http://commoncrawl.org/"
+      },      
+      {
+        "name": "Anna's Archive",
+        "type": "url",
+        "url": "https://annas-archive.org/"
       },
       {
         "name": "Browsershots",
@@ -6157,6 +6168,11 @@
       "name": "Secunia",
       "type": "url",
       "url": "https://secuniaresearch.flexerasoftware.com/community/research/"
+    },
+    {
+      "name": "Australian Cyber Security Centre",
+      "type": "url",
+      "url": "https://www.cyber.gov.au/"
     },
     {
       "name": "Canadian Centre for Cyber Security",
