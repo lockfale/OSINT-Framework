@@ -6733,6 +6733,11 @@
         "url": "http://www.hunch.ly/"
       },
       {
+        "name": "Forensic OSINT (T)",
+        "type": "url",
+        "url": "https://www.forensicosint.com/"
+      },      
+      {
         "name": "Fiddler (T)",
         "type": "url",
         "url": "https://www.telerik.com/download/fiddler"
@@ -6820,7 +6825,7 @@
       "type": "url",
       "url": "http://timeline.knightlab.com/"
     }],
-    "name": "Documentation",
+    "name": "Documentation / Evidence Capture",
     "type": "folder"
   },
   {
