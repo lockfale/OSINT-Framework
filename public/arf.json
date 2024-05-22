@@ -6851,6 +6851,11 @@
       "type": "folder"
     },
     {
+      "name": "Forensic OSINT KB Guides",
+      "type": "url",
+      "url": "https://www.forensicosint.com/osint-guide"
+    },
+    {
       "name": "AutomatingOSINT.com",
       "type": "url",
       "url": "http://register.automatingosint.com/"
