@@ -6658,6 +6658,11 @@
     {
       "children": [
       {
+        "name": "Privacy Guides",
+        "type": "url",
+        "url": "https://www.privacyguides.org/en/"
+      },
+      {
         "name": "Just Delete Me",
         "type": "url",
         "url": "http://backgroundchecks.org/justdeleteme/"
