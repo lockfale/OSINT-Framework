@@ -5745,6 +5745,11 @@
   {
     "children": [
     {
+      "name": "Vulert: Vulnerable Open Source Dependencies Scanner",
+      "type": "url",
+      "url": "https://vulert.com/abom"
+    },
+    {
       "children": [
       {
         "name": "DataSploit (T)",
