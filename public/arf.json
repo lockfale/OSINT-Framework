@@ -153,6 +153,11 @@
         "name": "MailsHunt",
         "type": "url",
         "url": "https://mailshunt.com/"
+      },
+      {
+        "name": "Digital Footprint Check (R)",
+        "type": "url",
+        "url": "https://www.digitalfootprintcheck.com/"
       }],
       "name": "Email Search",
       "type": "folder"
