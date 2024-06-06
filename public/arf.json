@@ -455,6 +455,11 @@
     {
       "children": [
       {
+        "name": "Deepinfo",
+        "type": "url",
+        "url": "https://www.deepinfo.com/"
+      },
+      {
         "name": "Shodan",
         "type": "url",
         "url": "https://www.shodan.io/"
@@ -543,6 +548,11 @@
         "name": "Security Trails",
         "type": "url",
         "url": "https://securitytrails.com/"
+      },
+      {
+        "name": "Deepinfo",
+        "type": "url",
+        "url": "https://docs.deepinfo.com/docs/dns-history-api"
       },
       {
         "name": "Mnemonic",
