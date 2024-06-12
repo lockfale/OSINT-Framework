@@ -6892,6 +6892,16 @@
     }],
     "name": "Training",
     "type": "folder"
+  },
+  {
+    "children": [
+    {
+      "name": "WormGPT-6",
+      "type": "url",
+      "url": "https://flowgpt.com/p/wormgpt-6"
+    }],
+    "name": "AI Tools",
+    "type": "folder"
   }],
   "name": "OSINT Framework",
   "type": "folder"
