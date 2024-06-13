@@ -5140,7 +5140,12 @@
           "name": "Nox App Player",
           "type": "url",
           "url": "https://www.bignox.com/"
-        }],
+        },
+        {
+          "name": "Apk Online",
+          "type": "url",
+          "url": "https://www.apkonline.net/"
+          }],
         "name": "Emulation Tools",
         "type": "folder"
       },
