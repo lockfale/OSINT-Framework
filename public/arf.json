@@ -3556,6 +3556,11 @@
       "name": "Open-Data-Portal München (German)",
       "type": "url",
       "url": "https://www.opengov-muenchen.de/"
+    },
+    {
+      "name": "Searchable FCC ID Database",
+      "type": "url",
+      "url": "https://fccid.io/"
     }],
     "name": "Public Records",
     "type": "folder"
