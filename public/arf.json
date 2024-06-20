@@ -348,6 +348,11 @@
         "name": "IP2WHOIS",
         "type": "url",
         "url": "https://www.ip2whois.com"
+      },
+      {
+        "name": "da whois",
+        "type": "url",
+        "url": "https://dawhois.com"
       }],
       "name": "Whois Records",
       "type": "folder"
