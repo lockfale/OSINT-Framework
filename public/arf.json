@@ -3977,7 +3977,7 @@
       {
         "name": "SunCalc",
         "type": "url",
-        "url": "http://suncalc.net/"
+        "url": "http://suncalc.org/"
       }],
       "name": "Geolocation Tools",
       "type": "folder"
