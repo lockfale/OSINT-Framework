@@ -4293,6 +4293,11 @@
         "name": "Hulbee",
         "type": "url",
         "url": "https://hulbee.com/"
+      },
+      {
+        "name": "Huawei Petal Search (mobile)",
+        "type": "url",
+        "url": "https://consumer.huawei.com/en/mobileservices/search/"
       }],
       "name": "General Search",
       "type": "folder"
@@ -6892,7 +6897,18 @@
     }],
     "name": "Training",
     "type": "folder"
-  }],
+  },
+  {
+    "children": [
+      {
+        "name": "ArchiMate Tool (T)",
+        "type": "url",
+        "url": "https://www.archimatetool.com/"
+      }],
+    "name": "Enterprise Architecture",
+    "type": "folder"
+  }
+],
   "name": "OSINT Framework",
   "type": "folder"
 }
