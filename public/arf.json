@@ -5830,7 +5830,15 @@
 	"name": "IntelligenceX",
 	"type": "url",
 	"url": "https://intelx.io/"
+	      
+      },
+
+      {
+        "name": "Analyst Research Tools",
+        "type": "url",
+        "url": "https://analystresearchtools.com"
       }],
+	    
       "name": "OSINT Automation",
       "type": "folder"
     },
