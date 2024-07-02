@@ -3670,11 +3670,6 @@
         "url": "http://www.infobel.com/en/world/"
       },
       {
-        "name": "Manta",
-        "type": "url",
-        "url": "http://www.manta.com/business"
-      },
-      {
         "name": "AIHIT",
         "type": "url",
         "url": "https://www.aihitdata.com/"
@@ -3757,7 +3752,7 @@
       {
         "name": "Manta Small Business Directory",
         "type": "url",
-        "url": "http://manta.com/business"
+        "url": "https://www.manta.com/business-directory"
       },
       {
         "name": "Crunchbase",
