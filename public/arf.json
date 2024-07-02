@@ -460,6 +460,11 @@
         "url": "https://www.shodan.io/"
       },
       {
+        "name": "ODIN (R)",
+        "type": "url",
+        "url": "https://www.getodin.com/"
+      },
+      {
         "name": "Kraken",
         "type": "url",
         "url": "https://github.com/Sw4mpf0x/Kraken"
@@ -533,6 +538,11 @@
         "name": "certgraph (T)",
         "type": "url",
         "url": "https://github.com/lanrat/certgraph"
+      },
+      {
+        "name": "ODIN (R)",
+        "type": "url",
+        "url": "https://www.getodin.com/"
       }],
       "name": "Certificate Search",
       "type": "folder"
@@ -1318,6 +1328,11 @@
         "name": "Masscan (T)",
         "type": "url",
         "url": "https://github.com/robertdavidgraham/masscan"
+      },
+      {
+        "name": "ODIN (R)",
+        "type": "url",
+        "url": "https://www.getodin.com/"
       }],
       "name": "Host / Port Discovery",
       "type": "folder"
@@ -1338,6 +1353,11 @@
         "name": "Onyphe",
         "type": "url",
         "url": "https://www.onyphe.io/"
+      },
+      {
+        "name": "ODIN (R)",
+        "type": "url",
+        "url": "https://www.getodin.com/"
       },
       {
         "name": "IPv4 CIDR Report",
