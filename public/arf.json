@@ -1185,22 +1185,7 @@
         "type": "url",
         "url": "https://nikto.online/"
       }]
-    },
-    {
-      "name": "AI Tools",
-      "type": "folder",
-      "children": [
-      {
-        "name": "ChatGPT (R)",
-        "type": "url",
-        "url": "https://chatgpt.com/"
-      },
-      {
-        "name": "WormGPT-6 (R)",
-        "type": "url",
-        "url": "https://flowgpt.com/p/wormgpt-6"
-      }]
-    },    
+    },  
     {
       "name": "Report Malicious Sites",
       "type": "folder",
@@ -5953,6 +5938,21 @@
       "url": "https://nikto.online/"
     }]
   },
+  {
+    "name": "AI Tools",
+    "type": "folder",
+    "children": [
+    {
+      "name": "ChatGPT (R)",
+      "type": "url",
+      "url": "https://chatgpt.com/"
+    },
+    {
+      "name": "WormGPT-6 (R)",
+      "type": "url",
+      "url": "https://flowgpt.com/p/wormgpt-6"
+    }]
+  },  
   {
     "name": "Malicious File Analysis",
     "type": "folder",
