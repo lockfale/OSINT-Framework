@@ -1185,6 +1185,16 @@
     {
       "children": [
       {
+        "name": "WormGPT-6 (R)",
+        "type": "url",
+        "url": "https://flowgpt.com/p/wormgpt-6"
+      }],
+      "name": "AI Tools",
+      "type": "folder"
+    },    
+    {
+      "children": [
+      {
         "name": "Microsoft",
         "type": "url",
         "url": "https://www.microsoft.com/en-us/wdsi/support/report-unsafe-site-guest"
@@ -6906,16 +6916,6 @@
       "url": "http://www.catb.org/esr/faqs/smart-questions.html"
     }],
     "name": "Training",
-    "type": "folder"
-  },
-  {
-    "children": [
-    {
-      "name": "WormGPT-6 (R)",
-      "type": "url",
-      "url": "https://flowgpt.com/p/wormgpt-6"
-    }],
-    "name": "AI Tools",
     "type": "folder"
   }],
   "name": "OSINT Framework",
