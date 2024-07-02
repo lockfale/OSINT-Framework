@@ -460,6 +460,11 @@
         "url": "https://www.shodan.io/"
       },
       {
+        "name": "ODIN (R)",
+        "type": "url",
+        "url": "https://www.getodin.com/"
+      },
+      {
         "name": "Kraken",
         "type": "url",
         "url": "https://github.com/Sw4mpf0x/Kraken"
@@ -533,6 +538,11 @@
         "name": "certgraph (T)",
         "type": "url",
         "url": "https://github.com/lanrat/certgraph"
+      },
+      {
+        "name": "ODIN (R)",
+        "type": "url",
+        "url": "https://www.getodin.com/"
       }],
       "name": "Certificate Search",
       "type": "folder"
@@ -1175,6 +1185,16 @@
     {
       "children": [
       {
+        "name": "WormGPT-6 (R)",
+        "type": "url",
+        "url": "https://flowgpt.com/p/wormgpt-6"
+      }],
+      "name": "AI Tools",
+      "type": "folder"
+    },    
+    {
+      "children": [
+      {
         "name": "Microsoft",
         "type": "url",
         "url": "https://www.microsoft.com/en-us/wdsi/support/report-unsafe-site-guest"
@@ -1318,6 +1338,11 @@
         "name": "Masscan (T)",
         "type": "url",
         "url": "https://github.com/robertdavidgraham/masscan"
+      },
+      {
+        "name": "ODIN (R)",
+        "type": "url",
+        "url": "https://www.getodin.com/"
       }],
       "name": "Host / Port Discovery",
       "type": "folder"
@@ -1338,6 +1363,11 @@
         "name": "Onyphe",
         "type": "url",
         "url": "https://www.onyphe.io/"
+      },
+      {
+        "name": "ODIN (R)",
+        "type": "url",
+        "url": "https://www.getodin.com/"
       },
       {
         "name": "IPv4 CIDR Report",
@@ -3670,11 +3700,6 @@
         "url": "http://www.infobel.com/en/world/"
       },
       {
-        "name": "Manta",
-        "type": "url",
-        "url": "http://www.manta.com/business"
-      },
-      {
         "name": "AIHIT",
         "type": "url",
         "url": "https://www.aihitdata.com/"
@@ -3757,7 +3782,7 @@
       {
         "name": "Manta Small Business Directory",
         "type": "url",
-        "url": "http://manta.com/business"
+        "url": "https://www.manta.com/business-directory"
       },
       {
         "name": "Crunchbase",
@@ -5827,9 +5852,9 @@
         "url": "https://github.com/sundowndev/PhoneInfoga"
       },
       {
-	"name": "IntelligenceX",
-	"type": "url",
-	"url": "https://intelx.io/"
+      	"name": "IntelligenceX",
+      	"type": "url",
+      	"url": "https://intelx.io/"
       },
       {
         "name": "Analyst Research Tools",
@@ -6901,3 +6926,4 @@
   "name": "OSINT Framework",
   "type": "folder"
 }
+
