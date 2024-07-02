@@ -5745,11 +5745,6 @@
   {
     "children": [
     {
-      "name": "Vulert: Vulnerable Open Source Dependencies Scanner",
-      "type": "url",
-      "url": "https://vulert.com/abom"
-    },
-    {
       "children": [
       {
         "name": "DataSploit (T)",
@@ -5832,9 +5827,9 @@
         "url": "https://github.com/sundowndev/PhoneInfoga"
       },
       {
-	"name": "IntelligenceX",
-	"type": "url",
-	"url": "https://intelx.io/"
+      	"name": "IntelligenceX",
+      	"type": "url",
+      	"url": "https://intelx.io/"
       }],
       "name": "OSINT Automation",
       "type": "folder"
