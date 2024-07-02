@@ -1191,6 +1191,11 @@
       "type": "folder",
       "children": [
       {
+        "name": "ChatGPT (R)",
+        "type": "url",
+        "url": "https://chatgpt.com/"
+      },
+      {
         "name": "WormGPT-6 (R)",
         "type": "url",
         "url": "https://flowgpt.com/p/wormgpt-6"
