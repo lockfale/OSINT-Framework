@@ -460,7 +460,7 @@
         "url": "https://www.shodan.io/"
       },
       {
-        "name": "ODIN by Cyble",
+        "name": "ODIN (R)",
         "type": "url",
         "url": "https://www.getodin.com/"
       },
@@ -540,7 +540,7 @@
         "url": "https://github.com/lanrat/certgraph"
       },
       {
-        "name": "ODIN by Cyble",
+        "name": "ODIN (R)",
         "type": "url",
         "url": "https://www.getodin.com/"
       }],
@@ -1330,7 +1330,7 @@
         "url": "https://github.com/robertdavidgraham/masscan"
       },
       {
-        "name": "ODIN by Cyble",
+        "name": "ODIN (R)",
         "type": "url",
         "url": "https://www.getodin.com/"
       }],
@@ -1355,7 +1355,7 @@
         "url": "https://www.onyphe.io/"
       },
       {
-        "name": "ODIN by Cyble",
+        "name": "ODIN (R)",
         "type": "url",
         "url": "https://www.getodin.com/"
       },
