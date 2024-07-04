@@ -11,6 +11,11 @@
       "type": "folder",
       "children": [
       {
+        "name": "Sherlock (T)",
+        "type": "url",
+        "url": "https://github.com/sherlock-project/sherlock"
+      },
+      {
         "name": "WhatsMyName",
         "type": "url",
         "url": "https://whatsmyname.app/"
