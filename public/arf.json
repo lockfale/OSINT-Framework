@@ -432,6 +432,11 @@
               "url": "https://www.shodan.io/"
             },
             {
+              "name": "ODIN (R)",
+              "type": "url",
+              "url": "https://www.getodin.com/"
+            },
+            {
               "name": "Kraken",
               "type": "url",
               "url": "https://github.com/Sw4mpf0x/Kraken"
@@ -496,6 +501,11 @@
               "name": "certgraph (T)",
               "type": "url",
               "url": "https://github.com/lanrat/certgraph"
+            },
+            {
+              "name": "ODIN (R)",
+              "type": "url",
+              "url": "https://www.getodin.com/"
             }
           ]
         },
@@ -1004,6 +1014,22 @@
           ]
         },
         {
+          "name": "AI Tools",
+          "type": "folder",
+          "children": [
+            {
+              "name": "ChatGPT (R)",
+              "type": "url",
+              "url": "https://chatgpt.com/"
+            },
+            {
+              "name": "WormGPT-6 (R)",
+              "type": "url",
+              "url": "https://flowgpt.com/p/wormgpt-6"
+            }
+          ]
+        },
+        {
           "name": "Report Malicious Sites",
           "type": "folder",
           "children": [
@@ -1139,6 +1165,11 @@
               "name": "Masscan (T)",
               "type": "url",
               "url": "https://github.com/robertdavidgraham/masscan"
+            },
+            {
+              "name": "ODIN (R)",
+              "type": "url",
+              "url": "https://www.getodin.com/"
             }
           ]
         },
@@ -1155,6 +1186,11 @@
               "name": "Onyphe",
               "type": "url",
               "url": "https://www.onyphe.io/"
+            },
+            {
+              "name": "ODIN (R)",
+              "type": "url",
+              "url": "https://www.getodin.com/"
             },
             {
               "name": "IPv4 CIDR Report",
@@ -3183,11 +3219,6 @@
               "url": "http://www.infobel.com/en/world/"
             },
             {
-              "name": "Manta (R)",
-              "type": "url",
-              "url": "http://www.manta.com/business"
-            },
-            {
               "name": "AIHIT",
               "type": "url",
               "url": "https://www.aihitdata.com/"
@@ -3260,7 +3291,7 @@
             {
               "name": "Manta Small Business Directory",
               "type": "url",
-              "url": "http://manta.com/business"
+              "url": "https://www.manta.com/business-directory"
             },
             {
               "name": "Crunchbase",
@@ -5146,6 +5177,11 @@
               "name": "IntelligenceX",
               "type": "url",
               "url": "https://intelx.io/"
+            },
+            {
+              "name": "Analyst Research Tools",
+              "type": "url",
+              "url": "https://analystresearchtools.com"
             }
           ]
         },
@@ -5234,6 +5270,7 @@
         }
       ]
     },
+
     {
       "name": "Malicious File Analysis",
       "type": "folder",
