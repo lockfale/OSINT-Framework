@@ -5948,6 +5948,11 @@
       "url": "https://chatgpt.com/"
     },
     {
+      "name": "DuckDuckGo AI Chat",
+      "type": "url",
+      "url": "https://duckduckgo.com/aichat"
+    },
+    {
       "name": "WormGPT-6 (R)",
       "type": "url",
       "url": "https://flowgpt.com/p/wormgpt-6"
