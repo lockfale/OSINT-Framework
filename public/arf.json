@@ -1995,7 +1995,7 @@
           "url": "http://www.tubechop.com/"
         },
         {
-          "name": "YouTube Data Tools",
+          "name": "YouTube \ Tools",
           "type": "url",
           "url": "https://tools.digitalmethods.net/netvizz/youtube/"
         },
@@ -5795,6 +5795,11 @@
         "name": "IFTTT",
         "type": "url",
         "url": "https://ifttt.com/"
+      },
+      {
+        "name": "Slash",
+        "type": "url",
+        "url": "https://github.com/redc86/slash"
       },
       {
         "name": "Stringify",
