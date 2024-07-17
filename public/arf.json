@@ -6067,6 +6067,11 @@
         "url": "https://malwareconfig.com/"
       },
       {
+        "name": "MetaDefender",
+        "type": "url",
+        "url": "https://metadefender.opswat.com/"
+      },
+      {
         "name": "Ether",
         "type": "url",
         "url": "http://ether.gtisc.gatech.edu/web_unpack"
