@@ -286,6 +286,11 @@
         "url": "http://whois.domaintools.com/"
       },
       {
+        "name": "SWITCH Internet Domains Whois (.ch)",
+        "type": "url",
+        "url": "https://www.nic.ch/whois/"
+      },
+      {
         "name": "Domain Big Data",
         "type": "url",
         "url": "http://domainbigdata.com/"
