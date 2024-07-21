@@ -5762,6 +5762,11 @@
       "type": "folder",
       "children": [
       {
+        "name": "Pentester",
+        "type": "url",
+        "url": "https://pentester.com"
+      },
+      {
         "name": "DataSploit (T)",
         "type": "url",
         "url": "https://github.com/datasploit/datasploit/"
