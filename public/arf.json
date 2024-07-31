@@ -2224,22 +2224,7 @@
           "type": "url",
           "url": "https://www.facebook.com/livemap#"
         }]
-      },
-      {
-        "name": "Analytics",
-        "type": "folder",
-        "children": [
-        {
-          "name": "fb-sleep-stats (T)",
-          "type": "url",
-          "url": "https://github.com/sqren/fb-sleep-stats"
-        },
-        {
-          "name": "Facebook Scanner",
-          "type": "url",
-          "url": "http://stalkscan.com/en/"
-        }]
-      }]
+      },]
     },
     {
       "name": "Instagram",
