@@ -11,6 +11,11 @@
       "type": "folder",
       "children": [
       {
+        "name": "Oculus (T)",
+        "type": "url",
+        "url": "https://github.com/ppfeister/oculus"
+      },
+      {
         "name": "Sherlock (T)",
         "type": "url",
         "url": "https://github.com/sherlock-project/sherlock"
@@ -115,6 +120,11 @@
       "name": "Email Search",
       "type": "folder",
       "children": [
+      {
+        "name": "Oculus (T)",
+        "type": "url",
+        "url": "https://github.com/ppfeister/oculus"
+      },
       {
         "name": "ThatsThem",
         "type": "url",
@@ -2705,6 +2715,11 @@
       "name": "Search",
       "type": "folder",
       "children": [
+      {
+        "name": "Oculus (T)",
+        "type": "url",
+        "url": "https://github.com/ppfeister/oculus"
+      },
       {
         "name": "Social Searcher",
         "type": "url",
@@ -5766,6 +5781,11 @@
       "name": "OSINT Automation",
       "type": "folder",
       "children": [
+      {
+        "name": "Oculus (T)",
+        "type": "url",
+        "url": "https://github.com/ppfeister/oculus"
+      },
       {
         "name": "DataSploit (T)",
         "type": "url",
