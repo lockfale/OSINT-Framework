@@ -11,9 +11,9 @@
       "type": "folder",
       "children": [
       {
-        "name": "Oculus (T)",
+        "name": "Sylva Identity Discovery (T)",
         "type": "url",
-        "url": "https://github.com/ppfeister/oculus"
+        "url": "https://sylva.pfeister.dev/"
       },
       {
         "name": "Sherlock (T)",
@@ -121,9 +121,9 @@
       "type": "folder",
       "children": [
       {
-        "name": "Oculus (T)",
+        "name": "Sylva Identity Discovery (T)",
         "type": "url",
-        "url": "https://github.com/ppfeister/oculus"
+        "url": "https://sylva.pfeister.dev/"
       },
       {
         "name": "ThatsThem",
@@ -2716,9 +2716,9 @@
       "type": "folder",
       "children": [
       {
-        "name": "Oculus (T)",
+        "name": "Sylva Identity Discovery (T)",
         "type": "url",
-        "url": "https://github.com/ppfeister/oculus"
+        "url": "https://sylva.pfeister.dev/"
       },
       {
         "name": "Social Searcher",
@@ -5782,9 +5782,9 @@
       "type": "folder",
       "children": [
       {
-        "name": "Oculus (T)",
+        "name": "Sylva Identity Discovery (T)",
         "type": "url",
-        "url": "https://github.com/ppfeister/oculus"
+        "url": "https://sylva.pfeister.dev/"
       },
       {
         "name": "DataSploit (T)",
