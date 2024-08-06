@@ -6423,6 +6423,11 @@
       "url": "https://github.com/csirtgadgets/massive-octo-spice"
     },
     {
+      "name": "Scam Database",
+      "type": "url",
+      "url": "https://www.scamdb.net/"
+    },
+    {
       "name": "Bot Scout",
       "type": "url",
       "url": "http://botscout.com/"
