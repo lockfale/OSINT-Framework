@@ -1,151 +1,260 @@
-var margin = [20, 120, 20, 140],
-    width = 1280 - margin[1] - margin[3],
-    height = 800 - margin[0] - margin[2],
-    i = 0,
-    duration = 1250,
-    root;
+// Set up dimensions and margins
+const margin = {top: 20, right: 120, bottom: 20, left: 120};
+const width = 1280 - margin.left - margin.right;
+const height = 800 - margin.top - margin.bottom;
 
-var tree = d3.layout.tree()
-    .size([height, width]);
+// Create the SVG container
+const svg = d3.select("#tree-container").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom);
 
-var diagonal = d3.svg.diagonal()
-    .projection(function(d) { return [d.y, d.x]; });
+// Create a group for the zoomable area
+const g = svg.append("g")
+    .attr("transform", `translate(${margin.left},${margin.top})`);
 
-var vis = d3.select("#body").append("svg:svg")
-    .attr("width", width + margin[1] + margin[3])
-    .attr("height", height + margin[0] + margin[2])
-  .append("svg:g")
-    .attr("transform", "translate(" + margin[3] + "," + margin[0] + ")");
-
-d3.json("arf.json", function(json) {
-  root = json;
-  root.x0 = height / 2;
-  root.y0 = 0;
-
-  function collapse(d) {
-    if (d.children) {
-      d._children = d.children;
-      d._children.forEach(collapse);
-      d.children = null;
-    }
-  }
-
-/*  function toggleAll(d) {
-    if (d.children) {
-      d.children.forEach(toggleAll);
-      toggle(d);
-    }
-  } */
-  root.children.forEach(collapse);
-  update(root);
-});
-
-function update(source) {
-  // var duration = d3.event && d3.event.altKey ? 5000 : 500;
-
-  // Compute the new tree layout.
-  var nodes = tree.nodes(root).reverse();
-
-  // Normalize for fixed-depth.
-  nodes.forEach(function(d) { d.y = d.depth * 180; });
-
-  // Update the nodes…
-  var node = vis.selectAll("g.node")
-      .data(nodes, function(d) { return d.id || (d.id = ++i); });
-
-  // Enter any new nodes at the parent's previous position.
-  var nodeEnter = node.enter().append("svg:g")
-      .attr("class", "node")
-      .attr("transform", function(d) { return "translate(" + source.y0 + "," + source.x0 + ")"; })
-      .on("click", function(d) { toggle(d); update(d); });
-
-  nodeEnter.append("svg:circle")
-      .attr("r", 1e-6)
-      .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
-
-  nodeEnter.append('a')
-      .attr("target", "_blank")
-      .attr('xlink:href', function(d) { return d.url; })
-      .append("svg:text")
-      .attr("x", function(d) { return d.children || d._children ? -10 : 10; })
-      .attr("dy", ".35em")
-      .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
-      .text(function(d) { return d.name; })
-      .style("fill: rgb(0, 0, 0)", function(d) { return d.free ? 'black' : '#999'; })
-      .style("fill-opacity", 1e-6);
-
-  nodeEnter.append("svg:title")
-    .text(function(d) {
-      return d.description;
+// Create zoom behavior
+const zoom = d3.zoom()
+    .scaleExtent([0.1, 4])
+    .on("zoom", (event) => {
+        g.attr("transform", event.transform);
     });
 
-  // Transition nodes to their new position.
-  var nodeUpdate = node.transition()
-      .duration(duration)
-      .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
+// Apply zoom behavior to SVG
+svg.call(zoom);
 
-  nodeUpdate.select("circle")
-      .attr("r", 6)
-      .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
+let i = 0;
+let root;
 
-  nodeUpdate.select("text")
-      .style("fill-opacity", 1);
+// Define tree layout
+let tree = d3.tree().nodeSize([30, 200]); // Increased node sizing
 
-  // Transition exiting nodes to the parent's new position.
-  var nodeExit = node.exit().transition()
-      .duration(duration)
-      .attr("transform", function(d) { return "translate(" + source.y + "," + source.x + ")"; })
-      .remove();
+function update(source, zoomToFit = false) {
+    // Compute the new tree layout
+    const treeData = tree(root);
+    const nodes = treeData.descendants();
+    const links = treeData.links();
 
-  nodeExit.select("circle")
-      .attr("r", 1e-6);
+    // Normalize for fixed-depth and adjust for text width
+    nodes.forEach(d => {
+        d.y = d.depth * 250; // Increased horizontal spacing
+        d.x = d.x * 1.5; // Increased vertical spacing
+    });
 
-  nodeExit.select("text")
-      .style("fill-opacity", 1e-6);
+    // Update nodes
+    const node = g.selectAll(".node")
+        .data(nodes, d => d.id || (d.id = ++i));
 
-  // Update the links…
-  var link = vis.selectAll("path.link")
-      .data(tree.links(nodes), function(d) { return d.target.id; });
+    const nodeEnter = node.enter().append("g")
+        .attr("class", "node")
+        .attr("transform", d => `translate(${source.y0},${source.x0})`)
+        .on("click", (event, d) => {
+            if (d.children || d._children) {
+                if (d.children) {
+                    d._children = d.children;
+                    d.children = null;
+                } else {
+                    d.children = d._children;
+                    d._children = null;
+                }
+                update(d, true); // Pass true to zoom to the clicked node
+            } else if (d.data.url) {
+                // Open the URL in a new tab/window
+                window.open(d.data.url, '_blank');
+            }
+        });
 
-  // Enter any new links at the parent's previous position.
-  link.enter().insert("svg:path", "g")
-      .attr("class", "link")
-      .attr("d", function(d) {
-        var o = {x: source.x0, y: source.y0};
-        return diagonal({source: o, target: o});
-      })
-    .transition()
-      .duration(duration)
-      .attr("d", diagonal);
+        nodeEnter.append("circle")
+        .attr("r", 5)
+        .style("fill", d => getNodeFill(d))
+        .style("stroke", d => getNodeStroke(d))
+        .style("stroke-width", 1.5);
+    
+    nodeEnter.append("text")
+        .attr("dy", ".35em")
+        .attr("x", d => d.children || d._children ? -13 : 13)
+        .attr("text-anchor", d => d.children || d._children ? "end" : "start")
+        .text(d => d.data.name)
+        .style("font-size", "12px")
+        .style("fill", d => getTextColor(d))
+        .style("font-weight", d => d.data.url ? "bold" : "normal");
 
-  // Transition links to their new position.
-  link.transition()
-      .duration(duration)
-      .attr("d", diagonal);
+    const nodeUpdate = nodeEnter.merge(node);
 
-  // Transition exiting nodes to the parent's new position.
-  link.exit().transition()
-      .duration(duration)
-      .attr("d", function(d) {
-        var o = {x: source.x, y: source.y};
-        return diagonal({source: o, target: o});
-      })
-      .remove();
+    nodeUpdate.transition()
+        .duration(750)
+        .attr("transform", d => `translate(${d.y},${d.x})`);
 
-  // Stash the old positions for transition.
-  nodes.forEach(function(d) {
-    d.x0 = d.x;
-    d.y0 = d.y;
-  });
+    node.exit().transition()
+        .duration(750)
+        .attr("transform", d => `translate(${source.y},${source.x})`)
+        .remove();
+
+    // Update links
+    const link = g.selectAll(".link")
+        .data(links, d => d.target.id);
+
+    link.enter().insert("path", "g")
+        .attr("class", "link")
+        .attr("d", d3.linkHorizontal()
+            .x(d => d.y)
+            .y(d => d.x));
+
+    link.transition()
+        .duration(750)
+        .attr("d", d3.linkHorizontal()
+            .x(d => d.y)
+            .y(d => d.x));
+
+    link.exit().transition()
+        .duration(750)
+        .attr("d", d3.linkHorizontal()
+            .x(d => source.y)
+            .y(d => source.x))
+        .remove();
+
+    // Store the old positions for transition.
+    nodes.forEach(d => {
+        d.x0 = d.x;
+        d.y0 = d.y;
+    });
+
+    // Zoom to fit the clicked node if zoomToFit is true
+    if (zoomToFit) {
+        zoomToNode(source);
+    }
 }
 
-// Toggle children.
-function toggle(d) {
-  if (d.children) {
-    d._children = d.children;
-    d.children = null;
-  } else {
-    d.children = d._children;
-    d._children = null;
+function getNodeFill(d) {
+  if (d.data.url) return "#c6dbef";  // Light blue for link nodes
+  if (d._children) return "#3182bd";  // Darker blue for collapsed nodes
+  if (d.children) return "#fff";  // White for expanded nodes
+  return "#fff";  // White for leaves without links
+}
+
+function getNodeStroke(d) {
+  if (d.data.url) return "#3182bd";  // Darker blue outline for link nodes
+  return "#3182bd";  // Blue outline for all other nodes
+}
+
+function getTextColor(d) {
+  if (d.data.url) return "#3182bd";  // Blue text for link nodes
+  return "black";  // Black text for all other nodes
+}
+
+function getNodeStroke(d) {
+  if (d.data.url) return "#3182bd";  // Darker blue outline for link nodes
+  return "#3182bd";  // Blue outline for all other nodes
+}
+
+function getTextColor(d) {
+  if (d.data.url) return "#3182bd";  // Blue text for link nodes
+  return "black";  // Black text for all other nodes
+}
+
+g.selectAll(".node")
+    .on("mouseover", function(event, d) {
+        d3.select(this).select("circle")
+            .transition()
+            .duration(300)
+            .attr("r", 7);
+    })
+    .on("mouseout", function(event, d) {
+        d3.select(this).select("circle")
+            .transition()
+            .duration(300)
+            .attr("r", 5);
+    });
+
+function zoomToNode(source) {
+  console.log("Zooming to node:", source);
+  const bounds = getBounds(source);
+  console.log("Calculated bounds:", bounds);
+
+  if (!bounds || bounds.width === 0 || bounds.height === 0) {
+      console.error("Invalid bounds calculated. Using node position for zoom.");
+      bounds.x0 = bounds.x1 = source.y;
+      bounds.y0 = bounds.y1 = source.x;
+      bounds.width = bounds.height = 1;
   }
+
+  const fullWidth = width + margin.left + margin.right;
+  const fullHeight = height + margin.top + margin.bottom;
+
+  // Add padding to the bounds
+  const padding = 100; // Adjust this value to increase/decrease padding
+  bounds.x0 -= padding;
+  bounds.x1 += padding;
+  bounds.y0 -= padding;
+  bounds.y1 += padding;
+  bounds.width += 2 * padding;
+  bounds.height += 2 * padding;
+
+  const widthScale = fullWidth / bounds.width;
+  const heightScale = fullHeight / bounds.height;
+  let scale = Math.min(widthScale, heightScale);
+
+  // Limit the maximum zoom level
+  scale = Math.min(scale, 1.5); // Adjust this value to set the maximum zoom level
+
+  const translate = [
+      fullWidth / 2 - scale * (bounds.x1 + bounds.x0) / 2,
+      fullHeight / 2 - scale * (bounds.y1 + bounds.y0) / 2
+  ];
+
+  console.log("Applying transform:", { translate, scale });
+
+  svg.transition().duration(750).call(
+      zoom.transform,
+      d3.zoomIdentity.translate(translate[0], translate[1]).scale(scale)
+  );
 }
+
+function getBounds(source) {
+    if (!source) return null;
+
+    let left = source, right = source, top = source, bottom = source;
+    
+    if (source.children) {
+        source.children.forEach(child => {
+            const childBounds = getBounds(child);
+            if (childBounds) {
+                if (childBounds.x0 < left.y) left = child;
+                if (childBounds.x1 > right.y) right = child;
+                if (childBounds.y0 < top.x) top = child;
+                if (childBounds.y1 > bottom.x) bottom = child;
+            }
+        });
+    }
+    
+    return {
+        x0: left.y,
+        y0: top.x,
+        x1: right.y,
+        y1: bottom.x,
+        width: right.y - left.y,
+        height: bottom.x - top.x
+    };
+}
+
+// Initial render
+d3.json("arf.json").then(function(data) {
+    root = d3.hierarchy(data);
+    
+    root.x0 = height / 2;
+    root.y0 = 0;
+
+    // Collapse all nodes initially
+    root.descendants().forEach(d => {
+        if (d.children) {
+            d._children = d.children;
+            d.children = null;
+        }
+    });
+    
+    update(root);
+
+    // Initial centering of the tree
+    zoomToNode(root);
+}).catch(function(error) {
+    console.error("Error loading the JSON file:", error);
+});
