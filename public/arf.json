@@ -5920,7 +5920,13 @@
         "name": "OWASP D4N155 (T)",
         "type": "url",
         "url": "https://github.com/OWASP/D4N155"
-      }]
+      },
+      {
+        "name": "W Generator",
+        "type": "url",
+        "url": "https://app.wgen.io/"
+      }
+    ]
     },
     {
       "name": "Paterva / Maltego (T)",
