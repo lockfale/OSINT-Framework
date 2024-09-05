@@ -6810,6 +6810,11 @@
         "name": "Full Page Screen Capture Chrome Extension (T)",
         "type": "url",
         "url": "https://github.com/mrcoles/full-page-screen-capture-chrome-extension"
+      },
+      {
+        "name": "EZR OSINT Sidebar (T)",
+        "type": "url",
+        "url": "https://chromewebstore.google.com/detail/ezr-osint-sidebar/joagbbgciboooipadijeaoidjjigdmof"
       }]
     },
     {
