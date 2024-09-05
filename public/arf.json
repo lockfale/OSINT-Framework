@@ -354,6 +354,11 @@
         "name": "IP2WHOIS",
         "type": "url",
         "url": "https://www.ip2whois.com"
+      },
+      {
+        "name": "Netlas.io",
+        "type": "url",
+        "url": "https://app.netlas.io/whois_domains/"
       }]
     },
     {
@@ -454,6 +459,11 @@
         "name": "AltDNS (T)",
         "type": "url",
         "url": "https://github.com/infosec-au/altdns"
+      },
+      {
+        "name": "Netlas.io",
+        "type": "url",
+        "url": "https://app.netlas.io/domains/"
       }]
     },
     {
@@ -464,6 +474,11 @@
         "name": "Shodan",
         "type": "url",
         "url": "https://www.shodan.io/"
+      },
+      {
+        "name": "Netlas.io",
+        "type": "url",
+        "url": "https://app.netlas.io/"
       },
       {
         "name": "ODIN (R)",
@@ -549,6 +564,11 @@
         "name": "ODIN (R)",
         "type": "url",
         "url": "https://www.getodin.com/"
+      },
+      {
+        "name": "Netlas.io",
+        "type": "url",
+        "url": "https://app.netlas.io/certs/"
       }]
     },
     {
