@@ -6922,6 +6922,130 @@
       "type": "url",
       "url": "http://www.catb.org/esr/faqs/smart-questions.html"
     }]
+  },
+  {
+    "name": "Pirated Games",
+    "type": "folder",
+    "children": [
+      {
+        "name": "Game Search Engines",
+        "type": "folder",
+        "children": [
+          {
+            "name": "Rezi",
+            "type": "url",
+            "url": "https://rezi.one/"
+          },
+          {
+            "name": "Custom Google-based search engine",
+            "type": "url",
+            "url": "https://cse.google.com/cse?cx=20c2a3e5f702049aa"
+          },
+          {
+            "name": "Hatt (T)",
+            "type": "url",
+            "url": "https://github.com/FrenchGithubUser/Hatt"
+          }
+        ]
+      },
+      {
+        "name": "Torrent sites",
+        "type": "folder",
+        "children": [
+          {
+            "name": "1337x",
+            "type": "url",
+            "url": "https://1337x.to/"
+          },
+          {
+            "name": "EMPRESS Releases",
+            "type": "url",
+            "url": "https://telegra.ph/empress-biography-07-15"
+          },
+          {
+            "name": "RuTor",
+            "type": "url",
+            "url": "http://www.rutor.info/"
+          },
+          {
+            "name": "RuTracker",
+            "type": "url",
+            "url": "https://rutracker.org/"
+          },
+          {
+            "name": "Rustorka",
+            "type": "url",
+            "url": "http://rustorka.com/"
+          },
+          {
+            "name": "Tapocheck",
+            "type": "url",
+            "url": "https://tapochek.net/index.php"
+          }
+        ]
+      },
+      {
+        "name": "DDL Sites",
+        "type": "folder",
+        "children": [
+          {
+            "name": "Archive.org",
+            "type": "url",
+            "url": "https://archive.org/details/classicpcgames"
+          },
+          {
+            "name": "MyAbandonware",
+            "type": "url",
+            "url": "https://www.myabandonware.com/"
+          },
+          {
+            "name": "OldGamesDownload",
+            "type": "url",
+            "url": "https://oldgamesdownload.com/"
+          },
+          {
+            "name": "FitGirl Repacks",
+            "type": "url",
+            "url": "https://fitgirl-repacks.site/"
+          },
+          {
+            "name": "CS.RIN.RU (R)",
+            "type": "url",
+            "url": "https://cs.rin.ru/forum/"
+          },
+          {
+            "name": "CS.RIN.RU GOG Games (R)",
+            "type": "url",
+            "url": "https://cs.rin.ru/forum/viewtopic.php?f=38&t=136823"
+          },
+          {
+            "name": "G4U - Games for you",
+            "type": "url",
+            "url": "https://g4u.to/"
+          },
+          {
+            "name": "GLOAD",
+            "type": "url",
+            "url": "https://gload.cc/"
+          },
+          {
+            "name": "Gamesdrive",
+            "type": "url",
+            "url": "https://gamesdrive.net/"
+          },
+          {
+            "name": "GOG Games",
+            "type": "url",
+            "url": "https://www.gog-games.to/"
+          },
+          {
+            "name": "APKMirror - Android",
+            "type": "url",
+            "url": "https://www.apkmirror.com/"
+          }
+        ]
+      }
+    ]
   }]
 }
 
