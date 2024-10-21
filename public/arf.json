@@ -6831,13 +6831,7 @@
   {
     "children": [
     {
-      "children": [
-      {
-        "name": "A Google A Day",
-        "type": "url",
-        "url": "http://www.agoogleaday.com/"
-      },
-      {
+      "children": [{
         "name": "GeoGuesser",
         "type": "url",
         "url": "https://geoguessr.com/"
@@ -6856,11 +6850,6 @@
       "url": "https://www.forensicosint.com/osint-guide"
     },
     {
-      "name": "AutomatingOSINT.com",
-      "type": "url",
-      "url": "http://register.automatingosint.com/"
-    },
-    {
       "name": "Open Source Intelligence Techniques",
       "type": "url",
       "url": "https://inteltechniques.com/"
@@ -6874,11 +6863,6 @@
       "name": "SANS SEC487 OSINT Class",
       "type": "url",
       "url": "https://www.sans.org/sec487"
-    },
-    {
-      "name": "NetBootCamp",
-      "type": "url",
-      "url": "https://netbootcamp.org/trainingprogram/"
     },
     {
       "name": "Smart Questions",
