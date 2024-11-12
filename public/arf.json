@@ -4137,6 +4137,16 @@
       "url": "http://map.baidu.com/"
     },
     {
+      "name": "Bellingcat OpenStreetMap search (R)",
+      "type": "url",
+      "url": "https://osm-search.bellingcat.com/"
+    },
+    {
+      "name": "overpass turbo",
+      "type": "url",
+      "url": "https://overpass-turbo.eu/"
+    },
+    {
       "name": "Corona",
       "type": "url",
       "url": "http://corona.cast.uark.edu/"
@@ -4205,11 +4215,6 @@
       "name": "OpenInfrastructureMap",
       "type": "url",
       "url": "openinframap.org/"
-    },
-    {
-      "name": "OpenStreetMap Routing Service",
-      "type": "url",
-      "url": "http://www.yournavigation.org/"
     },
     {
       "name": "Hiking & Biking Map",
