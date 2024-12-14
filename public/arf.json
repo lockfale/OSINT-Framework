@@ -5306,6 +5306,11 @@
         "url": "https://www.reddit.com/r/onions"
       },
       {
+	"name": "Onion Live",
+        "type": "url",
+        "url": "https://onion.live/"      
+      },
+      {
         "name": "Reddit Darknet",
         "type": "url",
         "url": "https://www.reddit.com/r/darknet"
