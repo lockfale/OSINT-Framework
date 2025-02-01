@@ -2036,6 +2036,10 @@
       "type": "folder",
       "children": [
       {
+	"name": "Dotspotter"
+	"type": "url",
+	"url": "https://forensicdots.de"
+	{      
         "name": "Search",
         "type": "folder",
         "children": [
