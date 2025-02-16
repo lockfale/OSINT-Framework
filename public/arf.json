@@ -2170,11 +2170,6 @@
         "type": "folder",
         "children": [
         {
-          "name": "Find my Facebook ID",
-          "type": "url",
-          "url": "http://findmyfbid.com/"
-        },
-        {
           "name": "FB Email Search",
           "type": "url",
           "url": "https://www.facebook.com/public?query=email@gmail.com&nomc=0"
@@ -2190,16 +2185,6 @@
           "url": "https://www.facebook.com/photo.php?fbid=PHOTO-ID-HERE"
         },
         {
-          "name": "FB People Directory",
-          "type": "url",
-          "url": "https://www.facebook.com/directory/people/"
-        },
-        {
-          "name": "NetBootCamp FB Search Tool",
-          "type": "url",
-          "url": "http://netbootcamp.org/facebook.html"
-        },
-        {
           "name": "FB Lookup ID",
           "type": "url",
           "url": "https://lookup-id.com/"
@@ -2208,21 +2193,6 @@
           "name": "FB Identify (Requires Logout)",
           "type": "url",
           "url": "https://www.facebook.com/login/identify"
-        },
-        {
-          "name": "Search is Back!",
-          "type": "url",
-          "url": "https://searchisback.com/"
-        },
-        {
-          "name": "Socialsearching",
-          "type": "url",
-          "url": "http://socialsearching.info/#/fb"
-        },
-        {
-          "name": "Facebook Live Map",
-          "type": "url",
-          "url": "https://www.facebook.com/livemap#"
         }]
       },
       {
@@ -2233,11 +2203,6 @@
           "name": "fb-sleep-stats (T)",
           "type": "url",
           "url": "https://github.com/sqren/fb-sleep-stats"
-        },
-        {
-          "name": "Facebook Scanner",
-          "type": "url",
-          "url": "http://stalkscan.com/en/"
         }]
       }]
     },
@@ -2280,59 +2245,14 @@
           "url": "https://twitter.com/search?q=SearchTerm%20since:2016-03-01%20until:2016-03-02"
         },
         {
-          "name": "Twitter Name Search",
-          "type": "url",
-          "url": "https://twitter.com/#!/who_to_follow"
-        },
-        {
-          "name": "Twitter User Directory",
-          "type": "url",
-          "url": "https://twitter.com/i/directory/profiles/"
-        },
-        {
-          "name": "Twitter Search for Live Streaming Video",
-          "type": "url",
-          "url": "https://twitter.com/search?q=%23periscope%20OR%20%23meerkat"
-        },
-        {
-          "name": "ConWeets",
-          "type": "url",
-          "url": "http://www.conweets.com/"
-        },
-        {
-          "name": "Twitterfall",
-          "type": "url",
-          "url": "https://twitterfall.com/"
-        },
-        {
-          "name": "Twellow",
-          "type": "url",
-          "url": "https://www.twellow.com/splash/"
-        },
-        {
-          "name": "TweetReach",
-          "type": "url",
-          "url": "https://tweetreach.com/"
-        },
-        {
           "name": "BackTweets",
           "type": "url",
           "url": "http://backtweets.com/"
         },
         {
-          "name": "Moz Profile Search",
+          "name": "Followerwonk (R)",
           "type": "url",
-          "url": "https://moz.com/followerwonk/bio/?q=zero%20day&l=us"
-        },
-        {
-          "name": "HootSuite",
-          "type": "url",
-          "url": "https://hootsuite.com/feed/SearchTerm?pfilter="
-        },
-        {
-          "name": "TweetDeck",
-          "type": "url",
-          "url": "https://tweetdeck.twitter.com/"
+          "url": "https://followerwonk.com/"
         },
         {
           "name": "Twopcharts",
@@ -2340,34 +2260,9 @@
           "url": "http://twopcharts.com/"
         },
         {
-          "name": "Twitter Email Test",
-          "type": "url",
-          "url": "https://pdevesian.eu/tet"
-        },
-        {
           "name": "TweeterID",
           "type": "url",
           "url": "https://tweeterid.com/"
-        },
-        {
-          "name": "Twoogel Search Engine",
-          "type": "url",
-          "url": "http://twoogel.com/"
-        },
-        {
-          "name": "Treeverse (T)",
-          "type": "url",
-          "url": "https://github.com/paulgb/Treeverse"
-        }]
-      },
-      {
-        "name": "Pictures",
-        "type": "folder",
-        "children": [
-        {
-          "name": "Twicsy",
-          "type": "url",
-          "url": "http://twicsy.com/"
         }]
       },
       {
@@ -2384,24 +2279,9 @@
             "url": "http://tweepsect.com/"
           },
           {
-            "name": "Followerwonk Analyze",
-            "type": "url",
-            "url": "https://moz.com/followerwonk/analyze"
-          },
-          {
-            "name": "Followerwonk Compare",
-            "type": "url",
-            "url": "https://moz.com/followerwonk/compare"
-          },
-          {
             "name": "Twitonomy",
             "type": "url",
             "url": "http://www.twitonomy.com/"
-          },
-          {
-            "name": "Klear",
-            "type": "url",
-            "url": "http://klear.com/"
           },
           {
             "name": "Foller.me Analytics",
@@ -2409,29 +2289,9 @@
             "url": "https://foller.me/"
           },
           {
-            "name": "MentionMapp",
-            "type": "url",
-            "url": "http://mentionmapp.com/"
-          },
-          {
-            "name": "SleepingTime",
-            "type": "url",
-            "url": "http://sleepingtime.org/"
-          },
-          {
-            "name": "Bioischanged (M)",
-            "type": "url",
-            "url": "http://bioischanged.com/%3Ctwitterusername%3E"
-          },
-          {
-            "name": "X0rz Tweets_analyzer",
+            "name": "X0rz Tweets_analyzer (T)",
             "type": "url",
             "url": "https://github.com/x0rz/tweets_analyzer"
-          },
-          {
-            "name": "Social Bearing",
-            "type": "url",
-            "url": "https://socialbearing.com/"
           }]
         },
         {
@@ -2439,19 +2299,9 @@
           "type": "folder",
           "children": [
           {
-            "name": "Tagboard",
-            "type": "url",
-            "url": "https://tagboard.com/"
-          },
-          {
             "name": "RiteTag",
             "type": "url",
             "url": "https://ritetag.com/"
-          },
-          {
-            "name": "Trendsmap",
-            "type": "url",
-            "url": "http://trendsmap.com/"
           },
           {
             "name": "TAGSExplorer",
@@ -2500,29 +2350,9 @@
           "url": "http://geosocialfootprint.com/"
         },
         {
-          "name": "TweetPaths",
+          "name": "HEAVY.AI OmniSci Tweetmap",
           "type": "url",
-          "url": "http://www.tweetpaths.com/maps"
-        },
-        {
-          "name": "TeachingPrivacy",
-          "type": "url",
-          "url": "http://app.teachingprivacy.com/"
-        },
-        {
-          "name": "Echosec",
-          "type": "url",
-          "url": "https://app.echosec.net/"
-        },
-        {
-          "name": "MIT Map",
-          "type": "url",
-          "url": "http://mapd.csail.mit.edu/tweetmap/"
-        },
-        {
-          "name": "Harvard Map",
-          "type": "url",
-          "url": "http://worldmap.harvard.edu/tweetmap/"
+          "url": "https://www.heavy.ai/demos/tweetmap"
         },
         {
           "name": "One Million Tweet Map",
@@ -2530,24 +2360,14 @@
           "url": "http://onemilliontweetmap.com/"
         },
         {
-          "name": "Creepy",
+          "name": "Creepy (T)",
           "type": "url",
           "url": "http://www.geocreepy.com/"
         },
         {
-          "name": "Tweepsmap",
+          "name": "Fedica",
           "type": "url",
-          "url": "http://tweepsmap.com/"
-        },
-        {
-          "name": "GeoTweet",
-          "type": "url",
-          "url": "http://geotweet.altervista.org/#"
-        },
-        {
-          "name": "MapD Tweetmap",
-          "type": "url",
-          "url": "https://www.mapd.com/demos/tweetmap/"
+          "url": "https://fedica.com/"
         }]
       },
       {
@@ -2560,11 +2380,6 @@
           "url": "https://www.allmytweets.net/connect/"
         },
         {
-          "name": "Deadbird",
-          "type": "url",
-          "url": "https://deadbird.site/"
-        },
-        {
           "name": "Spoonbill",
           "type": "url",
           "url": "https://spoonbill.io"
@@ -2574,11 +2389,6 @@
           "type": "url",
           "url": "https://github.com/T3hUb3rK1tten/TweetVacuum"
         }]
-      },
-      {
-        "name": "Twitter Back From The Dead",
-        "type": "url",
-        "url": "https://github.com/misterch0c/twitterBFTD"
       }]
     },
     {
@@ -2596,11 +2406,6 @@
         "url": "http://www.redditarchive.com/"
       },
       {
-        "name": "reddit metrics",
-        "type": "url",
-        "url": "http://redditmetrics.com/"
-      },
-      {
         "name": "subreddits",
         "type": "url",
         "url": "http://subreddits.org/"
@@ -2616,19 +2421,24 @@
       "type": "folder",
       "children": [
       {
-        "name": "LinkedInt - LinkedIn Recon Tool",
+        "name": "LinkedInt - LinkedIn Recon Tool (T)",
         "type": "url",
         "url": "https://github.com/vysec/LinkedInt"
       },
       {
-        "name": "ScrapedIn",
+        "name": "ScrapedIn (T)",
         "type": "url",
         "url": "https://github.com/dchrastil/ScrapedIn"
       },
       {
-        "name": "InSpy",
+        "name": "InSpy (T)",
         "type": "url",
         "url": "https://github.com/leapsecurity/InSpy"
+      }
+      {
+        "name": "raven (T)",
+        "type": "url",
+        "url": "https://github.com/0x09AL/raven"
       }]
     },
     {
@@ -2638,7 +2448,17 @@
       {
         "name": "TikTok Viewer",
         "type": "url",
-        "url": "https://urlebird.com//"
+        "url": "https://urlebird.com/"
+      }]
+    },
+    {
+      "name": "Bluesky",
+      "type": "folder",
+      "children": [
+      {
+        "name": "Treeverse (T)",
+        "type": "url",
+        "url": "https://github.com/paulgb/Treeverse"
       }]
     },
     {
@@ -2686,11 +2506,6 @@
         "url": "http://ok.ru/"
       },
       {
-        "name": "raven (T)",
-        "type": "url",
-        "url": "https://github.com/0x09AL/raven"
-      },
-      {
         "name": "Delicious",
         "type": "url",
         "url": "https://del.icio.us/"
@@ -2711,16 +2526,6 @@
         "url": "http://www.social-searcher.com/google-social-search/"
       },
       {
-        "name": "Periscope Search",
-        "type": "url",
-        "url": "http://www.perisearch.net/"
-      },
-      {
-        "name": "Periscope with known Username (M)",
-        "type": "url",
-        "url": "https://www.periscope.tv/%3Cusername%3E"
-      },
-      {
         "name": "SocialBlade.com",
         "type": "url",
         "url": "http://socialblade.com/"
@@ -2731,19 +2536,9 @@
         "url": "https://www.talkwalker.com/social-media-analytics-search"
       },
       {
-        "name": "BuzzSumo Most Shared",
-        "type": "url",
-        "url": "https://app.buzzsumo.com/research/most-shared"
-      },
-      {
         "name": "PinGroupie",
         "type": "url",
         "url": "http://pingroupie.com/"
-      },
-      {
-        "name": "Searchlr",
-        "type": "url",
-        "url": "http://searchlr.net/"
       },
       {
         "name": "Google CSE for Telegram links",
