@@ -1829,6 +1829,11 @@
           "type": "url",
           "url": "http://www.geosetter.de/en/"
         },
+	{
+          "name": "Metadata2go",
+          "type": "url",
+          "url": "https://www.metadata2go.com/"
+        },
         {
           "name":"xeuledoc - Fetch metadata about any public Google document",
           "type":"url",
