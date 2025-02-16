@@ -6921,7 +6921,10 @@
       "name": "Smart Questions",
       "type": "url",
       "url": "http://www.catb.org/esr/faqs/smart-questions.html"
-    }]
-  }]
-}
+    },
+    {
+      "name": "Metadata2go",
+      "type": "url",
+      "url": "https://www.metadata2go.com/"
+ 
 
