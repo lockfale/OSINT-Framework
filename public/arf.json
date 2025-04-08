@@ -5415,6 +5415,11 @@
         "name": "Ahmia",
         "type": "url",
         "url": "https://ahmia.fi/"
+      },      
+      {
+        "name": "Aleph Open Search",
+        "type": "url",
+        "url": "https://open-search.aleph-netwoks.eu/"
       }]
     },
     {
