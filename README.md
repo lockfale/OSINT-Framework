@@ -1,6 +1,5 @@
 # OSINT Framework
 
-**THIS IS A Fork of the original OSINT-Framework repository, being used for adding/editing items and then generating pull requests back into the original repo.**
 http://osintframework.com
 
 ## Notes
