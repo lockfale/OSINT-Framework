@@ -6831,7 +6831,8 @@
   {
     "children": [
     {
-      "children": [{
+      "children": [
+	{
         "name": "GeoGuesser",
         "type": "url",
         "url": "https://geoguessr.com/"
