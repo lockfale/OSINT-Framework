@@ -2641,6 +2641,16 @@
         "url": "https://urlebird.com//"
       }]
     },
+		{
+			"name": "Steam, Discord & Gaming Networks",
+			"type": "folder",
+			"children":	[
+				{
+					"name": "SteamOSINT",
+					"type": "url",
+					"url": "https://github.com/Frontline-Femmes/Steam-OSINT"
+				}]
+		},
     {
       "name": "Other Social Networks",
       "type": "folder",
