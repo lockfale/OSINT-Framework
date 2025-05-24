@@ -219,6 +219,11 @@
         "name": "MailboxValidator",
         "type": "url",
         "url": "https://www.mailboxvalidator.com/demo"
+      },
+      {
+        "name": "kaspr",
+        "type": "url",
+        "url": "https://www.kaspr.io/"
       }]
     },
     {
