@@ -6085,7 +6085,12 @@
         "name": "Any Run",
         "type": "url",
         "url": "https://app.any.run/"
-      }]
+      },
+      {
+	"name": "Uncover It",
+	"type": "url",
+	"url": "https://www.uncoverit.org/",
+	]
     },
     {
       "name": "Office Files",
