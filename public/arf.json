@@ -21,16 +21,6 @@
         "url": "https://namechk.com/"
       },
       {
-        "name": "KnowEm",
-        "type": "url",
-        "url": "http://knowem.com/"
-      },
-      {
-        "name": "NameCheckr",
-        "type": "url",
-        "url": "https://www.namecheckr.com/"
-      },
-      {
         "name": "UserSearch.org",
         "type": "url",
         "url": "https://usersearch.org/"
@@ -41,19 +31,9 @@
         "url": "https://github.com/WebBreacher/WhatsMyName"
       },
       {
-        "name": "WhatsMyName",
-        "type": "url",
-        "url": "https://whatsmyname.app/"
-      },
-      {
         "name": "Thats Them",
         "type": "url",
         "url": "https://thatsthem.com/"
-      },
-      {
-        "name": "Check Usernames",
-        "type": "url",
-        "url": "http://checkusernames.com/"
       },
       {
         "name": "NameCheckup",
@@ -171,9 +151,9 @@
         "url": "https://www.email-format.com/"
       },
       {
-        "name": "Toofr",
+        "name": "Find emails (R)",
         "type": "url",
-        "url": "https://www.toofr.com/"
+        "url": "https://www.findemails.com/"
       },
       {
         "name": "Email Permutator",
