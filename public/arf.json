@@ -226,6 +226,11 @@
       "type": "folder",
       "children": [
       {
+        "name": "LeakRadar.io",
+        "type": "url",
+        "url": "https://leakradar.io/"
+      },
+      {
         "name": "Have I been pwned?",
         "type": "url",
         "url": "https://haveibeenpwned.com/"
@@ -360,7 +365,12 @@
       "name": "Subdomains",
       "type": "folder",
       "children": [
-        {
+      {
+        "name": "SubdomainRadar.io",
+        "type": "url",
+        "url": "https://subdomainradar.io/"
+      },
+      {
         "name": "SynapsInt",
         "type": "url",
         "url": "https://synapsint.com"
