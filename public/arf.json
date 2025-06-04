@@ -1794,6 +1794,11 @@
           "type": "url",
           "url": "http://www.sno.phy.queensu.ca/~phil/exiftool/"
         },
+	{
+          "name": "ExifEditor",
+          "type": "url",
+          "url": "https://exifeditor.io"
+        },
         {
           "name": "Jeffrey's Exif Viewer",
           "type": "url",
