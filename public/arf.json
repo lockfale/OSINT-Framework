@@ -2622,6 +2622,16 @@
       }]
     },
     {
+      "name": "Steam, Discord & Gaming Networks",
+      "type": "folder",
+      "children": [
+      {
+        "name": "SteamOSINT (T)",
+        "type": "url",
+        "url": "https://github.com/Frontline-Femmes/Steam-OSINT"
+      }]
+    },
+    {
       "name": "Other Social Networks",
       "type": "folder",
       "children": [
