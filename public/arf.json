@@ -2204,21 +2204,6 @@
           "type": "url",
           "url": "https://www.facebook.com/livemap#"
         }]
-      },
-      {
-        "name": "Analytics",
-        "type": "folder",
-        "children": [
-        {
-          "name": "fb-sleep-stats (T)",
-          "type": "url",
-          "url": "https://github.com/sqren/fb-sleep-stats"
-        },
-        {
-          "name": "Facebook Scanner",
-          "type": "url",
-          "url": "http://stalkscan.com/en/"
-        }]
       }]
     },
     {
@@ -5410,11 +5395,6 @@
         "type": "url",
         "url": "http://eqt5g4fuenphqinx.onion/"
       }]
-    },
-    {
-      "name": "Tor2web",
-      "type": "url",
-      "url": "https://tor2web.org/"
     },
     {
       "name": "Web O Proxy",
