@@ -31,6 +31,11 @@
         "url": "https://github.com/WebBreacher/WhatsMyName"
       },
       {
+        "name": "WhatsMyName",
+        "type": "url",
+        "url": "https://whatsmyname.app/"
+      },
+      {
         "name": "Thats Them",
         "type": "url",
         "url": "https://thatsthem.com/"
@@ -149,11 +154,6 @@
         "name": "Email Format",
         "type": "url",
         "url": "https://www.email-format.com/"
-      },
-      {
-        "name": "Find emails (R)",
-        "type": "url",
-        "url": "https://www.findemails.com/"
       },
       {
         "name": "Email Permutator",
@@ -6090,7 +6090,7 @@
 	"name": "Uncover It",
 	"type": "url",
 	"url": "https://www.uncoverit.org/",
-	]
+      }]
     },
     {
       "name": "Office Files",
