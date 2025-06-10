@@ -6735,6 +6735,11 @@
         "name": "The Many Hats Club - Privacy Resources",
         "type": "url",
         "url": "https://themanyhats.club/centralised-place-for-privacy-resources/"
+      },
+      {
+	"name": "The Hitchhiker’s Guide to Online Anonymity",
+	"type": "url",
+	"url": "https://anonymousplanet.org/guide/"
       }]
     },
     {
