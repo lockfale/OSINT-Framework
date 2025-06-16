@@ -16,6 +16,20 @@ body {
   text-align: center;
 }
 
+.dark-Mode{
+  background-color: #000;
+  color: #fff;
+  .node text {
+    fill: #fff;
+  }
+  .legend{
+    color: #fff;
+  }
+  path.link{
+    stroke: #444;
+  }
+}
+
 .legend {
   position: absolute;
   top: 0px;

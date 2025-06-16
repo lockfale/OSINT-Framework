@@ -149,3 +149,8 @@ function toggle(d) {
     d._children = null;
   }
 }
+//Togle Dark Mode
+function goDark() {
+  var element = document.body;
+  element.classList.toggle("dark-Mode");
+} 
