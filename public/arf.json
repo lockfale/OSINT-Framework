@@ -51,6 +51,11 @@
         "url": "https://instantusername.com/"
       },
       {
+        "name": "IDCrawl Username Search",
+        "type": "url",
+        "url": "https://www.idcrawl.com/username"
+      },
+      {
         "name": "Names Directory",
         "type": "url",
         "url": "https://namesdir.com/"
@@ -2749,6 +2754,11 @@
         "name": "Fast People Search",
         "type": "url",
         "url": "https://www.fastpeoplesearch.com/"
+      },
+      {
+        "name": "IDCrawl",
+        "type": "url",
+        "url": "https://www.idcrawl.com/"
       }]
     },
     {
