@@ -6062,6 +6062,11 @@
       "type": "folder",
       "children": [
       {
+        "name": "SecAI.ai",
+        "type": "url",
+        "url": "https://secai.ai/research"
+      },
+      {
         "name": "https://openphish.com/feed.txt",
         "type": "url",
         "url": "https://openphish.com/feed.txt"
