@@ -4030,6 +4030,11 @@
       "name": "Wayback Imagery",
       "type": "url",
       "url": "https://livingatlas.arcgis.com/wayback/"
+    },
+    {
+      "name": "SkyFi.com - Satellite Open Data (R)",
+      "type": "url",
+      "url": "https://app.skyfi.com/explore/open"
     }]
   },
   {
