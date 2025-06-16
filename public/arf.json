@@ -1640,6 +1640,11 @@
           "url": "http://images.yahoo.com/"
         },
         {
+          "name": "FaceCheck Facial Recognition Search",
+          "type": "url",
+          "url": "https://facecheck.id/"
+        },
+        {
           "name": "TinEye Reverse Image Search",
           "type": "url",
           "url": "http://tineye.com/"
