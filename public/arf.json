@@ -2536,6 +2536,11 @@
         "url": "http://ok.ru/"
       },
       {
+        "name": "VK",
+        "type": "url",
+        "url": "https://vk.com/"
+      },
+      {
         "name": "Delicious",
         "type": "url",
         "url": "https://del.icio.us/"
@@ -4764,6 +4769,11 @@
         "name": "Waybackpack (T)",
         "type": "url",
         "url": "https://github.com/jsvine/waybackpack"
+      },
+      {
+        "name": "Web Archive-RU",
+        "type": "url",
+        "url": "https://web-arhive.ru/"
       }]
     },
     {
@@ -6017,6 +6027,11 @@
       "name": "Malware Analysis Tools",
       "type": "url",
       "url": "http://malwareanalysis.tools/"
+    },
+    {
+      "name": "virustotal",
+      "type": "url",
+      "url": "https://www.virustotal.com/gui/home/upload"
     }]
   },
   {
