@@ -146,9 +146,9 @@
         "url": "http://www.skymem.info/"
       },
       {
-	      "name": "Epieos",
-	      "type": "url",
-	      "url": "https://epieos.com/"
+        "name": "Epieos",
+	"type": "url",
+	"url": "https://epieos.com/"
       }]
     },
     {
