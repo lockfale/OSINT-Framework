@@ -11,6 +11,16 @@
       "type": "folder",
       "children": [
       {
+        "name": "Sylva Identity Discovery (T)",
+        "type": "url",
+        "url": "https://sylva.pfeister.dev/"
+      },
+      {
+        "name": "Sherlock (T)",
+        "type": "url",
+        "url": "https://github.com/sherlock-project/sherlock"
+      },
+      {
         "name": "WhatsMyName",
         "type": "url",
         "url": "https://whatsmyname.app/"
@@ -100,6 +110,11 @@
       "name": "Email Search",
       "type": "folder",
       "children": [
+      {
+        "name": "Sylva Identity Discovery (T)",
+        "type": "url",
+        "url": "https://sylva.pfeister.dev/"
+      },
       {
         "name": "ThatsThem",
         "type": "url",
