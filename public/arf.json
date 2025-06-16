@@ -2637,19 +2637,9 @@
         "url": "http://ok.ru/"
       },
       {
-        "name": "ВКонтакте",
+        "name": "VK",
         "type": "url",
         "url": "https://vk.com/"
-      },
-      {
-        "name": "ЯRUS",
-        "type": "url",
-        "url": "https://www.yarus.ru/"
-      },
-      {
-        "name": "Яндекс.Дзен",
-        "type": "url",
-        "url": "https://zen.yandex.ru/"
       },
       {
         "name": "raven (T)",
@@ -6237,7 +6227,7 @@
       "name": "Malware Analysis Tools",
       "type": "url",
       "url": "http://malwareanalysis.tools/"
-    }
+    },
     {
       "name": "virustotal",
       "type": "url",
