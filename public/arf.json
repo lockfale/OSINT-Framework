@@ -4139,6 +4139,21 @@
         "name": "Hulbee",
         "type": "url",
         "url": "https://hulbee.com/"
+      },
+      {
+        "name": "Swisscows",
+        "type": "url",
+        "url": "https://swisscows.com/"
+      },
+      {
+        "name": "Brave",
+        "type": "url",
+        "url": "https://search.brave.com/"
+      },
+      {
+        "name": "Stract",
+        "type": "url",
+        "url": "https://stract.com/"
       }]
     },
     {
