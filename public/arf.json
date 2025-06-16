@@ -2716,11 +2716,6 @@
       "type": "folder",
       "children": [
       {
-        "name": "Sylva Identity Discovery (T)",
-        "type": "url",
-        "url": "https://sylva.pfeister.dev/"
-      },
-      {
         "name": "Social Searcher",
         "type": "url",
         "url": "http://www.social-searcher.com/"
@@ -5781,11 +5776,6 @@
       "name": "OSINT Automation",
       "type": "folder",
       "children": [
-      {
-        "name": "Sylva Identity Discovery (T)",
-        "type": "url",
-        "url": "https://sylva.pfeister.dev/"
-      },
       {
         "name": "DataSploit (T)",
         "type": "url",
