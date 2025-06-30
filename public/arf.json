@@ -1454,6 +1454,11 @@
         "name": "BGP Tools",
         "type": "url",
         "url": "http://www.bgp4.as/tools"
+      },
+      {
+        "name": "BGPView",
+        "type": "url",
+        "url": "https://bgpview.io/"
       }]
     },
     {
@@ -3609,6 +3614,11 @@
         "name": "Crunchbase",
         "type": "url",
         "url": "https://www.crunchbase.com/#/home/index"
+      },
+      {
+        "name": "OpenSanctions",
+        "type": "url",
+        "url": "https://www.opensanctions.org/"
       }]
     },
     {
@@ -5700,6 +5710,11 @@
         "name": "Analyst Research Tools",
         "type": "url",
         "url": "https://analystresearchtools.com"
+      },
+      {
+        "name": "Triage",
+        "type": "url",
+        "url": "https://tria.ge/"
       }]
     },
     {
@@ -5812,6 +5827,36 @@
       "name": "WormGPT-6 (R)",
       "type": "url",
       "url": "https://flowgpt.com/p/wormgpt-6"
+    },
+    {
+      "name": "Perplexity (R)",
+      "type": "url",
+      "url": "https://www.perplexity.ai/"
+    },
+    {
+      "name": "DeepSeek (R)",
+      "type": "url",
+      "url": "https://chat.deepseek.com/"
+    },
+    {
+      "name": "Google Gemini (R)",
+      "type": "url",
+      "url": "https://gemini.google.com/"
+    },
+    {
+      "name": "Anthropic Claude (R)",
+      "type": "url",
+      "url": "https://claude.ai/"
+    },
+    {
+      "name": "Poe by Quora (R)",
+      "type": "url",
+      "url": "https://poe.com/"
+    },
+    {
+      "name": "Microsoft Copilot",
+      "type": "url",
+      "url": "https://copilot.microsoft.com/"
     }]
   },  
   {
@@ -5976,6 +6021,11 @@
 	"name": "Uncover It",
 	"type": "url",
 	"url": "https://www.uncoverit.org/"
+      },
+      {
+        "name": "Triage",
+        "type": "url",
+        "url": "https://tria.ge/"
       }]
     },
     {
@@ -6628,7 +6678,7 @@
         "url": "https://themanyhats.club/centralised-place-for-privacy-resources/"
       },
       {
-	"name": "The Hitchhiker’s Guide to Online Anonymity",
+	"name": "The Hitchhiker's Guide to Online Anonymity",
 	"type": "url",
 	"url": "https://anonymousplanet.org/guide/"
       }]
