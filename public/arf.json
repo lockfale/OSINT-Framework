@@ -1748,6 +1748,11 @@
           "name": "Picarta",
           "type": "url",
           "url": "https://picarta.ai/"
+        },
+        {
+          "name": "FaceSeek Face Search Engine",
+          "type": "url",
+          "url": "https://faceseek.online"
         }]
       },
       {
