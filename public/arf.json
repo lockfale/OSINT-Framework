@@ -164,6 +164,11 @@
         "name": "Epieos",
 	"type": "url",
 	"url": "https://epieos.com/"
+      },
+      {
+        "name": "SpotThem (R)",
+        "type": "url",
+        "url": "https://spotthem.com/"
       }]
     },
     {
@@ -3075,6 +3080,11 @@
       "name": "Numspy-Api",
       "type": "url",
       "url": "https://numspy.pythonanywhere.com/"
+    },
+    {
+        "name": "SpotThem (R)",
+        "type": "url",
+        "url": "https://spotthem.com/"
     }]
   },
   {
