@@ -121,7 +121,7 @@
         "url": "https://thatsthem.com/reverse-email-lookup"
       },
       {
-        "name": "Hunter",
+        "name": "Hunter (R)",
         "type": "url",
         "url": "https://hunter.io/"
       },
@@ -131,7 +131,7 @@
         "url": "http://www.melissadata.com/lookups/emails.asp"
       },
       {
-        "name": "VoilaNorbert",
+        "name": "VoilaNorbert (R)",
         "type": "url",
         "url": "https://www.voilanorbert.com/"
       },
@@ -141,7 +141,7 @@
         "url": "https://github.com/mxrch/GHunt"
       },
       {
-        "name": "OSINT Industries",
+        "name": "OSINT Industries (R)",
         "type": "url",
         "url": "https://osint.industries/"
       },
@@ -239,11 +239,6 @@
         "name": "DeHashed (R)",
         "type": "url",
         "url": "https://dehashed.com/"
-      },
-      {
-        "name": "Vigilante.pw",
-        "type": "url",
-        "url": "https://www.vigilante.pw/"
       },
       {
         "name": "Ashley Madison Emails",
