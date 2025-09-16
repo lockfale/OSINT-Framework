@@ -6370,7 +6370,7 @@
       {
         "name": "Faker.js",
         "type": "url",
-        "url": "https://cdn.rawgit.com/Marak/faker.js/master/examples/browser/index.html"
+        "url": "https://cdn.jsdelivr.net/npm/@faker-js/faker@10.0.0/dist/index.min.js"
       }]
     },
     {
