@@ -3821,6 +3821,11 @@
         "url": "https://nova.astrometry.net/"
       },
       {
+        "name": "Overpass Turbo",
+        "type": "url",
+        "url": "https://overpass-turbo.eu/"
+      },
+      {
         "name": "SunCalc",
         "type": "url",
         "url": "http://suncalc.net/"
@@ -5700,6 +5705,11 @@
         "name": "Analyst Research Tools",
         "type": "url",
         "url": "https://analystresearchtools.com"
+      },
+      {
+        "name": "Predicta Search",
+        "type": "url",
+        "url": "https://predictasearch.com/"
       }]
     },
     {
@@ -5812,6 +5822,11 @@
       "name": "WormGPT-6 (R)",
       "type": "url",
       "url": "https://flowgpt.com/p/wormgpt-6"
+    },
+    {
+      "name":"DorkGPT",
+      "type": "url",
+      "url":"https://www.dorkgpt.com/"
     }]
   },  
   {
@@ -6652,6 +6667,11 @@
       "name": "Web Browsing",
       "type": "folder",
       "children": [
+      {
+        "name": "Vortimo (T)",
+        "type": "url",
+        "url": "https://www.osint-tool.com/"
+      },
       {
         "name": "Hunchly (T)",
         "type": "url",
