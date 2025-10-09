@@ -3894,6 +3894,16 @@
         "name": "AntennaSearch",
         "type": "url",
         "url": "http://www.antennasearch.com/"
+      },
+      {
+        "name": "OpenCelliD",
+        "type": "url",
+        "url": "https://opencellid.org/"
+      },
+      {
+        "name": "beaconDB",
+        "type": "url",
+        "url": "https://beacondb.net/"
       }]
     },
     {
