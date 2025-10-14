@@ -1200,6 +1200,11 @@
         "type": "url",
         "url": "http://mct.verisign-grs.com/"
       },
+	  {
+        "name": "Cerast Intelligence Leaked Files",
+        "type": "url",
+        "url": "https://cerast-intelligence.com/"
+      },
       {
         "name": "Online Nikto scanner",
         "type": "url",
