@@ -1,0 +1,143 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main, modernization ]
+  pull_request:
+    branches: [ main, master ]
+  schedule:
+    - cron: '0 0 * * 0'  # Weekly on Sunday
+
+jobs:
+  lint:
+    name: Lint & Format Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Check JSON validity
+        run: |
+          node -e "JSON.parse(require('fs').readFileSync('public/arf.json', 'utf8'))"
+          echo "✅ arf.json is valid JSON"
+
+      - name: Run ESLint (if configured)
+        run: npm run lint --if-present
+        continue-on-error: true
+
+  test:
+    name: Test Suite
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run tests
+        run: npm test --if-present
+
+      - name: Build project
+        run: npm run build --if-present
+
+  link-validation:
+    name: Link Health Check
+    runs-on: ubuntu-latest
+    if: github.event_name == 'schedule' || github.event_name == 'push'
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run link validator
+        run: npm run validate-links
+        continue-on-error: true
+
+      - name: Upload link health report
+        uses: actions/upload-artifact@v4
+        with:
+          name: link-health-report
+          path: reports/link-health.json
+          retention-days: 30
+
+      - name: Create issue for broken links
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const report = JSON.parse(fs.readFileSync('reports/link-health.json', 'utf8'));
+
+            if (report.summary.broken > 0) {
+              const body = `## 🔗 Link Health Report
+
+            **Health Score**: ${report.summary.healthScore}
+
+            ### Summary
+            - ✅ Working: ${report.summary.working}
+            - ❌ Broken: ${report.summary.broken}
+            - ⊘ Skipped: ${report.summary.skipped}
+
+            ### Broken Links
+            ${report.brokenLinks.slice(0, 10).map(link =>
+              `- **${link.name}**\n  - URL: ${link.url}\n  - Error: ${link.error || link.statusCode}`
+            ).join('\n\n')}
+
+            ${report.brokenLinks.length > 10 ? `\n_... and ${report.brokenLinks.length - 10} more broken links_` : ''}
+
+            **Full report**: See workflow artifacts
+            `;
+
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: `[Automated] ${report.summary.broken} Broken Links Detected`,
+                body: body,
+                labels: ['automated', 'broken-links', 'maintenance']
+              });
+            }
+
+  security:
+    name: Security Audit
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Run npm audit
+        run: npm audit --audit-level=moderate
+        continue-on-error: true
+
+      - name: Check for known vulnerabilities
+        uses: snyk/actions/node@master
+        continue-on-error: true
+        env:
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+        with:
+          args: --severity-threshold=high
