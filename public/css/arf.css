@@ -181,3 +181,508 @@ path.link {
 .dark-Mode .no-results {
   color: #999;
 }
+
+/* ===========================
+   MOBILE RESPONSIVE DESIGN
+   =========================== */
+
+/* Tablet and below (≤1024px) */
+@media (max-width: 1024px) {
+  body {
+    font-size: 13px;
+  }
+
+  #header {
+    font-size: 32px;
+    top: 10px;
+    padding: 0 10px;
+  }
+
+  .legend {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .search-container {
+    max-width: 90%;
+    margin: 15px auto;
+  }
+
+  #search-results {
+    width: 90%;
+    top: 180px;
+  }
+}
+
+/* Mobile landscape and below (≤768px) */
+@media (max-width: 768px) {
+  body {
+    font-size: 12px;
+    overflow-x: hidden;
+  }
+
+  #header {
+    font-size: 24px;
+    top: 5px;
+    padding: 0 5px;
+  }
+
+  .legend {
+    font-size: 9px;
+    padding: 5px;
+  }
+
+  .search-container {
+    flex-direction: column;
+    gap: 8px;
+    max-width: 95%;
+    margin: 10px auto;
+  }
+
+  #search-input {
+    font-size: 16px; /* Prevents iOS zoom on focus */
+    padding: 12px 15px;
+  }
+
+  .clear-btn {
+    padding: 12px 20px;
+    font-size: 16px;
+  }
+
+  #search-results {
+    width: 95%;
+    top: 200px;
+    max-height: 300px;
+  }
+
+  .search-results-list li {
+    padding: 15px 12px; /* Larger touch targets */
+  }
+
+  .node text {
+    font-size: 11px;
+  }
+
+  .node circle {
+    r: 6; /* Larger touch target */
+  }
+}
+
+/* Mobile portrait (≤480px) */
+@media (max-width: 480px) {
+  #header {
+    font-size: 20px;
+  }
+
+  .legend {
+    font-size: 8px;
+  }
+
+  #search-input,
+  .clear-btn {
+    font-size: 16px; /* iOS zoom prevention */
+  }
+
+  #search-results {
+    top: 220px;
+    max-height: 250px;
+  }
+
+  .result-path {
+    font-size: 10px;
+  }
+
+  .node text {
+    font-size: 10px;
+  }
+
+  #body {
+    width: 100%;
+    overflow-x: auto;
+  }
+}
+
+/* Touch-friendly enhancements */
+@media (hover: none) and (pointer: coarse) {
+  /* Mobile touch devices */
+  .node circle {
+    stroke-width: 2px;
+  }
+
+  .search-results-list li {
+    min-height: 44px; /* iOS touch target minimum */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .clear-btn,
+  #search-input {
+    min-height: 44px;
+  }
+
+  /* Prevent text selection on tap */
+  .node text,
+  .search-results-list li {
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+  }
+
+  /* Better visual feedback for touches */
+  .node circle:active {
+    stroke-width: 3px;
+    stroke: #ff8c00;
+  }
+
+  .search-results-list li:active {
+    background-color: steelblue;
+    color: white;
+  }
+
+  .dark-Mode .search-results-list li:active {
+    background-color: #4682b4;
+  }
+}
+
+/* Landscape orientation optimizations */
+@media (max-width: 768px) and (orientation: landscape) {
+  #header {
+    font-size: 18px;
+    top: 2px;
+  }
+
+  .search-container {
+    flex-direction: row;
+    margin: 5px auto;
+  }
+
+  #search-results {
+    top: 120px;
+    max-height: 200px;
+  }
+
+  .legend {
+    font-size: 8px;
+    padding: 3px;
+  }
+}
+
+/* High DPI displays */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .node circle {
+    stroke-width: 1.5px;
+  }
+
+  path.link {
+    stroke-width: 1.5px;
+  }
+}
+
+/* ===========================
+   FAVORITES & EXPORT SYSTEM
+   =========================== */
+
+/* Favorites button */
+.favorites-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: steelblue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  z-index: 1001;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.favorites-btn:hover {
+  background-color: #4682b4;
+}
+
+.favorites-badge {
+  background-color: #ff4444;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 8px;
+  font-size: 12px;
+  display: none;
+}
+
+/* Favorites panel */
+.favorites-panel {
+  position: fixed;
+  top: 0;
+  right: -500px;
+  width: 500px;
+  height: 100vh;
+  background: white;
+  box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+  transition: right 0.3s ease;
+  z-index: 2000;
+  display: flex;
+  flex-direction: column;
+}
+
+.favorites-panel.open {
+  right: 0;
+}
+
+.favorites-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.favorites-header h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #666;
+}
+
+.close-btn:hover {
+  color: #000;
+}
+
+.favorites-controls {
+  display: flex;
+  gap: 8px;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  flex-wrap: wrap;
+}
+
+.export-btn,
+.import-btn,
+.clear-all-btn {
+  padding: 8px 12px;
+  border: 1px solid steelblue;
+  background-color: white;
+  color: steelblue;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: all 0.3s;
+}
+
+.export-btn:hover,
+.import-btn:hover {
+  background-color: steelblue;
+  color: white;
+}
+
+.clear-all-btn {
+  border-color: #ff4444;
+  color: #ff4444;
+  margin-left: auto;
+}
+
+.clear-all-btn:hover {
+  background-color: #ff4444;
+  color: white;
+}
+
+.favorites-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 15px;
+}
+
+.empty-favorites {
+  text-align: center;
+  padding: 40px 20px;
+  color: #666;
+}
+
+.favorite-item {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.favorite-info {
+  flex: 1;
+}
+
+.favorite-meta {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+  font-size: 11px;
+  color: #666;
+}
+
+.favorite-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.visit-btn,
+.remove-btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: all 0.3s;
+}
+
+.visit-btn {
+  background-color: steelblue;
+  color: white;
+  text-decoration: none;
+}
+
+.visit-btn:hover {
+  background-color: #4682b4;
+}
+
+.remove-btn {
+  background-color: #f0f0f0;
+  color: #666;
+}
+
+.remove-btn:hover {
+  background-color: #ff4444;
+  color: white;
+}
+
+/* Favorite star on nodes */
+.favorite-star {
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 8px;
+  transition: transform 0.2s;
+}
+
+.favorite-star:hover {
+  transform: scale(1.2);
+}
+
+/* Toast notifications */
+.toast-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 3000;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.toast {
+  padding: 12px 20px;
+  border-radius: 4px;
+  color: white;
+  font-size: 14px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  opacity: 0;
+  transform: translateX(100px);
+  transition: all 0.3s ease;
+}
+
+.toast.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.toast-success {
+  background-color: #28a745;
+}
+
+.toast-error {
+  background-color: #dc3545;
+}
+
+/* Dark mode adjustments */
+.dark-Mode .favorites-panel {
+  background-color: #222;
+  color: #fff;
+}
+
+.dark-Mode .favorites-header,
+.dark-Mode .favorites-controls {
+  border-bottom-color: #444;
+}
+
+.dark-Mode .favorite-item {
+  border-color: #444;
+  background-color: #2a2a2a;
+}
+
+.dark-Mode .close-btn {
+  color: #aaa;
+}
+
+.dark-Mode .close-btn:hover {
+  color: #fff;
+}
+
+.dark-Mode .export-btn,
+.dark-Mode .import-btn {
+  background-color: #2a2a2a;
+}
+
+.dark-Mode .remove-btn {
+  background-color: #3a3a3a;
+  color: #aaa;
+}
+
+/* Mobile responsive favorites */
+@media (max-width: 768px) {
+  .favorites-panel {
+    width: 100%;
+    right: -100%;
+  }
+
+  .favorites-btn {
+    top: 10px;
+    right: 10px;
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+
+  .favorites-controls {
+    flex-direction: column;
+  }
+
+  .export-btn,
+  .import-btn,
+  .clear-all-btn {
+    width: 100%;
+  }
+
+  .favorite-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .favorite-actions {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
