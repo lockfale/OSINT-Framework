@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <link type="text/css" rel="stylesheet" href="css/arf.css"/>
-    <script type="text/javascript" src="js/d3.v3.min.js"></script>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="OSINT Framework - Free tools and resources for open source intelligence gathering"/>
+    <link rel="stylesheet" href="css/arf.css"/>
     <title>OSINT Framework</title>
   </head>
 
@@ -11,11 +12,21 @@
     <div id="body">
       <div id="header">
         OSINT Framework
-          <hr/>
+        <div class="search-container">
+          <input
+            type="text"
+            id="search-input"
+            placeholder="Search tools... (e.g., 'username', 'email', 'github')"
+            oninput="performSearch(this.value)"
+          />
+          <button onclick="clearSearchResults()" class="clear-btn">Clear</button>
+        </div>
+        <hr/>
       </div>
+      <div id="search-results"></div>
     </div>
 
-    <script src="js/arf.js"></script>
+    <script type="module" src="js/arf-modernized.js"></script>
 
     <div class="legend"><p>(T) - Indicates a link to a tool that must be installed and run locally<br>
     (D) - Google Dork, for more information: <a href="https://en.wikipedia.org/wiki/Google_hacking">Google Hacking</a><br>
