@@ -60,3 +60,124 @@ path.link {
   stroke: #ccc;
   stroke-width: 1px;
 }
+
+/* Search functionality styles */
+.search-container {
+  margin: 20px auto;
+  max-width: 600px;
+  display: flex;
+  gap: 10px;
+}
+
+#search-input {
+  flex: 1;
+  padding: 10px 15px;
+  font-size: 14px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+#search-input:focus {
+  border-color: steelblue;
+}
+
+.clear-btn {
+  padding: 10px 20px;
+  background-color: steelblue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.clear-btn:hover {
+  background-color: #4682b4;
+}
+
+#search-results {
+  display: none;
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600px;
+  max-height: 400px;
+  overflow-y: auto;
+  background: white;
+  border: 2px solid steelblue;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+.search-results-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.search-results-list li {
+  padding: 12px 15px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.search-results-list li:hover {
+  background-color: #f0f8ff;
+}
+
+.search-results-list li:last-child {
+  border-bottom: none;
+}
+
+.result-path {
+  font-size: 11px;
+  color: #666;
+  margin-top: 4px;
+}
+
+.no-results {
+  padding: 20px;
+  text-align: center;
+  color: #666;
+}
+
+.node.highlighted circle {
+  fill: yellow !important;
+  stroke: orange !important;
+  stroke-width: 3px !important;
+}
+
+/* Dark mode adjustments */
+.dark-Mode #search-input {
+  background-color: #222;
+  color: #fff;
+  border-color: #444;
+}
+
+.dark-Mode #search-results {
+  background-color: #222;
+  border-color: #444;
+}
+
+.dark-Mode .search-results-list li {
+  border-bottom-color: #444;
+  color: #fff;
+}
+
+.dark-Mode .search-results-list li:hover {
+  background-color: #333;
+}
+
+.dark-Mode .result-path {
+  color: #999;
+}
+
+.dark-Mode .no-results {
+  color: #999;
+}
