@@ -6797,7 +6797,12 @@
       "name": "Smart Questions",
       "type": "url",
       "url": "http://www.catb.org/esr/faqs/smart-questions.html"
-    }]
+    },
+	{
+		"name": "C2Recon",
+		"type": "url",
+		"url": "https://c2recon.com/"
+	}]
   }]
 }
 
