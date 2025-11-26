@@ -3726,11 +3726,6 @@
         "url": "https://www.flightradar24.com/"
       },
       {
-        "name": "World Aeronautical Database",
-        "type": "url",
-        "url": "http://worldaerodata.com/"
-      },
-      {
         "name": "ADS-B Exchange",
         "type": "url",
         "url": "https://www.adsbexchange.com/"
