@@ -6134,11 +6134,6 @@
       "url": "https://www.owasp.org/index.php/Main_Page"
     },
     {
-      "name": "0day.today",
-      "type": "url",
-      "url": "http://0day.today/"
-    },
-    {
       "name": "Secunia",
       "type": "url",
       "url": "https://secuniaresearch.flexerasoftware.com/community/research/"
