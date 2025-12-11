@@ -556,6 +556,11 @@
         "url": "https://crt.sh/?"
       },
       {
+        "name": "CertKit - Certificate Transparency Log Search",
+        "type": "url",
+        "url": "https://www.certkit.io/tools/ct-logs/"
+      },
+      {
         "name": "certgraph (T)",
         "type": "url",
         "url": "https://github.com/lanrat/certgraph"
