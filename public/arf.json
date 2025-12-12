@@ -3774,6 +3774,11 @@
         "name": "Vessel Finder",
         "type": "url",
         "url": "https://www.vesselfinder.com/"
+      },
+      {
+        "name":"Global Fishing Watch vessel Tracking",
+        "type":"url",
+        "url":"https://globalfishingwatch.org"
       }]
     },
     {
