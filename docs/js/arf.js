@@ -10,10 +10,15 @@ function getResponsiveDimensions() {
     var marginBottom = isMobile ? 10 : 20;
     var marginLeft = isMobile ? 80 : 140;
 
+    // Make SVG larger than viewport to allow scrolling
+    // Multiply dimensions to accommodate expanded tree
+    var widthMultiplier = isMobile ? 3 : 2;
+    var heightMultiplier = isMobile ? 4 : 2;
+
     return {
         margin: [marginTop, marginRight, marginBottom, marginLeft],
-        width: viewportWidth - marginRight - marginLeft,
-        height: Math.max(viewportHeight - 200, 400), // Ensure minimum height
+        width: (viewportWidth - marginRight - marginLeft) * widthMultiplier,
+        height: Math.max((viewportHeight - 200) * heightMultiplier, 1200),
         isMobile: isMobile
     };
 }
@@ -32,11 +37,12 @@ var tree = d3.layout.tree()
 var diagonal = d3.svg.diagonal()
     .projection(function(d) { return [d.y, d.x]; });
 
-var vis = d3.select("#body").append("svg:svg")
+var vis = d3.select("#svg-container").append("svg:svg")
     .attr("width", width + margin[1] + margin[3])
     .attr("height", height + margin[0] + margin[2])
     .style("display", "block")
-    .style("margin", "0 auto")
+    .style("min-width", "100%")
+    .style("min-height", "100%")
   .append("svg:g")
     .attr("transform", "translate(" + margin[3] + "," + margin[0] + ")");
 
@@ -201,7 +207,7 @@ window.addEventListener('resize', function() {
     tree.size([height, width]);
 
     // Update SVG size
-    d3.select("#body svg")
+    d3.select("#svg-container svg")
       .attr("width", width + margin[1] + margin[3])
       .attr("height", height + margin[0] + margin[2]);
 

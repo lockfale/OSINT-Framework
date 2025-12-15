@@ -4,14 +4,23 @@ body {
   font-family: "Helvetica Neue", Helvetica;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  height: 100%;
 }
 
 #body {
   margin: 0 auto;
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
   width: 100%;
-  overflow-x: auto;
+  height: 100%;
 }
 
 #header {
@@ -45,14 +54,14 @@ body {
 }
 
 .legend {
-  position: absolute;
-  top: 0px;
-  right: 0;
+  position: relative;
   width: 330px;
   font-size: 11px;
   color: #000;
   padding: 10px;
   box-sizing: border-box;
+  margin: 10px auto;
+  max-width: 100%;
 }
 
 /* Mobile responsive legend */
@@ -140,14 +149,21 @@ path.link {
   }
 }
 
-/* Improve scrolling on iOS */
-#body {
-  -webkit-overflow-scrolling: touch;
-}
-
 /* Better touch targets for links in SVG */
 svg a {
   cursor: pointer;
+}
+
+/* SVG container for scrollable content */
+#svg-container {
+  width: 100%;
+  min-height: 600px;
+  position: relative;
+}
+
+svg {
+  display: block;
+  touch-action: pan-x pan-y;
 }
 
 /* iPhone 16 Pro and modern iOS device support */
