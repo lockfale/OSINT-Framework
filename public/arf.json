@@ -4491,6 +4491,11 @@
       "type": "folder",
       "children": [
       {
+        "name": "wayparam",
+        "type": "url",
+        "url": "https://github.com/aleff-github/wayparam"
+      },
+	  {
         "name": "Million Short",
         "type": "url",
         "url": "https://millionshort.com/"
