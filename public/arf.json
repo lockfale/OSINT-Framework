@@ -2236,6 +2236,11 @@
         "url": "https://inflact.com/profiles/instagram-viewer/"
       },
       {
+        "name": "Picuki - Your Instagram Viewer (Anonymous)",
+        "type": "url",
+        "url": "http://picuki.site"
+},
+      {
         "name": "Osintgram (T)",
         "type": "url",
         "url": "https://github.com/Datalux/Osintgram"
@@ -6798,6 +6803,30 @@
       "type": "url",
       "url": "http://www.catb.org/esr/faqs/smart-questions.html"
     }]
+  },
+  {
+    "name": "Temporary",
+    "type": "folder",
+    "children": [
+    {
+      "name": "Email",
+      "type": "folder",
+      "children": [
+      {
+        "name": "Temp Mail",
+        "type": "url",
+        "url": "https://temp-mail.org/en/"
+      },
+      {
+        "name": "Tempmailo",
+        "type": "url",
+        "url": "https://tempmailo.com/"
+      },
+      {
+        "name": "Disposable Gmail",
+        "type": "url",
+        "url": "https://www.emailnator.com/"
+      }]
+    }]
   }]
 }
-
