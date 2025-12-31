@@ -1,42 +1,120 @@
+:root {
+  --bg-color: #f9f9f9;
+  --text-color: #333333;
+  --header-color: #2c3e50;
+  --link-color: #d1d1d1;
+  --node-stroke: #5a7d9a;
+  --node-fill: #ffffff;
+  --node-text: #333333;
+  --legend-color: #555555;
+  --legend-bg: rgba(240, 240, 240, 0.9);
+  --match-color: #d9534f;
+  --path-color: #d9534f;
+}
+
 body {
-  background-color: #ffffff;
+  background-color: var(--bg-color);
+  color: var(--text-color);
   font-size: 14px;
-  font-family: "Helvetica Neue", Helvetica;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
 }
 
-#body {
-  margin: 0 auto;
-  position: relative;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 20px;
 }
 
-#header {
-  font-size: 40px;
-  font-weight: bold;
-  top: 20px;
+.nav-left,
+.nav-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.nav-center {
+  flex: 2;
   text-align: center;
 }
 
-.dark-Mode{
-  background-color: #000;
-  color: #fff;
-  .node text {
-    fill: #fff;
-  }
-  .legend{
-    color: #fff;
-  }
-  path.link{
-    stroke: #444;
-  }
+.nav-right {
+  justify-content: flex-end;
 }
 
-.legend {
-  position: absolute;
-  top: 0px;
-  right: 0;
-  width: 330px;
-  font-size: 11px;
-  color: #000;
+#header {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--header-color);
+  margin: 0;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+}
+
+#searchBox {
+  padding: 6px;
+  border: 1px solid #ccc;
+  width: 250px;
+}
+
+#searchCount {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.legend-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.legend-text {
+  font-size: 10px;
+  color: var(--legend-color);
+}
+
+#themeToggle {
+  margin-top: 5px;
+  padding: 4px 8px;
+  cursor: pointer;
+  background: #eee;
+  border: 1px solid #ccc;
+}
+
+.dark-Mode {
+  background-color: #242424;
+  color: #e0e0e0;
+  --node-stroke: #6ab0de;
+  --node-fill: #2f2f2f;
+  --node-text: #eeeeee;
+  --link-color: #4a4a4a;
+  --legend-color: #cccccc;
+  --legend-bg: rgba(45, 45, 45, 0.95);
+  --match-color: #eb7077;
+  --path-color: #eb7077;
+}
+
+.dark-Mode .navbar {
+  background-color: #1e1e1e;
+  border-bottom: 1px solid #333;
+}
+
+.dark-Mode #searchBox,
+.dark-Mode #themeToggle {
+  background-color: #2f2f2f;
+  border-color: #444;
+  color: #eee;
+}
+
+.dark-Mode #header {
+  color: #f0f0f0;
 }
 
 .node {
@@ -44,19 +122,18 @@ body {
 }
 
 .node circle {
-  cursor: pointer;
-  fill: #fff;
-  stroke: steelblue;
+  fill: var(--node-fill);
+  stroke: var(--node-stroke);
   stroke-width: 1.5px;
 }
 
 .node text {
   font-size: 12px;
-  fill: rgb(0, 0, 0);
+  fill: var(--node-text);
 }
 
 path.link {
   fill: none;
-  stroke: #ccc;
-  stroke-width: 1px;
+  stroke: var(--link-color);
+  stroke-width: 1.5px;
 }

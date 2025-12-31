@@ -5,7 +5,8 @@
   "main": "public/index.html",
   "scripts": {
     "postinstall": "copyfiles -f ./node_modules/d3/d3.min.js ./public/js/vendor/d3",
-    "start": "cd ./public; python -m SimpleHTTPServer 8000"
+    "start": "cd ./public; python -m SimpleHTTPServer 8000",
+    "lint-json": "node scripts/validate_json.js"
   },
   "repository": {
     "type": "git",
