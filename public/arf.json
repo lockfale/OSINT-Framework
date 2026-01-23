@@ -6797,6 +6797,11 @@
       "name": "Smart Questions",
       "type": "url",
       "url": "http://www.catb.org/esr/faqs/smart-questions.html"
+    },
+	{
+      "name": "Snosint",
+      "type": "url",
+      "url": "https://test.snht.ru/osint/"
     }]
   }]
 }
