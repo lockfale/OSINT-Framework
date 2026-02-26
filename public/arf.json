@@ -3229,6 +3229,11 @@
         "name": "Federal Inmate Locator",
         "type": "url",
         "url": "https://www.bop.gov/inmateloc/"
+      },
+      {
+        "name": "Epstein Exposed",
+        "type": "url",
+        "url": "https://epsteinexposed.com"
       }]
     },
     {
