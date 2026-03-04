@@ -65,6 +65,11 @@
         "type": "url",
         "url": "https://www.idcrawl.com/username"
       },
+	  {
+        "name": "FootprintIQ (T)",
+        "type": "url",
+        "url": "https://footprintiq.app"
+      },
       {
         "name": "Names Directory",
         "type": "url",
