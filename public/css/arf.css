@@ -4,6 +4,19 @@ body {
   font-family: "Helvetica Neue", Helvetica;
 }
 
+noscript p{
+  text-align: center;
+  background-color: rgb(255, 228, 196);
+  margin: 0 auto;
+  width: 80vw;
+  padding: 25px 0;
+  margin-top: 80px;
+  border-radius: 10px;
+  border: 1px solid rgb(255, 204, 153);
+  margin-bottom: 20px;
+  display: flex-wrap;
+}
+
 #body {
   margin: 0 auto;
   position: relative;
