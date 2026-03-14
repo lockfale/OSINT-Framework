@@ -99,6 +99,16 @@
         "name": "MIT PGP Key Server",
         "type": "url",
         "url": "http://pgp.mit.edu/"
+      }
+      {
+        "name": "ProtonMail users (M)",
+        "type": "url",
+        "url": "https://api.protonmail.ch/pks/lookup?op=index&search=<username>@protonmail.com"
+      },
+      {
+        "name": "ProtonMail Domains (M)",
+        "type": "url",
+        "url": "https://api.protonmail.ch/pks/lookup?op=index&search=<email_address>"
       }]
     }]
   },
@@ -161,9 +171,14 @@
         "url": "http://www.skymem.info/"
       },
       {
-        "name": "Epieos",
-	"type": "url",
-	"url": "https://epieos.com/"
+        "name": "Epieos Email Tool",
+        "type": "url",
+        "url": "https://tools.epieos.com/email.php"
+      },
+      {
+        "name": "Holehe (T)",
+        "type": "url",
+        "url": "https://github.com/megadose/holehe"
       }]
     },
     {
@@ -446,11 +461,6 @@
         "url": "https://github.com/hrbrmstr/gdns"
       },
       {
-        "name": "assetnote (T)",
-        "type": "url",
-        "url": "https://github.com/infosec-au/assetnote"
-      },
-      {
         "name": "Sublist3r",
         "type": "url",
         "url": "https://github.com/aboul3la/Sublist3r"
@@ -486,9 +496,14 @@
         "url": "https://www.getodin.com/"
       },
       {
-        "name": "Kraken",
+        "name": "Kraken (T)",
         "type": "url",
         "url": "https://github.com/Sw4mpf0x/Kraken"
+      },
+      {
+      "name": "SecurityTrails (R)",
+      "type": "url",
+      "url": "https://securitytrails.com/"
       },
       {
         "name": "Online Nikto scanner",
@@ -506,19 +521,24 @@
         "url": "http://www.dailychanges.com/"
       },
       {
-        "name": "SameID",
-        "type": "url",
-        "url": "http://sameid.net/"
-      },
-      {
         "name": "Redirect Detective",
         "type": "url",
         "url": "http://redirectdetective.com/"
       },
       {
-        "name": "Sitediff",
+        "name": "Sitediff (T)",
         "type": "url",
         "url": "https://github.com/digininja/sitediff"
+      },
+      {
+        "name": "BuiltWith",
+        "type": "url",
+        "url": "https://builtwith.com/"
+      },
+      {
+        "name": "Wappalyzer",
+        "type": "url",
+        "url": "https://www.wappalyzer.com/"
       },
       {
         "name": "AnalyzeID",
@@ -540,6 +560,11 @@
       "name": "Certificate Search",
       "type": "folder",
       "children": [
+      {
+        "name": "Shodan",
+        "type": "url",
+        "url": "https://www.shodan.io/"
+      },
       {
         "name": "Google's Certificate Transparency",
         "type": "url",
@@ -581,7 +606,7 @@
       "type": "folder",
       "children": [
       {
-        "name": "Security Trails",
+        "name": "Security Trails (R)",
         "type": "url",
         "url": "https://securitytrails.com/"
       },
@@ -6831,6 +6856,11 @@
       "name": "Plessas",
       "type": "url",
       "url": "https://plessas.net/online-training"
+    },
+    {
+      "name": "The OSINTion",
+      "type": "url",
+      "url": "https://www.theosintion.com/courses"
     },
     {
       "name": "SANS SEC487 OSINT Class",
