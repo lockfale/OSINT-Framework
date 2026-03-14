@@ -61,6 +61,11 @@
         "url": "https://instantusername.com/"
       },
       {
+        "name": "Sherlock",
+        "type": "url",
+        "url": "https://github.com/sherlock-project/sherlock"
+      },
+      {
         "name": "IDCrawl Username Search",
         "type": "url",
         "url": "https://www.idcrawl.com/username"
