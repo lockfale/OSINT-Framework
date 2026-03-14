@@ -5701,6 +5701,11 @@
       	"url": "https://intelx.io/"
       },
       {
+      	"name": "Scrummage (T)",
+      	"type": "url",
+      	"url": "https://github.com/matamorphosis/Scrummage"
+      },
+      {
         "name": "Analyst Research Tools",
         "type": "url",
         "url": "https://analystresearchtools.com"
