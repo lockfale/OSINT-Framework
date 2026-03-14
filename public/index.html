@@ -6,7 +6,10 @@
     <script type="text/javascript" src="js/d3.v3.min.js"></script>
     <title>OSINT Framework</title>
   </head>
-
+  <noscript>
+    <p>Sorry, Your browser does not support JavaScript! Activate JavaScript on your browser or look for a compatible
+      browser to use the site.</p>
+  </noscript>
   <body>
     <div id="body">
       <div id="header">
@@ -20,8 +23,9 @@
     <div class="legend"><p>(T) - Indicates a link to a tool that must be installed and run locally<br>
     (D) - Google Dork, for more information: <a href="https://en.wikipedia.org/wiki/Google_hacking">Google Hacking</a><br>
     (R) - Requires registration<br>
-    (M) - Indicates a URL that contains the search term and the URL itself must be edited manually<br></p></div>
-
+    (M) - Indicates a URL that contains the search term and the URL itself must be edited manually<br></p>
+    <button onclick="goDark()">Toggle dark mode</button></div>
+    
     <h3>Notes</h3>
     OSINT framework focused on gathering information from free tools or resources.  The intention is to help people find free OSINT resources.  Some of the sites included might require registration or offer more data for $$$, but you should be able to get at least a portion of the available information for no cost.<br>
 
