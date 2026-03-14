@@ -526,6 +526,11 @@
         "url": "http://analyzeid.com/"
       },
       {
+        "name": "Criminal IP Search",
+        "type": "url",
+        "url": "https://www.criminalip.io/"
+      },
+      {
         "name": "urlDNA",
         "type": "url",
         "url": "https://urldna.io"
