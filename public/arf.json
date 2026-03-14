@@ -3894,6 +3894,11 @@
         "name": "SunCalc",
         "type": "url",
         "url": "http://suncalc.net/"
+      },
+      {
+        "name": "SunCalc",
+        "type": "url",
+        "url": "http://suncalc.org/"
       }]
     },
     {
