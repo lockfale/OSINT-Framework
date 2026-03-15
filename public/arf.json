@@ -1178,6 +1178,11 @@
           "name": "Online Nikto scanner",
           "type": "url",
           "url": "https://nikto.online/"
+        },
+		{
+          "name": "WDES - Web Data Exposure Scanner (T)",
+          "type": "url",
+          "url": "https://github.com/eduardoit/web-data-exposure-scanner"
         }]
       },
       {
