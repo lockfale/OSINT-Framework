@@ -2,6 +2,7 @@ body {
   background-color: #ffffff;
   font-size: 14px;
   font-family: "Helvetica Neue", Helvetica;
+  color: #000;
 }
 
 noscript p{
@@ -29,18 +30,31 @@ noscript p{
   text-align: center;
 }
 
-.dark-Mode{
+.dark-Mode {
   background-color: #000;
   color: #fff;
-  .node text {
-    fill: #fff;
-  }
-  .legend{
-    color: #fff;
-  }
-  path.link{
-    stroke: #444;
-  }
+}
+
+.dark-Mode .node text {
+  fill: #fff;
+}
+
+.dark-Mode .legend {
+  color: #fff;
+}
+
+.dark-Mode path.link {
+  stroke: #444;
+}
+
+.dark-Mode .legend button {
+  color: #fff;
+  background-color: #333;
+  border: 1px solid #555;
+}
+
+.dark-Mode .legend button:hover {
+  background-color: #444;
 }
 
 .legend {
@@ -50,6 +64,19 @@ noscript p{
   width: 330px;
   font-size: 11px;
   color: #000;
+}
+
+.legend button {
+  color: #000;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.legend button:hover {
+  background-color: #e0e0e0;
 }
 
 .node {

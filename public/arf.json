@@ -2438,7 +2438,13 @@
           "name": "Fedica",
           "type": "url",
           "url": "https://fedica.com/"
-        }]
+        },
+        {
+          "name": "Overpass Turbo",
+          "type": "url",
+          "url": "https://overpass-turbo.eu/"
+        }
+      ]
       },
       {
         "name": "Archive / Deleted Tweets",
@@ -4010,6 +4016,11 @@
       "name": "OpenStreetMap",
       "type": "url",
       "url": "http://www.openstreetmap.org/#map=5/40.614/-100.679"
+    },
+    {
+      "name": "Overpass Turbo",
+      "type": "url",
+      "url": "https://overpass-turbo.eu/"
     },
     {
       "name": "Flash Earth",
