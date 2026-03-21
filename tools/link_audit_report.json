@@ -1,0 +1,3304 @@
+{
+  "summary": {
+    "total": 1113,
+    "ok": 829,
+    "dead": 283,
+    "redirected": 374,
+    "slow": 1
+  },
+  "dead": [
+    {
+      "url": "http://akana.mobiseclab.org/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "http://ancestorhunt.com/most-wanted-criminals-and-fugitives.htm",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "http://andrewmohawk.com/pasteLert/",
+      "status": 522,
+      "error": "HTTP Error 522: <none>"
+    },
+    {
+      "url": "http://answerthepublic.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "http://api.opencnam.com/v2/phone/+19073372323",
+      "status": null,
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "url": "http://archive.recapthelaw.org/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "http://backtweets.com/",
+      "status": null,
+      "error": "timed out"
+    },
+    {
+      "url": "http://biznar.com/biznar/desktop/en/search.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "http://blockr.io/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "http://browsershots.org/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "http://browserspy.dk/browser.php",
+      "status": 500,
+      "error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "url": "http://chroniclingamerica.loc.gov/",
+      "status": 308,
+      "error": "HTTP Error 308: Permanent Redirect"
+    },
+    {
+      "url": "http://chroniclingamerica.loc.gov/search/titles/",
+      "status": 308,
+      "error": "HTTP Error 308: Permanent Redirect"
+    },
+    {
+      "url": "http://claz.org/",
+      "status": 429,
+      "error": "HTTP Error 429: 429"
+    },
+    {
+      "url": "http://corporateinformation.com/",
+      "status": 308,
+      "error": "HTTP Error 308: Permanent Redirect"
+    },
+    {
+      "url": "http://darkfailllnkf4vf.onion/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "http://data.influenceexplorer.com/#",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "http://decalage.info/en/mwsearch",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "http://dnshistory.org/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "http://domainbigdata.com/",
+      "status": 530,
+      "error": "HTTP Error 530: <none>"
+    },
+    {
+      "url": "http://entitycube.research.microsoft.com/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "http://eqt5g4fuenphqinx.onion/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "http://flightaware.com/live/",
+      "status": 308,
+      "error": "HTTP Error 308: Permanent Redirect"
+    },
+    {
+      "url": "http://fortiguard.com/iprep",
+      "status": null,
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "url": "http://freecarrierlookup.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "http://gjobqjj7wyczbqie.onion/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "http://hosts-file.net/",
+      "status": null,
+      "error": "timed out"
+    },
+    {
+      "url": "http://howmanyofme.com/search/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "http://hss3uro2hsxfogfq.onion/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "http://images.yahoo.com/",
+      "status": 500,
+      "error": "HTTP Error 500: Service not available"
+    },
+    {
+      "url": "http://infospace.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "http://investing.businessweek.com/research/common/symbollookup/symbollookup.asp",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "http://iseek.com/iseek/home.page",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "http://karmadecay.com/",
+      "status": null,
+      "error": "timed out"
+    },
+    {
+      "url": "http://labs.teehanlax.com/project/hyperlapse",
+      "status": 308,
+      "error": "HTTP Error 308: Permanent Redirect"
+    },
+    {
+      "url": "http://letmecheck.it/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "http://malc0de.com/bl/",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "http://map.daum.net/",
+      "status": 308,
+      "error": "HTTP Error 308: Permanent Redirect"
+    },
+    {
+      "url": "http://mediabugs.org/",
+      "status": 500,
+      "error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "url": "http://mirror1.malwaredomains.com/files/domains.txt",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "http://nsrl.hashsets.com/national_software_reference_library1_search.php",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "http://phenoelit.org/dpl/dpl.html",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "http://pqdtopen.proquest.com/search.html",
+      "status": 521,
+      "error": "HTTP Error 521: "
+    },
+    {
+      "url": "http://ptrarchive.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "http://radaris.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "http://ransomwaretracker.abuse.ch/downloads/RW_DOMBL.txt",
+      "status": 503,
+      "error": "HTTP Error 503: certificate has expired"
+    },
+    {
+      "url": "http://search-id.com/",
+      "status": 522,
+      "error": "HTTP Error 522: <none>"
+    },
+    {
+      "url": "http://shuriken.pm",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "http://socialblade.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "http://sortedbyname.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "http://ssrn.com/en/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "http://toolbar.netcraft.com/site_report?url=undefined#last_reboot",
+      "status": 400,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "url": "http://tor66sezptuu2nta.onion/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "http://tracker.geops.ch/",
+      "status": 308,
+      "error": "HTTP Error 308: Permanent Redirect"
+    },
+    {
+      "url": "http://translate.reference.com/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "http://twopcharts.com/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "http://urlex.org/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "http://verificationjunkie.com/",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "http://vis-www.cs.umass.edu/lfw/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "http://websiteoutlook.com/",
+      "status": null,
+      "error": "timed out"
+    },
+    {
+      "url": "http://www.amnestyusa.org/citizenevidence/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "http://www.andyroid.net/",
+      "status": 503,
+      "error": "HTTP Error 503: Service Temporarily Unavailable"
+    },
+    {
+      "url": "http://www.anywho.com/whitepages",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "http://www.bgp4.as/tools",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "http://www.blackpeoplemeet.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "http://www.blackplanet.com/user_search/index.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "http://www.browserscope.org/",
+      "status": 503,
+      "error": "HTTP Error 503: Service Temporarily Unavailable"
+    },
+    {
+      "url": "http://www.calleridservice.com/",
+      "status": null,
+      "error": "timed out"
+    },
+    {
+      "url": "http://www.cameratrace.com/trace",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "http://www.canlii.org/en/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "http://www.codetwo.com/freeware/outlook-export/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "http://www.corporationwiki.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "http://www.criminalsearches.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "http://www.docjax.com/",
+      "status": 308,
+      "error": "HTTP Error 308: Permanent Redirect"
+    },
+    {
+      "url": "http://www.edge-security.com/metagoofil.php",
+      "status": 308,
+      "error": "HTTP Error 308: Permanent Redirect"
+    },
+    {
+      "url": "http://www.familytreenow.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "http://www.felonspy.com/search.html",
+      "status": null,
+      "error": "Remote end closed connection without response"
+    },
+    {
+      "url": "http://www.findthedata.com/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "http://www.flippity.com/",
+      "status": 522,
+      "error": "HTTP Error 522: <none>"
+    },
+    {
+      "url": "http://www.followthemoney.org/",
+      "status": 400,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "url": "http://www.genealogy.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "http://www.getlinkinfo.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "http://www.goofbid.com/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "http://www.hunch.ly/",
+      "status": 308,
+      "error": "HTTP Error 308: Permanent Redirect"
+    },
+    {
+      "url": "http://www.iboogie.com/",
+      "status": 503,
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "http://www.indeed.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "http://www.infobel.com/en/world/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "http://www.intelius.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "http://www.kahusecurity.com/tools/",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "http://www.kompass.com/selectcountry/",
+      "status": 308,
+      "error": "HTTP Error 308: Permanent Redirect"
+    },
+    {
+      "url": "http://www.linkexpander.com/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "http://www.malware.com.br/open-source.shtml",
+      "status": 522,
+      "error": "HTTP Error 522: <none>"
+    },
+    {
+      "url": "http://www.malwaredomainlist.com/hostslist/hosts.txt",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "http://www.malwaredomainlist.com/mdl.php",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "http://www.malwaredomains.com/wordpress/?page_id=66",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "http://www.marinetraffic.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "http://www.match.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "http://www.morningstarsecurity.com/research/urlcrazy",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "http://www.onion.link/",
+      "status": null,
+      "error": "timed out"
+    },
+    {
+      "url": "http://www.oodle.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "http://www.opendoar.org/search.php",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "http://www.opensecrets.org/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "http://www.packettotal.com/",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "http://www.reconstructer.org/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "http://www.reputationauthority.org/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "http://www.reversegenie.com/people.php",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "http://www.reversegenie.com/phone.php",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "http://www.reversegenie.com/plate.php",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "http://www.ripoffreport.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "http://www.screenshots.com/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "http://www.securityfocus.com/bid",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "http://www.senderbase.org/",
+      "status": 503,
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "http://www.softpedia.com/get/Internet/Other-Internet-Related/IntelliTamper.shtml",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "http://www.spiderfoot.net/",
+      "status": 308,
+      "error": "HTTP Error 308: Permanent Redirect"
+    },
+    {
+      "url": "http://www.spyonweb.com/",
+      "status": null,
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "url": "http://www.talkwalker.com/alerts",
+      "status": 308,
+      "error": "HTTP Error 308: Permanent Redirect"
+    },
+    {
+      "url": "http://www.thepaperboy.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "http://www.torscan.io/",
+      "status": null,
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "url": "http://www.trustedsource.org/",
+      "status": null,
+      "error": "timed out"
+    },
+    {
+      "url": "http://www.urlunshortener.com/",
+      "status": 308,
+      "error": "HTTP Error 308: Permanent Redirect"
+    },
+    {
+      "url": "http://www.ussearch.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "http://www.vindecoderz.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "http://www.vmware.com/products/player/playerpro-evaluation.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "http://www.whostalkin.com/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "http://www.worldlingo.com/en/products_services/worldlingo_translator.html",
+      "status": 302,
+      "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+    },
+    {
+      "url": "http://www.yournavigation.org/",
+      "status": null,
+      "error": "timed out"
+    },
+    {
+      "url": "http://www.zabasearch.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "http://www.zillow.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "http://www.zoominfo.com/company-directory/us",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "http://www.zoominfo.com/people_directory/professional_profile/A-0-1",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/javascript-deobfuscator/",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://africacheck.org/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://annas-archive.org/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "https://api.github.com/users/%3Cusername%3E/events/public",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://ashley.cynic.al/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://aslookup.com/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "https://attack.mitre.org/wiki/All_Techniques",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://batchgeo.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://berla.co/products/ive/vehicle-lookup/",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://bgpstream.com/",
+      "status": null,
+      "error": "timed out"
+    },
+    {
+      "url": "https://bitbucket.org/decalage/balbuzard",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://blockchain.info/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://blockexplorer.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://cdn.rawgit.com/Marak/faker.js/master/examples/browser/index.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://chainradar.com/xmr/blocks",
+      "status": null,
+      "error": "[SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1129)"
+    },
+    {
+      "url": "https://chatgpt.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://community.blueliv.com/#!/discover",
+      "status": null,
+      "error": "timed out"
+    },
+    {
+      "url": "https://community.blueliv.com/#!/sandbox",
+      "status": null,
+      "error": "timed out"
+    },
+    {
+      "url": "https://connect.data.com/",
+      "status": null,
+      "error": "timed out"
+    },
+    {
+      "url": "https://consumer.valkyrie.comodo.com/",
+      "status": null,
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "url": "https://crt.sh/?",
+      "status": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://cubib.com/",
+      "status": 522,
+      "error": "HTTP Error 522: <none>"
+    },
+    {
+      "url": "https://cymon.io/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "https://darkweb.hunch.ly/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://elevenlabs.io/dubbing",
+      "status": 308,
+      "error": "HTTP Error 308: Permanent Redirect"
+    },
+    {
+      "url": "https://epieos.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://etherchain.org/accounts/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://familysearch.org/search/",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://findsubdomains.com/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "https://flowgpt.com/p/wormgpt-6",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://followyourworld.appspot.com/",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://getnewsbot.com/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "https://github.com/bharshbarger/AutOSINT",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://github.com/bwall/ircsnapshot",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://github.com/i3visio/osrframework",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://github.com/infosec-au/assetnote",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://github.com/m4ll0k/infoga",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://graphsense.info/",
+      "status": 500,
+      "error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "url": "https://hashes.org/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "https://hoaxy.iuni.iu.edu/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "https://instantusername.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://intel.criticalstack.com/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "https://inteltechniques.com/blog/2018/09/28/complete-credit-freeze-tutorial-update/",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://inteltechniques.com/buscador/index.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://intrigue.io/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://justpaste.it/",
+      "status": null,
+      "error": "[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1129)"
+    },
+    {
+      "url": "https://labs.inquest.net/dfi",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://landsatlook.usgs.gov/sentinel2/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://lengthen.me/",
+      "status": null,
+      "error": "timed out"
+    },
+    {
+      "url": "https://live.ether.camp/transactions",
+      "status": 530,
+      "error": "HTTP Error 530: <none>"
+    },
+    {
+      "url": "https://malwareconfig.com/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "https://millionshort.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://mobility.portal.geops.io/",
+      "status": 308,
+      "error": "HTTP Error 308: Permanent Redirect"
+    },
+    {
+      "url": "https://numspy.pythonanywhere.com/",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://nuwber.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://oint.ctrlbox.com/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "https://onion.cab/",
+      "status": null,
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "url": "https://orbisdirectory.bvdinfo.com/version-2016121/OrbisDirectory/Companies",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "https://orkut.google.com/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "https://oxt.me",
+      "status": null,
+      "error": "[Errno 51] Network is unreachable"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=co.getair.meerkat",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=co.vine.android",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.yahoo.mobile.client.android.flickr",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.yik.yak",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=tv.periscope.android",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://plessas.net/online-training",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://portmap.com/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "https://proxycheck.haschek.at/",
+      "status": null,
+      "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1129)"
+    },
+    {
+      "url": "https://search.deepviz.com/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "https://searx.me/",
+      "status": null,
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "url": "https://securityheaders.io/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://securitytrails.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://shiptracker.shodan.io/",
+      "status": null,
+      "error": "timed out"
+    },
+    {
+      "url": "https://softbytelabs.com/wp/blackwidow/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://spyse.com/search/certificate",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "https://spyse.com/search/ip",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "https://stackshare.io/",
+      "status": 429,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://themanyhats.club/centralised-place-for-privacy-resources/",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://topgainers.net/",
+      "status": null,
+      "error": "timed out"
+    },
+    {
+      "url": "https://torguard.net/vpn-dns-leak-test.php",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://urlebird.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://usersearch.org/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://vimeo.com/search?",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://voterrecords.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://w3bin.com/",
+      "status": null,
+      "error": "Remote end closed connection without response"
+    },
+    {
+      "url": "https://w3dt.net/",
+      "status": null,
+      "error": "Remote end closed connection without response"
+    },
+    {
+      "url": "https://web-beta.archive.org/#/",
+      "status": 403,
+      "error": "HTTP Error 403: FORBIDDEN"
+    },
+    {
+      "url": "https://whatbrowser.org/",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://whatsmyname.app/",
+      "status": 464,
+      "error": "HTTP Error 464: "
+    },
+    {
+      "url": "https://whois.arin.net/ui/advanced.jsp",
+      "status": 404,
+      "error": "HTTP Error 404: "
+    },
+    {
+      "url": "https://www.abuseipdb.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.advancedbackgroundchecks.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.allmytweets.net/connect/",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.amazon.com/gp/registry/search",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.ashleymadison.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.bedbathandbeyond.com/store/giftregistry/registry_search_guest.jsp",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.blocktrail.com/BTC",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.companieslist.co.uk/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.corporationwiki.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.facebook.com/photo.php?fbid=PHOTO-ID-HERE",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.fastpeoplesearch.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.fontspring.com/matcherator",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.freetranslation.com/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "https://www.getodin.com/",
+      "status": null,
+      "error": "[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)"
+    },
+    {
+      "url": "https://www.glassdoor.com/Reviews/index.htm",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.hathitrust.org/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.heavy.ai/demos/tweetmap",
+      "status": null,
+      "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1129)"
+    },
+    {
+      "url": "https://www.homefacts.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.idcrawl.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.idcrawl.com/username",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.imageraider.com/",
+      "status": 500,
+      "error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "url": "https://www.infobyip.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.ipaddress.my/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.iptrackeronline.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.ixquick.com/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "https://www.liveipmap.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.manta.com/business-directory",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.mend.io/vulnerability-database/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.mylife.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.networktotal.com/",
+      "status": null,
+      "error": "timed out"
+    },
+    {
+      "url": "https://www.nicb.org/theft_and_fraud_awareness/vincheck",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.okcupid.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.opencnam.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.owler.com/",
+      "status": 429,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.passivetotal.org/",
+      "status": null,
+      "error": "timed out"
+    },
+    {
+      "url": "https://www.perfect-privacy.com/check-ip/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "https://www.perfect-privacy.com/webrtc-leaktest/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "https://www.pexels.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.plonked.com/",
+      "status": null,
+      "error": "[Errno 61] Connection refused"
+    },
+    {
+      "url": "https://www.pwnmalw.re/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "https://www.reddit.com/domain/%3CURLhere%3E",
+      "status": 403,
+      "error": "HTTP Error 403: Blocked"
+    },
+    {
+      "url": "https://www.reddit.com/r/darknet",
+      "status": 403,
+      "error": "HTTP Error 403: Blocked"
+    },
+    {
+      "url": "https://www.reddit.com/r/deepweb",
+      "status": 403,
+      "error": "HTTP Error 403: Blocked"
+    },
+    {
+      "url": "https://www.reddit.com/r/onions",
+      "status": 403,
+      "error": "HTTP Error 403: Blocked"
+    },
+    {
+      "url": "https://www.safeshepherd.com/handbook",
+      "status": 308,
+      "error": "HTTP Error 308: Permanent Redirect"
+    },
+    {
+      "url": "https://www.salesmaple.com/contacts/#!/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "https://www.sans.org/sec487",
+      "status": 308,
+      "error": "HTTP Error 308: Permanent Redirect"
+    },
+    {
+      "url": "https://www.stringify.com/",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "https://www.threatcrowd.org/",
+      "status": 503,
+      "error": "HTTP Error 503: Service Temporarily Unavailable"
+    },
+    {
+      "url": "https://www.threatpipes.com",
+      "status": null,
+      "error": "timed out"
+    },
+    {
+      "url": "https://www.truepeoplesearch.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.usphonebook.com",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.vehiclehistory.com/licence-plate-search/licence-plate.php",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "https://www.wdl.org/en/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.webpagetest.org/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.xssposed.org/",
+      "status": null,
+      "error": "[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1129)"
+    },
+    {
+      "url": "https://www.zoomeye.org/",
+      "status": 521,
+      "error": "HTTP Error 521: "
+    },
+    {
+      "url": "https://www.zoosk.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://zeustracker.abuse.ch/blocklist.php",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "url": "https://zeustracker.abuse.ch/blocklist.php?download=domainblocklist",
+      "status": null,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    }
+  ],
+  "redirected": [
+    {
+      "url": "http://0day.today/",
+      "status": 200,
+      "final_url": "https://0day.today/"
+    },
+    {
+      "url": "http://7photos.net/",
+      "status": 200,
+      "final_url": "http://ww1.7photos.net/"
+    },
+    {
+      "url": "http://adultfriendfinder.com/",
+      "status": 200,
+      "final_url": "https://adultfriendfinder.com/"
+    },
+    {
+      "url": "http://analyzeid.com/",
+      "status": 200,
+      "final_url": "https://analyzeid.com/"
+    },
+    {
+      "url": "http://app.webinspector.com/",
+      "status": 200,
+      "final_url": "https://www.webinspector.com/website-malware-scanner/"
+    },
+    {
+      "url": "http://archive.is/",
+      "status": 200,
+      "final_url": "https://archive.is/"
+    },
+    {
+      "url": "http://bgp.he.net/",
+      "status": 200,
+      "final_url": "https://bgp.he.net/"
+    },
+    {
+      "url": "http://bgpranking.circl.lu/",
+      "status": 200,
+      "final_url": "https://bgpranking.circl.lu/"
+    },
+    {
+      "url": "http://bitcoinwhoswho.com/",
+      "status": 200,
+      "final_url": "https://www.bitcoinwhoswho.com/"
+    },
+    {
+      "url": "http://blog.didierstevens.com/programs/pdf-tools/",
+      "status": 200,
+      "final_url": "https://blog.didierstevens.com/programs/pdf-tools/"
+    },
+    {
+      "url": "http://blog.didierstevens.com/programs/xorsearch/",
+      "status": 200,
+      "final_url": "https://blog.didierstevens.com/programs/xorsearch/"
+    },
+    {
+      "url": "http://boardreader.com/",
+      "status": 200,
+      "final_url": "https://boardreader.com/"
+    },
+    {
+      "url": "http://botscout.com/",
+      "status": 200,
+      "final_url": "https://botscout.com/"
+    },
+    {
+      "url": "http://browserspy.dk/",
+      "status": 200,
+      "final_url": "https://browserspy.dk/"
+    },
+    {
+      "url": "http://builtwith.com/",
+      "status": 200,
+      "final_url": "https://builtwith.com/"
+    },
+    {
+      "url": "http://cdrex.com/",
+      "status": 200,
+      "final_url": "https://www.cdrex.com/"
+    },
+    {
+      "url": "http://checkshorturl.com/",
+      "status": 200,
+      "final_url": "https://checkshorturl.com/"
+    },
+    {
+      "url": "http://commoncrawl.org/",
+      "status": 200,
+      "final_url": "https://commoncrawl.org/"
+    },
+    {
+      "url": "http://copyscape.com/",
+      "status": 200,
+      "final_url": "https://www.copyscape.com/"
+    },
+    {
+      "url": "http://corona.cast.uark.edu/",
+      "status": 200,
+      "final_url": "https://corona.cast.uark.edu/"
+    },
+    {
+      "url": "http://craigslist.org/",
+      "status": 200,
+      "final_url": "https://charlotte.craigslist.org/"
+    },
+    {
+      "url": "http://cryptome.org/",
+      "status": 200,
+      "final_url": "https://cryptome.org/"
+    },
+    {
+      "url": "http://current-location.com/",
+      "status": 200,
+      "final_url": "https://current-location.com/"
+    },
+    {
+      "url": "http://cve.mitre.org/",
+      "status": 200,
+      "final_url": "https://www.cve.org/"
+    },
+    {
+      "url": "http://data.deutschebahn.com/",
+      "status": 200,
+      "final_url": "https://data.deutschebahn.com/opendata"
+    },
+    {
+      "url": "http://data.mashedworld.com/dualmaps/map.htm",
+      "status": 200,
+      "final_url": "https://data.mashedworld.com/dualmaps/map.htm"
+    },
+    {
+      "url": "http://datacatalog.worldbank.org/",
+      "status": 200,
+      "final_url": "https://datacatalog.worldbank.org/"
+    },
+    {
+      "url": "http://discovery.nationalarchives.gov.uk/",
+      "status": 200,
+      "final_url": "https://discovery.nationalarchives.gov.uk/"
+    },
+    {
+      "url": "http://dnsleak.com/",
+      "status": 200,
+      "final_url": "https://dnsleak.com/"
+    },
+    {
+      "url": "http://dnssec-debugger.verisignlabs.com/",
+      "status": 200,
+      "final_url": "https://dnssec-analyzer.verisignlabs.com/"
+    },
+    {
+      "url": "http://dnsviz.net/",
+      "status": 200,
+      "final_url": "https://dnsviz.net/"
+    },
+    {
+      "url": "http://ec.europa.eu/taxation_customs/vies/?locale=en",
+      "status": 200,
+      "final_url": "https://ec.europa.eu/taxation_customs/vies/?locale=en"
+    },
+    {
+      "url": "http://emailipleak.com/",
+      "status": 200,
+      "final_url": "https://emailipleak.com/"
+    },
+    {
+      "url": "http://emm.newsbrief.eu/NewsBrief/clusteredition/en/latest.html",
+      "status": 200,
+      "final_url": "https://emm.newsbrief.eu/NewsBrief/clusteredition/en/latest.html"
+    },
+    {
+      "url": "http://eternal-todo.com/var/scripts/xorbruteforcer",
+      "status": 200,
+      "final_url": "https://eternal-todo.com/var/scripts/xorbruteforcer"
+    },
+    {
+      "url": "http://ether.gtisc.gatech.edu/web_unpack",
+      "status": 200,
+      "final_url": "https://ether.gtisc.gatech.edu/web_unpack/"
+    },
+    {
+      "url": "http://everypolitician.org/",
+      "status": 200,
+      "final_url": "https://everypolitician.org:443/"
+    },
+    {
+      "url": "http://explorer.naco.org/index.html",
+      "status": 200,
+      "final_url": "https://explorer.naco.org/index.html"
+    },
+    {
+      "url": "http://explorer.opensyllabusproject.org/",
+      "status": 200,
+      "final_url": "https://www.opensyllabus.org/"
+    },
+    {
+      "url": "http://fotoforensics.com/",
+      "status": 200,
+      "final_url": "https://fotoforensics.com/"
+    },
+    {
+      "url": "http://francais-a-londres.org/",
+      "status": 200,
+      "final_url": "https://francaisalondres.com/"
+    },
+    {
+      "url": "http://globaledge.msu.edu/global-resources",
+      "status": 200,
+      "final_url": "https://globaledge.msu.edu/global-resources"
+    },
+    {
+      "url": "http://go.microsoft.com/fwlink/?LinkID=158791",
+      "status": 200,
+      "final_url": "https://download.microsoft.com/download/1/2/7/127ba59a-4fe1-4acd-ba47-513ceef85a85/OffVis.zip"
+    },
+    {
+      "url": "http://googleguide.com/advanced_operators_reference.html",
+      "status": 200,
+      "final_url": "https://www.googleguide.com/advanced_operators_reference.html"
+    },
+    {
+      "url": "http://googleguide.com/help/calculator.html",
+      "status": 200,
+      "final_url": "https://www.googleguide.com/help/calculator.html"
+    },
+    {
+      "url": "http://guides.library.harvard.edu/hks/think_tank_search",
+      "status": 200,
+      "final_url": "https://guides.library.harvard.edu/hks/think_tank_search"
+    },
+    {
+      "url": "http://guides.uflib.ufl.edu/az.php",
+      "status": 200,
+      "final_url": "https://guides.uflib.ufl.edu/az.php"
+    },
+    {
+      "url": "http://idgettr.com/",
+      "status": 200,
+      "final_url": "https://www.webfx.com/tools/idgettr/"
+    },
+    {
+      "url": "http://image-net.org/",
+      "status": 200,
+      "final_url": "https://image-net.org/"
+    },
+    {
+      "url": "http://ip-check.info/?lang=en",
+      "status": 200,
+      "final_url": "https://ip-check.info/?lang=en"
+    },
+    {
+      "url": "http://ipv6leak.com/",
+      "status": 200,
+      "final_url": "https://ipv6leak.com/"
+    },
+    {
+      "url": "http://ipverse.net/",
+      "status": 200,
+      "final_url": "https://github.com/ipverse/"
+    },
+    {
+      "url": "http://irc.netsplit.de/channels/search.php",
+      "status": 200,
+      "final_url": "https://netsplit.de/channels/search.php"
+    },
+    {
+      "url": "http://jsbeautifier.org/",
+      "status": 200,
+      "final_url": "https://beautifier.io/"
+    },
+    {
+      "url": "http://jurn.org/#gsc.tab=0",
+      "status": 200,
+      "final_url": "https://www.jurn.org/"
+    },
+    {
+      "url": "http://justdelete.me/fake-identity-generator/",
+      "status": 200,
+      "final_url": "https://backgroundchecks.org/justdeleteme/fake-identity-generator/"
+    },
+    {
+      "url": "http://labnol.org/?p=28217",
+      "status": 200,
+      "final_url": "https://www.labnol.org/?p=28217"
+    },
+    {
+      "url": "http://littlesis.org/",
+      "status": 200,
+      "final_url": "https://littlesis.org/"
+    },
+    {
+      "url": "http://ljseek.com/",
+      "status": 200,
+      "final_url": "http://ww1.ljseek.com/"
+    },
+    {
+      "url": "http://malwareanalysis.tools/",
+      "status": 200,
+      "final_url": "https://malwareanalysis.tools/"
+    },
+    {
+      "url": "http://map.baidu.com/",
+      "status": 200,
+      "final_url": "https://map.baidu.com/"
+    },
+    {
+      "url": "http://map.naver.com/",
+      "status": 200,
+      "final_url": "https://map.naver.com/p/"
+    },
+    {
+      "url": "http://moneroblocks.info/",
+      "status": 200,
+      "final_url": "https://localmonero.co/blocks/"
+    },
+    {
+      "url": "http://mostwantedhf.info/index.php",
+      "status": 200,
+      "final_url": "https://mostwantedhf.info/index.php"
+    },
+    {
+      "url": "http://mrnumber.com/1-888-742-0000",
+      "status": 200,
+      "final_url": "https://www.hiya.com/products/apps/hiya-spam-blocker"
+    },
+    {
+      "url": "http://mugshots.com/",
+      "status": 200,
+      "final_url": "https://mugshots.com/"
+    },
+    {
+      "url": "http://mxtoolbox.com/",
+      "status": 200,
+      "final_url": "https://mxtoolbox.com/"
+    },
+    {
+      "url": "http://newspaperarchive.com/",
+      "status": 200,
+      "final_url": "https://newspaperarchive.com/"
+    },
+    {
+      "url": "http://newspapermap.com/",
+      "status": 200,
+      "final_url": "https://newspapermap.com/"
+    },
+    {
+      "url": "http://ok.ru/",
+      "status": 200,
+      "final_url": "https://ok.ru/"
+    },
+    {
+      "url": "http://omgili.com/",
+      "status": 200,
+      "final_url": "https://webz.io/"
+    },
+    {
+      "url": "http://onemilliontweetmap.com/",
+      "status": 200,
+      "final_url": "https://onemilliontweetmap.com/"
+    },
+    {
+      "url": "http://online-barcode-reader.inliteresearch.com/",
+      "status": 200,
+      "final_url": "https://online-barcode-reader.inliteresearch.com/"
+    },
+    {
+      "url": "http://online.wsj.com/public/resources/documents/TweetMetadata.pdf",
+      "status": 200,
+      "final_url": "https://www.wsj.com/public/resources/documents/TweetMetadata.pdf"
+    },
+    {
+      "url": "http://open-sez.me/",
+      "status": 200,
+      "final_url": "https://open-sez.me/"
+    },
+    {
+      "url": "http://opengrey.eu/",
+      "status": 200,
+      "final_url": "https://opengrey.eu/"
+    },
+    {
+      "url": "http://openstreetcam.org/",
+      "status": 200,
+      "final_url": "https://kartaview.org/"
+    },
+    {
+      "url": "http://passivedns.mnemonic.no/",
+      "status": 200,
+      "final_url": "https://passivedns.mnemonic.no/"
+    },
+    {
+      "url": "http://pdfmyurl.com/",
+      "status": 200,
+      "final_url": "https://pdfmyurl.com/"
+    },
+    {
+      "url": "http://photobucket.com/",
+      "status": 200,
+      "final_url": "https://photobucket.com/"
+    },
+    {
+      "url": "http://pingroupie.com/",
+      "status": 200,
+      "final_url": "https://pingroupie.com/"
+    },
+    {
+      "url": "http://pub-db.com/",
+      "status": 200,
+      "final_url": "https://pub-db.com/"
+    },
+    {
+      "url": "http://publicrecords.netronline.com/",
+      "status": 200,
+      "final_url": "https://publicrecords.netronline.com/"
+    },
+    {
+      "url": "http://publicrecords.searchsystems.net/",
+      "status": 200,
+      "final_url": "https://publicrecords.searchsystems.net/"
+    },
+    {
+      "url": "http://redirectdetective.com/",
+      "status": 200,
+      "final_url": "https://redirectdetective.com/"
+    },
+    {
+      "url": "http://routerpasswords.com/",
+      "status": 200,
+      "final_url": "https://www.routerpasswords.com/"
+    },
+    {
+      "url": "http://sandbox.pikker.ee/",
+      "status": 200,
+      "final_url": "https://sandbox.pikker.ee/"
+    },
+    {
+      "url": "http://scribblemaps.com/",
+      "status": 200,
+      "final_url": "https://www.scribblemaps.com/"
+    },
+    {
+      "url": "http://search.ancestry.com/",
+      "status": 200,
+      "final_url": "https://www.ancestry.com/search/"
+    },
+    {
+      "url": "http://search.findmypast.com/search-world-records",
+      "status": 200,
+      "final_url": "https://www.findmypast.com/discover"
+    },
+    {
+      "url": "http://search.mibbit.com/",
+      "status": 200,
+      "final_url": "https://search.mibbit.com/"
+    },
+    {
+      "url": "http://shitu.baidu.com/",
+      "status": 200,
+      "final_url": "https://graph.baidu.com/pcpage/index?tpl_from=pc"
+    },
+    {
+      "url": "http://siteliner.com/",
+      "status": 200,
+      "final_url": "https://www.siteliner.com/"
+    },
+    {
+      "url": "http://suncalc.net/",
+      "status": 200,
+      "final_url": "https://suncalc.net/"
+    },
+    {
+      "url": "http://thehiddenwiki.org/",
+      "status": 200,
+      "final_url": "https://thehiddenwiki.org/"
+    },
+    {
+      "url": "http://tineye.com/",
+      "status": 200,
+      "final_url": "https://tineye.com/"
+    },
+    {
+      "url": "http://tinfoleak.com/",
+      "status": 200,
+      "final_url": "https://tinfoleak.com/"
+    },
+    {
+      "url": "http://tools.tracemyip.org/user-agent-string-decoder/",
+      "status": 200,
+      "final_url": "https://tools.tracemyip.org/user-agent-string-decoder/"
+    },
+    {
+      "url": "http://travelbydrone.com/",
+      "status": 200,
+      "final_url": "https://travelbydrone.com/"
+    },
+    {
+      "url": "http://tweepsect.com/",
+      "status": 200,
+      "final_url": "http://ww1.tweepsect.com/"
+    },
+    {
+      "url": "http://ukdata.com/",
+      "status": 200,
+      "final_url": "https://ukdata.com/"
+    },
+    {
+      "url": "http://urlquery.net/",
+      "status": 200,
+      "final_url": "https://urlquery.net/"
+    },
+    {
+      "url": "http://video.search.yahoo.com/",
+      "status": 200,
+      "final_url": "https://video.search.yahoo.com/"
+    },
+    {
+      "url": "http://viewdns.info/",
+      "status": 200,
+      "final_url": "https://viewdns.info/"
+    },
+    {
+      "url": "http://vin.place/",
+      "status": 200,
+      "final_url": "http://ww1.vin.place/"
+    },
+    {
+      "url": "http://visualgenome.org/",
+      "status": 200,
+      "final_url": "https://visualgenome.org/"
+    },
+    {
+      "url": "http://visualping.io/",
+      "status": 200,
+      "final_url": "https://visualping.io:443/"
+    },
+    {
+      "url": "http://wamba.com/",
+      "status": 200,
+      "final_url": "https://wamba.com/en"
+    },
+    {
+      "url": "http://webcitation.org/query",
+      "status": 200,
+      "final_url": "https://www.webcitation.org:443/query"
+    },
+    {
+      "url": "http://webmii.com/",
+      "status": 200,
+      "final_url": "https://webmii.com/"
+    },
+    {
+      "url": "http://website.informer.com/",
+      "status": 200,
+      "final_url": "https://website.informer.com/"
+    },
+    {
+      "url": "http://websta.me/search",
+      "status": 200,
+      "final_url": "https://websta.me/search-engine-optimization/"
+    },
+    {
+      "url": "http://wheredoesthislinkgo.com/",
+      "status": 200,
+      "final_url": "https://wheregoes.com/"
+    },
+    {
+      "url": "http://whois.domaintools.com/",
+      "status": 200,
+      "final_url": "https://whois.domaintools.com/"
+    },
+    {
+      "url": "http://www.411.com/reverse_phone",
+      "status": 200,
+      "final_url": "https://www.411.com/reverse-phone-lookup"
+    },
+    {
+      "url": "http://www.addresses.com/",
+      "status": 200,
+      "final_url": "https://www.addresses.com/"
+    },
+    {
+      "url": "http://www.alexa.com/siteinfo",
+      "status": 200,
+      "final_url": "https://alexa.amazon.com/about"
+    },
+    {
+      "url": "http://www.alexa.com/topsites",
+      "status": 200,
+      "final_url": "https://alexa.amazon.com/about"
+    },
+    {
+      "url": "http://www.allyoucanread.com/",
+      "status": 200,
+      "final_url": "https://www.allyoucanread.com/"
+    },
+    {
+      "url": "http://www.annualreports.com/",
+      "status": 200,
+      "final_url": "https://www.annualreports.com/"
+    },
+    {
+      "url": "http://www.antennasearch.com/",
+      "status": 200,
+      "final_url": "https://www.antennasearch.com/"
+    },
+    {
+      "url": "http://www.asianave.com/user_search/index.html",
+      "status": 200,
+      "final_url": "https://blackplanet.com/"
+    },
+    {
+      "url": "http://www.avgthreatlabs.com/ww-en/website-safety-reports/",
+      "status": 200,
+      "final_url": "https://www.avg.com/en/signal/website-safety"
+    },
+    {
+      "url": "http://www.bing.com/maps/",
+      "status": 200,
+      "final_url": "https://www.bing.com/maps"
+    },
+    {
+      "url": "http://www.bishopfox.com/download/405/",
+      "status": 200,
+      "final_url": "https://bishopfox.com/resources"
+    },
+    {
+      "url": "http://www.blackbookonline.info/USA-County-Court-Records.aspx",
+      "status": 200,
+      "final_url": "https://www.blackbookonline.info/USA-County-Court-Records.aspx"
+    },
+    {
+      "url": "http://www.blackbookonline.info/USA-Voter-Records.aspx",
+      "status": 200,
+      "final_url": "https://www.blackbookonline.info/USA-Voter-Records.aspx"
+    },
+    {
+      "url": "http://www.blackbookonline.info/criminalsearch.aspx",
+      "status": 200,
+      "final_url": "https://www.blackbookonline.info/criminalsearch.aspx"
+    },
+    {
+      "url": "http://www.blinkx.com/",
+      "status": 200,
+      "final_url": "https://blinkx.com/"
+    },
+    {
+      "url": "http://www.blocklist.de/en/index.html",
+      "status": 200,
+      "final_url": "https://www.blocklist.de/en/index.html"
+    },
+    {
+      "url": "http://www.bluestacks.com/",
+      "status": 200,
+      "final_url": "https://www.bluestacks.com/"
+    },
+    {
+      "url": "http://www.brbpub.com/",
+      "status": 200,
+      "final_url": "https://www.brbpub.com/"
+    },
+    {
+      "url": "http://www.brightcloud.com/tools/url-ip-lookup.php",
+      "status": 200,
+      "final_url": "https://www.brightcloud.com/tools/url-ip-lookup.php"
+    },
+    {
+      "url": "http://www.buzzfile.com/Home/Basic",
+      "status": 200,
+      "final_url": "https://www.buzzfile.com/Home/Basic"
+    },
+    {
+      "url": "http://www.calleridtest.com/",
+      "status": 200,
+      "final_url": "https://calleridtest.com/"
+    },
+    {
+      "url": "http://www.changedetect.com/",
+      "status": 200,
+      "final_url": "https://www.eatgrainmaker.com/home/"
+    },
+    {
+      "url": "http://www.changedetection.com/",
+      "status": 200,
+      "final_url": "https://visualping.io/"
+    },
+    {
+      "url": "http://www.cidr-report.org/as2.0/",
+      "status": 200,
+      "final_url": "https://www.cidr-report.org/as2.0/"
+    },
+    {
+      "url": "http://www.cidr-report.org/v6/as2.0/",
+      "status": 200,
+      "final_url": "https://www.cidr-report.org/v6/as2.0/"
+    },
+    {
+      "url": "http://www.commercial-register.sg.ch/home/worldwide.html",
+      "status": 200,
+      "final_url": "https://www.sg.ch/recht/handelsregister-notariate.html"
+    },
+    {
+      "url": "http://www.cvedetails.com/",
+      "status": 200,
+      "final_url": "https://www.cvedetails.com/"
+    },
+    {
+      "url": "http://www.cvgadget.com/",
+      "status": 200,
+      "final_url": "https://cvgadget.com/"
+    },
+    {
+      "url": "http://www.dailychanges.com/",
+      "status": 200,
+      "final_url": "https://dailychanges.domaintools.com/"
+    },
+    {
+      "url": "http://www.delphiforums.com/",
+      "status": 200,
+      "final_url": "https://www.delphiforums.com/"
+    },
+    {
+      "url": "http://www.document-analyzer.net/",
+      "status": 200,
+      "final_url": "https://www.joesandbox.com/"
+    },
+    {
+      "url": "http://www.dogpile.com/",
+      "status": 200,
+      "final_url": "https://www.dogpile.com/"
+    },
+    {
+      "url": "http://www.domaincrawler.com/",
+      "status": 200,
+      "final_url": "https://domaincrawler.com/"
+    },
+    {
+      "url": "http://www.earthcam.com/",
+      "status": 200,
+      "final_url": "https://www.earthcam.com/"
+    },
+    {
+      "url": "http://www.ebay.com/",
+      "status": 200,
+      "final_url": "https://www.ebay.com/"
+    },
+    {
+      "url": "http://www.eharmony.com/",
+      "status": 200,
+      "final_url": "https://www.eharmony.com/"
+    },
+    {
+      "url": "http://www.europages.co.uk/",
+      "status": 200,
+      "final_url": "https://www.europages.co.uk:443/"
+    },
+    {
+      "url": "http://www.exifviewer.org/",
+      "status": 200,
+      "final_url": "http://ww1.exifviewer.org/"
+    },
+    {
+      "url": "http://www.factcheck.org/scicheck/",
+      "status": 200,
+      "final_url": "https://www.factcheck.org:443/scicheck/"
+    },
+    {
+      "url": "http://www.fakenamegenerator.com/",
+      "status": 200,
+      "final_url": "https://www.fakenamegenerator.com/"
+    },
+    {
+      "url": "http://www.familywatchdog.us/",
+      "status": 200,
+      "final_url": "https://www.familywatchdog.us/"
+    },
+    {
+      "url": "http://www.farmersonly.com/",
+      "status": 200,
+      "final_url": "https://www.farmersonly.com:443/"
+    },
+    {
+      "url": "http://www.fec.gov/finance/disclosure/norindsea.shtml",
+      "status": 200,
+      "final_url": "https://www.fec.gov/data/"
+    },
+    {
+      "url": "http://www.findagrave.com/index.html",
+      "status": 200,
+      "final_url": "https://www.findagrave.com/"
+    },
+    {
+      "url": "http://www.flashearth.com/",
+      "status": 200,
+      "final_url": "https://zoom.earth/"
+    },
+    {
+      "url": "http://www.fonefinder.net/",
+      "status": 200,
+      "final_url": "https://www.fonefinder.net/"
+    },
+    {
+      "url": "http://www.fortypoundhead.com/tools_dpw.asp",
+      "status": 200,
+      "final_url": "https://fortypoundhead.com/tools_dpw.asp"
+    },
+    {
+      "url": "http://www.fraps.com/",
+      "status": 200,
+      "final_url": "https://fraps.com/"
+    },
+    {
+      "url": "http://www.free-ocr.com/",
+      "status": 200,
+      "final_url": "https://www.sodapdf.com/pdf-tools/ocr-pdf/"
+    },
+    {
+      "url": "http://www.geocreepy.com/",
+      "status": 200,
+      "final_url": "https://www.geocreepy.com/"
+    },
+    {
+      "url": "http://www.geosetter.de/en/",
+      "status": 200,
+      "final_url": "https://geosetter.de/en/main-en/"
+    },
+    {
+      "url": "http://www.gpsvisualizer.com/geocode",
+      "status": 200,
+      "final_url": "https://www.gpsvisualizer.com/geocode"
+    },
+    {
+      "url": "http://www.historicaerials.com/?javascript=&",
+      "status": 200,
+      "final_url": "https://www.historicaerials.com/?javascript=&"
+    },
+    {
+      "url": "http://www.hoovers.com/",
+      "status": 200,
+      "final_url": "https://www.dnb.com/en-us/products/dnb-hoovers.html"
+    },
+    {
+      "url": "http://www.i2ocr.com/",
+      "status": 200,
+      "final_url": "https://www.i2ocr.com/"
+    },
+    {
+      "url": "http://www.impulseadventure.com/photo/jpeg-snoop.html",
+      "status": 200,
+      "final_url": "https://www.impulseadventure.com/photo/jpeg-snoop.html"
+    },
+    {
+      "url": "http://www.infosniper.net/",
+      "status": 200,
+      "final_url": "https://www.infosniper.net/"
+    },
+    {
+      "url": "http://www.instantstreetview.com/",
+      "status": 200,
+      "final_url": "https://www.instantstreetview.com/"
+    },
+    {
+      "url": "http://www.instya.com/#/web/",
+      "status": 200,
+      "final_url": "https://www.instya.com/"
+    },
+    {
+      "url": "http://www.ipfingerprints.com/",
+      "status": 200,
+      "final_url": "https://ipfingerprints.com/"
+    },
+    {
+      "url": "http://www.ipfingerprints.com/reverseip.php",
+      "status": 200,
+      "final_url": "https://ipfingerprints.com/reverseip.php"
+    },
+    {
+      "url": "http://www.ipvoid.com/",
+      "status": 200,
+      "final_url": "https://www.ipvoid.com/"
+    },
+    {
+      "url": "http://www.izito.com/",
+      "status": 200,
+      "final_url": "https://www.izito.com/"
+    },
+    {
+      "url": "http://www.jobster.com/",
+      "status": 200,
+      "final_url": "https://jobster.com/"
+    },
+    {
+      "url": "http://www.kijiji.ca/",
+      "status": 200,
+      "final_url": "https://www.kijiji.ca:443/"
+    },
+    {
+      "url": "http://www.labnol.org/internet/print-youtube-video/28217/",
+      "status": 200,
+      "final_url": "https://www.labnol.org/internet/print-youtube-video/28217"
+    },
+    {
+      "url": "http://www.lazyscholar.org/",
+      "status": 200,
+      "final_url": "https://lazyscholar.org/"
+    },
+    {
+      "url": "http://www.locabrowser.com",
+      "status": 200,
+      "final_url": "https://www.locabrowser.com/"
+    },
+    {
+      "url": "http://www.malware-traffic-analysis.net/index.html",
+      "status": 200,
+      "final_url": "https://www.malware-traffic-analysis.net/index.html"
+    },
+    {
+      "url": "http://www.malwareurl.com/index.php",
+      "status": 200,
+      "final_url": "https://www.malwareurl.com/index.php"
+    },
+    {
+      "url": "http://www.meetup.com/",
+      "status": 200,
+      "final_url": "https://www.meetup.com/"
+    },
+    {
+      "url": "http://www.melissadata.com/lookups/deathcheck.asp",
+      "status": 200,
+      "final_url": "https://www.melissa.com/"
+    },
+    {
+      "url": "http://www.melissadata.com/lookups/emails.asp",
+      "status": 200,
+      "final_url": "https://www.melissa.com/"
+    },
+    {
+      "url": "http://www.melissadata.com/lookups/fec.asp",
+      "status": 200,
+      "final_url": "https://www.melissa.com/"
+    },
+    {
+      "url": "http://www.melissadata.com/lookups/peoplefinder.asp",
+      "status": 200,
+      "final_url": "https://www.melissa.com/"
+    },
+    {
+      "url": "http://www.melissadata.com/lookups/propertyviewer.asp",
+      "status": 200,
+      "final_url": "https://www.melissa.com/"
+    },
+    {
+      "url": "http://www.metatube.com/",
+      "status": 200,
+      "final_url": "https://www.metatube.com/"
+    },
+    {
+      "url": "http://www.mgmaps.com/kml/#view",
+      "status": 200,
+      "final_url": "https://www.mgmaps.com/kml/"
+    },
+    {
+      "url": "http://www.migente.com/user_search/index.html",
+      "status": 200,
+      "final_url": "https://migente.com/wp-login.php?redirect_to=https%3A%2F%2Fmigente.com%2Fuser_search%2Findex.html&bp-auth=1&action=bpnoaccess"
+    },
+    {
+      "url": "http://www.misp-project.org/",
+      "status": 200,
+      "final_url": "https://www.misp-project.org/"
+    },
+    {
+      "url": "http://www.n2yo.com/",
+      "status": 200,
+      "final_url": "https://www.n2yo.com/"
+    },
+    {
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/",
+      "status": 200,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/"
+    },
+    {
+      "url": "http://www.networksec.org/grabbho/block.txt",
+      "status": 200,
+      "final_url": "https://www.networksec.org/grabbho/block.txt"
+    },
+    {
+      "url": "http://www.newsnow.co.uk/h/",
+      "status": 200,
+      "final_url": "https://www.newsnow.co.uk/h/"
+    },
+    {
+      "url": "http://www.newsobserver.com/news/databases/state-pay/",
+      "status": 200,
+      "final_url": "https://www.newsobserver.com/news/databases/state-pay/"
+    },
+    {
+      "url": "http://www.noslang.com/",
+      "status": 200,
+      "final_url": "https://www.noslang.com/"
+    },
+    {
+      "url": "http://www.onelook.com/reverse-dictionary.shtml",
+      "status": 200,
+      "final_url": "https://www.onelook.com/reverse-dictionary.shtml"
+    },
+    {
+      "url": "http://www.onlineocr.net/",
+      "status": 200,
+      "final_url": "https://www.onlineocr.net/"
+    },
+    {
+      "url": "http://www.openrailwaymap.org/",
+      "status": 200,
+      "final_url": "https://www.openrailwaymap.org/"
+    },
+    {
+      "url": "http://www.openseamap.org",
+      "status": 200,
+      "final_url": "http://www.openseamap.org/index.php?id=openseamap&no_cache=1"
+    },
+    {
+      "url": "http://www.openstreetmap.org/#map=5/40.614/-100.679",
+      "status": 200,
+      "final_url": "https://www.openstreetmap.org/"
+    },
+    {
+      "url": "http://www.openstreetmap.org/#map=5/51.500/-0.100",
+      "status": 200,
+      "final_url": "https://www.openstreetmap.org/"
+    },
+    {
+      "url": "http://www.page2images.com/URL-Live-Website-Screenshot-Generator",
+      "status": 200,
+      "final_url": "https://www.page2images.com/URL-Live-Website-Screenshot-Generator"
+    },
+    {
+      "url": "http://www.pagepress.org/",
+      "status": 200,
+      "final_url": "https://www.pagepress.org/"
+    },
+    {
+      "url": "http://www.peekyou.com/",
+      "status": 200,
+      "final_url": "https://www.peekyou.com/"
+    },
+    {
+      "url": "http://www.phonevalidator.com/",
+      "status": 200,
+      "final_url": "https://www.phonevalidator.com/index.aspx"
+    },
+    {
+      "url": "http://www.pof.com/",
+      "status": 200,
+      "final_url": "https://www.pof.com/"
+    },
+    {
+      "url": "http://www.politicalmoneyline.com/",
+      "status": 200,
+      "final_url": "https://info.cq.com/"
+    },
+    {
+      "url": "http://www.politifact.com/",
+      "status": 200,
+      "final_url": "https://www.politifact.com/"
+    },
+    {
+      "url": "http://www.pressreader.com/",
+      "status": 200,
+      "final_url": "https://www.pressreader.com/"
+    },
+    {
+      "url": "http://www.projecthoneypot.org/",
+      "status": 200,
+      "final_url": "https://www.projecthoneypot.org/"
+    },
+    {
+      "url": "http://www.projecthoneypot.org/list_of_ips.php",
+      "status": 200,
+      "final_url": "https://www.projecthoneypot.org/list_of_ips.php"
+    },
+    {
+      "url": "http://www.quikr.com/",
+      "status": 200,
+      "final_url": "https://www.quikr.com/"
+    },
+    {
+      "url": "http://www.readnotify.com/",
+      "status": 200,
+      "final_url": "https://www.readnotify.com/"
+    },
+    {
+      "url": "http://www.sacbee.com/site-services/databases/state-pay/article2642161.html",
+      "status": 200,
+      "final_url": "https://www.sacbee.com/news/databases/state-pay/article229468549.html"
+    },
+    {
+      "url": "http://www.sciencedirect.com/",
+      "status": 200,
+      "final_url": "https://www.sciencedirect.com/"
+    },
+    {
+      "url": "http://www.searchalljunk.com/",
+      "status": 200,
+      "final_url": "https://www.searchalljunk.com/"
+    },
+    {
+      "url": "http://www.searchenginecolossus.com/",
+      "status": 200,
+      "final_url": "https://www.searchenginecolossus.com/"
+    },
+    {
+      "url": "http://www.searchftps.net/",
+      "status": 200,
+      "final_url": "https://www.searchftps.net/"
+    },
+    {
+      "url": "http://www.searchtempest.com/",
+      "status": 200,
+      "final_url": "https://www.searchtempest.com/"
+    },
+    {
+      "url": "http://www.sec.gov/edgar.shtml",
+      "status": 200,
+      "final_url": "https://www.sec.gov/submit-filings"
+    },
+    {
+      "url": "http://www.shadowserver.org/wiki/pmwiki.php?n=Services/Reports",
+      "status": 200,
+      "final_url": "https://www.shadowserver.org/"
+    },
+    {
+      "url": "http://www.shipais.com/",
+      "status": 200,
+      "final_url": "https://shipais.uk/"
+    },
+    {
+      "url": "http://www.smugmug.com/search",
+      "status": 200,
+      "final_url": "https://www.smugmug.com/"
+    },
+    {
+      "url": "http://www.sno.phy.queensu.ca/~phil/exiftool/",
+      "status": 200,
+      "final_url": "https://exiftool.org/"
+    },
+    {
+      "url": "http://www.snopes.com/",
+      "status": 200,
+      "final_url": "https://www.snopes.com/"
+    },
+    {
+      "url": "http://www.social-searcher.com/",
+      "status": 200,
+      "final_url": "https://www.social-searcher.com/"
+    },
+    {
+      "url": "http://www.social-searcher.com/google-social-search/",
+      "status": 200,
+      "final_url": "https://www.social-searcher.com/google-social-search/"
+    },
+    {
+      "url": "http://www.spydialer.com/default.aspx",
+      "status": 200,
+      "final_url": "https://www.spydialer.com:443/default.aspx"
+    },
+    {
+      "url": "http://www.start.umd.edu/gtd/",
+      "status": 200,
+      "final_url": "https://www.start.umd.edu/data-tools/GTD"
+    },
+    {
+      "url": "http://www.statscrop.com/",
+      "status": 200,
+      "final_url": "https://www.statscrop.com/"
+    },
+    {
+      "url": "http://www.stopfake.org/en/category/tools/",
+      "status": 200,
+      "final_url": "https://www.stopfake.org/en/category/tools/"
+    },
+    {
+      "url": "http://www.tcpiputils.com/domain-neighbors",
+      "status": 200,
+      "final_url": "https://dnslytics.com/"
+    },
+    {
+      "url": "http://www.theinmatelocator.com/",
+      "status": 200,
+      "final_url": "https://theinmatelocator.com/"
+    },
+    {
+      "url": "http://www.thescipub.com/",
+      "status": 200,
+      "final_url": "https://www.thescipub.com/"
+    },
+    {
+      "url": "http://www.topix.com/search/article?q=",
+      "status": 200,
+      "final_url": "https://www.pch.com/quizzes"
+    },
+    {
+      "url": "http://www.tracemyip.org/",
+      "status": 200,
+      "final_url": "https://www.tracemyip.org/"
+    },
+    {
+      "url": "http://www.track-trace.com/",
+      "status": 200,
+      "final_url": "https://www.track-trace.com/"
+    },
+    {
+      "url": "http://www.truecaller.com/",
+      "status": 200,
+      "final_url": "https://www.truecaller.com/"
+    },
+    {
+      "url": "http://www.tubechop.com/",
+      "status": 200,
+      "final_url": "https://tubechop.com/"
+    },
+    {
+      "url": "http://www.tumblr.com/tagged/search",
+      "status": 200,
+      "final_url": "https://www.tumblr.com/tagged/search"
+    },
+    {
+      "url": "http://www.urbandictionary.com/",
+      "status": 200,
+      "final_url": "https://www.urbandictionary.com/"
+    },
+    {
+      "url": "http://www.urlvoid.com/",
+      "status": 200,
+      "final_url": "https://www.urlvoid.com/"
+    },
+    {
+      "url": "http://www.useragentstring.com/pages/useragentstring.php",
+      "status": 200,
+      "final_url": "https://www.useragentstring.com/pages/useragentstring.php"
+    },
+    {
+      "url": "http://www.usnaviguide.com/",
+      "status": 200,
+      "final_url": "https://www.usnaviguide.com/"
+    },
+    {
+      "url": "http://www.vault.com/",
+      "status": 200,
+      "final_url": "https://vault.com/"
+    },
+    {
+      "url": "http://www.vesseltracker.com/app",
+      "status": 200,
+      "final_url": "https://www.vesseltracker.com/"
+    },
+    {
+      "url": "http://www.vicenteaguileradiaz.com/tools/",
+      "status": 200,
+      "final_url": "https://www.vicenteaguileradiaz.com/tools/"
+    },
+    {
+      "url": "http://www.visualsitemapper.com/",
+      "status": 200,
+      "final_url": "https://github.com/alentum/sitemapper-nodejs"
+    },
+    {
+      "url": "http://www.wayp.com/",
+      "status": 200,
+      "final_url": "https://www.wayp.com/"
+    },
+    {
+      "url": "http://www.webarchive.org.uk/ukwa/",
+      "status": 200,
+      "final_url": "https://www.webarchive.org.uk/ukwa/"
+    },
+    {
+      "url": "http://www.whatbrowseramiusing.co/",
+      "status": 200,
+      "final_url": "https://www.whatbrowseramiusing.co/"
+    },
+    {
+      "url": "http://www.whatsmybrowser.org/",
+      "status": 200,
+      "final_url": "https://www.whatsmybrowser.org/"
+    },
+    {
+      "url": "http://www.yougotthenews.com/",
+      "status": 200,
+      "final_url": "https://yougotthenews.com/"
+    },
+    {
+      "url": "http://zulu.zscaler.com/",
+      "status": 200,
+      "final_url": "https://zulu.zscaler.com/"
+    },
+    {
+      "url": "https://academic.microsoft.com/",
+      "status": 200,
+      "final_url": "https://www.microsoft.com/en-us"
+    },
+    {
+      "url": "https://archive.ics.uci.edu/ml/datasets/Spambase",
+      "status": 200,
+      "final_url": "https://archive.ics.uci.edu/dataset/94/spambase"
+    },
+    {
+      "url": "https://archive.org/web/",
+      "status": 200,
+      "final_url": "https://web.archive.org/"
+    },
+    {
+      "url": "https://beta.companieshouse.gov.uk/",
+      "status": 200,
+      "final_url": "https://find-and-update.company-information.service.gov.uk:443/"
+    },
+    {
+      "url": "https://bhattsameer.github.io/numspy",
+      "status": 200,
+      "final_url": "https://bhattsameer.github.io/numspy/"
+    },
+    {
+      "url": "https://ccsearch.creativecommons.org/",
+      "status": 200,
+      "final_url": "https://search.creativecommons.org/"
+    },
+    {
+      "url": "https://censys.io/",
+      "status": 200,
+      "final_url": "https://censys.com/"
+    },
+    {
+      "url": "https://chrome.google.com/webstore/detail/frame-by-frame-for-youtub/elkadbdicdciddfkdpmaolomehalghio?hl=en-GB",
+      "status": 200,
+      "final_url": "https://chromewebstore.google.com/detail/empty-title/elkadbdicdciddfkdpmaolomehalghio?hl=en-GB"
+    },
+    {
+      "url": "https://chrome.google.com/webstore/detail/reveye-reverse-image-sear/keaaclcjhehbbapnphnmpiklalfhelgf?hl=en",
+      "status": 200,
+      "final_url": "https://chromewebstore.google.com/detail/reveye-reverse-image-sear/keaaclcjhehbbapnphnmpiklalfhelgf?hl=en"
+    },
+    {
+      "url": "https://chrome.google.com/webstore/detail/wayback-machine/fpnmgdkabkmnadcjpehmlllkndpkmiak",
+      "status": 200,
+      "final_url": "https://chromewebstore.google.com/detail/wayback-machine/fpnmgdkabkmnadcjpehmlllkndpkmiak"
+    },
+    {
+      "url": "https://cirt.net/passwords",
+      "status": 200,
+      "final_url": "https://cirt.net/passwords/"
+    },
+    {
+      "url": "https://cse.google.com/cse/",
+      "status": 200,
+      "final_url": "https://programmablesearchengine.google.com/about/"
+    },
+    {
+      "url": "https://cyber.gc.ca/",
+      "status": 200,
+      "final_url": "https://www.cyber.gc.ca/"
+    },
+    {
+      "url": "https://databases.today/",
+      "status": 200,
+      "final_url": "https://snusbase.com/"
+    },
+    {
+      "url": "https://dnstwister.report/",
+      "status": 200,
+      "final_url": "https://www.dnstwister.com/"
+    },
+    {
+      "url": "https://domains.markmonitor.com/whois/",
+      "status": 200,
+      "final_url": "https://whois-webform.markmonitor.com:443/whois/"
+    },
+    {
+      "url": "https://duckduckgo.com/aichat",
+      "status": 200,
+      "final_url": "https://duck.ai/chat"
+    },
+    {
+      "url": "https://exonerator.torproject.org/",
+      "status": 200,
+      "final_url": "https://metrics.torproject.org/exonerator.html"
+    },
+    {
+      "url": "https://flow.microsoft.com/en-us/",
+      "status": 200,
+      "final_url": "https://make.powerautomate.com/en-us/"
+    },
+    {
+      "url": "https://freenetproject.org/pages/download.html",
+      "status": 200,
+      "final_url": "https://www.hyphanet.org/pages/download.html"
+    },
+    {
+      "url": "https://geoguessr.com/",
+      "status": 200,
+      "final_url": "https://www.geoguessr.com/"
+    },
+    {
+      "url": "https://getfirebug.com/downloads/",
+      "status": 200,
+      "final_url": "https://getfirebug.com/index.html"
+    },
+    {
+      "url": "https://geti2p.net/en/",
+      "status": 200,
+      "final_url": "https://i2p.net/en/"
+    },
+    {
+      "url": "https://github.com/InQuest/python-iocextract",
+      "status": 200,
+      "final_url": "https://github.com/InQuest/iocextract"
+    },
+    {
+      "url": "https://github.com/T3hUb3rK1tten/TweetVacuum",
+      "status": 200,
+      "final_url": "https://github.com/UberKitten/TweetVacuum"
+    },
+    {
+      "url": "https://github.com/leapsecurity/InSpy",
+      "status": 200,
+      "final_url": "https://github.com/jobroche/InSpy"
+    },
+    {
+      "url": "https://github.com/vysec/LinkedInt",
+      "status": 200,
+      "final_url": "https://github.com/vysecurity/LinkedInt"
+    },
+    {
+      "url": "https://github.com/zricethezav/gitleaks",
+      "status": 200,
+      "final_url": "https://github.com/gitleaks/gitleaks"
+    },
+    {
+      "url": "https://hooktube.com/",
+      "status": 200,
+      "final_url": "https://cinemaphile.com/"
+    },
+    {
+      "url": "https://hulbee.com/",
+      "status": 200,
+      "final_url": "https://hulbee.com/de"
+    },
+    {
+      "url": "https://imgrab.com/",
+      "status": 200,
+      "final_url": "https://www.imgrab.com/"
+    },
+    {
+      "url": "https://inflact.com/profiles/instagram-viewer/",
+      "status": 200,
+      "final_url": "https://inflact.com/instagram-viewer/profile/"
+    },
+    {
+      "url": "https://iplogger.com/",
+      "status": 200,
+      "final_url": "https://iplogger.org/"
+    },
+    {
+      "url": "https://ki.tc",
+      "status": 200,
+      "final_url": "https://ki.tc/login"
+    },
+    {
+      "url": "https://lastpass.com/snapchat/",
+      "status": 200,
+      "final_url": "https://www.lastpass.com/features/dark-web-monitoring"
+    },
+    {
+      "url": "https://moz.com/researchtools/ose/",
+      "status": 200,
+      "final_url": "https://moz.com/link-explorer"
+    },
+    {
+      "url": "https://nerdydata.com/search",
+      "status": 200,
+      "final_url": "https://www.nerdydata.com/reports/new"
+    },
+    {
+      "url": "https://news.google.com/news/advanced_news_search?",
+      "status": 200,
+      "final_url": "https://news.google.com/home?hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "url": "https://nextcaller.com/",
+      "status": 200,
+      "final_url": "https://www.pindrop.com/"
+    },
+    {
+      "url": "https://openphish.com/feed.txt",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt"
+    },
+    {
+      "url": "https://opensignal.com/",
+      "status": 200,
+      "final_url": "https://www.opensignal.com/"
+    },
+    {
+      "url": "https://osint.industries/",
+      "status": 200,
+      "final_url": "https://www.osint.industries/"
+    },
+    {
+      "url": "https://packetstormsecurity.com/",
+      "status": 200,
+      "final_url": "https://packetstorm.news/"
+    },
+    {
+      "url": "https://panopticlick.eff.org/",
+      "status": 200,
+      "final_url": "https://coveryourtracks.eff.org/"
+    },
+    {
+      "url": "https://portswigger.net/burp/",
+      "status": 200,
+      "final_url": "https://portswigger.net/burp"
+    },
+    {
+      "url": "https://portswigger.net/burp/download.html",
+      "status": 200,
+      "final_url": "https://portswigger.net/burp"
+    },
+    {
+      "url": "https://redditmetis.com/#",
+      "status": 200,
+      "final_url": "https://redditmetis.com/"
+    },
+    {
+      "url": "https://riskdiscovery.com/honeydb/",
+      "status": 200,
+      "final_url": "https://honeydb.io/"
+    },
+    {
+      "url": "https://secai.ai/research",
+      "status": 200,
+      "final_url": "https://i.secai.ai/research"
+    },
+    {
+      "url": "https://secuniaresearch.flexerasoftware.com/community/research/",
+      "status": 200,
+      "final_url": "https://www.flexera.com/products/security/software-vulnerability-advisories?referrer=secunia"
+    },
+    {
+      "url": "https://sitereview.bluecoat.com/sitereview.jsp",
+      "status": 200,
+      "final_url": "https://sitereview.bluecoat.com/#/"
+    },
+    {
+      "url": "https://slangit.com/",
+      "status": 200,
+      "final_url": "https://slang.net/"
+    },
+    {
+      "url": "https://swisscows.com/",
+      "status": 200,
+      "final_url": "https://swisscows.com/en"
+    },
+    {
+      "url": "https://tails.boum.org/",
+      "status": 200,
+      "final_url": "https://tails.net/"
+    },
+    {
+      "url": "https://thatoneprivacysite.net/",
+      "status": 200,
+      "final_url": "https://www.safetydetectives.com/best-vpns/"
+    },
+    {
+      "url": "https://thatsthem.com/name-address-search",
+      "status": 200,
+      "final_url": "https://thatsthem.com/challenge?r=%2Freverse-address-lookup"
+    },
+    {
+      "url": "https://thatsthem.com/reverse-email-lookup",
+      "status": 200,
+      "final_url": "https://thatsthem.com/challenge?r=%2Freverse-email-lookup"
+    },
+    {
+      "url": "https://thatsthem.com/reverse-phone-lookup",
+      "status": 200,
+      "final_url": "https://thatsthem.com/challenge?r=%2Freverse-phone-lookup"
+    },
+    {
+      "url": "https://thatsthem.com/vin-search",
+      "status": 200,
+      "final_url": "https://thatsthem.com/challenge?r=%2F"
+    },
+    {
+      "url": "https://tools.digitalmethods.net/netvizz/youtube/",
+      "status": 200,
+      "final_url": "https://ytdt.digitalmethods.net/"
+    },
+    {
+      "url": "https://tools.dnsstuff.com/",
+      "status": 200,
+      "final_url": "https://www.dnsstuff.com/freetools"
+    },
+    {
+      "url": "https://totalhash.cymru.com/",
+      "status": 200,
+      "final_url": "https://www.team-cymru.com/mhr"
+    },
+    {
+      "url": "https://twitter.com/quiztime",
+      "status": 200,
+      "final_url": "https://x.com/quiztime"
+    },
+    {
+      "url": "https://twitter.com/search-advanced",
+      "status": 200,
+      "final_url": "https://x.com/search-advanced"
+    },
+    {
+      "url": "https://twitter.com/search?q=%3Csearchterm%3E&src=typd&vertical=default&f=images",
+      "status": 200,
+      "final_url": "https://x.com/search?q=%3Csearchterm%3E&src=typd&vertical=default&f=images"
+    },
+    {
+      "url": "https://twitter.com/search?q=SearchTerm%20since:2016-03-01%20until:2016-03-02",
+      "status": 200,
+      "final_url": "https://x.com/search?q=SearchTerm%20since:2016-03-01%20until:2016-03-02"
+    },
+    {
+      "url": "https://twitter.com/search?q=geocode%3A36.1143855%2C-115.1727518%2C1km&src=typd",
+      "status": 200,
+      "final_url": "https://x.com/search?q=geocode%3A36.1143855%2C-115.1727518%2C1km&src=typd"
+    },
+    {
+      "url": "https://vk.com/",
+      "status": 200,
+      "final_url": "https://m.vk.com/"
+    },
+    {
+      "url": "https://wappalyzer.com/",
+      "status": 200,
+      "final_url": "https://www.wappalyzer.com/"
+    },
+    {
+      "url": "https://web.skype.com/",
+      "status": 200,
+      "final_url": "https://teams.live.com/v2/unsupported-browser#env=life&browserOverrides={\"firefox\":{\"isSupported\":true,\"minVersion\":\"97.0\"},\"safari\":{\"isSupported\":true,\"minVersion\":\"16.0\"}}"
+    },
+    {
+      "url": "https://www.apk-analyzer.net/",
+      "status": 200,
+      "final_url": "https://www.joesandbox.com/"
+    },
+    {
+      "url": "https://www.ayi.com/index.php",
+      "status": 200,
+      "final_url": "https://www.areyouinterested.com/"
+    },
+    {
+      "url": "https://www.binaryedge.io/",
+      "status": 200,
+      "final_url": "https://www.coalitioninc.com/security/coalition-signals-intelligence"
+    },
+    {
+      "url": "https://www.certificate-transparency.org/known-logs",
+      "status": 200,
+      "final_url": "https://github.com/google/certificate-transparency-community-site/blob/master/docs/google/known-logs.md"
+    },
+    {
+      "url": "https://www.crimereports.com/",
+      "status": 200,
+      "final_url": "https://cityprotect.com/"
+    },
+    {
+      "url": "https://www.data24-7.com/signup.php",
+      "status": 200,
+      "final_url": "https://www.data247.com/register/main"
+    },
+    {
+      "url": "https://www.deepl.com/",
+      "status": 200,
+      "final_url": "https://www.deepl.com/en"
+    },
+    {
+      "url": "https://www.deteque.com/",
+      "status": 200,
+      "final_url": "https://www.spamhaus.com/"
+    },
+    {
+      "url": "https://www.doogal.co.uk/BatchGeocoding.php",
+      "status": 200,
+      "final_url": "https://www.doogal.co.uk/BatchGeocoding"
+    },
+    {
+      "url": "https://www.doogal.co.uk/BatchReverseGeocoding.php",
+      "status": 200,
+      "final_url": "https://www.doogal.co.uk/BatchReverseGeocoding"
+    },
+    {
+      "url": "https://www.easywhois.com/",
+      "status": 200,
+      "final_url": "https://app.domainhelp.com/"
+    },
+    {
+      "url": "https://www.emporis.com/",
+      "status": 200,
+      "final_url": "https://www.costar.com/"
+    },
+    {
+      "url": "https://www.exploit-db.com/google-hacking-database/",
+      "status": 200,
+      "final_url": "https://www.exploit-db.com/google-hacking-database"
+    },
+    {
+      "url": "https://www.facebook.com/livemap#",
+      "status": 200,
+      "final_url": "https://www.facebook.com/watch/live/?ref=live_delegate"
+    },
+    {
+      "url": "https://www.file-analyzer.net/",
+      "status": 200,
+      "final_url": "https://www.joesandbox.com/"
+    },
+    {
+      "url": "https://www.google.com/advanced_patent_search",
+      "status": 200,
+      "final_url": "https://patents.google.com/advanced"
+    },
+    {
+      "url": "https://www.google.com/alerts#",
+      "status": 200,
+      "final_url": "https://www.google.com/alerts"
+    },
+    {
+      "url": "https://www.google.com/earth/",
+      "status": 200,
+      "final_url": "https://earth.google.com/web/"
+    },
+    {
+      "url": "https://www.google.com/finance",
+      "status": 200,
+      "final_url": "https://www.google.com/finance/"
+    },
+    {
+      "url": "https://www.google.com/trends/",
+      "status": 200,
+      "final_url": "https://trends.google.com/trends/"
+    },
+    {
+      "url": "https://www.gotinder.com/@%3Cusername%3E",
+      "status": 200,
+      "final_url": "https://tinder.com/@%3Cusername%3E"
+    },
+    {
+      "url": "https://www.gpo.gov/fdsys/",
+      "status": 200,
+      "final_url": "https://www.govinfo.gov/"
+    },
+    {
+      "url": "https://www.hlr-lookups.com/",
+      "status": 200,
+      "final_url": "https://www.hlr-lookups.com/en/start"
+    },
+    {
+      "url": "https://www.hybrid-analysis.com/",
+      "status": 200,
+      "final_url": "https://hybrid-analysis.com/"
+    },
+    {
+      "url": "https://www.inshorts.com/en/read",
+      "status": 200,
+      "final_url": "https://inshorts.com/en/read"
+    },
+    {
+      "url": "https://www.liveleak.com/",
+      "status": 200,
+      "final_url": "https://www.itemfix.com/?r=ll"
+    },
+    {
+      "url": "https://www.magnetforensics.com/free-tool-web-page-saver/",
+      "status": 200,
+      "final_url": "https://www.magnetforensics.com/resources/web-page-saver/"
+    },
+    {
+      "url": "https://www.malwarepatrol.net/open-source.shtml",
+      "status": 200,
+      "final_url": "https://www.malwarepatrol.net/integrations-formats-threat-intelligence-feed-integration/"
+    },
+    {
+      "url": "https://www.myfonts.com/WhatTheFont/",
+      "status": 200,
+      "final_url": "https://www.myfonts.com/pages/whatthefont"
+    },
+    {
+      "url": "https://www.ncdc.noaa.gov/nexradinv/",
+      "status": 200,
+      "final_url": "https://www.ncei.noaa.gov/nexradinv/"
+    },
+    {
+      "url": "https://www.nsopw.gov/en/Search",
+      "status": 200,
+      "final_url": "https://www.nsopw.gov/search-public-sex-offender-registries"
+    },
+    {
+      "url": "https://www.numberway.com/",
+      "status": 200,
+      "final_url": "https://www.thisnumber.com/"
+    },
+    {
+      "url": "https://www.opengov-muenchen.de/",
+      "status": 200,
+      "final_url": "https://opendata.muenchen.de/"
+    },
+    {
+      "url": "https://www.overviewdocs.com/",
+      "status": 200,
+      "final_url": "https://github.com/overview/overview-local"
+    },
+    {
+      "url": "https://www.owasp.org/index.php/Main_Page",
+      "status": 200,
+      "final_url": "https://owasp.org/"
+    },
+    {
+      "url": "https://www.registryfinder.com/",
+      "status": 200,
+      "final_url": "https://registryfinder.com:443/"
+    },
+    {
+      "url": "https://www.robtex.com/",
+      "status": 200,
+      "final_url": "https://robtex.com/"
+    },
+    {
+      "url": "https://www.sitesleuth.io/",
+      "status": 200,
+      "final_url": "https://zone.uk.net/"
+    },
+    {
+      "url": "https://www.torproject.org/download/download-easy.html.en",
+      "status": 200,
+      "final_url": "https://www.torproject.org/download/"
+    },
+    {
+      "url": "https://www.twilio.com/lookup",
+      "status": 200,
+      "final_url": "https://www.twilio.com/en-us/user-authentication-identity/lookup"
+    },
+    {
+      "url": "https://www.url-analyzer.net/",
+      "status": 200,
+      "final_url": "https://www.joesandbox.com/"
+    },
+    {
+      "url": "https://www.vigilante.pw/",
+      "status": 200,
+      "final_url": "https://dehashed.com/"
+    },
+    {
+      "url": "https://www.virustotal.com/",
+      "status": 200,
+      "final_url": "https://www.virustotal.com/gui/"
+    },
+    {
+      "url": "https://www.yandex.com/",
+      "status": 200,
+      "final_url": "https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.46&mt=50D20209A10CB3914029D9719A1993BFB30A2B8C0C96BF8FE2BD97E2DD4623FB294F5DDBB37326DA8BE3B437E86970163CA109FBA9EA08571C59AB3FA406A9FD715060819424031D21461EBDFF2266A49011057E43B777970BFD5DC7A7F37CB9F2BCA7953E35350940A58FEF6AE96A77337674CB818C6CCC2CCB25DFEC03E0B959A7B7039309E47B0EAD6823D29D3CD2F18E3E59273A0BE738F8165041CCED56780E19E986010237C9AAE1220FF7E1DFF746CD6775869DFD5286C3989FF17E9051CF4F7117365D103441F9F5A7042514C7A2569F381692A61D323C&retpath=aHR0cHM6Ly95YW5kZXguY29tLz8%2C_0557931346ee462dbea520700b309e49&t=2%252F1774131900%252F5a0020c6a0ead622037f5d8c48ade817&u=8379511975922811639&s=b53a0a55f78a8404f86979be07ec4308"
+    },
+    {
+      "url": "https://yasiv.com/youtube",
+      "status": 200,
+      "final_url": "https://yasiv.com/youtube/"
+    }
+  ],
+  "slow": [
+    {
+      "url": "https://openlibrary.org/",
+      "elapsed": 10.31
+    }
+  ]
+}
