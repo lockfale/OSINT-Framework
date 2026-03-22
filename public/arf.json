@@ -3378,11 +3378,6 @@
           "type": "folder",
           "children": [
             {
-              "name": "That's Them VIN Search",
-              "type": "url",
-              "url": "https://thatsthem.com/vin-search"
-            },
-            {
               "name": "MyAccident - traffic accident map",
               "type": "url",
               "url": "https://myaccident.org/"
@@ -5028,11 +5023,6 @@
       "name": "Encoding / Decoding",
       "type": "folder",
       "children": [
-        {
-          "name": "Base64",
-          "type": "folder",
-          "children": []
-        },
         {
           "name": "Barcodes / QR",
           "type": "folder",
