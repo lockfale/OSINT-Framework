@@ -1,3 +1,7 @@
+# agent / org files #
+######################
+agents/
+
 # vendor packages #
 ######################
 public/js/vendor
