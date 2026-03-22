@@ -49,9 +49,15 @@
               "name": "Names Directory",
               "type": "url",
               "url": "https://namesdir.com/"
+            },
+            {
+              "name": "Lullar",
+              "type": "url",
+              "url": "https://com.lullar.com"
             }
           ]
         },
+        null,
         {
           "name": "Specific Sites",
           "type": "folder",
@@ -563,6 +569,11 @@
               "url": "https://crt.sh/?"
             },
             {
+              "name": "CertKit - Certificate Transparency Log Search",
+              "type": "url",
+              "url": "https://www.certkit.io/tools/ct-logs/"
+            },
+            {
               "name": "certgraph (T)",
               "type": "url",
               "url": "https://github.com/lanrat/certgraph"
@@ -1041,6 +1052,11 @@
                   "name": "Online Nikto scanner",
                   "type": "url",
                   "url": "https://nikto.online/"
+                },
+                {
+                  "name": "WDES - Web Data Exposure Scanner (T)",
+                  "type": "url",
+                  "url": "https://github.com/eduardoit/web-data-exposure-scanner"
                 }
               ]
             },
@@ -2974,6 +2990,11 @@
               "name": "Federal Inmate Locator",
               "type": "url",
               "url": "https://www.bop.gov/inmateloc/"
+            },
+            {
+              "name": "Epstein Exposed",
+              "type": "url",
+              "url": "https://epsteinexposed.com"
             }
           ]
         },
@@ -3427,6 +3448,11 @@
               "name": "Vessel Finder",
               "type": "url",
               "url": "https://www.vesselfinder.com/"
+            },
+            {
+              "name": "Global Fishing Watch",
+              "type": "url",
+              "url": "https://globalfishingwatch.org"
             }
           ]
         },
@@ -3543,6 +3569,16 @@
               "name": "AntennaSearch",
               "type": "url",
               "url": "https://www.antennasearch.com/"
+            },
+            {
+              "name": "OpenCelliD",
+              "type": "url",
+              "url": "https://opencellid.org/"
+            },
+            {
+              "name": "beaconDB",
+              "type": "url",
+              "url": "https://beacondb.net/"
             }
           ]
         },
