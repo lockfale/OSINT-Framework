@@ -1,0 +1,90 @@
+name: CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+  schedule:
+    # Run link check weekly on Sunday at 02:00 UTC
+    - cron: '0 2 * * 0'
+
+jobs:
+  json-lint:
+    name: JSON Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate arf.json is well-formed
+        run: python3 -m json.tool public/arf.json > /dev/null
+
+  smoke-test:
+    name: Smoke Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check index.html local asset references exist
+        run: |
+          check_asset() {
+            local path="public/$1"
+            if [ ! -f "$path" ]; then
+              echo "MISSING: $path"
+              exit 1
+            else
+              echo "OK: $path"
+            fi
+          }
+          check_asset "css/arf.css"
+          check_asset "js/d3.v3.min.js"
+          check_asset "js/arf.js"
+          check_asset "arf.json"
+
+  link-check:
+    name: Link Check
+    runs-on: ubuntu-latest
+    # Only run on schedule and direct pushes to master, not on every PR
+    # (avoids hammering external sites during code review)
+    if: github.event_name == 'schedule' || (github.event_name == 'push' && github.ref == 'refs/heads/master')
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Extract URLs from arf.json
+        run: |
+          python3 -c "
+          import json, re, sys
+
+          with open('public/arf.json') as f:
+              data = json.load(f)
+
+          def extract_urls(node):
+              urls = []
+              url = node.get('url', '')
+              if url and url.startswith('http'):
+                  urls.append(url)
+              for child in node.get('children', []):
+                  urls.extend(extract_urls(child))
+              return urls
+
+          urls = extract_urls(data)
+          print(f'Found {len(urls)} URLs', file=sys.stderr)
+          with open('urls.txt', 'w') as f:
+              f.write('\n'.join(urls))
+          "
+
+      - name: Run lychee link checker
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: |
+            --verbose
+            --no-progress
+            --timeout 20
+            --max-retries 2
+            --retry-wait-time 5
+            --exclude-mail
+            --accept 200,201,204,206,301,302,307,308,403,429
+            urls.txt
+          fail: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
