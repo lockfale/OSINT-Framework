@@ -1513,6 +1513,11 @@
                   "url": "https://facecheck.id/"
                 },
                 {
+                  "name": "Surfface Face & People Search Engine",
+                  "type": "url",
+                  "url": "https://surfface.com/"
+                },
+                {
                   "name": "TinEye Reverse Image Search",
                   "type": "url",
                   "url": "https://tineye.com/"
@@ -4134,6 +4139,11 @@
           "name": "Search Tools",
           "type": "folder",
           "children": [
+            {
+              "name": "wayparam",
+              "type": "url",
+              "url": "https://github.com/aleff-github/wayparam"
+            },
             {
               "name": "SearchDiggity (T)",
               "type": "url",
