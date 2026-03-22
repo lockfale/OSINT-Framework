@@ -1,22 +1,12 @@
 {
   "summary": {
-    "total": 1113,
-    "ok": 829,
-    "dead": 283,
-    "redirected": 374,
-    "slow": 1
+    "total": 1000,
+    "ok": 831,
+    "dead": 169,
+    "redirected": 375,
+    "slow": 0
   },
   "dead": [
-    {
-      "url": "http://akana.mobiseclab.org/",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
-    },
-    {
-      "url": "http://ancestorhunt.com/most-wanted-criminals-and-fugitives.htm",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
-    },
     {
       "url": "http://andrewmohawk.com/pasteLert/",
       "status": 522,
@@ -28,34 +18,9 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
-      "url": "http://api.opencnam.com/v2/phone/+19073372323",
-      "status": null,
-      "error": "[Errno 61] Connection refused"
-    },
-    {
-      "url": "http://archive.recapthelaw.org/",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
-    },
-    {
       "url": "http://backtweets.com/",
       "status": null,
       "error": "timed out"
-    },
-    {
-      "url": "http://biznar.com/biznar/desktop/en/search.html",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "url": "http://blockr.io/",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
-    },
-    {
-      "url": "http://browsershots.org/",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
     },
     {
       "url": "http://browserspy.dk/browser.php",
@@ -88,16 +53,6 @@
       "error": "[Errno 8] nodename nor servname provided, or not known"
     },
     {
-      "url": "http://data.influenceexplorer.com/#",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
-    },
-    {
-      "url": "http://decalage.info/en/mwsearch",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
       "url": "http://dnshistory.org/",
       "status": 403,
       "error": "HTTP Error 403: Forbidden"
@@ -108,11 +63,6 @@
       "error": "HTTP Error 530: <none>"
     },
     {
-      "url": "http://entitycube.research.microsoft.com/",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
-    },
-    {
       "url": "http://eqt5g4fuenphqinx.onion/",
       "status": null,
       "error": "[Errno 8] nodename nor servname provided, or not known"
@@ -121,11 +71,6 @@
       "url": "http://flightaware.com/live/",
       "status": 308,
       "error": "HTTP Error 308: Permanent Redirect"
-    },
-    {
-      "url": "http://fortiguard.com/iprep",
-      "status": null,
-      "error": "[Errno 61] Connection refused"
     },
     {
       "url": "http://freecarrierlookup.com/",
@@ -141,11 +86,6 @@
       "url": "http://hosts-file.net/",
       "status": null,
       "error": "timed out"
-    },
-    {
-      "url": "http://howmanyofme.com/search/",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
     },
     {
       "url": "http://hss3uro2hsxfogfq.onion/",
@@ -168,11 +108,6 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
-      "url": "http://iseek.com/iseek/home.page",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
       "url": "http://karmadecay.com/",
       "status": null,
       "error": "timed out"
@@ -183,16 +118,6 @@
       "error": "HTTP Error 308: Permanent Redirect"
     },
     {
-      "url": "http://letmecheck.it/",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
-    },
-    {
-      "url": "http://malc0de.com/bl/",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
       "url": "http://map.daum.net/",
       "status": 308,
       "error": "HTTP Error 308: Permanent Redirect"
@@ -201,21 +126,6 @@
       "url": "http://mediabugs.org/",
       "status": 500,
       "error": "HTTP Error 500: Internal Server Error"
-    },
-    {
-      "url": "http://mirror1.malwaredomains.com/files/domains.txt",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "url": "http://nsrl.hashsets.com/national_software_reference_library1_search.php",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
-    },
-    {
-      "url": "http://phenoelit.org/dpl/dpl.html",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
     },
     {
       "url": "http://pqdtopen.proquest.com/search.html",
@@ -241,11 +151,6 @@
       "url": "http://search-id.com/",
       "status": 522,
       "error": "HTTP Error 522: <none>"
-    },
-    {
-      "url": "http://shuriken.pm",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
     },
     {
       "url": "http://socialblade.com/",
@@ -278,34 +183,19 @@
       "error": "HTTP Error 308: Permanent Redirect"
     },
     {
-      "url": "http://translate.reference.com/",
+      "url": "http://vin.place/",
       "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
+      "error": "[Errno 61] Connection refused"
     },
     {
-      "url": "http://twopcharts.com/",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
-    },
-    {
-      "url": "http://urlex.org/",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
-    },
-    {
-      "url": "http://verificationjunkie.com/",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "url": "http://vis-www.cs.umass.edu/lfw/",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
+      "url": "http://wamba.com/",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "http://websiteoutlook.com/",
       "status": null,
-      "error": "timed out"
+      "error": "[Errno 8] nodename nor servname provided, or not known"
     },
     {
       "url": "http://www.amnestyusa.org/citizenevidence/",
@@ -318,24 +208,9 @@
       "error": "HTTP Error 503: Service Temporarily Unavailable"
     },
     {
-      "url": "http://www.anywho.com/whitepages",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "url": "http://www.bgp4.as/tools",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
-    },
-    {
       "url": "http://www.blackpeoplemeet.com/",
       "status": 403,
       "error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "url": "http://www.blackplanet.com/user_search/index.html",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
     },
     {
       "url": "http://www.browserscope.org/",
@@ -346,11 +221,6 @@
       "url": "http://www.calleridservice.com/",
       "status": null,
       "error": "timed out"
-    },
-    {
-      "url": "http://www.cameratrace.com/trace",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
     },
     {
       "url": "http://www.canlii.org/en/",
@@ -393,11 +263,6 @@
       "error": "Remote end closed connection without response"
     },
     {
-      "url": "http://www.findthedata.com/",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
-    },
-    {
       "url": "http://www.flippity.com/",
       "status": 522,
       "error": "HTTP Error 522: <none>"
@@ -418,9 +283,9 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
-      "url": "http://www.goofbid.com/",
+      "url": "http://www.hoovers.com/",
       "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
+      "error": "The read operation timed out"
     },
     {
       "url": "http://www.hunch.ly/",
@@ -448,39 +313,14 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
-      "url": "http://www.kahusecurity.com/tools/",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
       "url": "http://www.kompass.com/selectcountry/",
       "status": 308,
       "error": "HTTP Error 308: Permanent Redirect"
     },
     {
-      "url": "http://www.linkexpander.com/",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
-    },
-    {
       "url": "http://www.malware.com.br/open-source.shtml",
       "status": 522,
       "error": "HTTP Error 522: <none>"
-    },
-    {
-      "url": "http://www.malwaredomainlist.com/hostslist/hosts.txt",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "url": "http://www.malwaredomainlist.com/mdl.php",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "url": "http://www.malwaredomains.com/wordpress/?page_id=66",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
     },
     {
       "url": "http://www.marinetraffic.com/",
@@ -493,9 +333,9 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
-      "url": "http://www.morningstarsecurity.com/research/urlcrazy",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
+      "url": "http://www.onelook.com/reverse-dictionary.shtml",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "http://www.onion.link/",
@@ -508,59 +348,14 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
-      "url": "http://www.opendoar.org/search.php",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
-    },
-    {
       "url": "http://www.opensecrets.org/",
       "status": 403,
       "error": "HTTP Error 403: Forbidden"
     },
     {
-      "url": "http://www.packettotal.com/",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "url": "http://www.reconstructer.org/",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
-    },
-    {
-      "url": "http://www.reputationauthority.org/",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
-    },
-    {
-      "url": "http://www.reversegenie.com/people.php",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
-    },
-    {
-      "url": "http://www.reversegenie.com/phone.php",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
-    },
-    {
-      "url": "http://www.reversegenie.com/plate.php",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
-    },
-    {
       "url": "http://www.ripoffreport.com/",
       "status": 403,
       "error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "url": "http://www.screenshots.com/",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
-    },
-    {
-      "url": "http://www.securityfocus.com/bid",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
     },
     {
       "url": "http://www.senderbase.org/",
@@ -578,11 +373,6 @@
       "error": "HTTP Error 308: Permanent Redirect"
     },
     {
-      "url": "http://www.spyonweb.com/",
-      "status": null,
-      "error": "[Errno 61] Connection refused"
-    },
-    {
       "url": "http://www.talkwalker.com/alerts",
       "status": 308,
       "error": "HTTP Error 308: Permanent Redirect"
@@ -591,11 +381,6 @@
       "url": "http://www.thepaperboy.com/",
       "status": 403,
       "error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "url": "http://www.torscan.io/",
-      "status": null,
-      "error": "[Errno 61] Connection refused"
     },
     {
       "url": "http://www.trustedsource.org/",
@@ -616,16 +401,6 @@
       "url": "http://www.vindecoderz.com/",
       "status": 403,
       "error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "url": "http://www.vmware.com/products/player/playerpro-evaluation.html",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "url": "http://www.whostalkin.com/",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
     },
     {
       "url": "http://www.worldlingo.com/en/products_services/worldlingo_translator.html",
@@ -658,29 +433,9 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/javascript-deobfuscator/",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "url": "https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
       "url": "https://africacheck.org/",
       "status": 403,
       "error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "url": "https://annas-archive.org/",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
-    },
-    {
-      "url": "https://api.github.com/users/%3Cusername%3E/events/public",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
     },
     {
       "url": "https://ashley.cynic.al/",
@@ -688,34 +443,14 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
-      "url": "https://aslookup.com/",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
-    },
-    {
-      "url": "https://attack.mitre.org/wiki/All_Techniques",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
       "url": "https://batchgeo.com/",
       "status": 403,
       "error": "HTTP Error 403: Forbidden"
     },
     {
-      "url": "https://berla.co/products/ive/vehicle-lookup/",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
       "url": "https://bgpstream.com/",
       "status": null,
       "error": "timed out"
-    },
-    {
-      "url": "https://bitbucket.org/decalage/balbuzard",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
     },
     {
       "url": "https://blockchain.info/",
@@ -726,11 +461,6 @@
       "url": "https://blockexplorer.com/",
       "status": 403,
       "error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "url": "https://cdn.rawgit.com/Marak/faker.js/master/examples/browser/index.html",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
     },
     {
       "url": "https://chainradar.com/xmr/blocks",
@@ -758,39 +488,9 @@
       "error": "timed out"
     },
     {
-      "url": "https://consumer.valkyrie.comodo.com/",
-      "status": null,
-      "error": "[Errno 61] Connection refused"
-    },
-    {
-      "url": "https://crt.sh/?",
-      "status": null,
-      "error": "The read operation timed out"
-    },
-    {
       "url": "https://cubib.com/",
       "status": 522,
       "error": "HTTP Error 522: <none>"
-    },
-    {
-      "url": "https://cymon.io/",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
-    },
-    {
-      "url": "https://darkweb.hunch.ly/",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
-    },
-    {
-      "url": "https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
     },
     {
       "url": "https://elevenlabs.io/dubbing",
@@ -808,54 +508,9 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
-      "url": "https://familysearch.org/search/",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "url": "https://findsubdomains.com/",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
-    },
-    {
       "url": "https://flowgpt.com/p/wormgpt-6",
       "status": 403,
       "error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "url": "https://followyourworld.appspot.com/",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "url": "https://getnewsbot.com/",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
-    },
-    {
-      "url": "https://github.com/bharshbarger/AutOSINT",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "url": "https://github.com/bwall/ircsnapshot",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "url": "https://github.com/i3visio/osrframework",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "url": "https://github.com/infosec-au/assetnote",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "url": "https://github.com/m4ll0k/infoga",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
     },
     {
       "url": "https://graphsense.info/",
@@ -863,34 +518,9 @@
       "error": "HTTP Error 500: Internal Server Error"
     },
     {
-      "url": "https://hashes.org/",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
-    },
-    {
-      "url": "https://hoaxy.iuni.iu.edu/",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
-    },
-    {
       "url": "https://instantusername.com/",
       "status": 403,
       "error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "url": "https://intel.criticalstack.com/",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
-    },
-    {
-      "url": "https://inteltechniques.com/blog/2018/09/28/complete-credit-freeze-tutorial-update/",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "url": "https://inteltechniques.com/buscador/index.html",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
     },
     {
       "url": "https://intrigue.io/",
@@ -923,11 +553,6 @@
       "error": "HTTP Error 530: <none>"
     },
     {
-      "url": "https://malwareconfig.com/",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
-    },
-    {
       "url": "https://millionshort.com/",
       "status": 403,
       "error": "HTTP Error 403: Forbidden"
@@ -938,34 +563,9 @@
       "error": "HTTP Error 308: Permanent Redirect"
     },
     {
-      "url": "https://numspy.pythonanywhere.com/",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
       "url": "https://nuwber.com/",
       "status": 403,
       "error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "url": "https://oint.ctrlbox.com/",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
-    },
-    {
-      "url": "https://onion.cab/",
-      "status": null,
-      "error": "[Errno 61] Connection refused"
-    },
-    {
-      "url": "https://orbisdirectory.bvdinfo.com/version-2016121/OrbisDirectory/Companies",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
-    },
-    {
-      "url": "https://orkut.google.com/",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
     },
     {
       "url": "https://oxt.me",
@@ -973,54 +573,9 @@
       "error": "[Errno 51] Network is unreachable"
     },
     {
-      "url": "https://play.google.com/store/apps/details?id=co.getair.meerkat",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "url": "https://play.google.com/store/apps/details?id=co.vine.android",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "url": "https://play.google.com/store/apps/details?id=com.yahoo.mobile.client.android.flickr",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "url": "https://play.google.com/store/apps/details?id=com.yik.yak",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "url": "https://play.google.com/store/apps/details?id=tv.periscope.android",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "url": "https://plessas.net/online-training",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "url": "https://portmap.com/",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
-    },
-    {
       "url": "https://proxycheck.haschek.at/",
       "status": null,
       "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1129)"
-    },
-    {
-      "url": "https://search.deepviz.com/",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
-    },
-    {
-      "url": "https://searx.me/",
-      "status": null,
-      "error": "[Errno 61] Connection refused"
     },
     {
       "url": "https://securityheaders.io/",
@@ -1043,24 +598,9 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
-      "url": "https://spyse.com/search/certificate",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
-    },
-    {
-      "url": "https://spyse.com/search/ip",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
-    },
-    {
       "url": "https://stackshare.io/",
       "status": 429,
       "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "url": "https://themanyhats.club/centralised-place-for-privacy-resources/",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
     },
     {
       "url": "https://topgainers.net/",
@@ -1108,19 +648,9 @@
       "error": "HTTP Error 403: FORBIDDEN"
     },
     {
-      "url": "https://whatbrowser.org/",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
       "url": "https://whatsmyname.app/",
       "status": 464,
       "error": "HTTP Error 464: "
-    },
-    {
-      "url": "https://whois.arin.net/ui/advanced.jsp",
-      "status": 404,
-      "error": "HTTP Error 404: "
     },
     {
       "url": "https://www.abuseipdb.com/",
@@ -1133,29 +663,9 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
-      "url": "https://www.allmytweets.net/connect/",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "url": "https://www.amazon.com/gp/registry/search",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
       "url": "https://www.ashleymadison.com/",
       "status": 403,
       "error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "url": "https://www.bedbathandbeyond.com/store/giftregistry/registry_search_guest.jsp",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "url": "https://www.blocktrail.com/BTC",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
     },
     {
       "url": "https://www.companieslist.co.uk/",
@@ -1168,11 +678,6 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
-      "url": "https://www.facebook.com/photo.php?fbid=PHOTO-ID-HERE",
-      "status": 404,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
       "url": "https://www.fastpeoplesearch.com/",
       "status": 403,
       "error": "HTTP Error 403: Forbidden"
@@ -1181,11 +686,6 @@
       "url": "https://www.fontspring.com/matcherator",
       "status": 403,
       "error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "url": "https://www.freetranslation.com/",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
     },
     {
       "url": "https://www.getodin.com/",
@@ -1243,11 +743,6 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
-      "url": "https://www.ixquick.com/",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
-    },
-    {
       "url": "https://www.liveipmap.com/",
       "status": 403,
       "error": "HTTP Error 403: Forbidden"
@@ -1288,24 +783,9 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
-      "url": "https://www.owler.com/",
-      "status": 429,
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
       "url": "https://www.passivetotal.org/",
       "status": null,
       "error": "timed out"
-    },
-    {
-      "url": "https://www.perfect-privacy.com/check-ip/",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
-    },
-    {
-      "url": "https://www.perfect-privacy.com/webrtc-leaktest/",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
     },
     {
       "url": "https://www.pexels.com/",
@@ -1313,34 +793,9 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
-      "url": "https://www.plonked.com/",
-      "status": null,
-      "error": "[Errno 61] Connection refused"
-    },
-    {
-      "url": "https://www.pwnmalw.re/",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
-    },
-    {
       "url": "https://www.reddit.com/domain/%3CURLhere%3E",
-      "status": 403,
-      "error": "HTTP Error 403: Blocked"
-    },
-    {
-      "url": "https://www.reddit.com/r/darknet",
-      "status": 403,
-      "error": "HTTP Error 403: Blocked"
-    },
-    {
-      "url": "https://www.reddit.com/r/deepweb",
-      "status": 403,
-      "error": "HTTP Error 403: Blocked"
-    },
-    {
-      "url": "https://www.reddit.com/r/onions",
-      "status": 403,
-      "error": "HTTP Error 403: Blocked"
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
     },
     {
       "url": "https://www.safeshepherd.com/handbook",
@@ -1348,19 +803,9 @@
       "error": "HTTP Error 308: Permanent Redirect"
     },
     {
-      "url": "https://www.salesmaple.com/contacts/#!/",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
-    },
-    {
       "url": "https://www.sans.org/sec487",
       "status": 308,
       "error": "HTTP Error 308: Permanent Redirect"
-    },
-    {
-      "url": "https://www.stringify.com/",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
     },
     {
       "url": "https://www.threatcrowd.org/",
@@ -1381,11 +826,6 @@
       "url": "https://www.usphonebook.com",
       "status": 403,
       "error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "url": "https://www.vehiclehistory.com/licence-plate-search/licence-plate.php",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
     },
     {
       "url": "https://www.wdl.org/en/",
@@ -1411,16 +851,6 @@
       "url": "https://www.zoosk.com/",
       "status": 403,
       "error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "url": "https://zeustracker.abuse.ch/blocklist.php",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
-    },
-    {
-      "url": "https://zeustracker.abuse.ch/blocklist.php?download=domainblocklist",
-      "status": null,
-      "error": "[Errno 8] nodename nor servname provided, or not known"
     }
   ],
   "redirected": [
@@ -1945,11 +1375,6 @@
       "final_url": "https://viewdns.info/"
     },
     {
-      "url": "http://vin.place/",
-      "status": 200,
-      "final_url": "http://ww1.vin.place/"
-    },
-    {
       "url": "http://visualgenome.org/",
       "status": 200,
       "final_url": "https://visualgenome.org/"
@@ -1958,11 +1383,6 @@
       "url": "http://visualping.io/",
       "status": 200,
       "final_url": "https://visualping.io:443/"
-    },
-    {
-      "url": "http://wamba.com/",
-      "status": 200,
-      "final_url": "https://wamba.com/en"
     },
     {
       "url": "http://webcitation.org/query",
@@ -2260,11 +1680,6 @@
       "final_url": "https://www.historicaerials.com/?javascript=&"
     },
     {
-      "url": "http://www.hoovers.com/",
-      "status": 200,
-      "final_url": "https://www.dnb.com/en-us/products/dnb-hoovers.html"
-    },
-    {
       "url": "http://www.i2ocr.com/",
       "status": 200,
       "final_url": "https://www.i2ocr.com/"
@@ -2425,11 +1840,6 @@
       "final_url": "https://www.noslang.com/"
     },
     {
-      "url": "http://www.onelook.com/reverse-dictionary.shtml",
-      "status": 200,
-      "final_url": "https://www.onelook.com/reverse-dictionary.shtml"
-    },
-    {
       "url": "http://www.onlineocr.net/",
       "status": 200,
       "final_url": "https://www.onlineocr.net/"
@@ -2558,6 +1968,11 @@
       "url": "http://www.shipais.com/",
       "status": 200,
       "final_url": "https://shipais.uk/"
+    },
+    {
+      "url": "http://www.sitedossier.com/",
+      "status": 200,
+      "final_url": "http://www.sitedossier.com/audit/?40274"
     },
     {
       "url": "http://www.smugmug.com/search",
@@ -3245,6 +2660,26 @@
       "final_url": "https://owasp.org/"
     },
     {
+      "url": "https://www.owler.com/",
+      "status": 200,
+      "final_url": "https://www.owler.com/corp"
+    },
+    {
+      "url": "https://www.reddit.com/r/darknet",
+      "status": 200,
+      "final_url": "https://www.reddit.com/r/darknet/"
+    },
+    {
+      "url": "https://www.reddit.com/r/deepweb",
+      "status": 200,
+      "final_url": "https://www.reddit.com/r/deepweb/"
+    },
+    {
+      "url": "https://www.reddit.com/r/onions",
+      "status": 200,
+      "final_url": "https://www.reddit.com/r/onions/"
+    },
+    {
       "url": "https://www.registryfinder.com/",
       "status": 200,
       "final_url": "https://registryfinder.com:443/"
@@ -3287,7 +2722,7 @@
     {
       "url": "https://www.yandex.com/",
       "status": 200,
-      "final_url": "https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.46&mt=50D20209A10CB3914029D9719A1993BFB30A2B8C0C96BF8FE2BD97E2DD4623FB294F5DDBB37326DA8BE3B437E86970163CA109FBA9EA08571C59AB3FA406A9FD715060819424031D21461EBDFF2266A49011057E43B777970BFD5DC7A7F37CB9F2BCA7953E35350940A58FEF6AE96A77337674CB818C6CCC2CCB25DFEC03E0B959A7B7039309E47B0EAD6823D29D3CD2F18E3E59273A0BE738F8165041CCED56780E19E986010237C9AAE1220FF7E1DFF746CD6775869DFD5286C3989FF17E9051CF4F7117365D103441F9F5A7042514C7A2569F381692A61D323C&retpath=aHR0cHM6Ly95YW5kZXguY29tLz8%2C_0557931346ee462dbea520700b309e49&t=2%252F1774131900%252F5a0020c6a0ead622037f5d8c48ade817&u=8379511975922811639&s=b53a0a55f78a8404f86979be07ec4308"
+      "final_url": "https://yandex.com/"
     },
     {
       "url": "https://yasiv.com/youtube",
@@ -3295,10 +2730,5 @@
       "final_url": "https://yasiv.com/youtube/"
     }
   ],
-  "slow": [
-    {
-      "url": "https://openlibrary.org/",
-      "elapsed": 10.31
-    }
-  ]
+  "slow": []
 }
