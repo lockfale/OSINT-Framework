@@ -536,6 +536,11 @@
               "name": "urlDNA",
               "type": "url",
               "url": "https://urldna.io"
+            },
+            {
+              "name": "ZoomEye.ai",
+              "type": "url",
+              "url": "https://www.zoomeye.org/"
             }
           ]
         },
@@ -2617,6 +2622,11 @@
               "name": "FaceCheckID",
               "type": "url",
               "url": "https://facecheck.id/"
+            },
+            {
+              "name": "usa-people-search.com",
+              "type": "url",
+              "url": "https://www.usa-people-search.com/"
             }
           ]
         },
@@ -3175,6 +3185,17 @@
           "name": "Searchable FCC ID Database",
           "type": "url",
           "url": "https://fccid.io/"
+        },
+        {
+          "name": "Sanctions / PEP",
+          "type": "folder",
+          "children": [
+            {
+              "name": "OpenSanctions",
+              "type": "url",
+              "url": "https://www.opensanctions.org/"
+            }
+          ]
         }
       ]
     },
@@ -3506,6 +3527,11 @@
               "name": "SunCalc",
               "type": "url",
               "url": "https://suncalc.org/"
+            },
+            {
+              "name": "GeoSpy",
+              "type": "url",
+              "url": "https://geospy.ai/"
             }
           ]
         },
@@ -3553,6 +3579,16 @@
               "name": "ScribbleMaps",
               "type": "url",
               "url": "https://www.scribblemaps.com/"
+            },
+            {
+              "name": "Beholder",
+              "type": "url",
+              "url": "https://beholder.infragard.io/"
+            },
+            {
+              "name": "LiveUaMap",
+              "type": "url",
+              "url": "https://liveuamap.com/"
             }
           ]
         },
@@ -4168,6 +4204,21 @@
               "name": "Google Trends",
               "type": "url",
               "url": "https://trends.google.com/trends/"
+            },
+            {
+              "name": "dorksearch.com",
+              "type": "url",
+              "url": "https://www.dorksearch.com/"
+            },
+            {
+              "name": "dorkgenerator.pages.dev",
+              "type": "url",
+              "url": "https://dorkgenerator.pages.dev/"
+            },
+            {
+              "name": "dorksearch.netlify.app",
+              "type": "url",
+              "url": "https://dorksearch.netlify.app/"
             }
           ]
         },
@@ -5016,6 +5067,11 @@
           "name": "francais-a-londres.org - French Classifieds",
           "type": "url",
           "url": "https://francaisalondres.com/"
+        },
+        {
+          "name": "Kleinanzeigen.de",
+          "type": "url",
+          "url": "https://www.kleinanzeigen.de/"
         }
       ]
     },
@@ -5258,6 +5314,17 @@
           ]
         },
         {
+          "name": "Graph Visualization",
+          "type": "folder",
+          "children": [
+            {
+              "name": "MIDINS TITAN",
+              "type": "url",
+              "url": "https://midins.net/titan"
+            }
+          ]
+        },
+        {
           "name": "Pentesting Recon",
           "type": "folder",
           "children": [
@@ -5360,6 +5427,11 @@
           "name": "DuckDuckGo AI Chat",
           "type": "url",
           "url": "https://duckduckgo.com/aichat"
+        },
+        {
+          "name": "DeepSeek",
+          "type": "url",
+          "url": "https://www.deepseek.com/"
         }
       ]
     },
@@ -5875,6 +5947,17 @@
           "name": "REScure Cyber Threat Intelligence Project",
           "type": "url",
           "url": "https://rescure.me/feeds.html"
+        },
+        {
+          "name": "Attack Surface / Security Testing",
+          "type": "folder",
+          "children": [
+            {
+              "name": "ImmuniWeb",
+              "type": "url",
+              "url": "https://www.immuniweb.com/"
+            }
+          ]
         }
       ]
     },
@@ -6153,6 +6236,11 @@
               "name": "The Hitchhiker\u2019s Guide to Online Anonymity",
               "type": "url",
               "url": "https://anonymousplanet.org/guide/"
+            },
+            {
+              "name": "Awesome Opt-Out Guide 2026",
+              "type": "url",
+              "url": "https://github.com/tycrek/degoogle"
             }
           ]
         },
