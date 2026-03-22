@@ -6,6 +6,8 @@ agents/
 ######################
 public/js/vendor
 node_modules
+bower_components
+.bowerrc
 
 # OS generated files #
 ######################
