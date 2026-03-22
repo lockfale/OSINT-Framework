@@ -214,6 +214,11 @@
               "name": "MailboxValidator",
               "type": "url",
               "url": "https://www.mailboxvalidator.com/demo"
+            },
+            {
+              "name": "VerifyEmail (R$)",
+              "type": "url",
+              "url": "https://emailable.com/"
             }
           ]
         },
@@ -693,6 +698,11 @@
               "name": "hpHosts Online",
               "type": "url",
               "url": "http://hosts-file.net/"
+            },
+            {
+              "name": "Cisco Talos",
+              "type": "url",
+              "url": "https://talosintelligence.com/"
             }
           ]
         },
@@ -1903,6 +1913,11 @@
                   "name": "Yahoo Video Search",
                   "type": "url",
                   "url": "https://video.search.yahoo.com/"
+                },
+                {
+                  "name": "Search YouTube by Location",
+                  "type": "url",
+                  "url": "https://mattw.io/youtube-geofind/location"
                 }
               ]
             },
@@ -2702,6 +2717,11 @@
               "name": "IDCrawl",
               "type": "url",
               "url": "https://www.idcrawl.com/"
+            },
+            {
+              "name": "FaceCheckID",
+              "type": "url",
+              "url": "https://facecheck.id/"
             }
           ]
         },
@@ -2949,6 +2969,16 @@
           "name": "Numspy (T)",
           "type": "python3 Module",
           "url": "https://bhattsameer.github.io/numspy"
+        },
+        {
+          "name": "Whitepages Reverse Phone",
+          "type": "url",
+          "url": "https://www.whitepages.com/reverse-phone"
+        },
+        {
+          "name": "Hiya (R$)",
+          "type": "url",
+          "url": "https://www.hiya.com/"
         }
       ]
     },
@@ -3566,6 +3596,11 @@
               "name": "TRAVIC - Public Transportation Tracking",
               "type": "url",
               "url": "http://tracker.geops.ch/"
+            },
+            {
+              "name": "Berla Vehicle Lookup (R$)",
+              "type": "url",
+              "url": "https://berla.co/vehicle_lookup/"
             }
           ]
         },
@@ -3597,6 +3632,11 @@
               "name": "ADS-B.NL",
               "type": "url",
               "url": "https://www.ads-b.nl/index.php?pageno=9999"
+            },
+            {
+              "name": "OpenAIP World Aeronautical Database",
+              "type": "url",
+              "url": "https://www.openaip.net/"
             }
           ]
         },
@@ -3895,7 +3935,7 @@
         {
           "name": "OpenInfrastructureMap",
           "type": "url",
-          "url": "openinframap.org/"
+          "url": "https://openinframap.org/"
         },
         {
           "name": "OpenStreetMap Routing Service",
@@ -5663,6 +5703,11 @@
               "name": "Uncover It",
               "type": "url",
               "url": "https://www.uncoverit.org/"
+            },
+            {
+              "name": "Valkyrie File Analysis",
+              "type": "url",
+              "url": "https://valkyrie.comodo.com/"
             }
           ]
         },
