@@ -5,7 +5,9 @@
   "main": "public/index.html",
   "scripts": {
     "postinstall": "copyfiles -f ./node_modules/d3/dist/d3.min.js ./public/js/",
-    "start": "cd ./public; python3 -m http.server 8000"
+    "start": "cd ./public; python3 -m http.server 8000",
+    "deploy": "wrangler deploy",
+    "preview": "wrangler dev"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,7 @@
   "homepage": "https://github.com/lockfale/ARF#readme",
   "devDependencies": {
     "copyfiles": "^1.0.0",
-    "d3": "^7.9.0"
+    "d3": "^7.9.0",
+    "wrangler": "^4.76.0"
   }
 }
