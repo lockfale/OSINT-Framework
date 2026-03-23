@@ -3409,9 +3409,39 @@
               "url": "https://vpic.nhtsa.dot.gov/api/"
             },
             {
-              "name": "Berla Vehicle Lookup (R$)",
+              "name": "FindByPlate",
               "type": "url",
-              "url": "https://berla.co/vehicle_lookup/"
+              "url": "https://findbyplate.com/"
+            },
+            {
+              "name": "carVertical VIN Decoder",
+              "type": "url",
+              "url": "https://www.carvertical.com/vin-decoder"
+            },
+            {
+              "name": "autoDNA VIN Lookup",
+              "type": "url",
+              "url": "https://www.autodna.com/"
+            },
+            {
+              "name": "VinDecodr",
+              "type": "url",
+              "url": "https://vindecodr.com/"
+            },
+            {
+              "name": "AutoRef (EU)",
+              "type": "url",
+              "url": "https://www.autoref.eu/en"
+            },
+            {
+              "name": "Carnet.ai",
+              "type": "url",
+              "url": "https://carnet.ai/"
+            },
+            {
+              "name": "Finnik (NL)",
+              "type": "url",
+              "url": "https://finnik.nl/en"
             }
           ]
         },
