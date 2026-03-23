@@ -37,7 +37,7 @@ jobs:
             fi
           }
           check_asset "css/arf.css"
-          check_asset "js/d3.v3.min.js"
+          check_asset "js/d3.min.js"
           check_asset "js/arf.js"
           check_asset "arf.json"
 
