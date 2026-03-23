@@ -19,7 +19,9 @@ var vis = d3.select("#body").append("svg")
     .attr("transform", "translate(" + margin[3] + "," + margin[0] + ")");
 
 d3.json("arf.json").then(function(json) {
-  root = d3.hierarchy(json);
+  root = d3.hierarchy(json, function(d) {
+    return d && d.children ? d.children.filter(function(c) { return c != null; }) : null;
+  });
   root.x0 = height / 2;
   root.y0 = 0;
 
