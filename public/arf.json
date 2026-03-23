@@ -168,6 +168,11 @@
               "name": "Holehe (T)",
               "type": "url",
               "url": "https://github.com/megadose/holehe"
+            },
+            {
+              "name": "SpotThem OSINT (R)",
+              "type": "url",
+              "url": "https://spotthem.com"
             }
           ]
         },
