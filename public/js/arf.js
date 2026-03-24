@@ -22,6 +22,22 @@ function getCSSVar(name) {
   return getComputedStyle(document.body).getPropertyValue(name).trim();
 }
 
+// Parse "(T)", "(D)", "(R)", "(M)" suffixes out of a tool name.
+// Returns { cleanName: string, badges: string[] }.
+var BADGE_TYPES = ['T', 'D', 'R', 'M'];
+function parseName(name) {
+  var badges = [];
+  var clean = name;
+  BADGE_TYPES.forEach(function(b) {
+    var suffix = ' (' + b + ')';
+    if (clean.indexOf(suffix) !== -1) {
+      badges.push(b);
+      clean = clean.replace(suffix, '');
+    }
+  });
+  return { cleanName: clean, badges: badges };
+}
+
 d3.json("arf.json").then(function(json) {
   root = d3.hierarchy(json, function(d) {
     return d && d.children ? d.children.filter(function(c) { return c != null; }) : null;
@@ -72,11 +88,22 @@ function update(source) {
       .attr("x", function(d) { return d.children || d._children ? -10 : 10; })
       .attr("dy", ".35em")
       .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
-      .text(function(d) { return d.data.name; })
       .style("fill", function(d) {
         return d.data.free ? getCSSVar("--color-text-primary") : getCSSVar("--color-text-secondary");
       })
-      .style("fill-opacity", 1e-6);
+      .style("fill-opacity", 1e-6)
+      .each(function(d) {
+        var parsed = parseName(d.data.name);
+        var el = d3.select(this);
+        el.append("tspan").text(parsed.cleanName);
+        parsed.badges.forEach(function(b) {
+          el.append("tspan")
+            .attr("dx", "4")
+            .style("font-size", "10px")
+            .style("fill", getCSSVar("--badge-" + b))
+            .text("(" + b + ")");
+        });
+      });
 
   nodeEnter.append("title")
     .text(function(d) {

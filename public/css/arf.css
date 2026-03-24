@@ -12,6 +12,12 @@
   --color-noscript-border:  #7a4a00;
   --color-legend:           #e0e0e0;
   --color-header:           #e0e0e0;
+
+  /* Status badge colors — saturated enough for both light and dark backgrounds */
+  --badge-T: #4a9eda;
+  --badge-D: #e8944a;
+  --badge-R: #c8a030;
+  --badge-M: #9a7eda;
 }
 
 body.light-mode {
@@ -105,3 +111,18 @@ h3 {
 a {
   color: var(--color-node-stroke);
 }
+
+/* Status badge pills (used in legend) */
+.badge {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 1px 4px;
+  border-radius: 3px;
+  color: #fff;
+  vertical-align: middle;
+}
+.badge-T { background-color: var(--badge-T); }
+.badge-D { background-color: var(--badge-D); }
+.badge-R { background-color: var(--badge-R); }
+.badge-M { background-color: var(--badge-M); }
