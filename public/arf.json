@@ -1743,6 +1743,51 @@
                   "name": "xeuledoc - Fetch metadata about any public Google document",
                   "type": "url",
                   "url": "https://github.com/Malfrats/xeuledoc"
+                },
+                {
+                  "name": "FOCA (T)",
+                  "type": "url",
+                  "url": "https://github.com/ElevenPaths/FOCA"
+                },
+                {
+                  "name": "Exiv2 (T)",
+                  "type": "url",
+                  "url": "https://exiv2.org/"
+                },
+                {
+                  "name": "MediaInfo (T)",
+                  "type": "url",
+                  "url": "https://mediaarea.net/en/MediaInfo"
+                },
+                {
+                  "name": "Apache Tika (T)",
+                  "type": "url",
+                  "url": "https://tika.apache.org/"
+                },
+                {
+                  "name": "oletools (T)",
+                  "type": "url",
+                  "url": "https://github.com/decalage2/oletools"
+                },
+                {
+                  "name": "Hachoir (T)",
+                  "type": "url",
+                  "url": "https://github.com/vstinner/hachoir"
+                },
+                {
+                  "name": "C2PA Verify",
+                  "type": "url",
+                  "url": "https://contentcredentials.org/verify"
+                },
+                {
+                  "name": "Metadata2Go",
+                  "type": "url",
+                  "url": "https://www.metadata2go.com/"
+                },
+                {
+                  "name": "Get-Metadata",
+                  "type": "url",
+                  "url": "https://www.get-metadata.com/"
                 }
               ]
             },
@@ -1764,6 +1809,11 @@
                   "name": "Camera Trace",
                   "type": "url",
                   "url": "https://www.cameratrace.com/trace"
+                },
+                {
+                  "name": "Forensically",
+                  "type": "url",
+                  "url": "https://29a.ch/photo-forensics/"
                 }
               ]
             },
@@ -4659,72 +4709,6 @@
       ]
     },
     {
-      "name": "Metadata",
-      "type": "folder",
-      "children": [
-        {
-          "name": "ExifTool (T)",
-          "type": "url",
-          "url": "https://exiftool.org/"
-        },
-        {
-          "name": "FOCA (T)",
-          "type": "url",
-          "url": "https://github.com/ElevenPaths/FOCA"
-        },
-        {
-          "name": "Exiv2 (T)",
-          "type": "url",
-          "url": "https://exiv2.org/"
-        },
-        {
-          "name": "MediaInfo (T)",
-          "type": "url",
-          "url": "https://mediaarea.net/en/MediaInfo"
-        },
-        {
-          "name": "Apache Tika (T)",
-          "type": "url",
-          "url": "https://tika.apache.org/"
-        },
-        {
-          "name": "oletools (T)",
-          "type": "url",
-          "url": "https://github.com/decalage2/oletools"
-        },
-        {
-          "name": "MAT2 (T)",
-          "type": "url",
-          "url": "https://0xacab.org/jvoisin/mat2"
-        },
-        {
-          "name": "Hachoir (T)",
-          "type": "url",
-          "url": "https://github.com/vstinner/hachoir"
-        },
-        {
-          "name": "Forensically",
-          "type": "url",
-          "url": "https://29a.ch/photo-forensics/"
-        },
-        {
-          "name": "C2PA Verify",
-          "type": "url",
-          "url": "https://contentcredentials.org/verify"
-        },
-        {
-          "name": "Metadata2Go",
-          "type": "url",
-          "url": "https://www.metadata2go.com/"
-        },
-        {
-          "name": "Get-Metadata",
-          "type": "url",
-          "url": "https://www.get-metadata.com/"
-        }
-      ]
-    },
-    {
       "name": "Mobile Emulation",
       "type": "folder",
       "children": [
@@ -6435,6 +6419,11 @@
               "name": "Anonymouth - Document Anonymization (T)",
               "type": "url",
               "url": "https://github.com/psal/anonymouth"
+            },
+            {
+              "name": "MAT2 (T)",
+              "type": "url",
+              "url": "https://0xacab.org/jvoisin/mat2"
             }
           ]
         }
