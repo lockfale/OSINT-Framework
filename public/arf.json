@@ -4671,6 +4671,56 @@
           "name": "FOCA (T)",
           "type": "url",
           "url": "https://github.com/ElevenPaths/FOCA"
+        },
+        {
+          "name": "Exiv2 (T)",
+          "type": "url",
+          "url": "https://exiv2.org/"
+        },
+        {
+          "name": "MediaInfo (T)",
+          "type": "url",
+          "url": "https://mediaarea.net/en/MediaInfo"
+        },
+        {
+          "name": "Apache Tika (T)",
+          "type": "url",
+          "url": "https://tika.apache.org/"
+        },
+        {
+          "name": "oletools (T)",
+          "type": "url",
+          "url": "https://github.com/decalage2/oletools"
+        },
+        {
+          "name": "MAT2 (T)",
+          "type": "url",
+          "url": "https://0xacab.org/jvoisin/mat2"
+        },
+        {
+          "name": "Hachoir (T)",
+          "type": "url",
+          "url": "https://github.com/vstinner/hachoir"
+        },
+        {
+          "name": "Forensically",
+          "type": "url",
+          "url": "https://29a.ch/photo-forensics/"
+        },
+        {
+          "name": "C2PA Verify",
+          "type": "url",
+          "url": "https://contentcredentials.org/verify"
+        },
+        {
+          "name": "Metadata2Go",
+          "type": "url",
+          "url": "https://www.metadata2go.com/"
+        },
+        {
+          "name": "Get-Metadata",
+          "type": "url",
+          "url": "https://www.get-metadata.com/"
         }
       ]
     },
@@ -4837,9 +4887,73 @@
       "type": "folder",
       "children": [
         {
-          "name": "Global Terrorism Database",
-          "type": "url",
-          "url": "https://www.start.umd.edu/data-tools/GTD"
+          "name": "Academic Research",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Global Terrorism Database",
+              "type": "url",
+              "url": "https://www.start.umd.edu/data-tools/GTD"
+            },
+            {
+              "name": "START Consortium Research Portal",
+              "type": "url",
+              "url": "https://www.start.umd.edu/"
+            }
+          ]
+        },
+        {
+          "name": "Sanctions and Watchlists",
+          "type": "folder",
+          "children": [
+            {
+              "name": "OFAC Sanctions List Search",
+              "type": "url",
+              "url": "https://sanctionssearch.ofac.treas.gov/"
+            },
+            {
+              "name": "UN Security Council Consolidated Sanctions List",
+              "type": "url",
+              "url": "https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list"
+            },
+            {
+              "name": "OpenSanctions",
+              "type": "url",
+              "url": "https://www.opensanctions.org/"
+            }
+          ]
+        },
+        {
+          "name": "Research Centers and Institutes",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Institute for Strategic Dialogue (ISD)",
+              "type": "url",
+              "url": "https://www.isdglobal.org/"
+            },
+            {
+              "name": "CSIS Warfare and Terrorism Program",
+              "type": "url",
+              "url": "https://www.csis.org/programs/warfare-irregular-threats-and-terrorism-program"
+            },
+            {
+              "name": "RAND Corporation Terrorism Research",
+              "type": "url",
+              "url": "https://www.rand.org/topics/terrorism.html"
+            }
+          ]
+        },
+        {
+          "name": "Terrorist Financing",
+          "type": "folder",
+          "children": [
+            {
+              "name": "U.S. Treasury Terrorist Finance Tracking Program",
+              "type": "url",
+              "url": "https://home.treasury.gov/policy-issues/terrorism-and-illicit-finance/terrorist-finance-tracking-program-tftp"
+            }
+          ]
         }
       ]
     },
@@ -5461,6 +5575,46 @@
           "name": "DeepSeek",
           "type": "url",
           "url": "https://www.deepseek.com/"
+        },
+        {
+          "name": "Microsoft Copilot",
+          "type": "url",
+          "url": "https://copilot.microsoft.com/"
+        },
+        {
+          "name": "You.com",
+          "type": "url",
+          "url": "https://you.com/"
+        },
+        {
+          "name": "GPTZero",
+          "type": "url",
+          "url": "https://gptzero.me/"
+        },
+        {
+          "name": "AI or Not",
+          "type": "url",
+          "url": "https://www.aiornot.com/"
+        },
+        {
+          "name": "Hive AI Generated Content Detection",
+          "type": "url",
+          "url": "https://hivemoderation.com/ai-generated-content-detection"
+        },
+        {
+          "name": "WasItAI",
+          "type": "url",
+          "url": "https://wasitai.com/"
+        },
+        {
+          "name": "Illuminarty",
+          "type": "url",
+          "url": "https://app.illuminarty.ai/"
+        },
+        {
+          "name": "TrueMedia",
+          "type": "url",
+          "url": "https://www.truemedia.org/"
         }
       ]
     },
