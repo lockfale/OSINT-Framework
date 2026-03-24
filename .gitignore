@@ -18,3 +18,10 @@ bower_components
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
