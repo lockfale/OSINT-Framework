@@ -1,18 +1,51 @@
+/* === Color tokens === */
+:root {
+  --color-bg:               #1a1a2e;
+  --color-surface:          #16213e;
+  --color-text-primary:     #e0e0e0;
+  --color-text-secondary:   #888;
+  --color-node-stroke:      #4a9eff;
+  --color-node-fill-branch: #2a4a7f;
+  --color-node-fill-leaf:   #1a1a2e;
+  --color-link:             #444;
+  --color-noscript-bg:      #2a1a00;
+  --color-noscript-border:  #7a4a00;
+  --color-legend:           #e0e0e0;
+  --color-header:           #e0e0e0;
+}
+
+body.light-mode {
+  --color-bg:               #ffffff;
+  --color-surface:          #f5f5f5;
+  --color-text-primary:     #000000;
+  --color-text-secondary:   #999;
+  --color-node-stroke:      steelblue;
+  --color-node-fill-branch: lightsteelblue;
+  --color-node-fill-leaf:   #ffffff;
+  --color-link:             #ccc;
+  --color-noscript-bg:      rgb(255, 228, 196);
+  --color-noscript-border:  rgb(255, 204, 153);
+  --color-legend:           #000000;
+  --color-header:           #000000;
+}
+
 body {
-  background-color: #ffffff;
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
   font-size: 14px;
   font-family: "Helvetica Neue", Helvetica;
 }
 
-noscript p{
+noscript p {
   text-align: center;
-  background-color: rgb(255, 228, 196);
+  background-color: var(--color-noscript-bg);
+  color: var(--color-text-primary);
   margin: 0 auto;
   width: 80vw;
   padding: 25px 0;
   margin-top: 80px;
   border-radius: 10px;
-  border: 1px solid rgb(255, 204, 153);
+  border: 1px solid var(--color-noscript-border);
   margin-bottom: 20px;
   display: flex-wrap;
 }
@@ -27,20 +60,7 @@ noscript p{
   font-weight: bold;
   top: 20px;
   text-align: center;
-}
-
-.dark-Mode{
-  background-color: #000;
-  color: #fff;
-  .node text {
-    fill: #fff;
-  }
-  .legend{
-    color: #fff;
-  }
-  path.link{
-    stroke: #444;
-  }
+  color: var(--color-header);
 }
 
 .legend {
@@ -49,7 +69,11 @@ noscript p{
   right: 0;
   width: 330px;
   font-size: 11px;
-  color: #000;
+  color: var(--color-legend);
+}
+
+.legend a {
+  color: var(--color-node-stroke);
 }
 
 .node {
@@ -58,18 +82,26 @@ noscript p{
 
 .node circle {
   cursor: pointer;
-  fill: #fff;
-  stroke: steelblue;
+  fill: var(--color-node-fill-leaf);
+  stroke: var(--color-node-stroke);
   stroke-width: 1.5px;
 }
 
 .node text {
   font-size: 12px;
-  fill: rgb(0, 0, 0);
+  fill: var(--color-text-primary);
 }
 
 path.link {
   fill: none;
-  stroke: #ccc;
+  stroke: var(--color-link);
   stroke-width: 1px;
+}
+
+h3 {
+  color: var(--color-text-primary);
+}
+
+a {
+  color: var(--color-node-stroke);
 }

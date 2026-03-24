@@ -18,6 +18,10 @@ var vis = d3.select("#body").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin[3] + "," + margin[0] + ")");
 
+function getCSSVar(name) {
+  return getComputedStyle(document.body).getPropertyValue(name).trim();
+}
+
 d3.json("arf.json").then(function(json) {
   root = d3.hierarchy(json, function(d) {
     return d && d.children ? d.children.filter(function(c) { return c != null; }) : null;
@@ -33,20 +37,11 @@ d3.json("arf.json").then(function(json) {
     }
   }
 
-/*  function toggleAll(d) {
-    if (d.children) {
-      d.children.forEach(toggleAll);
-      toggle(d);
-    }
-  } */
   root.children.forEach(collapse);
   update(root);
 });
 
 function update(source) {
-  // var duration = d3.event && d3.event.altKey ? 5000 : 500;
-
-  // Compute the new tree layout.
   tree(root);
   var nodes = root.descendants().reverse();
   var links = root.links();
@@ -54,7 +49,7 @@ function update(source) {
   // Normalize for fixed-depth.
   nodes.forEach(function(d) { d.y = d.depth * 180; });
 
-  // Update the nodes…
+  // Update the nodes
   var node = vis.selectAll("g.node")
       .data(nodes, function(d) { return d.id || (d.id = ++i); });
 
@@ -66,7 +61,9 @@ function update(source) {
 
   nodeEnter.append("circle")
       .attr("r", 1e-6)
-      .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
+      .style("fill", function(d) {
+        return d._children ? getCSSVar("--color-node-fill-branch") : getCSSVar("--color-node-fill-leaf");
+      });
 
   nodeEnter.append('a')
       .attr("target", "_blank")
@@ -76,7 +73,9 @@ function update(source) {
       .attr("dy", ".35em")
       .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
       .text(function(d) { return d.data.name; })
-      .style("fill", function(d) { return d.data.free ? 'black' : '#999'; })
+      .style("fill", function(d) {
+        return d.data.free ? getCSSVar("--color-text-primary") : getCSSVar("--color-text-secondary");
+      })
       .style("fill-opacity", 1e-6);
 
   nodeEnter.append("title")
@@ -91,10 +90,15 @@ function update(source) {
 
   nodeUpdate.select("circle")
       .attr("r", 6)
-      .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
+      .style("fill", function(d) {
+        return d._children ? getCSSVar("--color-node-fill-branch") : getCSSVar("--color-node-fill-leaf");
+      });
 
   nodeUpdate.select("text")
-      .style("fill-opacity", 1);
+      .style("fill-opacity", 1)
+      .style("fill", function(d) {
+        return d.data.free ? getCSSVar("--color-text-primary") : getCSSVar("--color-text-secondary");
+      });
 
   // Transition exiting nodes to the parent's new position.
   var nodeExit = node.exit().transition()
@@ -108,7 +112,7 @@ function update(source) {
   nodeExit.select("text")
       .style("fill-opacity", 1e-6);
 
-  // Update the links…
+  // Update the links
   var link = vis.selectAll("path.link")
       .data(links, function(d) { return d.target.id; });
 
@@ -129,7 +133,7 @@ function update(source) {
       .duration(duration)
       .attr("d", diagonal);
 
-  // Transition exiting nodes to the parent's new position.
+  // Transition exiting links to the parent's new position.
   link.exit().transition()
       .duration(duration)
       .attr("d", function(d) {
@@ -155,8 +159,16 @@ function toggle(d) {
     d._children = null;
   }
 }
-//Togle Dark Mode
+
+// Toggle light/dark mode and persist preference.
 function goDark() {
-  var element = document.body;
-  element.classList.toggle("dark-Mode");
-} 
+  var body = document.body;
+  var isLight = body.classList.toggle("light-mode");
+  localStorage.setItem("theme", isLight ? "light" : "dark");
+  var btn = document.getElementById("theme-toggle");
+  if (btn) {
+    btn.textContent = isLight ? "Switch to dark mode" : "Switch to light mode";
+  }
+  // Re-render to pick up new CSS variable values for D3 inline styles.
+  update(root);
+}
