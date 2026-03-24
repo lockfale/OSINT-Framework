@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    
+
     <!-- Viewport Settings -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
@@ -15,6 +15,14 @@
       browser to use the site.</p>
   </noscript>
   <body>
+    <!-- Apply light-mode class immediately if stored preference is light -->
+    <script>
+      (function() {
+        if (localStorage.getItem("theme") === "light") {
+          document.body.classList.add("light-mode");
+        }
+      })();
+    </script>
     <div id="body">
       <div id="header">
         OSINT Framework
@@ -28,8 +36,17 @@
     (D) - Google Dork, for more information: <a href="https://en.wikipedia.org/wiki/Google_hacking">Google Hacking</a><br>
     (R) - Requires registration<br>
     (M) - Indicates a URL that contains the search term and the URL itself must be edited manually<br></p>
-    <button onclick="goDark()">Toggle dark mode</button></div>
-    
+    <button id="theme-toggle" onclick="goDark()">Switch to light mode</button>
+    <script>
+      (function() {
+        var btn = document.getElementById("theme-toggle");
+        if (btn && localStorage.getItem("theme") === "light") {
+          btn.textContent = "Switch to dark mode";
+        }
+      })();
+    </script>
+    </div>
+
     <h3>Notes</h3>
     OSINT framework focused on gathering information from free tools or resources.  The intention is to help people find free OSINT resources.  Some of the sites included might require registration or offer more data for $$$, but you should be able to get at least a portion of the available information for no cost.<br>
 
