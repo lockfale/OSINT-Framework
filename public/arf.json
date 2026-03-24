@@ -5084,9 +5084,87 @@
       ]
     },
     {
-      "name": "Digital Currency",
+      "name": "Blockchain & Cryptocurrency",
       "type": "folder",
       "children": [
+        {
+          "name": "Chain Analysis Platforms",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Blockchair",
+              "type": "url",
+              "url": "https://blockchair.com/"
+            },
+            {
+              "name": "Etherscan",
+              "type": "url",
+              "url": "https://etherscan.io/"
+            },
+            {
+              "name": "Blockscan",
+              "type": "url",
+              "url": "https://blockscan.com/"
+            },
+            {
+              "name": "Bitref",
+              "type": "url",
+              "url": "https://bitref.com/"
+            },
+            {
+              "name": "OXT.me",
+              "type": "url",
+              "url": "https://oxt.me/"
+            },
+            {
+              "name": "Bitcoin Abuse Database",
+              "type": "url",
+              "url": "https://bitcoinabuse.com/"
+            },
+            {
+              "name": "Wallet Explorer",
+              "type": "url",
+              "url": "https://www.walletexplorer.com/"
+            },
+            {
+              "name": "Bitcoin Who's Who",
+              "type": "url",
+              "url": "https://www.bitcoinwhoswho.com/"
+            }
+          ]
+        },
+        {
+          "name": "DeFi & DEX Tracing",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Dune Analytics",
+              "type": "url",
+              "url": "https://dune.com/"
+            },
+            {
+              "name": "DefiLlama",
+              "type": "url",
+              "url": "https://defillama.com/"
+            }
+          ]
+        },
+        {
+          "name": "Multi-Chain Explorers",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Blockchair",
+              "type": "url",
+              "url": "https://blockchair.com/"
+            },
+            {
+              "name": "Bitquery Explorer",
+              "type": "url",
+              "url": "https://explorer.bitquery.io/"
+            }
+          ]
+        },
         {
           "name": "Bitcoin",
           "type": "folder",
@@ -5152,6 +5230,54 @@
               "name": "Monero Blocks",
               "type": "url",
               "url": "https://localmonero.co/blocks/"
+            }
+          ]
+        },
+        {
+          "name": "NFT Provenance",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Etherscan NFT Tracker",
+              "type": "url",
+              "url": "https://etherscan.io/nft"
+            },
+            {
+              "name": "OpenSea",
+              "type": "url",
+              "url": "https://opensea.io/"
+            }
+          ]
+        },
+        {
+          "name": "Privacy Coin Analysis",
+          "type": "folder",
+          "children": [
+            {
+              "name": "XMRChain.net (Monero)",
+              "type": "url",
+              "url": "https://xmrchain.net/"
+            },
+            {
+              "name": "Zcash Block Explorer",
+              "type": "url",
+              "url": "https://blockchair.com/zcash"
+            }
+          ]
+        },
+        {
+          "name": "Wallet Clustering & Address Analysis",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Wallet Explorer",
+              "type": "url",
+              "url": "https://www.walletexplorer.com/"
+            },
+            {
+              "name": "Blockchair",
+              "type": "url",
+              "url": "https://blockchair.com/"
             }
           ]
         }
