@@ -12,9 +12,12 @@ var diagonal = d3.linkHorizontal()
     .x(function(d) { return d.y; })
     .y(function(d) { return d.x; });
 
+var svgW = width + margin[1] + margin[3];
+var svgH = height + margin[0] + margin[2];
+
 var vis = d3.select("#body").append("svg")
-    .attr("width", width + margin[1] + margin[3])
-    .attr("height", height + margin[0] + margin[2])
+    .attr("viewBox", "0 0 " + svgW + " " + svgH)
+    .attr("preserveAspectRatio", "xMidYMid meet")
   .append("g")
     .attr("transform", "translate(" + margin[3] + "," + margin[0] + ")");
 
