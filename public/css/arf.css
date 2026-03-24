@@ -1,13 +1,13 @@
 /* === Color tokens === */
 :root {
-  --color-bg:               #1a1a2e;
-  --color-surface:          #16213e;
+  --color-bg:               #1a1a1a;
+  --color-surface:          #2d2d2d;
   --color-text-primary:     #e0e0e0;
-  --color-text-secondary:   #888;
-  --color-node-stroke:      #4a9eff;
-  --color-node-fill-branch: #2a4a7f;
-  --color-node-fill-leaf:   #1a1a2e;
-  --color-link:             #444;
+  --color-text-secondary:   #999;
+  --color-node-stroke:      steelblue;
+  --color-node-fill-branch: #3a3a3a;
+  --color-node-fill-leaf:   #1a1a1a;
+  --color-link:             #555;
   --color-noscript-bg:      #2a1a00;
   --color-noscript-border:  #7a4a00;
   --color-legend:           #e0e0e0;
