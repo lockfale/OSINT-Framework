@@ -215,3 +215,19 @@ a {
   color: var(--color-text-secondary);
   text-align: center;
 }
+
+/* === Mobile responsive === */
+@media (max-width: 768px) {
+  #header {
+    font-size: var(--font-size-lg);
+    top: 10px;
+  }
+
+  .legend {
+    position: relative;
+    width: auto;
+    max-width: 100%;
+    padding: var(--space-2) var(--space-3);
+    box-sizing: border-box;
+  }
+}
