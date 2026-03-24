@@ -18,7 +18,7 @@ body.light-mode {
   --color-bg:               #ffffff;
   --color-surface:          #f5f5f5;
   --color-text-primary:     #000000;
-  --color-text-secondary:   #999;
+  --color-text-secondary:   #767676;
   --color-node-stroke:      steelblue;
   --color-node-fill-branch: lightsteelblue;
   --color-node-fill-leaf:   #ffffff;
