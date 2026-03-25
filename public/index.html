@@ -28,14 +28,20 @@
         OSINT Framework
           <hr/>
       </div>
+      <div id="search-container">
+        <input type="text" id="search-input" placeholder="Search tools..." autocomplete="off" aria-label="Search OSINT tools">
+        <div id="search-results" role="listbox" aria-label="Search results"></div>
+      </div>
     </div>
 
     <script src="js/arf.js"></script>
 
-    <div class="legend"><p>(T) - Indicates a link to a tool that must be installed and run locally<br>
-    (D) - Google Dork, for more information: <a href="https://en.wikipedia.org/wiki/Google_hacking">Google Hacking</a><br>
-    (R) - Requires registration<br>
-    (M) - Indicates a URL that contains the search term and the URL itself must be edited manually<br></p>
+    <div class="legend"><p>
+    <span class="badge badge-T">T</span> - Indicates a link to a tool that must be installed and run locally<br>
+    <span class="badge badge-D">D</span> - Google Dork, for more information: <a href="https://en.wikipedia.org/wiki/Google_hacking">Google Hacking</a><br>
+    <span class="badge badge-R">R</span> - Requires registration<br>
+    <span class="badge badge-M">M</span> - Indicates a URL that contains the search term and the URL itself must be edited manually<br>
+    </p>
     <button id="theme-toggle" onclick="goDark()">Switch to light mode</button>
     <script>
       (function() {

@@ -3,7 +3,8 @@ var margin = [20, 120, 20, 140],
     height = 800 - margin[0] - margin[2],
     i = 0,
     duration = 1250,
-    root;
+    root,
+    allSearchNodes = [];
 
 var tree = d3.tree()
     .size([height, width]);
@@ -37,12 +38,33 @@ function getCSSVar(name) {
   return getComputedStyle(document.body).getPropertyValue(name).trim();
 }
 
+// Parse "(T)", "(D)", "(R)", "(M)" suffixes out of a tool name.
+// Returns { cleanName: string, badges: string[] }.
+var BADGE_TYPES = ['T', 'D', 'R', 'M'];
+function parseName(name) {
+  var badges = [];
+  var clean = name;
+  BADGE_TYPES.forEach(function(b) {
+    var suffix = ' (' + b + ')';
+    if (clean.indexOf(suffix) !== -1) {
+      badges.push(b);
+      clean = clean.replace(suffix, '');
+    }
+  });
+  return { cleanName: clean, badges: badges };
+}
+
 d3.json("arf.json").then(function(json) {
   root = d3.hierarchy(json, function(d) {
     return d && d.children ? d.children.filter(function(c) { return c != null; }) : null;
   });
   root.x0 = height / 2;
   root.y0 = 0;
+
+  // Collect all tool nodes (those with URLs) for search
+  allSearchNodes = root.descendants().filter(function(d) {
+    return d.data.url;
+  });
 
   function collapse(d) {
     if (d.children) {
@@ -54,6 +76,7 @@ d3.json("arf.json").then(function(json) {
 
   root.children.forEach(collapse);
   update(root);
+  initSearch();
 });
 
 function update(source) {
@@ -87,11 +110,22 @@ function update(source) {
       .attr("x", function(d) { return d.children || d._children ? -10 : 10; })
       .attr("dy", ".35em")
       .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
-      .text(function(d) { return d.data.name; })
       .style("fill", function(d) {
         return d.data.free ? getCSSVar("--color-text-primary") : getCSSVar("--color-text-secondary");
       })
-      .style("fill-opacity", 1e-6);
+      .style("fill-opacity", 1e-6)
+      .each(function(d) {
+        var parsed = parseName(d.data.name);
+        var el = d3.select(this);
+        el.append("tspan").text(parsed.cleanName);
+        parsed.badges.forEach(function(b) {
+          el.append("tspan")
+            .attr("dx", "4")
+            .style("font-size", "10px")
+            .style("fill", getCSSVar("--badge-" + b))
+            .text("(" + b + ")");
+        });
+      });
 
   nodeEnter.append("title")
     .text(function(d) {
@@ -182,6 +216,71 @@ function zoomToNode(d) {
   var ty = svgH / 2 - margin[0] - d.x * currentK;
   svgEl.transition().duration(duration)
     .call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(currentK));
+}
+
+// Client-side search over all tool nodes.
+var searchDebounceTimer = null;
+
+function initSearch() {
+  var input = document.getElementById("search-input");
+  if (!input) return;
+  input.addEventListener("input", function() {
+    clearTimeout(searchDebounceTimer);
+    var query = input.value.trim();
+    searchDebounceTimer = setTimeout(function() { doSearch(query); }, 200);
+  });
+}
+
+function doSearch(query) {
+  var results = document.getElementById("search-results");
+  if (!results) return;
+
+  if (!query) {
+    results.innerHTML = "";
+    results.classList.remove("visible");
+    return;
+  }
+
+  var lower = query.toLowerCase();
+  var matches = allSearchNodes.filter(function(d) {
+    var name = (d.data.name || "").toLowerCase();
+    var desc = (d.data.description || "").toLowerCase();
+    return name.indexOf(lower) !== -1 || desc.indexOf(lower) !== -1;
+  }).slice(0, 50);
+
+  results.classList.add("visible");
+
+  if (matches.length === 0) {
+    results.innerHTML = '<div class="search-no-results">No results found for \u201c' + escapeHtml(query) + '\u201d</div>';
+    return;
+  }
+
+  var html = matches.map(function(d) {
+    var path = d.ancestors().reverse().slice(1, -1).map(function(a) {
+      return escapeHtml(a.data.name);
+    }).join(" \u203a ");
+    var name = escapeHtml(d.data.name);
+    var url = safeUrl(d.data.url);
+    return '<div class="search-result-item">' +
+      '<a href="' + escapeAttr(url) + '" target="_blank" rel="noopener noreferrer">' + name + '</a>' +
+      (path ? '<div class="search-result-path">' + path + '</div>' : '') +
+      '</div>';
+  }).join("");
+
+  results.innerHTML = html;
+}
+
+function escapeHtml(str) {
+  return (str || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+}
+
+function escapeAttr(str) {
+  return (str || "").replace(/"/g, "&quot;").replace(/'/g, "&#39;");
+}
+
+function safeUrl(url) {
+  if (!url) return "#";
+  return /^https?:\/\//i.test(url) ? url : "#";
 }
 
 // Toggle light/dark mode and persist preference.
