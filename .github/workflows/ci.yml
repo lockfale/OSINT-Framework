@@ -6,8 +6,8 @@ on:
   pull_request:
     branches: [master]
   schedule:
-    # Run link check weekly on Sunday at 02:00 UTC
-    - cron: '0 2 * * 0'
+    # Run link check weekly on Saturday at 08:00 UTC
+    - cron: '0 8 * * 6'
 
 jobs:
   json-lint:
@@ -44,9 +44,8 @@ jobs:
   link-check:
     name: Link Check
     runs-on: ubuntu-latest
-    # Only run on schedule and direct pushes to master, not on every PR
-    # (avoids hammering external sites during code review)
-    if: github.event_name == 'schedule' || (github.event_name == 'push' && github.ref == 'refs/heads/master')
+    # Only run on schedule (weekly Saturday) — avoid hammering external sites on every push/PR
+    if: github.event_name == 'schedule'
     steps:
       - uses: actions/checkout@v4
 
