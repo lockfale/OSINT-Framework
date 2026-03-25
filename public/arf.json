@@ -2301,7 +2301,28 @@
         {
           "name": "Fediverse/Mastodon",
           "type": "folder",
-          "children": []
+          "children": [
+            {
+              "name": "Fedifinder",
+              "type": "url",
+              "url": "https://fedifinder.glitch.me/"
+            },
+            {
+              "name": "Fediverse Observer",
+              "type": "url",
+              "url": "https://fediverse.observer/"
+            },
+            {
+              "name": "Fediverse_OSINT (T)",
+              "type": "url",
+              "url": "https://github.com/anantshri/fediverse_osint"
+            },
+            {
+              "name": "Masto (T)",
+              "type": "url",
+              "url": "https://github.com/C3n7ral051nt4g3ncy/Masto"
+            }
+          ]
         },
         {
           "name": "Instagram",
@@ -2543,9 +2564,24 @@
           "type": "folder",
           "children": [
             {
+              "name": "TikTok-OSINT (T)",
+              "type": "url",
+              "url": "https://github.com/Omicron166/TikTok-OSINT"
+            },
+            {
               "name": "TikTok (M)",
               "type": "url",
               "url": "https://www.tiktok.com/@username"
+            },
+            {
+              "name": "Unfurl",
+              "type": "url",
+              "url": "https://dfir.blog/unfurl/"
+            },
+            {
+              "name": "yt-dlp (T)",
+              "type": "url",
+              "url": "https://github.com/yt-dlp/yt-dlp"
             }
           ]
         },
