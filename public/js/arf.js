@@ -217,8 +217,13 @@ function toggle(d) {
 // Auto-pan viewport to center on a node after expand/click.
 function zoomToNode(d) {
   var currentK = d3.zoomTransform(svgEl.node()).k;
-  var tx = svgW / 2 - margin[3] - d.y * currentK;
-  var ty = svgH / 2 - margin[0] - d.x * currentK;
+  var rect = svgEl.node().getBoundingClientRect();
+  var svgScale = rect.width / svgW;
+  // Use the visible viewport center (accounts for header/nav above the SVG).
+  var vpCenterX = rect.width / 2 / svgScale;
+  var vpCenterY = (window.innerHeight / 2 - rect.top) / svgScale;
+  var tx = vpCenterX - margin[3] - d.y * currentK;
+  var ty = vpCenterY - margin[0] - d.x * currentK;
   svgEl.transition().duration(duration)
     .call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(currentK));
 }
