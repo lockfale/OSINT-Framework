@@ -82,7 +82,6 @@ jobs:
             --timeout 20
             --max-retries 2
             --retry-wait-time 5
-            --exclude-mail
             --accept 200,201,204,206,301,302,307,308,403,429
             urls.txt
           fail: true
