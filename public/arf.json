@@ -2586,6 +2586,32 @@
           ]
         },
         {
+          "name": "Threads",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Bellingcat Meta Content Library",
+              "type": "url",
+              "url": "https://bellingcat.gitbook.io/toolkit/more/all-tools/meta-content-library"
+            },
+            {
+              "name": "Threads Dashboard",
+              "type": "url",
+              "url": "https://www.threadsdashboard.com/"
+            },
+            {
+              "name": "Threads-Scraper (T)",
+              "type": "url",
+              "url": "https://github.com/Zeeshanahmad4/Threads-Scraper"
+            },
+            {
+              "name": "ThreadsRecon (T)",
+              "type": "url",
+              "url": "https://github.com/offseq/threadsrecon"
+            }
+          ]
+        },
+        {
           "name": "Bluesky",
           "type": "folder",
           "children": [
