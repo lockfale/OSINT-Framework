@@ -4,7 +4,8 @@ var margin = [20, 120, 20, 140],
     i = 0,
     duration = 1250,
     root,
-    allSearchNodes = [];
+    allSearchNodes = [],
+    searchMatches = [];
 
 var tree = d3.tree()
     .size([height, width]);
@@ -100,6 +101,7 @@ function update(source) {
   nodeEnter.append("circle")
       .attr("r", 1e-6)
       .style("fill", function(d) {
+        if (d._highlighted) return getCSSVar("--color-accent");
         return d._children ? getCSSVar("--color-node-fill-branch") : getCSSVar("--color-node-fill-leaf");
       });
 
@@ -138,13 +140,16 @@ function update(source) {
       .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
 
   nodeUpdate.select("circle")
-      .attr("r", 6)
+      .attr("r", function(d) { return d._highlighted ? 9 : 6; })
       .style("fill", function(d) {
+        if (d._highlighted) return getCSSVar("--color-accent");
         return d._children ? getCSSVar("--color-node-fill-branch") : getCSSVar("--color-node-fill-leaf");
-      });
+      })
+      .style("stroke-width", function(d) { return d._highlighted ? "2.5px" : "1.5px"; });
 
   nodeUpdate.select("text")
       .style("fill-opacity", 1)
+      .style("font-weight", function(d) { return d._highlighted ? "bold" : "normal"; })
       .style("fill", function(d) {
         return d.data.free ? getCSSVar("--color-text-primary") : getCSSVar("--color-text-secondary");
       });
@@ -212,8 +217,13 @@ function toggle(d) {
 // Auto-pan viewport to center on a node after expand/click.
 function zoomToNode(d) {
   var currentK = d3.zoomTransform(svgEl.node()).k;
-  var tx = svgW / 2 - margin[3] - d.y * currentK;
-  var ty = svgH / 2 - margin[0] - d.x * currentK;
+  var rect = svgEl.node().getBoundingClientRect();
+  var svgScale = rect.width / svgW;
+  // Use the visible viewport center (accounts for header/nav above the SVG).
+  var vpCenterX = rect.width / 2 / svgScale;
+  var vpCenterY = (window.innerHeight / 2 - rect.top) / svgScale;
+  var tx = vpCenterX - margin[3] - d.y * currentK;
+  var ty = vpCenterY - margin[0] - d.x * currentK;
   svgEl.transition().duration(duration)
     .call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(currentK));
 }
@@ -229,20 +239,49 @@ function initSearch() {
     var query = input.value.trim();
     searchDebounceTimer = setTimeout(function() { doSearch(query); }, 200);
   });
+
+  var results = document.getElementById("search-results");
+  if (results) {
+    results.addEventListener("click", function(e) {
+      var item = e.target.closest(".search-result-item");
+      if (!item) return;
+      // If the click was on the external link, let it navigate normally
+      if (e.target.closest(".search-result-ext")) return;
+      var idx = parseInt(item.getAttribute("data-node-idx"), 10);
+      if (!isNaN(idx) && searchMatches[idx]) {
+        revealNode(searchMatches[idx]);
+      }
+    });
+    results.addEventListener("keydown", function(e) {
+      if (e.key !== "Enter") return;
+      var item = e.target.closest(".search-result-item");
+      if (!item) return;
+      if (e.target.closest(".search-result-ext")) return;
+      var idx = parseInt(item.getAttribute("data-node-idx"), 10);
+      if (!isNaN(idx) && searchMatches[idx]) {
+        revealNode(searchMatches[idx]);
+      }
+    });
+  }
 }
 
 function doSearch(query) {
   var results = document.getElementById("search-results");
   if (!results) return;
 
+  // Clear highlights whenever the query changes
+  root.descendants().forEach(function(n) { n._highlighted = false; });
+
   if (!query) {
+    searchMatches = [];
     results.innerHTML = "";
     results.classList.remove("visible");
+    update(root);
     return;
   }
 
   var lower = query.toLowerCase();
-  var matches = allSearchNodes.filter(function(d) {
+  searchMatches = allSearchNodes.filter(function(d) {
     var name = (d.data.name || "").toLowerCase();
     var desc = (d.data.description || "").toLowerCase();
     return name.indexOf(lower) !== -1 || desc.indexOf(lower) !== -1;
@@ -250,24 +289,64 @@ function doSearch(query) {
 
   results.classList.add("visible");
 
-  if (matches.length === 0) {
+  if (searchMatches.length === 0) {
     results.innerHTML = '<div class="search-no-results">No results found for \u201c' + escapeHtml(query) + '\u201d</div>';
     return;
   }
 
-  var html = matches.map(function(d) {
+  var html = searchMatches.map(function(d, idx) {
     var path = d.ancestors().reverse().slice(1, -1).map(function(a) {
       return escapeHtml(a.data.name);
     }).join(" \u203a ");
-    var name = escapeHtml(d.data.name);
+    var name = escapeHtml(parseName(d.data.name).cleanName);
     var url = safeUrl(d.data.url);
-    return '<div class="search-result-item">' +
-      '<a href="' + escapeAttr(url) + '" target="_blank" rel="noopener noreferrer">' + name + '</a>' +
+    return '<div class="search-result-item" role="option" tabindex="0" data-node-idx="' + idx + '">' +
+      '<div class="search-result-header">' +
+      '<span class="search-result-name">' + name + '</span>' +
+      (url !== '#' ? '<a class="search-result-ext" href="' + escapeAttr(url) + '" target="_blank" rel="noopener noreferrer" title="Open website">\u2197</a>' : '') +
+      '</div>' +
       (path ? '<div class="search-result-path">' + path + '</div>' : '') +
       '</div>';
   }).join("");
 
   results.innerHTML = html;
+}
+
+// Reveal a node in the tree: collapse everything, expand ancestors, highlight and pan to it.
+function revealNode(d) {
+  // Collapse entire tree
+  root.descendants().forEach(function(n) {
+    n._highlighted = false;
+    if (n.children) {
+      n._children = n.children;
+      n.children = null;
+    }
+  });
+
+  // Expand all ancestors from root down to d's parent
+  d.ancestors().forEach(function(ancestor) {
+    if (ancestor._children) {
+      ancestor.children = ancestor._children;
+      ancestor._children = null;
+    }
+  });
+
+  // Highlight the target node
+  d._highlighted = true;
+
+  // Re-render and pan
+  update(root);
+  zoomToNode(d);
+
+  // Close the search dropdown
+  var results = document.getElementById("search-results");
+  if (results) {
+    results.innerHTML = "";
+    results.classList.remove("visible");
+  }
+  var input = document.getElementById("search-input");
+  if (input) input.value = "";
+  searchMatches = [];
 }
 
 function escapeHtml(str) {
