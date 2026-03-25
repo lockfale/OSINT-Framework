@@ -41,6 +41,11 @@
               "url": "https://namecheckup.com/"
             },
             {
+              "name": "GitFive (T)",
+              "type": "url",
+              "url": "https://github.com/mxrch/GitFive"
+            },
+            {
               "name": "Sherlock",
               "type": "url",
               "url": "https://github.com/sherlock-project/sherlock"
@@ -1575,6 +1580,11 @@
                   "name": "Lakako Photo Search",
                   "type": "url",
                   "url": "https://www.lakako.com/"
+                },
+                {
+                  "name": "Lenso.ai",
+                  "type": "url",
+                  "url": "https://lenso.ai/"
                 },
                 {
                   "name": "CC Search",
@@ -5643,6 +5653,16 @@
           "name": "Wordlist",
           "type": "folder",
           "children": [
+            {
+              "name": "CeWL (T)",
+              "type": "url",
+              "url": "https://github.com/digininja/CeWL"
+            },
+            {
+              "name": "Cupp (T)",
+              "type": "url",
+              "url": "https://github.com/Mebus/cupp"
+            },
             {
               "name": "OWASP D4N155 (T)",
               "type": "url",
