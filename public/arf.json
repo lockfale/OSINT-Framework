@@ -3733,6 +3733,11 @@
           "url": "https://www.openstreetmap.org/"
         },
         {
+          "name": "Overpass Turbo",
+          "type": "url",
+          "url": "https://overpass-turbo.eu/"
+        },
+        {
           "name": "EarthExplorer",
           "type": "url",
           "url": "https://earthexplorer.usgs.gov/"
