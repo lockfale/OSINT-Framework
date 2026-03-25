@@ -1,5 +1,6 @@
-/* === Color tokens === */
+/* === Design tokens === */
 :root {
+  /* Colors */
   --color-bg:               #1a1a1a;
   --color-surface:          #2d2d2d;
   --color-text-primary:     #e0e0e0;
@@ -18,6 +19,32 @@
   --badge-D: #e8944a;
   --badge-R: #c8a030;
   --badge-M: #9a7eda;
+  --color-accent:           #4a9eda;
+  --color-border:           #444;
+
+  /* Shadows */
+  --shadow-sm:  0 1px 3px rgba(0,0,0,0.4);
+  --shadow-md:  0 4px 12px rgba(0,0,0,0.5);
+
+  /* Border radius */
+  --radius-sm:  3px;
+  --radius-md:  6px;
+
+  /* Spacing (4px base scale) */
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  24px;
+  --space-6:  32px;
+
+  /* Typography */
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+                 'Helvetica Neue', Arial, sans-serif;
+  --font-size-sm:   11px;
+  --font-size-base: 14px;
+  --font-size-lg:   16px;
+  --font-size-xl:   40px;
 }
 
 body.light-mode {
@@ -33,13 +60,16 @@ body.light-mode {
   --color-noscript-border:  rgb(255, 204, 153);
   --color-legend:           #000000;
   --color-header:           #000000;
+  --color-border:           #ddd;
+  --shadow-sm:              0 1px 3px rgba(0,0,0,0.12);
+  --shadow-md:              0 4px 12px rgba(0,0,0,0.15);
 }
 
 body {
   background-color: var(--color-bg);
   color: var(--color-text-primary);
-  font-size: 14px;
-  font-family: "Helvetica Neue", Helvetica;
+  font-size: var(--font-size-base);
+  font-family: var(--font-family);
 }
 
 noscript p {
@@ -61,8 +91,14 @@ noscript p {
   position: relative;
 }
 
+svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 #header {
-  font-size: 40px;
+  font-size: var(--font-size-xl);
   font-weight: bold;
   top: 20px;
   text-align: center;
@@ -74,7 +110,7 @@ noscript p {
   top: 0px;
   right: 0;
   width: 330px;
-  font-size: 11px;
+  font-size: var(--font-size-sm);
   color: var(--color-legend);
 }
 
@@ -126,3 +162,74 @@ a {
 .badge-D { background-color: var(--badge-D); }
 .badge-R { background-color: var(--badge-R); }
 .badge-M { background-color: var(--badge-M); }
+/* Search */
+#search-container {
+  text-align: center;
+  padding: 8px 0 4px;
+}
+
+#search-input {
+  width: 400px;
+  max-width: 90vw;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica;
+  background: var(--color-surface);
+  color: var(--color-text-primary);
+  border: 1px solid var(--color-link);
+  border-radius: 4px;
+  outline: none;
+}
+
+#search-input:focus {
+  border-color: var(--color-node-stroke);
+}
+
+#search-results {
+  margin: 8px auto 0;
+  width: 600px;
+  max-width: 90vw;
+  text-align: left;
+  background: var(--color-surface);
+  border: 1px solid var(--color-link);
+  border-radius: 4px;
+  max-height: 400px;
+  overflow-y: auto;
+  display: none;
+}
+
+#search-results.visible {
+  display: block;
+}
+
+.search-result-item {
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--color-link);
+  font-size: 13px;
+}
+
+.search-result-item:last-child {
+  border-bottom: none;
+}
+
+.search-result-item a {
+  font-weight: bold;
+  color: var(--color-node-stroke);
+  text-decoration: none;
+}
+
+.search-result-item a:hover {
+  text-decoration: underline;
+}
+
+.search-result-path {
+  color: var(--color-text-secondary);
+  font-size: 11px;
+  margin-top: 2px;
+}
+
+.search-no-results {
+  padding: 12px;
+  color: var(--color-text-secondary);
+  text-align: center;
+}

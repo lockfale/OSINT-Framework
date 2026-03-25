@@ -1695,19 +1695,14 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "ExifTool (T)",
-                  "type": "url",
-                  "url": "https://exiftool.org/"
-                },
-                {
                   "name": "ExifEditor",
                   "type": "url",
                   "url": "https://exifeditor.io"
                 },
                 {
-                  "name": "Jeffrey's Exif Viewer",
+                  "name": "ExifTool (T)",
                   "type": "url",
-                  "url": "https://exif.regex.info/"
+                  "url": "https://exiftool.org/"
                 },
                 {
                   "name": "ExifViewer",
@@ -1715,9 +1710,14 @@
                   "url": "https://www.exifviewer.org/"
                 },
                 {
-                  "name": "Search by Exif",
+                  "name": "FOCA (T)",
                   "type": "url",
-                  "url": "https://www.exif-search.com/"
+                  "url": "https://github.com/ElevenPaths/FOCA"
+                },
+                {
+                  "name": "GeoSetter",
+                  "type": "url",
+                  "url": "https://geosetter.de/en/main-en/"
                 },
                 {
                   "name": "ImgOps",
@@ -1725,9 +1725,9 @@
                   "url": "https://imgops.com/"
                 },
                 {
-                  "name": "Metapicz",
+                  "name": "Jeffrey's Exif Viewer",
                   "type": "url",
-                  "url": "https://metapicz.com/#landing"
+                  "url": "https://exif.regex.info/"
                 },
                 {
                   "name": "JPEGsnoop (T)",
@@ -1735,9 +1735,14 @@
                   "url": "https://www.impulseadventure.com/photo/jpeg-snoop.html"
                 },
                 {
-                  "name": "GeoSetter",
+                  "name": "Metapicz",
                   "type": "url",
-                  "url": "https://geosetter.de/en/main-en/"
+                  "url": "https://metapicz.com/#landing"
+                },
+                {
+                  "name": "Search by Exif",
+                  "type": "url",
+                  "url": "https://www.exif-search.com/"
                 },
                 {
                   "name": "xeuledoc - Fetch metadata about any public Google document",
@@ -2099,6 +2104,11 @@
           ]
         },
         {
+          "name": "Fediverse/Mastodon",
+          "type": "folder",
+          "children": []
+        },
+        {
           "name": "Instagram",
           "type": "folder",
           "children": [
@@ -2334,9 +2344,15 @@
           ]
         },
         {
-          "name": "Tiktok",
+          "name": "TikTok",
           "type": "folder",
-          "children": []
+          "children": [
+            {
+              "name": "TikTok (M)",
+              "type": "url",
+              "url": "https://www.tiktok.com/@username"
+            }
+          ]
         },
         {
           "name": "Bluesky",
@@ -2420,11 +2436,6 @@
               "url": "https://vk.com/"
             },
             {
-              "name": "Tiktok (M)",
-              "type": "url",
-              "url": "https://www.tiktok.com/@username"
-            },
-            {
               "name": "Delicious",
               "type": "url",
               "url": "https://del.icio.us/"
@@ -2454,11 +2465,6 @@
               "name": "PinGroupie",
               "type": "url",
               "url": "https://pingroupie.com/"
-            },
-            {
-              "name": "Google CSE for Telegram links",
-              "type": "url",
-              "url": "https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg"
             }
           ]
         }
@@ -2469,56 +2475,155 @@
       "type": "folder",
       "children": [
         {
-          "name": "Skype",
+          "name": "Chat Archive Analysis",
           "type": "folder",
           "children": [
             {
-              "name": "Skype Web Client",
+              "name": "Comms Analyzer Toolbox (T)",
               "type": "url",
-              "url": "https://web.skype.com/"
+              "url": "https://github.com/bitsofinfo/comms-analyzer-toolbox"
+            }
+          ]
+        },
+        {
+          "name": "Discord",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Disboard",
+              "type": "url",
+              "url": "https://disboard.org/"
             },
             {
-              "name": "MostwantedHF",
+              "name": "DiscordOSINT (T)",
               "type": "url",
-              "url": "https://mostwantedhf.info/index.php"
+              "url": "https://github.com/husseinmuhaisen/DiscordOSINT"
+            }
+          ]
+        },
+        {
+          "name": "Resources",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Awesome OSINT",
+              "type": "url",
+              "url": "https://github.com/jivoi/awesome-osint"
+            }
+          ]
+        },
+        {
+          "name": "Signal / Phone Lookup",
+          "type": "folder",
+          "children": [
+            {
+              "name": "OSINT Industries",
+              "type": "url",
+              "url": "https://www.osint.industries/"
+            }
+          ]
+        },
+        {
+          "name": "Slack",
+          "type": "folder",
+          "children": [
+            {
+              "name": "SlackPirate (T)",
+              "type": "url",
+              "url": "https://github.com/emtunc/SlackPirate"
             },
             {
-              "name": "Skype Resolver 2019",
+              "name": "slack-intelbot (T)",
               "type": "url",
-              "url": "https://www.skypeipresolver.net/"
+              "url": "https://github.com/pun1sh3r/slack-intelbot"
+            },
+            {
+              "name": "slack-web-scraper (T)",
+              "type": "url",
+              "url": "https://github.com/iulspop/slack-web-scraper"
             }
           ]
         },
         {
-          "name": "Snapchat",
+          "name": "Telegram",
           "type": "folder",
           "children": [
             {
-              "name": "Snapchat Leak Checker",
+              "name": "Google CSE for Telegram links",
               "type": "url",
-              "url": "https://lastpass.com/snapchat/"
+              "url": "https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg"
+            },
+            {
+              "name": "Telegago (T)",
+              "type": "url",
+              "url": "https://tools.osintnewsletter.com/osint-tools/telegago-telegram"
+            },
+            {
+              "name": "Telegram-OSINT (T)",
+              "type": "url",
+              "url": "https://github.com/The-Osint-Toolbox/Telegram-OSINT"
+            },
+            {
+              "name": "TGStat",
+              "type": "url",
+              "url": "https://tgstat.com/"
+            },
+            {
+              "name": "Tosint (T)",
+              "type": "url",
+              "url": "https://github.com/drego85/tosint"
             }
           ]
         },
         {
-          "name": "Kik",
+          "name": "WeChat / LINE",
           "type": "folder",
           "children": [
             {
-              "name": "Kik Username (M)",
+              "name": "Sogou WeChat Search",
               "type": "url",
-              "url": "https://kik.me/%3Cusername%3E"
+              "url": "https://weixin.sogou.com/"
+            },
+            {
+              "name": "WechatSogou (T)",
+              "type": "url",
+              "url": "https://github.com/Chowency/WechatSogou"
+            },
+            {
+              "name": "wechat-dump (T)",
+              "type": "url",
+              "url": "https://github.com/ppwwyyxx/wechat-dump"
+            },
+            {
+              "name": "wechat-text-backup (T)",
+              "type": "url",
+              "url": "https://github.com/zhaofeng-shu33/wechat-text-backup"
+            },
+            {
+              "name": "linelog2py (T)",
+              "type": "url",
+              "url": "https://github.com/jyu0414/linelog2py"
+            },
+            {
+              "name": "line-message-analyzer (T)",
+              "type": "url",
+              "url": "https://github.com/chonyy/line-message-analyzer"
             }
           ]
         },
         {
-          "name": "Yikyak",
+          "name": "WhatsApp",
           "type": "folder",
           "children": [
             {
-              "name": "YikMap",
+              "name": "Email2WhatsApp (T)",
               "type": "url",
-              "url": "https://yikmap.com/"
+              "url": "https://github.com/dsonbaker/email2whatsapp"
+            },
+            {
+              "name": "WhatsApp-OSINT (T)",
+              "type": "url",
+              "url": "https://github.com/kinghacker0/WhatsApp-OSINT"
             }
           ]
         }
@@ -3731,6 +3836,11 @@
           "name": "OpenStreetMap",
           "type": "url",
           "url": "https://www.openstreetmap.org/"
+        },
+        {
+          "name": "Overpass Turbo",
+          "type": "url",
+          "url": "https://overpass-turbo.eu/"
         },
         {
           "name": "EarthExplorer",
@@ -6037,6 +6147,81 @@
           ]
         },
         {
+          "name": "Terrorism & Extremism",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Academic Research",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "Global Terrorism Database",
+                  "type": "url",
+                  "url": "https://www.start.umd.edu/research-projects/global-terrorism-database-gtd"
+                },
+                {
+                  "name": "START Consortium for the Study of Terrorism and Responses to Terrorism",
+                  "type": "url",
+                  "url": "https://www.start.umd.edu/"
+                }
+              ]
+            },
+            {
+              "name": "Research Centers",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "CSIS Warfare, Irregular Threats, and Terrorism Program",
+                  "type": "url",
+                  "url": "https://www.csis.org/programs/warfare-irregular-threats-and-terrorism-program"
+                },
+                {
+                  "name": "Institute for Strategic Dialogue",
+                  "type": "url",
+                  "url": "https://www.isdglobal.org/"
+                },
+                {
+                  "name": "RAND Terrorism Research",
+                  "type": "url",
+                  "url": "https://www.rand.org/topics/terrorism.html"
+                }
+              ]
+            },
+            {
+              "name": "Sanctions & Watchlists",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "OFAC Sanctions List Search",
+                  "type": "url",
+                  "url": "https://sanctionssearch.ofac.treas.gov/"
+                },
+                {
+                  "name": "OpenSanctions",
+                  "type": "url",
+                  "url": "https://www.opensanctions.org/"
+                },
+                {
+                  "name": "UN Security Council Consolidated List",
+                  "type": "url",
+                  "url": "https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list"
+                }
+              ]
+            },
+            {
+              "name": "Terrorist Financing",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "Terrorist Finance Tracking Program",
+                  "type": "url",
+                  "url": "https://home.treasury.gov/policy-issues/terrorism-and-illicit-finance/terrorist-finance-tracking-program-tftp"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "IBM X-Force Exchange",
           "type": "url",
           "url": "https://exchange.xforce.ibmcloud.com/new"
@@ -6423,7 +6608,7 @@
             {
               "name": "Awesome Opt-Out Guide 2026",
               "type": "url",
-              "url": "https://github.com/tycrek/degoogle"
+              "url": "https://github.com/thumpersecure/opt-out-manual-2026"
             }
           ]
         },
