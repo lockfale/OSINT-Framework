@@ -5374,18 +5374,69 @@
       "type": "folder",
       "children": [
         {
+          "name": "Bitcoin",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Bitcoin Who's Who",
+              "type": "url",
+              "url": "https://www.bitcoinwhoswho.com/"
+            },
+            {
+              "name": "BitRef",
+              "type": "url",
+              "url": "https://bitref.com/"
+            },
+            {
+              "name": "Blockonomics",
+              "type": "url",
+              "url": "https://www.blockonomics.co/"
+            },
+            {
+              "name": "Blockr.io",
+              "type": "url",
+              "url": "https://blockr.io/"
+            },
+            {
+              "name": "Blocktrail",
+              "type": "url",
+              "url": "https://www.blocktrail.com/BTC"
+            },
+            {
+              "name": "Orbit (T)",
+              "type": "url",
+              "url": "https://github.com/s0md3v/Orbit"
+            },
+            {
+              "name": "Wallet Explorer",
+              "type": "url",
+              "url": "https://www.walletexplorer.com/"
+            }
+          ]
+        },
+        {
           "name": "Chain Analysis Platforms",
           "type": "folder",
           "children": [
             {
+              "name": "Bitcoin Abuse Database",
+              "type": "url",
+              "url": "https://bitcoinabuse.com/"
+            },
+            {
+              "name": "Bitcoin Who's Who",
+              "type": "url",
+              "url": "https://www.bitcoinwhoswho.com/"
+            },
+            {
+              "name": "BitRef",
+              "type": "url",
+              "url": "https://bitref.com/"
+            },
+            {
               "name": "Blockchair",
               "type": "url",
               "url": "https://blockchair.com/"
-            },
-            {
-              "name": "Etherscan",
-              "type": "url",
-              "url": "https://etherscan.io/"
             },
             {
               "name": "Blockscan",
@@ -5393,9 +5444,9 @@
               "url": "https://blockscan.com/"
             },
             {
-              "name": "Bitref",
+              "name": "Etherscan",
               "type": "url",
-              "url": "https://bitref.com/"
+              "url": "https://etherscan.io/"
             },
             {
               "name": "OXT.me",
@@ -5403,19 +5454,9 @@
               "url": "https://oxt.me/"
             },
             {
-              "name": "Bitcoin Abuse Database",
-              "type": "url",
-              "url": "https://bitcoinabuse.com/"
-            },
-            {
               "name": "Wallet Explorer",
               "type": "url",
               "url": "https://www.walletexplorer.com/"
-            },
-            {
-              "name": "Bitcoin Who's Who",
-              "type": "url",
-              "url": "https://www.bitcoinwhoswho.com/"
             }
           ]
         },
@@ -5424,71 +5465,14 @@
           "type": "folder",
           "children": [
             {
-              "name": "Dune Analytics",
-              "type": "url",
-              "url": "https://dune.com/"
-            },
-            {
               "name": "DefiLlama",
               "type": "url",
               "url": "https://defillama.com/"
-            }
-          ]
-        },
-        {
-          "name": "Multi-Chain Explorers",
-          "type": "folder",
-          "children": [
-            {
-              "name": "Blockchair",
-              "type": "url",
-              "url": "https://blockchair.com/"
             },
             {
-              "name": "Bitquery Explorer",
+              "name": "Dune Analytics",
               "type": "url",
-              "url": "https://explorer.bitquery.io/"
-            }
-          ]
-        },
-        {
-          "name": "Bitcoin",
-          "type": "folder",
-          "children": [
-            {
-              "name": "Blocktrail",
-              "type": "url",
-              "url": "https://www.blocktrail.com/BTC"
-            },
-            {
-              "name": "Blockr.io",
-              "type": "url",
-              "url": "https://blockr.io/"
-            },
-            {
-              "name": "BitRef",
-              "type": "url",
-              "url": "https://bitref.com/"
-            },
-            {
-              "name": "Wallet Explorer",
-              "type": "url",
-              "url": "https://www.walletexplorer.com/"
-            },
-            {
-              "name": "Blockonomics",
-              "type": "url",
-              "url": "https://www.blockonomics.co/"
-            },
-            {
-              "name": "Bitcoin Who's Who",
-              "type": "url",
-              "url": "https://www.bitcoinwhoswho.com/"
-            },
-            {
-              "name": "Orbit (T)",
-              "type": "url",
-              "url": "https://github.com/s0md3v/Orbit"
+              "url": "https://dune.com/"
             }
           ]
         },
@@ -5504,18 +5488,65 @@
           ]
         },
         {
+          "name": "Mixer Tracking",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Arkham Intelligence",
+              "type": "url",
+              "url": "https://intel.arkm.com/"
+            },
+            {
+              "name": "Breadcrumbs.app",
+              "type": "url",
+              "url": "https://www.breadcrumbs.app/"
+            },
+            {
+              "name": "MetaSleuth",
+              "type": "url",
+              "url": "https://metasleuth.io/"
+            },
+            {
+              "name": "MistTrack",
+              "type": "url",
+              "url": "https://misttrack.io/"
+            },
+            {
+              "name": "OFAC Sanctions List Search",
+              "type": "url",
+              "url": "https://sanctionssearch.ofac.treas.gov/"
+            }
+          ]
+        },
+        {
           "name": "Monero",
           "type": "folder",
           "children": [
             {
-              "name": "XMRChain.net",
-              "type": "url",
-              "url": "https://xmrchain.net/"
-            },
-            {
               "name": "Monero Blocks",
               "type": "url",
               "url": "https://localmonero.co/blocks/"
+            },
+            {
+              "name": "XMRChain.net",
+              "type": "url",
+              "url": "https://xmrchain.net/"
+            }
+          ]
+        },
+        {
+          "name": "Multi-Chain Explorers",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Bitquery Explorer",
+              "type": "url",
+              "url": "https://explorer.bitquery.io/"
+            },
+            {
+              "name": "Blockchair",
+              "type": "url",
+              "url": "https://blockchair.com/"
             }
           ]
         },
@@ -5556,14 +5587,14 @@
           "type": "folder",
           "children": [
             {
-              "name": "Wallet Explorer",
-              "type": "url",
-              "url": "https://www.walletexplorer.com/"
-            },
-            {
               "name": "Blockchair",
               "type": "url",
               "url": "https://blockchair.com/"
+            },
+            {
+              "name": "Wallet Explorer",
+              "type": "url",
+              "url": "https://www.walletexplorer.com/"
             }
           ]
         }
