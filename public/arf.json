@@ -169,6 +169,11 @@
               "url": "https://tools.epieos.com/email.php"
             },
             {
+              "name": "breach.vip",
+              "type": "url",
+              "url": "https://breach.vip/"
+            },
+            {
               "name": "Holehe (T)",
               "type": "url",
               "url": "https://github.com/megadose/holehe"
@@ -1593,6 +1598,11 @@
               "name": "Packet Total",
               "type": "url",
               "url": "https://www.packettotal.com/"
+            },
+            {
+              "name": "checkip (T)",
+              "type": "url",
+              "url": "https://github.com/jreisinger/checkip"
             }
           ]
         },
@@ -3110,6 +3120,11 @@
           "url": "https://www.phonevalidator.com/index.aspx"
         },
         {
+          "name": "Phonerator",
+          "type": "url",
+          "url": "https://www.martinvigo.com/phonerator/"
+        },
+        {
           "name": "Mr. Number (M)",
           "type": "url",
           "url": "https://www.hiya.com/products/apps/hiya-spam-blocker"
@@ -3577,6 +3592,11 @@
               "name": "LittleSis",
               "type": "url",
               "url": "https://littlesis.org/"
+            },
+            {
+              "name": "Rusprofile",
+              "type": "url",
+              "url": "https://www.rusprofile.ru/"
             },
             {
               "name": "Companies House",
@@ -4674,6 +4694,11 @@
               "name": "Mibbit",
               "type": "url",
               "url": "https://search.mibbit.com/"
+            },
+            {
+              "name": "IRCP (T)",
+              "type": "url",
+              "url": "https://github.com/internet-relay-chat/IRCP"
             },
             {
               "name": "ircsnapshot (T)",
