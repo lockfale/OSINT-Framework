@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lockfale/ARF.git"
+    "url": "git+https://github.com/lockfale/OSINT-Framework.git"
   },
   "author": "Justin Nordine (s0lray)",
   "license": "",
   "bugs": {
-    "url": "https://github.com/lockfale/ARF/issues"
+    "url": "https://github.com/lockfale/OSINT-Framework/issues"
   },
-  "homepage": "https://github.com/lockfale/ARF#readme",
+  "homepage": "https://github.com/lockfale/OSINT-Framework#readme",
   "devDependencies": {
     "copyfiles": "^1.0.0",
     "d3": "^7.9.0",

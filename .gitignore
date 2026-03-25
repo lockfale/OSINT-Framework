@@ -1,13 +1,17 @@
 # agent / org files #
 ######################
 agents/
+.agents/
 
 # vendor packages #
 ######################
 public/js/vendor
 node_modules
 bower_components
-.bowerrc
+
+# generated artifacts #
+######################
+tools/link_audit_report.json
 
 # OS generated files #
 ######################
