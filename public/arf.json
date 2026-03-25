@@ -146,7 +146,7 @@
             {
               "name": "OSINT Industries",
               "type": "url",
-              "url": "https://osint.industries/"
+              "url": "https://www.osint.industries/"
             },
             {
               "name": "theHarvester (T)",
@@ -312,12 +312,12 @@
             {
               "name": "DNSstuff",
               "type": "url",
-              "url": "https://tools.dnsstuff.com/"
+              "url": "https://www.dnsstuff.com/freetools"
             },
             {
               "name": "Robtex (R)",
               "type": "url",
-              "url": "https://www.robtex.com/"
+              "url": "https://robtex.com/"
             },
             {
               "name": "Domaincrawler.com",
@@ -830,7 +830,7 @@
             {
               "name": "Wappalyzer (T)",
               "type": "url",
-              "url": "https://wappalyzer.com/"
+              "url": "https://www.wappalyzer.com/"
             },
             {
               "name": "SEMrush",
@@ -855,7 +855,7 @@
             {
               "name": "Open Site Explorer",
               "type": "url",
-              "url": "https://moz.com/researchtools/ose/"
+              "url": "https://moz.com/link-explorer"
             },
             {
               "name": "SpyOnWeb",
@@ -998,7 +998,7 @@
             {
               "name": "Google Trends",
               "type": "url",
-              "url": "https://www.google.com/trends/"
+              "url": "https://trends.google.com/trends/"
             }
           ]
         },
@@ -1099,7 +1099,7 @@
             {
               "name": "Burp Suite (T)",
               "type": "url",
-              "url": "https://portswigger.net/burp/"
+              "url": "https://portswigger.net/burp"
             },
             {
               "name": "EyeWitness (T)",
@@ -1660,7 +1660,7 @@
                 {
                   "name": "Imgrab",
                   "type": "url",
-                  "url": "https://imgrab.com/"
+                  "url": "https://www.imgrab.com/"
                 },
                 {
                   "name": "Tofo.me",
@@ -1917,7 +1917,7 @@
                 {
                   "name": "Facebook Live Map",
                   "type": "url",
-                  "url": "https://www.facebook.com/livemap#"
+                  "url": "https://www.facebook.com/watch/live/?ref=live_delegate"
                 },
                 {
                   "name": "LiveLeak",
@@ -1983,7 +1983,7 @@
                 {
                   "name": "yasiv-youtube",
                   "type": "url",
-                  "url": "https://yasiv.com/youtube"
+                  "url": "https://yasiv.com/youtube/"
                 }
               ]
             }
@@ -2101,7 +2101,7 @@
             {
               "name": "What The Font",
               "type": "url",
-              "url": "https://www.myfonts.com/WhatTheFont/"
+              "url": "https://www.myfonts.com/pages/whatthefont"
             },
             {
               "name": "Font Squirrel",
@@ -2175,7 +2175,7 @@
             {
               "name": "Inflact Instagram Viewer (Anonymous)",
               "type": "url",
-              "url": "https://inflact.com/profiles/instagram-viewer/"
+              "url": "https://inflact.com/instagram-viewer/profile/"
             },
             {
               "name": "Osintgram (T)",
@@ -2345,7 +2345,7 @@
                 {
                   "name": "TweetVacuum (T)",
                   "type": "url",
-                  "url": "https://github.com/T3hUb3rK1tten/TweetVacuum"
+                  "url": "https://github.com/UberKitten/TweetVacuum"
                 }
               ]
             }
@@ -2358,7 +2358,7 @@
             {
               "name": "Reddit Metis",
               "type": "url",
-              "url": "https://redditmetis.com/#"
+              "url": "https://redditmetis.com/"
             },
             {
               "name": "Reddit Archive",
@@ -2384,7 +2384,7 @@
             {
               "name": "LinkedInt - LinkedIn Recon Tool (T)",
               "type": "url",
-              "url": "https://github.com/vysec/LinkedInt"
+              "url": "https://github.com/vysecurity/LinkedInt"
             },
             {
               "name": "ScrapedIn (T)",
@@ -2394,7 +2394,7 @@
             {
               "name": "InSpy (T)",
               "type": "url",
-              "url": "https://github.com/leapsecurity/InSpy"
+              "url": "https://github.com/jobroche/InSpy"
             },
             {
               "name": "raven (T)",
@@ -2811,7 +2811,7 @@
             {
               "name": "Registry Finder",
               "type": "url",
-              "url": "https://www.registryfinder.com/"
+              "url": "https://registryfinder.com:443/"
             },
             {
               "name": "My Registry",
@@ -3002,7 +3002,7 @@
         {
           "name": "HLR Lookup Portal (R)",
           "type": "url",
-          "url": "https://www.hlr-lookups.com/"
+          "url": "https://www.hlr-lookups.com/en/start"
         },
         {
           "name": "OpenCNAM API",
@@ -3012,7 +3012,7 @@
         {
           "name": "Numspy (T)",
           "type": "python3 Module",
-          "url": "https://bhattsameer.github.io/numspy"
+          "url": "https://bhattsameer.github.io/numspy/"
         },
         {
           "name": "Numspy-Api",
@@ -3113,7 +3113,7 @@
             {
               "name": "National Sex Offender Search",
               "type": "url",
-              "url": "https://www.nsopw.gov/en/Search"
+              "url": "https://www.nsopw.gov/search-public-sex-offender-registries"
             },
             {
               "name": "Mugshots.com",
@@ -3280,7 +3280,7 @@
             {
               "name": "Google Patent Search",
               "type": "url",
-              "url": "https://www.google.com/advanced_patent_search"
+              "url": "https://patents.google.com/advanced"
             }
           ]
         },
@@ -3331,12 +3331,12 @@
           "url": "https://www.brbpub.com/"
         },
         {
-          "name": "GOVDATA - Das Datenportal f\u00fcr Deutschland (German)",
+          "name": "GOVDATA - Das Datenportal für Deutschland (German)",
           "type": "url",
           "url": "https://www.govdata.de/"
         },
         {
-          "name": "Open-Data-Portal M\u00fcnchen (German)",
+          "name": "Open-Data-Portal München (German)",
           "type": "url",
           "url": "https://www.opengov-muenchen.de/"
         },
@@ -3420,7 +3420,7 @@
             {
               "name": "Google Finance",
               "type": "url",
-              "url": "https://www.google.com/finance"
+              "url": "https://www.google.com/finance/"
             }
           ]
         },
@@ -3471,7 +3471,7 @@
             {
               "name": "Owler (R)",
               "type": "url",
-              "url": "https://www.owler.com/"
+              "url": "https://www.owler.com/corp"
             },
             {
               "name": "Vault",
@@ -3741,12 +3741,12 @@
             {
               "name": "Batch Geocoding",
               "type": "url",
-              "url": "https://www.doogal.co.uk/BatchGeocoding.php"
+              "url": "https://www.doogal.co.uk/BatchGeocoding"
             },
             {
               "name": "Batch Reverse Geocoding",
               "type": "url",
-              "url": "https://www.doogal.co.uk/BatchReverseGeocoding.php"
+              "url": "https://www.doogal.co.uk/BatchReverseGeocoding"
             }
           ]
         },
@@ -3788,7 +3788,7 @@
             {
               "name": "OpenSignal",
               "type": "url",
-              "url": "https://opensignal.com/"
+              "url": "https://www.opensignal.com/"
             },
             {
               "name": "AntennaSearch",
@@ -3870,7 +3870,7 @@
         {
           "name": "Google Earth",
           "type": "url",
-          "url": "https://www.google.com/earth/"
+          "url": "https://earth.google.com/web/"
         },
         {
           "name": "Baidu Maps",
@@ -4000,7 +4000,7 @@
             {
               "name": "Yandex",
               "type": "url",
-              "url": "https://www.yandex.com/"
+              "url": "https://yandex.com/"
             },
             {
               "name": "Baidu",
@@ -4040,7 +4040,7 @@
             {
               "name": "Hulbee",
               "type": "url",
-              "url": "https://hulbee.com/"
+              "url": "https://hulbee.com/de"
             },
             {
               "name": "Mojeek",
@@ -4050,7 +4050,7 @@
             {
               "name": "Swisscows",
               "type": "url",
-              "url": "https://swisscows.com/"
+              "url": "https://swisscows.com/en"
             },
             {
               "name": "Brave",
@@ -4117,7 +4117,7 @@
             {
               "name": "NerdyData",
               "type": "url",
-              "url": "https://nerdydata.com/search"
+              "url": "https://www.nerdydata.com/reports/new"
             },
             {
               "name": "Gitrob (T)",
@@ -4132,7 +4132,7 @@
             {
               "name": "GitLeaks",
               "type": "url",
-              "url": "https://github.com/zricethezav/gitleaks"
+              "url": "https://github.com/gitleaks/gitleaks"
             }
           ]
         },
@@ -4325,7 +4325,7 @@
             {
               "name": "Inshorts",
               "type": "url",
-              "url": "https://www.inshorts.com/en/read"
+              "url": "https://inshorts.com/en/read"
             },
             {
               "name": "NewsBot",
@@ -4382,7 +4382,7 @@
             {
               "name": "Google Alerts",
               "type": "url",
-              "url": "https://www.google.com/alerts#"
+              "url": "https://www.google.com/alerts"
             },
             {
               "name": "Google Custom Search Engine",
@@ -4423,7 +4423,7 @@
             {
               "name": "Google Hacking Database",
               "type": "url",
-              "url": "https://www.exploit-db.com/google-hacking-database/"
+              "url": "https://www.exploit-db.com/google-hacking-database"
             },
             {
               "name": "Google Search Operators Guide",
@@ -4575,7 +4575,7 @@
             {
               "name": "Internet Archive: Wayback Machine",
               "type": "url",
-              "url": "https://archive.org/web/"
+              "url": "https://web.archive.org/"
             },
             {
               "name": "Archive.is",
@@ -4692,7 +4692,7 @@
             {
               "name": "UCI Spambase Data Set",
               "type": "url",
-              "url": "https://archive.ics.uci.edu/ml/datasets/Spambase"
+              "url": "https://archive.ics.uci.edu/dataset/94/spambase"
             },
             {
               "name": "Stanford Large Network Dataset Collection",
@@ -4725,7 +4725,7 @@
             {
               "name": "DeepL Translator",
               "type": "url",
-              "url": "https://www.deepl.com/"
+              "url": "https://www.deepl.com/en"
             },
             {
               "name": "Google Translate",
@@ -4817,7 +4817,7 @@
             {
               "name": "WhatTheFont",
               "type": "url",
-              "url": "https://www.myfonts.com/WhatTheFont/"
+              "url": "https://www.myfonts.com/pages/whatthefont"
             }
           ]
         }
@@ -5067,17 +5067,17 @@
             {
               "name": "Reddit Deep Web",
               "type": "url",
-              "url": "https://www.reddit.com/r/deepweb"
+              "url": "https://www.reddit.com/r/deepweb/"
             },
             {
               "name": "Reddit Onions",
               "type": "url",
-              "url": "https://www.reddit.com/r/onions"
+              "url": "https://www.reddit.com/r/onions/"
             },
             {
               "name": "Reddit Darknet",
               "type": "url",
-              "url": "https://www.reddit.com/r/darknet"
+              "url": "https://www.reddit.com/r/darknet/"
             }
           ]
         },
@@ -5088,7 +5088,7 @@
             {
               "name": "Tor Download (T)",
               "type": "url",
-              "url": "https://www.torproject.org/download/download-easy.html.en"
+              "url": "https://www.torproject.org/download/"
             },
             {
               "name": "Freenet Project (T)",
@@ -5943,7 +5943,7 @@
             {
               "name": "VirusTotal",
               "type": "url",
-              "url": "https://www.virustotal.com/"
+              "url": "https://www.virustotal.com/gui/"
             },
             {
               "name": "OPSWAT Meta Defender",
@@ -5953,7 +5953,7 @@
             {
               "name": "Hybrid Analysis",
               "type": "url",
-              "url": "https://www.hybrid-analysis.com/"
+              "url": "https://hybrid-analysis.com/"
             },
             {
               "name": "Malware Config",
@@ -6083,7 +6083,7 @@
             {
               "name": "Default Passwords DB",
               "type": "url",
-              "url": "https://cirt.net/passwords"
+              "url": "https://cirt.net/passwords/"
             },
             {
               "name": "Default passwords list",
@@ -6180,7 +6180,7 @@
         {
           "name": "Canadian Centre for Cyber Security",
           "type": "url",
-          "url": "https://cyber.gc.ca/"
+          "url": "https://www.cyber.gc.ca/"
         }
       ]
     },
@@ -6246,7 +6246,7 @@
             {
               "name": "iocextract (T)",
               "type": "url",
-              "url": "https://github.com/InQuest/python-iocextract"
+              "url": "https://github.com/InQuest/iocextract"
             },
             {
               "name": "ThreatIngestor (T)",
@@ -6359,7 +6359,7 @@
         {
           "name": "Malware Patrol",
           "type": "url",
-          "url": "https://www.malwarepatrol.net/open-source.shtml"
+          "url": "https://www.malwarepatrol.net/integrations-formats-threat-intelligence-feed-integration/"
         },
         {
           "name": "AlienVault OTX",
@@ -6500,7 +6500,7 @@
                 {
                   "name": "Tor Download (T)",
                   "type": "url",
-                  "url": "https://www.torproject.org/download/download-easy.html.en"
+                  "url": "https://www.torproject.org/download/"
                 },
                 {
                   "name": "Freenet Project (T)",
@@ -6726,7 +6726,7 @@
               "url": "https://themanyhats.club/centralised-place-for-privacy-resources/"
             },
             {
-              "name": "The Hitchhiker\u2019s Guide to Online Anonymity",
+              "name": "The Hitchhiker’s Guide to Online Anonymity",
               "type": "url",
               "url": "https://anonymousplanet.org/guide/"
             },
@@ -6791,7 +6791,7 @@
             {
               "name": "Web Page Saver",
               "type": "url",
-              "url": "https://www.magnetforensics.com/free-tool-web-page-saver/"
+              "url": "https://www.magnetforensics.com/resources/web-page-saver/"
             },
             {
               "name": "Snapper (T)",
@@ -6865,7 +6865,7 @@
             {
               "name": "GeoGuesser",
               "type": "url",
-              "url": "https://geoguessr.com/"
+              "url": "https://www.geoguessr.com/"
             },
             {
               "name": "Verif!cation Quiz Bot",
