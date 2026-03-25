@@ -95,7 +95,7 @@ function update(source) {
   var nodeEnter = node.enter().append("g")
       .attr("class", "node")
       .attr("transform", function(d) { return "translate(" + source.y0 + "," + source.x0 + ")"; })
-      .on("click", function(event, d) { toggle(d); update(d); zoomToNode(d); });
+      .on("click", function(event, d) { toggle(d); update(d); });
 
   nodeEnter.append("circle")
       .attr("r", 1e-6)
