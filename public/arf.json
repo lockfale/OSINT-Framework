@@ -4631,9 +4631,46 @@
       ]
     },
     {
-      "name": "Forums / Blogs / IRC",
+      "name": "Online Communities",
       "type": "folder",
       "children": [
+        {
+          "name": "Blog Search Engines",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Live Journal Seek",
+              "type": "url",
+              "url": "https://ljseek.com/"
+            },
+            {
+              "name": "Blog Search Engine",
+              "type": "url",
+              "url": "https://www.blogsearchengine.org/"
+            }
+          ]
+        },
+        {
+          "name": "Discord Servers",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Discord Bot List",
+              "type": "url",
+              "url": "https://discord.bots.gg/"
+            },
+            {
+              "name": "ReconXplorer (T)",
+              "type": "url",
+              "url": "https://github.com/root7am/ReconXplorer"
+            },
+            {
+              "name": "Top.gg",
+              "type": "url",
+              "url": "https://top.gg/"
+            }
+          ]
+        },
         {
           "name": "Forum Search Engines",
           "type": "folder",
@@ -4666,27 +4703,6 @@
           ]
         },
         {
-          "name": "Blog Search Engines",
-          "type": "folder",
-          "children": [
-            {
-              "name": "Live Journal Seek",
-              "type": "url",
-              "url": "https://ljseek.com/"
-            },
-            {
-              "name": "Topix",
-              "type": "url",
-              "url": "https://www.pch.com/quizzes"
-            },
-            {
-              "name": "Blog Search Engine",
-              "type": "url",
-              "url": "https://www.blogsearchengine.org/"
-            }
-          ]
-        },
-        {
           "name": "IRC Search",
           "type": "folder",
           "children": [
@@ -4709,6 +4725,27 @@
               "name": "netsplit.de",
               "type": "url",
               "url": "https://netsplit.de/channels/search.php"
+            }
+          ]
+        },
+        {
+          "name": "Reddit Communities",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Arctic Shift",
+              "type": "url",
+              "url": "https://arctic-shift.photon-reddit.com/"
+            },
+            {
+              "name": "Cama's Reddit Search",
+              "type": "url",
+              "url": "https://camas.github.io/reddit-search/"
+            },
+            {
+              "name": "Reveddit",
+              "type": "url",
+              "url": "https://www.reveddit.com/"
             }
           ]
         }
