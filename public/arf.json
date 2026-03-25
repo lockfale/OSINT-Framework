@@ -1019,32 +1019,6 @@
           ]
         },
         {
-          "name": "Cloud Resources",
-          "type": "folder",
-          "children": [
-            {
-              "name": "Public Buckets",
-              "type": "url",
-              "url": "https://buckets.grayhatwarfare.com/"
-            },
-            {
-              "name": "Online Port scanner",
-              "type": "url",
-              "url": "https://portscanner.online/"
-            },
-            {
-              "name": "CloudScraper (T)",
-              "type": "url",
-              "url": "https://github.com/jordanpotti/cloudscraper"
-            },
-            {
-              "name": "Check site availability Online",
-              "type": "url",
-              "url": "https://upcheck.online/"
-            }
-          ]
-        },
-        {
           "name": "Vulnerabilities",
           "type": "folder",
           "children": [
@@ -1136,6 +1110,157 @@
               "name": "Google",
               "type": "url",
               "url": "https://safebrowsing.google.com/safebrowsing/report_phish/?hl=en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cloud Infrastructure",
+      "type": "folder",
+      "children": [
+        {
+          "name": "AWS Enumeration",
+          "type": "folder",
+          "children": [
+            {
+              "name": "cloud_enum (T)",
+              "type": "url",
+              "url": "https://github.com/initstring/cloud_enum"
+            },
+            {
+              "name": "AWSBucketDump (T)",
+              "type": "url",
+              "url": "https://github.com/jordanpotti/AWSBucketDump"
+            },
+            {
+              "name": "Subfinder (T)",
+              "type": "url",
+              "url": "https://github.com/projectdiscovery/subfinder"
+            }
+          ]
+        },
+        {
+          "name": "Azure/GCP Discovery",
+          "type": "folder",
+          "children": [
+            {
+              "name": "GCPBucketBrute (T)",
+              "type": "url",
+              "url": "https://github.com/RhinoSecurityLabs/GCPBucketBrute"
+            },
+            {
+              "name": "AADInternals (T)",
+              "type": "url",
+              "url": "https://github.com/Gerenios/AADInternals"
+            },
+            {
+              "name": "ROADtools (T)",
+              "type": "url",
+              "url": "https://github.com/dirkjanm/roadtools"
+            },
+            {
+              "name": "MicroBurst (T)",
+              "type": "url",
+              "url": "https://github.com/NetSPI/MicroBurst"
+            },
+            {
+              "name": "Stormspotter (T)",
+              "type": "url",
+              "url": "https://github.com/Azure/Stormspotter"
+            }
+          ]
+        },
+        {
+          "name": "S3/Blob Storage",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Public Buckets",
+              "type": "url",
+              "url": "https://buckets.grayhatwarfare.com/"
+            },
+            {
+              "name": "goblob (T)",
+              "type": "url",
+              "url": "https://github.com/Macmod/goblob"
+            },
+            {
+              "name": "S3Scanner (T)",
+              "type": "url",
+              "url": "https://github.com/sa7mon/s3scanner"
+            },
+            {
+              "name": "BucketLoot (T)",
+              "type": "url",
+              "url": "https://github.com/redhuntlabs/BucketLoot"
+            },
+            {
+              "name": "lazys3 (T)",
+              "type": "url",
+              "url": "https://github.com/nahamsec/lazys3"
+            }
+          ]
+        },
+        {
+          "name": "Cloud Configuration Analysis",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Prowler (T)",
+              "type": "url",
+              "url": "https://github.com/prowler-cloud/prowler"
+            },
+            {
+              "name": "ScoutSuite (T)",
+              "type": "url",
+              "url": "https://github.com/nccgroup/ScoutSuite"
+            },
+            {
+              "name": "Cloud Custodian (T)",
+              "type": "url",
+              "url": "https://github.com/cloud-custodian/cloud-custodian"
+            },
+            {
+              "name": "Checkov (T)",
+              "type": "url",
+              "url": "https://github.com/bridgecrewio/checkov"
+            },
+            {
+              "name": "Steampipe (T)",
+              "type": "url",
+              "url": "https://github.com/turbot/steampipe"
+            }
+          ]
+        },
+        {
+          "name": "SaaS Footprinting",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Amass (T)",
+              "type": "url",
+              "url": "https://github.com/owasp-amass/amass"
+            },
+            {
+              "name": "Sublist3r (T)",
+              "type": "url",
+              "url": "https://github.com/aboul3la/Sublist3r"
+            },
+            {
+              "name": "theHarvester (T)",
+              "type": "url",
+              "url": "https://github.com/laramies/theHarvester"
+            },
+            {
+              "name": "SpiderFoot (T)",
+              "type": "url",
+              "url": "https://github.com/smicallef/spiderfoot"
+            },
+            {
+              "name": "dnsrecon (T)",
+              "type": "url",
+              "url": "https://github.com/darkoperator/dnsrecon"
             }
           ]
         }
