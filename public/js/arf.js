@@ -16,10 +16,22 @@ var diagonal = d3.linkHorizontal()
 var svgW = width + margin[1] + margin[3];
 var svgH = height + margin[0] + margin[2];
 
-var vis = d3.select("#body").append("svg")
+var svgEl = d3.select("#body").append("svg")
     .attr("viewBox", "0 0 " + svgW + " " + svgH)
-    .attr("preserveAspectRatio", "xMidYMid meet")
-  .append("g")
+    .attr("preserveAspectRatio", "xMidYMid meet");
+
+var zoom = d3.zoom()
+    .scaleExtent([0.1, 3])
+    .on("zoom", function(event) {
+      var t = event.transform;
+      vis.attr("transform",
+        "translate(" + (margin[3] + t.x) + "," + (margin[0] + t.y) + ")" +
+        " scale(" + t.k + ")");
+    });
+
+svgEl.call(zoom);
+
+var vis = svgEl.append("g")
     .attr("transform", "translate(" + margin[3] + "," + margin[0] + ")");
 
 function getCSSVar(name) {
@@ -83,7 +95,7 @@ function update(source) {
   var nodeEnter = node.enter().append("g")
       .attr("class", "node")
       .attr("transform", function(d) { return "translate(" + source.y0 + "," + source.x0 + ")"; })
-      .on("click", function(event, d) { toggle(d); update(d); });
+      .on("click", function(event, d) { toggle(d); update(d); zoomToNode(d); });
 
   nodeEnter.append("circle")
       .attr("r", 1e-6)
@@ -195,6 +207,15 @@ function toggle(d) {
     d.children = d._children;
     d._children = null;
   }
+}
+
+// Auto-pan viewport to center on a node after expand/click.
+function zoomToNode(d) {
+  var currentK = d3.zoomTransform(svgEl.node()).k;
+  var tx = svgW / 2 - margin[3] - d.y * currentK;
+  var ty = svgH / 2 - margin[0] - d.x * currentK;
+  svgEl.transition().duration(duration)
+    .call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(currentK));
 }
 
 // Client-side search over all tool nodes.

@@ -95,6 +95,11 @@ svg {
   display: block;
   width: 100%;
   height: auto;
+  cursor: grab;
+}
+
+svg:active {
+  cursor: grabbing;
 }
 
 #header {
