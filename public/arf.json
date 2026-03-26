@@ -2696,8 +2696,8 @@
               "name": "Fedifinder",
               "type": "url",
               "url": "https://fedifinder.glitch.me/",
-              "description": "Web tool that scans your Twitter/X following list to find accounts that have migrated to the Fediverse by checking bios and pinned tweets for Mastodon handles.",
-              "status": "live",
+              "description": "Web tool that scanned Twitter profiles to find Fediverse/Mastodon handles among your contacts and exported them as CSV. The hosted instance now returns HTTP 410 and is no longer functional due to Twitter API restrictions.",
+              "status": "down",
               "pricing": "free",
               "bestFor": "Finding Twitter contacts who moved to Mastodon/Fediverse",
               "input": "Twitter/X account (via OAuth login)",
@@ -2710,7 +2710,7 @@
               "editUrl": false,
               "api": false,
               "invitationOnly": false,
-              "deprecated": false
+              "deprecated": true
             },
             {
               "name": "Fediverse Observer",
@@ -2735,9 +2735,9 @@
             {
               "name": "Fediverse_OSINT (T)",
               "type": "url",
-              "url": "https://github.com/anantshri/fediverse_osint",
-              "description": "Open-source tool for searching and gathering intelligence across multiple Fediverse platforms including Mastodon, Pleroma, and Misskey instances.",
-              "status": "live",
+              "url": "https://github.com/cyfinoid/fediverse_osint",
+              "description": "Python CLI tool for checking whether a domain belongs to the Fediverse and hunting usernames across discoverable Fediverse servers.",
+              "status": "degraded",
               "pricing": "free",
               "bestFor": "Cross-instance Fediverse user and content search",
               "input": "Username or search terms",
