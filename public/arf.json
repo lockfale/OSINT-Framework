@@ -5873,6 +5873,11 @@
               "url": "https://github.com/SharadKumar97/OSINT-SPY"
             },
             {
+              "name": "Osintly",
+              "type": "url",
+              "url": "https://osint.ly/modules"
+            },
+            {
               "name": "Microsoft Flow",
               "type": "url",
               "url": "https://flow.microsoft.com/en-us/"
