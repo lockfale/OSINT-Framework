@@ -82,7 +82,13 @@
         </div>
 
         <div id="panel-report-section">
-          <a id="panel-report-link" href="https://github.com/lockfale/OSINT-Framework/issues/new?template=tool-feedback.md" target="_blank" rel="noopener noreferrer">Report an issue with this tool</a>
+          <span class="panel-section-label">Report an Issue</span>
+          <div id="panel-report-buttons">
+            <button class="report-btn" data-type="dead_link">Dead link</button>
+            <button class="report-btn" data-type="paywalled">Paywalled</button>
+            <button class="report-btn" data-type="incorrect_info">Incorrect info</button>
+          </div>
+          <div id="panel-report-feedback" class="panel-report-feedback hidden"></div>
         </div>
       </div>
     </div>

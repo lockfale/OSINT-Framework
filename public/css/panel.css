@@ -188,19 +188,78 @@
   gap: var(--space-2);
 }
 
-/* Rating */
+/* Community rating / vote */
 #panel-rating-section {
   display: flex;
   flex-direction: column;
   gap: var(--space-2);
 }
 
-#panel-rating-section.empty {
-  display: none;
+#panel-vote-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
 }
 
-#panel-rating {
-  font-size: var(--font-size-base);
+.vote-btn {
+  background: none;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: var(--space-1) var(--space-2);
+  font-size: 18px;
+  cursor: pointer;
+  line-height: 1;
+  transition: background 150ms ease, border-color 150ms ease;
+}
+
+.vote-btn:hover {
+  background: var(--color-bg);
+  border-color: var(--color-text-secondary);
+}
+
+.vote-btn.active {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
+.vote-score {
+  font-size: var(--font-size-lg);
+  font-weight: bold;
+  min-width: 2ch;
+  text-align: center;
+}
+
+.vote-score.positive { color: #2d9e2d; }
+.vote-score.negative { color: #c84040; }
+.vote-score.zero     { color: var(--color-text-secondary); }
+
+/* Report buttons */
+#panel-report-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+#panel-report-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.report-btn {
+  background: none;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: var(--space-1) var(--space-3);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  font-family: var(--font-family);
+  transition: background 150ms ease, color 150ms ease;
+}
+
+.report-btn:hover {
+  background: var(--color-bg);
   color: var(--color-text-primary);
 }
 
@@ -241,20 +300,6 @@
   opacity: 0.88;
 }
 
-/* Report link */
-#panel-report-section {
-  text-align: center;
-}
-
-#panel-report-link {
-  font-size: var(--font-size-sm);
-  color: var(--color-text-secondary);
-  text-decoration: none;
-}
-
-#panel-report-link:hover {
-  color: var(--color-node-stroke);
-}
 
 /* Enrichment badge pills (status, pricing, opsec) */
 .badge-pill {
