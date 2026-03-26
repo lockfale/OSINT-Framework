@@ -766,6 +766,41 @@ function goDark() {
   if (btn) {
     btn.textContent = isLight ? "Switch to dark mode" : "Switch to light mode";
   }
+  var mBtn = document.getElementById("mobile-theme-toggle");
+  if (mBtn) {
+    mBtn.textContent = isLight ? "Dark Mode" : "Light Mode";
+  }
   // Re-render to pick up new CSS variable values for D3 inline styles.
   update(root);
 }
+
+// Mobile notes panel toggle
+function toggleNotesPanel() {
+  var panel = document.getElementById("notes-panel");
+  var overlay = document.getElementById("notes-overlay");
+  if (!panel) return;
+
+  var isOpen = panel.classList.toggle("open");
+  if (overlay) overlay.classList.toggle("visible", isOpen);
+
+  // Populate panel body on first open
+  if (isOpen && !panel._populated) {
+    var body = document.getElementById("notes-panel-body");
+    var source = document.getElementById("notes-content");
+    var legend = document.querySelector(".legend");
+    if (body) {
+      body.innerHTML = "";
+      if (legend) body.innerHTML += legend.innerHTML;
+      if (source) body.innerHTML += source.innerHTML;
+    }
+    panel._populated = true;
+  }
+}
+
+// Close notes panel when overlay is clicked
+(function() {
+  var overlay = document.getElementById("notes-overlay");
+  if (overlay) {
+    overlay.addEventListener("click", function() { toggleNotesPanel(); });
+  }
+})();
