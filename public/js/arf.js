@@ -464,6 +464,17 @@ function openPanel(d) {
       badgeHtml += ' <span class="badge-pill badge-nsfw">NSFW</span>';
     }
 
+    var region = d.data.region;
+    var regionLabel;
+    if (!region || region === "global") {
+      regionLabel = "Global";
+    } else if (Array.isArray(region)) {
+      regionLabel = region.map(function(r) { return r.toUpperCase(); }).join(", ");
+    } else {
+      regionLabel = String(region).toUpperCase();
+    }
+    badgeHtml += ' <span class="badge-pill badge-region">' + escapeHtml(regionLabel) + '</span>';
+
     badgesEl.innerHTML = badgeHtml;
     badgesEl.classList.remove("empty");
   }

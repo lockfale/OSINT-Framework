@@ -342,6 +342,7 @@
 .badge-invitation-only  { background: #b87800; }
 .badge-deprecated       { background: #8b3030; }
 .badge-nsfw             { background: #9b2b9b; }
+.badge-region           { background: #2e7d32; }
 
 /* OPSEC row layout */
 .opsec-row {
