@@ -335,7 +335,12 @@
 .badge-active    { background: #c84040; }
 
 /* Unknown / fallback */
-.badge-unknown   { background: #606060; }
+.badge-unknown          { background: #606060; }
+
+/* Boolean feature badges */
+.badge-api              { background: #1e90cc; }
+.badge-invitation-only  { background: #b87800; }
+.badge-deprecated       { background: #8b3030; }
 
 /* OPSEC row layout */
 .opsec-row {

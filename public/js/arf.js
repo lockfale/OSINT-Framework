@@ -451,6 +451,16 @@ function openPanel(d) {
     var pricingClass = ["free","freemium","paid"].indexOf(pricing) !== -1 ? pricing : "unknown";
     badgeHtml += ' <span class="badge-pill badge-' + pricingClass + '">' + escapeHtml(pricing) + '</span>';
 
+    if (d.data.api === true) {
+      badgeHtml += ' <span class="badge-pill badge-api">API</span>';
+    }
+    if (d.data.invitationOnly === true) {
+      badgeHtml += ' <span class="badge-pill badge-invitation-only">Invite Only</span>';
+    }
+    if (d.data.deprecated === true) {
+      badgeHtml += ' <span class="badge-pill badge-deprecated">Deprecated</span>';
+    }
+
     badgesEl.innerHTML = badgeHtml;
     badgesEl.classList.remove("empty");
   }
