@@ -83,6 +83,39 @@ d3.json("arf.json").then(function(json) {
   }
 
   root.children.forEach(collapse);
+
+  // On mobile, stretch the viewBox to match the actual rendered aspect ratio
+  // so the zoom-to-fill calculation uses the real visible area, not the
+  // fixed 1280x800 letterboxed region.
+  if (window.innerWidth <= 768) {
+    var rect = svgEl.node().getBoundingClientRect();
+    if (rect.width && rect.height) {
+      svgH = Math.round(svgW * (rect.height / rect.width));
+      svgEl.attr("viewBox", "0 0 " + svgW + " " + svgH);
+    }
+
+    // Run tree layout to get final node positions, then compute zoom from data.
+    tree(root);
+    root.descendants().forEach(function(d) { d.y = d.depth * 180; });
+    var visibleNodes = root.descendants();
+    var minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
+    visibleNodes.forEach(function(d) {
+      if (d.x < minX) minX = d.x;
+      if (d.x > maxX) maxX = d.x;
+      if (d.y < minY) minY = d.y;
+      if (d.y > maxY) maxY = d.y;
+    });
+    var pad = 40;
+    var bw = (maxY - minY) || 1;
+    var bh = (maxX - minX) || 1;
+    var k = Math.min((svgW - pad * 2) / bw, (svgH - pad * 2) / bh, 3);
+    var cx = (minY + maxY) / 2;
+    var cy = (minX + maxX) / 2;
+    var tx = svgW / 2 - margin[3] - cx * k;
+    var ty = svgH / 2 - margin[0] - cy * k;
+    svgEl.call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(k));
+  }
+
   update(root);
   initSearch();
 });
@@ -233,6 +266,19 @@ function toggle(d) {
     d.children = d._children;
     d._children = null;
   }
+}
+
+// Zoom the tree so visible nodes fill the SVG viewport (used on mobile init).
+function zoomToFill() {
+  var bbox = vis.node().getBBox();
+  if (!bbox.width || !bbox.height) return;
+  var pad = 40;
+  var scaleX = (svgW - pad * 2) / bbox.width;
+  var scaleY = (svgH - pad * 2) / bbox.height;
+  var k = Math.min(scaleX, scaleY, 3);
+  var tx = svgW / 2 - (bbox.x + bbox.width / 2) * k - margin[3];
+  var ty = svgH / 2 - (bbox.y + bbox.height / 2) * k - margin[0];
+  svgEl.call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(k));
 }
 
 // Auto-pan viewport to center on a node after expand/click.
