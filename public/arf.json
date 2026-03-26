@@ -151,7 +151,15 @@
             {
               "name": "theHarvester (T)",
               "type": "url",
-              "url": "https://github.com/laramies/theHarvester"
+              "url": "https://github.com/laramies/theHarvester",
+              "description": "Command-line tool for gathering emails, subdomains, IPs, and URLs from public sources.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Email harvesting, subdomain enumeration, passive recon",
+              "input": "Domain name",
+              "output": "Email addresses, subdomains, IPs, URLs",
+              "opsec": "passive",
+              "opsecNote": "Queries third-party search engines and APIs. Does not contact the target directly."
             },
             {
               "name": "Infoga (T)",
@@ -244,7 +252,15 @@
             {
               "name": "Have I been pwned?",
               "type": "url",
-              "url": "https://haveibeenpwned.com/"
+              "url": "https://haveibeenpwned.com/",
+              "description": "Database of breached credentials and email addresses from known data breaches.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Breach detection, credential exposure checks",
+              "input": "Email address, phone number, password hash",
+              "output": "Breach names, breach dates, exposed data types",
+              "opsec": "passive",
+              "opsecNote": "Queries breach database via API. Target is not notified of lookups."
             },
             {
               "name": "Hudson Rock",
@@ -403,7 +419,15 @@
             {
               "name": "Recon-ng (T)",
               "type": "url",
-              "url": "https://github.com/lanmaster53/recon-ng"
+              "url": "https://github.com/lanmaster53/recon-ng",
+              "description": "Full-featured web reconnaissance framework with independent modules for data gathering.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Modular web recon, API-driven data collection",
+              "input": "Domain, company name, email, IP",
+              "output": "Contacts, hosts, credentials, ports via module-specific results",
+              "opsec": "passive",
+              "opsecNote": "Queries third-party APIs and data sources. Does not probe the target unless specific modules are configured to do so."
             },
             {
               "name": "XRay",
@@ -438,7 +462,15 @@
             {
               "name": "theHarvester (T)",
               "type": "url",
-              "url": "https://github.com/laramies/theHarvester"
+              "url": "https://github.com/laramies/theHarvester",
+              "description": "Command-line tool for gathering emails, subdomains, IPs, and URLs from public sources.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Email harvesting, subdomain enumeration, passive recon",
+              "input": "Domain name",
+              "output": "Email addresses, subdomains, IPs, URLs",
+              "opsec": "passive",
+              "opsecNote": "Queries third-party search engines and APIs. Does not contact the target directly."
             },
             {
               "name": "Pentest-tools.com Subdomains",
@@ -532,7 +564,15 @@
             {
               "name": "BuiltWith",
               "type": "url",
-              "url": "https://builtwith.com/"
+              "url": "https://builtwith.com/",
+              "description": "Technology profiler that identifies the tech stack, analytics, and frameworks used by websites.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Technology stack identification, competitor analysis",
+              "input": "Domain or URL",
+              "output": "Technology list, analytics IDs, hosting info, historical tech changes",
+              "opsec": "passive",
+              "opsecNote": "Queries cached technology profiles. Does not contact the target."
             },
             {
               "name": "Wappalyzer",
@@ -583,7 +623,15 @@
             {
               "name": "Censys",
               "type": "url",
-              "url": "https://censys.io/"
+              "url": "https://censys.io/",
+              "description": "Internet-wide scanner and search engine for hosts, certificates, and services.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Certificate discovery, host enumeration, exposure monitoring",
+              "input": "Domain, IP, certificate fingerprint, search query",
+              "output": "Host details, open ports, TLS certificates, service banners",
+              "opsec": "passive",
+              "opsecNote": "Queries pre-scanned data. Does not probe the target directly."
             },
             {
               "name": "crt.sh - Certificate Search",
@@ -833,7 +881,15 @@
             {
               "name": "BuiltWith",
               "type": "url",
-              "url": "https://builtwith.com/"
+              "url": "https://builtwith.com/",
+              "description": "Technology profiler that identifies the tech stack, analytics, and frameworks used by websites.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Technology stack identification, competitor analysis",
+              "input": "Domain or URL",
+              "output": "Technology list, analytics IDs, hosting info, historical tech changes",
+              "opsec": "passive",
+              "opsecNote": "Queries cached technology profiles. Does not contact the target."
             },
             {
               "name": "SiteSleuth",
@@ -1263,12 +1319,28 @@
             {
               "name": "theHarvester (T)",
               "type": "url",
-              "url": "https://github.com/laramies/theHarvester"
+              "url": "https://github.com/laramies/theHarvester",
+              "description": "Command-line tool for gathering emails, subdomains, IPs, and URLs from public sources.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Email harvesting, subdomain enumeration, passive recon",
+              "input": "Domain name",
+              "output": "Email addresses, subdomains, IPs, URLs",
+              "opsec": "passive",
+              "opsecNote": "Queries third-party search engines and APIs. Does not contact the target directly."
             },
             {
               "name": "SpiderFoot (T)",
               "type": "url",
-              "url": "https://github.com/smicallef/spiderfoot"
+              "url": "https://github.com/smicallef/spiderfoot",
+              "description": "Automated OSINT collection tool with 200+ modules for reconnaissance and threat intelligence.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Automated recon, attack surface mapping, threat intelligence",
+              "input": "Domain, IP, email, name, phone, subnet",
+              "output": "Correlated intelligence graph, structured findings across modules",
+              "opsec": "active",
+              "opsecNote": "Some modules actively probe targets. Review module settings before running."
             },
             {
               "name": "dnsrecon (T)",
@@ -3479,12 +3551,12 @@
           "url": "https://www.brbpub.com/"
         },
         {
-          "name": "GOVDATA - Das Datenportal für Deutschland (German)",
+          "name": "GOVDATA - Das Datenportal f\u00fcr Deutschland (German)",
           "type": "url",
           "url": "https://www.govdata.de/"
         },
         {
-          "name": "Open-Data-Portal München (German)",
+          "name": "Open-Data-Portal M\u00fcnchen (German)",
           "type": "url",
           "url": "https://www.opengov-muenchen.de/"
         },
@@ -4770,7 +4842,15 @@
             {
               "name": "Internet Archive: Wayback Machine",
               "type": "url",
-              "url": "https://web.archive.org/"
+              "url": "https://web.archive.org/",
+              "description": "Web archive providing historical snapshots of websites captured over time.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Historical website analysis, deleted content recovery",
+              "input": "URL or domain",
+              "output": "Archived web page snapshots with timestamps",
+              "opsec": "passive",
+              "opsecNote": "Queries archived data. Does not contact the target. Searches may be logged by the Internet Archive."
             },
             {
               "name": "Archive.is",
@@ -6009,7 +6089,15 @@
         {
           "name": "Paterva / Maltego (T)",
           "type": "url",
-          "url": "https://www.maltego.com/"
+          "url": "https://www.maltego.com/",
+          "description": "Visual link analysis tool for mapping relationships between people, companies, domains, and infrastructure.",
+          "status": "live",
+          "pricing": "freemium",
+          "bestFor": "Link analysis, relationship mapping, entity correlation",
+          "input": "Domain, email, IP, name, phone number",
+          "output": "Entity relationship graph, linked records, transform results",
+          "opsec": "active",
+          "opsecNote": "Transforms may query targets directly. Some data sources log lookups."
         },
         {
           "name": "Overview",
@@ -6169,7 +6257,15 @@
             {
               "name": "VirusTotal",
               "type": "url",
-              "url": "https://www.virustotal.com/gui/"
+              "url": "https://www.virustotal.com/gui/",
+              "description": "Multi-engine file and URL scanner that aggregates results from 70+ antivirus engines and threat feeds.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Malware analysis, URL reputation, file hash lookups",
+              "input": "File, file hash, URL, domain, IP address",
+              "output": "Detection results, behavioral analysis, community comments, related indicators",
+              "opsec": "passive",
+              "opsecNote": "Uploaded files become visible to other VirusTotal users. Hash lookups are private."
             },
             {
               "name": "OPSWAT Meta Defender",
@@ -6952,7 +7048,7 @@
               "url": "https://themanyhats.club/centralised-place-for-privacy-resources/"
             },
             {
-              "name": "The Hitchhiker’s Guide to Online Anonymity",
+              "name": "The Hitchhiker\u2019s Guide to Online Anonymity",
               "type": "url",
               "url": "https://anonymousplanet.org/guide/"
             },
