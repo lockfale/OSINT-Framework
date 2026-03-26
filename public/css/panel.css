@@ -146,6 +146,22 @@
   line-height: 1.5;
 }
 
+/* Input → Output */
+#panel-io-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+#panel-io-section.empty {
+  display: none;
+}
+
+#panel-io {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
 /* OPSEC notes */
 #panel-opsec-section {
   display: flex;
@@ -179,11 +195,15 @@
   color: var(--color-text-primary);
 }
 
+/* Dividers */
+.panel-divider {
+  border: none;
+  border-top: 1px solid var(--color-border);
+  margin: 0;
+}
+
 /* CTA button */
 #panel-cta-section {
-  margin-top: auto;
-  padding-top: var(--space-4);
-  border-top: 1px solid var(--color-border);
   flex-shrink: 0;
 }
 
