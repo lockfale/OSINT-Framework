@@ -47,6 +47,14 @@
   flex-shrink: 0;
 }
 
+#panel-header-text {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  min-width: 0;
+  flex: 1;
+}
+
 #panel-title {
   font-size: var(--font-size-lg);
   font-weight: bold;
@@ -82,11 +90,12 @@
   overflow-y: auto;
 }
 
-/* Breadcrumb */
+/* Breadcrumb (lives in panel-header now) */
 #panel-breadcrumb {
   font-size: var(--font-size-sm);
   color: var(--color-text-secondary);
   line-height: 1.5;
+  word-break: break-word;
 }
 
 #panel-breadcrumb.empty {
@@ -205,6 +214,7 @@
 /* CTA button */
 #panel-cta-section {
   flex-shrink: 0;
+  text-align: center;
 }
 
 #panel-cta-section.empty {
@@ -212,9 +222,8 @@
 }
 
 #panel-open-tool {
-  display: block;
-  width: 100%;
-  padding: var(--space-3) var(--space-4);
+  display: inline-block;
+  padding: var(--space-3) var(--space-5);
   background: var(--color-accent);
   color: #fff;
   border: none;
@@ -225,6 +234,7 @@
   cursor: pointer;
   text-align: center;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 #panel-open-tool:hover {
