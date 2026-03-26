@@ -62,13 +62,23 @@
           <span id="panel-opsec"></span>
         </div>
 
-        <div id="panel-rating-section" class="empty">
-          <span class="panel-section-label">Rating</span>
-          <span id="panel-rating"></span>
+        <div id="panel-rating-section">
+          <span class="panel-section-label">Community Rating</span>
+          <div id="panel-vote-row">
+            <button id="vote-up" class="vote-btn" aria-label="Upvote" title="Upvote">&#128077;</button>
+            <span id="vote-score" class="vote-score">0</span>
+            <button id="vote-down" class="vote-btn" aria-label="Downvote" title="Downvote">&#128078;</button>
+          </div>
         </div>
 
         <div id="panel-report-section">
-          <a id="panel-report-link" href="https://github.com/lockfale/OSINT-Framework/issues/new?template=tool-feedback.md" target="_blank" rel="noopener noreferrer">Report an issue with this tool</a>
+          <span class="panel-section-label">Report an Issue</span>
+          <div id="panel-report-buttons">
+            <button class="report-btn" data-type="dead_link">Dead link</button>
+            <button class="report-btn" data-type="paywalled">Paywalled</button>
+            <button class="report-btn" data-type="incorrect_info">Incorrect info</button>
+          </div>
+          <div id="panel-report-feedback" class="panel-report-feedback hidden"></div>
         </div>
 
         <div id="panel-cta-section" class="empty">

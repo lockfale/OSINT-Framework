@@ -509,8 +509,11 @@ function openPanel(d) {
     opsecSection.classList.remove("empty");
   }
 
-  // Rating (Phase 3 — hidden until backend is ready)
-  _setPanelSection("panel-rating-section", "panel-rating", d.data.rating);
+  // Community rating: render vote UI and fetch live score
+  _renderVoteUI(d);
+
+  // Report issue: reset buttons for new tool
+  _resetReportButtons(d);
 
   // CTA
   var ctaSection = document.getElementById("panel-cta-section");
@@ -596,6 +599,141 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // Canvas click: close panel when clicking the SVG background (not a node)
 // This is wired after svgEl is created (see below in the zoom setup area).
+
+// === Community Voting (THE-109) ===
+
+/**
+ * Render the vote UI for the given node.
+ * Reads cached vote state from sessionStorage to avoid a round-trip on reopen,
+ * then asynchronously fetches the live score from /api/tool-stats.
+ */
+function _renderVoteUI(d) {
+  var toolId = parseName(d.data.name).cleanName;
+
+  // Reset button states
+  var upBtn = document.getElementById("vote-up");
+  var downBtn = document.getElementById("vote-down");
+  var scoreEl = document.getElementById("vote-score");
+  if (!upBtn || !downBtn || !scoreEl) return;
+
+  upBtn.classList.remove("active");
+  downBtn.classList.remove("active");
+  scoreEl.className = "vote-score zero";
+  scoreEl.textContent = "…";
+
+  // Read cached user vote from sessionStorage
+  var userVote = sessionStorage.getItem("vote:" + toolId) || null;
+  if (userVote === "up") upBtn.classList.add("active");
+  if (userVote === "down") downBtn.classList.add("active");
+
+  // Re-bind vote buttons for this tool
+  upBtn.onclick = function() { _castVote(toolId, "up", upBtn, downBtn, scoreEl); };
+  downBtn.onclick = function() { _castVote(toolId, "down", upBtn, downBtn, scoreEl); };
+
+  // Fetch live score asynchronously
+  fetch("/api/tool-stats?tool_id=" + encodeURIComponent(toolId))
+    .then(function(r) { return r.ok ? r.json() : null; })
+    .then(function(data) {
+      if (!data || !data.votes) return;
+      _updateScoreDisplay(scoreEl, data.votes.score);
+    })
+    .catch(function() { /* best effort */ });
+}
+
+/**
+ * Cast or toggle a vote.
+ */
+function _castVote(toolId, direction, upBtn, downBtn, scoreEl) {
+  var session = sessionStorage.getItem("osint-session") || "";
+  var currentVote = sessionStorage.getItem("vote:" + toolId) || null;
+
+  // Toggle off if same direction
+  var newDirection = (direction === currentVote) ? null : direction;
+
+  fetch("/api/vote", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ tool_id: toolId, direction: newDirection, session_hash: session })
+  })
+    .then(function(r) { return r.ok ? r.json() : null; })
+    .then(function(data) {
+      if (!data || !data.ok) return;
+      // Update sessionStorage
+      if (data.userVote) {
+        sessionStorage.setItem("vote:" + toolId, data.userVote);
+      } else {
+        sessionStorage.removeItem("vote:" + toolId);
+      }
+      // Update button states
+      upBtn.classList.toggle("active", data.userVote === "up");
+      downBtn.classList.toggle("active", data.userVote === "down");
+      _updateScoreDisplay(scoreEl, data.score);
+    })
+    .catch(function() { /* best effort */ });
+}
+
+function _updateScoreDisplay(scoreEl, score) {
+  scoreEl.textContent = score > 0 ? "+" + score : String(score);
+  scoreEl.className = "vote-score " + (score > 0 ? "positive" : score < 0 ? "negative" : "zero");
+}
+
+// === Issue Reporting (THE-110) ===
+
+/**
+ * Reset report buttons for the newly opened tool.
+ */
+function _resetReportButtons(d) {
+  var toolId = parseName(d.data.name).cleanName;
+  var feedbackEl = document.getElementById("panel-report-feedback");
+  if (feedbackEl) {
+    feedbackEl.textContent = "";
+    feedbackEl.classList.add("hidden");
+  }
+
+  var buttons = document.querySelectorAll(".report-btn");
+  buttons.forEach(function(btn) {
+    btn.disabled = false;
+    btn.onclick = function() { _submitReport(toolId, btn.getAttribute("data-type"), btn, buttons, feedbackEl); };
+  });
+}
+
+/**
+ * Submit a report for a tool.
+ */
+function _submitReport(toolId, reportType, clickedBtn, allButtons, feedbackEl) {
+  var session = sessionStorage.getItem("osint-session") || "";
+
+  // Disable all buttons while request is in-flight
+  allButtons.forEach(function(b) { b.disabled = true; });
+
+  fetch("/api/report", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ tool_id: toolId, report_type: reportType, session_hash: session })
+  })
+    .then(function(r) { return r.ok ? r.json() : null; })
+    .then(function(data) {
+      if (feedbackEl) {
+        if (data && data.ok) {
+          feedbackEl.textContent = data.counted
+            ? "Thanks for your report. We\u2019ll review it soon."
+            : "You\u2019ve already reported this issue.";
+        } else {
+          feedbackEl.textContent = "Report failed. Please try again later.";
+          // Re-enable on error so user can retry
+          allButtons.forEach(function(b) { b.disabled = false; });
+        }
+        feedbackEl.classList.remove("hidden");
+      }
+    })
+    .catch(function() {
+      allButtons.forEach(function(b) { b.disabled = false; });
+      if (feedbackEl) {
+        feedbackEl.textContent = "Report failed. Please try again later.";
+        feedbackEl.classList.remove("hidden");
+      }
+    });
+}
 
 // Toggle light/dark mode and persist preference.
 function goDark() {
