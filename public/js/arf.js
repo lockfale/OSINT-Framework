@@ -521,6 +521,24 @@ function openPanel(d) {
       ctaLink.href = url;
       ctaLink.textContent = "Open " + parsed.cleanName + " \u2197";
       ctaSection.classList.remove("empty");
+
+      // Fire-and-forget click tracking via sendBeacon (THE-106)
+      // Clone values into closure so they're captured correctly per open
+      (function(toolId) {
+        ctaLink.onclick = function() {
+          if (!navigator.sendBeacon) return;
+          var session = sessionStorage.getItem("osint-session") || "";
+          var payload = JSON.stringify({
+            tool_id: toolId,
+            session_hash: session,
+            timestamp: Date.now()
+          });
+          navigator.sendBeacon(
+            "/api/track",
+            new Blob([payload], { type: "application/json" })
+          );
+        };
+      })(parsed.cleanName);
     } else {
       ctaSection.classList.add("empty");
     }

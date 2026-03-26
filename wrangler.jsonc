@@ -1,6 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "osint-framework",
+  "main": "src/worker.js",
   "compatibility_date": "2025-09-27",
   "observability": {
     "enabled": true
@@ -10,5 +11,16 @@
   },
   "compatibility_flags": [
     "nodejs_compat"
+  ],
+  "kv_namespaces": [
+    {
+      // KV namespace for click tracking and tool stats
+      // Production namespace ID from Cloudflare dashboard (osint_framework_kv)
+      "binding": "CLICK_DATA",
+      "id": "cdb975e31e"
+      // For local dev with `wrangler dev`, create a preview namespace:
+      //   wrangler kv namespace create "osint_framework_kv" --preview
+      // then add: "preview_id": "<preview-namespace-id>"
+    }
   ]
 }
