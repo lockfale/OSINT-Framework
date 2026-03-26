@@ -1662,11 +1662,6 @@
                   "url": "https://surfface.com/"
                 },
                 {
-                  "name": "TinEye Reverse Image Search",
-                  "type": "url",
-                  "url": "https://tineye.com/"
-                },
-                {
                   "name": "PimEyes Face Search Engine",
                   "type": "url",
                   "url": "https://pimeyes.com/en"
@@ -1865,11 +1860,6 @@
                   "url": "https://geosetter.de/en/main-en/"
                 },
                 {
-                  "name": "ImgOps",
-                  "type": "url",
-                  "url": "https://imgops.com/"
-                },
-                {
                   "name": "Jeffrey's Exif Viewer",
                   "type": "url",
                   "url": "https://exif.regex.info/"
@@ -1945,11 +1935,6 @@
               "name": "Forensics",
               "type": "folder",
               "children": [
-                {
-                  "name": "FotoForensics",
-                  "type": "url",
-                  "url": "https://fotoforensics.com/"
-                },
                 {
                   "name": "Ghiro (T)",
                   "type": "url",
@@ -4581,52 +4566,6 @@
               "url": "https://www.googleguide.com/help/calculator.html"
             }
           ]
-        },
-        {
-          "name": "Fact Checking",
-          "type": "folder",
-          "children": [
-            {
-              "name": "Hoaxy",
-              "type": "url",
-              "url": "https://hoaxy.iuni.iu.edu/"
-            },
-            {
-              "name": "PolitiFact",
-              "type": "url",
-              "url": "https://www.politifact.com/"
-            },
-            {
-              "name": "SciCheck",
-              "type": "url",
-              "url": "https://www.factcheck.org:443/scicheck/"
-            },
-            {
-              "name": "Duke Reporters' Lab",
-              "type": "url",
-              "url": "https://reporterslab.org/fact-checking/"
-            },
-            {
-              "name": "Stop Fake Tools",
-              "type": "url",
-              "url": "https://www.stopfake.org/en/category/tools/"
-            },
-            {
-              "name": "Snopes",
-              "type": "url",
-              "url": "https://www.snopes.com/"
-            },
-            {
-              "name": "Verification Handbook",
-              "type": "url",
-              "url": "https://verificationhandbook.com/"
-            },
-            {
-              "name": "Verification Junkie",
-              "type": "url",
-              "url": "https://verificationjunkie.com/"
-            }
-          ]
         }
       ]
     },
@@ -5366,6 +5305,131 @@
           "name": "IACA Dark Web Investigation Support",
           "type": "url",
           "url": "https://iaca-darkweb-tools.com/"
+        }
+      ]
+    },
+    {
+      "name": "Disinformation & Media Verification",
+      "type": "folder",
+      "children": [
+        {
+          "name": "Deepfake Detection",
+          "type": "folder",
+          "children": [
+            {
+              "name": "DeepFake-Detect",
+              "type": "url",
+              "url": "https://github.com/aaronchong888/DeepFake-Detect"
+            },
+            {
+              "name": "DeepFake-Image-Detection",
+              "type": "url",
+              "url": "https://github.com/sky787770/DeepFake-Image-Detection"
+            },
+            {
+              "name": "DeepSafe",
+              "type": "url",
+              "url": "https://github.com/siddharthksah/DeepSafe"
+            },
+            {
+              "name": "DeepfakeBench",
+              "type": "url",
+              "url": "https://github.com/SCLBD/DeepfakeBench"
+            },
+            {
+              "name": "DeepfakeDetector",
+              "type": "url",
+              "url": "https://github.com/TRahulsingh/DeepfakeDetector"
+            },
+            {
+              "name": "FaceForensics++",
+              "type": "url",
+              "url": "https://github.com/ondyari/FaceForensics"
+            },
+            {
+              "name": "InVID-WeVerify Verification Plugin",
+              "type": "url",
+              "url": "https://chromewebstore.google.com/detail/fake-news-debunker-by-inv/mhccpoafgdgbhnjfhkcmgknndkeenfhe"
+            },
+            {
+              "name": "TruthScan Deepfake Detector",
+              "type": "url",
+              "url": "https://truthscan.com/deepfake-detector"
+            }
+          ]
+        },
+        {
+          "name": "Fact-checking Tools",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Duke Reporters' Lab",
+              "type": "url",
+              "url": "https://reporterslab.org/fact-checking/"
+            },
+            {
+              "name": "Hoaxy",
+              "type": "url",
+              "url": "https://hoaxy.iuni.iu.edu/"
+            },
+            {
+              "name": "PolitiFact",
+              "type": "url",
+              "url": "https://www.politifact.com/"
+            },
+            {
+              "name": "SciCheck",
+              "type": "url",
+              "url": "https://www.factcheck.org:443/scicheck/"
+            },
+            {
+              "name": "Snopes",
+              "type": "url",
+              "url": "https://www.snopes.com/"
+            },
+            {
+              "name": "Stop Fake Tools",
+              "type": "url",
+              "url": "https://www.stopfake.org/en/category/tools/"
+            }
+          ]
+        },
+        {
+          "name": "Reverse Media Search",
+          "type": "folder",
+          "children": [
+            {
+              "name": "ImgOps",
+              "type": "url",
+              "url": "https://imgops.com/"
+            },
+            {
+              "name": "TinEye Reverse Image Search",
+              "type": "url",
+              "url": "https://tineye.com/"
+            }
+          ]
+        },
+        {
+          "name": "Source Verification",
+          "type": "folder",
+          "children": [
+            {
+              "name": "FotoForensics",
+              "type": "url",
+              "url": "https://fotoforensics.com/"
+            },
+            {
+              "name": "Verification Handbook",
+              "type": "url",
+              "url": "https://verificationhandbook.com/"
+            },
+            {
+              "name": "Verification Junkie",
+              "type": "url",
+              "url": "https://verificationjunkie.com/"
+            }
+          ]
         }
       ]
     },
