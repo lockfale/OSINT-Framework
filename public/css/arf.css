@@ -284,11 +284,9 @@ a {
 @media (max-width: 768px) {
   #header {
     font-size: var(--font-size-lg);
-    top: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: var(--space-3);
+    top: 0;
+    position: relative;
+    text-align: center;
     padding: var(--space-2) var(--space-3);
   }
 
@@ -296,12 +294,12 @@ a {
     display: none;
   }
 
-  #header-title {
-    flex: 1;
-  }
-
   #mobile-theme-toggle {
     display: inline-block;
+    position: absolute;
+    right: var(--space-3);
+    top: 50%;
+    transform: translateY(-50%);
     background: none;
     border: 1px solid var(--color-border);
     border-radius: var(--radius-sm);
@@ -311,12 +309,20 @@ a {
     padding: var(--space-1) var(--space-2);
     cursor: pointer;
     white-space: nowrap;
-    flex-shrink: 0;
   }
 
   #mobile-theme-toggle:hover {
     color: var(--color-text-primary);
     border-color: var(--color-text-secondary);
+  }
+
+  #search-container {
+    padding: var(--space-1) 0;
+  }
+
+  #search-input {
+    padding: var(--space-1) var(--space-2);
+    font-size: 13px;
   }
 
   /* Hide legend and notes content on mobile */
@@ -326,6 +332,11 @@ a {
 
   #notes-content {
     display: none;
+  }
+
+  /* Maximize SVG tree viewport */
+  svg {
+    min-height: 60vh;
   }
 
   /* Floating notes button */
