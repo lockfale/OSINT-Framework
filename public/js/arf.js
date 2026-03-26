@@ -613,13 +613,10 @@ document.addEventListener("keydown", function(e) {
   if (e.key === "Escape") closePanel();
 });
 
-// Wire close button and overlay once DOM is ready
+// Wire close button once DOM is ready
 document.addEventListener("DOMContentLoaded", function() {
   var closeBtn = document.getElementById("panel-close");
   if (closeBtn) closeBtn.addEventListener("click", closePanel);
-
-  var overlay = document.getElementById("panel-overlay");
-  if (overlay) overlay.addEventListener("click", closePanel);
 });
 
 // Canvas click: close panel when clicking the SVG background (not a node)
