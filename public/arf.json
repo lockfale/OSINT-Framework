@@ -3861,12 +3861,12 @@
           "url": "https://www.brbpub.com/"
         },
         {
-          "name": "GOVDATA - Das Datenportal f\u00fcr Deutschland (German)",
+          "name": "GOVDATA - Das Datenportal für Deutschland (German)",
           "type": "url",
           "url": "https://www.govdata.de/"
         },
         {
-          "name": "Open-Data-Portal M\u00fcnchen (German)",
+          "name": "Open-Data-Portal München (German)",
           "type": "url",
           "url": "https://www.opengov-muenchen.de/"
         },
@@ -5585,81 +5585,6 @@
               "name": "OSINT Researcher",
               "type": "url",
               "url": "https://apps.apple.com/gy/app/osint-researcher/id6747302251"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Terrorism",
-      "type": "folder",
-      "children": [
-        {
-          "name": "Academic Research",
-          "type": "folder",
-          "children": [
-            {
-              "name": "Global Terrorism Database",
-              "type": "url",
-              "url": "https://www.start.umd.edu/data-tools/GTD"
-            },
-            {
-              "name": "START Consortium Research Portal",
-              "type": "url",
-              "url": "https://www.start.umd.edu/"
-            }
-          ]
-        },
-        {
-          "name": "Sanctions and Watchlists",
-          "type": "folder",
-          "children": [
-            {
-              "name": "OFAC Sanctions List Search",
-              "type": "url",
-              "url": "https://sanctionssearch.ofac.treas.gov/"
-            },
-            {
-              "name": "UN Security Council Consolidated Sanctions List",
-              "type": "url",
-              "url": "https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list"
-            },
-            {
-              "name": "OpenSanctions",
-              "type": "url",
-              "url": "https://www.opensanctions.org/"
-            }
-          ]
-        },
-        {
-          "name": "Research Centers and Institutes",
-          "type": "folder",
-          "children": [
-            {
-              "name": "Institute for Strategic Dialogue (ISD)",
-              "type": "url",
-              "url": "https://www.isdglobal.org/"
-            },
-            {
-              "name": "CSIS Warfare and Terrorism Program",
-              "type": "url",
-              "url": "https://www.csis.org/programs/warfare-irregular-threats-and-terrorism-program"
-            },
-            {
-              "name": "RAND Corporation Terrorism Research",
-              "type": "url",
-              "url": "https://www.rand.org/topics/terrorism.html"
-            }
-          ]
-        },
-        {
-          "name": "Terrorist Financing",
-          "type": "folder",
-          "children": [
-            {
-              "name": "U.S. Treasury Terrorist Finance Tracking Program",
-              "type": "url",
-              "url": "https://home.treasury.gov/policy-issues/terrorism-and-illicit-finance/terrorist-finance-tracking-program-tftp"
             }
           ]
         }
@@ -7566,7 +7491,7 @@
               "url": "https://themanyhats.club/centralised-place-for-privacy-resources/"
             },
             {
-              "name": "The Hitchhiker\u2019s Guide to Online Anonymity",
+              "name": "The Hitchhiker’s Guide to Online Anonymity",
               "type": "url",
               "url": "https://anonymousplanet.org/guide/"
             },
