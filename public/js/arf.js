@@ -460,6 +460,9 @@ function openPanel(d) {
     if (d.data.deprecated === true) {
       badgeHtml += ' <span class="badge-pill badge-deprecated">Deprecated</span>';
     }
+    if (d.data.nsfw === true) {
+      badgeHtml += ' <span class="badge-pill badge-nsfw">NSFW</span>';
+    }
 
     badgesEl.innerHTML = badgeHtml;
     badgesEl.classList.remove("empty");
