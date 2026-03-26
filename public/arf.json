@@ -159,7 +159,14 @@
               "input": "Domain name",
               "output": "Email addresses, subdomains, IPs, URLs",
               "opsec": "passive",
-              "opsecNote": "Queries third-party search engines and APIs. Does not contact the target directly."
+              "opsecNote": "Queries third-party search engines and APIs. Does not contact the target directly.",
+              "localInstall": true,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             },
             {
               "name": "Infoga (T)",
@@ -260,7 +267,14 @@
               "input": "Email address, phone number, password hash",
               "output": "Breach names, breach dates, exposed data types",
               "opsec": "passive",
-              "opsecNote": "Queries breach database via API. Target is not notified of lookups."
+              "opsecNote": "Queries breach database via API. Target is not notified of lookups.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             },
             {
               "name": "Hudson Rock",
@@ -427,7 +441,14 @@
               "input": "Domain, company name, email, IP",
               "output": "Contacts, hosts, credentials, ports via module-specific results",
               "opsec": "passive",
-              "opsecNote": "Queries third-party APIs and data sources. Does not probe the target unless specific modules are configured to do so."
+              "opsecNote": "Queries third-party APIs and data sources. Does not probe the target unless specific modules are configured to do so.",
+              "localInstall": true,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             },
             {
               "name": "XRay",
@@ -470,7 +491,14 @@
               "input": "Domain name",
               "output": "Email addresses, subdomains, IPs, URLs",
               "opsec": "passive",
-              "opsecNote": "Queries third-party search engines and APIs. Does not contact the target directly."
+              "opsecNote": "Queries third-party search engines and APIs. Does not contact the target directly.",
+              "localInstall": true,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             },
             {
               "name": "Pentest-tools.com Subdomains",
@@ -524,7 +552,14 @@
               "input": "IP address, domain",
               "output": "Open ports, services, banners, CVEs",
               "opsec": "passive",
-              "opsecNote": "Queries cached scan data. Does not directly probe the target."
+              "opsecNote": "Queries cached scan data. Does not directly probe the target.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             },
             {
               "name": "Netlas.io",
@@ -572,7 +607,14 @@
               "input": "Domain or URL",
               "output": "Technology list, analytics IDs, hosting info, historical tech changes",
               "opsec": "passive",
-              "opsecNote": "Queries cached technology profiles. Does not contact the target."
+              "opsecNote": "Queries cached technology profiles. Does not contact the target.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             },
             {
               "name": "Wappalyzer",
@@ -631,7 +673,14 @@
               "input": "Domain, IP, certificate fingerprint, search query",
               "output": "Host details, open ports, TLS certificates, service banners",
               "opsec": "passive",
-              "opsecNote": "Queries pre-scanned data. Does not probe the target directly."
+              "opsecNote": "Queries pre-scanned data. Does not probe the target directly.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             },
             {
               "name": "crt.sh - Certificate Search",
@@ -889,7 +938,14 @@
               "input": "Domain or URL",
               "output": "Technology list, analytics IDs, hosting info, historical tech changes",
               "opsec": "passive",
-              "opsecNote": "Queries cached technology profiles. Does not contact the target."
+              "opsecNote": "Queries cached technology profiles. Does not contact the target.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             },
             {
               "name": "SiteSleuth",
@@ -1327,7 +1383,14 @@
               "input": "Domain name",
               "output": "Email addresses, subdomains, IPs, URLs",
               "opsec": "passive",
-              "opsecNote": "Queries third-party search engines and APIs. Does not contact the target directly."
+              "opsecNote": "Queries third-party search engines and APIs. Does not contact the target directly.",
+              "localInstall": true,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             },
             {
               "name": "SpiderFoot (T)",
@@ -1340,7 +1403,14 @@
               "input": "Domain, IP, email, name, phone, subnet",
               "output": "Correlated intelligence graph, structured findings across modules",
               "opsec": "active",
-              "opsecNote": "Some modules actively probe targets. Review module settings before running."
+              "opsecNote": "Some modules actively probe targets. Review module settings before running.",
+              "localInstall": true,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             },
             {
               "name": "dnsrecon (T)",
@@ -4789,7 +4859,14 @@
               "input": "URL or domain",
               "output": "Archived web page snapshots with timestamps",
               "opsec": "passive",
-              "opsecNote": "Queries archived data. Does not contact the target. Searches may be logged by the Internet Archive."
+              "opsecNote": "Queries archived data. Does not contact the target. Searches may be logged by the Internet Archive.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": true,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             },
             {
               "name": "Archive.is",
@@ -5038,7 +5115,7 @@
       ]
     },
     {
-      "name": "Mobile Emulation",
+      "name": "Mobile OSINT",
       "type": "folder",
       "children": [
         {
@@ -5190,6 +5267,69 @@
                   "url": "https://play.google.com/store/apps/details?id=com.truecaller"
                 }
               ]
+            }
+          ]
+        },
+        {
+          "name": "App Analysis",
+          "type": "folder",
+          "children": [
+            {
+              "name": "APKLeaks",
+              "type": "url",
+              "url": "https://github.com/dwisiswant0/apkleaks"
+            },
+            {
+              "name": "APKtool",
+              "type": "url",
+              "url": "https://apktool.org/"
+            },
+            {
+              "name": "JADX",
+              "type": "url",
+              "url": "https://github.com/skylot/jadx"
+            },
+            {
+              "name": "MobSF",
+              "type": "url",
+              "url": "https://github.com/MobSF/Mobile-Security-Framework-MobSF"
+            }
+          ]
+        },
+        {
+          "name": "Device Forensics",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Autopsy",
+              "type": "url",
+              "url": "https://www.autopsy.com/"
+            },
+            {
+              "name": "Frida",
+              "type": "url",
+              "url": "https://frida.re/"
+            }
+          ]
+        },
+        {
+          "name": "iOS",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Charles Proxy",
+              "type": "url",
+              "url": "https://www.charlesproxy.com/"
+            },
+            {
+              "name": "Lynxio OSINT",
+              "type": "url",
+              "url": "https://apps.apple.com/us/app/lynxio-osint/id6745894335"
+            },
+            {
+              "name": "OSINT Researcher",
+              "type": "url",
+              "url": "https://apps.apple.com/gy/app/osint-researcher/id6747302251"
             }
           ]
         }
@@ -6161,7 +6301,14 @@
           "input": "Domain, email, IP, name, phone number",
           "output": "Entity relationship graph, linked records, transform results",
           "opsec": "active",
-          "opsecNote": "Transforms may query targets directly. Some data sources log lookups."
+          "opsecNote": "Transforms may query targets directly. Some data sources log lookups.",
+          "localInstall": true,
+          "googleDork": false,
+          "registration": true,
+          "editUrl": false,
+          "api": true,
+          "invitationOnly": false,
+          "deprecated": false
         },
         {
           "name": "Overview",
@@ -6180,9 +6327,24 @@
       "type": "folder",
       "children": [
         {
-          "name": "DuckDuckGo AI Chat",
+          "name": "AI or Not",
           "type": "url",
-          "url": "https://duckduckgo.com/aichat"
+          "url": "https://www.aiornot.com/"
+        },
+        {
+          "name": "Copyleaks",
+          "type": "url",
+          "url": "https://copyleaks.com/"
+        },
+        {
+          "name": "Decopy AI Image Detector",
+          "type": "url",
+          "url": "https://decopy.ai/ai-image-detector/"
+        },
+        {
+          "name": "DeepAI AI Image Detector",
+          "type": "url",
+          "url": "https://deepai.org/ai-image-detector"
         },
         {
           "name": "DeepSeek",
@@ -6190,14 +6352,14 @@
           "url": "https://www.deepseek.com/"
         },
         {
-          "name": "Microsoft Copilot",
+          "name": "DocMind AI",
           "type": "url",
-          "url": "https://copilot.microsoft.com/"
+          "url": "https://github.com/BjornMelin/docmind-ai-llm"
         },
         {
-          "name": "You.com",
+          "name": "DuckDuckGo AI Chat",
           "type": "url",
-          "url": "https://you.com/"
+          "url": "https://duckduckgo.com/aichat"
         },
         {
           "name": "GPTZero",
@@ -6205,9 +6367,9 @@
           "url": "https://gptzero.me/"
         },
         {
-          "name": "AI or Not",
+          "name": "Grammarly AI Detector",
           "type": "url",
-          "url": "https://www.aiornot.com/"
+          "url": "https://www.grammarly.com/ai-detector"
         },
         {
           "name": "Hive AI Generated Content Detection",
@@ -6215,9 +6377,9 @@
           "url": "https://hivemoderation.com/ai-generated-content-detection"
         },
         {
-          "name": "WasItAI",
+          "name": "Hugging Face AI Detector",
           "type": "url",
-          "url": "https://wasitai.com/"
+          "url": "https://huggingface.co/spaces/umm-maybe/AI_Detector"
         },
         {
           "name": "Illuminarty",
@@ -6225,9 +6387,39 @@
           "url": "https://app.illuminarty.ai/"
         },
         {
+          "name": "Microsoft Copilot",
+          "type": "url",
+          "url": "https://copilot.microsoft.com/"
+        },
+        {
+          "name": "Ollama",
+          "type": "url",
+          "url": "https://ollama.com/"
+        },
+        {
+          "name": "OSINT Analyser",
+          "type": "url",
+          "url": "https://github.com/joestanding/osint-analyser"
+        },
+        {
           "name": "TrueMedia",
           "type": "url",
           "url": "https://www.truemedia.org/"
+        },
+        {
+          "name": "WasItAI",
+          "type": "url",
+          "url": "https://wasitai.com/"
+        },
+        {
+          "name": "World Monitor",
+          "type": "url",
+          "url": "https://www.worldmonitor.app/"
+        },
+        {
+          "name": "You.com",
+          "type": "url",
+          "url": "https://you.com/"
         }
       ]
     },
@@ -6329,7 +6521,14 @@
               "input": "File, file hash, URL, domain, IP address",
               "output": "Detection results, behavioral analysis, community comments, related indicators",
               "opsec": "passive",
-              "opsecNote": "Uploaded files become visible to other VirusTotal users. Hash lookups are private."
+              "opsecNote": "Uploaded files become visible to other VirusTotal users. Hash lookups are private.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             },
             {
               "name": "OPSWAT Meta Defender",
