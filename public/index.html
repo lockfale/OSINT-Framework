@@ -39,11 +39,18 @@
     <div id="panel-overlay"></div>
     <div id="tool-panel" role="complementary" aria-label="Tool details">
       <div id="panel-header">
-        <span id="panel-title"></span>
+        <div id="panel-header-text">
+          <span id="panel-title"></span>
+          <div id="panel-breadcrumb" class="empty"></div>
+        </div>
         <button id="panel-close" aria-label="Close panel">&#x2715;</button>
       </div>
       <div id="panel-body">
-        <div id="panel-breadcrumb" class="empty"></div>
+        <div id="panel-cta-section" class="empty">
+          <a id="panel-open-tool" href="#" target="_blank" rel="noopener noreferrer">Open Tool &rarr;</a>
+        </div>
+
+        <hr class="panel-divider">
 
         <div id="panel-badges" class="empty"></div>
 
@@ -57,20 +64,25 @@
           <span id="panel-usage"></span>
         </div>
 
+        <div id="panel-io-section" class="empty">
+          <span class="panel-section-label">Input &rarr; Output</span>
+          <span id="panel-io"></span>
+        </div>
+
+        <hr class="panel-divider">
+
         <div id="panel-opsec-section" class="empty">
           <span class="panel-section-label">OPSEC Notes</span>
           <span id="panel-opsec"></span>
         </div>
 
-        <div id="panel-rating-section">
+        <div id="panel-rating-section" class="empty">
           <span class="panel-section-label">Community Rating</span>
-          <div id="panel-vote-row">
-            <button id="vote-up" class="vote-btn" aria-label="Upvote" title="Upvote">&#128077;</button>
-            <span id="vote-score" class="vote-score">0</span>
-            <button id="vote-down" class="vote-btn" aria-label="Downvote" title="Downvote">&#128078;</button>
-          </div>
+          <span id="panel-rating"></span>
         </div>
 
+      </div>
+      <div id="panel-footer">
         <div id="panel-report-section">
           <span class="panel-section-label">Report an Issue</span>
           <div id="panel-report-buttons">
@@ -79,10 +91,6 @@
             <button class="report-btn" data-type="incorrect_info">Incorrect info</button>
           </div>
           <div id="panel-report-feedback" class="panel-report-feedback hidden"></div>
-        </div>
-
-        <div id="panel-cta-section" class="empty">
-          <a id="panel-open-tool" href="#" target="_blank" rel="noopener noreferrer">Open Tool &rarr;</a>
         </div>
       </div>
     </div>

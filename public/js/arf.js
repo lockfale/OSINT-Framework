@@ -469,28 +469,29 @@ function openPanel(d) {
     descSection.classList.remove("empty");
   }
 
-  // Usage context: bestFor + input → output (hidden when all empty)
+  // Usage context: bestFor only (hidden when empty)
   var usageSection = document.getElementById("panel-usage-section");
   var usageEl = document.getElementById("panel-usage");
   if (usageSection && usageEl) {
-    var hasUsage = d.data.bestFor || d.data.input || d.data.output;
-    if (hasUsage) {
-      var usageHtml = "";
-      if (d.data.bestFor) {
-        usageHtml += '<div class="usage-best-for"><strong>Best for:</strong> ' + escapeHtml(d.data.bestFor) + '</div>';
-      }
-      if (d.data.input || d.data.output) {
-        usageHtml += '<div class="usage-io">' +
-          (d.data.input ? escapeHtml(d.data.input) : "") +
-          ' &rarr; ' +
-          (d.data.output ? escapeHtml(d.data.output) : "") +
-          '</div>';
-      }
-      usageEl.innerHTML = usageHtml;
+    if (d.data.bestFor) {
+      usageEl.textContent = d.data.bestFor;
       usageSection.classList.remove("empty");
     } else {
-      usageEl.innerHTML = "";
+      usageEl.textContent = "";
       usageSection.classList.add("empty");
+    }
+  }
+
+  // Input → Output (separate section, hidden when both empty)
+  var ioSection = document.getElementById("panel-io-section");
+  var ioEl = document.getElementById("panel-io");
+  if (ioSection && ioEl) {
+    if (d.data.input || d.data.output) {
+      ioEl.textContent = (d.data.input || "") + " \u2192 " + (d.data.output || "");
+      ioSection.classList.remove("empty");
+    } else {
+      ioEl.textContent = "";
+      ioSection.classList.add("empty");
     }
   }
 

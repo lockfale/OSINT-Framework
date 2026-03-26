@@ -20,7 +20,6 @@
   right: 0;
   width: 340px;
   height: 100vh;
-  overflow-y: auto;
   background: var(--color-surface);
   border-left: 1px solid var(--color-border);
   box-shadow: var(--shadow-md);
@@ -45,6 +44,14 @@
   padding: var(--space-4);
   border-bottom: 1px solid var(--color-border);
   flex-shrink: 0;
+}
+
+#panel-header-text {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  min-width: 0;
+  flex: 1;
 }
 
 #panel-title {
@@ -82,11 +89,12 @@
   overflow-y: auto;
 }
 
-/* Breadcrumb */
+/* Breadcrumb (lives in panel-header now) */
 #panel-breadcrumb {
   font-size: var(--font-size-sm);
   color: var(--color-text-secondary);
   line-height: 1.5;
+  word-break: break-word;
 }
 
 #panel-breadcrumb.empty {
@@ -144,6 +152,22 @@
   font-size: var(--font-size-base);
   color: var(--color-text-primary);
   line-height: 1.5;
+}
+
+/* Input → Output */
+#panel-io-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+#panel-io-section.empty {
+  display: none;
+}
+
+#panel-io {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
 }
 
 /* OPSEC notes */
@@ -208,6 +232,14 @@
 .vote-score.negative { color: #c84040; }
 .vote-score.zero     { color: var(--color-text-secondary); }
 
+/* Footer (sticky, always visible) */
+#panel-footer {
+  flex-shrink: 0;
+  padding: var(--space-3) var(--space-4);
+  border-top: 1px solid var(--color-border);
+  background: var(--color-surface);
+}
+
 /* Report buttons */
 #panel-report-section {
   display: flex;
@@ -238,26 +270,17 @@
   color: var(--color-text-primary);
 }
 
-.report-btn:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
-}
-
-.panel-report-feedback {
-  font-size: var(--font-size-sm);
-  color: var(--color-text-secondary);
-}
-
-.panel-report-feedback.hidden {
-  display: none;
+/* Dividers */
+.panel-divider {
+  border: none;
+  border-top: 1px solid var(--color-border);
+  margin: 0;
 }
 
 /* CTA button */
 #panel-cta-section {
-  margin-top: auto;
-  padding-top: var(--space-4);
-  border-top: 1px solid var(--color-border);
   flex-shrink: 0;
+  text-align: center;
 }
 
 #panel-cta-section.empty {
@@ -265,9 +288,8 @@
 }
 
 #panel-open-tool {
-  display: block;
-  width: 100%;
-  padding: var(--space-3) var(--space-4);
+  display: inline-block;
+  padding: var(--space-3) var(--space-5);
   background: var(--color-accent);
   color: #fff;
   border: none;
@@ -278,6 +300,7 @@
   cursor: pointer;
   text-align: center;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 #panel-open-tool:hover {
