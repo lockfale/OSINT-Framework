@@ -27,7 +27,10 @@
     <div id="body">
       <div id="header">
         <span id="header-title">OSINT Framework</span>
-        <button id="mobile-theme-toggle" onclick="goDark()">Light Mode</button>
+        <div id="header-actions">
+          <button id="header-notes-btn" onclick="toggleNotesPanel()">Notes</button>
+          <button id="header-theme-toggle" onclick="goDark()">Light Mode</button>
+        </div>
           <hr/>
       </div>
       <div id="search-container">
@@ -104,14 +107,11 @@
     <span class="badge badge-R">R</span> - Requires registration<br>
     <span class="badge badge-M">M</span> - Indicates a URL that contains the search term and the URL itself must be edited manually<br>
     </p>
-    <button id="theme-toggle" onclick="goDark()">Switch to light mode</button>
     <script>
       (function() {
         var isLight = localStorage.getItem("theme") === "light";
-        var btn = document.getElementById("theme-toggle");
-        if (btn && isLight) btn.textContent = "Switch to dark mode";
-        var mBtn = document.getElementById("mobile-theme-toggle");
-        if (mBtn) mBtn.textContent = isLight ? "Dark Mode" : "Light Mode";
+        var btn = document.getElementById("header-theme-toggle");
+        if (btn) btn.textContent = isLight ? "Dark Mode" : "Light Mode";
       })();
     </script>
     </div>

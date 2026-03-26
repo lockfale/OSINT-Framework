@@ -654,9 +654,16 @@ function closePanel() {
   if (root) update(root);
 }
 
-// Keyboard: Escape closes panel
+// Keyboard: Escape closes panels
 document.addEventListener("keydown", function(e) {
-  if (e.key === "Escape") closePanel();
+  if (e.key === "Escape") {
+    var notesPanel = document.getElementById("notes-panel");
+    if (notesPanel && notesPanel.classList.contains("open")) {
+      toggleNotesPanel();
+    } else {
+      closePanel();
+    }
+  }
 });
 
 // Wire close button once DOM is ready
@@ -808,19 +815,15 @@ function goDark() {
   var body = document.body;
   var isLight = body.classList.toggle("light-mode");
   localStorage.setItem("theme", isLight ? "light" : "dark");
-  var btn = document.getElementById("theme-toggle");
+  var btn = document.getElementById("header-theme-toggle");
   if (btn) {
-    btn.textContent = isLight ? "Switch to dark mode" : "Switch to light mode";
-  }
-  var mBtn = document.getElementById("mobile-theme-toggle");
-  if (mBtn) {
-    mBtn.textContent = isLight ? "Dark Mode" : "Light Mode";
+    btn.textContent = isLight ? "Dark Mode" : "Light Mode";
   }
   // Re-render to pick up new CSS variable values for D3 inline styles.
   update(root);
 }
 
-// Mobile notes panel toggle
+// Notes panel toggle
 function toggleNotesPanel() {
   var panel = document.getElementById("notes-panel");
   var overlay = document.getElementById("notes-overlay");
