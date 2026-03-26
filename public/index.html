@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
     <link type="text/css" rel="stylesheet" href="css/arf.css"/>
+    <link type="text/css" rel="stylesheet" href="css/panel.css"/>
     <script type="text/javascript" src="js/d3.min.js"></script>
     <title>OSINT Framework</title>
   </head>
@@ -31,6 +32,48 @@
       <div id="search-container">
         <input type="text" id="search-input" placeholder="Search tools..." autocomplete="off" aria-label="Search OSINT tools">
         <div id="search-results" role="listbox" aria-label="Search results"></div>
+      </div>
+    </div>
+
+    <!-- Tool details panel -->
+    <div id="panel-overlay"></div>
+    <div id="tool-panel" role="complementary" aria-label="Tool details">
+      <div id="panel-header">
+        <span id="panel-title"></span>
+        <button id="panel-close" aria-label="Close panel">&#x2715;</button>
+      </div>
+      <div id="panel-body">
+        <div id="panel-breadcrumb" class="empty"></div>
+
+        <div id="panel-badges" class="empty"></div>
+
+        <div id="panel-description-section" class="empty">
+          <span class="panel-section-label">Description</span>
+          <span id="panel-description"></span>
+        </div>
+
+        <div id="panel-usage-section" class="empty">
+          <span class="panel-section-label">Usage Context</span>
+          <span id="panel-usage"></span>
+        </div>
+
+        <div id="panel-opsec-section" class="empty">
+          <span class="panel-section-label">OPSEC Notes</span>
+          <span id="panel-opsec"></span>
+        </div>
+
+        <div id="panel-rating-section" class="empty">
+          <span class="panel-section-label">Rating</span>
+          <span id="panel-rating"></span>
+        </div>
+
+        <div id="panel-report-section">
+          <a id="panel-report-link" href="https://github.com/lockfale/OSINT-Framework/issues/new?template=tool-feedback.md" target="_blank" rel="noopener noreferrer">Report an issue with this tool</a>
+        </div>
+
+        <div id="panel-cta-section" class="empty">
+          <a id="panel-open-tool" href="#" target="_blank" rel="noopener noreferrer">Open Tool &rarr;</a>
+        </div>
       </div>
     </div>
 
