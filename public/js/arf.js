@@ -32,6 +32,13 @@ var zoom = d3.zoom()
 
 svgEl.call(zoom);
 
+// Close panel when clicking SVG background (not a node or link)
+svgEl.on("click", function(event) {
+  if (event.target === svgEl.node() || event.target.tagName === "svg") {
+    closePanel();
+  }
+});
+
 var vis = svgEl.append("g")
     .attr("transform", "translate(" + margin[3] + "," + margin[0] + ")");
 
@@ -96,7 +103,15 @@ function update(source) {
   var nodeEnter = node.enter().append("g")
       .attr("class", "node")
       .attr("transform", function(d) { return "translate(" + source.y0 + "," + source.x0 + ")"; })
-      .on("click", function(event, d) { toggle(d); update(d); });
+      .on("click", function(event, d) {
+        if (d.data.url && !d.children && !d._children) {
+          event.preventDefault();
+          openPanel(d);
+        } else {
+          toggle(d);
+          update(d);
+        }
+      });
 
   nodeEnter.append("circle")
       .attr("r", 1e-6)
@@ -106,8 +121,8 @@ function update(source) {
       });
 
   nodeEnter.append('a')
-      .attr("target", "_blank")
-      .attr('href', function(d) { return d.data.url; })
+      .attr("target", function(d) { return d.data.url && !d.children && !d._children ? null : "_blank"; })
+      .attr('href', function(d) { return d.data.url && !d.children && !d._children ? null : d.data.url; })
       .append("text")
       .attr("x", function(d) { return d.children || d._children ? -10 : 10; })
       .attr("dy", ".35em")
@@ -145,7 +160,13 @@ function update(source) {
         if (d._highlighted) return getCSSVar("--color-accent");
         return d._children ? getCSSVar("--color-node-fill-branch") : getCSSVar("--color-node-fill-leaf");
       })
-      .style("stroke-width", function(d) { return d._highlighted ? "2.5px" : "1.5px"; });
+      .style("stroke", function(d) {
+        return d._panelSelected ? getCSSVar("--color-accent") : getCSSVar("--color-node-stroke");
+      })
+      .style("stroke-width", function(d) {
+        if (d._panelSelected) return "3px";
+        return d._highlighted ? "2.5px" : "1.5px";
+      });
 
   nodeUpdate.select("text")
       .style("fill-opacity", 1)
@@ -361,6 +382,151 @@ function safeUrl(url) {
   if (!url) return "#";
   return /^https?:\/\//i.test(url) ? url : "#";
 }
+
+// === Tool Details Panel ===
+
+var _panelNode = null;
+
+function openPanel(d) {
+  var panel = document.getElementById("tool-panel");
+  var overlay = document.getElementById("panel-overlay");
+  if (!panel) return;
+
+  // If same node clicked again, close it
+  if (_panelNode === d) {
+    closePanel();
+    return;
+  }
+
+  // Clear previous selection ring
+  if (_panelNode) {
+    _panelNode._panelSelected = false;
+  }
+
+  _panelNode = d;
+  d._panelSelected = true;
+
+  // Generate/store session hash
+  if (typeof crypto !== "undefined" && crypto.randomUUID) {
+    var existing = sessionStorage.getItem("osint-session");
+    if (!existing) {
+      sessionStorage.setItem("osint-session", crypto.randomUUID());
+    }
+  }
+
+  // Populate panel
+  var parsed = parseName(d.data.name);
+
+  // Title
+  var titleEl = document.getElementById("panel-title");
+  if (titleEl) titleEl.textContent = parsed.cleanName;
+
+  // Breadcrumb (ancestors from root, skip root and leaf itself)
+  var breadcrumbEl = document.getElementById("panel-breadcrumb");
+  if (breadcrumbEl) {
+    var crumbs = d.ancestors().reverse().slice(1, -1).map(function(a) {
+      return escapeHtml(a.data.name);
+    });
+    if (crumbs.length > 0) {
+      breadcrumbEl.innerHTML = crumbs.join(" &rsaquo; ");
+      breadcrumbEl.classList.remove("empty");
+    } else {
+      breadcrumbEl.textContent = "";
+      breadcrumbEl.classList.add("empty");
+    }
+  }
+
+  // Badges
+  var badgesEl = document.getElementById("panel-badges");
+  if (badgesEl) {
+    if (parsed.badges.length > 0) {
+      badgesEl.innerHTML = parsed.badges.map(function(b) {
+        return '<span class="badge badge-' + b + '">' + b + '</span>';
+      }).join("");
+      badgesEl.classList.remove("empty");
+    } else {
+      badgesEl.innerHTML = "";
+      badgesEl.classList.add("empty");
+    }
+  }
+
+  // Description
+  _setPanelSection("panel-description-section", "panel-description", d.data.description);
+
+  // Usage context
+  _setPanelSection("panel-usage-section", "panel-usage", d.data.usage);
+
+  // OPSEC notes
+  _setPanelSection("panel-opsec-section", "panel-opsec", d.data.opsec);
+
+  // Rating
+  _setPanelSection("panel-rating-section", "panel-rating", d.data.rating);
+
+  // CTA
+  var ctaSection = document.getElementById("panel-cta-section");
+  var ctaLink = document.getElementById("panel-open-tool");
+  if (ctaSection && ctaLink) {
+    var url = safeUrl(d.data.url);
+    if (url !== "#") {
+      ctaLink.href = url;
+      ctaSection.classList.remove("empty");
+    } else {
+      ctaSection.classList.add("empty");
+    }
+  }
+
+  // Show panel and overlay
+  panel.classList.add("open");
+  if (overlay) overlay.classList.add("visible");
+
+  // Re-render to show selection ring
+  update(root);
+}
+
+function _setPanelSection(sectionId, fieldId, value) {
+  var section = document.getElementById(sectionId);
+  var field = document.getElementById(fieldId);
+  if (!section || !field) return;
+  if (value) {
+    field.textContent = value;
+    section.classList.remove("empty");
+  } else {
+    field.textContent = "";
+    section.classList.add("empty");
+  }
+}
+
+function closePanel() {
+  var panel = document.getElementById("tool-panel");
+  var overlay = document.getElementById("panel-overlay");
+  if (panel) panel.classList.remove("open");
+  if (overlay) overlay.classList.remove("visible");
+
+  if (_panelNode) {
+    _panelNode._panelSelected = false;
+    _panelNode = null;
+  }
+
+  // Re-render to remove selection ring
+  if (root) update(root);
+}
+
+// Keyboard: Escape closes panel
+document.addEventListener("keydown", function(e) {
+  if (e.key === "Escape") closePanel();
+});
+
+// Wire close button and overlay once DOM is ready
+document.addEventListener("DOMContentLoaded", function() {
+  var closeBtn = document.getElementById("panel-close");
+  if (closeBtn) closeBtn.addEventListener("click", closePanel);
+
+  var overlay = document.getElementById("panel-overlay");
+  if (overlay) overlay.addEventListener("click", closePanel);
+});
+
+// Canvas click: close panel when clicking the SVG background (not a node)
+// This is wired after svgEl is created (see below in the zoom setup area).
 
 // Toggle light/dark mode and persist preference.
 function goDark() {
