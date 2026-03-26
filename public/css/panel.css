@@ -20,7 +20,6 @@
   right: 0;
   width: 340px;
   height: 100vh;
-  overflow-y: auto;
   background: var(--color-surface);
   border-left: 1px solid var(--color-border);
   box-shadow: var(--shadow-md);
@@ -232,6 +231,14 @@
 .vote-score.positive { color: #2d9e2d; }
 .vote-score.negative { color: #c84040; }
 .vote-score.zero     { color: var(--color-text-secondary); }
+
+/* Footer (sticky, always visible) */
+#panel-footer {
+  flex-shrink: 0;
+  padding: var(--space-3) var(--space-4);
+  border-top: 1px solid var(--color-border);
+  background: var(--color-surface);
+}
 
 /* Report buttons */
 #panel-report-section {
