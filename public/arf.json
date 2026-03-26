@@ -484,7 +484,15 @@
             {
               "name": "Shodan",
               "type": "url",
-              "url": "https://www.shodan.io/"
+              "url": "https://www.shodan.io/",
+              "description": "Search engine for internet-connected devices. Find open ports, services, and vulnerabilities across the public internet.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Port scanning, banner grabbing, IoT discovery",
+              "input": "IP address, domain",
+              "output": "Open ports, services, banners, CVEs",
+              "opsec": "passive",
+              "opsecNote": "Queries cached scan data. Does not directly probe the target."
             },
             {
               "name": "Netlas.io",

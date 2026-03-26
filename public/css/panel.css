@@ -158,11 +158,9 @@
 }
 
 #panel-opsec {
-  font-size: var(--font-size-base);
-  color: var(--color-text-primary);
-  line-height: 1.5;
-  border-left: 3px solid var(--badge-T);
-  padding-left: var(--space-3);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
 }
 
 /* Rating */
@@ -226,6 +224,65 @@
 
 #panel-report-link:hover {
   color: var(--color-node-stroke);
+}
+
+/* Enrichment badge pills (status, pricing, opsec) */
+.badge-pill {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 12px;
+  font-size: var(--font-size-sm);
+  font-weight: bold;
+  color: #fff;
+  text-transform: capitalize;
+  white-space: nowrap;
+}
+
+/* Status badges */
+.badge-live      { background: #2d9e2d; }
+.badge-down      { background: #c84040; }
+.badge-degraded  { background: #b87800; }
+
+/* Pricing badges */
+.badge-free      { background: #2d9e2d; }
+.badge-freemium  { background: #b87800; }
+.badge-paid      { background: #c84040; }
+
+/* OPSEC badges */
+.badge-passive   { background: #2d9e2d; }
+.badge-active    { background: #c84040; }
+
+/* Unknown / fallback */
+.badge-unknown   { background: #606060; }
+
+/* OPSEC row layout */
+.opsec-row {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+
+.opsec-note {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  line-height: 1.5;
+}
+
+/* Usage context sub-fields */
+.usage-best-for {
+  margin-bottom: var(--space-2);
+}
+
+.usage-io {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+/* Description placeholder */
+.panel-placeholder {
+  font-style: italic;
+  color: var(--color-text-secondary);
 }
 
 /* Node selection ring */

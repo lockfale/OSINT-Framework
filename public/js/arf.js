@@ -436,30 +436,80 @@ function openPanel(d) {
     }
   }
 
-  // Badges
+  // Badges: T/D/R/M type badges + status pill + pricing pill
   var badgesEl = document.getElementById("panel-badges");
   if (badgesEl) {
-    if (parsed.badges.length > 0) {
-      badgesEl.innerHTML = parsed.badges.map(function(b) {
-        return '<span class="badge badge-' + b + '">' + b + '</span>';
-      }).join("");
-      badgesEl.classList.remove("empty");
+    var badgeHtml = parsed.badges.map(function(b) {
+      return '<span class="badge badge-' + b + '">' + b + '</span>';
+    }).join("");
+
+    var status = (d.data.status || "unknown").toLowerCase();
+    var statusClass = ["live","down","degraded"].indexOf(status) !== -1 ? status : "unknown";
+    badgeHtml += '<span class="badge-pill badge-' + statusClass + '">' + escapeHtml(status) + '</span>';
+
+    var pricing = (d.data.pricing || "unknown").toLowerCase();
+    var pricingClass = ["free","freemium","paid"].indexOf(pricing) !== -1 ? pricing : "unknown";
+    badgeHtml += ' <span class="badge-pill badge-' + pricingClass + '">' + escapeHtml(pricing) + '</span>';
+
+    badgesEl.innerHTML = badgeHtml;
+    badgesEl.classList.remove("empty");
+  }
+
+  // Description (always shown; placeholder when empty)
+  var descSection = document.getElementById("panel-description-section");
+  var descEl = document.getElementById("panel-description");
+  if (descSection && descEl) {
+    if (d.data.description) {
+      descEl.className = "";
+      descEl.textContent = d.data.description;
     } else {
-      badgesEl.innerHTML = "";
-      badgesEl.classList.add("empty");
+      descEl.className = "panel-placeholder";
+      descEl.textContent = "No description available yet.";
+    }
+    descSection.classList.remove("empty");
+  }
+
+  // Usage context: bestFor + input → output (hidden when all empty)
+  var usageSection = document.getElementById("panel-usage-section");
+  var usageEl = document.getElementById("panel-usage");
+  if (usageSection && usageEl) {
+    var hasUsage = d.data.bestFor || d.data.input || d.data.output;
+    if (hasUsage) {
+      var usageHtml = "";
+      if (d.data.bestFor) {
+        usageHtml += '<div class="usage-best-for"><strong>Best for:</strong> ' + escapeHtml(d.data.bestFor) + '</div>';
+      }
+      if (d.data.input || d.data.output) {
+        usageHtml += '<div class="usage-io">' +
+          (d.data.input ? escapeHtml(d.data.input) : "") +
+          ' &rarr; ' +
+          (d.data.output ? escapeHtml(d.data.output) : "") +
+          '</div>';
+      }
+      usageEl.innerHTML = usageHtml;
+      usageSection.classList.remove("empty");
+    } else {
+      usageEl.innerHTML = "";
+      usageSection.classList.add("empty");
     }
   }
 
-  // Description
-  _setPanelSection("panel-description-section", "panel-description", d.data.description);
+  // OPSEC: colored badge + optional note (always shown)
+  var opsecSection = document.getElementById("panel-opsec-section");
+  var opsecEl = document.getElementById("panel-opsec");
+  if (opsecSection && opsecEl) {
+    var opsec = (d.data.opsec || "unknown").toLowerCase();
+    var opsecClass = ["passive","active"].indexOf(opsec) !== -1 ? opsec : "unknown";
+    var opsecHtml = '<div class="opsec-row"><span class="badge-pill badge-' + opsecClass + '">' + escapeHtml(opsec) + '</span>';
+    if (d.data.opsecNote) {
+      opsecHtml += '<span class="opsec-note">' + escapeHtml(d.data.opsecNote) + '</span>';
+    }
+    opsecHtml += '</div>';
+    opsecEl.innerHTML = opsecHtml;
+    opsecSection.classList.remove("empty");
+  }
 
-  // Usage context
-  _setPanelSection("panel-usage-section", "panel-usage", d.data.usage);
-
-  // OPSEC notes
-  _setPanelSection("panel-opsec-section", "panel-opsec", d.data.opsec);
-
-  // Rating
+  // Rating (Phase 3 — hidden until backend is ready)
   _setPanelSection("panel-rating-section", "panel-rating", d.data.rating);
 
   // CTA
@@ -469,6 +519,7 @@ function openPanel(d) {
     var url = safeUrl(d.data.url);
     if (url !== "#") {
       ctaLink.href = url;
+      ctaLink.textContent = "Open " + parsed.cleanName + " \u2197";
       ctaSection.classList.remove("empty");
     } else {
       ctaSection.classList.add("empty");
