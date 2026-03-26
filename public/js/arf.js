@@ -84,8 +84,16 @@ d3.json("arf.json").then(function(json) {
 
   root.children.forEach(collapse);
 
-  // On mobile, pre-compute zoom so the collapsed tree fills the viewport.
+  // On mobile, stretch the viewBox to match the actual rendered aspect ratio
+  // so the zoom-to-fill calculation uses the real visible area, not the
+  // fixed 1280x800 letterboxed region.
   if (window.innerWidth <= 768) {
+    var rect = svgEl.node().getBoundingClientRect();
+    if (rect.width && rect.height) {
+      svgH = Math.round(svgW * (rect.height / rect.width));
+      svgEl.attr("viewBox", "0 0 " + svgW + " " + svgH);
+    }
+
     // Run tree layout to get final node positions, then compute zoom from data.
     tree(root);
     root.descendants().forEach(function(d) { d.y = d.depth * 180; });
@@ -97,7 +105,7 @@ d3.json("arf.json").then(function(json) {
       if (d.y < minY) minY = d.y;
       if (d.y > maxY) maxY = d.y;
     });
-    var pad = 60;
+    var pad = 40;
     var bw = (maxY - minY) || 1;
     var bh = (maxX - minX) || 1;
     var k = Math.min((svgW - pad * 2) / bw, (svgH - pad * 2) / bh, 3);
