@@ -134,7 +134,7 @@ async function handleTrack(request, env) {
 
 /**
  * POST /api/vote
- * Body: { tool_id: string, rating: 1|2|3|4|5|null, session_hash: string }
+ * Body: { tool_id: string, rating: 0|0.5|1|...|5|null, session_hash: string }
  *   rating=null removes the current rating (toggle off)
  *
  * Returns: { ok: true, average: number, count: number, userRating: number|null }
