@@ -676,35 +676,51 @@ document.addEventListener("DOMContentLoaded", function() {
 // === Community Rating (THE-122) ===
 
 /**
- * Render the 5-star rating UI for the given node.
- * Reads cached rating from sessionStorage, then fetches live average from /api/tool-stats.
+ * Render the half-star rating UI for the given node.
+ * Supports 0 to 5 in 0.5 increments. Reads cached rating from sessionStorage,
+ * then fetches live average from /api/tool-stats.
  */
 function _renderVoteUI(d) {
   var toolId = parseName(d.data.name).cleanName;
 
-  var stars = document.querySelectorAll("#star-rating .star-btn");
+  var starPositions = document.querySelectorAll("#star-rating .star-pos");
+  var zeroBtn = document.querySelector("#star-rating .star-zero-btn");
   var avgEl = document.getElementById("rating-avg");
   var ratingSection = document.getElementById("panel-rating-section");
-  if (!stars.length || !avgEl) return;
+  if (!starPositions.length || !avgEl) return;
 
   // Reset state
-  _applyStarFill(stars, 0, null);
+  _applyStarFill(starPositions, zeroBtn, 0, null);
   avgEl.textContent = "\u2026";
   if (ratingSection) ratingSection.classList.remove("empty");
 
   // Read cached user rating from sessionStorage
   var cached = sessionStorage.getItem("rating:" + toolId);
-  var userRating = cached ? parseInt(cached, 10) : null;
-  if (userRating) _applyStarFill(stars, userRating, userRating);
+  var userRating = cached !== null ? parseFloat(cached) : null;
+  if (userRating !== null) _applyStarFill(starPositions, zeroBtn, userRating, userRating);
 
-  // Wire hover and click events for this tool
-  Array.prototype.forEach.call(stars, function(btn) {
-    var n = parseInt(btn.getAttribute("data-star"), 10);
+  // Wire hover and click for zero button
+  if (zeroBtn) {
+    zeroBtn.onmouseenter = function() { _applyStarFill(starPositions, zeroBtn, 0, userRating); };
+    zeroBtn.onmouseleave = function() {
+      _applyStarFill(starPositions, zeroBtn, userRating !== null ? userRating : -1, userRating);
+    };
+    zeroBtn.onclick = function() {
+      userRating = _castRating(toolId, 0, userRating, starPositions, zeroBtn, avgEl);
+    };
+  }
 
-    btn.onmouseenter = function() { _applyStarFill(stars, n, userRating); };
-    btn.onmouseleave = function() { _applyStarFill(stars, userRating || 0, userRating); };
+  // Wire hover and click for each half-star click zone
+  var clickZones = document.querySelectorAll("#star-rating .star-click");
+  Array.prototype.forEach.call(clickZones, function(btn) {
+    var val = parseFloat(btn.getAttribute("data-value"));
+
+    btn.onmouseenter = function() { _applyStarFill(starPositions, zeroBtn, val, userRating); };
+    btn.onmouseleave = function() {
+      _applyStarFill(starPositions, zeroBtn, userRating !== null ? userRating : -1, userRating);
+    };
     btn.onclick = function() {
-      userRating = _castRating(toolId, n, userRating, stars, avgEl);
+      userRating = _castRating(toolId, val, userRating, starPositions, zeroBtn, avgEl);
     };
   });
 
@@ -719,27 +735,41 @@ function _renderVoteUI(d) {
 }
 
 /**
- * Apply filled/user-rated CSS classes to the star buttons.
- * @param {NodeList} stars
- * @param {number} fillUpTo - highlight stars 1 through fillUpTo
- * @param {number|null} userRating - the user's current saved rating (shown distinctly)
+ * Apply filled/half-filled/user-rated classes to star icons.
+ * @param {NodeList} starPositions - .star-pos elements
+ * @param {Element|null} zeroBtn - the 0-star button
+ * @param {number} fillUpTo - rating value to highlight up to (0-5, supports 0.5 steps; -1 = nothing)
+ * @param {number|null} userRating - the user's saved rating (shown distinctly)
  */
-function _applyStarFill(stars, fillUpTo, userRating) {
-  Array.prototype.forEach.call(stars, function(btn) {
-    var n = parseInt(btn.getAttribute("data-star"), 10);
-    btn.classList.toggle("filled", n <= fillUpTo);
-    btn.classList.toggle("user-rated", userRating !== null && n <= userRating && n <= fillUpTo);
+function _applyStarFill(starPositions, zeroBtn, fillUpTo, userRating) {
+  if (zeroBtn) {
+    zeroBtn.classList.toggle("active", userRating !== null && userRating === 0 && fillUpTo === 0);
+  }
+  Array.prototype.forEach.call(starPositions, function(pos) {
+    var n = parseInt(pos.getAttribute("data-star"), 10);
+    var icon = pos.querySelector(".star-icon");
+    if (!icon) return;
+    var isUserStar = userRating !== null && fillUpTo === userRating;
+
+    icon.classList.remove("filled", "half-filled", "user-rated");
+    if (fillUpTo >= n) {
+      icon.classList.add("filled");
+      if (isUserStar) icon.classList.add("user-rated");
+    } else if (fillUpTo >= n - 0.5) {
+      icon.classList.add("half-filled");
+      if (isUserStar) icon.classList.add("user-rated");
+    }
   });
 }
 
 /**
- * Cast or toggle a star rating.
+ * Cast or toggle a rating (0-5, 0.5 increments).
  * Returns the new userRating value (number or null).
  */
-function _castRating(toolId, star, currentRating, stars, avgEl) {
+function _castRating(toolId, value, currentRating, starPositions, zeroBtn, avgEl) {
   var session = sessionStorage.getItem("osint-session") || "";
-  // Toggle off if clicking the same star
-  var newRating = (star === currentRating) ? null : star;
+  // Toggle off if clicking the same value
+  var newRating = (value === currentRating) ? null : value;
 
   fetch("/api/vote", {
     method: "POST",
@@ -749,13 +779,14 @@ function _castRating(toolId, star, currentRating, stars, avgEl) {
     .then(function(r) { return r.ok ? r.json() : null; })
     .then(function(data) {
       if (!data || !data.ok) return;
-      var saved = data.userRating || null;
-      if (saved) {
+      var saved = data.userRating;
+      if (saved !== null && saved !== undefined) {
         sessionStorage.setItem("rating:" + toolId, String(saved));
       } else {
+        saved = null;
         sessionStorage.removeItem("rating:" + toolId);
       }
-      _applyStarFill(stars, saved || 0, saved);
+      _applyStarFill(starPositions, zeroBtn, saved !== null ? saved : -1, saved);
       _updateRatingDisplay(avgEl, data.average, data.count);
     })
     .catch(function() { /* best effort */ });

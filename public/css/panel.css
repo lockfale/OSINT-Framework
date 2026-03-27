@@ -203,30 +203,100 @@
 
 #star-rating {
   display: flex;
+  align-items: center;
   gap: 2px;
 }
 
-.star-btn {
+.star-zero-btn {
   background: none;
-  border: none;
-  padding: 2px;
-  font-size: 22px;
+  border: 1px solid var(--color-text-secondary);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 11px;
+  font-weight: 600;
   cursor: pointer;
   color: var(--color-text-secondary);
   line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2px;
+  transition: color 100ms ease, border-color 100ms ease, transform 100ms ease;
+}
+
+.star-zero-btn:hover {
+  transform: scale(1.15);
+  color: #e8960f;
+  border-color: #e8960f;
+}
+
+.star-zero-btn.active {
+  color: #e8960f;
+  border-color: #e8960f;
+  background: rgba(232, 150, 15, 0.1);
+}
+
+.star-pos {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.star-icon {
+  font-size: 22px;
+  line-height: 1;
+  color: var(--color-text-secondary);
+  pointer-events: none;
   transition: color 100ms ease, transform 100ms ease;
 }
 
-.star-btn:hover {
+.star-pos:hover .star-icon {
   transform: scale(1.15);
 }
 
-.star-btn.filled {
+.star-icon.filled {
   color: #f5a623;
 }
 
-.star-btn.user-rated {
+.star-icon.half-filled {
+  background: linear-gradient(to right, #f5a623 50%, var(--color-text-secondary) 50%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.star-icon.user-rated {
   color: #e8960f;
+}
+
+.star-icon.user-rated.half-filled {
+  background: linear-gradient(to right, #e8960f 50%, var(--color-text-secondary) 50%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.star-click {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.star-click.star-left {
+  left: 0;
+  width: 50%;
+}
+
+.star-click.star-right {
+  left: 50%;
+  width: 50%;
 }
 
 #rating-avg {

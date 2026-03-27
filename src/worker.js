@@ -155,12 +155,15 @@ async function handleVote(request, env) {
     return jsonResponse({ ok: false, error: validationError }, 400, origin);
   }
 
-  if (rating !== null && (!Number.isInteger(rating) || rating < 1 || rating > 5)) {
-    return jsonResponse(
-      { ok: false, error: "rating must be an integer 1-5 or null" },
-      400,
-      origin
-    );
+  if (rating !== null) {
+    var validRatings = [0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5];
+    if (typeof rating !== "number" || validRatings.indexOf(rating) === -1) {
+      return jsonResponse(
+        { ok: false, error: "rating must be 0-5 in 0.5 increments, or null" },
+        400,
+        origin
+      );
+    }
   }
 
   if (await isRateLimited(env, session_hash)) {
@@ -178,8 +181,8 @@ async function handleVote(request, env) {
     env.CLICK_DATA.get(countKey),
   ]);
 
-  const prevRating = prevRatingRaw ? parseInt(prevRatingRaw, 10) : null;
-  let sum = sumRaw ? parseInt(sumRaw, 10) : 0;
+  const prevRating = prevRatingRaw ? parseFloat(prevRatingRaw) : null;
+  let sum = sumRaw ? parseFloat(sumRaw) : 0;
   let count = countRaw ? parseInt(countRaw, 10) : 0;
 
   // Toggle off if same rating submitted again
@@ -361,7 +364,7 @@ async function handleStats(request, env) {
   ]);
 
   const clicks = clicksRaw ? parseInt(clicksRaw, 10) : 0;
-  const sum = sumRaw ? parseInt(sumRaw, 10) : 0;
+  const sum = sumRaw ? parseFloat(sumRaw) : 0;
   const count = countRaw ? parseInt(countRaw, 10) : 0;
   const average = count > 0 ? Math.round((sum / count) * 10) / 10 : 0;
 
