@@ -7080,18 +7080,80 @@
       ]
     },
     {
-      "name": "Exploits & Advisories",
+      "name": "Security Intelligence",
       "type": "folder",
       "children": [
+        {
+          "name": "Advisories",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Australian Cyber Security Centre",
+              "type": "url",
+              "url": "https://www.cyber.gov.au/"
+            },
+            {
+              "name": "Canadian Centre for Cyber Security",
+              "type": "url",
+              "url": "https://www.cyber.gc.ca/"
+            },
+            {
+              "name": "CVE - MITRE",
+              "type": "url",
+              "url": "https://www.cve.org/"
+            },
+            {
+              "name": "CVE Details",
+              "type": "url",
+              "url": "https://www.cvedetails.com/"
+            },
+            {
+              "name": "NVD - NIST",
+              "type": "url",
+              "url": "https://nvd.nist.gov/"
+            },
+            {
+              "name": "OSV Vulnerability Library",
+              "type": "url",
+              "url": "https://osv.dev/list"
+            },
+            {
+              "name": "OWASP",
+              "type": "url",
+              "url": "https://www.owasp.org/index.php/Main_Page"
+            },
+            {
+              "name": "Secunia",
+              "type": "url",
+              "url": "https://secuniaresearch.flexerasoftware.com/community/research/"
+            },
+            {
+              "name": "SecurityFocus",
+              "type": "url",
+              "url": "https://www.securityfocus.com/bid"
+            },
+            {
+              "name": "Vulert: Updated Open Source Vulnerability Database",
+              "type": "url",
+              "url": "https://vulert.com/vuln-db"
+            }
+          ]
+        },
+        {
+          "name": "Attack Surface / Security Testing",
+          "type": "folder",
+          "children": [
+            {
+              "name": "ImmuniWeb",
+              "type": "url",
+              "url": "https://www.immuniweb.com/"
+            }
+          ]
+        },
         {
           "name": "Default Passwords",
           "type": "folder",
           "children": [
-            {
-              "name": "Default Passwords DB",
-              "type": "url",
-              "url": "https://cirt.net/passwords/"
-            },
             {
               "name": "Default passwords list",
               "type": "url",
@@ -7103,9 +7165,9 @@
               "url": "https://fortypoundhead.com/tools_dpw.asp"
             },
             {
-              "name": "Phenoelit Default Password List",
+              "name": "Default Passwords DB",
               "type": "url",
-              "url": "https://phenoelit.org/dpl/dpl.html"
+              "url": "https://cirt.net/passwords/"
             },
             {
               "name": "Default Router Passwords",
@@ -7113,111 +7175,35 @@
               "url": "https://www.routerpasswords.com/"
             },
             {
+              "name": "Hashes.org",
+              "type": "url",
+              "url": "https://hashes.org/"
+            },
+            {
               "name": "Open Sez Me Default Passwords",
               "type": "url",
               "url": "https://open-sez.me/"
             },
             {
-              "name": "Hashes.org",
+              "name": "Phenoelit Default Password List",
               "type": "url",
-              "url": "https://hashes.org/"
+              "url": "https://phenoelit.org/dpl/dpl.html"
             }
           ]
         },
         {
-          "name": "Vulert: Updated Open Source Vulnerability Database",
-          "type": "url",
-          "url": "https://vulert.com/vuln-db"
-        },
-        {
-          "name": "MITRE ATT&CK",
-          "type": "url",
-          "url": "https://attack.mitre.org/"
-        },
-        {
-          "name": "Exploit DB",
-          "type": "url",
-          "url": "https://www.exploit-db.com/"
-        },
-        {
-          "name": "Packet Storm",
-          "type": "url",
-          "url": "https://packetstormsecurity.com/"
-        },
-        {
-          "name": "SecurityFocus",
-          "type": "url",
-          "url": "https://www.securityfocus.com/bid"
-        },
-        {
-          "name": "NVD - NIST",
-          "type": "url",
-          "url": "https://nvd.nist.gov/"
-        },
-        {
-          "name": "OSV Vulnerability Library",
-          "type": "url",
-          "url": "https://osv.dev/list"
-        },
-        {
-          "name": "CVE Details",
-          "type": "url",
-          "url": "https://www.cvedetails.com/"
-        },
-        {
-          "name": "CVE - MITRE",
-          "type": "url",
-          "url": "https://www.cve.org/"
-        },
-        {
-          "name": "OWASP",
-          "type": "url",
-          "url": "https://www.owasp.org/index.php/Main_Page"
-        },
-        {
-          "name": "Secunia",
-          "type": "url",
-          "url": "https://secuniaresearch.flexerasoftware.com/community/research/"
-        },
-        {
-          "name": "Australian Cyber Security Centre",
-          "type": "url",
-          "url": "https://www.cyber.gov.au/"
-        },
-        {
-          "name": "Canadian Centre for Cyber Security",
-          "type": "url",
-          "url": "https://www.cyber.gc.ca/"
-        }
-      ]
-    },
-    {
-      "name": "Threat Intelligence",
-      "type": "folder",
-      "children": [
-        {
-          "name": "Phishing",
+          "name": "Exploits",
           "type": "folder",
           "children": [
             {
-              "name": "SecAI.ai",
+              "name": "Exploit DB",
               "type": "url",
-              "url": "https://secai.ai/research"
+              "url": "https://www.exploit-db.com/"
             },
             {
-              "name": "https://openphish.com/feed.txt",
+              "name": "Packet Storm",
               "type": "url",
-              "url": "https://openphish.com/feed.txt"
-            },
-            {
-              "name": "PhishTank",
-              "type": "url",
-              "url": "https://www.phishtank.com/"
-            },
-            {
-              "name": "PhishStats",
-              "type": "url",
-              "url": "https://phishstats.info/"
+              "url": "https://packetstormsecurity.com/"
             }
           ]
         },
@@ -7226,29 +7212,9 @@
           "type": "folder",
           "children": [
             {
-              "name": "Jager",
-              "type": "url",
-              "url": "https://github.com/sroberts/jager"
-            },
-            {
-              "name": "IOC Parser",
-              "type": "url",
-              "url": "https://github.com/armbues/ioc_parser"
-            },
-            {
               "name": "Cacador",
               "type": "url",
               "url": "https://github.com/sroberts/cacador"
-            },
-            {
-              "name": "ThreatPinch Lookup",
-              "type": "url",
-              "url": "https://github.com/cloudtracer/ThreatPinchLookup"
-            },
-            {
-              "name": "Mimir",
-              "type": "url",
-              "url": "https://github.com/NullArray/Mimir"
             },
             {
               "name": "iocextract (T)",
@@ -7256,25 +7222,55 @@
               "url": "https://github.com/InQuest/iocextract"
             },
             {
+              "name": "IOC Parser",
+              "type": "url",
+              "url": "https://github.com/armbues/ioc_parser"
+            },
+            {
+              "name": "Jager",
+              "type": "url",
+              "url": "https://github.com/sroberts/jager"
+            },
+            {
+              "name": "Mimir",
+              "type": "url",
+              "url": "https://github.com/NullArray/Mimir"
+            },
+            {
               "name": "ThreatIngestor (T)",
               "type": "url",
               "url": "https://github.com/InQuest/ThreatIngestor"
+            },
+            {
+              "name": "ThreatPinch Lookup",
+              "type": "url",
+              "url": "https://github.com/cloudtracer/ThreatPinchLookup"
             }
           ]
         },
         {
-          "name": "TTPs",
+          "name": "Phishing",
           "type": "folder",
           "children": [
             {
-              "name": "Malware Exploit TTP Database",
+              "name": "https://openphish.com/feed.txt",
               "type": "url",
-              "url": "https://www.pwnmalw.re/"
+              "url": "https://openphish.com/feed.txt"
             },
             {
-              "name": "Mitre TTPs",
+              "name": "PhishStats",
               "type": "url",
-              "url": "https://attack.mitre.org/wiki/All_Techniques"
+              "url": "https://phishstats.info/"
+            },
+            {
+              "name": "PhishTank",
+              "type": "url",
+              "url": "https://www.phishtank.com/"
+            },
+            {
+              "name": "SecAI.ai",
+              "type": "url",
+              "url": "https://secai.ai/research"
             }
           ]
         },
@@ -7354,108 +7350,124 @@
           ]
         },
         {
-          "name": "IBM X-Force Exchange",
-          "type": "url",
-          "url": "https://exchange.xforce.ibmcloud.com/new"
-        },
-        {
-          "name": "Malware Information Sharing Platform",
-          "type": "url",
-          "url": "https://www.misp-project.org/"
-        },
-        {
-          "name": "Malware Patrol",
-          "type": "url",
-          "url": "https://www.malwarepatrol.net/integrations-formats-threat-intelligence-feed-integration/"
-        },
-        {
-          "name": "AlienVault OTX",
-          "type": "url",
-          "url": "https://otx.alienvault.com/"
-        },
-        {
-          "name": "FireHOL IP Lists ",
-          "type": "url",
-          "url": "https://iplists.firehol.org/"
-        },
-        {
-          "name": "Maltiverse",
-          "type": "url",
-          "url": "https://maltiverse.com/start"
-        },
-        {
-          "name": "Malpedia",
-          "type": "url",
-          "url": "https://malpedia.caad.fkie.fraunhofer.de/library"
-        },
-        {
-          "name": "Project Honey Pot",
-          "type": "url",
-          "url": "https://www.projecthoneypot.org/"
-        },
-        {
-          "name": "Cymon Open Threat Intelligence",
-          "type": "url",
-          "url": "https://cymon.io/"
-        },
-        {
-          "name": "mlsecproject / combine",
-          "type": "url",
-          "url": "https://github.com/mlsecproject/combine"
-        },
-        {
-          "name": "hostintel - keithjjones Github",
-          "type": "url",
-          "url": "https://github.com/keithjjones/hostintel"
-        },
-        {
-          "name": "massive-octo-spice - csirtgadgets Github",
-          "type": "url",
-          "url": "https://github.com/csirtgadgets/massive-octo-spice"
-        },
-        {
-          "name": "Scam Database",
-          "type": "url",
-          "url": "https://www.scamdb.net"
-        },
-        {
-          "name": "Bot Scout",
-          "type": "url",
-          "url": "https://botscout.com/"
-        },
-        {
-          "name": "APTnotes",
-          "type": "url",
-          "url": "https://github.com/aptnotes/data"
-        },
-        {
-          "name": "HoneyDB",
-          "type": "url",
-          "url": "https://riskdiscovery.com/honeydb/"
-        },
-        {
-          "name": "Pulsedive",
-          "type": "url",
-          "url": "https://pulsedive.com"
-        },
-        {
-          "name": "Mr.Looquer IOC Feed - 1st Dual Stack Threat Feed",
-          "type": "url",
-          "url": "https://iocfeed.mrlooquer.com"
-        },
-        {
-          "name": "REScure Cyber Threat Intelligence Project",
-          "type": "url",
-          "url": "https://rescure.me/feeds.html"
-        },
-        {
-          "name": "Attack Surface / Security Testing",
+          "name": "Threat Feeds & Platforms",
           "type": "folder",
           "children": [
             {
-              "name": "ImmuniWeb",
+              "name": "AlienVault OTX",
               "type": "url",
-              "url": "https://www.immuniweb.com/"
+              "url": "https://otx.alienvault.com/"
+            },
+            {
+              "name": "APTnotes",
+              "type": "url",
+              "url": "https://github.com/aptnotes/data"
+            },
+            {
+              "name": "Bot Scout",
+              "type": "url",
+              "url": "https://botscout.com/"
+            },
+            {
+              "name": "Cymon Open Threat Intelligence",
+              "type": "url",
+              "url": "https://cymon.io/"
+            },
+            {
+              "name": "FireHOL IP Lists ",
+              "type": "url",
+              "url": "https://iplists.firehol.org/"
+            },
+            {
+              "name": "HoneyDB",
+              "type": "url",
+              "url": "https://riskdiscovery.com/honeydb/"
+            },
+            {
+              "name": "hostintel - keithjjones Github",
+              "type": "url",
+              "url": "https://github.com/keithjjones/hostintel"
+            },
+            {
+              "name": "IBM X-Force Exchange",
+              "type": "url",
+              "url": "https://exchange.xforce.ibmcloud.com/new"
+            },
+            {
+              "name": "Malpedia",
+              "type": "url",
+              "url": "https://malpedia.caad.fkie.fraunhofer.de/library"
+            },
+            {
+              "name": "Malware Information Sharing Platform",
+              "type": "url",
+              "url": "https://www.misp-project.org/"
+            },
+            {
+              "name": "Malware Patrol",
+              "type": "url",
+              "url": "https://www.malwarepatrol.net/integrations-formats-threat-intelligence-feed-integration/"
+            },
+            {
+              "name": "Maltiverse",
+              "type": "url",
+              "url": "https://maltiverse.com/start"
+            },
+            {
+              "name": "massive-octo-spice - csirtgadgets Github",
+              "type": "url",
+              "url": "https://github.com/csirtgadgets/massive-octo-spice"
+            },
+            {
+              "name": "mlsecproject / combine",
+              "type": "url",
+              "url": "https://github.com/mlsecproject/combine"
+            },
+            {
+              "name": "Mr.Looquer IOC Feed - 1st Dual Stack Threat Feed",
+              "type": "url",
+              "url": "https://iocfeed.mrlooquer.com"
+            },
+            {
+              "name": "Project Honey Pot",
+              "type": "url",
+              "url": "https://www.projecthoneypot.org/"
+            },
+            {
+              "name": "Pulsedive",
+              "type": "url",
+              "url": "https://pulsedive.com"
+            },
+            {
+              "name": "REScure Cyber Threat Intelligence Project",
+              "type": "url",
+              "url": "https://rescure.me/feeds.html"
+            },
+            {
+              "name": "Scam Database",
+              "type": "url",
+              "url": "https://www.scamdb.net"
+            }
+          ]
+        },
+        {
+          "name": "TTPs",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Malware Exploit TTP Database",
+              "type": "url",
+              "url": "https://www.pwnmalw.re/"
+            },
+            {
+              "name": "Mitre TTPs",
+              "type": "url",
+              "url": "https://attack.mitre.org/wiki/All_Techniques"
+            },
+            {
+              "name": "MITRE ATT&CK",
+              "type": "url",
+              "url": "https://attack.mitre.org/"
             }
           ]
         }
