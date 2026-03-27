@@ -188,50 +188,122 @@
   gap: var(--space-2);
 }
 
-/* Community rating / vote */
+/* Community rating */
 #panel-rating-section {
   display: flex;
   flex-direction: column;
   gap: var(--space-2);
 }
 
-#panel-vote-row {
+#panel-rating-row {
   display: flex;
   align-items: center;
   gap: var(--space-3);
 }
 
-.vote-btn {
+#star-rating {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.star-zero-btn {
   background: none;
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-sm);
-  padding: var(--space-1) var(--space-2);
-  font-size: 18px;
+  border: 1px solid var(--color-text-secondary);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 11px;
+  font-weight: 600;
   cursor: pointer;
+  color: var(--color-text-secondary);
   line-height: 1;
-  transition: background 150ms ease, border-color 150ms ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2px;
+  transition: color 100ms ease, border-color 100ms ease, transform 100ms ease;
 }
 
-.vote-btn:hover {
-  background: var(--color-bg);
-  border-color: var(--color-text-secondary);
+.star-zero-btn:hover {
+  transform: scale(1.15);
+  color: #e8960f;
+  border-color: #e8960f;
 }
 
-.vote-btn.active {
-  background: var(--color-accent);
-  border-color: var(--color-accent);
+.star-zero-btn.active {
+  color: #e8960f;
+  border-color: #e8960f;
+  background: rgba(232, 150, 15, 0.1);
 }
 
-.vote-score {
-  font-size: var(--font-size-lg);
-  font-weight: bold;
-  min-width: 2ch;
-  text-align: center;
+.star-pos {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
 }
 
-.vote-score.positive { color: #2d9e2d; }
-.vote-score.negative { color: #c84040; }
-.vote-score.zero     { color: var(--color-text-secondary); }
+.star-icon {
+  font-size: 22px;
+  line-height: 1;
+  color: var(--color-text-secondary);
+  pointer-events: none;
+  transition: color 100ms ease, transform 100ms ease;
+}
+
+.star-pos:hover .star-icon {
+  transform: scale(1.15);
+}
+
+.star-icon.filled {
+  color: #f5a623;
+}
+
+.star-icon.half-filled {
+  background: linear-gradient(to right, #f5a623 50%, var(--color-text-secondary) 50%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.star-icon.user-rated {
+  color: #e8960f;
+}
+
+.star-icon.user-rated.half-filled {
+  background: linear-gradient(to right, #e8960f 50%, var(--color-text-secondary) 50%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.star-click {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.star-click.star-left {
+  left: 0;
+  width: 50%;
+}
+
+.star-click.star-right {
+  left: 50%;
+  width: 50%;
+}
+
+#rating-avg {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  white-space: nowrap;
+}
 
 /* Footer (sticky, always visible) */
 #panel-footer {
