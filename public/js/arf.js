@@ -84,37 +84,35 @@ d3.json("arf.json").then(function(json) {
 
   root.children.forEach(collapse);
 
-  // On mobile, stretch the viewBox to match the actual rendered aspect ratio
-  // so the zoom-to-fill calculation uses the real visible area, not the
-  // fixed 1280x800 letterboxed region.
-  if (window.innerWidth <= 768) {
-    var rect = svgEl.node().getBoundingClientRect();
-    if (rect.width && rect.height) {
-      svgH = Math.round(svgW * (rect.height / rect.width));
-      svgEl.attr("viewBox", "0 0 " + svgW + " " + svgH);
-    }
-
-    // Run tree layout to get final node positions, then compute zoom from data.
-    tree(root);
-    root.descendants().forEach(function(d) { d.y = d.depth * 180; });
-    var visibleNodes = root.descendants();
-    var minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
-    visibleNodes.forEach(function(d) {
-      if (d.x < minX) minX = d.x;
-      if (d.x > maxX) maxX = d.x;
-      if (d.y < minY) minY = d.y;
-      if (d.y > maxY) maxY = d.y;
-    });
-    var pad = 40;
-    var bw = (maxY - minY) || 1;
-    var bh = (maxX - minX) || 1;
-    var k = Math.min((svgW - pad * 2) / bw, (svgH - pad * 2) / bh, 3);
-    var cx = (minY + maxY) / 2;
-    var cy = (minX + maxX) / 2;
-    var tx = svgW / 2 - margin[3] - cx * k;
-    var ty = svgH / 2 - margin[0] - cy * k;
-    svgEl.call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(k));
+  // Stretch the viewBox to match the actual rendered aspect ratio so the
+  // zoom-to-fill calculation uses the real visible area, not the fixed
+  // 1280x800 letterboxed region.
+  var rect = svgEl.node().getBoundingClientRect();
+  if (rect.width && rect.height) {
+    svgH = Math.round(svgW * (rect.height / rect.width));
+    svgEl.attr("viewBox", "0 0 " + svgW + " " + svgH);
   }
+
+  // Run tree layout to get final node positions, then compute zoom from data.
+  tree(root);
+  root.descendants().forEach(function(d) { d.y = d.depth * 180; });
+  var visibleNodes = root.descendants();
+  var minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
+  visibleNodes.forEach(function(d) {
+    if (d.x < minX) minX = d.x;
+    if (d.x > maxX) maxX = d.x;
+    if (d.y < minY) minY = d.y;
+    if (d.y > maxY) maxY = d.y;
+  });
+  var pad = 40;
+  var bw = (maxY - minY) || 1;
+  var bh = (maxX - minX) || 1;
+  var k = Math.min((svgW - pad * 2) / bw, (svgH - pad * 2) / bh, 3);
+  var cx = (minY + maxY) / 2;
+  var cy = (minX + maxX) / 2;
+  var tx = pad - minY * k;
+  var ty = svgH / 2 - margin[0] - cy * k;
+  svgEl.call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(k));
 
   update(root);
   initSearch();
@@ -654,9 +652,16 @@ function closePanel() {
   if (root) update(root);
 }
 
-// Keyboard: Escape closes panel
+// Keyboard: Escape closes panels
 document.addEventListener("keydown", function(e) {
-  if (e.key === "Escape") closePanel();
+  if (e.key === "Escape") {
+    var notesPanel = document.getElementById("notes-panel");
+    if (notesPanel && notesPanel.classList.contains("open")) {
+      toggleNotesPanel();
+    } else {
+      closePanel();
+    }
+  }
 });
 
 // Wire close button once DOM is ready
@@ -808,19 +813,15 @@ function goDark() {
   var body = document.body;
   var isLight = body.classList.toggle("light-mode");
   localStorage.setItem("theme", isLight ? "light" : "dark");
-  var btn = document.getElementById("theme-toggle");
+  var btn = document.getElementById("header-theme-toggle");
   if (btn) {
-    btn.textContent = isLight ? "Switch to dark mode" : "Switch to light mode";
-  }
-  var mBtn = document.getElementById("mobile-theme-toggle");
-  if (mBtn) {
-    mBtn.textContent = isLight ? "Dark Mode" : "Light Mode";
+    btn.textContent = isLight ? "Dark Mode" : "Light Mode";
   }
   // Re-render to pick up new CSS variable values for D3 inline styles.
   update(root);
 }
 
-// Mobile notes panel toggle
+// Notes panel toggle
 function toggleNotesPanel() {
   var panel = document.getElementById("notes-panel");
   var overlay = document.getElementById("notes-overlay");
