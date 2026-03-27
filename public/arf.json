@@ -2143,7 +2143,7 @@
                   "registration": true,
                   "editUrl": false,
                   "api": false,
-                  "invitationOnly": true,
+                  "invitationOnly": false,
                   "deprecated": false
                 },
                 {
