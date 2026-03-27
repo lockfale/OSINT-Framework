@@ -110,7 +110,7 @@ d3.json("arf.json").then(function(json) {
   var k = Math.min((svgW - pad * 2) / bw, (svgH - pad * 2) / bh, 3);
   var cx = (minY + maxY) / 2;
   var cy = (minX + maxX) / 2;
-  var tx = svgW / 2 - margin[3] - cx * k;
+  var tx = pad - minY * k;
   var ty = svgH / 2 - margin[0] - cy * k;
   svgEl.call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(k));
 
