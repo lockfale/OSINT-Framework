@@ -70,6 +70,8 @@ body {
   color: var(--color-text-primary);
   font-size: var(--font-size-base);
   font-family: var(--font-family);
+  margin: 0;
+  overflow: hidden;
 }
 
 noscript p {
@@ -94,7 +96,8 @@ noscript p {
 svg {
   display: block;
   width: 100%;
-  height: auto;
+  /* Fill remaining viewport height below header + search bar */
+  height: calc(100vh - 120px);
   cursor: grab;
 }
 
@@ -109,7 +112,6 @@ svg:active {
   position: relative;
   font-size: var(--font-size-xl);
   font-weight: bold;
-  top: 20px;
   text-align: center;
   color: var(--color-header);
   padding: var(--space-2) var(--space-4);
@@ -393,10 +395,6 @@ a {
     padding: var(--space-2) var(--space-3);
   }
 
-  #header hr {
-    display: none;
-  }
-
   #header-actions {
     right: var(--space-3);
   }
@@ -417,7 +415,7 @@ a {
 
   /* Maximize SVG tree viewport */
   svg {
-    min-height: 60vh;
+    height: calc(100vh - 80px);
   }
 
   /* Floating notes button (mobile only) */
