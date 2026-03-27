@@ -673,81 +673,102 @@ document.addEventListener("DOMContentLoaded", function() {
 // Canvas click: close panel when clicking the SVG background (not a node)
 // This is wired after svgEl is created (see below in the zoom setup area).
 
-// === Community Voting (THE-109) ===
+// === Community Rating (THE-122) ===
 
 /**
- * Render the vote UI for the given node.
- * Reads cached vote state from sessionStorage to avoid a round-trip on reopen,
- * then asynchronously fetches the live score from /api/tool-stats.
+ * Render the 5-star rating UI for the given node.
+ * Reads cached rating from sessionStorage, then fetches live average from /api/tool-stats.
  */
 function _renderVoteUI(d) {
   var toolId = parseName(d.data.name).cleanName;
 
-  // Reset button states
-  var upBtn = document.getElementById("vote-up");
-  var downBtn = document.getElementById("vote-down");
-  var scoreEl = document.getElementById("vote-score");
-  if (!upBtn || !downBtn || !scoreEl) return;
+  var stars = document.querySelectorAll("#star-rating .star-btn");
+  var avgEl = document.getElementById("rating-avg");
+  var ratingSection = document.getElementById("panel-rating-section");
+  if (!stars.length || !avgEl) return;
 
-  upBtn.classList.remove("active");
-  downBtn.classList.remove("active");
-  scoreEl.className = "vote-score zero";
-  scoreEl.textContent = "…";
+  // Reset state
+  _applyStarFill(stars, 0, null);
+  avgEl.textContent = "\u2026";
+  if (ratingSection) ratingSection.classList.remove("empty");
 
-  // Read cached user vote from sessionStorage
-  var userVote = sessionStorage.getItem("vote:" + toolId) || null;
-  if (userVote === "up") upBtn.classList.add("active");
-  if (userVote === "down") downBtn.classList.add("active");
+  // Read cached user rating from sessionStorage
+  var cached = sessionStorage.getItem("rating:" + toolId);
+  var userRating = cached ? parseInt(cached, 10) : null;
+  if (userRating) _applyStarFill(stars, userRating, userRating);
 
-  // Re-bind vote buttons for this tool
-  upBtn.onclick = function() { _castVote(toolId, "up", upBtn, downBtn, scoreEl); };
-  downBtn.onclick = function() { _castVote(toolId, "down", upBtn, downBtn, scoreEl); };
+  // Wire hover and click events for this tool
+  Array.prototype.forEach.call(stars, function(btn) {
+    var n = parseInt(btn.getAttribute("data-star"), 10);
 
-  // Fetch live score asynchronously
+    btn.onmouseenter = function() { _applyStarFill(stars, n, userRating); };
+    btn.onmouseleave = function() { _applyStarFill(stars, userRating || 0, userRating); };
+    btn.onclick = function() {
+      userRating = _castRating(toolId, n, userRating, stars, avgEl);
+    };
+  });
+
+  // Fetch live average asynchronously
   fetch("/api/tool-stats?tool_id=" + encodeURIComponent(toolId))
     .then(function(r) { return r.ok ? r.json() : null; })
     .then(function(data) {
-      if (!data || !data.votes) return;
-      _updateScoreDisplay(scoreEl, data.votes.score);
+      if (!data || !data.ratings) return;
+      _updateRatingDisplay(avgEl, data.ratings.average, data.ratings.count);
     })
     .catch(function() { /* best effort */ });
 }
 
 /**
- * Cast or toggle a vote.
+ * Apply filled/user-rated CSS classes to the star buttons.
+ * @param {NodeList} stars
+ * @param {number} fillUpTo - highlight stars 1 through fillUpTo
+ * @param {number|null} userRating - the user's current saved rating (shown distinctly)
  */
-function _castVote(toolId, direction, upBtn, downBtn, scoreEl) {
-  var session = sessionStorage.getItem("osint-session") || "";
-  var currentVote = sessionStorage.getItem("vote:" + toolId) || null;
+function _applyStarFill(stars, fillUpTo, userRating) {
+  Array.prototype.forEach.call(stars, function(btn) {
+    var n = parseInt(btn.getAttribute("data-star"), 10);
+    btn.classList.toggle("filled", n <= fillUpTo);
+    btn.classList.toggle("user-rated", userRating !== null && n <= userRating && n <= fillUpTo);
+  });
+}
 
-  // Toggle off if same direction
-  var newDirection = (direction === currentVote) ? null : direction;
+/**
+ * Cast or toggle a star rating.
+ * Returns the new userRating value (number or null).
+ */
+function _castRating(toolId, star, currentRating, stars, avgEl) {
+  var session = sessionStorage.getItem("osint-session") || "";
+  // Toggle off if clicking the same star
+  var newRating = (star === currentRating) ? null : star;
 
   fetch("/api/vote", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ tool_id: toolId, direction: newDirection, session_hash: session })
+    body: JSON.stringify({ tool_id: toolId, rating: newRating, session_hash: session })
   })
     .then(function(r) { return r.ok ? r.json() : null; })
     .then(function(data) {
       if (!data || !data.ok) return;
-      // Update sessionStorage
-      if (data.userVote) {
-        sessionStorage.setItem("vote:" + toolId, data.userVote);
+      var saved = data.userRating || null;
+      if (saved) {
+        sessionStorage.setItem("rating:" + toolId, String(saved));
       } else {
-        sessionStorage.removeItem("vote:" + toolId);
+        sessionStorage.removeItem("rating:" + toolId);
       }
-      // Update button states
-      upBtn.classList.toggle("active", data.userVote === "up");
-      downBtn.classList.toggle("active", data.userVote === "down");
-      _updateScoreDisplay(scoreEl, data.score);
+      _applyStarFill(stars, saved || 0, saved);
+      _updateRatingDisplay(avgEl, data.average, data.count);
     })
     .catch(function() { /* best effort */ });
+
+  return newRating;
 }
 
-function _updateScoreDisplay(scoreEl, score) {
-  scoreEl.textContent = score > 0 ? "+" + score : String(score);
-  scoreEl.className = "vote-score " + (score > 0 ? "positive" : score < 0 ? "negative" : "zero");
+function _updateRatingDisplay(avgEl, average, count) {
+  if (!count || count === 0) {
+    avgEl.textContent = "No ratings yet";
+    return;
+  }
+  avgEl.textContent = average.toFixed(1) + " (" + count + ")";
 }
 
 // === Issue Reporting (THE-110) ===

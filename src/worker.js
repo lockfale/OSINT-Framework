@@ -4,7 +4,7 @@
  * API routes (all others fall through to static assets):
  *   POST /api/track       – fire-and-forget click tracking
  *   GET  /api/tool-stats  – per-tool click + vote counts
- *   POST /api/vote        – community upvote / downvote
+ *   POST /api/vote        – community 5-star rating
  *   POST /api/report      – flag dead link / paywalled / incorrect info
  *
  * KV binding: CLICK_DATA  (configured in wrangler.jsonc + Pages dashboard)
@@ -15,7 +15,7 @@
  *   - No cookies used or set
  *   - session_hash is client-generated and ephemeral (sessionStorage)
  *   - Rate-limit key TTL: 2 min (60 req/min ceiling per session_hash)
- *   - Vote dedup: permanent per session (sessionStorage already limits scope)
+ *   - Rating dedup: permanent per session (sessionStorage already limits scope)
  *   - Report dedup key TTL: 7 days (prevents same session from inflating counts)
  */
 
@@ -134,10 +134,10 @@ async function handleTrack(request, env) {
 
 /**
  * POST /api/vote
- * Body: { tool_id: string, direction: "up" | "down" | null, session_hash: string }
- *   direction=null removes the current vote (toggle off)
+ * Body: { tool_id: string, rating: 1|2|3|4|5|null, session_hash: string }
+ *   rating=null removes the current rating (toggle off)
  *
- * Returns: { ok: true, score: number, userVote: "up" | "down" | null }
+ * Returns: { ok: true, average: number, count: number, userRating: number|null }
  */
 async function handleVote(request, env) {
   const origin = request.headers.get("Origin") || "";
@@ -149,15 +149,15 @@ async function handleVote(request, env) {
     return jsonResponse({ ok: false, error: "invalid json" }, 400, origin);
   }
 
-  const { tool_id, direction, session_hash } = body;
+  const { tool_id, rating, session_hash } = body;
   const validationError = validateCommon(tool_id, session_hash);
   if (validationError) {
     return jsonResponse({ ok: false, error: validationError }, 400, origin);
   }
 
-  if (direction !== "up" && direction !== "down" && direction !== null) {
+  if (rating !== null && (!Number.isInteger(rating) || rating < 1 || rating > 5)) {
     return jsonResponse(
-      { ok: false, error: "direction must be 'up', 'down', or null" },
+      { ok: false, error: "rating must be an integer 1-5 or null" },
       400,
       origin
     );
@@ -167,50 +167,54 @@ async function handleVote(request, env) {
     return jsonResponse({ ok: false, error: "rate limited" }, 429, origin);
   }
 
-  const userVoteKey = `uservote:${session_hash}:${tool_id}`;
-  const upKey = `votes:up:${tool_id}`;
-  const downKey = `votes:down:${tool_id}`;
+  const userRatingKey = `rating:${session_hash}:${tool_id}`;
+  const sumKey = `ratings:sum:${tool_id}`;
+  const countKey = `ratings:count:${tool_id}`;
 
   // Read current state in parallel
-  const [prevVoteRaw, upRaw, downRaw] = await Promise.all([
-    env.CLICK_DATA.get(userVoteKey),
-    env.CLICK_DATA.get(upKey),
-    env.CLICK_DATA.get(downKey),
+  const [prevRatingRaw, sumRaw, countRaw] = await Promise.all([
+    env.CLICK_DATA.get(userRatingKey),
+    env.CLICK_DATA.get(sumKey),
+    env.CLICK_DATA.get(countKey),
   ]);
 
-  const prevVote = prevVoteRaw; // "up", "down", or null
-  let upCount = upRaw ? parseInt(upRaw, 10) : 0;
-  let downCount = downRaw ? parseInt(downRaw, 10) : 0;
+  const prevRating = prevRatingRaw ? parseInt(prevRatingRaw, 10) : null;
+  let sum = sumRaw ? parseInt(sumRaw, 10) : 0;
+  let count = countRaw ? parseInt(countRaw, 10) : 0;
 
-  // Determine the new vote:
-  // If same direction is sent again, treat as toggle-off (remove vote)
-  let newVote = direction;
-  if (direction !== null && direction === prevVote) {
-    newVote = null; // toggle off
+  // Toggle off if same rating submitted again
+  let newRating = rating;
+  if (rating !== null && rating === prevRating) {
+    newRating = null;
   }
 
-  // Undo previous vote
-  if (prevVote === "up") upCount = Math.max(0, upCount - 1);
-  if (prevVote === "down") downCount = Math.max(0, downCount - 1);
+  // Undo previous rating
+  if (prevRating !== null) {
+    sum = Math.max(0, sum - prevRating);
+    count = Math.max(0, count - 1);
+  }
 
-  // Apply new vote
-  if (newVote === "up") upCount++;
-  if (newVote === "down") downCount++;
+  // Apply new rating
+  if (newRating !== null) {
+    sum += newRating;
+    count++;
+  }
 
   // Persist
   const writes = [
-    env.CLICK_DATA.put(upKey, String(upCount)),
-    env.CLICK_DATA.put(downKey, String(downCount)),
+    env.CLICK_DATA.put(sumKey, String(sum)),
+    env.CLICK_DATA.put(countKey, String(count)),
   ];
-  if (newVote === null) {
-    writes.push(env.CLICK_DATA.delete(userVoteKey));
+  if (newRating === null) {
+    writes.push(env.CLICK_DATA.delete(userRatingKey));
   } else {
-    writes.push(env.CLICK_DATA.put(userVoteKey, newVote));
+    writes.push(env.CLICK_DATA.put(userRatingKey, String(newRating)));
   }
   await Promise.all(writes);
 
+  const average = count > 0 ? Math.round((sum / count) * 10) / 10 : 0;
   return jsonResponse(
-    { ok: true, score: upCount - downCount, userVote: newVote },
+    { ok: true, average, count, userRating: newRating },
     200,
     origin
   );
@@ -339,7 +343,7 @@ async function createGitHubIssue(env, tool_id, report_type, count) {
 /**
  * GET /api/tool-stats?tool_id=<name>
  *
- * Returns: { tool_id: string, clicks: number, votes: { up: number, down: number, score: number } }
+ * Returns: { tool_id: string, clicks: number, ratings: { average: number, count: number } }
  */
 async function handleStats(request, env) {
   const origin = request.headers.get("Origin") || "";
@@ -350,18 +354,19 @@ async function handleStats(request, env) {
     return jsonResponse({ ok: false, error: "invalid tool_id" }, 400, origin);
   }
 
-  const [clicksRaw, upRaw, downRaw] = await Promise.all([
+  const [clicksRaw, sumRaw, countRaw] = await Promise.all([
     env.CLICK_DATA.get(`clicks:${tool_id}`),
-    env.CLICK_DATA.get(`votes:up:${tool_id}`),
-    env.CLICK_DATA.get(`votes:down:${tool_id}`),
+    env.CLICK_DATA.get(`ratings:sum:${tool_id}`),
+    env.CLICK_DATA.get(`ratings:count:${tool_id}`),
   ]);
 
   const clicks = clicksRaw ? parseInt(clicksRaw, 10) : 0;
-  const up = upRaw ? parseInt(upRaw, 10) : 0;
-  const down = downRaw ? parseInt(downRaw, 10) : 0;
+  const sum = sumRaw ? parseInt(sumRaw, 10) : 0;
+  const count = countRaw ? parseInt(countRaw, 10) : 0;
+  const average = count > 0 ? Math.round((sum / count) * 10) / 10 : 0;
 
   return jsonResponse(
-    { tool_id, clicks, votes: { up, down, score: up - down } },
+    { tool_id, clicks, ratings: { average, count } },
     200,
     origin
   );
