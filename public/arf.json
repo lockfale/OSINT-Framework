@@ -2996,7 +2996,22 @@
             {
               "name": "What Font Is",
               "type": "url",
-              "url": "https://www.whatfontis.com/"
+              "url": "https://www.whatfontis.com/",
+              "description": "AI-powered font identification tool that analyzes images against a database of 1.2M+ typefaces to identify fonts.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Identifying fonts from screenshots and images",
+              "input": "Image files containing text (uploaded via drag-and-drop or file picker)",
+              "output": "Font matches with design details, download links, and up to 60+ similar alternatives",
+              "opsec": "passive",
+              "opsecNote": "Uploads images to remote servers; consider OPSEC implications for sensitive screenshots or documents.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": true,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         }
