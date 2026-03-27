@@ -4795,16 +4795,6 @@
               "url": "https://www.izito.com/"
             },
             {
-              "name": "Bing vs. Google",
-              "type": "url",
-              "url": "https://bvsg.org/"
-            },
-            {
-              "name": "Ixquick Search Engine",
-              "type": "url",
-              "url": "https://www.ixquick.com/"
-            },
-            {
               "name": "Advangle",
               "type": "url",
               "url": "https://advangle.com/"
@@ -4846,34 +4836,14 @@
           "type": "folder",
           "children": [
             {
-              "name": "Shuriken",
-              "type": "url",
-              "url": "https://shuriken.pm"
-            },
-            {
-              "name": "iSEEK",
-              "type": "url",
-              "url": "https://iseek.com/iseek/home.page"
-            },
-            {
-              "name": "Biznar",
-              "type": "url",
-              "url": "https://biznar.com/biznar/desktop/en/search.html"
-            },
-            {
               "name": "eTools.ch",
               "type": "url",
               "url": "https://www.etools.ch/"
             },
             {
-              "name": "searx.me",
+              "name": "iSEEK",
               "type": "url",
-              "url": "https://searx.me/"
-            },
-            {
-              "name": "WhosTalkin",
-              "type": "url",
-              "url": "https://www.whostalkin.com/"
+              "url": "https://iseek.com/iseek/home.page"
             }
           ]
         },
