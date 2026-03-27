@@ -5971,9 +5971,7 @@
         {
           "name": "Videos",
           "type": "folder",
-          "children": [
-
-          ]
+          "children": []
         },
         {
           "name": "Analysis",
