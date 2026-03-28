@@ -829,7 +829,22 @@
             {
               "name": "Online Nikto scanner",
               "type": "url",
-              "url": "https://nikto.online/"
+              "url": "https://nikto.online/",
+              "description": "Hosted version of the Nikto web server scanner for identifying vulnerabilities, misconfigurations, and exposed files.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Web server vulnerability scanning",
+              "input": "URLs",
+              "output": "Vulnerability and misconfiguration reports",
+              "opsec": "active",
+              "opsecNote": "Generates noisy scan traffic visible in target server logs; likely to trigger WAF/IDS alerts",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             },
             {
               "name": "urlscan.io",
@@ -1347,27 +1362,102 @@
             {
               "name": "UPcheck",
               "type": "url",
-              "url": "https://upcheck.online/"
+              "url": "https://upcheck.online/",
+              "description": "Website uptime checker that tests if a site is currently accessible.",
+              "status": "down",
+              "pricing": "free",
+              "bestFor": "Quick site availability checks",
+              "input": "URL/domain",
+              "output": "Up/down status",
+              "opsec": "passive",
+              "opsecNote": "No identification risk; passive status check only",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": true
             },
             {
               "name": "Follow That Page",
               "type": "url",
-              "url": "https://www.followthatpage.com/"
+              "url": "https://www.followthatpage.com/",
+              "description": "Website change detection service that monitors pages for updates and sends email notifications.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Website monitoring for content changes",
+              "input": "URLs",
+              "output": "Change alerts via email",
+              "opsec": "passive",
+              "opsecNote": "No direct identification risk; third-party service tracks monitored URLs",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             },
             {
               "name": "Urlwatch",
               "type": "url",
-              "url": "https://github.com/thp/urlwatch"
+              "url": "https://github.com/thp/urlwatch",
+              "description": "Open-source Python CLI tool for monitoring websites and local documents for changes with flexible notification options.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Automated change monitoring with custom notifications",
+              "input": "URLs or local files",
+              "output": "Change reports and diffs",
+              "opsec": "passive",
+              "opsecNote": "Local execution only; no external tracking of monitored targets",
+              "localInstall": true,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             },
             {
               "name": "WatchThatPage",
               "type": "url",
-              "url": "https://watchthatpage.com/"
+              "url": "https://watchthatpage.com/",
+              "description": "Web-based page monitoring service with keyword filtering and change notification alerts.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Change detection with keyword filtering",
+              "input": "URLs and keywords",
+              "output": "Change alerts",
+              "opsec": "passive",
+              "opsecNote": "No direct identification; third-party service stores monitored URLs",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             },
             {
               "name": "ChangeDetect",
               "type": "url",
-              "url": "https://changedetection.io/"
+              "url": "https://changedetection.io/",
+              "description": "SaaS and self-hosted website monitoring platform with 85+ notification integrations.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Scalable change detection with broad notification support",
+              "input": "URLs",
+              "output": "Change notifications",
+              "opsec": "passive",
+              "opsecNote": "No identification risk; can be self-hosted for full control",
+              "localInstall": true,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
@@ -1378,7 +1468,22 @@
             {
               "name": "Google Trends",
               "type": "url",
-              "url": "https://trends.google.com/trends/"
+              "url": "https://trends.google.com/trends/",
+              "description": "Google's search trend analysis tool for tracking keyword popularity and comparing search interest over time.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Search trend analysis and keyword research",
+              "input": "Keywords or domains",
+              "output": "Trend data and comparative interest graphs",
+              "opsec": "passive",
+              "opsecNote": "Google-tracked; your queries may be associated with your account or IP",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
@@ -1389,12 +1494,42 @@
             {
               "name": "DNSSEC Analyzer",
               "type": "url",
-              "url": "https://dnssec-analyzer.verisignlabs.com/"
+              "url": "https://dnssec-analyzer.verisignlabs.com/",
+              "description": "Verisign's DNSSEC validation tool that checks the DNSSEC chain of trust for a domain.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "DNSSEC chain-of-trust validation",
+              "input": "Domain names",
+              "output": "DNSSEC validation status and chain details",
+              "opsec": "passive",
+              "opsecNote": "No identification risk; passive DNS lookup",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             },
             {
               "name": "DNSViz",
               "type": "url",
-              "url": "https://dnsviz.net/"
+              "url": "https://dnsviz.net/",
+              "description": "Open-source web-based DNSSEC visualization tool that maps the DNS delegation chain and trust anchors.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Visual DNSSEC debugging and delegation chain analysis",
+              "input": "Domain names",
+              "output": "Interactive DNS chain diagrams",
+              "opsec": "passive",
+              "opsecNote": "No identification risk; passive DNS query",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
@@ -1409,17 +1544,62 @@
                 {
                   "name": "Sn1per (T)",
                   "type": "url",
-                  "url": "https://github.com/1N3/Sn1per"
+                  "url": "https://github.com/1N3/Sn1per",
+                  "description": "Automated reconnaissance and penetration testing framework combining multiple scanning tools for full-scope target enumeration.",
+                  "status": "live",
+                  "pricing": "free",
+                  "bestFor": "Full-scope pentest automation and recon",
+                  "input": "Target domains or IPs",
+                  "output": "Recon data, open ports, vulnerabilities, and footprinting results",
+                  "opsec": "active",
+                  "opsecNote": "Generates significant network traffic and alerts; high IDS/WAF detection risk",
+                  "localInstall": true,
+                  "googleDork": false,
+                  "registration": false,
+                  "editUrl": false,
+                  "api": true,
+                  "invitationOnly": false,
+                  "deprecated": false
                 },
                 {
                   "name": "Online Nikto scanner",
                   "type": "url",
-                  "url": "https://nikto.online/"
+                  "url": "https://nikto.online/",
+                  "description": "Hosted version of the Nikto web server scanner for identifying vulnerabilities, misconfigurations, and exposed files.",
+                  "status": "live",
+                  "pricing": "free",
+                  "bestFor": "Web server vulnerability scanning",
+                  "input": "URLs",
+                  "output": "Vulnerability and misconfiguration reports",
+                  "opsec": "active",
+                  "opsecNote": "Generates noisy scan traffic visible in target server logs; likely to trigger WAF/IDS alerts",
+                  "localInstall": false,
+                  "googleDork": false,
+                  "registration": false,
+                  "editUrl": false,
+                  "api": false,
+                  "invitationOnly": false,
+                  "deprecated": false
                 },
                 {
                   "name": "Web Data Exposure Scanner (T)",
                   "type": "url",
-                  "url": "https://github.com/eduardoit/web-data-exposure-scanner"
+                  "url": "https://github.com/eduardoit/web-data-exposure-scanner",
+                  "description": "Open-source scanner for detecting exposed web application data and sensitive file disclosures on web servers.",
+                  "status": "live",
+                  "pricing": "free",
+                  "bestFor": "Detecting exposed sensitive data on web servers",
+                  "input": "URLs/domains",
+                  "output": "Exposed data findings",
+                  "opsec": "active",
+                  "opsecNote": "Active scanning may generate server logs and trigger alerts",
+                  "localInstall": true,
+                  "googleDork": false,
+                  "registration": false,
+                  "editUrl": false,
+                  "api": false,
+                  "invitationOnly": false,
+                  "deprecated": false
                 }
               ]
             },
@@ -1430,14 +1610,44 @@
                 {
                   "name": "Zone-H.org",
                   "type": "url",
-                  "url": "https://zone-h.org/archive"
+                  "url": "https://zone-h.org/archive",
+                  "description": "Website defacement archive and defacer tracking database with historical records of compromised sites.",
+                  "status": "live",
+                  "pricing": "free",
+                  "bestFor": "Defacement history and attacker identification",
+                  "input": "Domains",
+                  "output": "Defacement records and defacer profiles",
+                  "opsec": "passive",
+                  "opsecNote": "Historical archive lookup; no active probing of targets",
+                  "localInstall": false,
+                  "googleDork": false,
+                  "registration": false,
+                  "editUrl": false,
+                  "api": true,
+                  "invitationOnly": false,
+                  "deprecated": false
                 }
               ]
             },
             {
               "name": "RobotsDisallowed",
               "type": "url",
-              "url": "https://github.com/danielmiessler/RobotsDisallowed"
+              "url": "https://github.com/danielmiessler/RobotsDisallowed",
+              "description": "Curated wordlist of top disallowed paths harvested from robots.txt files across high-traffic websites.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "robots.txt enumeration and directory discovery",
+              "input": "Used as wordlist input for directory brute-forcing",
+              "output": "Directory path wordlist",
+              "opsec": "passive",
+              "opsecNote": "Passive wordlist only; no requests made to target during list use",
+              "localInstall": true,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
@@ -1448,32 +1658,122 @@
             {
               "name": "Belati (T)",
               "type": "url",
-              "url": "https://github.com/aancw/Belati"
+              "url": "https://github.com/aancw/Belati",
+              "description": "Open-source OSINT data collection and automation framework for gathering information from multiple sources.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Multi-source OSINT collection automation",
+              "input": "Domains and targets",
+              "output": "Aggregated OSINT data",
+              "opsec": "passive",
+              "opsecNote": "Primarily passive; behavior depends on configured modules",
+              "localInstall": true,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             },
             {
               "name": "Burp Suite (T)",
               "type": "url",
-              "url": "https://portswigger.net/burp"
+              "url": "https://portswigger.net/burp",
+              "description": "Industry-standard web application security testing platform for manual and automated vulnerability assessment.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Web application penetration testing",
+              "input": "Web applications and URLs",
+              "output": "Security findings, intercepted traffic, and vulnerability reports",
+              "opsec": "active",
+              "opsecNote": "Full active scanning; generates extensive server logs and may trigger WAF/IDS alerts",
+              "localInstall": true,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             },
             {
               "name": "EyeWitness (T)",
               "type": "url",
-              "url": "https://github.com/ChrisTruncer/EyeWitness"
+              "url": "https://github.com/ChrisTruncer/EyeWitness",
+              "description": "Open-source tool for automated website screenshotting, service header collection, and default credential identification.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Visual site enumeration and credential identification",
+              "input": "URL lists",
+              "output": "Screenshots, headers, and default credential matches",
+              "opsec": "passive",
+              "opsecNote": "HTTP requests visible in target server logs; screenshots leave network footprint",
+              "localInstall": true,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             },
             {
               "name": "Hunting-New-Registered-Domains (T)",
               "type": "url",
-              "url": "https://github.com/gfek/Hunting-New-Registered-Domains"
+              "url": "https://github.com/gfek/Hunting-New-Registered-Domains",
+              "description": "Open-source tool for identifying newly registered domains matching patterns, useful for phishing and brand threat detection.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Phishing domain detection and brand threat monitoring",
+              "input": "Domain patterns or keywords",
+              "output": "List of newly registered matching domains",
+              "opsec": "passive",
+              "opsecNote": "WHOIS queries may create observable patterns; otherwise passive",
+              "localInstall": true,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             },
             {
               "name": "International Domain Name Conversion Tool",
               "type": "url",
-              "url": "https://mct.verisign-grs.com/"
+              "url": "https://mct.verisign-grs.com/",
+              "description": "Verisign's IDN/Punycode bidirectional converter for translating international domain names to and from ASCII-compatible encoding.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "IDN and Punycode domain analysis",
+              "input": "International or Punycode domain names",
+              "output": "Converted domain equivalents",
+              "opsec": "passive",
+              "opsecNote": "No identification risk; local conversion tool",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             },
             {
               "name": "Online Nikto scanner",
               "type": "url",
-              "url": "https://nikto.online/"
+              "url": "https://nikto.online/",
+              "description": "Hosted version of the Nikto web server scanner for identifying vulnerabilities, misconfigurations, and exposed files.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Web server vulnerability scanning",
+              "input": "URLs",
+              "output": "Vulnerability and misconfiguration reports",
+              "opsec": "active",
+              "opsecNote": "Generates noisy scan traffic visible in target server logs; likely to trigger WAF/IDS alerts",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
@@ -1484,12 +1784,42 @@
             {
               "name": "Windows Defender Security Intelligence (WDSI)",
               "type": "url",
-              "url": "https://www.microsoft.com/en-us/wdsi"
+              "url": "https://www.microsoft.com/en-us/wdsi",
+              "description": "Microsoft's security intelligence portal for reporting malicious URLs and checking Windows Defender threat assessments.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Reporting malicious sites to Microsoft and checking URL threat status",
+              "input": "URLs",
+              "output": "Threat status and submission confirmation",
+              "opsec": "passive",
+              "opsecNote": "Microsoft-tracked; submissions aggregated for threat intelligence",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             },
             {
               "name": "Google Safe Browsing",
               "type": "url",
-              "url": "https://safebrowsing.google.com/"
+              "url": "https://safebrowsing.google.com/",
+              "description": "Google's phishing and malware reporting portal for submitting suspicious URLs for review.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Reporting malicious sites to Google and checking URL safety status",
+              "input": "URLs",
+              "output": "Safety status and submission confirmation",
+              "opsec": "passive",
+              "opsecNote": "Google-tracked; searches and submissions aggregated at scale",
+              "localInstall": false,
+              "googleDork": true,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         }
@@ -4103,12 +4433,12 @@
           "url": "https://www.brbpub.com/"
         },
         {
-          "name": "GOVDATA - Das Datenportal für Deutschland (German)",
+          "name": "GOVDATA - Das Datenportal f\u00fcr Deutschland (German)",
           "type": "url",
           "url": "https://www.govdata.de/"
         },
         {
-          "name": "Open-Data-Portal München (German)",
+          "name": "Open-Data-Portal M\u00fcnchen (German)",
           "type": "url",
           "url": "https://www.opengov-muenchen.de/"
         },
@@ -7733,7 +8063,7 @@
               "url": "https://themanyhats.club/centralised-place-for-privacy-resources/"
             },
             {
-              "name": "The Hitchhiker’s Guide to Online Anonymity",
+              "name": "The Hitchhiker\u2019s Guide to Online Anonymity",
               "type": "url",
               "url": "https://anonymousplanet.org/guide/"
             },
