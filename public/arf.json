@@ -2328,11 +2328,6 @@
                   "name": "Metadata2Go",
                   "type": "url",
                   "url": "https://www.metadata2go.com/"
-                },
-                {
-                  "name": "Get-Metadata",
-                  "type": "url",
-                  "url": "https://www.get-metadata.com/"
                 }
               ]
             },
@@ -2344,11 +2339,6 @@
                   "name": "Ghiro (T)",
                   "type": "url",
                   "url": "https://getghiro.org/"
-                },
-                {
-                  "name": "Camera Trace",
-                  "type": "url",
-                  "url": "https://www.cameratrace.com/trace"
                 },
                 {
                   "name": "Forensically",
@@ -2465,11 +2455,6 @@
               "name": "Analyze / Record",
               "type": "folder",
               "children": [
-                {
-                  "name": "DetURL",
-                  "type": "url",
-                  "url": "https://deturl.com/"
-                },
                 {
                   "name": "Print YouTube StoryBoard Instructions",
                   "type": "url",
