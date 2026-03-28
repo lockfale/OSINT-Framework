@@ -1345,7 +1345,7 @@
               "url": "https://visualping.io/"
             },
             {
-              "name": "Check site availability Online",
+              "name": "UPcheck",
               "type": "url",
               "url": "https://upcheck.online/"
             },
@@ -1367,7 +1367,7 @@
             {
               "name": "ChangeDetect",
               "type": "url",
-              "url": "https://www.eatgrainmaker.com/home/"
+              "url": "https://changedetection.io/"
             }
           ]
         },
@@ -1417,7 +1417,7 @@
                   "url": "https://nikto.online/"
                 },
                 {
-                  "name": "WDES - Web Data Exposure Scanner (T)",
+                  "name": "Web Data Exposure Scanner (T)",
                   "type": "url",
                   "url": "https://github.com/eduardoit/web-data-exposure-scanner"
                 }
@@ -1482,14 +1482,14 @@
           "type": "folder",
           "children": [
             {
-              "name": "Microsoft",
+              "name": "Windows Defender Security Intelligence (WDSI)",
               "type": "url",
-              "url": "https://www.microsoft.com/en-us/wdsi/support/report-unsafe-site-guest"
+              "url": "https://www.microsoft.com/en-us/wdsi"
             },
             {
-              "name": "Google",
+              "name": "Google Safe Browsing",
               "type": "url",
-              "url": "https://safebrowsing.google.com/safebrowsing/report_phish/?hl=en"
+              "url": "https://safebrowsing.google.com/"
             }
           ]
         }
