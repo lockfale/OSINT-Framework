@@ -11,6 +11,26 @@
           "type": "folder",
           "children": [
             {
+              "name": "WhatsMyName",
+              "type": "url",
+              "url": "https://whatsmyname.app/",
+              "description": "Free web-based OSINT username enumeration tool that searches for a specified username across 1500+ websites and platforms simultaneously, returning direct links to matching profiles.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Quick web-based username enumeration across social media, forums, gaming platforms, and professional networks",
+              "input": "Username",
+              "output": "List of sites where the username exists with direct profile links",
+              "opsec": "active",
+              "opsecNote": "Makes HTTP requests to each target site to check for username existence, however it does it from WhatsMyName infrastructure.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "WhatsMyName (T)",
               "type": "url",
               "url": "https://github.com/WebBreacher/WhatsMyName",
