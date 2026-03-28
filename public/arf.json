@@ -6352,22 +6352,17 @@
                 {
                   "name": "Hachoir (T)",
                   "type": "url",
-                  "url": "https://github.com/vstinner/hachoir"
+                  "url": "https://hachoir.readthedocs.io/"
                 },
                 {
                   "name": "C2PA Verify",
                   "type": "url",
-                  "url": "https://contentcredentials.org/verify"
+                  "url": "https://c2paviewer.com/"
                 },
                 {
                   "name": "Metadata2Go",
                   "type": "url",
                   "url": "https://www.metadata2go.com/"
-                },
-                {
-                  "name": "Get-Metadata",
-                  "type": "url",
-                  "url": "https://www.get-metadata.com/"
                 }
               ]
             },
@@ -6378,12 +6373,7 @@
                 {
                   "name": "Ghiro (T)",
                   "type": "url",
-                  "url": "https://github.com/ghirensics/ghiro"
-                },
-                {
-                  "name": "Camera Trace",
-                  "type": "url",
-                  "url": "https://www.cameratrace.com/trace"
+                  "url": "https://getghiro.org/"
                 },
                 {
                   "name": "Forensically",
@@ -6396,11 +6386,6 @@
               "name": "OCR",
               "type": "folder",
               "children": [
-                {
-                  "name": "Online OCR",
-                  "type": "url",
-                  "url": "https://www.sodapdf.com/pdf-tools/ocr-pdf/"
-                },
                 {
                   "name": "i2OCR",
                   "type": "url",
@@ -6425,7 +6410,7 @@
                 {
                   "name": "Creepy (T)",
                   "type": "url",
-                  "url": "https://www.geocreepy.com/"
+                  "url": "https://github.com/ilektrojohn/creepy"
                 }
               ]
             }
@@ -6442,7 +6427,7 @@
                 {
                   "name": "Google Videos",
                   "type": "url",
-                  "url": "https://www.google.com/videohp?gws_rd=ssl"
+                  "url": "https://www.google.com/videohp"
                 },
                 {
                   "name": "Bing Videos",
@@ -6452,7 +6437,7 @@
                 {
                   "name": "Internet Archive Videos",
                   "type": "url",
-                  "url": "https://archive.org/details/opensource_movies"
+                  "url": "https://archive.org/details/movies"
                 },
                 {
                   "name": "Vines (D)",
@@ -6460,14 +6445,14 @@
                   "url": "https://www.google.com/search?q=site:vine.co+%3Csearchterm%3E"
                 },
                 {
-                  "name": "Dogpile Web Search",
+                  "name": "Dogpile",
                   "type": "url",
                   "url": "https://www.dogpile.com/"
                 },
                 {
                   "name": "Geo Search Tool",
                   "type": "url",
-                  "url": "https://www.geosearchtool.com/"
+                  "url": "https://youtube.github.io/geo-search-tool/"
                 },
                 {
                   "name": "blinkx Video Search",
@@ -6477,17 +6462,17 @@
                 {
                   "name": "Facebook Live Map",
                   "type": "url",
-                  "url": "https://www.facebook.com/watch/live/?ref=live_delegate"
+                  "url": "https://facebook.com/live"
                 },
                 {
-                  "name": "LiveLeak",
+                  "name": "LiveLeak (D)",
                   "type": "url",
                   "url": "https://www.liveleak.com/"
                 },
                 {
                   "name": "Metatube",
                   "type": "url",
-                  "url": "https://www.metatube.com/"
+                  "url": "https://github.com/JVT038/MetaTube"
                 },
                 {
                   "name": "Yahoo Video Search",
@@ -6497,7 +6482,7 @@
                 {
                   "name": "Search YouTube by Location",
                   "type": "url",
-                  "url": "https://mattw.io/youtube-geofind/location"
+                  "url": "https://mattw.io/youtube-geofind/"
                 }
               ]
             },
@@ -6505,11 +6490,6 @@
               "name": "Analyze / Record",
               "type": "folder",
               "children": [
-                {
-                  "name": "DetURL",
-                  "type": "url",
-                  "url": "https://deturl.com/"
-                },
                 {
                   "name": "Print YouTube StoryBoard Instructions",
                   "type": "url",
@@ -10188,7 +10168,7 @@
             {
               "name": "Online OCR",
               "type": "url",
-              "url": "https://www.sodapdf.com/pdf-tools/ocr-pdf/"
+              "url": "https://www.onlineocr.net/"
             },
             {
               "name": "i2OCR",
@@ -10199,11 +10179,6 @@
               "name": "New OCR",
               "type": "url",
               "url": "https://www.newocr.com/"
-            },
-            {
-              "name": "Online OCR",
-              "type": "url",
-              "url": "https://www.onlineocr.net/"
             }
           ]
         },
