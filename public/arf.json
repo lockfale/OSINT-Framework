@@ -11,7 +11,7 @@
           "type": "folder",
           "children": [
             {
-              "name": "WhatsMyName",
+              "name": "WhatsMyName Web",
               "type": "url",
               "url": "https://whatsmyname.app/",
               "description": "Free web-based OSINT username enumeration tool that searches for a specified username across 1500+ websites and platforms simultaneously, returning direct links to matching profiles.",
