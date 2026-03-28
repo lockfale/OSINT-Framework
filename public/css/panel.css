@@ -21,6 +21,7 @@
   right: 0;
   width: 340px;
   height: 100vh;
+  height: 100dvh;
   background: var(--color-surface);
   border-left: 1px solid var(--color-border);
   box-shadow: var(--shadow-md);
@@ -458,9 +459,14 @@
   #tool-panel {
     width: 100vw;
     height: 100vh;
+    height: 100dvh;
     top: 0;
     right: 0;
     border-left: none;
     border-radius: 0;
+  }
+
+  #panel-overlay.visible {
+    pointer-events: auto;
   }
 }
