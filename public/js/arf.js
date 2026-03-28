@@ -83,6 +83,37 @@ d3.json("arf.json").then(function(json) {
   }
 
   root.children.forEach(collapse);
+
+  // Stretch the viewBox to match the actual rendered aspect ratio so the
+  // zoom-to-fill calculation uses the real visible area, not the fixed
+  // 1280x800 letterboxed region.
+  var rect = svgEl.node().getBoundingClientRect();
+  if (rect.width && rect.height) {
+    svgH = Math.round(svgW * (rect.height / rect.width));
+    svgEl.attr("viewBox", "0 0 " + svgW + " " + svgH);
+  }
+
+  // Run tree layout to get final node positions, then compute zoom from data.
+  tree(root);
+  root.descendants().forEach(function(d) { d.y = d.depth * 180; });
+  var visibleNodes = root.descendants();
+  var minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
+  visibleNodes.forEach(function(d) {
+    if (d.x < minX) minX = d.x;
+    if (d.x > maxX) maxX = d.x;
+    if (d.y < minY) minY = d.y;
+    if (d.y > maxY) maxY = d.y;
+  });
+  var pad = 40;
+  var bw = (maxY - minY) || 1;
+  var bh = (maxX - minX) || 1;
+  var k = Math.min((svgW - pad * 2) / bw, (svgH - pad * 2) / bh, 3);
+  var cx = (minY + maxY) / 2;
+  var cy = (minX + maxX) / 2;
+  var tx = pad - minY * k;
+  var ty = svgH / 2 - margin[0] - cy * k;
+  svgEl.call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(k));
+
   update(root);
   initSearch();
 });
@@ -233,6 +264,19 @@ function toggle(d) {
     d.children = d._children;
     d._children = null;
   }
+}
+
+// Zoom the tree so visible nodes fill the SVG viewport (used on mobile init).
+function zoomToFill() {
+  var bbox = vis.node().getBBox();
+  if (!bbox.width || !bbox.height) return;
+  var pad = 40;
+  var scaleX = (svgW - pad * 2) / bbox.width;
+  var scaleY = (svgH - pad * 2) / bbox.height;
+  var k = Math.min(scaleX, scaleY, 3);
+  var tx = svgW / 2 - (bbox.x + bbox.width / 2) * k - margin[3];
+  var ty = svgH / 2 - (bbox.y + bbox.height / 2) * k - margin[0];
+  svgEl.call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(k));
 }
 
 // Auto-pan viewport to center on a node after expand/click.
@@ -451,6 +495,30 @@ function openPanel(d) {
     var pricingClass = ["free","freemium","paid"].indexOf(pricing) !== -1 ? pricing : "unknown";
     badgeHtml += ' <span class="badge-pill badge-' + pricingClass + '">' + escapeHtml(pricing) + '</span>';
 
+    if (d.data.api === true) {
+      badgeHtml += ' <span class="badge-pill badge-api">API</span>';
+    }
+    if (d.data.invitationOnly === true) {
+      badgeHtml += ' <span class="badge-pill badge-invitation-only">Invite Only</span>';
+    }
+    if (d.data.deprecated === true) {
+      badgeHtml += ' <span class="badge-pill badge-deprecated">Deprecated</span>';
+    }
+    if (d.data.nsfw === true) {
+      badgeHtml += ' <span class="badge-pill badge-nsfw">NSFW</span>';
+    }
+
+    var region = d.data.region;
+    var regionLabel;
+    if (!region || region === "global") {
+      regionLabel = "Global";
+    } else if (Array.isArray(region)) {
+      regionLabel = region.map(function(r) { return r.toUpperCase(); }).join(", ");
+    } else {
+      regionLabel = String(region).toUpperCase();
+    }
+    badgeHtml += ' <span class="badge-pill badge-region">' + escapeHtml(regionLabel) + '</span>';
+
     badgesEl.innerHTML = badgeHtml;
     badgesEl.classList.remove("empty");
   }
@@ -584,98 +652,154 @@ function closePanel() {
   if (root) update(root);
 }
 
-// Keyboard: Escape closes panel
+// Keyboard: Escape closes panels
 document.addEventListener("keydown", function(e) {
-  if (e.key === "Escape") closePanel();
+  if (e.key === "Escape") {
+    var notesPanel = document.getElementById("notes-panel");
+    if (notesPanel && notesPanel.classList.contains("open")) {
+      toggleNotesPanel();
+    } else {
+      closePanel();
+    }
+  }
 });
 
-// Wire close button and overlay once DOM is ready
+// Wire close button once DOM is ready
 document.addEventListener("DOMContentLoaded", function() {
   var closeBtn = document.getElementById("panel-close");
   if (closeBtn) closeBtn.addEventListener("click", closePanel);
-
-  var overlay = document.getElementById("panel-overlay");
-  if (overlay) overlay.addEventListener("click", closePanel);
 });
 
 // Canvas click: close panel when clicking the SVG background (not a node)
 // This is wired after svgEl is created (see below in the zoom setup area).
 
-// === Community Voting (THE-109) ===
+// === Community Rating (THE-122) ===
 
 /**
- * Render the vote UI for the given node.
- * Reads cached vote state from sessionStorage to avoid a round-trip on reopen,
- * then asynchronously fetches the live score from /api/tool-stats.
+ * Render the half-star rating UI for the given node.
+ * Supports 0 to 5 in 0.5 increments. Reads cached rating from sessionStorage,
+ * then fetches live average from /api/tool-stats.
  */
 function _renderVoteUI(d) {
   var toolId = parseName(d.data.name).cleanName;
 
-  // Reset button states
-  var upBtn = document.getElementById("vote-up");
-  var downBtn = document.getElementById("vote-down");
-  var scoreEl = document.getElementById("vote-score");
-  if (!upBtn || !downBtn || !scoreEl) return;
+  var starPositions = document.querySelectorAll("#star-rating .star-pos");
+  var zeroBtn = document.querySelector("#star-rating .star-zero-btn");
+  var avgEl = document.getElementById("rating-avg");
+  var ratingSection = document.getElementById("panel-rating-section");
+  if (!starPositions.length || !avgEl) return;
 
-  upBtn.classList.remove("active");
-  downBtn.classList.remove("active");
-  scoreEl.className = "vote-score zero";
-  scoreEl.textContent = "…";
+  // Reset state
+  _applyStarFill(starPositions, zeroBtn, 0, null);
+  avgEl.textContent = "\u2026";
+  if (ratingSection) ratingSection.classList.remove("empty");
 
-  // Read cached user vote from sessionStorage
-  var userVote = sessionStorage.getItem("vote:" + toolId) || null;
-  if (userVote === "up") upBtn.classList.add("active");
-  if (userVote === "down") downBtn.classList.add("active");
+  // Read cached user rating from sessionStorage
+  var cached = sessionStorage.getItem("rating:" + toolId);
+  var userRating = cached !== null ? parseFloat(cached) : null;
+  if (userRating !== null) _applyStarFill(starPositions, zeroBtn, userRating, userRating);
 
-  // Re-bind vote buttons for this tool
-  upBtn.onclick = function() { _castVote(toolId, "up", upBtn, downBtn, scoreEl); };
-  downBtn.onclick = function() { _castVote(toolId, "down", upBtn, downBtn, scoreEl); };
+  // Wire hover and click for zero button
+  if (zeroBtn) {
+    zeroBtn.onmouseenter = function() { _applyStarFill(starPositions, zeroBtn, 0, userRating); };
+    zeroBtn.onmouseleave = function() {
+      _applyStarFill(starPositions, zeroBtn, userRating !== null ? userRating : -1, userRating);
+    };
+    zeroBtn.onclick = function() {
+      userRating = _castRating(toolId, 0, userRating, starPositions, zeroBtn, avgEl);
+    };
+  }
 
-  // Fetch live score asynchronously
+  // Wire hover and click for each half-star click zone
+  var clickZones = document.querySelectorAll("#star-rating .star-click");
+  Array.prototype.forEach.call(clickZones, function(btn) {
+    var val = parseFloat(btn.getAttribute("data-value"));
+
+    btn.onmouseenter = function() { _applyStarFill(starPositions, zeroBtn, val, userRating); };
+    btn.onmouseleave = function() {
+      _applyStarFill(starPositions, zeroBtn, userRating !== null ? userRating : -1, userRating);
+    };
+    btn.onclick = function() {
+      userRating = _castRating(toolId, val, userRating, starPositions, zeroBtn, avgEl);
+    };
+  });
+
+  // Fetch live average asynchronously
   fetch("/api/tool-stats?tool_id=" + encodeURIComponent(toolId))
     .then(function(r) { return r.ok ? r.json() : null; })
     .then(function(data) {
-      if (!data || !data.votes) return;
-      _updateScoreDisplay(scoreEl, data.votes.score);
+      if (!data || !data.ratings) return;
+      _updateRatingDisplay(avgEl, data.ratings.average, data.ratings.count);
     })
     .catch(function() { /* best effort */ });
 }
 
 /**
- * Cast or toggle a vote.
+ * Apply filled/half-filled/user-rated classes to star icons.
+ * @param {NodeList} starPositions - .star-pos elements
+ * @param {Element|null} zeroBtn - the 0-star button
+ * @param {number} fillUpTo - rating value to highlight up to (0-5, supports 0.5 steps; -1 = nothing)
+ * @param {number|null} userRating - the user's saved rating (shown distinctly)
  */
-function _castVote(toolId, direction, upBtn, downBtn, scoreEl) {
-  var session = sessionStorage.getItem("osint-session") || "";
-  var currentVote = sessionStorage.getItem("vote:" + toolId) || null;
+function _applyStarFill(starPositions, zeroBtn, fillUpTo, userRating) {
+  if (zeroBtn) {
+    zeroBtn.classList.toggle("active", userRating !== null && userRating === 0 && fillUpTo === 0);
+  }
+  Array.prototype.forEach.call(starPositions, function(pos) {
+    var n = parseInt(pos.getAttribute("data-star"), 10);
+    var icon = pos.querySelector(".star-icon");
+    if (!icon) return;
+    var isUserStar = userRating !== null && fillUpTo === userRating;
 
-  // Toggle off if same direction
-  var newDirection = (direction === currentVote) ? null : direction;
+    icon.classList.remove("filled", "half-filled", "user-rated");
+    if (fillUpTo >= n) {
+      icon.classList.add("filled");
+      if (isUserStar) icon.classList.add("user-rated");
+    } else if (fillUpTo >= n - 0.5) {
+      icon.classList.add("half-filled");
+      if (isUserStar) icon.classList.add("user-rated");
+    }
+  });
+}
+
+/**
+ * Cast or toggle a rating (0-5, 0.5 increments).
+ * Returns the new userRating value (number or null).
+ */
+function _castRating(toolId, value, currentRating, starPositions, zeroBtn, avgEl) {
+  var session = sessionStorage.getItem("osint-session") || "";
+  // Toggle off if clicking the same value
+  var newRating = (value === currentRating) ? null : value;
 
   fetch("/api/vote", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ tool_id: toolId, direction: newDirection, session_hash: session })
+    body: JSON.stringify({ tool_id: toolId, rating: newRating, session_hash: session })
   })
     .then(function(r) { return r.ok ? r.json() : null; })
     .then(function(data) {
       if (!data || !data.ok) return;
-      // Update sessionStorage
-      if (data.userVote) {
-        sessionStorage.setItem("vote:" + toolId, data.userVote);
+      var saved = data.userRating;
+      if (saved !== null && saved !== undefined) {
+        sessionStorage.setItem("rating:" + toolId, String(saved));
       } else {
-        sessionStorage.removeItem("vote:" + toolId);
+        saved = null;
+        sessionStorage.removeItem("rating:" + toolId);
       }
-      // Update button states
-      upBtn.classList.toggle("active", data.userVote === "up");
-      downBtn.classList.toggle("active", data.userVote === "down");
-      _updateScoreDisplay(scoreEl, data.score);
+      _applyStarFill(starPositions, zeroBtn, saved !== null ? saved : -1, saved);
+      _updateRatingDisplay(avgEl, data.average, data.count);
     })
     .catch(function() { /* best effort */ });
+
+  return newRating;
 }
 
-function _updateScoreDisplay(scoreEl, score) {
-  scoreEl.textContent = score > 0 ? "+" + score : String(score);
-  scoreEl.className = "vote-score " + (score > 0 ? "positive" : score < 0 ? "negative" : "zero");
+function _updateRatingDisplay(avgEl, average, count) {
+  if (!count || count === 0) {
+    avgEl.textContent = "No ratings yet";
+    return;
+  }
+  avgEl.textContent = average.toFixed(1) + " (" + count + ")";
 }
 
 // === Issue Reporting (THE-110) ===
@@ -741,10 +865,41 @@ function goDark() {
   var body = document.body;
   var isLight = body.classList.toggle("light-mode");
   localStorage.setItem("theme", isLight ? "light" : "dark");
-  var btn = document.getElementById("theme-toggle");
+  var btn = document.getElementById("header-theme-toggle");
   if (btn) {
-    btn.textContent = isLight ? "Switch to dark mode" : "Switch to light mode";
+    btn.textContent = isLight ? "Dark Mode" : "Light Mode";
   }
   // Re-render to pick up new CSS variable values for D3 inline styles.
   update(root);
 }
+
+// Notes panel toggle
+function toggleNotesPanel() {
+  var panel = document.getElementById("notes-panel");
+  var overlay = document.getElementById("notes-overlay");
+  if (!panel) return;
+
+  var isOpen = panel.classList.toggle("open");
+  if (overlay) overlay.classList.toggle("visible", isOpen);
+
+  // Populate panel body on first open
+  if (isOpen && !panel._populated) {
+    var body = document.getElementById("notes-panel-body");
+    var source = document.getElementById("notes-content");
+    var legend = document.querySelector(".legend");
+    if (body) {
+      body.innerHTML = "";
+      if (legend) body.innerHTML += legend.innerHTML;
+      if (source) body.innerHTML += source.innerHTML;
+    }
+    panel._populated = true;
+  }
+}
+
+// Close notes panel when overlay is clicked
+(function() {
+  var overlay = document.getElementById("notes-overlay");
+  if (overlay) {
+    overlay.addEventListener("click", function() { toggleNotesPanel(); });
+  }
+})();
