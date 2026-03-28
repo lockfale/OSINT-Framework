@@ -21,7 +21,7 @@
               "input": "Username",
               "output": "List of sites where the username exists with direct profile links",
               "opsec": "active",
-              "opsecNote": "Makes HTTP requests to each target site to check for username existence.",
+              "opsecNote": "Makes HTTP requests to each target site to check for username existence, however it does it from WhatsMyName infrastructure.",
               "localInstall": false,
               "googleDork": false,
               "registration": false,
