@@ -18681,26 +18681,6 @@
               "deprecated": false
             },
             {
-              "name": "Spiderfoot (T)",
-              "type": "url",
-              "url": "https://www.spiderfoot.net/",
-              "description": "Open-source OSINT automation tool that integrates with 100+ data sources for comprehensive reconnaissance",
-              "status": "live",
-              "pricing": "free",
-              "bestFor": "Large-scale OSINT automation with multi-source integration",
-              "input": "Target domain, IP, or email",
-              "output": "Aggregated OSINT data from multiple sources with relationship mapping",
-              "opsec": "active",
-              "opsecNote": "Makes queries to multiple external sources; configure proxies for anonymity",
-              "localInstall": true,
-              "googleDork": false,
-              "registration": false,
-              "editUrl": false,
-              "api": true,
-              "invitationOnly": false,
-              "deprecated": false
-            },
-            {
               "name": "Shodan CLI (T)",
               "type": "url",
               "url": "https://cli.shodan.io/",
