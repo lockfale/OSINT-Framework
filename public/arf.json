@@ -21319,26 +21319,6 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": false
-            },
-            {
-              "name": "MobSF - Mobile Security Framework (T)",
-              "type": "url",
-              "url": "https://github.com/MobSF/Mobile-Security-Framework-MobSF",
-              "description": "Open-source mobile application security testing framework supporting automated analysis of APK and iOS app files for vulnerabilities.",
-              "status": "live",
-              "pricing": "free",
-              "bestFor": "Automated Android APK analysis, permission audit, malware detection",
-              "input": "APK or app files",
-              "output": "Security issues, permission risks, hardcoding vulnerabilities, malware signatures",
-              "opsec": "passive",
-              "opsecNote": "Static analysis tool; no runtime interaction with target device",
-              "localInstall": true,
-              "googleDork": false,
-              "registration": false,
-              "editUrl": false,
-              "api": true,
-              "invitationOnly": false,
-              "deprecated": false
             }
           ]
         },
