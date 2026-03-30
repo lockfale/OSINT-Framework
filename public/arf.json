@@ -19052,7 +19052,7 @@
               "opsecNote": "Client-side detection from browser; no contact with targets",
               "localInstall": true,
               "googleDork": false,
-              "registration": false,
+              "registration": true,
               "editUrl": false,
               "api": true,
               "invitationOnly": false,
