@@ -151,6 +151,26 @@
               "deprecated": false
             },
             {
+              "name": "FootprintIQ",
+              "type": "url",
+              "url": "https://footprintiq.app",
+              "description": "Ethical digital footprint scanner that searches usernames, emails, and phone numbers across 500+ platforms. Includes breach detection, data broker scanning, and confidence scoring to reduce false positives.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Username and email footprint scanning with breach and data broker exposure checks",
+              "input": "Username, email address, or phone number",
+              "output": "Matched profiles across 500+ platforms, breach exposure, data broker listings",
+              "opsec": "active",
+              "opsecNote": "Queries are routed through FootprintIQ infrastructure; target platforms may log lookup activity.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "GitFive (T)",
               "type": "url",
               "url": "https://github.com/mxrch/GitFive",
