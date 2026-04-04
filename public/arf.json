@@ -19271,6 +19271,11 @@
               "deprecated": true
             },
             {
+              "name": "Osintly",
+              "type": "url",
+              "url": "https://osint.ly/modules"
+            },
+            {
               "name": "Microsoft Flow",
               "type": "url",
               "url": "https://flow.microsoft.com/en-us/",
