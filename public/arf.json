@@ -23361,3 +23361,23 @@
     }
   ]
 }
+{
+  "name": "The OSINT Vault",
+  "type": "url",
+  "url": "https://theosintvault.io",
+  "description": "A modern, curated repository of OSINT tools, investigative workflows, and browser-based bookmarklets designed for rapid digital discovery.",
+  "status": "live",
+  "pricing": "free",
+  "bestFor": "Navigating complex investigative workflows and performing browser-based data extraction.",
+  "input": "Usernames, Emails, Domains, Images, and Social Media Profiles",
+  "output": "Structured investigative guides, curated tool links, and automated browser extraction results.",
+  "opsec": "passive",
+  "opsecNote": "Primarily a directory and guide repository; use of third-party tools linked within may vary in OpSec levels.",
+  "localInstall": false,
+  "googleDork": true,
+  "registration": false,
+  "editUrl": false,
+  "api": false,
+  "invitationOnly": false,
+  "deprecated": false
+}
