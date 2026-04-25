@@ -7407,6 +7407,26 @@
                   "api": false,
                   "invitationOnly": false,
                   "deprecated": false
+                },
+                {
+                  "name": "Xquik",
+                  "type": "url",
+                  "url": "https://xquik.com",
+                  "description": "X (Twitter) data API for OSINT collection: tweet search, user profile lookup, follower/following extraction, engagement metrics (likes, retweets, quoters), reply trees, account monitoring with webhooks, trending topics, communities, and Spaces metadata. Exposes 100+ REST endpoints plus an MCP server for AI agents.",
+                  "status": "live",
+                  "pricing": "freemium",
+                  "bestFor": "Programmatic X/Twitter data collection and continuous monitoring of target handles",
+                  "input": "X username, user ID, tweet URL, search query, or list/community ID",
+                  "output": "JSON profile, tweet, follower/following, engagement, monitoring, and trends data",
+                  "opsec": "passive",
+                  "opsecNote": "Reads use the provider's own infrastructure rather than the investigator's account; no interaction with the target. Write endpoints exist but are unrelated to OSINT and disabled by default.",
+                  "localInstall": false,
+                  "googleDork": false,
+                  "registration": false,
+                  "editUrl": false,
+                  "api": true,
+                  "invitationOnly": false,
+                  "deprecated": false
                 }
               ]
             },
