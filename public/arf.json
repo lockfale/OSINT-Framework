@@ -11915,6 +11915,26 @@
               "deprecated": false
             },
             {
+              "name": "EntityLedger",
+              "type": "url",
+              "url": "https://entityledger.io",
+              "description": "Free search tool for legal entities aggregated from public registries — UK Companies House, Cyprus company registry, OpenSanctions (sanctions/PEPs), and disqualified directors.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Looking up company structure, beneficial owners (PSCs), and sanctions exposure for UK and EU entities",
+              "input": "Company name or registration number",
+              "output": "Entity profile with incorporation details, PSC/beneficial ownership, risk signals, and relationships",
+              "opsec": "passive",
+              "opsecNote": "No account required. Searches are not disclosed to the subject.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "Company Data Rex (EU)",
               "type": "url",
               "url": "https://www.cdrex.com/",
