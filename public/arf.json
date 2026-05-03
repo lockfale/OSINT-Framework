@@ -12675,6 +12675,26 @@
               "api": true,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "Treinposities (Dutch trains)",
+              "type": "url",
+              "url": "https://treinposities.nl/",
+              "description": "OpenRailwayMap-based interface focused on the Netherlands, visualizing real-time train positions and enabling lookup of historical train movements.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Real-time and historical Dutch train tracking",
+              "input": "Train series number, rolling stock number, or map interaction",
+              "output": "Real-time train positions, speed, delay indicators, historical movement data, and scheduled routing",
+              "opsec": "passive",
+              "opsecNote": "Public-facing interface aggregating open and crowd-sourced rail data; no interaction with targets required.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
