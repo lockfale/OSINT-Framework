@@ -6879,6 +6879,26 @@
                   "name": "yasiv-youtube",
                   "type": "url",
                   "url": "https://yasiv.com/youtube/"
+                },
+                {
+                  "name": "YT2GDrive (R)",
+                  "type": "url",
+                  "url": "https://photovideo.ae/download",
+                  "description": "Web-based video downloader supporting YouTube, TikTok, Instagram, Twitter/X, Facebook, and 1000+ sites. Allows direct saving of downloaded media to Google Drive for evidence archiving and media preservation.",
+                  "status": "live",
+                  "pricing": "free",
+                  "bestFor": "Media preservation and evidence archiving for journalists and OSINT researchers",
+                  "input": "Video URL from YouTube, TikTok, Instagram, Twitter/X, Facebook, or 1000+ supported sites",
+                  "output": "Downloaded video file saved to Google Drive or local storage",
+                  "opsec": "active",
+                  "opsecNote": "Requests are made to the target platform to fetch video content, which may expose investigator network identifiers.",
+                  "localInstall": false,
+                  "googleDork": false,
+                  "registration": true,
+                  "editUrl": false,
+                  "api": false,
+                  "invitationOnly": false,
+                  "deprecated": false
                 }
               ]
             }
