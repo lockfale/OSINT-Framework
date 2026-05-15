@@ -249,7 +249,27 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": false
-            }
+            } ,
+            {
+              "name": "WhatsMyName App",
+              "type": "url",
+              "url": "https://whatsmynameapp.us/tools/whatsmyname-app",
+              "description": "Browser-based username search across 732 platforms simultaneously. No install required. Real-time results with direct profile links and CSV export.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Quick username lookups across 732 platforms from any browser without installation",
+              "input": "Username",
+              "output": "Profile matches with direct links and CSV export",
+              "opsec": "passive",
+              "opsecNote": "Searches run in browser session. Nothing is logged or stored.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+          }
           ]
         },
         {
