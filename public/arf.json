@@ -23236,6 +23236,26 @@
               "deprecated": false
             },
             {
+              "name": "OSINT Arena",
+              "type": "url",
+              "url": "https://www.osintarena.com/",
+              "description": "Practice geolocation, digital forensics, image investigation, and clue-led research with interactive OSINT challenges. Can you beat the OSINT community?",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Geolocation skills, visual intelligence analysis, landmark identification, digital forensics",
+              "input": "Imagery, Strings",
+              "output": "score, player rankings",
+              "opsec": "passive",
+              "opsecNote": "No active reconnaissance; purely observational gameplay using images uploaded by OSINT Community",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "Verif!cation Quiz Bot",
               "type": "url",
               "url": "https://x.com/quiztime",
