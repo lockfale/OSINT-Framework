@@ -19369,6 +19369,26 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "OpenOSINT (T)",
+              "type": "url",
+              "url": "https://github.com/OpenOSINT/OpenOSINT",
+              "description": "AI-powered OSINT agent, MCP server, and CLI. Exposes 9 intelligence-gathering tools to AI agents via the Model Context Protocol. Supports autonomous multi-step investigations from an interactive REPL, direct CLI usage, and integration with Claude Code and Claude Desktop.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Autonomous AI-driven OSINT investigations from the terminal",
+              "input": "Email address, username, domain, IP address, phone number",
+              "output": "Account enumeration, breach exposure, WHOIS data, geolocation, subdomains, Google dork URLs, Pastebin mentions, phone intelligence",
+              "opsec": "passive",
+              "opsecNote": "All lookups go through third-party APIs and binaries. No direct contact with the target. AI layer requires ANTHROPIC_API_KEY.",
+              "localInstall": true,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
