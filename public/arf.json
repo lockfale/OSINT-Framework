@@ -15520,6 +15520,26 @@
               "deprecated": false
             },
             {
+              "name": "PastPage Firefox Add-on",
+              "type": "url",
+              "url": "https://addons.mozilla.org/en-US/firefox/addon/pastpage-query-10-web-archives/",
+              "description": "Firefox add-on that helps recover missing, changed, or broken pages by checking the Wayback Machine and other relevant public web archives.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Fast multi-archive recovery lookups while browsing dead, changed, blocked, or unavailable pages in Firefox",
+              "input": "Current tab URL, page URL, link, or selected URL",
+              "output": "Confirmed archive matches, unverified archive candidates, and direct follow-up links from supported archive providers",
+              "opsec": "passive",
+              "opsecNote": "Broken-page detection runs locally. URLs are sent to third-party archive providers only after the user starts a lookup; providers may log lookup requests.",
+              "localInstall": true,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "Textfiles.com",
               "type": "url",
               "url": "https://textfiles.com/",
