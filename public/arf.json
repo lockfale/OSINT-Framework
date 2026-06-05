@@ -10887,6 +10887,26 @@
               "deprecated": false
             },
             {
+              "name": "FinalNotes Obituary Research Guide",
+              "type": "url",
+              "url": "https://www.finalnotes.page/obituary-research-guide/",
+              "description": "Guide for finding obituary records, preserving source trails, and using obituary clues in sourced family-history research.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Obituary research workflow and source-trail preservation",
+              "input": "Name, location, date range, family details",
+              "output": "Research steps, source trail checklist, obituary clues, family-history story prompts",
+              "opsec": "passive",
+              "opsecNote": "Public guide; no search query or account required.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "GraveInfo",
               "type": "url",
               "url": "https://billiongraves.com/",
