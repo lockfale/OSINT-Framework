@@ -1270,6 +1270,26 @@
               "deprecated": false
             },
             {
+              "name": "dscan",
+              "type": "url",
+              "url": "https://github.com/Drift-Lock/dscan",
+              "description": "Passive domain OSINT for Telegram bot sites. Pulls RDAP, DNS, Cloudflare detection, hosting/abuse contacts, TLS, HTTP fingerprinting, change tracking, marketplace detection and abuse report generation from a single command.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Website profiling, ownership verification, escalation of abuse contacts, technical stack discovery",
+              "input": "Domain name or URL",
+              "output": "Visitor statistics, safety ratings, domain owner information, technology stack, Alexa rank, historical snapshots",
+              "opsec": "passive",
+              "opsecNote": "Aggregates public website data and statistics;.",
+              "localInstall": true,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "Who.is",
               "type": "url",
               "url": "https://who.is/",
