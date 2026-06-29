@@ -7277,6 +7277,26 @@
               "api": true,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "insto (T)",
+              "type": "url",
+              "url": "https://github.com/subzeroid/insto",
+              "description": "Open-source Instagram OSINT CLI and REPL for profile intelligence, posts, network analysis, geolocation signals, snapshots, watch/diff workflows, and Maltego-ready exports.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Deep Instagram account OSINT, network and geo analysis, snapshots, and local CLI workflows",
+              "input": "Instagram usernames, post identifiers, place identifiers, and a configured HikerAPI token or aiograpi session",
+              "output": "Profile metadata, posts, followers, followings, comments, hashtags, location and timeline summaries, JSON/CSV exports, and Maltego CSV files",
+              "opsec": "active",
+              "opsecNote": "Uses HikerAPI by default or an optional logged-in aiograpi backend; API requests and authenticated sessions can expose operator activity to the backend or platform.",
+              "localInstall": true,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
