@@ -1030,6 +1030,11 @@
           "type": "folder",
           "children": [
             {
+              "name": "DNSai",
+              "type": "url",
+              "url": "https://dnsai.com/dns-tools/"
+            },
+            {
               "name": "Domain Dossier",
               "type": "url",
               "url": "https://centralops.net/co/DomainDossier.aspx",
