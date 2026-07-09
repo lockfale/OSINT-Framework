@@ -9021,6 +9021,26 @@
               "api": true,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "CheckLeaked WhatsApp OSINT",
+              "type": "url",
+              "url": "https://whatsapp.checkleaked.cc",
+              "description": "Free web tool to look up a WhatsApp number: profile photo, About/status text, Business account details, and registration status, no contact save required.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Quick WhatsApp number reconnaissance without saving the contact",
+              "input": "Phone number in international format",
+              "output": "Profile photo, status/about text, business info, WhatsApp registration status",
+              "opsec": "passive",
+              "opsecNote": "Lookup is passive from the target's perspective; no message or contact request is sent.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         }
