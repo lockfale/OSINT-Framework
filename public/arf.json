@@ -6205,6 +6205,26 @@
                   "api": false,
                   "invitationOnly": false,
                   "deprecated": false
+                },
+                {
+                  "name": "Facial Recognition (facialrecognition.app)",
+                  "type": "url",
+                  "url": "https://facialrecognition.app/",
+                  "description": "Face search as a native iOS and Android app; upload a photo to find matching faces across indexed public web content.",
+                  "status": "live",
+                  "pricing": "paid",
+                  "bestFor": "Running face searches from a mobile device",
+                  "input": "Face photo upload",
+                  "output": "Potential facial matches with source references",
+                  "opsec": "active",
+                  "opsecNote": "Uploads biometric imagery to a hosted face-search platform; uploads are deleted within 24 hours per the privacy policy.",
+                  "localInstall": false,
+                  "googleDork": false,
+                  "registration": false,
+                  "editUrl": false,
+                  "api": false,
+                  "invitationOnly": false,
+                  "deprecated": false
                 }
               ]
             },
