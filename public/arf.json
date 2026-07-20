@@ -7905,6 +7905,26 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "THINKPOL Reddit Tools",
+              "type": "url",
+              "url": "https://think-pol.com/tools",
+              "description": "Free Reddit OSINT tools backed by a 30B-post archive including deleted and removed content: user lookup, deleted-post viewer, subreddit intelligence and archive search.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Recovering deleted or removed Reddit posts and profiling users and subreddits",
+              "input": "Reddit username, subreddit, or keyword",
+              "output": "Deleted and archived posts and comments, user profiles, subreddit intelligence",
+              "opsec": "passive",
+              "opsecNote": "Queries a historical archive; no interaction with target accounts.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
