@@ -6984,6 +6984,26 @@
                   "name": "Pastebin OSINT Harvester (T)",
                   "type": "url",
                   "url": "https://github.com/needmorecowbell/sniff-paste"
+                },
+                {
+                  "name": "pastes.zip",
+                  "type": "url",
+                  "url": "https://pastes.zip",
+                  "description": "Archive of over 50 million Pastebin pastes, with full-text search across historical paste content.",
+                  "status": "live",
+                  "pricing": "free",
+                  "bestFor": "Full-text search across a large historical archive of Pastebin pastes",
+                  "input": "Search query (keywords, usernames, emails, credentials, etc.)",
+                  "output": "List of matching pastes with title, content snippet, syntax type, and link to the paste",
+                  "opsec": "passive",
+                  "opsecNote": "Search queries are sent to a third-party server; avoid submitting sensitive or live investigation terms if operational security is a concern.",
+                  "localInstall": false,
+                  "googleDork": false,
+                  "registration": false,
+                  "editUrl": false,
+                  "api": false,
+                  "invitationOnly": false,
+                  "deprecated": false
                 }
               ]
             }
