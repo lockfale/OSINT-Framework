@@ -7387,6 +7387,26 @@
                   "api": false,
                   "invitationOnly": false,
                   "deprecated": false
+                },
+                {
+                  "name": "Xquik (R)",
+                  "type": "url",
+                  "url": "https://xquik.com/",
+                  "description": "API for searching and extracting public X posts, profiles, relationships, communities, lists, Spaces, and trends.",
+                  "status": "live",
+                  "pricing": "paid",
+                  "bestFor": "Programmatic collection and monitoring of public X data",
+                  "input": "X username, user ID, post URL, search query, list ID, community ID, or Space ID",
+                  "output": "Structured JSON for posts, profiles, relationships, conversations, trends, lists, communities, Spaces, and monitor events",
+                  "opsec": "passive",
+                  "opsecNote": "Public-data reads need no connected X account. Queries and results pass through Xquik. Not affiliated with X Corp.",
+                  "localInstall": false,
+                  "googleDork": false,
+                  "registration": true,
+                  "editUrl": false,
+                  "api": true,
+                  "invitationOnly": false,
+                  "deprecated": false
                 }
               ]
             },
