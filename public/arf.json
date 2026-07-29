@@ -191,26 +191,6 @@
               "deprecated": false
             },
             {
-              "name": "Sherlock",
-              "type": "url",
-              "url": "https://github.com/sherlock-project/sherlock",
-              "description": "Python CLI tool that hunts down social media accounts by username across 400+ social networks. Supports Tor routing, proxy configuration, and CSV/XLSX export.",
-              "status": "live",
-              "pricing": "free",
-              "bestFor": "Mass username enumeration across 400+ sites",
-              "input": "Username(s)",
-              "output": "List of discovered profile URLs across social networks",
-              "opsec": "active",
-              "opsecNote": "Directly queries each target site to check username existence; supports Tor/proxy for anonymity.",
-              "localInstall": true,
-              "googleDork": false,
-              "registration": false,
-              "editUrl": false,
-              "api": false,
-              "invitationOnly": false,
-              "deprecated": false
-            },
-            {
               "name": "Names Directory",
               "type": "url",
               "url": "https://namesdir.com/",
