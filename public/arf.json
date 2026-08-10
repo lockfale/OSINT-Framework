@@ -14151,6 +14151,26 @@
               "deprecated": false
             },
             {
+              "name": "SearchWebCode",
+              "type": "url",
+              "url": "https://www.searchwebcode.com/",
+              "status": "live",
+              "pricing": "paid",
+              "description": "Source code search engine indexing the HTML, JavaScript, and CSS of 127+ million website homepages; supports exact-string and full regular expression queries with complete matched page source and CSV export.",
+              "bestFor": "Finding every website running a specific snippet, script, tracking ID, or framework; technology footprinting and competitive intelligence",
+              "input": "Exact string or regular expression (code snippets, analytics IDs, script URLs, framework signatures)",
+              "output": "List of matching websites with full page source and CSV export",
+              "opsec": "passive",
+              "opsecNote": "Searches a pre-built monthly index; no direct contact with target websites.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "Gitrob (T)",
               "type": "url",
               "url": "https://github.com/michenriksen/gitrob",
