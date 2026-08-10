@@ -9035,6 +9035,26 @@
           "type": "folder",
           "children": [
             {
+              "name": "UserSearch.com",
+              "type": "url",
+              "url": "https://usersearch.com/",
+              "description": "Professional OSINT platform for people and identity investigations across integrated public and premium data sources, with case management, reporting, and cross-source analysis.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "People search, identity correlation, due diligence, and case-based investigations",
+              "input": "Name and other known identifiers",
+              "output": "Identity matches, related profiles, contact details, and enrichment results from selected modules",
+              "opsec": "active",
+              "opsecNote": "Searches are processed through UserSearch infrastructure rather than directly from the investigator's browser.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "InfoFlow Public People Search In Chilean",
               "type": "url",
               "url": "https://infoflow.cloud/",
