@@ -21984,6 +21984,24 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": true
+            },
+            {
+              "name": "AnonAddy",
+              "type": "url",
+              "url": "https://addy.io",
+              "description": "Generates fake email addresses that forwards emails to personal email",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Creating fake emails",
+              "input": "Personal email",
+              "output": "fake email",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
