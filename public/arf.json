@@ -17599,6 +17599,26 @@
               "deprecated": false
             },
             {
+          "name": "bildesjekk.no",
+          "type": "url",
+          "url": "https://bildesjekk.no/",
+          "description": "Norwegian-language image checker that validates C2PA Content Credentials against the official trust list, parses EXIF/IPTC metadata, and runs a local AI-detection model in the browser.",
+          "status": "live",
+          "pricing": "free",
+          "bestFor": "Checking whether an image carries content provenance or shows signs of AI generation",
+          "input": "Image upload",
+          "output": "Signal table listing each line of evidence separately, without a single verdict",
+          "opsec": "moderate",
+          "opsecNote": "The pixel model runs client-side in the browser; uploaded images are not stored.",
+          "localInstall": false,
+          "googleDork": false,
+          "registration": false,
+          "editUrl": false,
+          "api": false,
+          "invitationOnly": false,
+          "deprecated": false
+        },
+            {
               "name": "Verification Handbook",
               "type": "url",
               "url": "https://verificationhandbook.com/",
