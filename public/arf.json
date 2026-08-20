@@ -2277,7 +2277,27 @@
               "api": true,
               "invitationOnly": false,
               "deprecated": false
-            }
+            },
+            {
+  "name": "MyIPScan",
+  "type": "url",
+  "url": "https://myipscan.net/tools/",
+  "description": "Browser-based diagnostics for IP, ASN, WHOIS/RDAP, reverse DNS, DNS records and provider IP ranges, plus DNS, WebRTC and IPv6 leak tests and browser fingerprint checks.",
+  "status": "live",
+  "pricing": "free",
+  "bestFor": "Checking what an IP or domain exposes, and what a browser leaks, without installing anything",
+  "input": "IP address, domain, ASN, or the visitor's own browser session",
+  "output": "Network ownership and routing context, DNS and email authentication records, TLS and header findings, browser fingerprint and leak results",
+  "opsec": "active",
+  "opsecNote": "IP, ASN, WHOIS/RDAP and DNS lookups are passive. The TLS, header and latency checks connect directly to the target host and will appear in its logs.",
+  "localInstall": false,
+  "googleDork": false,
+  "registration": false,
+  "editUrl": false,
+  "api": false,
+  "invitationOnly": false,
+  "deprecated": false
+}
           ]
         },
         {
