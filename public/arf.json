@@ -11795,6 +11795,26 @@
               "deprecated": false
             },
             {
+              "name": "Registry Lookup",
+              "type": "url",
+              "url": "https://registry-lookup.com/",
+              "description": "Free aggregator of official corporate registry data covering 479 million+ legal entities across 309 jurisdictions in 244 countries, exposing legal name, registry number, status, incorporation date, legal form, registered address and tax/VAT identifiers where the registry publishes them.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Cross-jurisdictional company lookup and registry identifier verification",
+              "input": "Company name, registry number, or tax/VAT identifier",
+              "output": "Legal name, jurisdiction, registry number, status, incorporation date, legal form, registered address, and tax identifiers",
+              "opsec": "passive",
+              "opsecNote": "All queries go through Registry Lookup servers; data is aggregated from official public registries.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "AIHIT",
               "type": "url",
               "url": "https://www.aihitdata.com/",
