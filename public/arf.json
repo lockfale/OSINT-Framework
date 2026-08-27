@@ -5847,6 +5847,26 @@
                   "deprecated": false
                 },
                 {
+                  "name": "Face2social Face Search Engine",
+                  "type": "url",
+                  "url": "https://face2social.com",
+                  "description": "Reverse face search engine that matches an uploaded photo against public profile pictures on Instagram, Facebook, TikTok and X.",
+                  "status": "live",
+                  "pricing": "freemium",
+                  "bestFor": "Finding social media profiles from a face photo; catfish/romance-scam verification",
+                  "input": "Face photo upload",
+                  "output": "Matching public social media profiles with links",
+                  "opsec": "active",
+                  "opsecNote": "Face image is uploaded and processed by a third-party biometric search provider.",
+                  "localInstall": false,
+                  "googleDork": false,
+                  "registration": true,
+                  "editUrl": false,
+                  "api": false,
+                  "invitationOnly": false,
+                  "deprecated": false
+                },
+                {
                   "name": "Yandex Images",
                   "type": "url",
                   "url": "https://yandex.com/images/",
