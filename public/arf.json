@@ -249,6 +249,11 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "MyRecon",
+              "type": "url",
+              "url": "https://myrecon.xyz"
             }
           ]
         },
