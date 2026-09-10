@@ -9827,26 +9827,6 @@
           "deprecated": true
         },
         {
-          "name": "CallerID Test",
-          "type": "url",
-          "url": "https://calleridtest.com/",
-          "description": "Caller ID and number-validation utility for checking formatting and telecom metadata responses.",
-          "status": "live",
-          "pricing": "freemium",
-          "bestFor": "Caller-ID behavior and number validity testing",
-          "input": "Phone number",
-          "output": "Validation status, format checks, and associated number metadata",
-          "opsec": "passive",
-          "opsecNote": "Validation-style lookup with no direct contact to the target subscriber.",
-          "localInstall": false,
-          "googleDork": false,
-          "registration": false,
-          "editUrl": false,
-          "api": true,
-          "invitationOnly": false,
-          "deprecated": false
-        },
-        {
           "name": "Twilio Lookup",
           "type": "url",
           "url": "https://www.twilio.com/lookup",
