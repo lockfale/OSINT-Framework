@@ -11955,6 +11955,26 @@
               "deprecated": false
             },
             {
+              "name": "FactoryRegistry",
+              "type": "url",
+              "url": "https://www.factoryregistry.com/",
+              "description": "Free, public registry of 330,000+ U.S. manufacturing facilities compiled from federal records (EPA Facility Registry Service, OSHA, SAM.gov), giving each plant's address, operating company and NAICS codes with the source record behind each fact.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Finding and verifying U.S. manufacturing plants and the companies that operate them",
+              "input": "Company or facility name, location, or industry",
+              "output": "Plant address, operating company, NAICS codes, operating status, and cited federal source records",
+              "opsec": "passive",
+              "opsecNote": "Queries go through FactoryRegistry servers; the data is compiled from public federal records.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "Owler (R)",
               "type": "url",
               "url": "https://www.owler.com/corp",
