@@ -23356,6 +23356,26 @@
           "api": false,
           "invitationOnly": false,
           "deprecated": false
+        },
+        {
+          "name": "PrivacyLeak",
+          "type": "url",
+          "url": "https://privacyleak.ai",
+          "description": "Face and reverse image search for publicly posted photos on adult websites.",
+          "status": "live",
+          "pricing": "paid",
+          "bestFor": "Finding public face matches on adult websites from an uploaded photo",
+          "input": "Photo / face image",
+          "output": "Matching pages and image results on public adult websites",
+          "opsec": "active",
+          "opsecNote": "The uploaded photo is sent to PrivacyLeak servers. Do not upload sensitive images you do not control.",
+          "localInstall": false,
+          "googleDork": false,
+          "registration": true,
+          "editUrl": false,
+          "api": false,
+          "invitationOnly": false,
+          "deprecated": false
         }
       ]
     }
