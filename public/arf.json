@@ -7292,7 +7292,7 @@
                   "name": "Twitter Viewer",
                   "type": "url",
                   "url": "https://twitee.co/",
-                  "description": "Twitee is a free Twitter viewer for researching public X/Twitter profiles, posts, replies, search results, trends, and media without requiring an X account.",
+                  "description": "Twitee is a free Twitter/X viewer for OSINT research, with public profile and timeline browsing, posts and replies, follower/following lists, people and tweet search with Top/Latest results, country-level trends, tweet lookup by URL or ID, and image/video viewing and downloading without an X account.",
                   "status": "live",
                   "pricing": "free",
                   "bestFor": "OSINT researchers reviewing public X/Twitter profiles, posts, and replies without signing in",
