@@ -7289,10 +7289,10 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "Twitee - Twitter Viewer",
+                  "name": "Twitter Viewer",
                   "type": "url",
                   "url": "https://twitee.co/",
-                  "description": "Free Twitter viewer for researching public X/Twitter profiles, posts, replies, search results, trends, and media without requiring an X account.",
+                  "description": "Twitee is a free Twitter viewer for researching public X/Twitter profiles, posts, replies, search results, trends, and media without requiring an X account.",
                   "status": "live",
                   "pricing": "free",
                   "bestFor": "Twitter viewer for researching public profiles and posts without signing in",
