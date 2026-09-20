@@ -7289,13 +7289,13 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "Twitee",
+                  "name": "Twitee - Twitter Viewer",
                   "type": "url",
                   "url": "https://twitee.co/",
-                  "description": "Web-based viewer for researching public X/Twitter profiles, posts, replies, search results, trends, and media without requiring an X account.",
+                  "description": "Free Twitter viewer for researching public X/Twitter profiles, posts, replies, search results, trends, and media without requiring an X account.",
                   "status": "live",
                   "pricing": "free",
-                  "bestFor": "Viewing and researching public X/Twitter profiles and posts without signing in",
+                  "bestFor": "Twitter viewer for researching public profiles and posts without signing in",
                   "input": "X/Twitter username, profile URL, post URL, or search term",
                   "output": "Public profile information, posts, replies, media, trends, and search results",
                   "opsec": "passive",
