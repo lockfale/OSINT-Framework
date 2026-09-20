@@ -7289,6 +7289,26 @@
               "type": "folder",
               "children": [
                 {
+                  "name": "Twitter Viewer",
+                  "type": "url",
+                  "url": "https://twitee.co/",
+                  "description": "Twitee is a free Twitter/X viewer for OSINT research, with public profile and timeline browsing, posts and replies, follower/following lists, people and tweet search with Top/Latest results, country-level trends, tweet lookup by URL or ID, and image/video viewing and downloading without an X account.",
+                  "status": "live",
+                  "pricing": "free",
+                  "bestFor": "OSINT researchers reviewing public X/Twitter profiles, posts, and replies without signing in",
+                  "input": "X/Twitter username, profile URL, post URL, or search term",
+                  "output": "Public profile information, posts, replies, media, trends, and search results",
+                  "opsec": "passive",
+                  "opsecNote": "Queries are handled through Twitee without requiring X credentials; request metadata may be logged by the service and cached public content may be delayed.",
+                  "localInstall": false,
+                  "googleDork": false,
+                  "registration": false,
+                  "editUrl": false,
+                  "api": false,
+                  "invitationOnly": false,
+                  "deprecated": false
+                },
+                {
                   "name": "Twitter Advanced Search",
                   "type": "url",
                   "url": "https://twitter.com/search-advanced",
