@@ -7289,6 +7289,26 @@
               "type": "folder",
               "children": [
                 {
+                  "name": "Twitee",
+                  "type": "url",
+                  "url": "https://twitee.co/",
+                  "description": "Web-based viewer for researching public X/Twitter profiles, posts, replies, search results, trends, and media without requiring an X account.",
+                  "status": "live",
+                  "pricing": "free",
+                  "bestFor": "Viewing and researching public X/Twitter profiles and posts without signing in",
+                  "input": "X/Twitter username, profile URL, post URL, or search term",
+                  "output": "Public profile information, posts, replies, media, trends, and search results",
+                  "opsec": "passive",
+                  "opsecNote": "Queries are handled through Twitee without requiring X credentials; request metadata may be logged by the service and cached public content may be delayed.",
+                  "localInstall": false,
+                  "googleDork": false,
+                  "registration": false,
+                  "editUrl": false,
+                  "api": false,
+                  "invitationOnly": false,
+                  "deprecated": false
+                },
+                {
                   "name": "Twitter Advanced Search",
                   "type": "url",
                   "url": "https://twitter.com/search-advanced",
