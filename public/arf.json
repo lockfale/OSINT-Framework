@@ -7295,7 +7295,7 @@
                   "description": "Twitee is a free Twitter viewer for researching public X/Twitter profiles, posts, replies, search results, trends, and media without requiring an X account.",
                   "status": "live",
                   "pricing": "free",
-                  "bestFor": "Twitter viewer for researching public profiles and posts without signing in",
+                  "bestFor": "OSINT researchers reviewing public X/Twitter profiles, posts, and replies without signing in",
                   "input": "X/Twitter username, profile URL, post URL, or search term",
                   "output": "Public profile information, posts, replies, media, trends, and search results",
                   "opsec": "passive",
