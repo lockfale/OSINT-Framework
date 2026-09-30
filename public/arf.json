@@ -14151,6 +14151,26 @@
               "deprecated": false
             },
             {
+              "name": "PageSourceSearch",
+              "type": "url",
+              "url": "https://www.pagesourcesearch.com/",
+              "description": "Search engine over the raw HTML and first-party JavaScript of crawled websites. Exact-string (case-sensitive) or regular-expression queries return every site that contains the code, grouped by domain, with each match highlighted in the stored file and earlier file versions kept.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Finding websites that share a code snippet, tracking ID, script or library; pivoting between sites run by the same operator",
+              "input": "Code snippet, tracking ID, script URL or regular expression",
+              "output": "List of websites and files containing the match, with highlighted source",
+              "opsec": "passive",
+              "opsecNote": "Searches PageSourceSearch's stored index; no direct contact with target websites.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "Gitrob (T)",
               "type": "url",
               "url": "https://github.com/michenriksen/gitrob",
