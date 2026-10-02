@@ -667,6 +667,26 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "CrossTrace (R)",
+              "type": "url",
+              "url": "https://crosstrace.io/",
+              "description": "Hosted aggregator that sends an email, phone number, username, domain, or other identifier to Opsis, OSINT Industries, DeHashed, Intelligence X, and Leak-Lookup in parallel using your own API keys, then merges the results with each value attributed to the source that reported it.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Running one identifier through several OSINT and breach APIs you already hold keys for, and reading one reconciled result",
+              "input": "Email address, phone number, username, domain, name, IP address, postal address, social handle, company, or crypto address",
+              "output": "Deduplicated accounts with source attribution, identity profile, breach and leak records, timeline, location map, and a ranked list of discovered identifiers to search next",
+              "opsec": "passive",
+              "opsecNote": "Opsec depends on each source. CrossTrace uses only sources that are not designed to contact the person being searched: breach sources search their own databases, and account-lookup sources do not use password-reset or login-attempt checks. Queries come from CrossTrace's servers, never the analyst's address. Requires an account and at least one provider API key, which that provider bills separately.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
