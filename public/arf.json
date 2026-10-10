@@ -1030,6 +1030,26 @@
           "type": "folder",
           "children": [
             {
+              "name": "CC.LA",
+              "type": "url",
+              "url": "https://cc.la/whois",
+              "description": "Browser-based WHOIS/RDAP, DNS and IP registration lookups, with related TLS certificate and network diagnostic views.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Collecting and cross-checking public domain registration and DNS information",
+              "input": "Domain name or IP address, depending on the selected lookup",
+              "output": "Public registration fields, DNS records, network registration information and certificate details",
+              "opsec": "active",
+              "opsecNote": "Lookup targets are sent to CC.LA and upstream services; results may be cached or redacted. TLS, uptime and network diagnostics can contact the target. Analytics and ads are present. Basic lookups need no account; monitoring requires one.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "Domain Dossier",
               "type": "url",
               "url": "https://centralops.net/co/DomainDossier.aspx",
