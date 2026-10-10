@@ -22,6 +22,6 @@
   "devDependencies": {
     "copyfiles": "^1.0.0",
     "d3": "^7.9.0",
-    "wrangler": "^4.76.0"
+    "wrangler": "^4.149.0"
   }
 }
