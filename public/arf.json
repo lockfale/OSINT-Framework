@@ -17553,6 +17553,26 @@
               "deprecated": false
             },
             {
+              "name": "Reverse Image Search Anywhere",
+              "type": "url",
+              "url": "https://reverseimage.app/",
+              "description": "Free web tool and browser extension for reverse-searching images with Google Lens, Yandex, Bing Visual Search, and TinEye, including images embedded in canvas or blob URLs.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Searching restricted-site images and comparing results across engines",
+              "input": "Image upload, clipboard image, selected region, or page image",
+              "output": "Search results in the selected external image engines",
+              "opsec": "active",
+              "opsecNote": "Normal image URLs go directly to engines; restricted images are uploaded on request to a temporary link before being sent to engines.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "TinEye Reverse Image Search",
               "type": "url",
               "url": "https://tineye.com/",
