@@ -7543,6 +7543,26 @@
                       "api": false,
                       "invitationOnly": false,
                       "deprecated": false
+                    },
+                    {
+                      "name": "twtData Twitter Trends by Country",
+                      "type": "url",
+                      "url": "https://twtdata.com/twitter-trends/",
+                      "description": "Free daily list of the top trending topics and hashtags on X (Twitter) worldwide and for 60 individual countries. The lists refresh once a day, so it shows what trended that day rather than a real-time feed.",
+                      "status": "live",
+                      "pricing": "free",
+                      "bestFor": "Checking what trended on X in a given country today",
+                      "input": "Country (choose from the list)",
+                      "output": "Ranked list of trending topics and hashtags for that country",
+                      "opsec": "passive",
+                      "opsecNote": "Reads a public aggregate page; no account and no contact with any target account.",
+                      "localInstall": false,
+                      "googleDork": false,
+                      "registration": false,
+                      "editUrl": false,
+                      "api": false,
+                      "invitationOnly": false,
+                      "deprecated": false
                     }
                   ]
                 },
