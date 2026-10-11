@@ -9735,6 +9735,26 @@
       "type": "folder",
       "children": [
         {
+          "name": "UserSearch.com",
+          "type": "url",
+          "url": "https://usersearch.com/",
+          "description": "Professional OSINT platform for phone-number investigations using free and premium modules to validate numbers, discover linked accounts, and correlate related identity intelligence.",
+          "status": "live",
+          "pricing": "freemium",
+          "bestFor": "Phone-number validation, linked-account discovery, and cross-source identity enrichment",
+          "input": "Phone number",
+          "output": "Number validation, linked accounts, profiles, and enrichment results from selected modules",
+          "opsec": "active",
+          "opsecNote": "Searches are processed through UserSearch infrastructure rather than directly from the investigator's browser.",
+          "localInstall": false,
+          "googleDork": false,
+          "registration": true,
+          "editUrl": false,
+          "api": false,
+          "invitationOnly": false,
+          "deprecated": false
+        },
+        {
           "name": "Voicemail",
           "type": "folder",
           "children": [
