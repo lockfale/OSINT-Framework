@@ -17897,6 +17897,26 @@
               "deprecated": false
             },
             {
+              "name": "FreezeRadar",
+              "type": "url",
+              "url": "https://freezeradar.com",
+              "description": "Free wallet risk checker for freezeable assets (USDT, USDC, PAXG, XAUt): issuer blacklist status, sanctions exposure, and live freeze/release activity for pre-trade screening.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Screening crypto wallet addresses for stablecoin blacklist and freeze risk before OTC or exchange settlement",
+              "input": "Crypto wallet address (EVM and supported chains)",
+              "output": "Blacklist/freeze status, sanctions flags, and recent freeze or release activity",
+              "opsec": "passive",
+              "opsecNote": "Passive public lookups against issuer blacklist and sanctions data; no registration required for basic checks. API usage may require an account.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "OXT.me",
               "type": "url",
               "url": "https://oxt.me/",
