@@ -12053,6 +12053,26 @@
               "api": true,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "Barcodepedia",
+              "type": "url",
+              "url": "https://barcodepedia.com/",
+              "description": "Free product encyclopedia indexed by barcode (EAN/UPC/GTIN). Company pages separate brand owner, licensee, bottler and GS1 barcode registrant, and every fact is cited to its source.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Finding which company owns, licenses or registered the barcode of a consumer product",
+              "input": "Barcode (EAN/UPC/GTIN), product, brand or company name",
+              "output": "Product, brand and company pages with ownership and licensing relations, ingredients and cited sources",
+              "opsec": "passive",
+              "opsecNote": "Queries processed through Barcodepedia servers behind Cloudflare; lookups of barcodes that have no page yet are counted to decide which pages to build next.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
