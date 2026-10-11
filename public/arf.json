@@ -17361,6 +17361,26 @@
               "deprecated": false
             },
             {
+              "name": "Sealed Rose",
+              "type": "url",
+              "url": "https://sealedrose.com/verify-video",
+              "description": "Browser-based AI media forensics and deepfake verification platform for video, audio, and image analysis.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Forensic deepfake verification and multi-model synthetic media analysis",
+              "input": "Uploaded video, image, or audio files",
+              "output": "Forensic confidence score, frame-level artifact analysis, and verification reports",
+              "opsec": "passive",
+              "opsecNote": "Client-side processing and secure cloud forensic verification.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "TruthScan Deepfake Detector",
               "type": "url",
               "url": "https://truthscan.com/",
