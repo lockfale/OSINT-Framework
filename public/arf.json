@@ -23258,6 +23258,26 @@
           "deprecated": false
         },
         {
+          "name": "Nexus OSINT Guide",
+          "type": "url",
+          "url": "https://www.nexus-osint.ai/osint",
+          "description": "Free long-form guide to open source intelligence: the intelligence cycle, core sources and techniques, evidence standards, OPSEC, and the legal and ethical framework, with a companion OSINT glossary.",
+          "status": "live",
+          "pricing": "free",
+          "bestFor": "Learning OSINT fundamentals and evidence-handling practice",
+          "input": "None (reading resource)",
+          "output": "Methodology guidance and definitions of OSINT terms",
+          "opsec": "passive",
+          "opsecNote": "Reading resource; no queries are run against a subject.",
+          "localInstall": false,
+          "googleDork": false,
+          "registration": false,
+          "editUrl": false,
+          "api": false,
+          "invitationOnly": false,
+          "deprecated": false
+        },
+        {
           "name": "Open Source Intelligence Techniques",
           "type": "url",
           "url": "https://inteltechniques.com/",
