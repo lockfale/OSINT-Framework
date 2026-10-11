@@ -6425,6 +6425,26 @@
               "type": "folder",
               "children": [
                 {
+                  "name": "EXIF Hound (T)",
+                  "type": "url",
+                  "url": "https://github.com/minimallyexceptional/exif-hound",
+                  "description": "Free, open-source desktop app (macOS, Windows, Linux) to inspect image EXIF metadata locally, map GPS-tagged photos, import KML and export CSV/JSON.",
+                  "status": "live",
+                  "pricing": "free",
+                  "bestFor": "Local EXIF inspection and mapping of GPS-tagged photos without uploading images",
+                  "input": "Image files with EXIF metadata (e.g., JPEG); KML files for import",
+                  "output": "EXIF metadata fields, GPS location map, and CSV/JSON exports",
+                  "opsec": "passive",
+                  "opsecNote": "Images and metadata are processed on-device and not transmitted; the app checks a signed update feed. Exported CSV/JSON files may contain location data.",
+                  "localInstall": true,
+                  "googleDork": false,
+                  "registration": false,
+                  "editUrl": false,
+                  "api": false,
+                  "invitationOnly": false,
+                  "deprecated": false
+                },
+                {
                   "name": "ExifEditor",
                   "type": "url",
                   "url": "https://exifeditor.io",
