@@ -12053,6 +12053,26 @@
               "api": true,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "Company Records",
+              "type": "url",
+              "url": "https://records.knowyourcustomer.com/",
+              "description": "Company search across 149 jurisdictions, each with its own coverage page. Search is free and anonymous with no login; on purchase, the company report and the underlying official filings are retrieved live from the official register rather than a cached database.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Retrieving current official registry filings for a company in any of 149 jurisdictions",
+              "input": "Company name",
+              "output": "Company report and official registry filings retrieved live from the register",
+              "opsec": "passive",
+              "opsecNote": "Searches run through Know Your Customer servers; an account is needed only at the point of purchase.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
