@@ -10661,6 +10661,11 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "Offendersearch - 58 US Sex Offender Registries",
+              "type": "url",
+              "url": "https://offendersearch.app"
             }
           ]
         },
