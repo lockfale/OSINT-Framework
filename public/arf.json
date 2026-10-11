@@ -10727,6 +10727,26 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "Piratage.fr",
+              "type": "url",
+              "url": "https://www.piratage.fr/",
+              "description": "Sourced register of data breaches and cyberattacks affecting French public bodies, separating confirmed facts from attacker claims (in French).",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Checking the documented breach history of a French public administration",
+              "input": "Administration name or browsing",
+              "output": "Incident records with dates, exposed data types and sources",
+              "opsec": "passive",
+              "opsecNote": "Read-only public website; no registration required.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
