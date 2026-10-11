@@ -3841,6 +3841,26 @@
                   "api": false,
                   "invitationOnly": false,
                   "deprecated": false
+                },
+                {
+                  "name": "Cerast Intelligence",
+                  "type": "url",
+                  "url": "https://search.cerast-intelligence.com/",
+                  "description": "Searchable archive of exposed panels, misconfigurations, and other bug-class findings discovered across domains by continuous internet-wide scanning.",
+                  "status": "live",
+                  "pricing": "free",
+                  "bestFor": "Checking whether a domain has known exposed services or misconfigurations on record",
+                  "input": "Domain name (substring/contains search, minimum 3 characters)",
+                  "output": "Matching domains with the exposure findings recorded for each",
+                  "opsec": "passive",
+                  "opsecNote": "Queries a pre-collected, metadata-only database and does not touch the target's infrastructure.",
+                  "localInstall": false,
+                  "googleDork": false,
+                  "registration": false,
+                  "editUrl": false,
+                  "api": false,
+                  "invitationOnly": false,
+                  "deprecated": false
                 }
               ]
             },
