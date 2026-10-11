@@ -6435,7 +6435,7 @@
                   "input": "Image files with EXIF metadata (e.g., JPEG); KML files for import",
                   "output": "EXIF metadata fields, GPS location map, and CSV/JSON exports",
                   "opsec": "passive",
-                  "opsecNote": "Images and metadata are processed on-device and not transmitted; the app checks a signed update feed. Exported CSV/JSON files may contain location data.",
+                  "opsecNote": "Images and metadata are processed on-device and never uploaded. The optional place-name lookup sends photo GPS coordinates to OpenStreetMap Nominatim; map tiles and update checks also use the network. Exported CSV/JSON files may contain location data.",
                   "localInstall": true,
                   "googleDork": false,
                   "registration": false,
