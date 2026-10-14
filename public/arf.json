@@ -9035,6 +9035,20 @@
           "type": "folder",
           "children": [
             {
+              "name": "Intel On Anyone",
+              "type": "url",
+              "url": "https://intelonanyone.com",
+              "description": "U.S. people-search platform aggregating public records, contact data, court records, and social/username footprint into one report. Free preview of candidate matches; full report is a one-time $14.99, no subscription or account.",
+              "input": "Name, phone number, email address, or username",
+              "output": "Contact info, address history, possible relatives, court records, social and username footprint across 600+ platforms",
+              "pricing": "paid",
+              "localInstall": false,
+              "registration": false,
+              "api": false,
+              "deprecated": false,
+              "opsecNote": "Non-FCRA; not for employment, tenant, or credit screening decisions. No account required."
+            },
+            {
               "name": "InfoFlow Public People Search In Chilean",
               "type": "url",
               "url": "https://infoflow.cloud/",
