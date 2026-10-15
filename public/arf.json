@@ -8831,6 +8831,26 @@
               "deprecated": false
             },
             {
+              "name": "Statiko",
+              "type": "url",
+              "url": "https://statiko.io/",
+              "description": "Real-time analytics for public Telegram channels: full post history with edits and deletions preserved, reach and growth metrics, trending topics, and an MCP connector for AI assistants.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Tracking what a channel posted, edited, or deleted and how it spread",
+              "input": "Channel @handles, t.me links, or keywords",
+              "output": "Post timeline with edit/deletion history, channel metrics, trending topics, similar channels",
+              "opsec": "passive",
+              "opsecNote": "Reads Statiko's own indexed data; no interaction with the target channel or its members.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "Tosint (T)",
               "type": "url",
               "url": "https://github.com/drego85/tosint",
