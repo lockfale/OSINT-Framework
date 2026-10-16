@@ -4605,6 +4605,26 @@
               "deprecated": false
             },
             {
+              "name": "IPGeolocation.io (R)",
+              "type": "url",
+              "url": "https://ipgeolocation.io/",
+              "description": "IP geolocation and intelligence API with company information, ASN and network data, IP security signals, and abuse contacts. Free plan includes 1,000 daily API credits for testing and small projects; advanced data requires a paid plan.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Enriching IP addresses with location and network context during OSINT investigations",
+              "input": "IPv4 or IPv6 address",
+              "output": "Geolocation, basic ASN data, currency, and time zone; company, full ASN/network, security, and abuse contact data on paid plans",
+              "opsec": "passive",
+              "opsecNote": "Lookups are sent to IPGeolocation.io rather than connecting directly to the target IP address.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "IP Fingerprints",
               "type": "url",
               "url": "https://ipfingerprints.com/",
