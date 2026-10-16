@@ -19449,26 +19449,6 @@
               "deprecated": false
             },
             {
-              "name": "Buscador OS (T)",
-              "type": "url",
-              "url": "https://inteltechniques.com/buscador/index.html",
-              "description": "Specialized OSINT-focused Linux virtual machine pre-configured with dozens of OSINT tools for online investigations.",
-              "status": "live",
-              "pricing": "free",
-              "bestFor": "OSINT investigations; pre-configured OSINT toolkit",
-              "input": "N/A (VM distribution)",
-              "output": "Debian-based OSINT environment with pre-installed tools",
-              "opsec": "passive",
-              "opsecNote": "Designed for OSINT; privacy features not built-in but configurable through Tor",
-              "localInstall": true,
-              "googleDork": false,
-              "registration": false,
-              "editUrl": false,
-              "api": false,
-              "invitationOnly": false,
-              "deprecated": false
-            },
-            {
               "name": "Kali Linux OS (T)",
               "type": "url",
               "url": "https://www.kali.org/",
