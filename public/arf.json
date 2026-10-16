@@ -19531,7 +19531,7 @@
             {
               "name": "Subgraph OS (T)",
               "type": "url",
-              "url": "https://subgraph.com/index.en.html",
+              "url": "https://subgraph.com/",
               "description": "Adversary-resistant alpha-stage operating system featuring hardened kernel, application sandboxing, built-in Tor integration, and memory-safe Golang applications.",
               "status": "live",
               "pricing": "free",
