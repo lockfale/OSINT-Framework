@@ -19551,7 +19551,7 @@
             {
               "name": "Tails Live OS (T)",
               "type": "url",
-              "url": "https://tails.boum.org/",
+              "url": "https://tails.net/",
               "description": "Portable Debian-based operating system designed for anonymous communication and privacy protection, running entirely from USB with no traces left after shutdown.",
               "status": "live",
               "pricing": "free",
