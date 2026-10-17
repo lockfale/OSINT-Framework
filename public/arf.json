@@ -11089,6 +11089,26 @@
               "api": true,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "OppIntell",
+              "type": "url",
+              "url": "https://oppintell.com",
+              "description": "Nonpartisan opposition research software organizing public records on 24,000+ U.S. candidates. Every claim links to its source.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Researching U.S. candidates with sourced public records",
+              "input": "Candidate name, state, race",
+              "output": "FEC and state filings, votes, court records, disclosures, statements",
+              "opsec": "passive",
+              "opsecNote": "Public profiles are free to browse",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
