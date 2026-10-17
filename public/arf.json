@@ -15560,6 +15560,26 @@
               "deprecated": false
             },
             {
+              "name": "WayTrace",
+              "type": "url",
+              "url": "https://waytrace.org/",
+              "description": "Reconstructs a domain's history from Wayback Machine captures: extracts emails, subdomains, exposed API keys, analytics and ad IDs, crypto wallets and people, each dated from first to last appearance and linked to the capture it came from. Open source (MIT).",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Finding what a website once exposed, and when, without touching it",
+              "input": "Domain",
+              "output": "Dated findings (emails, subdomains, keys, tracking and ad IDs, people) with links to archived captures",
+              "opsec": "passive",
+              "opsecNote": "Only the Wayback Machine is queried; the target domain receives no request.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "Web Archive-RU",
               "type": "url",
               "url": "https://web-arhive.ru/",
