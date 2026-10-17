@@ -3421,6 +3421,26 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "DMCA Detector (R)",
+              "type": "url",
+              "url": "https://www.dmcadetector.com/",
+              "description": "Searches Google's public copyright-removal (DMCA) record by domain: which requests name it, who filed them, which URLs were listed, whether Google acted, and the underlying Lumen notice.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Finding who has filed copyright takedowns against a domain and whether Google acted on them",
+              "input": "Domain name",
+              "output": "Request count and dates; with a free account also reporting organisation, copyright owner, affected URLs, per-URL removal status, and Lumen notice links",
+              "opsec": "passive",
+              "opsecNote": "Queries Google's published transparency data and Lumen; does not contact the target domain.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
