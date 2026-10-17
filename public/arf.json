@@ -19409,9 +19409,9 @@
           "type": "folder",
           "children": [
             {
-              "name": "VMware Workstation Player (T)",
+              "name": "VMware Workstation Pro (T)",
               "type": "url",
-              "url": "https://www.vmware.com/products/player/playerpro-evaluation.html",
+              "url": "https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion",
               "description": "Free lightweight desktop virtualization application for running multiple operating systems on a single computer without rebooting.",
               "status": "live",
               "pricing": "free",
@@ -19422,7 +19422,7 @@
               "opsecNote": "No inherent privacy enhancement; privacy depends on guest OS configuration",
               "localInstall": true,
               "googleDork": false,
-              "registration": false,
+              "registration": true,
               "editUrl": false,
               "api": false,
               "invitationOnly": false,
