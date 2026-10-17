@@ -31,6 +31,27 @@
               "deprecated": false
             },
             {
+                "name": "WhatsMyName Apps",
+                "type": "url",
+                "url": "https://whatsmynameapps.us/",
+                "description": "Free web-based username search across 3,165 sites, no sign-up required. Android app: https://play.google.com/store/apps/details?id=whatsmyname.app.us",
+                "status": "live",
+                "pricing": "free",
+                "bestFor": "Quick web-based username enumeration across social media, forums, and gaming platforms",
+                "input": "Username",
+                "output": "List of sites where the username exists with direct profile links",
+                "opsec": "active",
+                "opsecNote": "Checks run from the site's infrastructure, not from the user's browser.",
+                "localInstall"": false,
+                "googleDork": false,
+                "registration"": false,
+                "editUrl": false",
+                "api": false,
+                "invitationOnly": false,
+                "deprecated": false
+            }
+          ,
+            {
               "name": "WhatsMyName (T)",
               "type": "url",
               "url": "https://github.com/WebBreacher/WhatsMyName",
