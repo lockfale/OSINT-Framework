@@ -14687,6 +14687,26 @@
               "name": "NewsBot",
               "type": "url",
               "url": "https://getnewsbot.com/"
+            },
+            {
+              "name": "GlobalsConflicts",
+              "type": "url",
+              "url": "https://www.globalsconflicts.com/",
+              "description": "Free, ad-free and cookie-free live dashboard of global conflicts and crises. Every report links to its original source with timestamp and a strong/medium/low evidence rating; one dossier per conflict, in English and German.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Following conflict and crisis reporting with traceable sources and evidence ratings",
+              "input": "Browse by conflict dossier, date or keyword search",
+              "output": "Source-linked situation reports, timelines and an RSS feed",
+              "opsec": "passive",
+              "opsecNote": "Read-only website without cookies, analytics or user tracking; opening a linked original source leaves the site.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
