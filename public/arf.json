@@ -19409,7 +19409,7 @@
           "type": "folder",
           "children": [
             {
-              "name": "VMware Workstation Player (T)",
+              "name": "VMware Workstation Pro (T)",
               "type": "url",
               "url": "https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion",
               "description": "Free lightweight desktop virtualization application for running multiple operating systems on a single computer without rebooting.",
