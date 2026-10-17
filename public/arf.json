@@ -12881,6 +12881,26 @@
           "type": "folder",
           "children": [
             {
+              "name": "Flock Locations",
+              "type": "url",
+              "url": "https://flocklocations.com/",
+              "opsec": "passive",
+              "opsecNote": "Publishes community-reported ALPR camera locations and does not directly interact with the target.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false,
+              "description": "Community-built map and open database of Flock Safety and ALPR (automated license plate reader) camera locations, with free CSV/GeoJSON exports and a public API.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Mapping ALPR surveillance camera locations for investigations and transparency reporting",
+              "input": "Map area or state and city directory",
+              "output": "Camera locations with confirmation status; CSV/GeoJSON exports; public API"
+            },
+            {
               "name": "Hyperlapse (T)",
               "type": "url",
               "url": "https://github.com/TeehanLax/Hyperlapse.js",
