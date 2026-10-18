@@ -1,0 +1,9 @@
+{
+  "name": "link-recheck",
+  "private": true,
+  "description": "Rechecks lychee link-check failures in headless Chromium (used by CI)",
+  "type": "module",
+  "dependencies": {
+    "playwright": "1.63.0"
+  }
+}

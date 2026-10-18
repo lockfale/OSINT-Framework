@@ -8,6 +8,8 @@ on:
   schedule:
     # Run link check weekly on Saturday at 08:00 UTC
     - cron: '0 8 * * 6'
+  # Manual run of the link check from the Actions tab
+  workflow_dispatch:
 
 jobs:
   json-lint:
@@ -44,33 +46,14 @@ jobs:
   link-check:
     name: Link Check
     runs-on: ubuntu-latest
-    # Only run on schedule (weekly Saturday) — avoid hammering external sites on every push/PR
-    if: github.event_name == 'schedule'
+    # Only run on schedule (weekly Saturday) or by hand, to avoid hammering external sites on every push/PR
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
 
-      - name: Extract URLs from arf.json
-        run: |
-          python3 -c "
-          import json, re, sys
-
-          with open('public/arf.json') as f:
-              data = json.load(f)
-
-          def extract_urls(node):
-              urls = []
-              url = node.get('url', '')
-              if url and url.startswith('http'):
-                  urls.append(url)
-              for child in node.get('children', []):
-                  urls.extend(extract_urls(child))
-              return urls
-
-          urls = extract_urls(data)
-          print(f'Found {len(urls)} URLs', file=sys.stderr)
-          with open('urls.txt', 'w') as f:
-              f.write('\n'.join(urls))
-          "
+      - name: Extract URLs from arf.json (skipping template URLs)
+        run: python3 tools/extract_urls.py
 
       - name: Run lychee link checker
         uses: lycheeverse/lychee-action@v2
@@ -83,6 +66,33 @@ jobs:
             --retry-wait-time 5
             --accept 200,201,204,206,301,302,307,308,403,429
             urls.txt
-          fail: true
+          format: json
+          output: lychee/out.json
+          # Failures get a second look in a real browser below, which decides
+          # whether the job fails.
+          fail: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install Playwright and Chromium
+        working-directory: tools/link-recheck
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium
+
+      - name: Recheck lychee failures in headless Chromium
+        working-directory: tools/link-recheck
+        run: node recheck.mjs ../../lychee/out.json ../../link-recheck-report.md
+
+      - name: Upload link check reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: link-check-report
+          path: |
+            lychee/out.json
+            link-recheck-report.md
