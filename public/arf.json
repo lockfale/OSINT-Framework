@@ -8039,6 +8039,26 @@
               "deprecated": false
             },
             {
+              "name": "Tok Live Recorder (R)",
+              "type": "url",
+              "url": "https://tokliverecorder.com/",
+              "description": "Web-based recorder that captures a public TikTok LIVE from its link while it is on air and saves the broadcast as an MP4.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Preserving a TikTok LIVE broadcast before it ends, since viewers get no replay",
+              "input": "TikTok LIVE URL",
+              "output": "MP4 recording of the broadcast",
+              "opsec": "passive",
+              "opsecNote": "Recording runs on the service's servers rather than your device; requires signing in to an account. Only public LIVEs that are on air can be recorded.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "Unfurl",
               "type": "url",
               "url": "https://github.com/obsidianforensics/unfurl",
