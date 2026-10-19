@@ -22106,6 +22106,26 @@
                   "api": false,
                   "invitationOnly": false,
                   "deprecated": false
+                },
+                {
+                  "name": "Spoof Me",
+                  "type": "url",
+                  "url": "https://spoof-me.com/",
+                  "description": "Chrome and Firefox extension that spoofs user agent, Accept-Language, language, timezone, screen and hardware signals as one consistent browser identity, blocks WebRTC local IP leaks, and alerts when a site reads fingerprinting APIs.",
+                  "status": "live",
+                  "pricing": "free",
+                  "bestFor": "Hiding the investigator's real device, locale and timezone while browsing target sites",
+                  "input": "Choose a preset or custom identity in the extension popup",
+                  "output": "Spoofed HTTP headers and JavaScript-visible browser properties; per-site fingerprinting detection log",
+                  "opsec": "passive",
+                  "opsecNote": "Runs locally in the browser with no account; settings stay on-device. Does not change your IP address, so pair it with a VPN or proxy.",
+                  "localInstall": true,
+                  "googleDork": false,
+                  "registration": false,
+                  "editUrl": false,
+                  "api": false,
+                  "invitationOnly": false,
+                  "deprecated": false
                 }
               ]
             },
