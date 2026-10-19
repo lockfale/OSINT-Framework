@@ -6838,6 +6838,26 @@
                   "name": "Search YouTube by Location",
                   "type": "url",
                   "url": "https://mattw.io/youtube-geofind/"
+                },
+                {
+                  "name": "SauceMatch",
+                  "type": "url",
+                  "url": "https://saucematch.com/",
+                  "description": "Reverse video search for adult (18+) content: a screenshot, GIF or short clip is matched against its own index of over 4 million videos, and each match is checked frame against frame with keypoint geometry and given a 0 to 100 confidence.",
+                  "status": "live",
+                  "pricing": "free",
+                  "bestFor": "Tracing where an adult clip or screenshot came from and where the same video was reposted",
+                  "input": "Screenshot, image, GIF or video clip",
+                  "output": "Source and repost video pages with confidence scores and the matched frame pairs",
+                  "opsec": "passive",
+                  "opsecNote": "The file stays on the device. Most desktop browsers send only frame fingerprints; phones and slower devices send the chosen frames to the service, which may keep them.",
+                  "localInstall": false,
+                  "googleDork": false,
+                  "registration": false,
+                  "editUrl": false,
+                  "api": false,
+                  "invitationOnly": false,
+                  "deprecated": false
                 }
               ]
             },
