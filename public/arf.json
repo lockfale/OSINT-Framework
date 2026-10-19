@@ -12405,6 +12405,26 @@
           "type": "folder",
           "children": [
             {
+              "name": "DroneLedger",
+              "type": "url",
+              "url": "https://droneincidents.com/",
+              "description": "Open archive of sourced drone-incident dossiers worldwide (airport disruptions, sightings over critical infrastructure, drone strikes in conflicts) that keeps reported apart from confirmed and labels single-source reports as unverified.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Finding earlier drone incidents by country, airport or date, with links to the original sources",
+              "input": "Country, airport, place, or date",
+              "output": "Incident dossiers with dates, places, source links, verification status and correction history; CSV/JSON export (CC BY 4.0)",
+              "opsec": "passive",
+              "opsecNote": "Read-only public archive; no interaction with any target.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "Flightradar24.com",
               "type": "url",
               "url": "https://www.flightradar24.com/",
