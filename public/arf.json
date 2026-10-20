@@ -14687,6 +14687,26 @@
               "name": "NewsBot",
               "type": "url",
               "url": "https://getnewsbot.com/"
+            },
+            {
+              "name": "APITube (R)",
+              "type": "url",
+              "url": "https://apitube.io",
+              "description": "News API that aggregates articles from 500,000+ sources across 180+ countries in 60+ languages and returns them as structured JSON enriched with sentiment, extracted entities (people, organizations, locations, brands), topics and industries. Search combines 65+ filter parameters in one request and covers both live and historical coverage. Free tier allows 100 requests/day.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Programmatic monitoring of a person, company or topic across global news in multiple languages",
+              "input": "Keyword, entity, source domain, source country, language, sentiment range or date range",
+              "output": "JSON articles with title, body, source, publish date, sentiment, entities, topics and categories",
+              "opsec": "passive",
+              "opsecNote": "Queries hit APITube's own index rather than the publishers' sites, so targets see no traffic; requests are logged against your API key.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
