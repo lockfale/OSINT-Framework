@@ -6734,6 +6734,26 @@
                   "name": "Forensically",
                   "type": "url",
                   "url": "https://29a.ch/photo-forensics/"
+                },
+                {
+                  "name": "ChronoVerify",
+                  "type": "url",
+                  "url": "https://chronoverify.com",
+                  "description": "Free web verifier and API for image provenance: validates C2PA Content Credentials against the official trust lists, reads EXIF and XMP capture metadata, and runs classical pixel forensics, returning one verdict with a confidence score.",
+                  "status": "live",
+                  "pricing": "freemium",
+                  "bestFor": "Checking what provenance evidence an image file carries before deeper analysis",
+                  "input": "Image files or image URLs (JPEG, PNG, WebP, HEIC and similar, up to 40 megapixels)",
+                  "output": "Verdict with confidence score, per-signal breakdown, optional shareable verdict permalink",
+                  "opsec": "passive",
+                  "opsecNote": "Uploads are processed in memory and not retained; URL checks fetch the image server-side.",
+                  "localInstall": false,
+                  "googleDork": false,
+                  "registration": false,
+                  "editUrl": false,
+                  "api": true,
+                  "invitationOnly": false,
+                  "deprecated": false
                 }
               ]
             },
