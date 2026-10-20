@@ -12679,6 +12679,26 @@
           "deprecated": false
         },
         {
+          "name": "overhead24 (M)",
+          "type": "url",
+          "url": "https://overhead24.com/",
+          "description": "Live 3D globe of every satellite with public orbital data, flagging military satellites over active conflict areas, satellites staying close to each other, recent manoeuvres and launches.",
+          "status": "live",
+          "pricing": "free",
+          "bestFor": "Military satellite activity, close approaches, and satellite passes over a location",
+          "input": "Satellite name, NORAD ID, or a location",
+          "output": "Live position, orbit, owner and mission type, close approaches, manoeuvres, and visible passes",
+          "opsec": "passive",
+          "opsecNote": "Positions are calculated in the browser from public orbital data; the user's location stays on their device.",
+          "localInstall": false,
+          "googleDork": false,
+          "registration": false,
+          "editUrl": true,
+          "api": false,
+          "invitationOnly": false,
+          "deprecated": false
+        },
+        {
           "name": "Track-Trace",
           "type": "url",
           "url": "https://www.track-trace.com/",
