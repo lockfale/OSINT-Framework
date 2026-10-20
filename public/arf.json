@@ -12979,6 +12979,26 @@
               "bestFor": "Conflict and crisis event geolocation tracking",
               "input": "Region and event filters",
               "output": "Mapped incidents with timeline and source context"
+            },
+            {
+              "name": "ARGUS",
+              "type": "url",
+              "url": "https://argus.prototipo.nl",
+              "description": "Free, no-login OSINT dashboard: live conflict map (ADS-B flights incl. notable military aircraft, ships at chokepoints, NASA FIRMS thermal detections, DeepState frontline, NGA navigational warnings, Ukraine air-raid alerts, earthquakes, Cloudflare outages), 165 tiered news feeds grouped by viewpoint (West/Russia/Ukraine/Middle East/Asia), 46 live video channels, per-situation pages, national terror threat levels and a European hybrid-warfare dossier built on Leiden University's CC BY dataset.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Real-time situational awareness of conflicts and hybrid threats from one map plus multi-viewpoint news",
+              "input": "None (browse map, situation pages, feeds)",
+              "output": "Live map layers, news feed timeline, video streams, situation dossiers",
+              "opsec": "passive",
+              "opsecNote": "No login, no tracking; reads public feeds only.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
