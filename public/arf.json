@@ -12053,6 +12053,26 @@
               "api": true,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "Unified Social Credit Code Checker",
+              "type": "url",
+              "url": "https://currawongweb.com/verify/china-usci-checker/",
+              "description": "Validates the structure and check digit of an 18-character Chinese Unified Social Credit Code under GB 32100-2015, and reads the leading characters that distinguish an enterprise from an individually-owned business or a farmers' cooperative. Runs entirely in the browser.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Detecting format or check-digit discrepancies in a Chinese company identifier before separate registry research",
+              "input": "18-character Unified Social Credit Code",
+              "output": "Structural breakdown, check-digit result, and entity category",
+              "opsec": "passive",
+              "opsecNote": "The arithmetic check runs in the browser after the page loads; it does not query a registry. The input is included in the URL fragment for sharing, so recipients of a shared link can see it.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
