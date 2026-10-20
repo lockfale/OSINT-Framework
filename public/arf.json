@@ -6525,6 +6525,26 @@
                   "deprecated": false
                 },
                 {
+                  "name": "isGenAI",
+                  "type": "url",
+                  "url": "https://isgenai.com/ai-image-detector",
+                  "description": "Read saved AI generation settings and source labels in original images, including supported AUTOMATIC1111 and ComfyUI/Flux workflows.",
+                  "status": "live",
+                  "pricing": "free",
+                  "bestFor": "Inspecting saved AI creation details and recovering embedded prompts",
+                  "input": "Image upload up to 20 MB; PNG, JPEG, WebP or AVIF",
+                  "output": "File findings, recoverable saved prompts and an exportable report",
+                  "opsec": "passive",
+                  "opsecNote": "Uploads the image to isGenAI servers. Editable metadata does not establish authorship; absent records do not establish a camera origin.",
+                  "localInstall": false,
+                  "googleDork": false,
+                  "registration": false,
+                  "editUrl": false,
+                  "api": true,
+                  "invitationOnly": false,
+                  "deprecated": false
+                },
+                {
                   "name": "Jeffrey's Exif Viewer",
                   "type": "url",
                   "url": "https://regex.info/blog/",
