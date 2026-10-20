@@ -3989,6 +3989,26 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "OSINT Projects (T)",
+              "type": "url",
+              "url": "https://osintprojects.com",
+              "description": "Free, no-signup web toolkit for domain, DNS, IP, SSL and subdomain reconnaissance, plus hashing, Base64/URL encoding and JWT/password utilities.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Quick domain, DNS, IP and SSL reconnaissance in the browser",
+              "input": "Domains, IP addresses and hostnames",
+              "output": "WHOIS/RDAP, DNS records, IP geolocation, SSL certificate details and subdomains",
+              "opsec": "passive",
+              "opsecNote": "Mostly passive (RDAP/WHOIS, DNS, public IP geolocation, Certificate Transparency); the SSL certificate checker makes a direct TLS connection to the target host.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
