@@ -1396,6 +1396,26 @@
           "type": "folder",
           "children": [
             {
+              "name": "ActiveDNS",
+              "type": "url",
+              "url": "https://activedns.net",
+              "description": "Free DNS intelligence search engine for exploring observed relationships between domain names, IP addresses, and autonomous systems.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Subdomain discovery, reverse IP lookups, infrastructure mapping, ASN reconnaissance",
+              "input": "Domain, IP, ASN",
+              "output": "Matching domain names, IP addresses, ASNs, and observation timestamps",
+              "opsec": "passive",
+              "opsecNote": "Searches previously collected DNS observations without directly contacting the target.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "SynapsInt",
               "type": "url",
               "url": "https://synapsint.com",
@@ -1781,6 +1801,26 @@
           "name": "Discovery",
           "type": "folder",
           "children": [
+            {
+              "name": "ActiveDNS",
+              "type": "url",
+              "url": "https://activedns.net",
+              "description": "Free DNS intelligence search engine for exploring observed relationships between domain names, IP addresses, and autonomous systems.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Subdomain discovery, reverse IP lookups, infrastructure mapping, ASN reconnaissance",
+              "input": "Domain, IP, ASN",
+              "output": "Matching domain names, IP addresses, ASNs, and observation timestamps",
+              "opsec": "passive",
+              "opsecNote": "Searches previously collected DNS observations without directly contacting the target.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
             {
               "name": "Shodan",
               "type": "url",
