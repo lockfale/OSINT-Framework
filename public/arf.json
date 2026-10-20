@@ -19349,6 +19349,26 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "otinstaller (T)",
+              "type": "url",
+              "url": "https://github.com/OSINTVerseHQ/OTinstaller",
+              "description": "Free, MIT-licensed Linux CLI that installs, runs, updates and removes 47 open-source OSINT tools (Sherlock, Maigret, Holehe, theHarvester, SpiderFoot, BBOT and more) by name, each in its own virtualenv. Typed inputs (u:, e:, p:, d:) are mapped to each tool's own flags, --all runs every matching tool in parallel, and results are saved with a metadata sidecar.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Installing and running many open-source OSINT tools from one command interface",
+              "input": "Username, email, phone number, domain, URL or other typed input",
+              "output": "Per-tool results saved under ./results/<tool>/<target>/ with JSON metadata (command, timing, exit code, SHA-256)",
+              "opsec": "active",
+              "opsecNote": "Runs the installed tools locally; opsec depends on which tools you run, as some query the target's services directly.",
+              "localInstall": true,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
@@ -19375,6 +19395,26 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": true
+            },
+            {
+              "name": "GraphIn (R)",
+              "type": "url",
+              "url": "https://osintverse.com/graphin",
+              "description": "Browser-based OSINT link analysis tool. Start from an email, domain or username, expand it with transforms backed by breach, WHOIS, DNS, people and crypto data providers, and share the case map read-only. A live demo is available without an account.",
+              "status": "live",
+              "pricing": "paid",
+              "bestFor": "Mapping connections between people, accounts and infrastructure in a shared case graph",
+              "input": "Email, domain or username as the seed entity",
+              "output": "Interactive entity graph with linked results, flags and notes; exportable and shareable read-only",
+              "opsec": "passive",
+              "opsecNote": "Transforms query third-party data providers, not the target directly.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
