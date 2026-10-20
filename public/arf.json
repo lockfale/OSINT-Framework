@@ -1962,6 +1962,26 @@
               "deprecated": false
             },
             {
+              "name": "VendorPrint (T)",
+              "type": "url",
+              "url": "https://github.com/danahmadi/vendorprint_cli",
+              "description": "Open-source CLI and Node.js library for discovering company technology signals from public DNS, with evidence, confidence, and caveats.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Researching company email providers and SaaS relationships from DNS configuration",
+              "input": "Domain name or list of domains",
+              "output": "Vendor findings with supporting evidence and confidence in JSON or NDJSON",
+              "opsec": "active",
+              "opsecNote": "Makes DNS queries through resolvers, which may reach authoritative nameservers. Does not load the target website. Optional certificate-transparency discovery queries an external service.",
+              "localInstall": true,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "Wappalyzer",
               "type": "url",
               "url": "https://www.wappalyzer.com/",
