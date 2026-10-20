@@ -12979,6 +12979,26 @@
               "bestFor": "Conflict and crisis event geolocation tracking",
               "input": "Region and event filters",
               "output": "Mapped incidents with timeline and source context"
+            },
+            {
+              "name": "Map of Wars",
+              "type": "url",
+              "url": "https://mapofwars.org/",
+              "opsec": "passive",
+              "opsecNote": "Uses open-source mapping/geospatial data and does not directly interact with the target.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false,
+              "description": "Free live map of air threats and armed conflicts: drone and missile tracks over Ukraine (NEPTUN), air raid alerts, verified battles (UCDP), GDELT conflict reports, military aircraft (ADS-B), disasters and internet outages, with source links, a 30-day replay and a public RSS/JSON feed.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Monitoring drone and missile activity near Ukraine and NATO's eastern flank in real time",
+              "input": "Country or region",
+              "output": "Live map layers, event cards with source links, RSS/JSON feed"
             }
           ]
         },
