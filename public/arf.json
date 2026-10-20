@@ -8509,6 +8509,26 @@
               "deprecated": false
             },
             {
+              "name": "Jev Social (T)(R)",
+              "type": "url",
+              "url": "https://github.com/socai-io/jev-social",
+              "description": "Open-source read-only social research app where Jev selects bounded Instagram, TikTok, and LinkedIn operations, the local socai CLI executes them in Chrome, and captured evidence becomes cited reports.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Cross-platform social media evidence collection and research reporting",
+              "input": "Natural-language research goal, configured Jev decision provider, and authorized local browser session",
+              "output": "Captured post and profile evidence, available comments, source links, explicitly requested TikTok media, and cited research report",
+              "opsec": "active",
+              "opsecNote": "Runs searches and opens content in the operator's real browser; platform requests are visible, authenticated sessions may be logged, and automation can trigger rate limits.",
+              "localInstall": true,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "Talkwalker Social Media Search (R)",
               "type": "url",
               "url": "https://www.talkwalker.com/social-media-analytics-search",
