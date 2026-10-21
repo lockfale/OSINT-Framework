@@ -1388,6 +1388,26 @@
               "api": true,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "Karma.Domains WHOIS Lookup",
+              "type": "url",
+              "url": "https://karma.domains/en/whois-lookup/",
+              "description": "Free WHOIS lookup that queries classic WHOIS and RDAP and merges the public fields into readable tables (registrar, dates, status, name servers, contacts), with privacy redactions labeled and the raw record available.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Quick readable WHOIS/RDAP report for a single domain without signup",
+              "input": "Domain name or URL",
+              "output": "Registrar, registration/expiration dates, domain status, name servers, public contacts, raw WHOIS",
+              "opsec": "passive",
+              "opsecNote": "Queries public WHOIS/RDAP servers via the site; no signup, captcha per lookup, 10 lookups per day.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
