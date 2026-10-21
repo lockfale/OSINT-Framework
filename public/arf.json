@@ -11775,6 +11775,26 @@
               "deprecated": false
             },
             {
+              "name": "ChineseCheck",
+              "type": "url",
+              "url": "https://chinesecheck.com/",
+              "description": "English-language lookup of Chinese company registration records by name or Unified Social Credit Code; paid reports add court enforcement, litigation and administrative penalty records.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Checking a Chinese company's registration record without reading Chinese",
+              "input": "Company name (English or Chinese) or Unified Social Credit Code",
+              "output": "Registration details in English; paid reports add enforcement, litigation, penalty and tax credit records",
+              "opsec": "passive",
+              "opsecNote": "All queries go through ChineseCheck servers.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "AIHIT",
               "type": "url",
               "url": "https://www.aihitdata.com/",
