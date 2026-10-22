@@ -23030,6 +23030,26 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "ProofSnap Verifier",
+              "type": "url",
+              "url": "https://getproofsnap.com/verify/index.html",
+              "description": "Open-source verifier for captured web evidence: recomputes SHA-256 hashes, the RSA signature of the manifest, OpenTimestamps (Bitcoin) proofs and RFC 3161 / eIDAS qualified timestamps, in the browser or with npx proofsnap-verify. Files are never uploaded.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Checking that captured web evidence is unaltered and confirming when it existed",
+              "input": "ProofSnap evidence package (ZIP or folder), or any file with an RFC 3161 (.tsr) or OpenTimestamps (.ots) proof",
+              "output": "VALID / VALID WITH WARNINGS / INVALID verdict with a per-check report",
+              "opsec": "passive",
+              "opsecNote": "Runs locally in the browser or terminal; evidence files never leave the machine. Online steps only read Bitcoin block headers from public explorers and look up the manifest hash in ProofSnap's public issuance ledger.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
