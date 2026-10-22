@@ -17897,6 +17897,26 @@
               "deprecated": false
             },
             {
+              "name": "Iris",
+              "type": "url",
+              "url": "https://iriscan.app/",
+              "description": "Blockchain investigation tool for Solana, EVM chains, Bitcoin and Tron: shows who funded a wallet and where its money went, with labels from 640,000+ known addresses (each with its source) and tracing through mixers, bridges and instant swaps.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Identifying who is behind a wallet and following funds across mixers and bridges",
+              "input": "Wallet address, token address, or transaction hash",
+              "output": "Funding sources, counterparties, labels with sources, risk score, fund-flow graph, shareable case report",
+              "opsec": "passive",
+              "opsecNote": "Reads public blockchain data only. No registration for the first 10 checks, then a free account. Offers an API and an MCP server.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "OXT.me",
               "type": "url",
               "url": "https://oxt.me/",
