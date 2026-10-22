@@ -23030,6 +23030,26 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "CurlShot",
+              "type": "url",
+              "url": "https://curlshot.com/",
+              "description": "Website screenshot tool and API that captures a full page as PNG, JPEG, WebP, PDF or scrolling video, with desktop, mobile and tablet presets and optional cookie banner and ad hiding.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Capturing a full-page visual record of a web page as an image or PDF",
+              "input": "URL, HTML or Markdown",
+              "output": "Full-page screenshots (PNG/JPEG/WebP), PDF, scrolling video (MP4/WebM/GIF)",
+              "opsec": "passive",
+              "opsecNote": "Page is rendered by a third-party service; the target sees the service's servers, not your IP.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
