@@ -2997,6 +2997,26 @@
               "deprecated": false
             },
             {
+              "name": "OpenBait Typosquat Check",
+              "type": "url",
+              "url": "https://openbait.com/tools/typosquat-check",
+              "description": "Web tool that builds lookalike names for a brand domain (brand plus words like login or pay, and .shop variants) and shows which are already registered and resolving.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Quick check for registered lookalike domains of a brand",
+              "input": "Domain name",
+              "output": "Lookalike domain list, registration and DNS status",
+              "opsec": "passive",
+              "opsecNote": "Lookups run from the service, not from your machine; the domain entered is not stored",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "Catphish (T)",
               "type": "url",
               "url": "https://github.com/ring0lab/catphish",
