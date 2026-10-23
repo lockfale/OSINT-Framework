@@ -990,6 +990,26 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "Have I Been Ransomed?",
+              "type": "url",
+              "url": "https://haveibeenransom.com/",
+              "description": "Check if your email, phone or company has been leaked by ransomware gangs, stealers or traditional breaches.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Ransomware leak exposure, stealer log and breach checks",
+              "input": "Email address, phone number, or company domain",
+              "output": "Ransomware leak-site posts, stealer logs and data breaches, with the group or source and the date of each leak",
+              "opsec": "passive",
+              "opsecNote": "Searches an index of ransomware leak-site posts, stealer logs and breach data. Target is not notified of lookups.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
