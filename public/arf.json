@@ -21542,6 +21542,26 @@
               "deprecated": false
             },
             {
+              "name": "ICHI - Internet Cyber Health Index",
+              "type": "url",
+              "url": "https://ichi.global/",
+              "description": "Free, source-transparent daily barometer of internet cyber health, aggregating news, telemetry, and threat intelligence signals across multiple public feeds into a single cyber health score.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Daily internet cyber health overview and threat intelligence digest",
+              "input": "No input required \u2014 browse directly or subscribe to the alerts RSS feed at /api/alerts",
+              "output": "Daily cyber health index, threat intelligence news digest, and source-linked security alerts",
+              "opsec": "passive",
+              "opsecNote": "Publicly accessible; no login or registration required",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "Malware Information Sharing Platform",
               "type": "url",
               "url": "https://www.misp-project.org/",
