@@ -8039,6 +8039,26 @@
               "deprecated": false
             },
             {
+              "name": "TTAnon",
+              "type": "url",
+              "url": "https://ttanon.com/",
+              "description": "Web viewer for public TikTok profiles, videos, photo posts, hashtags, and sounds that works without a TikTok account.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Viewing public TikTok content without an account or login",
+              "input": "TikTok username, TikTok link, hashtag, or keyword",
+              "output": "Public profile pages, videos, photo posts, captions, and engagement counts",
+              "opsec": "active",
+              "opsecNote": "Pages are server-rendered, so TikTok scripts do not load, but video playback streams from TikTok's CDN and exposes your IP; the site uses Google Analytics and Cloudflare Web Analytics.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "Unfurl",
               "type": "url",
               "url": "https://github.com/obsidianforensics/unfurl",
