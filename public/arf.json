@@ -3527,6 +3527,18 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": true
+            },
+            {
+              "name": "Peekray",
+              "type": "url",
+              "url": "https://peekray.com",
+              "description": "Free scam link checker. Follows short links and redirects on its own server (up to 4 hops), checks against OpenPhish, PhishTank and URLhaus, plus Jev, TypeSafe AI's decision model, and gives a plain answer such as Safe, Check first or Scam. Also a Chrome extension.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Checking where a short or suspicious link really goes",
+              "input": "URL",
+              "output": "Final destination and a safety verdict",
+              "registration": false
             }
           ]
         },
