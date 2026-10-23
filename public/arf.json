@@ -12649,6 +12649,26 @@
               "api": true,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "Velocity (T)",
+              "type": "url",
+              "url": "https://github.com/AndrewCTF/velocity",
+              "description": "Self-hosted, open-source (AGPL) ship and flight tracker that fuses public AIS and ADS-B feeds without API keys and records every position it sees, so past vessel traffic can be replayed from your own disk.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Keeping your own searchable history of vessel movements for a port or sea area",
+              "input": "Area (circle or polygon) or vessel MMSI",
+              "output": "Live and historical vessel positions with the reporting feed and fix age for each contact",
+              "opsec": "passive",
+              "opsecNote": "Polls public aggregator feeds from your own server; no interaction with the tracked vessels.",
+              "localInstall": true,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
