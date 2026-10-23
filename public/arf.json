@@ -7259,6 +7259,26 @@
               "deprecated": false
             },
             {
+              "name": "PicMany Instagram Viewer",
+              "type": "url",
+              "url": "https://picmany.com/",
+              "description": "Anonymous Instagram viewer for browsing public profiles, posts, reels and story highlights in the browser without an Instagram account.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Anonymous viewing of public Instagram profiles and posts without signing in",
+              "input": "Instagram username or profile URL",
+              "output": "Profile details, posts, reels, stories and story highlights",
+              "opsec": "passive",
+              "opsecNote": "Requests go through a third-party viewer; the target is not notified, but the viewer operator sees what you look up.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "Osintgram (T)",
               "type": "url",
               "url": "https://github.com/Datalux/Osintgram",
