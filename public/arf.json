@@ -7259,6 +7259,26 @@
               "deprecated": false
             },
             {
+              "name": "PicMany",
+              "type": "url",
+              "url": "https://picmany.com/",
+              "description": "Web viewer for public Instagram profiles, posts, reels, stories and highlights that works without an Instagram account.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Viewing public Instagram profiles and posts without an account or login",
+              "input": "Instagram username or profile URL",
+              "output": "Public profile details, posts, reels, stories and highlights",
+              "opsec": "active",
+              "opsecNote": "Profile pictures and post images are fetched by PicMany's server, but videos, stories and highlights load from Instagram's CDN (some story media from a third-party provider), exposing your IP; the site uses Google Analytics and Cloudflare Web Analytics.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "Osintgram (T)",
               "type": "url",
               "url": "https://github.com/Datalux/Osintgram",
