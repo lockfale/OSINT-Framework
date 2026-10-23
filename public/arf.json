@@ -12867,6 +12867,26 @@
               "bestFor": "Rapid initial geolocation hypotheses from photos",
               "input": "Image file",
               "output": "Likely geographic region or coordinate candidates"
+            },
+            {
+              "name": "GeoInfer",
+              "type": "url",
+              "url": "https://geoinfer.com/",
+              "opsec": "active",
+              "opsecNote": "Image content is uploaded to a third-party AI geolocation service.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false,
+              "description": "AI image geolocation that predicts where a photo was taken from visual content alone, without EXIF metadata.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Locating photos with no GPS metadata",
+              "input": "Image upload",
+              "output": "Ranked candidate locations with coordinates and confidence radius"
             }
           ]
         },
