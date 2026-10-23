@@ -990,6 +990,26 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "XposedOrNot",
+              "type": "url",
+              "url": "https://xposedornot.com/",
+              "description": "Free data breach search engine that checks whether an email address appears in known public breaches, with breach history, exposed data categories and a public breach catalog. Open API and a remote MCP server for AI assistants. Never returns passwords.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Email breach exposure checks and breach catalog research",
+              "input": "Email address, domain",
+              "output": "Breach names, breach dates, exposed data categories, domain exposure counts",
+              "opsec": "passive",
+              "opsecNote": "Queries the XposedOrNot breach index. The address owner is not notified of lookups.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
