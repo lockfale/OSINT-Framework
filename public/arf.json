@@ -7407,6 +7407,25 @@
                   "api": false,
                   "invitationOnly": false,
                   "deprecated": false
+                },
+                {
+                  "name": "TweetLens public X archives",
+                  "type": "url",
+                  "url": "https://tweetlens.com/find-old-tweets/",
+                  "description": "Search captured public X posts from the available account collection by keywords and dates. Includes a working free example and guidance on missing posts and context.",
+                  "status": "live",
+                  "pricing": "freemium",
+                  "bestFor": "Finding previously captured posts within the listed public archives",
+                  "input": "An account from the public collection, keywords and optional date filters",
+                  "output": "Captured posts with original dates and available thread context; coverage is incomplete",
+                  "opsec": "passive",
+                  "opsecNote": "Searches saved copies on a third-party site. Original-post links open X; the site cannot recover arbitrary deleted or uncaptured posts.",
+                  "localInstall": false,
+                  "googleDork": false,
+                  "registration": false,
+                  "editUrl": false,
+                  "invitationOnly": false,
+                  "deprecated": false
                 }
               ]
             },
