@@ -22732,6 +22732,26 @@
               "deprecated": false
             },
             {
+              "name": "Recordwell - Free Opt-Out",
+              "type": "url",
+              "url": "https://recordwell.ai/opt-out",
+              "description": "Free Recordwell-only privacy-request page for removal, correction, and do-not-sell-or-share requests. No account or payment is required.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Requesting removal of your own information from Recordwell",
+              "input": "Name and email; state or region for removal and review requests",
+              "output": "Privacy-request form and instructions; email verification for removal and review",
+              "opsec": "active",
+              "opsecNote": "Shares submitted personal information with Recordwell. Use only for an authorized privacy request. Removal affects Recordwell results rather than original source websites.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "Credit Freeze",
               "type": "url",
               "url": "https://inteltechniques.com/blog/2018/09/28/complete-credit-freeze-tutorial-update/",
