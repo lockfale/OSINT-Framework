@@ -6734,6 +6734,12 @@
                   "name": "Forensically",
                   "type": "url",
                   "url": "https://29a.ch/photo-forensics/"
+                },
+                {
+                  "name": "Verity (T)",
+                  "type": "url",
+                  "url": "https://verity.codemintah.dev",
+                  "description": "Open-source media authenticity engine: C2PA provenance, perceptual-hash prior sightings, fact-check matching, and metadata forensics. Browser extension, Telegram/Discord bots, self-hostable hash-only registry."
                 }
               ]
             },
