@@ -4997,6 +4997,26 @@
               "deprecated": false
             },
             {
+              "name": "BM Proxy Checker",
+              "type": "url",
+              "url": "https://check.bmusproxy.com/",
+              "description": "Free check whether an IP belongs to a mobile carrier, a home ISP or a datacenter, by ASN, with approximate location and blacklist lookup.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Telling mobile carrier IPs from datacenter and residential IPs",
+              "input": "IP address",
+              "output": "Network owner (ASN), IP type, approximate location, blacklists",
+              "opsec": "passive",
+              "opsecNote": "Lookup against public ASN and blacklist data.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "Port scanner Online",
               "type": "url",
               "url": "https://portscanner.online/",
