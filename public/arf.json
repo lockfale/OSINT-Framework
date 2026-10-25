@@ -18305,6 +18305,26 @@
               "api": true,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "SoChain",
+              "type": "url",
+              "url": "https://sochain.com/",
+              "description": "Block explorer and API for Bitcoin, Litecoin, Dogecoin and Zcash (transparent side), plus their testnets: addresses, transactions, blocks, mempool and fees, with an address's balance history, counterparties and address-poisoning checks.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Looking up Bitcoin, Litecoin, Dogecoin and Zcash addresses and transactions in one place",
+              "input": "Address, transaction hash, block hash or height",
+              "output": "Balance and balance history, transactions, unspent outputs, counterparties, block details, mempool and fee rates",
+              "opsec": "passive",
+              "opsecNote": "Reads public blockchain data only. No registration for the explorer or for up to 2,500 API lookups a day; a free account gives an API key for more. Also offers an MCP server.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
