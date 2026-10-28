@@ -1656,6 +1656,26 @@
               "deprecated": false
             },
             {
+              "name": "SubAnalyzer",
+              "type": "url",
+              "url": "https://subanalyzer.com",
+              "description": "Web-based subdomain finder: certificate transparency logs, passive DNS and live DNS lookups find a domain's subdomains, then each one is checked for IP addresses, hosting provider, open ports, web pages and subdomain takeover risk.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Finding a domain's subdomains and the services they expose without installing anything",
+              "input": "Domain",
+              "output": "Subdomains, IP addresses, hosting and cloud providers, open ports, HTTP status, page titles, screenshots, takeover risks",
+              "opsec": "passive",
+              "opsecNote": "Scanning is performed by SubAnalyzer's servers, not from your host: the target sees SubAnalyzer resolving names, connecting to common ports and loading web pages. Scan results are public.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "SecLists DNS Subdomains (T)",
               "type": "url",
               "url": "https://github.com/danielmiessler/SecLists/tree/master/Discovery/DNS",
