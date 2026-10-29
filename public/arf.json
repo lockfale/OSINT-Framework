@@ -17593,6 +17593,26 @@
           "type": "folder",
           "children": [
             {
+              "name": "Archivarix Retrace",
+              "type": "url",
+              "url": "https://retrace.archivarix.net/",
+              "description": "Reverse image search that traces where a picture came from: earlier copies, the date it first appeared online and the likely place on a map, with a source link for every claim.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Tracing the origin and first appearance of a photo, GIF or short video",
+              "input": "Uploaded image or video, or a direct image URL",
+              "output": "Report with earlier copies, first-seen date, location estimate and source links",
+              "opsec": "active",
+              "opsecNote": "Images are processed on Archivarix servers; reports are private to the browser or account that created them.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "ImgOps",
               "type": "url",
               "url": "https://imgops.com/",
