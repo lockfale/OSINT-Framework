@@ -11,6 +11,24 @@
           "type": "folder",
           "children": [
             {
+              "name": "Consensus OSINT (T)",
+              "type": "url",
+              "url": "https://github.com/OSINT-Experts-Society/Consensus-OSINT",
+              "description": "Local username, email and phone lookup tool with reconciled source modules, enriched results and evidence graphs.",
+              "pricing": "free",
+              "bestFor": "Cross-platform account discovery and investigation reports",
+              "input": "Username, email address or phone number",
+              "output": "Profile matches, enriched details where available, reports and evidence graphs",
+              "opsec": "active",
+              "opsecNote": "Queries external services directly. Matches require verification; optional providers may require credentials and some lookup methods can notify account holders.",
+              "localInstall": true,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "WhatsMyName Web",
               "type": "url",
               "url": "https://whatsmyname.app/",
