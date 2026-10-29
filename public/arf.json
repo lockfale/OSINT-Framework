@@ -2060,6 +2060,26 @@
               "api": true,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "NetAPI",
+              "type": "url",
+              "url": "https://netapi.com/",
+              "description": "Domain registration data for more than 1,500 TLDs: daily lists of registered, newly registered and deleted domains per zone, datasets with nameservers, IP, hosting country, registrar and registration dates, domain and reverse IP lookup, plus a free Top 1M website ranking and a free compromised domain feed.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Pulling every registered domain of a TLD or the day's newly registered domains for brand monitoring, phishing hunting and market research",
+              "input": "TLD, domain name, IP address or keyword",
+              "output": "Domain lists (CSV), per-domain nameservers, IP, registrar and registration dates, Top 1M rank, compromised feed status",
+              "opsec": "passive",
+              "opsecNote": "Answers from NetAPI's own daily-updated database; no contact with the target domain. The Top 1M, the compromised feed and the JSON check methods are free without an account; list downloads and lookups need a paid plan.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
