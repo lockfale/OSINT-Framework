@@ -12073,6 +12073,26 @@
               "api": true,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "Insider Express (R)",
+              "type": "url",
+              "url": "https://insiderexpress.ca",
+              "description": "Canadian public filings cross-linked by person and company: SEDI insider trades, MP and senator disclosed holdings, federal lobbying registrations and communications, political donations, and federal contracts and grants. Each record links to its source filing.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Researching a Canadian public company, its insiders and its dealings with the federal government",
+              "input": "Company name, ticker, insider or politician name",
+              "output": "Insider trades, political donations, lobbying meetings, federal contracts and grants, politicians holding the stock",
+              "opsec": "passive",
+              "opsecNote": "Reads published government filings; nothing is sent to the subject.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
