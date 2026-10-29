@@ -3043,6 +3043,26 @@
               "deprecated": false
             },
             {
+              "name": "CheckAnySite",
+              "type": "url",
+              "url": "https://checkanysite.com/",
+              "description": "Free website profiler that shows the evidence behind each finding: domain age (RDAP, WHOIS, certificate logs, web archive), tech stack, AI site-builder traces, popularity rank (Tranco, Chrome UX Report, Majestic) and trust signals.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "A first, sourced look at an unknown website: how old it is, what it runs on and how popular it is",
+              "input": "Domain or URL",
+              "output": "Domain age, technologies, AI builder traces, popularity rank band and trust signals, each with the record or line it came from",
+              "opsec": "passive",
+              "opsecNote": "The site is fetched by CheckAnySite's own identified scanner, not from your browser. Results are stored and open at a public address.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "SiteSleuth",
               "type": "url",
               "url": "https://www.sitesleuth.io/",
