@@ -91,6 +91,26 @@
               "deprecated": false
             },
             {
+              "name": "Helix (T)",
+              "type": "url",
+              "url": "https://github.com/thalha-a9/helix",
+              "description": "Python CLI that checks a username across 8,000+ sites using the Sherlock, WhatsMyName and Maigret databases together, then re-checks every hit live against two made-up usernames before reporting it. Grades how likely each account belongs to the same person and can save the exact page behind every hit, hashed and timestamped.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Username enumeration with very few false positives and saved evidence",
+              "input": "Username, optionally an email address",
+              "output": "Verified profile URLs with an identity confidence grade, an interactive graph, and JSON, CSV, HTML and PDF reports",
+              "opsec": "active",
+              "opsecNote": "Queries each target site directly from your IP. Supports Tor and proxies with remote DNS.",
+              "localInstall": true,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "Namechk",
               "type": "url",
               "url": "https://namechk.com/",
