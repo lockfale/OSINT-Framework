@@ -6167,6 +6167,26 @@
                   "deprecated": false
                 },
                 {
+                  "name": "Oceanir",
+                  "type": "url",
+                  "url": "https://oceanir.ai/",
+                  "description": "Estimates where a photo was taken using visual scene clues when GPS metadata is unavailable.",
+                  "status": "live",
+                  "pricing": "freemium",
+                  "bestFor": "Generating location hypotheses from photos",
+                  "input": "Image upload",
+                  "output": "Estimated locations and visual clues",
+                  "opsec": "active",
+                  "opsecNote": "Images are uploaded to an external service; verify estimates independently.",
+                  "localInstall": false,
+                  "googleDork": false,
+                  "registration": false,
+                  "editUrl": false,
+                  "api": true,
+                  "invitationOnly": false,
+                  "deprecated": false
+                },
+                {
                   "name": "Picarta",
                   "type": "url",
                   "url": "https://picarta.ai/",
