@@ -13059,7 +13059,27 @@
               "bestFor": "Conflict and crisis event geolocation tracking",
               "input": "Region and event filters",
               "output": "Mapped incidents with timeline and source context"
-            }
+            },
+             {
+               "name": "Flock Locations",
+               "type": "url",
+               "url": "https://flocklocations.com/",
+               "opsec": "passive",
+               "opsecNote": "Browse a public map and download open data; no interaction with the cameras.",
+               "localInstall": false,
+               "googleDork": false,
+               "registration": false,
+               "editUrl": false,
+               "api": true,
+               "invitationOnly": false,
+               "deprecated": false,
+               "description": "Public map of Flock Safety and ALPR camera locations in the US, with the dataset downloadable as CSV and GeoJSON under CC BY 4.0.",
+               "status": "live",
+               "pricing": "free",
+               "bestFor": "Finding reported ALPR camera locations in a city or county",
+               "input": "Map area, city or address",
+               "output": "Camera locations labeled Community Confirmed or 3rd Party / Unconfirmed, plus CSV and GeoJSON export"
+             }
           ]
         },
         {
