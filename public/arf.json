@@ -19091,6 +19091,25 @@
           "type": "folder",
           "children": [
             {
+              "name": "Recon (Lyon & Fiurex)",
+              "type": "url",
+              "url": "https://free-osint.org/",
+              "description": "Hosted OSINT workspace for people and company research, fraud-control review and cyber investigations. Basic free searches remain available all month, subject to anti-abuse controls; optional enrichment has separate allowances and windows, and paid capabilities are separate.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Reviewing multi-source subject and infrastructure observations in one workspace",
+              "input": "Names, companies, email addresses, phone numbers, domains, IPs, optional ports and full HTTP(S) URLs",
+              "output": "Source-linked observations, relationships and research reports subject to plan availability",
+              "opsec": "active",
+              "opsecNote": "Inputs are sent to the hosted service and upstream sources. Some enrichment may contact public target services; do not assume anonymity. Passive cyber lookups are not active port scans. Basic public access is available without sign-in; paid and saved-account features require it.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "Vector (T)",
               "type": "url",
               "url": "https://github.com/thesaderror/vector",
