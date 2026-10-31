@@ -8645,6 +8645,26 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "disdex",
+              "type": "url",
+              "url": "https://disdex.io/",
+              "description": "Search engine for millions of public Discord servers found through public invite links, with member and online history and invite checks.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Finding public Discord servers by topic, game, language or icon and checking where an invite leads",
+              "input": "Server name, keywords, invite code or URL, server ID, image",
+              "output": "Server profiles with member and online history, working invites and guild tags",
+              "opsec": "passive",
+              "opsecNote": "Queries disdex's own index; nothing is sent to Discord or the target server.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
