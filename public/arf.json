@@ -7277,6 +7277,26 @@
               "api": true,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "LurkAPI Instagram Lookup",
+              "type": "url",
+              "url": "https://lurkapi.com/free-tools/instagram-lookup",
+              "description": "Web viewer for public Instagram accounts that works without logging in: bio, links, follower counts and the 12 latest posts with likes and comments, exportable to CSV. 5 free tries a day without an account (a lookup uses two); it runs on LurkAPI, a paid social media data API.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Viewing a public Instagram profile and its recent posts without an Instagram account",
+              "input": "Instagram username or profile URL",
+              "output": "Profile details, follower and following counts, and the latest posts with captions, likes, comments and views (CSV export)",
+              "opsec": "passive",
+              "opsecNote": "Lookups run on LurkAPI's servers and you never sign in to the platform, so the account owner can't see you; images and videos load from the platform's CDN in your browser, with no referrer.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
@@ -7991,6 +8011,26 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "LurkAPI LinkedIn Profile Viewer",
+              "type": "url",
+              "url": "https://lurkapi.com/free-tools/linkedin-profile-viewer",
+              "description": "Web viewer for public LinkedIn profiles that shows what logged-out visitors see without signing in, so you don't appear in the member's profile views. 5 free lookups a day without an account; it runs on LurkAPI, a paid social media data API.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Reading a public LinkedIn profile without a LinkedIn account or leaving a profile view",
+              "input": "LinkedIn profile URL (linkedin.com/in/...)",
+              "output": "Name, headline, about, experience, education, follower count and recent posts, as far as LinkedIn shows them to logged-out visitors",
+              "opsec": "passive",
+              "opsecNote": "Lookups run on LurkAPI's servers and you never sign in to the platform, so the account owner can't see you; images and videos load from the platform's CDN in your browser, with no referrer.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
@@ -8095,6 +8135,26 @@
               "registration": false,
               "editUrl": false,
               "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
+              "name": "LurkAPI TikTok Comment Viewer",
+              "type": "url",
+              "url": "https://lurkapi.com/free-tools/tiktok-comment-viewer",
+              "description": "Web viewer for the comments on a public TikTok video, replies included, without the app or an account. Search the loaded comments, see which the creator pinned, and export them to CSV. 5 free tries a day without an account; it runs on LurkAPI, a paid social media data API.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Reading, searching and exporting the comments on a TikTok video",
+              "input": "TikTok video URL",
+              "output": "Comments and replies with author, text, likes, date and pinned status (CSV export)",
+              "opsec": "passive",
+              "opsecNote": "Lookups run on LurkAPI's servers and you never sign in to the platform, so the account owner can't see you; images and videos load from the platform's CDN in your browser, with no referrer.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
               "invitationOnly": false,
               "deprecated": false
             }
