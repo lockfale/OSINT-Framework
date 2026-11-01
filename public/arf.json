@@ -249,6 +249,13 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "OpenOSINT (T)",
+              "type": "url",
+              "url": "https://github.com/OpenOSINT/OpenOSINT",
+              "description": "AI-powered OSINT agent that chains username search across 300+ platforms (sherlock), email enumeration, breach detection, WHOIS, subdomain discovery, IP intelligence, AbuseIPDB, Censys, and Google dork generation into a single automated workflow. Interactive REPL, CLI, and MCP server. Local inference via Ollama supported.",
+              "local": true
             }
           ]
         },
@@ -667,6 +674,13 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "OpenOSINT (T)",
+              "type": "url",
+              "url": "https://github.com/OpenOSINT/OpenOSINT",
+              "description": "AI-powered OSINT agent with email enumeration via holehe, breach checks via HaveIBeenPwned, username search across 300+ platforms, WHOIS, subdomain discovery, IP intelligence, and Google dork generation. Interactive REPL, CLI, and MCP server. Local inference via Ollama.",
+              "local": true
             }
           ]
         },
