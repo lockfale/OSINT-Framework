@@ -1596,6 +1596,26 @@
               "deprecated": false
             },
             {
+              "name": "Subsoil (T)",
+              "type": "url",
+              "url": "https://github.com/subsll/subsoil",
+              "description": "Go-based DNS reconnaissance CLI for initial domain recon, combining passive subdomain sources, wildcard-aware brute forcing, AXFR/SRV/PTR checks, HTTP probing, and a SHA-256 hash-chained evidence log.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Low-noise initial domain recon, subdomain enumeration, and tamper-evident evidence collection",
+              "input": "Target domain and optional scan switches",
+              "output": "Subdomains, DNS records, zone-transfer results, SRV/PTR records, HTTP/TLS metadata, and SHA-256 evidence hashes",
+              "opsec": "active",
+              "opsecNote": "Passive-only mode sends no DNS packets; default mode resolves and brute-forces names, and --axfr/--http contact the target directly.",
+              "localInstall": true,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "OWASP Maryam (T)",
               "type": "url",
               "url": "https://github.com/saeeddhqan/Maryam",
