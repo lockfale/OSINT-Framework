@@ -990,6 +990,26 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "BreachDetect",
+              "type": "url",
+              "url": "https://breachdetect.net/domain-breach-check",
+              "description": "Stealer-log and data breach search for company domains. The free check searches 44B+ stealer-log records and 808 breached databases and summarises the leaked logins for a domain.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Checking whether a company's logins appear in stealer logs or breach dumps",
+              "input": "Company domain",
+              "output": "Leaked record and account counts, affected company hostnames, third-party sites, 12-month posting timeline, masked sample records",
+              "opsec": "passive",
+              "opsecNote": "Free results are cached for 24 hours and anyone who checks the same domain in that window sees the same summary. Passwords and full email addresses are not shown.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
