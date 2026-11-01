@@ -31,6 +31,26 @@
               "deprecated": false
             },
             {
+              "name": "PhantomCheck",
+              "type": "url",
+              "url": "https://phantomcheck.pages.dev/app",
+    	        "description": "Free browser-based AI-powered OSINT tool that scans domains, emails and IPs against multiple security databases simultaneously. Returns findings in three adaptive modes: plain English for non-technical users, professional compliance reports for IT teams, and raw technical intel for pentesters. Zero backend, BYOK, Africa-first infrastructure detection.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Domain intelligence, email breach detection, IP reputation, Africa regional infrastructure analysis",
+              "input": "Domain, email address, or IP address",
+              "output": "AI-interpreted security findings in Explorer, Analyst, or Operator mode",
+              "opsec": "passive",
+              "opsecNote": "All API calls made client-side from user's browser. No data transmitted to PhantomCheck servers.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
+            },  
+            {
               "name": "WhatsMyName (T)",
               "type": "url",
               "url": "https://github.com/WebBreacher/WhatsMyName",
