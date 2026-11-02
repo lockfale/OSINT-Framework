@@ -1388,6 +1388,26 @@
               "api": true,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "CreepyCORE (R)",
+              "type": "url",
+              "url": "https://creepycore.com",
+              "description": "Web recon platform for IP, domain, URL and email targets that links RDAP, DNS, Certificate Transparency and IP geolocation into one graph with scan history.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Infrastructure recon on an IP, domain, URL or email domain, linked across sources",
+              "input": "IP address, domain, URL, or email address",
+              "output": "RDAP registration records, DNS records, CT-log certificates and subdomains, city-level IP geolocation",
+              "opsec": "passive",
+              "opsecNote": "Nothing is sent to the target; lookups egress from CreepyCORE's servers. Targets and results are stored in your account history.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
