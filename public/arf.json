@@ -12073,6 +12073,26 @@
               "api": true,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "MentionFox (R)",
+              "type": "url",
+              "url": "https://mentionfox.com/",
+              "description": "Company and people research reports: filings, ownership, executives, litigation and press, each fact linked to its source.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Sourced background research on a company or its executives",
+              "input": "Company name, domain, or person name",
+              "output": "Research report with every fact linked to its source",
+              "opsec": "passive",
+              "opsecNote": "Queries go through MentionFox servers; no contact with the target.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
