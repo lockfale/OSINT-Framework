@@ -5313,6 +5313,26 @@
               "api": true,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "IPQualityScore (R)",
+              "type": "url",
+              "url": "https://www.ipqualityscore.com/bot-management/bot-detection-check",
+              "description": "IP reputation service detecting proxies, VPNs, Tor, and bot activity with a fraud risk score.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Check whether an IP is a proxy, VPN, Tor node, or bot",
+              "input": "IP address",
+              "output": "Fraud score, proxy/VPN/Tor flags, bot status, ISP and location",
+              "opsec": "passive",
+              "opsecNote": "Passive reputation lookup; account needed for full data.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
