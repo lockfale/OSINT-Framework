@@ -1370,6 +1370,26 @@
               "deprecated": false
             },
             {
+              "name": "PendingDelete.net",
+              "type": "url",
+              "url": "https://pendingdelete.net/",
+              "description": "Free daily lists of domains in redemption and pending delete with registry-confirmed drop times, plus WHOIS and RDAP lookups and free CSV/TXT/JSON downloads.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Finding expiring and recently deleted domains and when they will be released",
+              "input": "Domain name",
+              "output": "WHOIS/RDAP record, domain status (redemption, pending delete, available), drop date and time, daily drop lists",
+              "opsec": "passive",
+              "opsecNote": "Lookups are made by the site against registry RDAP servers; the target domain is not contacted.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "Netlas.io",
               "type": "url",
               "url": "https://app.netlas.io/whois_domains/",
