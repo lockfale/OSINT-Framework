@@ -1388,6 +1388,26 @@
               "api": true,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "Argos OSINT (/dominio)",
+              "type": "url",
+              "url": "https://argos-osint.com/dominio/",
+              "description": "Free Spanish-first client-side OSINT platform. The /dominio tool combines WHOIS/RDAP, DoH DNS resolution and subdomain enumeration via crt.sh in a single unified panel. Part of a wider 31-tool suite at argos-osint.com.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Quick unified domain intelligence lookup (WHOIS + DNS + subdomains in one panel)",
+              "input": "Domain name",
+              "output": "WHOIS/RDAP registration data, DNS records (A/AAAA/MX/TXT/NS) and CT-log subdomains rendered together",
+              "opsec": "active",
+              "opsecNote": "Client-side queries go directly from your browser to rdap.org, Cloudflare DoH and crt.sh. Argos does not proxy or log queries.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
