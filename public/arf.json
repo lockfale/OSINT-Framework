@@ -7991,6 +7991,26 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "AlphaOSINT LinkedIn Company API",
+              "type": "url",
+              "url": "https://alphaosint.com/sources/linkedin-company-api/",
+              "description": "Unofficial hosted API that returns a public LinkedIn company page (size, industry, locations, specialties) as JSON; also callable as a remote MCP tool.",
+              "status": "live",
+              "pricing": "paid",
+              "bestFor": "Company firmographics from LinkedIn without running a scraper",
+              "input": "LinkedIn company URL or company name",
+              "output": "Company profile JSON",
+              "opsec": "passive",
+              "opsecNote": "Lookups run on a third-party hosted service (Apify), not from your own IP or LinkedIn account.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
