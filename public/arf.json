@@ -249,6 +249,25 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "ProfileTrace (R)",
+              "type": "url",
+              "url": "https://www.profiletrace.ai/",
+              "description": "Web app that checks one username across ~4,000 sites. The first search is free after registration; further searches use pay-per-search credit packs ($2 for 2 up to $50 for 150), no subscription. Matches are leads to verify, not proof of identity.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Wide-coverage username sweep from the browser, with nothing to install",
+              "input": "Username",
+              "output": "List of sites where an account with that username was found",
+              "opsec": "passive",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
