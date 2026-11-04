@@ -1774,6 +1774,25 @@
               "api": true,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "GetDomainLists Sample + Scripts (T)",
+              "type": "url",
+              "url": "https://github.com/getdomainlists/dataset",
+              "description": "Free sample lists of registrable domains and subdomains, one name per line, with per-TLD samples and standard-library Python scripts to read, filter by TLD and match names against your own list.",
+              "pricing": "free",
+              "bestFor": "Checking which domains or subdomains of a scope appear in a plain-text name list",
+              "input": "Domain, TLD, or your own list of names",
+              "output": "Matching domain and subdomain names",
+              "opsec": "passive",
+              "opsecNote": "Runs offline on downloaded files; sends no queries to the target.",
+              "localInstall": true,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
