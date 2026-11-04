@@ -10689,6 +10689,26 @@
           "type": "folder",
           "children": [
             {
+              "name": "TenderTracker UK (R)",
+              "type": "url",
+              "url": "https://tendertracker.co.uk/",
+              "description": "Search UK public contract notices from Find a Tender and Contracts Finder. Public previews; a free account unlocks full search, buyer and supplier research, alerts and CSV export.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Researching UK public-sector buyers, suppliers and contract awards",
+              "input": "Keyword, buyer or supplier name",
+              "output": "Contract notices, buyer and supplier profiles",
+              "opsec": "passive",
+              "opsecNote": "Queries go to a third-party service. Full search, alerts and exports require a free account.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "NC Salary DB",
               "type": "url",
               "url": "https://www.ncosc.gov/public-information/state-employee-salary-database",
