@@ -17957,6 +17957,26 @@
               "deprecated": false
             },
             {
+              "name": "ChainHint",
+              "type": "url",
+              "url": "https://chainhint.com/",
+              "description": "Crypto incident-response tool for 12 chains (EVM, Bitcoin, Solana, TON, Tron): checks an address against sanctions lists and 48M+ attributed addresses, with the source of each label, and follows stolen funds hop by hop until they reach an exchange or another service.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Following stolen funds to the exchange that received them and finding that exchange's compliance contact",
+              "input": "Wallet address or transaction hash",
+              "output": "Risk score with the findings behind it, entity labels with sources, sanctions matches, fund-flow graph; PDF report on paid plans",
+              "opsec": "passive",
+              "opsecNote": "Reads public blockchain data only. Address checks need no account; tracing needs a free account. Offers an API and an MCP server.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "Etherscan",
               "type": "url",
               "url": "https://etherscan.io/",
