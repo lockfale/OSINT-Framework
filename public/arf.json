@@ -5399,6 +5399,26 @@
               "api": true,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "Whatoblock (R)",
+              "type": "url",
+              "url": "https://whatoblock.com/",
+              "description": "Honeypot-based threat intelligence: IPs seen by HoneyBot sensors, classified as scanners, botnet C2, proxies, Tor exits and DDoS sources, with firewall-ready blocklists.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Check whether an IP is a known scanner, C2 server or abusive proxy, and download blocklists",
+              "input": "IP address, ASN, country or port",
+              "output": "Threat category, first/last seen, ASN and country context, blocklist feeds",
+              "opsec": "passive",
+              "opsecNote": "Passive lookup of honeypot-observed attack data; a free account is required for blocklist feeds.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
