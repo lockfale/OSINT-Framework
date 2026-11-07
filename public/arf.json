@@ -12867,6 +12867,26 @@
               "bestFor": "Rapid initial geolocation hypotheses from photos",
               "input": "Image file",
               "output": "Likely geographic region or coordinate candidates"
+            },
+            {
+              "name": "TracePoint",
+              "type": "url",
+              "url": "https://kluter.github.io/TracePoint/",
+              "opsec": "passive",
+              "opsecNote": "Images are processed locally and never uploaded; map tiles are fetched from Esri, which reveals the viewed area to the tile provider.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false,
+              "description": "Browser-based photo geolocation by ray intersection: draw lines over recognised landmarks, link them to map positions, and the rays intersect at the camera location. 3+ rays give an uncertainty ellipse.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Pinpointing where a photo was taken from identifiable landmarks",
+              "input": "Image file (EXIF optional)",
+              "output": "Estimated camera position with uncertainty ellipse"
             }
           ]
         },
