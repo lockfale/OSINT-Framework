@@ -1388,6 +1388,26 @@
               "api": true,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "DC5 WHOIS",
+              "type": "url",
+              "url": "https://whois.dc5.tech/",
+              "description": "Free lookup console for domains, IPv4/IPv6, CIDR and ASNs: RDAP first with WHOIS fallback, DNS and DNSSEC, mail-security grading, RIR and local reputation datasets, look-alike warnings, plus ENS and other Web3 names. Also offers an API, a CLI and an MCP server.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "One-box lookup of registration, DNS, routing and abuse contacts for a domain, IP or ASN",
+              "input": "Domain name, IP address, CIDR, ASN (AS13335) or Web3 name",
+              "output": "RDAP/WHOIS registration data, abuse contacts, DNS records, DNSSEC status, SPF/DMARC grade, ASN and network ownership, RIR and reputation list hits",
+              "opsec": "passive",
+              "opsecNote": "Queries public RDAP, WHOIS and DNS from the service's own servers; you do not contact the target, but the domain's nameservers may see queries from this service.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
