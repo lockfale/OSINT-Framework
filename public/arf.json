@@ -23356,6 +23356,26 @@
           "deprecated": false
         },
         {
+          "name": "HackITA - Recon OSINT Guide",
+          "type": "url",
+          "url": "https://en.hackita.it/articoli/reconnaissance/",
+          "description": "Free practical guide to passive OSINT reconnaissance for penetration testers, covering theHarvester, Google Dorks, Shodan, Censys, Certificate Transparency, WHOIS, VirusTotal, the Wayback Machine, and document metadata.",
+          "status": "live",
+          "pricing": "free",
+          "bestFor": "Learning practical OSINT reconnaissance workflows before enumeration and active scanning in an authorized penetration test",
+          "input": "Target domains, organization names, public IP addresses, URLs, and publicly available documents",
+          "output": "Publicly discoverable emails, subdomains, internet-exposed assets, infrastructure relationships, indexed files, and document metadata",
+          "opsec": "passive",
+          "opsecNote": "Primarily covers passive public-source research; the guide also identifies active steps such as DNS queries, SMTP verification, and Nmap scanning that can generate traffic visible to target infrastructure.",
+          "localInstall": false,
+          "googleDork": false,
+          "registration": false,
+          "editUrl": false,
+          "api": false,
+          "invitationOnly": false,
+          "deprecated": false
+        },
+        {
           "name": "Open Source Intelligence Techniques",
           "type": "url",
           "url": "https://inteltechniques.com/",
