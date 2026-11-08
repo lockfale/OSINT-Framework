@@ -3673,6 +3673,26 @@
               "api": true,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "monity.ai",
+              "type": "url",
+              "url": "https://monity.ai/",
+              "description": "Website change monitoring that keeps a full-page screenshot and a single-file HTML copy of every check, so a page can be seen as it was on any past date. An AI summary says what changed.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Keeping a dated record of how a web page changed",
+              "input": "URL and an optional plain-English rule for what to watch",
+              "output": "Change alerts with an AI summary, before/after screenshots and a saved HTML copy of each version",
+              "opsec": "active",
+              "opsecNote": "Performs recurring fetches of target pages from Monity's servers based on the monitoring schedule.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
