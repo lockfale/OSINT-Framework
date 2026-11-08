@@ -21901,6 +21901,27 @@
               "invitationOnly": false,
               "deprecated": false
             }
+            ,
+            {
+              "name": "CTI Forecast",
+              "type": "url",
+              "url": "https://ctiforecast.com/en/",
+              "description": "Sourced and scored IOC feed (IPs, domains, URLs, file hashes, CVEs) extracted from 300+ security research sources and curated feeds, each indicator linked to the article that cites it, plus a CVE exploitation forecast with a published backtest. Free public blocklists without registration; full API, STIX 2.1 and TAXII 2.1 with a free or paid plan.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "IOC blocklists and enrichment with source articles, CVE exploitation prioritization",
+              "input": "IP, domain, URL, file hash or CVE",
+              "output": "Scored indicators with source references, blocklists, STIX 2.1 bundles, CVE forecasts",
+              "opsec": "passive",
+              "opsecNote": "Lookups query CTI Forecast's own database; nothing is sent to the target.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
+            }
           ]
         },
         {
