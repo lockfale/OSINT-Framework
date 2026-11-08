@@ -10681,6 +10681,26 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "Court Rules",
+              "type": "url",
+              "url": "https://www.courtrules.app/?ref=osintframework",
+              "description": "Free reference of U.S. federal court rules, district local rules, individual judge standing orders and court holidays, organized by court, with a filing deadline calculator for every district.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Checking a filing deadline or a judge's standing order before filing",
+              "input": "Court or district, judge name, event date",
+              "output": "Rule text, standing orders, computed deadline dates",
+              "opsec": "passive",
+              "opsecNote": "Public court rules; no account needed",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
