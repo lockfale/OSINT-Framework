@@ -81,6 +81,10 @@ Append `(T)`, `(D)`, `(R)`, or `(M)` to the name when applicable, and set the co
 
 2. Submit your pull request!
 
+## Additional OSINT Reading
+
+- [Recon Pipeline: OSINT Automation for Bug Bounties and Pentests](https://en.hackita.it/articoli/osint-pipeline-building/) — a practical guide to combining passive reconnaissance, DNS resolution, port scanning, HTTP fingerprinting, content discovery, vulnerability scanning, and secret discovery into a repeatable workflow.
+
 ## OSINT Framework Website
 
 https://osintframework.com
