@@ -6718,6 +6718,26 @@
                   "name": "Metadata2Go",
                   "type": "url",
                   "url": "https://www.metadata2go.com/"
+                },
+                {
+                  "name": "WhatsInMyFile",
+                  "type": "url",
+                  "url": "https://whatsinmyfile.com/",
+                  "description": "Browser-based checker for metadata, GPS, hidden text and signs of editing in photos, PDFs and Office files, with a cleaner for each.",
+                  "status": "live",
+                  "pricing": "freemium",
+                  "bestFor": "Checking documents and photos for hidden data or signs of editing without uploading them",
+                  "input": "Image, PDF, Word, Excel, PowerPoint, audio and video files",
+                  "output": "Metadata fields, GPS location, hidden text, edit history signs and a cleaned copy",
+                  "opsec": "passive",
+                  "opsecNote": "Files are processed locally in the browser and not uploaded.",
+                  "localInstall": false,
+                  "googleDork": false,
+                  "registration": false,
+                  "editUrl": false,
+                  "api": false,
+                  "invitationOnly": false,
+                  "deprecated": false
                 }
               ]
             },
