@@ -549,6 +549,26 @@
               "deprecated": false
             },
             {
+              "name": "OSINT.SX (R)",
+              "type": "url",
+              "url": "https://osint.sx/email-lookup",
+              "description": "Checks an email address against 200+ sites at once and shows which ones it is registered on, with the names, usernames and photos those sites show. Also searches phone numbers, usernames and full names.",
+              "status": "live",
+              "pricing": "paid",
+              "bestFor": "Finding the accounts registered to an email address",
+              "input": "Email address, phone number, username, or full name",
+              "output": "Sites the address is registered on, with names, usernames and photos where shown",
+              "opsec": "passive",
+              "opsecNote": "Searches run from osint.sx servers, not from your own IP.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "theHarvester (T)",
               "type": "url",
               "url": "https://github.com/laramies/theHarvester",
