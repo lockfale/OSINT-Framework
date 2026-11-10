@@ -12551,15 +12551,19 @@
               "description": "Free maps and lists of the nonstop routes from 3,000+ airports, with the airlines on each route, the days flown and seasonal start and end dates. Route pages show flight times and aircraft.",
               "status": "live",
               "pricing": "free",
-              "bestFor": "Finding which airlines fly nonstop between two air
-
-
-
-
-
-
-
-
+              "bestFor": "Finding which airlines fly nonstop between two airports, and on which days",
+              "input": "Airport or city",
+              "output": "Nonstop destinations with airlines, days of the week flown, and seasonal start and end dates",
+              "opsec": "passive",
+              "opsecNote": "Read-only public web pages; no account needed.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            }
           ]
         },
         {
