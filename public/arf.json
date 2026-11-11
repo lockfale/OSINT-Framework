@@ -249,7 +249,27 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": false
-            }
+            },
+      {
+        "name": "Clearfront OSINT (T)",
+        "type": "url",
+        "url": "https://github.com/scottmartinanderson/clearfront",
+        "description": "Open-source self-OSINT tool that scans your own digital footprint (username, email, breach, and data broker exposure) in one sweep using ~30 modular collectors wrapping Sherlock, Maigret, holehe, Have I Been Pwned, crt.sh and the Wayback Machine, with a force-directed evidence graph and an AI analyst (Anthropic Claude or local Ollama) that writes up findings with confidence ratings.",
+        "status": "live",
+        "pricing": "free",
+        "bestFor": "Auditing your own username, email, and breach exposure locally in a single run",
+        "input": "Username and/or email address (your own)",
+        "output": "Evidence graph, per-finding confidence ratings, AI-written exposure report",
+        "opsec": "active",
+        "opsecNote": "Runs entirely locally; makes direct requests from your machine to target sites and APIs (username checks, HIBP, crt.sh) using your own API keys.",
+        "localInstall": true,
+        "googleDork": false,
+        "registration": false,
+        "editUrl": false,
+        "api": false,
+        "invitationOnly": false,
+        "deprecated": false
+      }
           ]
         },
         {
@@ -667,7 +687,27 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": false
-            }
+            },
+      {
+        "name": "Clearfront OSINT (T)",
+        "type": "url",
+        "url": "https://github.com/scottmartinanderson/clearfront",
+        "description": "Open-source self-OSINT tool that checks an email address for account registrations, breach exposure, and data broker presence in one sweep, alongside username enumeration; wraps holehe, Have I Been Pwned and ~30 other collectors, with an evidence graph and an AI analyst (Anthropic Claude or local Ollama) that writes up findings with confidence ratings.",
+        "status": "live",
+        "pricing": "free",
+        "bestFor": "Auditing where your own email address is registered, breached, or brokered",
+        "input": "Email address (your own), optionally combined with a username",
+        "output": "Evidence graph, per-finding confidence ratings, AI-written exposure report",
+        "opsec": "active",
+        "opsecNote": "Runs entirely locally; makes direct requests from your machine to target services and APIs using your own keys (HIBP key optional).",
+        "localInstall": true,
+        "googleDork": false,
+        "registration": false,
+        "editUrl": false,
+        "api": false,
+        "invitationOnly": false,
+        "deprecated": false
+      }
           ]
         },
         {
