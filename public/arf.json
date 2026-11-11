@@ -409,6 +409,26 @@
           "type": "folder",
           "children": [
             {
+              "name": "UserSearch.com",
+              "type": "url",
+              "url": "https://usersearch.com/",
+              "description": "Professional OSINT platform for email investigations, combining free and premium modules to discover linked accounts, breach exposure, profiles, and related identity intelligence.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Email-to-account discovery, breach checks, and cross-source identity enrichment",
+              "input": "Email address",
+              "output": "Linked accounts, breach exposure, profiles, and enrichment results from selected modules",
+              "opsec": "active",
+              "opsecNote": "Searches are processed through UserSearch infrastructure rather than directly from the investigator's browser.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "Sylva Identity Discovery (T)",
               "type": "url",
               "url": "https://sylva.pfeister.dev/",
