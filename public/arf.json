@@ -10681,6 +10681,26 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "LitigationWatch (R)",
+              "type": "url",
+              "url": "https://litigationwatch.dev",
+              "description": "Daily litigation monitoring for any Australian company. Checks courts and tribunals in every Australian jurisdiction, and all courts in Hong Kong and Singapore, and emails an alert when a watched company is named in a case.",
+              "status": "live",
+              "pricing": "paid",
+              "bestFor": "Australian company litigation monitoring",
+              "input": "Company name, ACN or ABN",
+              "output": "Court, case number and title, party role, event, link to court record",
+              "opsec": "passive",
+              "opsecNote": "Account and paid plan required (from US$9/month)",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
