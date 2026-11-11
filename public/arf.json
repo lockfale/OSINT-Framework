@@ -8771,6 +8771,26 @@
           "type": "folder",
           "children": [
             {
+              "name": "Catherby (R)",
+              "type": "url",
+              "url": "https://cather.by/",
+              "description": "Search engine for Telegram profiles, groups, channels, and messages from public chats, with name history and profile tracking.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Looking up a Telegram account's past names, public groups, and messages",
+              "input": "Usernames, display names, user IDs, keywords, and wallet addresses",
+              "output": "Profile history, group and channel membership, and matching public messages",
+              "opsec": "passive",
+              "opsecNote": "Reads Catherby's own index of public chats; no direct contact with targets for normal lookups.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "Google CSE for Telegram links",
               "type": "url",
               "url": "https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg",
