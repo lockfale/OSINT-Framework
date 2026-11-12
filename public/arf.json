@@ -8463,6 +8463,26 @@
               "deprecated": false
             },
             {
+              "name": "SnapDataHub (Snapchat)",
+              "type": "url",
+              "url": "https://snapdatahub.com/",
+              "description": "Public Snapchat creator profiles at snapdatahub.com/profile/<username>/ showing subscriber count, number of Spotlight posts, total and average Spotlight views, engagement rate and category, with the date of the reading.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Checking a public Snapchat creator's reach and Spotlight activity",
+              "input": "Snapchat username inserted into the profile URL",
+              "output": "Subscribers, Spotlight post count, total and average views, engagement rate",
+              "opsec": "passive",
+              "opsecNote": "Reads stored public data on a third-party site; the target account is not contacted. Video lists, subscriber history and exports are paid.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": true,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "Share Secret Feedback (M)",
               "type": "url",
               "url": "https://secreto.site/en/%3Cuser_id%3E",
