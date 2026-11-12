@@ -8059,6 +8059,26 @@
               "deprecated": false
             },
             {
+              "name": "TKMetrics Creator Rewards Checker",
+              "type": "url",
+              "url": "https://tkmetrics.com/tools/tiktok-creator-rewards-eligibility/",
+              "description": "Looks up a public TikTok account and reports its follower count, views on videos posted in the last 30 days and how many of those videos run a minute or more, next to TikTok's Creator Rewards minimums.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Quick check of a TikTok account's recent reach and posting pattern",
+              "input": "TikTok username",
+              "output": "Follower count, 30-day video views and count of 1-minute-plus videos",
+              "opsec": "passive",
+              "opsecNote": "Third-party lookup of public data; the target account is not contacted. An email address is asked for before results are shown.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "Unfurl",
               "type": "url",
               "url": "https://github.com/obsidianforensics/unfurl",
