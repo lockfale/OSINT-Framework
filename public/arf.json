@@ -7479,6 +7479,26 @@
                       "deprecated": false
                     },
                     {
+                      "name": "twtData Profile Tracker",
+                      "type": "url",
+                      "url": "https://twtdata.com/x-twitter-profile-tracker/",
+                      "description": "Daily snapshots of public X/Twitter profiles; each tracked profile has a dated change history of followers, following, tweet count, lists, bio and verification.",
+                      "status": "live",
+                      "pricing": "free",
+                      "bestFor": "Tracking follower-count and bio changes on a public X account over time",
+                      "input": "X/Twitter username",
+                      "output": "Dated profile change history with daily follower, following and tweet-count deltas",
+                      "opsec": "passive",
+                      "opsecNote": "Reads public profile data through a third-party service; the target account is not contacted.",
+                      "localInstall": false,
+                      "googleDork": false,
+                      "registration": false,
+                      "editUrl": false,
+                      "api": false,
+                      "invitationOnly": false,
+                      "deprecated": false
+                    },
+                    {
                       "name": "X0rz Tweets_analyzer (T)",
                       "type": "url",
                       "url": "https://github.com/x0rz/tweets_analyzer",
