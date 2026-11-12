@@ -7259,6 +7259,26 @@
               "deprecated": false
             },
             {
+              "name": "IGDataHub Compare",
+              "type": "url",
+              "url": "https://igdatahub.com/compare/",
+              "description": "Side-by-side comparison of two Instagram profiles from the 2,800+ the site tracks: followers, engagement rate, average likes, top posts and other profile metrics.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Comparing the reach and engagement of two public Instagram accounts",
+              "input": "Two Instagram usernames (from the tracked set)",
+              "output": "Side-by-side follower, engagement-rate, average-likes and top-post figures",
+              "opsec": "passive",
+              "opsecNote": "Reads stored public profile data on a third-party site; the target accounts are not contacted. Only accounts already tracked by the site can be compared.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "Osintgram (T)",
               "type": "url",
               "url": "https://github.com/Datalux/Osintgram",
