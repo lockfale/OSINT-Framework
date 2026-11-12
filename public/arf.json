@@ -3015,6 +3015,26 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "Upcheck Typosquatting Checker",
+              "type": "url",
+              "url": "https://upcheck.so/tools/typosquatting-checker",
+              "description": "Generates lookalike domains for a domain (typos, adjacent keys, look-alike and accented characters, bit flips, hyphens, brand + keyword names, 30+ other TLDs) and shows which are registered, receive email or are parked.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Finding registered lookalike domains of a brand or organization",
+              "input": "Domain name",
+              "output": "Lookalike domains with registration status, MX and A records, parked nameservers",
+              "opsec": "active",
+              "opsecNote": "DNS lookups run from Upcheck's servers through Cloudflare's 1.1.1.1 resolver, not from your IP; the lookalike domains' nameservers still receive the queries",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
