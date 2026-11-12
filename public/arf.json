@@ -11109,6 +11109,26 @@
               "api": true,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "Nancy Pelosi Stock Tracker (Quantral)",
+              "type": "url",
+              "url": "https://quantral.com/blog/nancy-pelosi-stock-tracker",
+              "description": "Lists every stock trade Nancy Pelosi has filed since January 2025, taken from the House Clerk's periodic transaction reports, with filing dates, disclosed amount ranges and the price move since each filing went public.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Reviewing one member of Congress's disclosed stock trades without reading the PDFs",
+              "input": "None (browse the page)",
+              "output": "Disclosed trades, filing dates, amount ranges, price move since filing",
+              "opsec": "passive",
+              "opsecNote": "Static public page; no account or search input.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
