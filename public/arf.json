@@ -20007,6 +20007,26 @@
               "deprecated": false
             },
             {
+              "name": "TrueKnow",
+              "type": "url",
+              "url": "https://trueknowapp.com/",
+              "description": "Checks whether a photo or video is AI generated or AI modified and shows the evidence behind each verdict. Returns Real, AI generated, AI modified, or Uncertain, and says Uncertain when signals conflict.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Triage of a single suspect photo or video before relying on it in an investigation",
+              "input": "Image or video file, or a link",
+              "output": "Verdict with evidence, Analysis ID, downloadable report and JSON",
+              "opsec": "active",
+              "opsecNote": "Files are uploaded to a third-party server for analysis. Uploads are deleted after analysis; the Analysis ID, file hash, verdict, and thumbnail are kept for 90 days. Avoid submitting sensitive operational images.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "TrueMedia",
               "type": "url",
               "url": "https://www.truemedia.org/",
