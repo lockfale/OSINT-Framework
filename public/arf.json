@@ -18241,6 +18241,26 @@
               "deprecated": false
             },
             {
+              "name": "XMRList Transaction Checker",
+              "type": "url",
+              "url": "https://xmrlist.com/tools/tx-checker",
+              "description": "Monero transaction lookup that shows confirmation status and verifies a payment proof (transaction key) against a recipient address.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Checking whether a Monero transaction confirmed and proving that a specific payment reached an address",
+              "input": "Monero transaction ID; optionally recipient address and transaction key",
+              "output": "Confirmation status and count; with a transaction key, whether the transaction paid the address and the amount",
+              "opsec": "passive",
+              "opsecNote": "Only the transaction ID is looked up through a public Monero node; the transaction key is checked in the browser and is not sent.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "XMRChain.net",
               "type": "url",
               "url": "https://xmrchain.net/",
