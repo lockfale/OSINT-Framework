@@ -2663,6 +2663,26 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "Scam Checker",
+              "type": "url",
+              "url": "https://scamchecker.app/scam-website-checker",
+              "description": "Browser-based website-link checker showing available reputation checks, domain context and warning signs. Core manual checks are free without an account; the service also lists optional paid plans.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Reviewing suspicious website links before acting",
+              "input": "Website URL or domain",
+              "output": "Risk assessment, checked-source context, warnings and suggested next steps; unavailable checks are identified.",
+              "opsec": "active",
+              "opsecNote": "Submitted URLs are sent to the service and reputation providers; shortened links may be contacted to resolve redirects. Do not submit confidential URLs. Results do not prove safety.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
