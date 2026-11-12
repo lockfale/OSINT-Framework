@@ -7407,6 +7407,26 @@
                   "api": false,
                   "invitationOnly": false,
                   "deprecated": false
+                },
+                {
+                  "name": "TwittrAPI User ID Finder",
+                  "type": "url",
+                  "url": "https://www.twittrapi.com/tools/twitter-user-id",
+                  "description": "Finds the numeric user ID of an X (Twitter) account from its @username, or the current username behind a user ID. Free, no sign-in.",
+                  "status": "live",
+                  "pricing": "free",
+                  "bestFor": "Tracking an account across username changes by its permanent user ID",
+                  "input": "Username or numeric user ID",
+                  "output": "User ID, current username and profile summary",
+                  "opsec": "passive",
+                  "opsecNote": "Lookups run through TwittrAPI's servers; the target account is not notified.",
+                  "localInstall": false,
+                  "googleDork": false,
+                  "registration": false,
+                  "editUrl": false,
+                  "api": false,
+                  "invitationOnly": false,
+                  "deprecated": false
                 }
               ]
             },
@@ -7665,6 +7685,26 @@
                   "api": false,
                   "invitationOnly": false,
                   "deprecated": true
+                },
+                {
+                  "name": "TwittrAPI Tweet ID to Date",
+                  "type": "url",
+                  "url": "https://www.twittrapi.com/tools/tweet-id-to-date",
+                  "description": "Decodes the exact posting time of a tweet from its ID or URL (Snowflake timestamp), to the millisecond; also turns a date into a tweet ID for since_id and max_id searches.",
+                  "status": "live",
+                  "pricing": "free",
+                  "bestFor": "Dating a tweet or screenshot by its ID, even when the tweet is deleted",
+                  "input": "Tweet URL or tweet ID",
+                  "output": "Posting time in UTC and local time zone",
+                  "opsec": "passive",
+                  "opsecNote": "Lookups run through TwittrAPI's servers; the target account is not notified.",
+                  "localInstall": false,
+                  "googleDork": false,
+                  "registration": false,
+                  "editUrl": false,
+                  "api": false,
+                  "invitationOnly": false,
+                  "deprecated": false
                 }
               ]
             },
@@ -7749,6 +7789,26 @@
                   "registration": true,
                   "editUrl": false,
                   "api": true,
+                  "invitationOnly": false,
+                  "deprecated": false
+                },
+                {
+                  "name": "TwittrAPI Account Location Checker",
+                  "type": "url",
+                  "url": "https://www.twittrapi.com/tools/twitter-account-location",
+                  "description": "Shows the country an X (Twitter) account is based in, from X's About this account panel, plus how it connects, username changes and verification date. Free, no sign-in.",
+                  "status": "live",
+                  "pricing": "free",
+                  "bestFor": "Checking where an account is based and whether it changed its username",
+                  "input": "Username",
+                  "output": "Account country, connection region, username change count and verification date",
+                  "opsec": "passive",
+                  "opsecNote": "Lookups run through TwittrAPI's servers; the target account is not notified.",
+                  "localInstall": false,
+                  "googleDork": false,
+                  "registration": false,
+                  "editUrl": false,
+                  "api": false,
                   "invitationOnly": false,
                   "deprecated": false
                 }
