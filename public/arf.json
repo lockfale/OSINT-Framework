@@ -990,6 +990,26 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "OffSeq Breach",
+              "type": "url",
+              "url": "https://breach.offseq.com/",
+              "description": "Credential-exposure search across leaked datasets, forums, Telegram channels and marketplaces; masked matches with source and date are free without an account.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Check whether employee or customer credentials for a domain have leaked",
+              "input": "Domain or email address",
+              "output": "Masked leak records with source and date",
+              "opsec": "passive",
+              "opsecNote": "Searches an indexed leak database; the target is not contacted.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
@@ -5397,6 +5417,26 @@
               "registration": false,
               "editUrl": false,
               "api": true,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
+              "name": "OffSeq Mirage Feed",
+              "type": "url",
+              "url": "https://feeds.offseq.com/",
+              "description": "Daily blocklists of IPs that attacked a honeypot fleet, with payload URLs and exploited CVEs, under CC BY 4.0, plus a per-address lookup showing why an IP is listed.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Check whether an IP recently attacked honeypots, or download a daily blocklist",
+              "input": "IP address or list download",
+              "output": "Listing status and reason, IP lists, CSV, STIX 2.1, MISP feed",
+              "opsec": "passive",
+              "opsecNote": "Lookups run against published lists; the target is not contacted.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
               "invitationOnly": false,
               "deprecated": false
             }
