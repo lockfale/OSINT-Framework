@@ -18701,6 +18701,26 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "Scanify QR Code Checker",
+              "type": "url",
+              "url": "https://scanify.to/qr-code-checker",
+              "description": "Decodes a QR code from an uploaded image in the browser, shows the link hidden inside, then checks that link against antivirus engines, domain age and redirects.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Seeing where a suspicious QR code leads before opening it on a phone",
+              "input": "Image of a QR code, or the URL a QR app returned",
+              "output": "Decoded link and a basic safety verdict (detailed findings on a paid plan)",
+              "opsec": "passive",
+              "opsecNote": "The image is decoded locally in the browser; the decoded link is then fetched by Scanify's servers, not your device. No registration for the basic verdict; detailed engine findings need a paid plan.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
