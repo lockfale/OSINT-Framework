@@ -12073,6 +12073,26 @@
               "api": true,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "SONAR Free Company Lookups",
+              "type": "url",
+              "url": "https://getsonar.report/tools?utm_source=osint-framework&utm_medium=directory&utm_campaign=directories-2026q4",
+              "description": "Free lookups in official company registers of the UK, France, Norway, Finland, Czechia, Slovakia, Estonia, Latvia, Poland, Ireland, Cyprus, Singapore and Brazil, plus an EU VAT number checker against VIES.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Confirming that a company exists in its official register and reading its status",
+              "input": "Company name or registration number (Poland and Brazil by number only)",
+              "output": "Legal name, status, legal form, registered address and registration date",
+              "opsec": "passive",
+              "opsecNote": "Queries go through getsonar.report, not directly to the register.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
