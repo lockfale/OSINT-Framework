@@ -10813,6 +10813,26 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "IGRS India Validators",
+              "type": "url",
+              "url": "https://igrs.xyz/gstin-validator.html",
+              "description": "Free client-side validators for Indian identifiers: GSTIN check digit with state and embedded PAN decode, PAN holder-type decode, IFSC bank-code decode and Aadhaar Verhoeff checksum. Nothing is sent to a server.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Spotting fabricated or mistyped Indian GST, PAN, IFSC and Aadhaar numbers",
+              "input": "GSTIN, PAN, IFSC or Aadhaar number",
+              "output": "Format and checksum verdict with decoded fields",
+              "opsec": "passive",
+              "opsecNote": "Runs entirely in the browser; inputs are not transmitted.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
@@ -11385,6 +11405,26 @@
               "registration": false,
               "editUrl": false,
               "api": true,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
+              "name": "IGRS UPI ID Analyzer",
+              "type": "url",
+              "url": "https://igrs.xyz/upi-id-analyzer.html",
+              "description": "Identifies the payment app and PSP bank behind an Indian UPI ID handle (e.g. @ybl, @okaxis, @paytm) to route fraud and records requests in India.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Indian UPI payment-fraud investigations",
+              "input": "UPI ID (VPA)",
+              "output": "Handle, app, PSP bank and local-part notes",
+              "opsec": "passive",
+              "opsecNote": "Runs entirely in the browser; inputs are not transmitted.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
               "invitationOnly": false,
               "deprecated": false
             }
