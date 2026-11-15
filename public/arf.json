@@ -7277,6 +7277,26 @@
               "api": true,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "Stories Download",
+              "type": "url",
+              "url": "https://storiesdownload.com/",
+              "description": "Free Instagram Story downloader. Public Reels and posts usually work in HD with no login and no watermark. Stories and highlights often require the visitor's own Instagram sign-in; the site never logs in. Private, Close Friends, and expired Stories cannot be fetched.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Saving public Instagram Reels, posts, and currently available Stories from a public link",
+              "input": "Public Instagram post, Reel, or Story URL or username",
+              "output": "Downloadable media files for public content that the site can fetch",
+              "opsec": "passive",
+              "opsecNote": "Public content only. The site does not log into Instagram on the user's behalf. Private, Close Friends, and expired Stories cannot be fetched. Not affiliated with Meta.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
