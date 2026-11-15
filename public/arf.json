@@ -6866,6 +6866,26 @@
                   "url": "https://tubechop.com/"
                 },
                 {
+                  "name": "GetYouTubeTranscript",
+                  "type": "url",
+                  "url": "https://getyoutubetranscript.com/",
+                  "description": "Pulls the transcript of a YouTube video with timestamps, in any caption language the video has, with translation and TXT, SRT or VTT export.",
+                  "status": "live",
+                  "pricing": "freemium",
+                  "bestFor": "Searching and quoting what was said in a YouTube video, channel or playlist",
+                  "input": "YouTube video, channel or playlist URL",
+                  "output": "Timestamped transcript text",
+                  "opsec": "passive",
+                  "opsecNote": "Captions are fetched by the GetYouTubeTranscript server, not from your browser; the video owner is not notified.",
+                  "localInstall": false,
+                  "googleDork": false,
+                  "registration": false,
+                  "editUrl": false,
+                  "api": true,
+                  "invitationOnly": false,
+                  "deprecated": false
+                },
+                {
                   "name": "YouTube Data Tools",
                   "type": "url",
                   "url": "https://tools.digitalmethods.net/netvizz/youtube/"
