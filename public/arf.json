@@ -12669,6 +12669,26 @@
               "api": true,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "TRACEZ (R)",
+              "type": "url",
+              "url": "https://tracez.no-do.dev",
+              "description": "Hosted OSINT investigation platform whose live map puts AIS vessel positions, ADS-B aircraft and Sentinel-2/Landsat scenes next to a case graph. Vessel watches (paid plans) only alert on 'no AIS reception despite apparent coverage' when enough other ships are still received near the vessel's dead-reckoned position.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Telling a vessel that went quiet apart from a gap in terrestrial AIS coverage, inside an investigation case",
+              "input": "Map area or coordinates; vessel MMSI for watches",
+              "output": "Live vessel and aircraft positions, satellite scenes, coverage-checked vessel alerts and signed captures saved to a case",
+              "opsec": "passive",
+              "opsecNote": "Public feeds (aisstream.io, OpenSky, adsb.lol, Earth Search) are queried server-side; nothing reaches the tracked vessels. Requires an account; the free plan needs no card.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
