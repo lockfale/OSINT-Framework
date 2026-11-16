@@ -4703,6 +4703,26 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "ipapi.is",
+              "type": "url",
+              "url": "https://ipapi.is/",
+              "description": "IP address lookup and API with geolocation, ASN, company, abuse contact and WHOIS data, and detection of VPN, proxy, Tor, datacenter and abusive addresses.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Who is behind an IP address, and whether it is a VPN, proxy or datacenter",
+              "input": "IP address or ASN",
+              "output": "Location, ASN, company and its type, abuse contact, VPN/proxy/Tor/datacenter flags, abuser score",
+              "opsec": "passive",
+              "opsecNote": "Passive database lookup; the target is not contacted. Without an account, lookups are limited and return location and ownership only.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
