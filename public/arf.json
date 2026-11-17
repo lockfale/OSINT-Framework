@@ -6485,6 +6485,26 @@
                   "deprecated": false
                 },
                 {
+                  "name": "Exify",
+                  "type": "url",
+                  "url": "https://www.exify.io",
+                  "description": "Browser extension for Chrome, Firefox, and Edge that shows EXIF, IPTC, XMP, GPS, and C2PA Content Credentials on image hover, plus a companion online reader for local files.",
+                  "status": "live",
+                  "pricing": "free",
+                  "bestFor": "Quick EXIF metadata display combined with C2PA verification",
+                  "input": "Any image viewed in the browser, or a local file opened in the online reader at exify.io/exif-reader",
+                  "output": "Basic info like camera/lens/exposure, C2PA verdict, and a raw metadata view",
+                  "opsec": "passive",
+                  "opsecNote": "Reads metadata locally in the browser with no uploads or analytics/tracking. GPS-tagged images trigger an OpenStreetMap lookup to resolve city and country.",
+                  "localInstall": false,
+                  "googleDork": false,
+                  "registration": false,
+                  "editUrl": false,
+                  "api": false,
+                  "invitationOnly": false,
+                  "deprecated": false
+                },
+                {
                   "name": "FOCA (T)",
                   "type": "url",
                   "url": "https://github.com/ElevenPaths/FOCA",
