@@ -2059,12 +2059,31 @@
               "editUrl": false,
               "api": true,
               "invitationOnly": false,
-              "deprecated": false
-            }
-          ]
-        },
+              "deprecated": false,
         {
-          "name": "Certificate Search",
+          "name": "cl0q",
+          "type": "url",
+          "url": "https://cl0q.com",
+          "description": "Open search engine for domain research and OSINT; 38.5M domains scanned (working toward 100M) and 24.8M pages indexed.",
+          "status": "live",
+          "pricing": "free",
+          "bestFor": "Domain research and OSINT domain discovery",
+          "input": "Domain name or search query",
+          "output": "Domain and indexed-page results",
+          "opsec": "passive",
+          "opsecNote": "Passive third-party web search; queries are sent to cl0q's servers.",
+          "localInstall": false,
+          "googleDork": false,
+          "registration": false,
+          "editUrl": false,
+          "api": true,
+          "invitationOnly": false,
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "name": "Certificate Search",
           "type": "folder",
           "children": [
             {
