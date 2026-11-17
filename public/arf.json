@@ -1388,6 +1388,26 @@
               "api": true,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "WhoisLogic",
+              "type": "url",
+              "url": "https://whoislogic.com/",
+              "description": "Free browser-based lookup that combines public RDAP registration data with current DNS records, including MX and nameservers.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Checking domain registration and inbound mail routing in one lookup",
+              "input": "Domain name",
+              "output": "Registrar, registration dates and statuses, nameservers, DNS and MX records, and TLS certificate details when available",
+              "opsec": "active",
+              "opsecNote": "The lookup service queries RDAP and DNS and may connect to the target on TCP port 443 to inspect its TLS certificate.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
