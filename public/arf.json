@@ -11,6 +11,26 @@
           "type": "folder",
           "children": [
             {
+              "name": "UserSearch.com",
+              "type": "url",
+              "url": "https://usersearch.com/",
+              "description": "Professional OSINT platform for username discovery across 3000+ sites, with linked account analysis, case management, reporting, and optional third-party data enrichment.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Cross-platform username discovery with case management, reporting, and optional data enrichment",
+              "input": "Username",
+              "output": "Matching profiles and linked account intelligence across websites and integrated data sources",
+              "opsec": "active",
+              "opsecNote": "Searches are processed through UserSearch infrastructure rather than directly from the investigator's browser.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "WhatsMyName Web",
               "type": "url",
               "url": "https://whatsmyname.app/",
