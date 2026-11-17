@@ -1782,6 +1782,26 @@
           "type": "folder",
           "children": [
             {
+              "name": "OpenRecon-CLI (T)",
+              "type": "url",
+              "url": "https://github.com/Ad1tya244/Openrecon-CLI",
+              "description": "OpenRecon CLI is a modular reconnaissance toolkit for discovering and analyzing publicly exposed information about a target domain. It combines DNS, IP, email, subdomain, SSL/TLS, HTTP, technology fingerprinting, and other reconnaissance modules into a unified CLI.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "OSINT-based passive reconnaissance for target domains",
+              "input": "Domain name",
+              "output": "Email Enumeration, Social Media profiles, DNS Recon, Domain Registration, SSL/TLS Analysis, Email Security, HTTP Analysis, Security Headers, Subdomain Discovery, Technology Stack, Open Ports, Infrastructure Intelligence, Public Files, Directory Exposure, Page & Client-Side Intelligence",
+              "opsec": "passive",
+              "opsecNote": "Uses publicly available information and passive reconnaissance sources.",
+              "localInstall": true,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "Shodan",
               "type": "url",
               "url": "https://www.shodan.io/",
