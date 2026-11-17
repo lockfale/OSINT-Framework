@@ -1774,6 +1774,26 @@
               "api": true,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "perimeterlens (T)",
+              "type": "url",
+              "url": "https://github.com/NicklasSandin/perimeterlens",
+              "description": "Free, zero-dependency Node.js CLI for a passive self-scan of a domain you own: forgotten subdomains via certificate-transparency logs, email spoofability (SPF/DMARC/DKIM/BIMI/MTA-STS), and TLS certificate health, rolled into one composite score.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "One-command passive exposure self-scan -- CT-log subdomain discovery, email-auth posture, and TLS cert health for a domain you own",
+              "input": "Domain name",
+              "output": "Composite 0-100 score and letter grade, discovered subdomains, SPF/DMARC/DKIM/BIMI/MTA-STS findings, TLS certificate chain and expiry",
+              "opsec": "passive",
+              "opsecNote": "Only performs passive lookups (certificate-transparency search, DNS/TLS queries) against the domain you give it -- no active probing, no telemetry, zero runtime dependencies.",
+              "localInstall": true,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
