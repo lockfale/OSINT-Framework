@@ -4703,6 +4703,26 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "MERIDIAN",
+              "type": "url",
+              "url": "https://meridianspectre.com",
+              "description": "Geospatial intelligence platform mapping over 1 million verified military facilities, ORBAT data, and threat assessments across 18 state and non-state adversary actors including Iran, Russia, North Korea, China, and Syria.",
+              "status": "live",
+              "pricing": "paid",
+              "bestFor": "Adversary military facility mapping and order-of-battle analysis",
+              "input": "Country, region, or facility category",
+              "output": "Mapped military facilities with metadata and threat context",
+              "opsec": "passive",
+              "opsecNote": "Subscription-based platform; standard web access.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
