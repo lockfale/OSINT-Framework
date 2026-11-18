@@ -18443,6 +18443,26 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "USDT Checker",
+              "type": "url",
+              "url": "https://www.usdtchecker.io/",
+              "description": "Checks whether a USDT address on TRON (TRC20) or Ethereum (ERC20) is on Tether's blacklist by reading the USDT contract, and shows when it was frozen and how much USDT is locked; also keeps a live list of addresses Tether freezes on TRON.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Confirming whether and when Tether froze a USDT address before accepting or reporting funds",
+              "input": "TRON (T…) or Ethereum (0x…) address",
+              "output": "Blacklist status, freeze time and frozen USDT amount; paid AML risk report and wallet link analysis",
+              "opsec": "passive",
+              "opsecNote": "Reads public chain data only; the freeze check needs no registration or wallet connection. Paid risk reports send the address to a third-party analytics provider.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         }
