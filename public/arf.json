@@ -13059,6 +13059,26 @@
               "bestFor": "Conflict and crisis event geolocation tracking",
               "input": "Region and event filters",
               "output": "Mapped incidents with timeline and source context"
+            },
+            {
+              "name": "Monitor the Situation",
+              "type": "url",
+              "url": "https://monitor-the-situation.com/",
+              "opsec": "passive",
+              "opsecNote": "Uses open-source mapping/geospatial data and does not directly interact with the target.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false,
+              "description": "Live world news map that geolocates conflict, disaster and political events from news outlets, official agencies and X posts, linking each event to its source reports. Layers show aircraft, ships, GPS jamming and internet outages.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Following breaking conflict and crisis events on a map with their sources",
+              "input": "Region, category, severity and time filters",
+              "output": "Mapped events with summaries, severity, confidence and linked source reports"
             }
           ]
         },
