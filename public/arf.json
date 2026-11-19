@@ -171,6 +171,26 @@
               "deprecated": false
             },
             {
+              "name": "MyRecon",
+              "type": "url",
+              "url": "https://www.myrecon.xyz/",
+              "description": "Username search that labels every platform found, not found or unknown, and keeps blocked pages, login walls and timeouts as unknown instead of counting them as accounts. When a page is ambiguous it compares it with the same URL for a random impossible handle to catch sites that return one page for everyone. Open-source CLI on GitHub (MIT).",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Username sweeps where false positives matter: each result says what evidence it rests on",
+              "input": "Username",
+              "output": "Per-platform verdict (found, not found, unknown) with the reason, profile links and avatars where public",
+              "opsec": "active",
+              "opsecNote": "Requests go from MyRecon infrastructure, or from your machine with the CLI; target platforms may log them. Quick scan of 100 platforms needs no account; a free Google sign-in gives 5 scans a day across 500+ platforms; 3,000+ platforms is paid.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "GitFive (T)",
               "type": "url",
               "url": "https://github.com/mxrch/GitFive",
