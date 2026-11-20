@@ -1388,6 +1388,26 @@
               "api": true,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "WhoisFreaks WHOIS History",
+              "type": "url",
+              "url": "https://whoisfreaks.com/tools/whois/history/lookup",
+              "description": "Historical WHOIS snapshots for a domain alongside the current record, showing prior registrants, registrars, nameservers and contact changes over time.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Tracing past ownership of a domain and spotting re-registered or recently transferred names",
+              "input": "Domain name",
+              "output": "Chronological WHOIS records: registrant, organization, email, registrar, nameservers, dates",
+              "opsec": "passive",
+              "opsecNote": "Queries a stored WHOIS archive; does not contact the target domain.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
@@ -3013,6 +3033,26 @@
               "registration": false,
               "editUrl": false,
               "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
+              "name": "WhoisFreaks Typosquatting Checker",
+              "type": "url",
+              "url": "https://whoisfreaks.com/tools/domain/typos",
+              "description": "Generates typo, lookalike and homoglyph variants of a domain and checks which are registered, returning WHOIS and DNS details for matches.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Finding registered lookalike domains of a brand",
+              "input": "Domain name or keyword",
+              "output": "Registered lookalike domains with registrar, creation date, A/MX/NS records",
+              "opsec": "passive",
+              "opsecNote": "Matches against a database of registered domains; no queries are sent to the lookalike domains.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
               "invitationOnly": false,
               "deprecated": false
             }
