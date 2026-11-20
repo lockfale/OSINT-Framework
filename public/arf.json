@@ -11767,6 +11767,26 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "Who Got Hacked",
+              "type": "url",
+              "url": "https://whogothacked.com/",
+              "description": "Public record of data breaches at companies and organizations, each linked to its source: a US state attorney general or HHS breach notice, an SEC Form 8-K Item 1.05 filing, or Have I Been Pwned.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Checking which data breaches are on record for an organization or domain, with links to the sources",
+              "input": "Organization name or domain",
+              "output": "Incidents with dates, reported figures and links to the source records",
+              "opsec": "passive",
+              "opsecNote": "Searches a public database built from regulator filings; the organization is not contacted. A free JSON API and a remote MCP server need no key.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
