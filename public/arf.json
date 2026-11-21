@@ -13767,6 +13767,26 @@
           "bestFor": "Finding open and commercial satellite scenes from one interface",
           "input": "AOI, date range, and scene filters",
           "output": "Scene search results with preview and ordering options"
+        },
+        {
+          "name": "Maps Link Converter",
+          "type": "url",
+          "url": "https://maps.xuedo.ng/",
+          "opsec": "passive",
+          "opsecNote": "Converts in the browser; the pasted link is not sent to a server. Short links (maps.app.goo.gl) have to be opened first and the full address pasted.",
+          "localInstall": false,
+          "googleDork": false,
+          "registration": false,
+          "editUrl": false,
+          "api": false,
+          "invitationOnly": false,
+          "deprecated": false,
+          "description": "Converts a Google Maps link into the same place, pin, search or route in Apple Maps, and Apple Maps links back to Google Maps. Open source (MIT), also available as a JavaScript library and an iPhone shortcut.",
+          "status": "live",
+          "pricing": "free",
+          "bestFor": "Opening a shared Google Maps location in Apple Maps, or the reverse, without losing the exact coordinates",
+          "input": "Google Maps or Apple Maps link",
+          "output": "Equivalent Apple Maps or Google Maps link with coordinates, place name and travel mode"
         }
       ]
     },
