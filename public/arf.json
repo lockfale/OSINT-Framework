@@ -4703,6 +4703,26 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "InternetData",
+              "type": "url",
+              "url": "https://internetdata.io/",
+              "description": "IP address lookup with location, the network that announces it, the company using it, and Tor and privacy relay flags. A browser extension looks up an IP selected on any page.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Finding whose network and company an IP belongs to",
+              "input": "IP address, AS number or domain",
+              "output": "Country, ASN, network and company, abuse contact, Tor and relay flags",
+              "opsec": "passive",
+              "opsecNote": "Queries InternetData; the address is sent to its API.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
