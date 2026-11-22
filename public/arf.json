@@ -12953,6 +12953,26 @@
               "bestFor": "Converting large coordinate sets into addresses",
               "input": "Latitude/longitude list",
               "output": "Address records, admin boundaries, and place labels"
+            },
+            {
+              "name": "Coordinate Converter",
+              "type": "url",
+              "url": "https://freegpsmapcamera.com/tools/coordinate-converter",
+              "opsec": "passive",
+              "opsecNote": "Runs in the browser and sends nothing about the coordinates you enter. The optional 'Use my location' button asks for browser location permission first.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false,
+              "description": "Converts a position between decimal degrees, DMS, DDM, UTM and MGRS. Any field accepts any format, and the result opens in Google Maps or OpenStreetMap.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Turning a coordinate from a photo, report or map into the format you need",
+              "input": "Coordinates in decimal, DMS, DDM, UTM or MGRS",
+              "output": "The same position in all five formats, plus map links"
             }
           ]
         },
