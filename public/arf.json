@@ -14924,6 +14924,26 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "DorkCraft",
+              "type": "url",
+              "url": "https://juandresrodca.github.io/DorkCraft/",
+              "description": "Web-based Google dork builder that turns a plain English request into search operators, explains each operator and scores how well the query is built.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Building a dork when you know what you want to find but not which operators to use",
+              "input": "Plain English description of what to find",
+              "output": "Google dork with operator explanations, variations and an effectiveness score",
+              "opsec": "passive",
+              "opsecNote": "Only builds the query string; nothing is searched until you open the dork in Google. The open-source backend can be self-hosted so requests stay on your network.",
+              "localInstall": false,
+              "googleDork": true,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
