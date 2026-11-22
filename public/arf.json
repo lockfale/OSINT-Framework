@@ -249,6 +249,26 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "FreeUsername",
+              "type": "url",
+              "url": "https://freeusername.com/",
+              "description": "Free browser-based username enumeration across 3,457 sites, weighted toward forums and fediverse servers, reporting blocked and unknown checks separately from confirmed hits. Results export to JSON or CSV. Android app: https://play.google.com/store/apps/details?id=whatsmyname.app.us",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Wide-coverage username enumeration across niche forums, fediverse servers and legacy communities without installing a CLI tool",
+              "input": "Username",
+              "output": "Profile links per site found, with separate blocked and unknown lists",
+              "opsec": "passive",
+              "opsecNote": "Checks are issued from FreeUsername infrastructure rather than from the analyst's browser, so target sites see the service and not the user. The Android app runs scans on the device instead.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
