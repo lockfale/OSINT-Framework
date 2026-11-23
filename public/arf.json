@@ -8039,6 +8039,26 @@
               "deprecated": false
             },
             {
+              "name": "Tikvoya",
+              "type": "url",
+              "url": "https://tikvoya.com/",
+              "description": "Free browser-based TikTok profile viewer for OSINT research. Explore public profiles, recent videos, comments, and available follower/following lists without signing in to TikTok.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Investigating public TikTok profiles, creator activity, and social connections without a TikTok account",
+              "input": "TikTok username or public profile URL",
+              "output": "Public profile information, recent videos, available comments, followers, and following lists",
+              "opsec": "active",
+              "opsecNote": "Lookups are processed through Tikvoya and its data providers. Requests may be logged, and complete anonymity is not guaranteed.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "TTAnon",
               "type": "url",
               "url": "https://ttanon.com/",
