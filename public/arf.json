@@ -18443,6 +18443,26 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "FreezeCheck (TRON USDT)",
+              "type": "url",
+              "url": "https://freezecheck.org/en/check-usdt-wallet.html",
+              "description": "Checks a TRON USDT (TRC-20) address for AML risk and Tether freeze risk: Tether blacklist status, source of funds up to 5 hops, links to scams, drainers and sanctioned wallets, and look-alike (address poisoning) addresses. Also available as Telegram bot @freezecheck_bot.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Screening a TRON USDT address before accepting or sending funds",
+              "input": "TRON address",
+              "output": "Risk verdict with main reason, Tether blacklist status, source-of-funds trail, look-alike addresses",
+              "opsec": "passive",
+              "opsecNote": "Analyzes public blockchain data; no registration required.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         }
