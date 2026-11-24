@@ -13059,6 +13059,26 @@
               "bestFor": "Conflict and crisis event geolocation tracking",
               "input": "Region and event filters",
               "output": "Mapped incidents with timeline and source context"
+            },
+            {
+              "name": "H1DR4 Public Incident Map",
+              "type": "url",
+              "url": "https://h1dr4.dev/map",
+              "opsec": "passive",
+              "opsecNote": "The public map displays reported incidents from indexed records. Browsing the map does not contact subjects of those reports.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false,
+              "description": "Browse reported incidents by location and open public case files with source-linked timelines. The linked map is free to browse; some private investigation features are paid.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Finding public incident reports by location and checking related case evidence",
+              "input": "Geographic area",
+              "output": "Mapped incident reports and public case files"
             }
           ]
         },
