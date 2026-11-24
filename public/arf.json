@@ -171,6 +171,23 @@
               "deprecated": false
             },
             {
+              "name": "SpiderFoot.tools",
+              "type": "url",
+              "url": "https://spiderfoot.tools/",
+              "description": "Browser-based OSINT platform for username searches, email investigations, IP address lookups, and public social media profile discovery.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Digital footprint research and public profile discovery",
+              "input": "Username, email address, IP address",
+              "output": "Public profile matches and IP information",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "GitFive (T)",
               "type": "url",
               "url": "https://github.com/mxrch/GitFive",
