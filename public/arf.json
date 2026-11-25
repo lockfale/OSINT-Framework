@@ -6718,6 +6718,26 @@
                   "name": "Metadata2Go",
                   "type": "url",
                   "url": "https://www.metadata2go.com/"
+                },
+                {
+                  "name": "Parergon Metadata Viewer",
+                  "type": "url",
+                  "url": "https://parergon.io/metadata-viewer/",
+                  "description": "Browser-based viewer for EXIF, IPTC, XMP, and GPS metadata in photos, with an option to strip metadata from JPEG and PNG copies. Files are parsed locally and never uploaded.",
+                  "status": "live",
+                  "pricing": "free",
+                  "bestFor": "Quick photo metadata and geolocation checks without uploading the file",
+                  "input": "Image files (JPEG, PNG, HEIC, TIFF)",
+                  "output": "EXIF, IPTC, XMP, and GPS fields, plus an optional metadata-stripped JPEG or PNG copy",
+                  "opsec": "passive",
+                  "opsecNote": "Files are read in the browser and not sent to a server; GPS coordinates only leave the device if you click the optional OpenStreetMap link.",
+                  "localInstall": false,
+                  "googleDork": false,
+                  "registration": false,
+                  "editUrl": false,
+                  "api": false,
+                  "invitationOnly": false,
+                  "deprecated": false
                 }
               ]
             },
