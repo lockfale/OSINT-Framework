@@ -21219,6 +21219,26 @@
               "registration": false,
               "editUrl": false,
               "deprecated": false
+            },
+            {
+              "name": "OpenInvestigation (T)",
+              "type": "url",
+              "url": "https://github.com/V1n1v131r4/OpenInvestigation",
+              "description": "Self-hosted threat investigation workspace that collects and correlates public evidence across 30+ sources, maps entity relationships in a graph, and produces a cited case assessment with a code-computed confidence score. Built-in MISP event import and STIX 2.1 export.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Correlating IOCs and actor names into a cited, assessable case",
+              "input": "IPs, domains, URLs, hashes, emails, CVEs, ASNs, crypto wallets, APT group names, or free-text",
+              "output": "Relationship graph, cited case assessment, JSON / STIX 2.1 export",
+              "opsec": "active",
+              "opsecNote": "Per-case TLP controls egress: RED is fully local, and a passive mode matches downloaded catalogs locally so seeds are never sent. By default it queries external sources and may fetch target-related pages.",
+              "localInstall": true,
+              "googleDork": false,
+              "api": false,
+              "invitationOnly": false,
+              "registration": false,
+              "editUrl": false,
+              "deprecated": false
             }
           ]
         },
