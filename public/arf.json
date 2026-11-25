@@ -1030,6 +1030,26 @@
           "type": "folder",
           "children": [
             {
+              "name": "SpiralBig",
+              "type": "url",
+              "url": "https://spiralbig.com",
+              "description": "Daily downloadable WHOIS database dumps, newly registered domain lists, and historical WHOIS records across 1,500+ TLDs with a 3-Day Free Trial.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Daily newly registered domain feeds and bulk WHOIS database downloads",
+              "input": "Domain name, registrar, or keyword",
+              "output": "Daily domain lists, WHOIS records, registrar data, contact info",
+              "opsec": "passive",
+              "opsecNote": "Direct data downloads and web queries.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "Domain Dossier",
               "type": "url",
               "url": "https://centralops.net/co/DomainDossier.aspx",
