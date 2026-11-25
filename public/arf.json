@@ -5399,6 +5399,26 @@
               "api": true,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "MyIPScan IP Blacklist Checker",
+              "type": "url",
+              "url": "https://myipscan.net/tools/ip-blacklist-checker",
+              "description": "Checks a public IPv4 address against selected blacklist and reputation sources and shows the result source by source.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Quick multi-source blacklist check for one IPv4 address",
+              "input": "IPv4 address",
+              "output": "Per-source listed / not listed results",
+              "opsec": "passive",
+              "opsecNote": "The lookup is sent to the MyIPScan site, which queries the selected list providers.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
