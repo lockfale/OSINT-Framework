@@ -11795,6 +11795,26 @@
               "deprecated": false
             },
             {
+              "name": "Kausate",
+              "type": "url",
+              "url": "https://kausate.com",
+              "description": "Real-time API for official company-register data with global coverage: reports, shareholders/UBO, financials, original filings.",
+              "status": "live",
+              "pricing": "paid",
+              "bestFor": "Verified company due diligence and KYB against official registers",
+              "input": "Company name or registration number",
+              "output": "Company profile, officers, shareholders/UBO, financials, and original register documents",
+              "opsec": "passive",
+              "opsecNote": "Queries go through Kausate servers to official registers; account required.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "AIHIT",
               "type": "url",
               "url": "https://www.aihitdata.com/",
