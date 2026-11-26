@@ -9003,6 +9003,26 @@
           "type": "folder",
           "children": [
             {
+              "name": "CheckLeaked WhatsApp Checker (R)",
+              "type": "url",
+              "url": "https://whatsapp.checkleaked.cc/",
+              "description": "Web lookup by phone number: shows whether the number is registered on WhatsApp, plus the public profile picture, display name, about/status text and personal/business flag where the owner's privacy settings allow.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Checking whether a number is on WhatsApp and viewing its public profile without saving the contact",
+              "input": "Phone number in international format",
+              "output": "WhatsApp registration status, profile picture, display name, about text, personal/business flag",
+              "opsec": "passive",
+              "opsecNote": "The number is not messaged or notified. Lookups run through the operator's servers and need a free account (limited free allowance); paid credits and an API cover bulk use.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "Email2WhatsApp (T)",
               "type": "url",
               "url": "https://github.com/dsonbaker/email2whatsapp",
