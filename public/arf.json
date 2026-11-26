@@ -972,6 +972,26 @@
               "deprecated": false
             },
             {
+              "name": "CheckLeaked",
+              "type": "url",
+              "url": "https://checkleaked.cc/",
+              "description": "Data breach search engine that looks up an email, username, phone number, domain, password or hash and shows which breaches it appears in, naming the source breach and the exposed data types.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Finding which named breaches an email address or username appears in",
+              "input": "Email, username, phone number, domain, password, or hash",
+              "output": "Breach source names, exposed data types, matching breach records",
+              "opsec": "passive",
+              "opsecNote": "Searches indexed breach data; the target is not notified. A basic email check works without an account; a free account gets 2 email or username searches a day; phone, domain, password and hash searches need a paid plan. Offers an API and an MCP server.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "Vigilante.pw",
               "type": "url",
               "url": "https://www.vigilante.pw/",
