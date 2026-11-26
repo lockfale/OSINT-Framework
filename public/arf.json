@@ -171,6 +171,26 @@
               "deprecated": false
             },
             {
+              "name": "Username Searcher",
+              "type": "url",
+              "url": "https://usernamesearcher.com/",
+              "description": "Free web-based username search and availability checker that checks 1,000+ sites at once, with dedicated checkers and name generators for single platforms.",
+              "status": "live",
+              "pricing": "free",
+              "bestFor": "Finding where a username is used, or checking whether it is free, across many sites in one search",
+              "input": "Username",
+              "output": "Found, available or unknown status for each site, with links to public profiles",
+              "opsec": "passive",
+              "opsecNote": "Checks are sent from Username Searcher's servers, so the sites being checked do not see the user's IP address. Searches are not logged.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": false,
+              "editUrl": false,
+              "api": false,
+              "invitationOnly": false,
+              "deprecated": false
+            },
+            {
               "name": "GitFive (T)",
               "type": "url",
               "url": "https://github.com/mxrch/GitFive",
