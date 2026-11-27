@@ -8645,6 +8645,26 @@
               "api": false,
               "invitationOnly": false,
               "deprecated": false
+            },
+            {
+              "name": "DisDog (R)",
+              "type": "url",
+              "url": "https://dis.dog",
+              "description": "Discord lookup by user ID, username or invite link: profile, account creation date, past usernames, avatar history, servers and linked Roblox accounts, in one report.",
+              "status": "live",
+              "pricing": "freemium",
+              "bestFor": "Vetting a Discord account or server invite before trusting it",
+              "input": "Discord user ID, username, or invite link",
+              "output": "Profile, creation date, past names, servers, linked accounts",
+              "opsec": "passive",
+              "opsecNote": "Lookups run against indexed data; the looked-up account is never notified.",
+              "localInstall": false,
+              "googleDork": false,
+              "registration": true,
+              "editUrl": false,
+              "api": true,
+              "invitationOnly": false,
+              "deprecated": false
             }
           ]
         },
